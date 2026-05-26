@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 18,
+    "current_chapter": 19,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -698,6 +698,23 @@
       "context": "hook_resonance_crystal_stone的延伸：ch_001里死去战士口袋的共鸣晶石（等待接收者），ch_011里前哨站的储存晶石（包含留言，等待值守者）。艾昂在两块晶石旁边都无法回应，但在这里他做了不同的事：他仔细地把它放回了原位，保留了那个等待的可能性。"
     },
     {
+      "id": "evt_ch019_turning_back",
+      "name": "折返",
+      "description": "艾昂在矿石地貌深处行走至正午前，无明显原因停下坐了约一小时，随后站起来往西北方向走——这是他在小说里第一次有意识地反转行进方向，方向指向废弃的灵能族前哨站遗址（ch_011）。他没有给自己这个决定任何理由，傍晚睡前承认：「脚知道往哪里去，脑子还没给那件事一个名字。」",
+      "thread_id": "thr_aeon",
+      "story_time": 11,
+      "duration": 1,
+      "location": "elem_shard_crystal_sector",
+      "participants": ["char_aeon"],
+      "chapter_id": "ch_019",
+      "status": "drafted",
+      "dependencies": ["evt_ch011_psionic_ruins", "evt_ch015_ore_vein"],
+      "projected_outcome": {
+        "state_changes": [{"entity": "char_aeon", "kind": "psychology+location", "desc": "第一次有意识的方向反转，无理由，向着唯一有过体温的地方（前哨站遗址）。名牌行为：握而不念（比ch_017更沉默也更温柔）。设立ch_021梁相遇的物理前提。"}]
+      },
+      "context": "ch_011（前哨站一夜，储存晶石，早晨继续东行）→ch_015（矿脉之夜，碎晶强振动，某种与共鸣接触相似的压力）→ch_019（折返，不给原因）→ch_021（到达附近，遇见梁）。「脚知道往哪里去」是全书第一次艾昂的身体先于语言表达了一个方向性意愿。"
+    },
+    {
       "id": "evt_ch018_tracking_decision",
       "name": "追踪",
       "description": "Θ-7接到系统建议将Null-01降级为被动扫描（低优先级标准流程），反向执行——将Null-01从「临时存档」升级为「持续监控」（6小时更新周期，监控资源主动分配），这是其运行历史里第一次纯粹出于非系统目的的资源分配决策。私人日志第五条：「想知道」——第一次在日志中使用欲望性动词。",
@@ -865,7 +882,9 @@
       "pov_character": "char_aeon",
       "start_time": 1,
       "end_time": null,
-      "event_ids": ["evt_novel_opening"],
+      "current_time": 11,
+      "latest_chapter": "ch_019",
+      "event_ids": ["evt_novel_opening", "evt_ch004_first_encounter", "evt_ch007_war_machine_outside", "evt_ch011_psionic_ruins", "evt_ch015_ore_vein", "evt_ch019_turning_back"],
       "convergences": []
     },
     {

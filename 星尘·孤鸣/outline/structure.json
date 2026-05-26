@@ -157,7 +157,8 @@
           "id": "ch_019", "number": 19, "title": "折返",
           "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 11,
           "one_line": "艾昂有意识地开始往那处灵能族前哨站的方向走回去，他没有给这个决定一个理由。",
-          "scene_arc": "行走→方向改变→继续走（不解释）", "status": "outlined"
+          "scene_arc": "行走→停下（原因不明）→转向西北→继续走（不解释）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_019.json"
         },
         {
           "id": "ch_020", "number": 20, "title": "虚空议会",

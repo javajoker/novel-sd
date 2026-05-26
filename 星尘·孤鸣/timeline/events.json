@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "id": "evt_ch019_turning_back",
+      "name": "折返",
+      "thread_id": "thr_aeon",
+      "story_time": 11,
+      "status": "drafted",
+      "chapter_id": "ch_019",
+      "participants": ["char_aeon"],
+      "summary": "艾昂在矿石地貌深处停下坐了约一小时（原因不明），站起来，不给理由，往西北方向走——小说里第一次有意识的方向反转，指向废弃前哨站遗址。傍晚扎营，握名牌不念，睡前：「脚知道往哪里去，脑子还没给那件事一个名字。」"
+    },
+    {
       "id": "evt_ch018_tracking_decision",
       "name": "追踪",
       "thread_id": "thr_theta",
