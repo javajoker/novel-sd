@@ -1,0 +1,25 @@
+{
+  "character_id": "char_veteran_noname",
+  "canonical_name": "老兵（无名）",
+  "type": "Person",
+  "subtype": "supporting",
+  "aliases": ["那个老兵", "无名老兵"],
+  "status": "deceased",
+  "deceased_chapter": "ch_017",
+  "first_chapter": "ch_014",
+  "description": "FED-TMP-1107临时编制中的一名约四十岁老兵，真实姓名对陈铭（及读者）始终未知。旧型号装备但保养极佳，行为方式不符合任何联邦标准战术规范，却总能做出最终正确的选择。他折叠行为方式的极度整齐（包装、地图等）是他仅有的外显习惯细节。在ch_017的接触战中倒下，陈铭评估后没有冲出去，战后无法得知他的名字。他的死是陈铭防御机制第一次完全失效的触发点。",
+  "attributes": {
+    "age": "约40岁出头",
+    "faction": "星尘联邦（临时编制FED-TMP-1107）",
+    "rank": "未知",
+    "equipment": "旧式型号（已替换两代）但保养状态最优",
+    "behavioral_pattern": "非标准战术行为，但系统性正确；坐姿选最优防御位置但外表完全松弛；吃东西和折叠包装极度专注整齐",
+    "name_known_to_chen_ming": false
+  },
+  "narrative_function": "陈铭防御机制（「不知道名字=不在意」）的最终检验者。他的死在ch_017打穿了陈铭三年来维持的核心防御逻辑——没有名字，但裂缝仍然开着。他也是Θ-7在ch_010发现的「0.4%战术偏差」的人格化具体呈现：非算法选择，存活率更高，直到他不再。",
+  "salience": 0.4,
+  "relations": [
+    {"predicate": "unknown_to", "object": "char_chen_ming", "note": "陈铭从未知道他的名字，始终如此"},
+    {"predicate": "observed_by", "object": "char_chen_ming", "chapter": "ch_014", "note": "陈铭在ch_014整整观察了他一天，对他有大量物理细节记忆，但无名字"}
+  ]
+}

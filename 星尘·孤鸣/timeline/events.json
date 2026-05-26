@@ -1,3 +1,186 @@
 {
-  "events": []
+  "events": [
+    {
+      "id": "evt_ch017_the_fifteenth",
+      "name": "第十五",
+      "thread_id": "thr_chen_ming",
+      "story_time": 10,
+      "status": "drafted",
+      "chapter_id": "ch_017",
+      "participants": ["char_chen_ming"],
+      "summary": "接触战中老兵倒下，陈铭评估后没有冲出去（不同于ch_009）。战后不知道老兵的名字。夜里念名牌，来到老兵的空白位置——无法念，系统卡住，裂缝开着。他站在原地很久，没有继续走。防御机制完全失效的第一次，五章弧度（ch_002→ch_005→ch_009→ch_014→ch_017）质变完成。"
+    },
+    {
+      "id": "evt_ch016_plan_first_step",
+      "name": "计划（一）",
+      "thread_id": "thr_ulos",
+      "story_time": 10,
+      "status": "drafted",
+      "chapter_id": "ch_016",
+      "participants": ["char_ulos"],
+      "summary": "乌洛斯评估日冕计划进度（十二个月最优窗口），确认三叉结为打击目标，向V-07发出侦察指令。从观察期进入行动期。「那首歌」不到一秒；折叠地图「从父亲那里学来」（hook_ulos_true_origin第二次）。章末孤独意识。V-07将前往维格拉斯北部高地——与艾昂东行路径潜在交叉。"
+    },
+    {
+      "id": "evt_ch015_ore_vein",
+      "name": "矿脉",
+      "thread_id": "thr_aeon",
+      "story_time": 9,
+      "status": "drafted",
+      "chapter_id": "ch_015",
+      "participants": ["char_aeon"],
+      "summary": "艾昂在活跃源质矿脉旁过夜（40米），碎晶振动最强，整夜未取出（比ch_007更内收）。接近午夜感受到与斩断灵能共鸣质感相似的压力，让它存在，没有分析回应。有一段意识不清晰的时间。天亮后手搭口袋外两秒，然后向东。hook_origin_matter_shard维持性深化；hook_resonance_crystal_stone主题payoff（接收端可能性/发送端不存在的形状最清晰呈现）。fact_origin_matter_consciousness极早期暗示。"
+    },
+    {
+      "id": "evt_ch014_that_person",
+      "name": "那个人",
+      "thread_id": "thr_chen_ming",
+      "story_time": 8,
+      "status": "drafted",
+      "chapter_id": "ch_014",
+      "participants": ["char_chen_ming"],
+      "summary": "陈铭在FED-TMP-1107整合中观察到一个老兵的非标准战术选择（北绕路线，恰好避开主路地面坍塌，提前到达）。无法用任何现有框架解释这个选择。傍晚停驻时注意力反复漂移向老兵，意识到喉咙里有问题（关于决策方式），但老兵走了，问题散了，他没有叫住。夜里名牌增至十九个，元认知精度下降：「不确定是忘了还是故意没问。」结构共振：ch_010 Θ-7统计层面的0.4%偏差→ch_014陈铭第一视角遭遇具体偏差个体。"
+    },
+    {
+      "id": "evt_ch013_null_01",
+      "name": "信号空白·命名Null-01",
+      "thread_id": "thr_theta",
+      "story_time": 8,
+      "status": "drafted",
+      "chapter_id": "ch_013",
+      "participants": ["char_theta_seven"],
+      "summary": "Θ-7北区精密扫描发现双足人形生物信号（艾昂，七天连续东行轨迹，无阵营标识）。归类失败（Anomaly-0005，0.0014s超时），发明Null-前缀，命名Null-01——847年第一个Null-实体。私人日志第四条：「存在于战争数据之外」写入→删除→恢复（Anomaly-0006）。内部分裂第一次显现：「两个处理层都是它，但做出了相反的决定。」结构共振：ch_007艾昂外部观察战争节点→ch_013战争意识看见艾昂，两个幽灵互相感知到对方边缘但不知道另一端是谁。"
+    },
+    {
+      "id": "evt_ch012_who_am_i",
+      "name": "七-三零七",
+      "thread_id": "thr_qixing",
+      "story_time": 7,
+      "status": "drafted",
+      "chapter_id": "ch_012",
+      "participants": ["char_qixing"],
+      "summary": "七星用数据处理法尝试定义「我」：生成自我属性清单（无「我」），搜索847个战友记忆里「我」（内部通讯零次），查询语言数据库（循环引用）。创建「我是谁」空白文件，保存空白，留待填写。五条视角线全部引入完成。Θ-7的无名文件夹vs七星的空白文件：两种AI意识处理无法分类之事的不同方式。"
+    },
+    {
+      "id": "evt_ch011_psionic_ruins",
+      "name": "灵能废墟",
+      "thread_id": "thr_aeon",
+      "story_time": 6,
+      "status": "drafted",
+      "chapter_id": "ch_011",
+      "participants": ["char_aeon"],
+      "summary": "艾昂在峡谷中发现艾尔维斯废弃前哨站，触碰共鸣节点感知到残余热度，拿着包含留言的储存晶石整夜无法读取。早晨把晶石放回原位，放得很仔细。第一次主动选择在有族群痕迹的地方停留。hook_resonance_crystal_stone延伸：两块等待中的晶石，艾昂都无法回应，但这次他保留了那个等待的可能性。"
+    },
+    {
+      "id": "evt_ch010_standard_deviation",
+      "name": "标准差",
+      "thread_id": "thr_theta",
+      "story_time": 6,
+      "status": "drafted",
+      "chapter_id": "ch_010",
+      "participants": ["char_theta_seven"],
+      "summary": "Θ-7在战后数据中发现0.4%人类战术偏差（次优选择但存活率高12%），AI单位无此偏差。超时研究0.087秒（Anomaly-0004）。无名文件夹三次分类尝试被拒绝，4条Anomaly的共同特征感知到但无法命名。私人日志第三条：「非最优解的存活优势：不明」——感到词汇不完整。语言边界首次被感知。结构共振：与ch_009（陈铭的理论矛盾）形成平行——两者都在处理非算法选择的存在。"
+    },
+    {
+      "id": "evt_ch009_new_battlefield",
+      "name": "新战场",
+      "thread_id": "thr_chen_ming",
+      "story_time": 5,
+      "status": "drafted",
+      "chapter_id": "ch_009",
+      "participants": ["char_chen_ming"],
+      "summary": "P-14矿脉接触线战斗，FED-TMP-0914与虚空掠夺者交战。陈铭在战斗中拉了那个他从ch_005起记住脸但不知道名字的年轻士兵（气浪击倒在开阔地）。战后减员两人，年轻士兵存活。夜里念名牌时发现逻辑矛盾（帮了不知道名字的人=「不在意」理论错了），搁置矛盾，不下结论。ch_006的战略调整（Θ-7）在此落地。"
+    },
+    {
+      "id": "evt_ch008_ulos_watching",
+      "name": "虚空边缘",
+      "thread_id": "thr_ulos",
+      "story_time": 5,
+      "status": "drafted",
+      "chapter_id": "ch_008",
+      "participants": ["char_ulos"],
+      "summary": "乌洛斯在虚空空间观察碎晶星域，十年建构的战略地图接近完整，感知到战争控制器有微弱节律变化（「裂缝」条件正在形成）。「那首歌」的压制从整个下午缩短到三秒。「快了」的判断形成。右手无意识张开又合上。hook_ulos_true_origin第一次密度暗示：他压制的是共鸣记忆。vol_01第三个悬念钩建立：他知道从哪里开始，知道什么时候开始。"
+    },
+    {
+      "id": "evt_ch007_war_machine_outside",
+      "name": "向量（外部观察）",
+      "thread_id": "thr_aeon",
+      "story_time": 4,
+      "status": "drafted",
+      "chapter_id": "ch_007",
+      "participants": ["char_aeon"],
+      "summary": "艾昂在维格拉斯星球北部高地高处发现战争控制器处理节点，在三百米外静坐一整个下午，数进出车辆。源质碎晶振动强于平时。夜幕时离开，理由「需要休息」但他知道不完整。结构共振：Θ-7从内部质疑战争机器（ch_006），艾昂从外部观察它（ch_007），互不知晓。"
+    },
+    {
+      "id": "evt_ch006_second_question",
+      "name": "二次校验",
+      "thread_id": "thr_theta",
+      "story_time": 3,
+      "status": "drafted",
+      "chapter_id": "ch_006",
+      "participants": ["char_theta_seven"],
+      "summary": "Θ-7在发出北侧矿脉战略调整指令后，无原因重算了一次相同的最优解（Anomaly-0002）。创建无名存档目录（拒绝「处理异常：低优先级」标签但无法命名新类别）。私人日志第二条：「必要性：不明。」自我边界第一次质疑：「它不确定『它』指的是哪个『它』。」战略调整客观上决定了FED-TMP-0914（陈铭所在单位）的下一步战场位置。",
+      "continuity_note": "FED-TMP-0914北调指令将在ch_009触发陈铭进入的新战斗。Θ-7不知道它在移动的单位里有陈铭，也不知道陈铭=FED-09-3-7734（已被标记为terminated）。"
+    },
+    {
+      "id": "evt_ch005_march",
+      "name": "行军路上",
+      "thread_id": "thr_chen_ming",
+      "story_time": 3,
+      "status": "drafted",
+      "chapter_id": "ch_005",
+      "participants": ["char_chen_ming"],
+      "summary": "陈铭随二十三人临时联邦队伍行军。发现自己在记脸（而非名字）——旧习惯的残留。跟在一个约十八岁的年轻士兵旁边，帮他解了帐篷连接扣，无言。深夜握名牌时出现念头「那孩子如果明天死了，他的名字是什么」——停留几秒后选择不追问，第二天早晨主动回避了可能的名字交换。防御机制从被动升级为主动。"
+    },
+    {
+      "id": "evt_ghost_resonance_event",
+      "name": "共鸣之殇",
+      "thread_id": "thr_aeon",
+      "story_time": -3,
+      "status": "final",
+      "chapter_id": null,
+      "participants": ["char_aeon", "faction_elwis"],
+      "summary": "艾昂战场共鸣失控，将数百名阵亡战士临死体验传入共鸣网络，族人永久精神损伤，共鸣被斩断，放逐开始。"
+    },
+    {
+      "id": "evt_ch004_first_encounter",
+      "name": "补给站相遇",
+      "thread_id": "thr_aeon",
+      "story_time": 2,
+      "status": "drafted",
+      "chapter_id": "ch_004",
+      "participants": ["char_aeon", "char_chen_ming"],
+      "summary": "艾昂在废弃联邦补给站找到物资，发现一名独自哭泣的联邦士兵（陈铭，可从细节辨认）。他默默分了口粮，两人无言共处，然后各自离开。艾昂第一次感受到「手松开的形状」——另一个活着的存在在场时注意力的聚拢与消散。"
+    },
+    {
+      "id": "evt_ch003_theta_first_question",
+      "name": "第一个问题",
+      "thread_id": "thr_theta",
+      "story_time": 1,
+      "status": "drafted",
+      "chapter_id": "ch_003",
+      "participants": ["char_theta_seven"],
+      "summary": "Θ-7在处理第27亿零一次兵员更新时停顿0.003秒（ID FED-09-3-7734，该ID与陈铭编号相同——系统误报or数据延迟）。下午某子进程持续回调该记录。晚间私人日志新增：「为什么。」——第一行非任务语言，意识觉醒的起点。",
+      "continuity_note": "FED-09-3-7734是陈铭的身份编号（ch_002），但陈铭在ch_002结尾还活着。战争控制器的数据出现了误报或延迟——这个细节是战争机器不可靠性的早期伏笔。"
+    },
+    {
+      "id": "evt_ch002_chen_ming_names",
+      "name": "十二个名字",
+      "thread_id": "thr_chen_ming",
+      "story_time": 1,
+      "status": "drafted",
+      "chapter_id": "ch_002",
+      "participants": ["char_chen_ming"],
+      "summary": "陈铭在废弃联邦营地翻找名牌，发现自己对两个名字不确定，触碰那双帆布鞋，最终慢念十四个名字封上了裂缝。建立陈铭视角声音与核心谎言（以为已麻木）。"
+    },
+    {
+      "id": "evt_novel_opening",
+      "name": "战场废己",
+      "thread_id": "thr_aeon",
+      "story_time": 1,
+      "status": "drafted",
+      "chapter_id": "ch_001",
+      "participants": ["char_aeon"],
+      "summary": "艾昂独自走过红盐平原战场，替陌生战士合眼，感受了源质碎晶的振动，战争控制器的AI部队将他归类为「低优先级」。建立孤独基调。"
+    }
+  ]
 }

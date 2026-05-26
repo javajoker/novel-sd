@@ -1,1 +1,59 @@
-{"character_id":"char_ulos","knowledge_at":[{"story_time":0,"facts_known":[],"facts_unknown":["fact_aeon_resonance_severed","fact_ghost_event","fact_the_lie","fact_war_director_awakening","fact_ulos_true_origin","fact_origin_matter_consciousness","fact_federation_monopoly_plan","fact_elwis_council_lie"],"beliefs_held":[],"perception":{"level":"tbd","notes":"待角色章节写作时完善"}}]}
+{
+  "character_id": "char_ulos",
+  "knowledge_at": [
+    {
+      "story_time": 0,
+      "facts_known": [
+        "fact_ulos_true_origin",
+        "fact_federation_monopoly_plan"
+      ],
+      "facts_known_confidence": {
+        "fact_ulos_true_origin": "certain—他知道，但选择不去想",
+        "fact_federation_monopoly_plan": "certain—有内部情报渠道",
+        "fact_origin_matter_consciousness": "partial—有感知，但没有完整理解",
+        "fact_war_director_awakening": "partial—感知到系统有异常，但不知道具体内容",
+        "fact_elwis_council_lie": "partial—历史档案有痕迹"
+      },
+      "facts_unknown": [
+        "fact_aeon_resonance_severed",
+        "fact_ghost_event",
+        "fact_the_lie"
+      ],
+      "beliefs_held": [
+        {"belief": "引爆足够大的源质失控事件可以终止所有战争", "is_true": "unknown", "note": "这是他的核心驱动，但他自己也不确定他是否真正在乎终止战争，还是只想让某种痛苦终止"},
+        {"belief": "战争控制器的裂缝是他需要等待的条件", "is_true": "partial"},
+        {"belief": "他已经不再感受任何东西了", "is_true": false, "note": "「那首歌」还在，说明他还有感受，但他选择不承认这件事"}
+      ],
+      "perception": {
+        "level": "void_omniscient_emotion_suppressed",
+        "notes": "虚空感知覆盖宇宙级的电磁和能量变化；情绪感知被主动压制；残余灵能存在但极度压制，几乎不可探测；对联邦内部有情报渠道；对源质觉醒有模糊感知"
+      }
+    },
+    {
+      "story_time": 10,
+      "chapter_id": "ch_016",
+      "facts_confirmed": [],
+      "facts_newly_learned": [],
+      "notes": "ch_016第一步行动指令发出。新增世界信息：三叉结（维格拉斯北部高地三矿脉汇聚节点），日冕计划十二个月触发窗口，V-07探子指令。「那首歌」不到一秒（ch_008三秒），持续缩短；折叠地图方式「从父亲那里学来」——hook_ulos_true_origin第二次密度暗示。章末孤独感：「没有人捡起那个想法」。",
+      "beliefs_at_chapter_end": [
+        {"belief": "引爆足够大的源质失控事件可以终止所有战争", "is_true": "unknown", "note": "三叉结打击计划的逻辑核心：摧毁联邦核心资源节点，延迟三年，让他有时间做他真正想做的事——那件事仍未明说"},
+        {"belief": "战争控制器的裂缝是他需要等待的条件", "is_true": "partial", "note": "节律变化已更清晰，他把它纳入时间窗口计算，但仍不知道具体内容"},
+        {"belief": "他已经不再感受任何东西了", "is_true": false, "note": "「那首歌」不到一秒；「从父亲那里学来」的一闪；章末那个孤独的想法——都证明他还有"}
+      ],
+      "new_internal_state": "第一步指令发出，从观察期进入行动期。「那首歌」时长：不到一秒（ch_008：三秒）。折叠地图习惯=来自父亲=hook_ulos_true_origin（第二次密度暗示）。章末孤独意识：「总有一个地方在等他，一直都是他自己需要等他的东西，而不是另一端有人在等他。」他走过去了，那个想法留在空间里。"
+    },
+    {
+      "story_time": 5,
+      "chapter_id": "ch_008",
+      "facts_confirmed": ["fact_war_director_awakening"],
+      "facts_newly_learned": [],
+      "notes": "ch_008建立乌洛斯视角和声音。战争机器节律变化的感知是fact_war_director_awakening的partial确认——他感知到了异常，但不知道Θ-7的具体意识觉醒内容。",
+      "beliefs_at_chapter_end": [
+        {"belief": "引爆足够大的源质失控事件可以终止所有战争", "is_true": "unknown"},
+        {"belief": "战争控制器的裂缝是他需要等待的条件", "is_true": "partial", "note": "「快了」的判断——他感知到裂缝正在形成"},
+        {"belief": "他已经不再感受任何东西了", "is_true": false, "note": "本章「那首歌」的出现，以及他右手无意识张开的动作，都说明这个信念是假的"}
+      ],
+      "new_internal_state": "「那首歌」压制时间：三秒（从十年前的整个下午缩短）。右手无意识张开又合上——他没有注意到，但读者注意到了。这两个细节是hook_ulos_true_origin的密度最高的早期暗示。"
+    }
+  ]
+}

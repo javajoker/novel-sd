@@ -1,0 +1,28 @@
+{
+  "character_id": "char_v07",
+  "states": [
+    {
+      "story_time": 10,
+      "chapter_id": "ch_016",
+      "location": "碎晶星域（具体潜伏位置未知）→ 前往维格拉斯北部高地（任务中）",
+      "physical": {
+        "status": "active",
+        "notes": "接到乌洛斯指令后已出发执行侦察任务。在碎晶星域潜伏六年，行动模式极度低调。"
+      },
+      "psychology": {
+        "mood": "（无法获取——非POV角色，仅从乌洛斯视角间接了解）",
+        "notable_shift": "接到指令：前往维格拉斯北部高地确认三叉结精确坐标和源质浓度，三周内报告，单独行动，不留战争系统可追踪标记。"
+      },
+      "key_events_this_chapter": [
+        "通过虚空频率接到乌洛斯指令",
+        "任务：确认三叉结精确坐标+源质浓度，三周期限，单独行动"
+      ],
+      "mission_status": {
+        "objective": "三叉结精确坐标+源质浓度数据",
+        "deadline": "三周（ch_016时起）",
+        "target_location": "维格拉斯星球北部高地",
+        "constraints": "单独行动，不留战争系统可追踪标记"
+      }
+    }
+  ]
+}

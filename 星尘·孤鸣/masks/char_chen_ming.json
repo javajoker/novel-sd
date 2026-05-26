@@ -1,1 +1,95 @@
-{"character_id":"char_chen_ming","knowledge_at":[{"story_time":0,"facts_known":[],"facts_unknown":["fact_aeon_resonance_severed","fact_ghost_event","fact_the_lie","fact_war_director_awakening","fact_ulos_true_origin","fact_origin_matter_consciousness","fact_federation_monopoly_plan","fact_elwis_council_lie"],"beliefs_held":[],"perception":{"level":"tbd","notes":"待角色章节写作时完善"}}]}
+{
+  "character_id": "char_chen_ming",
+  "knowledge_at": [
+    {
+      "story_time": 0,
+      "facts_known": ["fact_federation_monopoly_plan"],
+      "facts_known_confidence": {"fact_federation_monopoly_plan": "partial—听过片段，不知道名字"},
+      "facts_unknown": [
+        "fact_aeon_resonance_severed",
+        "fact_ghost_event",
+        "fact_the_lie",
+        "fact_war_director_awakening",
+        "fact_ulos_true_origin",
+        "fact_origin_matter_consciousness",
+        "fact_elwis_council_lie"
+      ],
+      "beliefs_held": [
+        {"belief": "联邦会赢得这场战争", "is_true": false},
+        {"belief": "他已经麻木了", "is_true": false},
+        {"belief": "活着只是习惯", "is_true": "partial"}
+      ],
+      "perception": {
+        "level": "high_physical_ground_level",
+        "notes": "极强的战场直觉与地面感知，没有任何超自然感知，观察力指向物理细节而非情绪"
+      }
+    },
+    {
+      "story_time": 10,
+      "chapter_id": "ch_017",
+      "facts_confirmed": [],
+      "facts_newly_learned": [],
+      "notes": "ch_017是陈铭防御机制第一次完全失效。「不知道名字=没有裂缝」逻辑在这里被彻底打穿：老兵没有名字，裂缝仍然开着，且无法被封。「这是第一次」——陈铭自己知道这件事，但他没有命名它。",
+      "beliefs_at_chapter_end": [
+        {"belief": "联邦会赢得这场战争", "is_true": false},
+        {"belief": "他已经麻木了", "is_true": false, "note": "防御机制首次完全失效的直接证据——他站了很久，没有继续走"},
+        {"belief": "活着只是习惯", "is_true": "partial", "note": "这次停下来（没有继续走）是「活着只是习惯」的第一次内部质疑"},
+        {"belief": "不知道名字=不在意", "is_true": false, "note": "完全打穿：不知道老兵的名字，但裂缝开着。理论自相矛盾已到达逻辑终点。"}
+      ],
+      "new_observation": "防御机制第一次对自身完全失效。陈铭从ch_002开始构建的「名字防御系统」在ch_017遇到了它无法处理的情况：一个没有名字的人的死亡。系统卡住了，裂缝开着，他站在那里，没有继续走。这是他性格弧在vol_01的质变时刻——他需要一种新的生存方式，或者不需要，或者他还不知道。"
+    },
+    {
+      "story_time": 8,
+      "chapter_id": "ch_014",
+      "facts_confirmed": [],
+      "facts_newly_learned": [],
+      "notes": "ch_014无新事实传递。关键内部发展：（1）名牌数量增加——有五个名字在他不想知道的情况下进来了，说明「不让名字进来」的控制力正在减弱；（2）对老兵的不情愿观察——注意力反复漂移、被拉回，防御机制仍在运作但越来越耗力；（3）「不确定是忘了还是故意没问」——元认知精度下降，他曾经清楚知道自己在故意回避，现在连这个也开始模糊了。",
+      "beliefs_at_chapter_end": [
+        {"belief": "联邦会赢得这场战争", "is_true": false},
+        {"belief": "他已经麻木了", "is_true": false, "note": "对老兵的不情愿好奇、那个喉咙里的问题——都说明他远没有麻木"},
+        {"belief": "活着只是习惯", "is_true": "partial"},
+        {"belief": "不知道名字=不在意", "is_true": false, "note": "ch_009搁置的矛盾仍未解决；老兵这一章再次证明他对陌生人产生了持续注意力（观察）和问题（好奇），但没有名字"}
+      ],
+      "new_observation": "「不确定是忘了还是故意没问」——陈铭的防御机制开始对自己失去透明度。这是裂缝的质变：不再是外力造成的缺口，而是他自己已经分不清「防御」和「忘记」的区别了。"
+    },
+    {
+      "story_time": 5,
+      "chapter_id": "ch_009",
+      "facts_confirmed": [],
+      "facts_newly_learned": [],
+      "notes": "ch_009无新事实传递。关键：陈铭发现了自己防御机制的逻辑矛盾——他拉了那个孩子的反射不符合「不知道名字=不在意」。他没有解决这个矛盾，也没有逃开，只是搁置。",
+      "beliefs_at_chapter_end": [
+        {"belief": "联邦会赢得这场战争", "is_true": false},
+        {"belief": "他已经麻木了", "is_true": false, "note": "他拉人的反射证明了这个信念是假的，但他还没有准备好承认这件事"},
+        {"belief": "活着只是习惯", "is_true": "partial"},
+        {"belief": "不知道名字=不在意", "is_true": false, "note": "新增——他发现这个理论不成立，但他没有放弃这个理论，只是搁置了逻辑矛盾"}
+      ],
+      "new_observation": "他的反射（帮助不知道名字的人）早于他的理论（不在意）。理论被行为测试，测试结果是理论错了，但他还没有接受这个结果。这是麻木防线最深的裂缝：不再是外力造成的缺口，而是他自己的行为造成的内部矛盾。"
+    },
+    {
+      "story_time": 3,
+      "chapter_id": "ch_005",
+      "facts_confirmed": [],
+      "facts_newly_learned": [],
+      "notes": "ch_005无新事实传递。陈铭的防御机制从被动升级为主动——他现在需要刻意不去知道名字，而不只是习惯性回避。",
+      "beliefs_at_chapter_end": [
+        {"belief": "联邦会赢得这场战争", "is_true": false},
+        {"belief": "他已经麻木了", "is_true": false, "note": "防御机制的主动化本身证明了他没有麻木。他用逻辑（「不知道名字=没有裂缝」）包装感情回避，但逻辑本身揭示了他在避开什么。信念表面完整，底层裂缝加深。"},
+        {"belief": "活着只是习惯", "is_true": "partial"}
+      ],
+      "new_observation": "他发现了一件事：记脸的习惯（收集名牌之前的前置反应）在他身上没有完全消失，只是换了形式。这个觉察没有被他深入处理，但它在那里。"
+    },
+    {
+      "story_time": 1,
+      "chapter_id": "ch_002",
+      "facts_confirmed": [],
+      "facts_newly_learned": [],
+      "notes": "ch_002建立角色声音而非传递新事实。陈铭记忆的可靠性出现第一次内部质疑，但被封上了。",
+      "beliefs_at_chapter_end": [
+        {"belief": "联邦会赢得这场战争", "is_true": false},
+        {"belief": "他已经麻木了", "is_true": false, "note": "本章轻微侵蚀，但陈铭成功封上了裂缝——信念表面完整"},
+        {"belief": "活着只是习惯", "is_true": "partial"}
+      ]
+    }
+  ]
+}

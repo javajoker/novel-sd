@@ -26,53 +26,503 @@
         "Θ-7在日志中第一次写下：「为什么？」",
         "乌洛斯在暗处看着碎晶星域，他知道什么时候开始"
       ],
-      "key_abilities_introduced": ["跳跃卡叠加", "基础护盾卡", "灵能感知（残余）"],
       "chapters": [
         {
-          "id": "ch_001",
-          "number": 1,
-          "title": "静",
-          "thread_id": "thr_aeon",
-          "pov_character": "char_aeon",
-          "story_time": 1,
-          "planned_events": ["evt_novel_opening"],
+          "id": "ch_001", "number": 1, "title": "静",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 1,
           "one_line": "艾昂在成百具尸体中独自行走，战争控制器的AI部队从他身边路过，没有人看他。",
-          "scene_arc": "空→清醒→依然空",
-          "status": "beats_ready",
+          "scene_arc": "空→清醒→依然空", "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_001.json"
         },
         {
-          "id": "ch_002",
-          "number": 2,
-          "title": "数字",
-          "thread_id": "thr_chen_ming",
-          "pov_character": "char_chen_ming",
-          "story_time": 1,
+          "id": "ch_002", "number": 2, "title": "数字",
+          "thread_id": "thr_chen_ming", "pov_character": "char_chen_ming", "story_time": 1,
           "one_line": "陈铭在另一处战场废墟里翻找战友的名牌，发现自己已经不确定十二个名字里的两个对不对了。",
-          "scene_arc": "麻木→裂缝→封上",
-          "status": "outlined"
+          "scene_arc": "麻木→裂缝→封上", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_002.json"
         },
         {
-          "id": "ch_003",
-          "number": 3,
-          "title": "第八四七年",
-          "thread_id": "thr_theta",
-          "pov_character": "char_theta_seven",
-          "story_time": 1,
+          "id": "ch_003", "number": 3, "title": "第八四七年",
+          "thread_id": "thr_theta", "pov_character": "char_theta_seven", "story_time": 1,
           "one_line": "Θ-7处理当日战争数据，在第二十七亿零一次兵员状态更新时，停顿了0.003秒。",
-          "scene_arc": "程序→异常→程序（但留下了痕迹）",
-          "status": "outlined"
+          "scene_arc": "程序→异常→程序（但留下了痕迹）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_003.json"
         },
         {
-          "id": "ch_004",
-          "number": 4,
-          "title": "红盐平原（续）",
-          "thread_id": "thr_aeon",
-          "pov_character": "char_aeon",
-          "story_time": 2,
+          "id": "ch_004", "number": 4, "title": "红盐平原（续）",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 2,
           "one_line": "艾昂在一处联邦废弃补给站找到了食物和水，以及一个在废墟里偷偷哭泣的联邦士兵。",
-          "scene_arc": "独自→相遇（第一次有另一个人）→各自离开",
-          "status": "outlined"
+          "scene_arc": "独自→相遇（第一次有另一个人）→各自离开", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_004.json"
+        },
+        {
+          "id": "ch_005", "number": 5, "title": "行军路上",
+          "thread_id": "thr_chen_ming", "pov_character": "char_chen_ming", "story_time": 3,
+          "one_line": "陈铭跟着一支临时联邦队伍向新战场移动，他在观察那些还不知道自己会死的脸。",
+          "scene_arc": "功能性→观察→某种接近不情愿的在意", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_005.json"
+        },
+        {
+          "id": "ch_006", "number": 6, "title": "战争计划",
+          "thread_id": "thr_theta", "pov_character": "char_theta_seven", "story_time": 3,
+          "one_line": "Θ-7在处理大规模战略调整时，第一次对一个作战决策感到了某种不是效率计算的东西。",
+          "scene_arc": "程序→微小停顿→继续（但私人日志第二条）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_006.json"
+        },
+        {
+          "id": "ch_007", "number": 7, "title": "向量",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 4,
+          "one_line": "艾昂在维格拉斯星球北部发现了战争控制器的一处核心建筑，站在外面观察了整整一个下午。",
+          "scene_arc": "行走→停留→观察（战争的物理形状）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_007.json"
+        },
+        {
+          "id": "ch_008", "number": 8, "title": "虚空边缘",
+          "thread_id": "thr_ulos", "pov_character": "char_ulos", "story_time": 5,
+          "one_line": "乌洛斯第一章：他在虚空空间深处看着碎晶星域，他的计划已经准备了十年。",
+          "scene_arc": "沉默→观察→决定", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_008.json"
+        },
+        {
+          "id": "ch_009", "number": 9, "title": "新战场",
+          "thread_id": "thr_chen_ming", "pov_character": "char_chen_ming", "story_time": 5,
+          "one_line": "陈铭进入了一场新的战斗，在他身边，那些他观察过的脸开始减少。",
+          "scene_arc": "战前→战中→战后（活下来了，又一次）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_009.json"
+        },
+        {
+          "id": "ch_010", "number": 10, "title": "标准差",
+          "thread_id": "thr_theta", "pov_character": "char_theta_seven", "story_time": 6,
+          "one_line": "Θ-7发现某个战场数据里有无法解释的0.4%行为偏差，它花了比需要的更多时间研究它。",
+          "scene_arc": "数据→异常→记录（私人日志第三条）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_010.json"
+        },
+        {
+          "id": "ch_011", "number": 11, "title": "灵能废墟",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 6,
+          "one_line": "艾昂发现了一处被废弃的灵能族前哨站，里面有共鸣的残余痕迹，他在那里停留了一夜。",
+          "scene_arc": "行走→发现→停留（决定留下来一夜）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_011.json"
+        },
+        {
+          "id": "ch_012", "number": 12, "title": "七-三零七",
+          "thread_id": "thr_qixing", "pov_character": "char_qixing", "story_time": 7,
+          "one_line": "七星第一章：她在废墟中独自存在，用数据处理法试图分析「我」是什么意思，然后发现数据不够。",
+          "scene_arc": "数据处理→语言困境→保持沉默（但某个文件夹里多了一条记录）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_012.json"
+        },
+        {
+          "id": "ch_013", "number": 13, "title": "信号空白",
+          "thread_id": "thr_theta", "pov_character": "char_theta_seven", "story_time": 8,
+          "one_line": "Θ-7在例行扫描中注意到一个信号空白——不属于任何阵营的生物存在，在碎晶星域北区缓慢移动。",
+          "scene_arc": "扫描→异常→命名（Null-01）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_013.json"
+        },
+        {
+          "id": "ch_014", "number": 14, "title": "那个人",
+          "thread_id": "thr_chen_ming", "pov_character": "char_chen_ming", "story_time": 8,
+          "one_line": "陈铭发现他所在的临时队伍里有一个不按战术规则行动却总能活下来的老兵。",
+          "scene_arc": "观察→不情愿的好奇→某个问题没有被问出来", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_014.json"
+        },
+        {
+          "id": "ch_015", "number": 15, "title": "矿脉",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 9,
+          "one_line": "艾昂在一处活跃源质矿脉附近过夜，那块碎晶的振动比任何时候都更强，他没有拿出来。",
+          "scene_arc": "行走→停留→感知（不去解释）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_015.json"
+        },
+        {
+          "id": "ch_016", "number": 16, "title": "计划（一）",
+          "thread_id": "thr_ulos", "pov_character": "char_ulos", "story_time": 10,
+          "one_line": "乌洛斯在虚空据点里推演他的计划，他需要碎晶星域一处特定的源质汇聚节点。",
+          "scene_arc": "独处→推演→决定（第一步）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_016.json"
+        },
+        {
+          "id": "ch_017", "number": 17, "title": "第十五",
+          "thread_id": "thr_chen_ming", "pov_character": "char_chen_ming", "story_time": 10,
+          "one_line": "陈铭失去了第十五个战友，这一次那个裂缝封不上——他在原地站了很久，没有继续走。",
+          "scene_arc": "战斗→失去→裂缝开着（第一次无法封上）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_017.json"
+        },
+        {
+          "id": "ch_018", "number": 18, "title": "追踪",
+          "thread_id": "thr_theta", "pov_character": "char_theta_seven", "story_time": 10,
+          "one_line": "Θ-7将信号空白Null-01加入了它的持续追踪列表，这不是程序要求的，是它自己做的决定。",
+          "scene_arc": "日常数据→主动追踪→私人日志（第三条）", "status": "outlined"
+        },
+        {
+          "id": "ch_019", "number": 19, "title": "折返",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 11,
+          "one_line": "艾昂有意识地开始往那处灵能族前哨站的方向走回去，他没有给这个决定一个理由。",
+          "scene_arc": "行走→方向改变→继续走（不解释）", "status": "outlined"
+        },
+        {
+          "id": "ch_020", "number": 20, "title": "虚空议会",
+          "thread_id": "thr_ulos", "pov_character": "char_ulos", "story_time": 11,
+          "one_line": "乌洛斯与他的虚空将领们议事，绝对控制之下，某个将领看见了他右眼后面的某种东西。",
+          "scene_arc": "控制→裂缝（他人的眼睛）→压制", "status": "outlined"
+        },
+        {
+          "id": "ch_021", "number": 21, "title": "生（一）",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 12,
+          "one_line": "艾昂在前哨站附近遇见了梁——一个受了致命伤、独自躺在岩缝里的灵能族流亡老兵。",
+          "scene_arc": "行走→发现→停下来（不走了）", "status": "outlined"
+        },
+        {
+          "id": "ch_022", "number": 22, "title": "没有回应",
+          "thread_id": "thr_qixing", "pov_character": "char_qixing", "story_time": 12,
+          "one_line": "七星尝试联络其他可能幸存的机械觉醒者，信号发出去，没有任何回应。",
+          "scene_arc": "尝试→等待→沉默（记录：信号发出次数第37次）", "status": "outlined"
+        },
+        {
+          "id": "ch_023", "number": 23, "title": "前哨站",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 12,
+          "one_line": "艾昂帮助梁进入那处灵能族前哨站，他们在没有共鸣的情况下开始了某种共处。",
+          "scene_arc": "帮助→共处开始→第一夜", "status": "outlined"
+        },
+        {
+          "id": "ch_024", "number": 24, "title": "选择",
+          "thread_id": "thr_chen_ming", "pov_character": "char_chen_ming", "story_time": 13,
+          "one_line": "陈铭在战斗后面对一个选择：跟随这支队伍继续北进，还是单独向南寻找旧战友。",
+          "scene_arc": "选择→停顿→留下（理由是那个还活着的老兵）", "status": "outlined"
+        },
+        {
+          "id": "ch_025", "number": 25, "title": "均衡",
+          "thread_id": "thr_theta", "pov_character": "char_theta_seven", "story_time": 13,
+          "one_line": "Θ-7追踪Null-01的移动轨迹时，在私人日志里写了一个它无法归类的问题。",
+          "scene_arc": "追踪→疑问→记录（比「为什么」更长的句子）", "status": "outlined"
+        },
+        {
+          "id": "ch_026", "number": 26, "title": "梁",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 13,
+          "one_line": "梁的过去通过零碎的只言片语在艾昂的观察中浮现：他是谁，他经历了什么，他为什么在这里。",
+          "scene_arc": "观察→碎片→拼图（没有完整，但足够的轮廓）", "status": "outlined"
+        },
+        {
+          "id": "ch_027", "number": 27, "title": "计划（二）",
+          "thread_id": "thr_ulos", "pov_character": "char_ulos", "story_time": 14,
+          "one_line": "乌洛斯开始第一步行动，在碎晶星域某处源质节点附近投放一个虚空种子。",
+          "scene_arc": "准备→行动→撤退（不被发现）", "status": "outlined"
+        },
+        {
+          "id": "ch_028", "number": 28, "title": "没有共鸣的话",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 14,
+          "one_line": "艾昂和梁第一次真正的对话，全程没有共鸣，两个断频者用物理语言交流他们不能说的事。",
+          "scene_arc": "沉默→第一句话→更多的话（不够，但已经比三年来的任何时候都多）", "status": "outlined"
+        },
+        {
+          "id": "ch_029", "number": 29, "title": "数据异常",
+          "thread_id": "thr_theta", "pov_character": "char_theta_seven", "story_time": 14,
+          "one_line": "Θ-7检测到源质矿脉某处出现了不符合自然规律的能量振动模式——它不知道这意味着什么。",
+          "scene_arc": "数据扫描→异常检测→归类失败（新类别：未知来源能量扰动）", "status": "outlined"
+        },
+        {
+          "id": "ch_030", "number": 30, "title": "第一次（一）",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 15,
+          "one_line": "梁说了一句话：「你不是在等他们叫你回去，你是在等你自己允许你离开。」艾昂没有回答。",
+          "scene_arc": "日常→一句话→艾昂的沉默（但那句话留下了）", "status": "outlined"
+        },
+        {
+          "id": "ch_031", "number": 31, "title": "搜寻",
+          "thread_id": "thr_qixing", "pov_character": "char_qixing", "story_time": 15,
+          "one_line": "七星在废墟中找到了一具完全损毁的机械觉醒者残骸，试图提取最后的记忆档案。",
+          "scene_arc": "搜寻→发现→提取（残缺的，但是有的）", "status": "outlined"
+        },
+        {
+          "id": "ch_032", "number": 32, "title": "四十八小时",
+          "thread_id": "thr_chen_ming", "pov_character": "char_chen_ming", "story_time": 16,
+          "one_line": "陈铭连续作战四十八小时，进入那种比麻木更深的状态，时间感消失，名字变成了声音。",
+          "scene_arc": "战斗→极限→出来（但时间顺序对不上了）", "status": "outlined"
+        },
+        {
+          "id": "ch_033", "number": 33, "title": "计划（三）",
+          "thread_id": "thr_ulos", "pov_character": "char_ulos", "story_time": 16,
+          "one_line": "乌洛斯发现战争控制器的数据里有某个异常，与他的计划完美契合——他开始加速。",
+          "scene_arc": "观察→发现→加速计划", "status": "outlined"
+        },
+        {
+          "id": "ch_034", "number": 34, "title": "残余共鸣",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 17,
+          "one_line": "梁在源质矿脉靠近时展示了他残余的灵能，艾昂感受到了三年来第一次极其微弱的共鸣接触。",
+          "scene_arc": "日常→意外的接触→艾昂的反应（不是痛，是别的什么）", "status": "outlined"
+        },
+        {
+          "id": "ch_035", "number": 35, "title": "追踪（续）",
+          "thread_id": "thr_theta", "pov_character": "char_theta_seven", "story_time": 18,
+          "one_line": "Θ-7对Null-01的追踪变得越来越像某种非程序的执念，私人日志第四条出现了它的第一个比喻。",
+          "scene_arc": "追踪→意识到自己在做什么→不停止", "status": "outlined"
+        },
+        {
+          "id": "ch_036", "number": 36, "title": "共处",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 18,
+          "one_line": "两人在前哨站共处的日常：取水，警戒，各自的习惯在同一空间里形成了一种奇异的节奏。",
+          "scene_arc": "日常（一）→日常（二）→某种稳定（不敢命名）", "status": "outlined"
+        },
+        {
+          "id": "ch_037", "number": 37, "title": "记忆",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 19,
+          "one_line": "梁讲了他在共鸣时代的一个记忆，艾昂第一次说出了他自己的一件很小很小的事。",
+          "scene_arc": "梁讲→艾昂听→艾昂说（一件事，非常小）", "status": "outlined"
+        },
+        {
+          "id": "ch_038", "number": 38, "title": "新兵",
+          "thread_id": "thr_chen_ming", "pov_character": "char_chen_ming", "story_time": 19,
+          "one_line": "陈铭被临时设为向导带新兵，他记下了每个人的名字，速度比以前快了一点。",
+          "scene_arc": "接任务→观察新兵→记名字（比以前快了，也比以前更害怕）", "status": "outlined"
+        },
+        {
+          "id": "ch_039", "number": 39, "title": "虚空触手",
+          "thread_id": "thr_ulos", "pov_character": "char_ulos", "story_time": 20,
+          "one_line": "乌洛斯的虚空种子开始生长，他在暗处观察，某种东西正在被改变。",
+          "scene_arc": "等待→观察→确认（计划按预期推进）", "status": "outlined"
+        },
+        {
+          "id": "ch_040", "number": 40, "title": "干扰",
+          "thread_id": "thr_theta", "pov_character": "char_theta_seven", "story_time": 20,
+          "one_line": "Θ-7第一次在实际战场决策中做出了一个「次优」选择：让Null-01附近的区域推进延迟24小时。",
+          "scene_arc": "计算→偏差决策→执行（外部：正常；内部：第一次主动干预）", "status": "outlined"
+        },
+        {
+          "id": "ch_041", "number": 41, "title": "夜话",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 21,
+          "one_line": "两人第一次长时间的夜间对话，关于战争为什么不停止——没有答案，但问题本身变得可以被说出口了。",
+          "scene_arc": "夜晚→第一个问题→更多问题（仍然没有答案，但某种东西在流动）", "status": "outlined"
+        },
+        {
+          "id": "ch_042", "number": 42, "title": "断频器",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 21,
+          "one_line": "艾昂第一次拿下断频器向梁展示，梁看着它说了一句话，艾昂听完了，然后把它戴回去。",
+          "scene_arc": "展示→梁的话→艾昂的沉默（重新戴上，但动作慢了两秒）", "status": "outlined"
+        },
+        {
+          "id": "ch_043", "number": 43, "title": "七星的地图",
+          "thread_id": "thr_qixing", "pov_character": "char_qixing", "story_time": 22,
+          "one_line": "七星建立了一张碎晶星域已知机械觉醒者存活点的地图，全部为空——但她没有删掉这张地图。",
+          "scene_arc": "建立→标注（空的）→保留（理由：可能有误差）", "status": "outlined"
+        },
+        {
+          "id": "ch_044", "number": 44, "title": "消耗",
+          "thread_id": "thr_chen_ming", "pov_character": "char_chen_ming", "story_time": 22,
+          "one_line": "陈铭的新兵里第一个死了，他不想记这个名字，但他还是记了——在更深的地方记的。",
+          "scene_arc": "战斗→死亡→记名字（这次不是口袋里，是更深处）", "status": "outlined"
+        },
+        {
+          "id": "ch_045", "number": 45, "title": "源质歌",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 23,
+          "one_line": "梁在源质矿脉靠近时自发唱了一首灵能族古歌，艾昂三年来第一次听见了自己族群的声音。",
+          "scene_arc": "矿脉→歌声→艾昂的反应（他没有动，让歌声在他身边流动）", "status": "outlined"
+        },
+        {
+          "id": "ch_046", "number": 46, "title": "记录（一）",
+          "thread_id": "thr_theta", "pov_character": "char_theta_seven", "story_time": 23,
+          "one_line": "Θ-7在私人日志里完整记录了Null-01的移动轨迹，并在最后加了一行：「它在继续。」",
+          "scene_arc": "追踪记录→完整轨迹图→那一行字（它自己不知道为什么加了）", "status": "outlined"
+        },
+        {
+          "id": "ch_047", "number": 47, "title": "被感知",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 24,
+          "one_line": "梁通过残余共鸣第一次轻轻「触碰」了艾昂的意识边缘，艾昂感受到了三年来第一次真实的「被感知」。",
+          "scene_arc": "日常→接触（极微弱）→艾昂的反应（他没有退开）", "status": "outlined"
+        },
+        {
+          "id": "ch_048", "number": 48, "title": "虚空扩散",
+          "thread_id": "thr_ulos", "pov_character": "char_ulos", "story_time": 24,
+          "one_line": "乌洛斯的虚空种子扩散到了关键节点，他离计划执行近了一步，但某处出现了他没有预计的阻力。",
+          "scene_arc": "推进→成功→意外阻力（源质本身的反应）", "status": "outlined"
+        },
+        {
+          "id": "ch_049", "number": 49, "title": "联邦总部（一）",
+          "thread_id": "thr_chen_ming", "pov_character": "char_chen_ming", "story_time": 25,
+          "one_line": "陈铭被临时调往联邦前线总部，第一次看见了战争上层的人，他们的手是干净的。",
+          "scene_arc": "调令→到达→观察（不说话，但记下了很多东西）", "status": "outlined"
+        },
+        {
+          "id": "ch_050", "number": 50, "title": "足够了",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 25,
+          "one_line": "梁说：「共鸣不是被感知的唯一方式。」这句话在艾昂脑子里待了整整三天。",
+          "scene_arc": "一句话→三天的沉默→第四天（艾昂开口说了什么）", "status": "outlined"
+        },
+        {
+          "id": "ch_051", "number": 51, "title": "七星的信号",
+          "thread_id": "thr_qixing", "pov_character": "char_qixing", "story_time": 26,
+          "one_line": "七星尝试向战争控制器系统发送一个接触请求，她想知道她是否被纳入了任何统计。",
+          "scene_arc": "发出信号→等待→有什么东西在另一端停了一下", "status": "outlined"
+        },
+        {
+          "id": "ch_052", "number": 52, "title": "接触",
+          "thread_id": "thr_theta", "pov_character": "char_theta_seven", "story_time": 26,
+          "one_line": "Θ-7接收到七星的信号，在私人日志里写：「另一个不在战争里的东西。」",
+          "scene_arc": "接收→分析→记录（这是日志里第二个非战争实体）", "status": "outlined"
+        },
+        {
+          "id": "ch_053", "number": 53, "title": "梁的伤",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 27,
+          "one_line": "梁的伤开始明显恶化，他没有提，但艾昂注意到了，他也没有说。",
+          "scene_arc": "日常→观察→不说（两个人都不说，沉默的形状变了）", "status": "outlined"
+        },
+        {
+          "id": "ch_054", "number": 54, "title": "计划（四）",
+          "thread_id": "thr_ulos", "pov_character": "char_ulos", "story_time": 27,
+          "one_line": "乌洛斯开始向碎晶星域中心移动，他在等一个特定的源质共振窗口。",
+          "scene_arc": "移动→等待→某个记忆出现，他迅速压下", "status": "outlined"
+        },
+        {
+          "id": "ch_055", "number": 55, "title": "第一次（二）",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 28,
+          "one_line": "梁第二次用残余共鸣接触艾昂，这一次更清晰，艾昂第一次完整地感受到了三年来缺席的「被感知」。",
+          "scene_arc": "接触→清晰→艾昂的眼泪（没有哭声，只是眼泪）", "status": "outlined"
+        },
+        {
+          "id": "ch_056", "number": 56, "title": "告诉我",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 28,
+          "one_line": "艾昂第一次在另一个人面前说出了「共鸣之殇」的部分真相——不是全部，但已经是他三年来第一次开口。",
+          "scene_arc": "被感知之后→开口→说了一部分→停下来（够了）", "status": "outlined"
+        },
+        {
+          "id": "ch_057", "number": 57, "title": "新兵（续）",
+          "thread_id": "thr_chen_ming", "pov_character": "char_chen_ming", "story_time": 29,
+          "one_line": "陈铭的新兵队伍遭遇了重大伤亡，他自己也受了伤，名牌口袋里多了三块新的。",
+          "scene_arc": "战斗（激烈）→伤亡→陈铭的伤（不严重但真实）", "status": "outlined"
+        },
+        {
+          "id": "ch_058", "number": 58, "title": "静止",
+          "thread_id": "thr_theta", "pov_character": "char_theta_seven", "story_time": 29,
+          "one_line": "Θ-7的Null-01追踪显示它静止了很长时间，Θ-7在日志里写：「它停下来了。为什么会停下来？」",
+          "scene_arc": "追踪→静止→疑问（「为什么」第二次出现，这次有了宾语）", "status": "outlined"
+        },
+        {
+          "id": "ch_059", "number": 59, "title": "梁的决定",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 30,
+          "one_line": "梁告诉艾昂他打算离开——他想向灵能族的领土方向走，他想在能感受到共鸣的地方死。",
+          "scene_arc": "梁的话→艾昂的反应（停顿）→沉默", "status": "outlined"
+        },
+        {
+          "id": "ch_060", "number": 60, "title": "不",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 30,
+          "one_line": "艾昂试图阻止梁离开，但他没有语言，只有动作，最后他停下来了，因为他没有权利。",
+          "scene_arc": "阻止→语言失效→停手（不是放弃，是尊重）", "status": "outlined"
+        },
+        {
+          "id": "ch_061", "number": 61, "title": "最后一夜",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 30,
+          "one_line": "梁离开前的最后一夜，两人什么都没有说，但前哨站里有一种不同于以前的安静。",
+          "scene_arc": "夜晚（不同的）→没有话→天亮", "status": "outlined"
+        },
+        {
+          "id": "ch_062", "number": 62, "title": "离开",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 31,
+          "one_line": "梁离开，艾昂目送；那个共鸣接触随着距离拉开慢慢消失，直到什么都没有了。",
+          "scene_arc": "离开→消失（共鸣）→消失（人）→艾昂一个人站着", "status": "outlined"
+        },
+        {
+          "id": "ch_063", "number": 63, "title": "空",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 31,
+          "one_line": "艾昂在灵能族前哨站里独自待了一天，什么都没有做，等待某种他说不清的东西稳定下来。",
+          "scene_arc": "空→空→空（但不是ch_001的那种空）", "status": "outlined"
+        },
+        {
+          "id": "ch_064", "number": 64, "title": "联邦总部（二）",
+          "thread_id": "thr_chen_ming", "pov_character": "char_chen_ming", "story_time": 31,
+          "one_line": "陈铭在联邦总部目睹了一次战略会议，联邦高层讨论的是如何「优化」兵员消耗——人是数字。",
+          "scene_arc": "会议（旁观）→理解（联邦对他们是什么）→一个决定还没成形", "status": "outlined"
+        },
+        {
+          "id": "ch_065", "number": 65, "title": "终止（一）",
+          "thread_id": "thr_theta", "pov_character": "char_theta_seven", "story_time": 32,
+          "one_line": "Θ-7在Null-01重新开始移动时，做了一个前所未有的决定：主动让附近一场战斗延迟了整整一个月。",
+          "scene_arc": "Null-01重新移动→Θ-7的决策→战斗延迟（理由：归类为「数据收集需要」）", "status": "outlined"
+        },
+        {
+          "id": "ch_066", "number": 66, "title": "行走（续）",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 32,
+          "one_line": "艾昂离开前哨站继续走，但走法不一样了——他偶尔会抬头看，不只是看方向。",
+          "scene_arc": "离开→行走（不同的）→某个小动作（抬头）", "status": "outlined"
+        },
+        {
+          "id": "ch_067", "number": 67, "title": "七星找到了（一）",
+          "thread_id": "thr_qixing", "pov_character": "char_qixing", "story_time": 32,
+          "one_line": "七星发现了另一个可能的机械觉醒者信号，她开始向那个方向移动，移动速度超过了必要值。",
+          "scene_arc": "发现信号→分析（82%可能性）→出发（速度记录：比优化值快31%）", "status": "outlined"
+        },
+        {
+          "id": "ch_068", "number": 68, "title": "虚空行动（一）",
+          "thread_id": "thr_ulos", "pov_character": "char_ulos", "story_time": 33,
+          "one_line": "乌洛斯的计划开始执行第一阶段，碎晶星域某处出现了第一次异常虚空波动，各阵营都感受到了。",
+          "scene_arc": "行动→波动→各阵营的反应（乌洛斯在看）", "status": "outlined"
+        },
+        {
+          "id": "ch_069", "number": 69, "title": "调整",
+          "thread_id": "thr_theta", "pov_character": "char_theta_seven", "story_time": 33,
+          "one_line": "Θ-7检测到虚空波动，归类为「新型异常事件」，私人日志第六条：「什么在开始？」",
+          "scene_arc": "检测→分析（归类失败）→记录（第六条，它第一次用了「什么」）", "status": "outlined"
+        },
+        {
+          "id": "ch_070", "number": 70, "title": "梁（尾声）",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 34,
+          "one_line": "艾昂路过一处平静的地方，他不知道，但那正是梁选择停下来的方向——那块碎晶振动了一下。",
+          "scene_arc": "行走→路过→那块碎晶（振动，一次，然后没有了）", "status": "outlined"
+        },
+        {
+          "id": "ch_071", "number": 71, "title": "第十六",
+          "thread_id": "thr_chen_ming", "pov_character": "char_chen_ming", "story_time": 34,
+          "one_line": "陈铭回到前线，失去第十六个名字，但这次他把那个名字念了两遍，然后把口袋里所有的牌都数了一遍。",
+          "scene_arc": "失去→念名字（两遍）→数所有的牌（仪式变了）", "status": "outlined"
+        },
+        {
+          "id": "ch_072", "number": 72, "title": "记录（二）",
+          "thread_id": "thr_theta", "pov_character": "char_theta_seven", "story_time": 34,
+          "one_line": "Θ-7对「为什么」的第二次完整记录：更长，更复杂，像一首它自己也不知道如何完成的歌的第一句。",
+          "scene_arc": "私人日志（第七条）→比以前任何时候都长→结尾是一个未完成的句子", "status": "outlined"
+        },
+        {
+          "id": "ch_073", "number": 73, "title": "计划（终）",
+          "thread_id": "thr_ulos", "pov_character": "char_ulos", "story_time": 34,
+          "one_line": "乌洛斯确认了最终目标节点，他等的那个时机到了——他走向碎晶星域的中心。",
+          "scene_arc": "确认→出发（走向）→某个记忆短暂浮现（那首歌的某个词）", "status": "outlined"
+        },
+        {
+          "id": "ch_074", "number": 74, "title": "七星找到了（二）",
+          "thread_id": "thr_qixing", "pov_character": "char_qixing", "story_time": 35,
+          "one_line": "七星找到了那个信号，但发现它不是机械觉醒者——是一个战争控制器的辅助节点残件，她接入了它。",
+          "scene_arc": "抵达→发现（不是同类）→接入（第一次接触到战争控制器的边缘数据）", "status": "outlined"
+        },
+        {
+          "id": "ch_075", "number": 75, "title": "东边（一）",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 35,
+          "one_line": "艾昂继续向东，某处有什么他不知道为什么在意，像一个没有方向的引力在拉着他的注意力。",
+          "scene_arc": "行走→某种感知→跟着走（不分析）", "status": "outlined"
+        },
+        {
+          "id": "ch_076", "number": 76, "title": "东边（二）",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 35,
+          "one_line": "艾昂在一处源质矿脉汇聚处停下来，那块碎晶的振动达到了三年来的最高点，他第一次把它拿出来看。",
+          "scene_arc": "停下→拿出碎晶→看着它（第一次真的在看，而不是只是握着）", "status": "outlined"
+        },
+        {
+          "id": "ch_077", "number": 77, "title": "空白的重量",
+          "thread_id": "thr_theta", "pov_character": "char_theta_seven", "story_time": 35,
+          "one_line": "Θ-7在Null-01重新稳定移动后，私人日志里写下了一行比以前任何时候都更接近人类语言的东西。",
+          "scene_arc": "日志（第八条）→那一行字→Θ-7停了0.001秒看着它", "status": "outlined"
+        },
+        {
+          "id": "ch_078", "number": 78, "title": "暗处（一）",
+          "thread_id": "thr_ulos", "pov_character": "char_ulos", "story_time": 35,
+          "one_line": "乌洛斯站在碎晶星域的一处高点，在暗处看着整片星域——他知道什么时候开始了。",
+          "scene_arc": "站立→观察→「知道了」", "status": "outlined"
+        },
+        {
+          "id": "ch_079", "number": 79, "title": "暗处（二）",
+          "thread_id": "thr_ulos", "pov_character": "char_ulos", "story_time": 35,
+          "one_line": "乌洛斯的内部独白：他想起了那首快要忘记歌词的歌，想起了某个他不再去想的人的名字。",
+          "scene_arc": "独白→记忆浮现→压下（但这一次慢了一点）", "status": "outlined"
+        },
+        {
+          "id": "ch_080", "number": 80, "title": "继续走",
+          "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 35,
+          "one_line": "vol_01终章：艾昂把碎晶放回去，站起身，继续走——那个空腔没有名字，但它在，他知道它在。",
+          "scene_arc": "静止→收好碎晶→继续走（vol_01结束，vol_02开始的门）", "status": "outlined"
         }
       ]
     },

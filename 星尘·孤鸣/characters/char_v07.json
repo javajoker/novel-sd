@@ -1,0 +1,23 @@
+{
+  "character_id": "char_v07",
+  "canonical_name": "V-07",
+  "type": "Person",
+  "subtype": "supporting",
+  "aliases": ["代号V-07", "虚空探子V-07"],
+  "status": "active",
+  "first_chapter": "ch_016",
+  "description": "乌洛斯麾下三支渗透队之一，代号V-07，在碎晶星域已潜伏六年。以「最安静」「最不留痕迹」著称，是乌洛斯最信任的信息收集者。在ch_016接到指令：前往维格拉斯北部高地，确认「三叉结」精确坐标和源质浓度，三周内报告，单独行动，不留战争系统可追踪标记。V-07在碎晶星域的存在和艾昂的东行方向可能形成路径交叉（两者均不知对方存在）。",
+  "attributes": {
+    "age": "未知",
+    "faction": "虚空掠夺者（乌洛斯直属）",
+    "specialty": "渗透潜伏，情报收集，零痕迹行动",
+    "infiltration_duration": "碎晶星域6年",
+    "current_mission": "维格拉斯北部高地·三叉结坐标确认，三周期限（ch_016时起）"
+  },
+  "narrative_function": "乌洛斯计划的执行工具，也是三条叙事线路径汇聚的潜在触发点（艾昂东行+V-07北行=同一目标区域）。他的任务执行结果将在ch_016之后的乌洛斯章节中作为信息出现。",
+  "salience": 0.3,
+  "relations": [
+    {"predicate": "serves", "object": "char_ulos", "note": "乌洛斯的直属探子，接受其指令"},
+    {"predicate": "unknown_to", "object": "char_aeon", "note": "两者均不知对方存在，路径可能交叉"}
+  ]
+}

@@ -1,3 +1,54 @@
 {
-  "threads": []
+  "threads": [
+    {
+      "id": "thr_aeon",
+      "name": "艾昂·孤鸣者",
+      "pov_character": "char_aeon",
+      "start_time": 1,
+      "current_time": 9,
+      "latest_chapter": "ch_015",
+      "event_ids": ["evt_novel_opening", "evt_ch004_first_encounter", "evt_ch007_war_machine_outside", "evt_ch011_psionic_ruins", "evt_ch015_ore_vein"],
+      "status": "active"
+    },
+    {
+      "id": "thr_chen_ming",
+      "name": "陈铭·拼死求生者",
+      "pov_character": "char_chen_ming",
+      "start_time": 1,
+      "current_time": 10,
+      "latest_chapter": "ch_017",
+      "event_ids": ["evt_ch002_chen_ming_names", "evt_ch005_march", "evt_ch009_new_battlefield", "evt_ch014_that_person", "evt_ch017_the_fifteenth"],
+      "status": "active"
+    },
+    {
+      "id": "thr_theta",
+      "name": "Θ-7·时回",
+      "pov_character": "char_theta_seven",
+      "start_time": 1,
+      "current_time": 8,
+      "latest_chapter": "ch_013",
+      "event_ids": ["evt_ch003_theta_first_question", "evt_ch006_second_question", "evt_ch010_standard_deviation", "evt_ch013_null_01"],
+      "status": "active"
+    },
+    {
+      "id": "thr_ulos",
+      "name": "乌洛斯·裂空者",
+      "pov_character": "char_ulos",
+      "start_time": 5,
+      "current_time": 10,
+      "latest_chapter": "ch_016",
+      "event_ids": ["evt_ch008_ulos_watching", "evt_ch016_plan_first_step"],
+      "status": "active"
+    },
+    {
+      "id": "thr_qixing",
+      "name": "七星·最后的意识",
+      "pov_character": "char_qixing",
+      "start_time": 7,
+      "current_time": 7,
+      "latest_chapter": "ch_012",
+      "event_ids": ["evt_ch012_who_am_i"],
+      "status": "active"
+    }
+  ]
 }

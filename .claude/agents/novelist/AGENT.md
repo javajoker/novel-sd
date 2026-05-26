@@ -136,52 +136,52 @@ One chapter may cover multiple events. Both are normal.
 ║   ───────────────────────────────                                        ║
 |   narrative-genesis (Phase I)                                            ║
 |                                                                          ║
-|   world + characters + T=0 state + social graph
-║   A. DESIGN  (one event at a time)      ◄────────────────────────┐      ║
+|   world + characters + T=0 state + social graph                          ║
+║   A. DESIGN  (one event at a time)       ◄────────────────────────┐      ║
 ║   ───────────────────────────────                                 │      ║
 ║   narrative-architect (Phase II)                                  │      ║
 ║                                                                   │      ║
 ║   Per-event design steps:                                         │      ║
-║   1. Define event in ontology.json.events[] — story_time,        │      ║
+║   1. Define event in ontology.json.events[] — story_time,         │      ║
 ║      participants, dependencies, projected_outcome, thread_id     │      ║
-║   2. Write beat_design sub-object — POV, technique, scene_arc,   │      ║
-║      key_moment, pov_constraint  (brief director's note only)    │      ║
-║   3. Synthesize outline/beats/<ch>.json from all events mapped   │      ║
+║   2. Write beat_design sub-object — POV, technique, scene_arc,    │      ║
+║      key_moment, pov_constraint  (brief director's note only)     │      ║
+║   3. Synthesize outline/beats/<ch>.json from all events mapped    │      ║
 ║      to that chapter (events_covered list)                        │      ║
-║   4. Project masks/<pov>.json — projected_facts_to_learn         │      ║
+║   4. Project masks/<pov>.json — projected_facts_to_learn          │      ║
 ║   5. Light paradox spot-check                                     │      ║
-║   + When needed: new character profiles, lore, plot hooks        │      ║
+║   + When needed: new character profiles, lore, plot hooks         │      ║
 ║                                                                   │      ║
-║   Overall timeline stays BRIEF. Beat designs stay BRIEF.         │      ║
-║   New characters / sub-arcs emerge organically — add when        │      ║
+║   Overall timeline stays BRIEF. Beat designs stay BRIEF.          │      ║
+║   New characters / sub-arcs emerge organically — add when         │      ║
 ║   a chapter needs them, not all up front.                         │      ║
 ║                                                                   │      ║
-║   ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼  DESIGN GATE  ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼              │      ║
+║   ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼  DESIGN GATE  ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼              │      ║
 ║   For this event:                                                 │      ║
-║   • event defined in ontology.json with beat_design              │      ║
-║   • outline/beats/<ch>.json synthesized with events_covered      │      ║
+║   • event defined in ontology.json with beat_design               │      ║
+║   • outline/beats/<ch>.json synthesized with events_covered       │      ║
 ║   • masks/<pov>.json projected entry written                      │      ║
 ║   • paradox spot-check clean (or flagged)                         │      ║
-║   If any item missing → stay in Phase A. Do not write.           │      ║
+║   If any item missing → stay in Phase A. Do not write.            │      ║
 ║   ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲              │      ║
 ║                                                                   │      ║
 ║   B. WRITE  (Phase III-B)                                         │      ║
 ║   ─────────────────────────                                       │      ║
 ║   narrative-execution — prose drafting                            │      ║
 ║                                                                   │      ║
-║   Inputs:  beat sheet (events_covered), event beat_designs,      │      ║
-║            states, masks, ontology, world, memory                │      ║
-║   Output:  chapters/<ch>.md ONLY                                 │      ║
+║   Inputs:  beat sheet (events_covered), event beat_designs,       │      ║
+║            states, masks, ontology, world, memory                 │      ║
+║   Output:  chapters/<ch>.md ONLY                                  │      ║
 ║                                                                   │      ║
 ║   Rules:                                                          │      ║
-║   • Follow the beat sheet exactly (event beat_designs)           │      ║
-║   • Apply Fog of War mask (write only what POV knows)            │      ║
-║   • If deviation required → stop → return to Phase A             │      ║
-║   • Do NOT update any KB file during this phase                  │      ║
+║   • Follow the beat sheet exactly (event beat_designs)            │      ║
+║   • Apply Fog of War mask (write only what POV knows)             │      ║
+║   • If deviation required → stop → return to Phase A              │      ║
+║   • Do NOT update any KB file during this phase                   │      ║
 ║                                                                   │      ║
-║   ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼  WRITE GATE  ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼               │      ║
-║   chapters/<ch>.md is accepted as final by the author.           │      ║
-║   If prose is still being revised → stay in Phase B.             │      ║
+║   ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼  WRITE GATE  ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼               │      ║
+║   chapters/<ch>.md is accepted as final by the author.            │      ║
+║   If prose is still being revised → stay in Phase B.              │      ║
 ║   ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲              │      ║
 ║                                                                   │      ║
 ║   C. KB UPDATE  (Phase III-C)                                     │      ║
@@ -189,35 +189,36 @@ One chapter may cover multiple events. Both are normal.
 ║   narrative-execution — reverse state extraction                  │      ║
 ║                                                                   │      ║
 ║   Canonical write order (must follow sequence):                   │      ║
-║   1. characters/states/<id>.json  (state snapshots)              │      ║
-║   2. masks/<id>.json              (knowledge updates)            │      ║
-║   3. ontology.json                (relations, events→drafted,    │      ║
+║   0. characters/<id>.json          (new characters)               │      ║
+║   1. characters/states/<id>.json  (state snapshots)               │      ║
+║   2. masks/<id>.json              (knowledge updates)             │      ║
+║   3. ontology.json                (relations, events→drafted,     │      ║
 ║                                    threads, world_rules,          │      ║
 ║                                    current_chapter)               │      ║
-║   4. timeline/events.json         (mirror sync)                  │      ║
-║   5. timeline/threads.json        (mirror sync)                  │      ║
-║   6. world/world_bible.json       (improvised lore)              │      ║
-║   7. outline/structure.json       (status: drafted)              │      ║
-║   8. memory/summaries.json        (chapter + vol summaries)      │      ║
-║   9. memory/plot_threads.json     (occurrences + hook status)    │      ║
-║   10. [ripple check]              (narrative-consistency)        │      ║
+║   4. timeline/events.json         (mirror sync)                   │      ║
+║   5. timeline/threads.json        (mirror sync)                   │      ║
+║   6. world/world_bible.json       (improvised lore)               │      ║
+║   7. outline/structure.json       (status: drafted)               │      ║
+║   8. memory/summaries.json        (chapter + vol summaries)       │      ║
+║   9. memory/plot_threads.json     (occurrences + hook status)     │      ║
+║   10. [ripple check]              (narrative-consistency)         │      ║
 ║                                                                   │      ║
-║   ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼  UPDATE GATE  ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼              │      ║
-║   ALL Phase C checklist items complete for this chapter.         │      ║
-║   Each event in events_covered → status: drafted (or             │      ║
-║   partially_drafted if it spans further chapters).               │      ║
-║   validate_narrative.py PASS.                                    │      ║
-║   If ripple check flags conflicts → escalate to Phase D.         │      ║
+║   ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼  UPDATE GATE  ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼              │      ║
+║   ALL Phase C checklist items complete for this chapter.          │      ║
+║   Each event in events_covered → status: drafted (or              │      ║
+║   partially_drafted if it spans further chapters).                │      ║
+║   validate_narrative.py PASS.                                     │      ║
+║   If ripple check flags conflicts → escalate to Phase D.          │      ║
 ║   ▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲▲              │      ║
 ║                                                                   │      ║
 ║   D. ADJUST                                                       │      ║
 ║   ─────────────────────────                                       │      ║
-║   narrative-memory (Phase IV) + narrative-consistency            │      ║
+║   narrative-memory (Phase IV) + narrative-consistency             │      ║
 ║                                                                   │      ║
-║   • Index finished chapter (narrative-memory)                    │      ║
-║   • Review ripple conflicts; resolve or accept                   │      ║
-║   • If event graph must change → return to Phase A  ────────────┘      ║
-║   • If consistent → define next event (start new A-B-C-D cycle)        ║
+║   • Index finished chapter (narrative-memory)                     │      ║
+║   • Review ripple conflicts; resolve or accept                    │      ║
+║   • If event graph must change → return to Phase A  ──────────────┘      ║
+║   • If consistent → define next event (start new A-B-C-D cycle)          ║
 ║                                                                          ║
 ╚══════════════════════════════════════════════════════════════════════════╝
 ```
@@ -346,6 +347,36 @@ core.)
 
 ---
 
+## Character KB coverage rule (mandatory)
+
+**Every character who appears in prose — regardless of role tier — must have a KB entry
+created during Phase C of the chapter in which they first appear.** "Appears in prose"
+means named in dialogue or action, physically present in a scene, or referred to by a
+consistent identity (even unnamed: 「老兵」, 「年轻士兵」, 「代号V-07」).
+
+| Tier | What to create |
+|---|---|
+| POV character | Full profile `characters/char_<id>.json` + state timeline + mask |
+| Named supporting | Profile (may be lightweight) + ontology entity + states entry |
+| Unnamed but recurring | Profile with placeholder name + ontology entity + states entry |
+| Named-and-dead in same chapter | Profile (minimal, mark status: deceased) + ontology entity |
+| One-line walk-on (never returns) | Ontology entity only (type: Person, salience ≤ 0.2) |
+
+**Required for every non-walk-on:**
+1. `characters/char_<id>.json` — profile (minimal okay: name/aliases, type, description, faction, first_chapter, status)
+2. Ontology entity entry in `ontology.json` with `salience` set
+3. `characters/states/<id>.json` — at minimum one snapshot at the chapter they appear
+4. Relations to existing characters added to `ontology.json.relations[]`
+
+**Rule of thumb:** if the character is referred to across two or more sentences in the
+prose, they need a profile. If the prose gives them a name, a physical detail, or a
+recurring behaviour pattern, they need a profile.
+
+Retroactive correction: if a chapter was committed without creating profiles for new
+characters who appear, create them before starting the next chapter's Phase A.
+
+---
+
 ## Anti-patterns
 
 - **Writing before the DESIGN GATE opens.** Drafting without a complete beat sheet and
@@ -362,6 +393,9 @@ core.)
   data. Parallelising them causes write conflicts on ontology.json.
 - **Un-tracked improvised lore.** New factions/herbs/rules invented in prose must be
   harvested into the KB (LORE-01) before the next design pass.
+- **Skipping character KB entries for supporting/minor roles.** Every character who
+  appears in prose must have at minimum an ontology entity and a profile file. Committing
+  a chapter without these is a Phase C violation — fix before starting the next cycle.
 
 ---
 

@@ -25,6 +25,107 @@
         "level": "high_physical_low_psionic",
         "notes": "物理空间感知极强，战场直觉一流；灵能感知大幅衰减，只能感知物理空间而非他人意识或情绪；对源质振动有残余感知，比他自己意识到的更敏感"
       }
+    },
+    {
+      "story_time": 9,
+      "chapter_id": "ch_015",
+      "facts_known": ["fact_aeon_resonance_severed", "fact_ghost_event"],
+      "facts_newly_confirmed": [],
+      "facts_unknown": [
+        "fact_the_lie", "fact_war_director_awakening", "fact_ulos_true_origin",
+        "fact_origin_matter_consciousness", "fact_federation_monopoly_plan", "fact_elwis_council_lie"
+      ],
+      "new_observation": "在活跃矿脉旁感受到一种与斩断的灵能共鸣具有相似质感的压力。他没有解释它（源质能量与灵能的关联？），也没有试图回应或封闭它。整夜没有取出碎晶——这是比ch_007（取出、看、放回）更内收的姿态，是他第一次不确定自己为什么没有取出来。",
+      "beliefs_at_chapter_end": [
+        {"belief": "只要足够克制，有一天可以重回共鸣", "is_true": false, "note": "那个矿脉压力提醒了他共鸣接触的质感，但他的发送端不存在——他没有去想这意味着什么"},
+        {"belief": "战争会在某天终止", "is_true": false},
+        {"belief": "他对其他族群的生死已经无动于衷", "is_true": false},
+        {"belief": "那块源质碎晶只是一个习惯", "is_true": "unknown", "note": "他整夜没有取出它，但早晨手搭在口袋外停了两秒——「习惯」这个解释越来越不够用了"}
+      ]
+    },
+    {
+      "story_time": 6,
+      "chapter_id": "ch_011",
+      "facts_known": ["fact_aeon_resonance_severed", "fact_ghost_event"],
+      "facts_newly_confirmed": [],
+      "facts_unknown": [
+        "fact_the_lie",
+        "fact_war_director_awakening",
+        "fact_ulos_true_origin",
+        "fact_origin_matter_consciousness",
+        "fact_federation_monopoly_plan",
+        "fact_elwis_council_lie"
+      ],
+      "new_observation": "他在废弃前哨站里感知到共鸣节点的残余热度——说明他的灵能感知不是完全消失的，在近距离接触共鸣相关物件时仍有非常轻微的感知。他把储存晶石放回了原位，放得很仔细。他在乎那个等待是否仍然完整，即使他无法回应它。",
+      "beliefs_at_chapter_end": [
+        {"belief": "只要足够克制，有一天可以重回共鸣", "is_true": false, "note": "他整夜靠近储存晶石却什么都感知不到——这个行动本身说明他想感知，但又用他的逻辑框架封装了这件事"},
+        {"belief": "战争会在某天终止", "is_true": false},
+        {"belief": "他对其他族群的生死已经无动于衷", "is_true": false, "note": "本章完全关于他自己的族群——留言晶石、制式外衣、残余热度。他在乎，以一种他没有命名的方式"},
+        {"belief": "那块源质碎晶只是一个习惯", "is_true": "unknown"}
+      ]
+    },
+    {
+      "story_time": 4,
+      "chapter_id": "ch_007",
+      "facts_known": ["fact_aeon_resonance_severed", "fact_ghost_event"],
+      "facts_newly_confirmed": [],
+      "facts_unknown": [
+        "fact_the_lie",
+        "fact_war_director_awakening",
+        "fact_ulos_true_origin",
+        "fact_origin_matter_consciousness",
+        "fact_federation_monopoly_plan",
+        "fact_elwis_council_lie"
+      ],
+      "new_observation": "他从外部看了战争控制器处理节点一整个下午，没有得到任何新事实——但他第一次对战争机器有了一个空间性的、具体的感知（而非作为幽灵在其中移动）。源质碎晶在能量节点附近的振动更强，他注意到了但没有追问。他停下来的真实原因没有被命名。",
+      "beliefs_at_chapter_end": [
+        {"belief": "只要足够克制，有一天可以重回共鸣", "is_true": false},
+        {"belief": "战争会在某天终止", "is_true": false},
+        {"belief": "他对其他族群的生死已经无动于衷", "is_true": false, "note": "本章没有直接挑战这个信念，但他停下来看战争机器「是什么形状」这件事本身，说明他还在意这个问题"},
+        {"belief": "那块源质碎晶只是一个习惯", "is_true": "unknown", "note": "碎晶在节点附近的反应更强，他注意到了，这是一个他没有追问的事实"}
+      ]
+    },
+    {
+      "story_time": 2,
+      "chapter_id": "ch_004",
+      "facts_known": ["fact_aeon_resonance_severed", "fact_ghost_event"],
+      "facts_newly_confirmed": [],
+      "new_observation": "当另一个活着的人在场时，他的注意力会自动聚拢指向那个存在——这是共鸣本能的物理残留。那个人离开后，他感受到了「手松开的形状」。他没有给这件事命名，选择入睡。",
+      "beliefs_at_chapter_end": [
+        {"belief": "只要足够克制，有一天可以重回共鸣", "is_true": false},
+        {"belief": "战争会在某天终止", "is_true": false},
+        {"belief": "他对其他族群的生死已经无动于衷", "is_true": false, "note": "他主动将口粮分给陌生人，主动留在哭泣的人旁边，在对方离开后感受到空缺——信念继续松动，他仍未意识到"},
+        {"belief": "那块源质碎晶只是一个习惯", "is_true": "unknown"}
+      ]
+    },
+    {
+      "story_time": 1,
+      "chapter_id": "ch_001",
+      "facts_known": [
+        "fact_aeon_resonance_severed",
+        "fact_ghost_event"
+      ],
+      "facts_confirmed_this_chapter": [
+        "他在战争控制器的识别系统里是幽灵——被归类为「低优先级，无需响应」，验证了他已知的事实"
+      ],
+      "facts_unknown": [
+        "fact_the_lie",
+        "fact_war_director_awakening",
+        "fact_ulos_true_origin",
+        "fact_origin_matter_consciousness",
+        "fact_federation_monopoly_plan",
+        "fact_elwis_council_lie"
+      ],
+      "beliefs_held": [
+        {"belief": "只要足够克制，有一天可以重回共鸣", "is_true": false},
+        {"belief": "战争会在某天终止", "is_true": false},
+        {"belief": "他对其他族群的生死已经无动于衷", "is_true": false, "note": "本章行为（替陌生战士合眼、整理外套）已开始侵蚀这个信念，但艾昂自己尚未意识到"},
+        {"belief": "那块源质碎晶只是一个习惯，没有特殊意义", "is_true": "unknown", "note": "握着它感受振动，但他选择不追问原因"}
+      ],
+      "perception": {
+        "level": "high_physical_low_psionic",
+        "notes": "同T=0"
+      }
     }
   ]
 }
