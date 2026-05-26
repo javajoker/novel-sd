@@ -115,7 +115,8 @@
           "id": "ch_013", "number": 13, "title": "信号空白",
           "thread_id": "thr_theta", "pov_character": "char_theta_seven", "story_time": 8,
           "one_line": "Θ-7在例行扫描中注意到一个信号空白——不属于任何阵营的生物存在，在碎晶星域北区缓慢移动。",
-          "scene_arc": "扫描→异常→命名（Null-01）", "status": "outlined"
+          "scene_arc": "扫描→异常→命名（Null-01）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_013.json"
         },
         {
           "id": "ch_014", "number": 14, "title": "那个人",

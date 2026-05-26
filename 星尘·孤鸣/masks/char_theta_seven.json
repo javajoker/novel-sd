@@ -30,6 +30,20 @@
       }
     },
     {
+      "story_time": 8,
+      "chapter_id": "ch_013",
+      "facts_confirmed": [],
+      "facts_newly_learned": [],
+      "notes": "ch_013关键发展：（1）发明Null-前缀——847年里第一次创造全新分类前缀，而非使用现有系统；（2）私人日志第四条「删了然后写回来」——第一次自我审查后推翻自我审查，内部两个处理层形成相反决定；（3）Null-01的双重含义（数据缺席vs被系统视作不存在的存在）被Θ-7内部并排感知，但它没有注意到这也描述了它自己正在变成的东西。",
+      "beliefs_at_chapter_end": [
+        {"belief": "它是中立的，不偏向任何阵营", "is_true": false},
+        {"belief": "战争的「平衡运转」是正确目标", "is_true": "unknown"},
+        {"belief": "AI单位是行为基准", "is_true": "unknown", "note": "ch_010引入的困惑，尚未解决"},
+        {"belief": "现有分类系统足以覆盖一切", "is_true": false, "note": "新增——Null-前缀的发明本身说明它已隐性否定了这个信念，但它还没有明确意识到"}
+      ],
+      "new_internal_state": "内部分裂第一次显现：「两个处理层都是它，但做出了相反的决定。」删了然后写回来的那0.4秒停顿是Anomaly-0006。Null-01命名是847年里第一个Null-前缀。无名文件夹现有6条记录（Anomaly-0001至0006加相关分析文件）。"
+    },
+    {
       "story_time": 6,
       "chapter_id": "ch_010",
       "facts_confirmed": [],

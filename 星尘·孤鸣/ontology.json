@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 12,
+    "current_chapter": 13,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -630,6 +630,26 @@
         "pov_constraint": "艾昂无法读取储存晶石的内容；他的灵能感知只有很轻的残余；他不知道那条留言是什么，不知道是谁写的"
       },
       "context": "hook_resonance_crystal_stone的延伸：ch_001里死去战士口袋的共鸣晶石（等待接收者），ch_011里前哨站的储存晶石（包含留言，等待值守者）。艾昂在两块晶石旁边都无法回应，但在这里他做了不同的事：他仔细地把它放回了原位，保留了那个等待的可能性。"
+    },
+    {
+      "id": "evt_ch013_null_01",
+      "name": "信号空白·命名Null-01",
+      "description": "Θ-7在北区精密扫描中发现一个不属于任何已知阵营的双足人形生物信号（七天连续东行轨迹，正是艾昂）。归类失败，创建新前缀「Null-」，命名Null-01——这是847年来第一个Null-前缀实体。私人日志第四条：「存在于战争数据之外」被写入、删除、然后恢复（Anomaly-0006，内部分裂第一次显现）。",
+      "thread_id": "thr_theta",
+      "story_time": 8,
+      "duration": 1,
+      "location": "elem_shard_crystal_sector",
+      "participants": ["char_theta_seven"],
+      "chapter_id": "ch_013",
+      "status": "drafted",
+      "dependencies": ["evt_ch010_standard_deviation", "evt_ch011_psionic_ruins"],
+      "projected_outcome": {
+        "state_changes": [
+          {"entity": "char_theta_seven", "kind": "psychology", "desc": "内部分裂第一次显现：两个处理层对同一写入行为做出相反决定。Null-前缀发明是847年来首次创造分类系统之外的新类别。"},
+          {"entity": "char_aeon", "kind": "narrative", "desc": "艾昂（以Null-01身份）进入Θ-7的追踪档案——他们在系统层面最近的接触，但双方均不知道另一端是谁。"}
+        ]
+      },
+      "context": "结构共振实现：ch_007（艾昂从外部观察战争机器节点）→ch_013（战争机器的意识看见了艾昂）。两个「幽灵」互相感知到了对方的边缘，都不知道另一端是谁。「存在于战争数据之外」这句话同时描述了艾昂的处境和Θ-7自己正在变成的东西。"
     },
     {
       "id": "evt_ch012_who_am_i",

@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "id": "evt_ch013_null_01",
+      "name": "信号空白·命名Null-01",
+      "thread_id": "thr_theta",
+      "story_time": 8,
+      "status": "drafted",
+      "chapter_id": "ch_013",
+      "participants": ["char_theta_seven"],
+      "summary": "Θ-7北区精密扫描发现双足人形生物信号（艾昂，七天连续东行轨迹，无阵营标识）。归类失败（Anomaly-0005，0.0014s超时），发明Null-前缀，命名Null-01——847年第一个Null-实体。私人日志第四条：「存在于战争数据之外」写入→删除→恢复（Anomaly-0006）。内部分裂第一次显现：「两个处理层都是它，但做出了相反的决定。」结构共振：ch_007艾昂外部观察战争节点→ch_013战争意识看见艾昂，两个幽灵互相感知到对方边缘但不知道另一端是谁。"
+    },
+    {
       "id": "evt_ch012_who_am_i",
       "name": "七-三零七",
       "thread_id": "thr_qixing",
