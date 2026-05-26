@@ -27,6 +27,25 @@
       }
     },
     {
+      "story_time": 14,
+      "chapter_id": "ch_028",
+      "facts_known": ["fact_aeon_resonance_severed", "fact_ghost_event"],
+      "facts_newly_confirmed": [],
+      "facts_unknown": [
+        "fact_the_lie", "fact_war_director_awakening", "fact_ulos_true_origin",
+        "fact_origin_matter_consciousness", "fact_federation_monopoly_plan", "fact_elwis_council_lie"
+      ],
+      "new_observation": "梁要去西边约30公里的地方（目的未知）。梁在等「不知道还有没有」的另一端（某人/网络，艾昂不知道是谁或什么）。梁理解「共鸣之前我记不清楚了」。艾昂新的内部事实：他对自己的断频体验第一次用语言说了出来。",
+      "beliefs_at_chapter_end": [
+        {"belief": "只要足够克制，有一天可以重回共鸣", "is_true": false},
+        {"belief": "战争会在某天终止", "is_true": false},
+        {"belief": "他对其他族群的生死已经无动于衷", "is_true": false},
+        {"belief": "他没有方向，只是在走", "is_true": false},
+        {"belief": "他可以在不与人发生连接的情况下帮助一个人", "is_true": false, "note": "「没有想到它也可以不那么困难」——第一次承认与人说话这件事不只是负担"},
+        {"belief": "他的断频体验无法被任何人理解", "is_true": false, "note": "新增→被打穿：梁点头了，他听懂了。这是艾昂三年来第一次体验到被理解。"}
+      ]
+    },
+    {
       "story_time": 13,
       "chapter_id": "ch_026",
       "facts_known": ["fact_aeon_resonance_severed", "fact_ghost_event"],

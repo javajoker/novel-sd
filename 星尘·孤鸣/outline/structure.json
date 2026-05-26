@@ -220,7 +220,8 @@
           "id": "ch_028", "number": 28, "title": "没有共鸣的话",
           "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 14,
           "one_line": "艾昂和梁第一次真正的对话，全程没有共鸣，两个断频者用物理语言交流他们不能说的事。",
-          "scene_arc": "沉默→第一句话→更多的话（不够，但已经比三年来的任何时候都多）", "status": "outlined"
+          "scene_arc": "沉默→第一句话→更多的话（不够，但已经比三年来的任何时候都多）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_028.json"
         },
         {
           "id": "ch_029", "number": 29, "title": "数据异常",

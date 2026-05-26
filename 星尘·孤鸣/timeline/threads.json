@@ -5,9 +5,9 @@
       "name": "艾昂·孤鸣者",
       "pov_character": "char_aeon",
       "start_time": 1,
-      "current_time": 13,
-      "latest_chapter": "ch_026",
-      "event_ids": ["evt_novel_opening", "evt_ch004_first_encounter", "evt_ch007_war_machine_outside", "evt_ch011_psionic_ruins", "evt_ch015_ore_vein", "evt_ch019_turning_back", "evt_ch021_finding_liang", "evt_ch023_outpost_first_night", "evt_ch026_liang_first_exchange"],
+      "current_time": 14,
+      "latest_chapter": "ch_028",
+      "event_ids": ["evt_novel_opening", "evt_ch004_first_encounter", "evt_ch007_war_machine_outside", "evt_ch011_psionic_ruins", "evt_ch015_ore_vein", "evt_ch019_turning_back", "evt_ch021_finding_liang", "evt_ch023_outpost_first_night", "evt_ch026_liang_first_exchange", "evt_ch028_first_real_conversation"],
       "status": "active"
     },
     {

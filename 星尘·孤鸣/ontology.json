@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 27,
+    "current_chapter": 28,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -783,6 +783,26 @@
       "context": "hook_resonance_crystal_stone的延伸：ch_001里死去战士口袋的共鸣晶石（等待接收者），ch_011里前哨站的储存晶石（包含留言，等待值守者）。艾昂在两块晶石旁边都无法回应，但在这里他做了不同的事：他仔细地把它放回了原位，保留了那个等待的可能性。"
     },
     {
+      "id": "evt_ch028_first_real_conversation",
+      "name": "没有共鸣的话",
+      "description": "前哨站第三天，两人第一次真正的对话。梁问「你能在这里待多久」「你去哪」，分享了目的地（西边约30公里，不解释内容）。艾昂问「等什么」，梁说「不知道还有没有」（等一个不确定是否还存在的另一端）。艾昂说「共鸣之前，我记不清楚了」——第一次对任何人说出这件事。梁慢慢点头，不再说话。三十句话不到，每句不超过十字，比艾昂三年来说的都多。",
+      "thread_id": "thr_aeon",
+      "story_time": 14,
+      "duration": 1,
+      "location": "灵能族废弃前哨站",
+      "participants": ["char_aeon", "char_liang"],
+      "chapter_id": "ch_028",
+      "status": "drafted",
+      "dependencies": ["evt_ch026_liang_first_exchange"],
+      "projected_outcome": {
+        "state_changes": [
+          {"entity": "char_aeon", "kind": "psychology", "desc": "第一次说出断频核心体验。第一次被理解（梁点头）。「没有想到不那么困难」——第一次承认连接不只是负担。"},
+          {"entity": "char_liang", "kind": "psychology+knowledge", "desc": "主动开口，分享目的地，说出了「不知道还有没有」。理解并点头回应艾昂的「共鸣之前」。"}
+        ]
+      },
+      "context": "ch_026（「多久了」「三年」，五字交换）→ch_028（三十句，每句≤十字，两个断频者用物理语言替代共鸣语言）。这是vol_01最重要的对话章节之一。"
+    },
+    {
       "id": "evt_ch027_void_seed_planted",
       "name": "虚空种子植入",
       "description": "乌洛斯单独渗透维格拉斯地壳300米深处，在「三叉结」源质能量节点上植入虚空种子（十年前亲手制作的虚空晶格构造体）。全程47分钟，无系统响应，撤离。在战略地图「三叉结」位置标记「开始」。让「那首歌」停留两秒然后压制。倒计时：十二个月。",
@@ -1122,9 +1142,9 @@
       "pov_character": "char_aeon",
       "start_time": 1,
       "end_time": null,
-      "current_time": 12,
-      "latest_chapter": "ch_023",
-      "event_ids": ["evt_novel_opening", "evt_ch004_first_encounter", "evt_ch007_war_machine_outside", "evt_ch011_psionic_ruins", "evt_ch015_ore_vein", "evt_ch019_turning_back", "evt_ch021_finding_liang", "evt_ch023_outpost_first_night", "evt_ch026_liang_first_exchange"],
+      "current_time": 14,
+      "latest_chapter": "ch_028",
+      "event_ids": ["evt_novel_opening", "evt_ch004_first_encounter", "evt_ch007_war_machine_outside", "evt_ch011_psionic_ruins", "evt_ch015_ore_vein", "evt_ch019_turning_back", "evt_ch021_finding_liang", "evt_ch023_outpost_first_night", "evt_ch026_liang_first_exchange", "evt_ch028_first_real_conversation"],
       "convergences": []
     },
     {
