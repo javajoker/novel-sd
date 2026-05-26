@@ -206,7 +206,8 @@
           "id": "ch_026", "number": 26, "title": "梁",
           "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 13,
           "one_line": "梁的过去通过零碎的只言片语在艾昂的观察中浮现：他是谁，他经历了什么，他为什么在这里。",
-          "scene_arc": "观察→碎片→拼图（没有完整，但足够的轮廓）", "status": "outlined"
+          "scene_arc": "观察→碎片→拼图（没有完整，但足够的轮廓）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_026.json"
         },
         {
           "id": "ch_027", "number": 27, "title": "计划（二）",

@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 25,
+    "current_chapter": 26,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -783,6 +783,26 @@
       "context": "hook_resonance_crystal_stone的延伸：ch_001里死去战士口袋的共鸣晶石（等待接收者），ch_011里前哨站的储存晶石（包含留言，等待值守者）。艾昂在两块晶石旁边都无法回应，但在这里他做了不同的事：他仔细地把它放回了原位，保留了那个等待的可能性。"
     },
     {
+      "id": "evt_ch026_liang_first_exchange",
+      "name": "梁·第一次对话",
+      "description": "艾昂外出取得补给（水、干粮、医疗材料），回到前哨站发现梁已能坐起。重新处理绑扎，梁自主进食少量。梁感知到艾昂的断频（看颈肩方向），说「多久了」（无语气词）。艾昂沉默片刻，说「三年」——第一次对任何人说出这个数字。梁闭眼，不再说话。傍晚梁真正睡着（非昏迷）。艾昂意识到他在规划两周，让这个念头存在，没有审视。",
+      "thread_id": "thr_aeon",
+      "story_time": 13,
+      "duration": 1,
+      "location": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站",
+      "participants": ["char_aeon", "char_liang"],
+      "chapter_id": "ch_026",
+      "status": "drafted",
+      "dependencies": ["evt_ch023_outpost_first_night"],
+      "projected_outcome": {
+        "state_changes": [
+          {"entity": "char_aeon", "kind": "psychology+knowledge", "desc": "第一次对任何人说出「三年」。三年来第一次有人感知到他的断频。他没有命名这件事。开始规划两周（不审视）。"},
+          {"entity": "char_liang", "kind": "status", "desc": "从alive_critical_stable进入alive_recovering。首次开口，感知到艾昂断频。真正睡着（非昏迷）。"}
+        ]
+      },
+      "context": "ch_021（发现梁，走五步然后停）→ch_023（第一夜共处，在呼吸声中入睡）→ch_026（第一次对话：「多久了」「三年」——两个流亡灵能族人之间迄今最深的信息交换，共五个字）。梁的「多久了」是vol_01里最沉的问题之一，因为它不需要解释：问的是那片空存在了多久，不是你在这里多久。"
+    },
+    {
       "id": "evt_ch025_null01_stationary",
       "name": "均衡",
       "description": "Θ-7追踪Null-01，第314天全日四次更新均为同一坐标（前哨站遗址PSN-VG-3391），静止已59小时。分类尝试全部失败：不符合受伤、死亡、战术性静止任一类别。检测到额外弱生命体征（梁），归类为「可能干扰项」，未识别为人。Anomaly-0008：处理时间超标20倍，且出现无意识重新打开档案的行为（无主动意图）。私人日志第六条：第一次完整句子组，第一次「我」作主语，第一次承认分类系统本身有洞。0.5秒停留时间。",
@@ -1085,7 +1105,7 @@
       "end_time": null,
       "current_time": 12,
       "latest_chapter": "ch_023",
-      "event_ids": ["evt_novel_opening", "evt_ch004_first_encounter", "evt_ch007_war_machine_outside", "evt_ch011_psionic_ruins", "evt_ch015_ore_vein", "evt_ch019_turning_back", "evt_ch021_finding_liang", "evt_ch023_outpost_first_night"],
+      "event_ids": ["evt_novel_opening", "evt_ch004_first_encounter", "evt_ch007_war_machine_outside", "evt_ch011_psionic_ruins", "evt_ch015_ore_vein", "evt_ch019_turning_back", "evt_ch021_finding_liang", "evt_ch023_outpost_first_night", "evt_ch026_liang_first_exchange"],
       "convergences": []
     },
     {
