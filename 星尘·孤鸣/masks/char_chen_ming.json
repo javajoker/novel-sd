@@ -25,6 +25,19 @@
       }
     },
     {
+      "story_time": 3,
+      "chapter_id": "ch_005",
+      "facts_confirmed": [],
+      "facts_newly_learned": [],
+      "notes": "ch_005无新事实传递。陈铭的防御机制从被动升级为主动——他现在需要刻意不去知道名字，而不只是习惯性回避。",
+      "beliefs_at_chapter_end": [
+        {"belief": "联邦会赢得这场战争", "is_true": false},
+        {"belief": "他已经麻木了", "is_true": false, "note": "防御机制的主动化本身证明了他没有麻木。他用逻辑（「不知道名字=没有裂缝」）包装感情回避，但逻辑本身揭示了他在避开什么。信念表面完整，底层裂缝加深。"},
+        {"belief": "活着只是习惯", "is_true": "partial"}
+      ],
+      "new_observation": "他发现了一件事：记脸的习惯（收集名牌之前的前置反应）在他身上没有完全消失，只是换了形式。这个觉察没有被他深入处理，但它在那里。"
+    },
+    {
       "story_time": 1,
       "chapter_id": "ch_002",
       "facts_confirmed": [],

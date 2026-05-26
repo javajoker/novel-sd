@@ -59,7 +59,8 @@
           "id": "ch_005", "number": 5, "title": "行军路上",
           "thread_id": "thr_chen_ming", "pov_character": "char_chen_ming", "story_time": 3,
           "one_line": "陈铭跟着一支临时联邦队伍向新战场移动，他在观察那些还不知道自己会死的脸。",
-          "scene_arc": "功能性→观察→某种接近不情愿的在意", "status": "outlined"
+          "scene_arc": "功能性→观察→某种接近不情愿的在意", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_005.json"
         },
         {
           "id": "ch_006", "number": 6, "title": "战争计划",

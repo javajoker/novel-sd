@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 4,
+    "current_chapter": 5,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -459,6 +459,32 @@
         "pov_constraint": "艾昂通过物理感知（动作、声音、气味）感知那个士兵，无法读取情绪；他不知道那个人是陈铭，读者可以通过细节辨认"
       },
       "context": "vol_01核心弧「孤独→第一次连接→失去」的第一步：连接的萌芽。这一章的相遇不是真正的连接，而是连接的前奏——它展示艾昂仍然有被另一个人吸引的能力，尽管他自己否认这件事。"
+    },
+    {
+      "id": "evt_ch005_march",
+      "name": "行军路上",
+      "description": "陈铭随二十三人临时联邦队伍行军，他的身体自动评估每一张脸的存活概率，直到他意识到这不只是评估——他在记脸。他跟在一个约十八岁的年轻士兵旁边，帮他解了帐篷连接扣，然后在深夜握着名牌时出现了一个念头：那孩子的名字是什么。他选择不去问。",
+      "thread_id": "thr_chen_ming",
+      "story_time": 3,
+      "duration": 2,
+      "location": "elem_shard_crystal_sector",
+      "participants": ["char_chen_ming"],
+      "chapter_id": "ch_005",
+      "status": "drafted",
+      "dependencies": ["evt_ch002_chen_ming_names"],
+      "projected_outcome": {
+        "state_changes": [
+          {"entity": "char_chen_ming", "kind": "psychology", "desc": "防御机制从被动回避升级为主动拒绝：他现在需要刻意不问名字，而不只是习惯性不问"}
+        ]
+      },
+      "beat_design": {
+        "pov": "char_chen_ming",
+        "technique": "克制叙事，动作>感受，防御机制通过「不想知道」的主动决定暴露底层情感",
+        "scene_arc": "功能性→观察→某种接近不情愿的在意",
+        "key_moment": "深夜握着名牌，停下来想：那孩子如果明天死了，他的名字是什么——然后选择不问",
+        "pov_constraint": "陈铭不知道那二十三人中任何一人的名字（刻意回避），不知道Θ-7，不知道艾昂叫艾昂"
+      },
+      "context": "陈铭「麻木防线」持续侵蚀的第二章。ch_002：裂缝出现并被封上。ch_005：防御机制需要更多力气才能维持——从自动运转变成有意识的拒绝。"
     }
   ],
   "themes": [

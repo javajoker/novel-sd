@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "id": "evt_ch005_march",
+      "name": "行军路上",
+      "thread_id": "thr_chen_ming",
+      "story_time": 3,
+      "status": "drafted",
+      "chapter_id": "ch_005",
+      "participants": ["char_chen_ming"],
+      "summary": "陈铭随二十三人临时联邦队伍行军。发现自己在记脸（而非名字）——旧习惯的残留。跟在一个约十八岁的年轻士兵旁边，帮他解了帐篷连接扣，无言。深夜握名牌时出现念头「那孩子如果明天死了，他的名字是什么」——停留几秒后选择不追问，第二天早晨主动回避了可能的名字交换。防御机制从被动升级为主动。"
+    },
+    {
       "id": "evt_ghost_resonance_event",
       "name": "共鸣之殇",
       "thread_id": "thr_aeon",
