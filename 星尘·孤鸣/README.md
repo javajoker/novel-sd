@@ -1,4 +1,4 @@
-# 星尘：源质的觉醒
+# 星尘·孤鸣
 
 A NovelForge novel project — the manuscript is decoupled from the *world state*. Prose
 lives in `chapters/`; the truth (who knows/holds what, who feels what about whom, when,
