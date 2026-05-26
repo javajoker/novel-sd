@@ -74,7 +74,8 @@
           "story_time": 2,
           "one_line": "艾昂在一处联邦废弃补给站找到了食物和水，以及一个在废墟里偷偷哭泣的联邦士兵。",
           "scene_arc": "独自→相遇（第一次有另一个人）→各自离开",
-          "status": "outlined"
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_004.json"
         }
       ]
     },

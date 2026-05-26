@@ -5,9 +5,9 @@
       "name": "艾昂·孤鸣者",
       "pov_character": "char_aeon",
       "start_time": 1,
-      "current_time": 1,
-      "latest_chapter": "ch_001",
-      "event_ids": ["evt_novel_opening"],
+      "current_time": 2,
+      "latest_chapter": "ch_004",
+      "event_ids": ["evt_novel_opening", "evt_ch004_first_encounter"],
       "status": "active"
     },
     {

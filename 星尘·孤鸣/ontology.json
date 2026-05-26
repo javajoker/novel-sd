@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 3,
+    "current_chapter": 4,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -432,6 +432,33 @@
         "pov_constraint": "Θ-7知道战场所有数据，但不理解「死亡」的意义；不知道它自己的觉醒对战争体系意味着什么风险"
       },
       "context": "五条视角线的第三条引入，最独特的叙事声音。与前两章的人类孤独构成宏观对照：AI的孤独是不知道自己为什么开始思考孤独。"
+    },
+    {
+      "id": "evt_ch004_first_encounter",
+      "name": "补给站相遇",
+      "description": "艾昂在一处联邦废弃补给站找到食物和水，意外发现一名在里面独自哭泣的联邦士兵（从细节可辨认为陈铭）。他们没有交谈名字，分了口粮，然后各自离开。这是艾昂三年流亡里第一次主动与另一个活着的人共处同一空间而没有离开。",
+      "thread_id": "thr_aeon",
+      "story_time": 2,
+      "duration": 1,
+      "location": "elem_shard_crystal_sector",
+      "participants": ["char_aeon", "char_chen_ming"],
+      "chapter_id": "ch_004",
+      "status": "drafted",
+      "dependencies": ["evt_novel_opening"],
+      "projected_outcome": {
+        "state_changes": [
+          {"entity": "char_aeon", "kind": "psychology", "desc": "第一次在另一个活着的存在旁边停留，感知到「手松开的形状」——孤独→连接弧的最早迹象"},
+          {"entity": "char_chen_ming", "kind": "psychology", "desc": "被一个陌生人（灵能族，艾昂）默默提供食物，某种东西被轻轻触碰（但他不知道那是什么）"}
+        ]
+      },
+      "beat_design": {
+        "pov": "char_aeon",
+        "technique": "文学慢镜头，物理感知替代情绪词汇，平行视角结构（读者知道那个士兵是陈铭，艾昂不知道）",
+        "scene_arc": "独自→相遇（第一次有另一个人）→各自离开",
+        "key_moment": "艾昂走开后感受到「手松开的形状」——他主动留在了那个人旁边，然后对方离开，那个留下来的感知突然没有了落点",
+        "pov_constraint": "艾昂通过物理感知（动作、声音、气味）感知那个士兵，无法读取情绪；他不知道那个人是陈铭，读者可以通过细节辨认"
+      },
+      "context": "vol_01核心弧「孤独→第一次连接→失去」的第一步：连接的萌芽。这一章的相遇不是真正的连接，而是连接的前奏——它展示艾昂仍然有被另一个人吸引的能力，尽管他自己否认这件事。"
     }
   ],
   "themes": [

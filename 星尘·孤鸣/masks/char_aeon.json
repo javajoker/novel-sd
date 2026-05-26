@@ -27,6 +27,19 @@
       }
     },
     {
+      "story_time": 2,
+      "chapter_id": "ch_004",
+      "facts_known": ["fact_aeon_resonance_severed", "fact_ghost_event"],
+      "facts_newly_confirmed": [],
+      "new_observation": "当另一个活着的人在场时，他的注意力会自动聚拢指向那个存在——这是共鸣本能的物理残留。那个人离开后，他感受到了「手松开的形状」。他没有给这件事命名，选择入睡。",
+      "beliefs_at_chapter_end": [
+        {"belief": "只要足够克制，有一天可以重回共鸣", "is_true": false},
+        {"belief": "战争会在某天终止", "is_true": false},
+        {"belief": "他对其他族群的生死已经无动于衷", "is_true": false, "note": "他主动将口粮分给陌生人，主动留在哭泣的人旁边，在对方离开后感受到空缺——信念继续松动，他仍未意识到"},
+        {"belief": "那块源质碎晶只是一个习惯", "is_true": "unknown"}
+      ]
+    },
+    {
       "story_time": 1,
       "chapter_id": "ch_001",
       "facts_known": [

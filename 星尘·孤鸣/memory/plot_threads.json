@@ -25,6 +25,18 @@
       "risk": "如果那个等待的人没有在适当时候出场或被提及，读者会忘记这个钩子。"
     },
     {
+      "id": "hook_aeon_chen_ming_anonymous_meeting",
+      "concept": "艾昂和陈铭在补给站的无名相遇——两人从未知道对方叫什么",
+      "status": "open",
+      "introduced_chapter": "ch_004",
+      "last_mention_chapter": "ch_004",
+      "occurrences": [
+        {"chapter_id": "ch_004", "note": "艾昂在补给站遇见陈铭（从物理细节辨认），两人无言共处，分了口粮。「你走哪」「东边」是全部对话。艾昂不知道他叫陈铭，陈铭不知道他叫艾昂。"}
+      ],
+      "payoff_planned_chapter": "ch_012",
+      "risk": "如果这次相遇被遗忘（读者或角色双方），它的结构意义就丢失了。需要在适当章节让两人再次交汇，或者通过某个物件（例如陈铭的矿工刀、或艾昂说过的「东边」）形成回响。"
+    },
+    {
       "id": "hook_theta_data_error",
       "concept": "Θ-7将陈铭（FED-09-3-7734）标记为terminated，但陈铭在ch_002结尾仍然活着",
       "status": "open",

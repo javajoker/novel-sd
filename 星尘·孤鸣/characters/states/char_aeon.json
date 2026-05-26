@@ -2,6 +2,39 @@
   "character_id": "char_aeon",
   "states": [
     {
+      "story_time": 2,
+      "chapter_id": "ch_004",
+      "location": "碎晶星域·维格拉斯星球北侧低地，背风处过夜",
+      "physical": {
+        "status": "functional",
+        "notes": "走了约24小时，已补充食物（联邦标准口粮）和水（净化水桶），现在正在睡觉。"
+      },
+      "inventory": [
+        {"item": "elem_ability_card_jump_x3", "status": "absorbed"},
+        {"item": "elem_ability_card_shield_x1", "status": "absorbed"},
+        {"item": "自制轻型脉冲枪", "status": "equipped"},
+        {"item": "灵能族断频器", "status": "worn"},
+        {"item": "一块磨损的源质碎晶", "status": "carried"},
+        {"item": "联邦标准口粮（约2天份）", "status": "carried"},
+        {"item": "净化水（满壶）", "status": "carried"}
+      ],
+      "psychology": {
+        "sanity": 72,
+        "grief": 85,
+        "self_discipline": 95,
+        "mood": "睡着了——身体疲惫允许他比平时更快入睡，内部状态比昨晚稍微更复杂了一点点，但他在睡前选择不去追问",
+        "notable_shift": "ch_004核心：「手松开的形状」——他在那个士兵离开后感知到了注意力聚拢后散去的空缺。这是他三年来第一次感知到另一个活着的人留下了某种印记。他选择不给这件事命名，选择入睡。这是他的「谎言」（对他人的生死无动于衷）在开始以自己的方式松动——不是通过情绪，而是通过注意力结构的变化。"
+      },
+      "key_events_this_chapter": [
+        "走了整夜加一天，找到废弃联邦补给站",
+        "发现隔断里一个独自哭泣的联邦士兵（从细节可辨认为陈铭：黑色眼睛有深度、左手旧刀疤、右膝旧伤、矿业殖民地口音、老型号步枪）",
+        "默默取了两份口粮放了一份在对方旁边，然后背靠墙坐下吃自己那份，没有说话",
+        "两人无言共处直到夜幕，对方开口说「你走哪」，艾昂答「东边」，对方离开",
+        "在对方离开后感受到注意力散去的空缺——「手松开的形状」",
+        "继续向东走，找了个低地过夜，入睡前想了一下对方眼睛的颜色，然后停止想"
+      ]
+    },
+    {
       "story_time": 1,
       "chapter_id": "ch_001",
       "location": "碎晶星域·维格拉斯星球·红盐平原东侧边缘，继续向有光方向行进",
