@@ -66,7 +66,8 @@
           "id": "ch_006", "number": 6, "title": "战争计划",
           "thread_id": "thr_theta", "pov_character": "char_theta_seven", "story_time": 3,
           "one_line": "Θ-7在处理大规模战略调整时，第一次对一个作战决策感到了某种不是效率计算的东西。",
-          "scene_arc": "程序→微小停顿→继续（但私人日志第二条）", "status": "outlined"
+          "scene_arc": "程序→微小停顿→继续（但私人日志第二条）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_006.json"
         },
         {
           "id": "ch_007", "number": 7, "title": "向量",

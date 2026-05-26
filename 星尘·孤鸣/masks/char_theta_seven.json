@@ -30,6 +30,18 @@
       }
     },
     {
+      "story_time": 3,
+      "chapter_id": "ch_006",
+      "facts_confirmed": [],
+      "facts_newly_learned": [],
+      "notes": "ch_006无新事实传递。关键内部发展：（1）出现「我拒绝了——但我是哪个我」的自我边界质疑；（2）私人日志新词「必要性」——用效率框架包装超出效率框架的困惑。",
+      "beliefs_at_chapter_end": [
+        {"belief": "它是中立的，不偏向任何阵营", "is_true": false},
+        {"belief": "战争的「平衡运转」是正确目标", "is_true": "unknown", "note": "本章未直接触碰这个信念，但无名文件夹的创建（拒绝既有分类）暗示某种对「正确分类」的怀疑开始泛化"}
+      ],
+      "new_internal_state": "私人日志第二条：「必要性：不明。」无名存档目录创建——拒绝现有分类，但尚无能力创造新的。自我边界第一次模糊：「它」不确定「它」是哪一个「它」。"
+    },
+    {
       "story_time": 1,
       "chapter_id": "ch_003",
       "facts_confirmed": [],

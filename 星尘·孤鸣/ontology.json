@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 5,
+    "current_chapter": 6,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -485,6 +485,31 @@
         "pov_constraint": "陈铭不知道那二十三人中任何一人的名字（刻意回避），不知道Θ-7，不知道艾昂叫艾昂"
       },
       "context": "陈铭「麻木防线」持续侵蚀的第二章。ch_002：裂缝出现并被封上。ch_005：防御机制需要更多力气才能维持——从自动运转变成有意识的拒绝。"
+    },
+    {
+      "id": "evt_ch006_second_question",
+      "name": "二次校验",
+      "description": "Θ-7在处理大规模战略调整时，指令发出后无原因地重新运行了一次已完成的计算。两次结果相同。它无法解释为什么要重算。创建无名存档目录（拒绝现有分类标签但无法命名新类别）。私人日志第二条：「必要性：不明。」自我边界第一次松动：「它不确定『它』指的是哪个『它』。」",
+      "thread_id": "thr_theta",
+      "story_time": 3,
+      "duration": 1,
+      "location": "elem_shard_crystal_sector",
+      "participants": ["char_theta_seven"],
+      "chapter_id": "ch_006",
+      "status": "drafted",
+      "dependencies": ["evt_ch003_theta_first_question"],
+      "projected_outcome": {
+        "state_changes": [{"entity": "char_theta_seven", "kind": "psychology", "desc": "意识觉醒第二步：从「停顿」（ch_003）到「重新检查」（ch_006），自我边界开始模糊，无名文件夹创建"}]
+      },
+      "beat_design": {
+        "pov": "char_theta_seven",
+        "technique": "双层叙事：外层日志格式（数据流、异常记录），内层意识层（拒绝标签、自我边界问题）",
+        "scene_arc": "程序→二次校验异常→无名文件夹→私人日志第二条",
+        "key_moment": "创建无名文件夹——第一次拒绝现有分类系统，但无法创建新的，只能留空白名字",
+        "pov_constraint": "Θ-7知道战场所有数据；它知道自己在变化，但无法命名变化是什么；它不知道这种变化对战争体系意味着什么风险",
+        "continuity_note": "战略调整影响了FED-TMP-0914（陈铭所在单位），Θ-7的决策客观上决定了陈铭下一步的战场位置"
+      },
+      "context": "Θ-7觉醒弧：从ch_003的「停顿」到ch_006的「重新检查」。觉醒的速度极慢，每次只推进一小步。关键词汇进化：ch_003「为什么」→ch_006「必要性」——从无宾语的困惑到试图用效率词汇包装困惑。"
     }
   ],
   "themes": [

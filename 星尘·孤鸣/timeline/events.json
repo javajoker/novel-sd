@@ -1,6 +1,17 @@
 {
   "events": [
     {
+      "id": "evt_ch006_second_question",
+      "name": "二次校验",
+      "thread_id": "thr_theta",
+      "story_time": 3,
+      "status": "drafted",
+      "chapter_id": "ch_006",
+      "participants": ["char_theta_seven"],
+      "summary": "Θ-7在发出北侧矿脉战略调整指令后，无原因重算了一次相同的最优解（Anomaly-0002）。创建无名存档目录（拒绝「处理异常：低优先级」标签但无法命名新类别）。私人日志第二条：「必要性：不明。」自我边界第一次质疑：「它不确定『它』指的是哪个『它』。」战略调整客观上决定了FED-TMP-0914（陈铭所在单位）的下一步战场位置。",
+      "continuity_note": "FED-TMP-0914北调指令将在ch_009触发陈铭进入的新战斗。Θ-7不知道它在移动的单位里有陈铭，也不知道陈铭=FED-09-3-7734（已被标记为terminated）。"
+    },
+    {
       "id": "evt_ch005_march",
       "name": "行军路上",
       "thread_id": "thr_chen_ming",
