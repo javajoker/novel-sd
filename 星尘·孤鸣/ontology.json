@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 16,
+    "current_chapter": 17,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -630,6 +630,23 @@
         "pov_constraint": "艾昂无法读取储存晶石的内容；他的灵能感知只有很轻的残余；他不知道那条留言是什么，不知道是谁写的"
       },
       "context": "hook_resonance_crystal_stone的延伸：ch_001里死去战士口袋的共鸣晶石（等待接收者），ch_011里前哨站的储存晶石（包含留言，等待值守者）。艾昂在两块晶石旁边都无法回应，但在这里他做了不同的事：他仔细地把它放回了原位，保留了那个等待的可能性。"
+    },
+    {
+      "id": "evt_ch017_the_fifteenth",
+      "name": "第十五",
+      "description": "陈铭在维格拉斯南侧接触战中亲眼目睹老兵（ch_014中观察的那个人）倒下，做了正确的评估没有冲出去（不同于ch_009）。战后发现自己不知道老兵的名字。夜里取名牌，念完所有已知名字，来到老兵那个空白位置——无法念，系统卡住，裂缝开着，这是第一次无法封上。他站在原地很久，没有继续走。",
+      "thread_id": "thr_chen_ming",
+      "story_time": 10,
+      "duration": 1,
+      "location": "elem_shard_crystal_sector",
+      "participants": ["char_chen_ming"],
+      "chapter_id": "ch_017",
+      "status": "drafted",
+      "dependencies": ["evt_ch014_that_person", "evt_ch009_new_battlefield"],
+      "projected_outcome": {
+        "state_changes": [{"entity": "char_chen_ming", "kind": "psychology", "desc": "防御机制第一次完全失效。「不知道名字=没有裂缝」逻辑在无名之人的死亡面前彻底失效。裂缝开着，这是第一次。陈铭性格弧的质变时刻。"}]
+      },
+      "context": "陈铭弧度的核心转折：从ch_002（裂缝出现）→ch_005（防御主动化）→ch_009（理论矛盾）→ch_014（元认知模糊）→ch_017（防御机制完全失效）。五章弧度完整。「不知道名字」这个陈铭自己建立的保护机制，在老兵的死亡面前证明了自己的虚假——即使没有名字，裂缝仍然开着。"
     },
     {
       "id": "evt_ch016_plan_first_step",

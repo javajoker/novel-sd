@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "id": "evt_ch017_the_fifteenth",
+      "name": "第十五",
+      "thread_id": "thr_chen_ming",
+      "story_time": 10,
+      "status": "drafted",
+      "chapter_id": "ch_017",
+      "participants": ["char_chen_ming"],
+      "summary": "接触战中老兵倒下，陈铭评估后没有冲出去（不同于ch_009）。战后不知道老兵的名字。夜里念名牌，来到老兵的空白位置——无法念，系统卡住，裂缝开着。他站在原地很久，没有继续走。防御机制完全失效的第一次，五章弧度（ch_002→ch_005→ch_009→ch_014→ch_017）质变完成。"
+    },
+    {
       "id": "evt_ch016_plan_first_step",
       "name": "计划（一）",
       "thread_id": "thr_ulos",

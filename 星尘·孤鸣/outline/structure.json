@@ -143,7 +143,8 @@
           "id": "ch_017", "number": 17, "title": "第十五",
           "thread_id": "thr_chen_ming", "pov_character": "char_chen_ming", "story_time": 10,
           "one_line": "陈铭失去了第十五个战友，这一次那个裂缝封不上——他在原地站了很久，没有继续走。",
-          "scene_arc": "战斗→失去→裂缝开着（第一次无法封上）", "status": "outlined"
+          "scene_arc": "战斗→失去→裂缝开着（第一次无法封上）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_017.json"
         },
         {
           "id": "ch_018", "number": 18, "title": "追踪",
