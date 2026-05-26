@@ -171,7 +171,8 @@
           "id": "ch_021", "number": 21, "title": "生（一）",
           "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 12,
           "one_line": "艾昂在前哨站附近遇见了梁——一个受了致命伤、独自躺在岩缝里的灵能族流亡老兵。",
-          "scene_arc": "行走→发现→停下来（不走了）", "status": "outlined"
+          "scene_arc": "行走→发现→走了五步然后停→处理伤口→坐下不走了", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_021.json"
         },
         {
           "id": "ch_022", "number": 22, "title": "没有回应",

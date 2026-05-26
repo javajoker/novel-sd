@@ -27,6 +27,24 @@
       }
     },
     {
+      "story_time": 12,
+      "chapter_id": "ch_021",
+      "facts_known": ["fact_aeon_resonance_severed", "fact_ghost_event"],
+      "facts_newly_confirmed": [],
+      "facts_unknown": [
+        "fact_the_lie", "fact_war_director_awakening", "fact_ulos_true_origin",
+        "fact_origin_matter_consciousness", "fact_federation_monopoly_plan", "fact_elwis_council_lie"
+      ],
+      "new_observation": "发现并处理了梁（名字尚不知）。已知：灵能族、正式族纹（曾参与共鸣网络）、流亡状态（衣物修补方式）、腿部贯穿伤。未知：名字、来历、与共鸣之殇的关系（如有）。艾昂不知道这个人与他的历史是否有交叉。",
+      "beliefs_at_chapter_end": [
+        {"belief": "只要足够克制，有一天可以重回共鸣", "is_true": false},
+        {"belief": "战争会在某天终止", "is_true": false},
+        {"belief": "他对其他族群的生死已经无动于衷", "is_true": false, "note": "ch_021直接证伪——他停下来了"},
+        {"belief": "那块源质碎晶只是一个习惯", "is_true": "unknown"},
+        {"belief": "他没有方向，只是在走", "is_true": false, "note": "他到这里了，他不走了"}
+      ]
+    },
+    {
       "story_time": 11,
       "chapter_id": "ch_019",
       "facts_known": ["fact_aeon_resonance_severed", "fact_ghost_event"],
