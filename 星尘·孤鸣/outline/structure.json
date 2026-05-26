@@ -213,7 +213,8 @@
           "id": "ch_027", "number": 27, "title": "计划（二）",
           "thread_id": "thr_ulos", "pov_character": "char_ulos", "story_time": 14,
           "one_line": "乌洛斯开始第一步行动，在碎晶星域某处源质节点附近投放一个虚空种子。",
-          "scene_arc": "准备→行动→撤退（不被发现）", "status": "outlined"
+          "scene_arc": "准备→行动→撤退（不被发现）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_027.json"
         },
         {
           "id": "ch_028", "number": 28, "title": "没有共鸣的话",

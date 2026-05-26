@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 26,
+    "current_chapter": 27,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -783,6 +783,25 @@
       "context": "hook_resonance_crystal_stone的延伸：ch_001里死去战士口袋的共鸣晶石（等待接收者），ch_011里前哨站的储存晶石（包含留言，等待值守者）。艾昂在两块晶石旁边都无法回应，但在这里他做了不同的事：他仔细地把它放回了原位，保留了那个等待的可能性。"
     },
     {
+      "id": "evt_ch027_void_seed_planted",
+      "name": "虚空种子植入",
+      "description": "乌洛斯单独渗透维格拉斯地壳300米深处，在「三叉结」源质能量节点上植入虚空种子（十年前亲手制作的虚空晶格构造体）。全程47分钟，无系统响应，撤离。在战略地图「三叉结」位置标记「开始」。让「那首歌」停留两秒然后压制。倒计时：十二个月。",
+      "thread_id": "thr_ulos",
+      "story_time": 14,
+      "duration": 1,
+      "location": "维格拉斯星球地壳下300米·三叉结源质节点",
+      "participants": ["char_ulos"],
+      "chapter_id": "ch_027",
+      "status": "drafted",
+      "dependencies": ["evt_ch016_plan_first_step"],
+      "projected_outcome": {
+        "state_changes": [
+          {"entity": "char_ulos", "kind": "inventory+psychology", "desc": "虚空种子由「已携带」变为「已植入三叉结」。十年计划第一个物理动作完成。那首歌停留两秒——第一次允许它多停一点。"}
+        ]
+      },
+      "context": "ch_016（决定第一步，V-07获得三叉结坐标）→ch_027（实际植入）。乌洛斯的计划从规划层进入物理执行层。虚空种子开始同化，Θ-7在数月后将检测到异常（ch_029）但无法归类来源。十二个月倒计时开始。"
+    },
+    {
       "id": "evt_ch026_liang_first_exchange",
       "name": "梁·第一次对话",
       "description": "艾昂外出取得补给（水、干粮、医疗材料），回到前哨站发现梁已能坐起。重新处理绑扎，梁自主进食少量。梁感知到艾昂的断频（看颈肩方向），说「多久了」（无语气词）。艾昂沉默片刻，说「三年」——第一次对任何人说出这个数字。梁闭眼，不再说话。傍晚梁真正睡着（非昏迷）。艾昂意识到他在规划两周，让这个念头存在，没有审视。",
@@ -1115,9 +1134,9 @@
       "pov_character": "char_ulos",
       "start_time": 3,
       "end_time": null,
-      "current_time": 11,
-      "latest_chapter": "ch_020",
-      "event_ids": ["evt_ch008_ulos_watching", "evt_ch016_plan_first_step", "evt_ch020_void_parliament"],
+      "current_time": 14,
+      "latest_chapter": "ch_027",
+      "event_ids": ["evt_ch008_ulos_watching", "evt_ch016_plan_first_step", "evt_ch020_void_parliament", "evt_ch027_void_seed_planted"],
       "convergences": []
     },
     {

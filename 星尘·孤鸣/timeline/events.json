@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "id": "evt_ch027_void_seed_planted",
+      "name": "虚空种子植入",
+      "thread_id": "thr_ulos",
+      "story_time": 14,
+      "status": "drafted",
+      "chapter_id": "ch_027",
+      "participants": ["char_ulos"],
+      "summary": "乌洛斯单独渗透维格拉斯地壳300米，在三叉结源质节点植入虚空种子。47分钟，无系统响应。地图标记「开始」。那首歌停留两秒。十二个月倒计时。"
+    },
+    {
       "id": "evt_ch026_liang_first_exchange",
       "name": "梁·第一次对话",
       "thread_id": "thr_aeon",

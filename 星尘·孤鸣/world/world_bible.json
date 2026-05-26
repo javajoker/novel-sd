@@ -163,6 +163,23 @@
       "relationships": {"星尘联邦": "hostile", "艾尔维斯灵能族": "hostile", "机械觉醒者": "opportunistic", "异形异种": "predatory"}
     }
   ],
+  "narrative_devices": [
+    {
+      "id": "device_void_seed",
+      "name": "虚空种子（Void Seed）",
+      "introduced_chapter": "ch_027",
+      "description": "由乌洛斯设计制作的虚空晶格构造体，比拳头略小。由虚空晶核碎片与特殊矿物在乌洛斯的虚空能量调制下合成。植入源质节点表面后开始缓慢同化——转化速度极慢，前六个月每日变化量低于0.0003%，对标准战争传感器来说处于噪声阈值内。乌洛斯的计划需要将「三叉结」源质能量节点转化为虚空能量通道，用于建立永久传送桥点。全程需约十二个月。",
+      "risk": "Θ-7不是标准传感器——高精度监测可能在数月后察觉到异常（ch_029 Θ-7检测到源质矿脉能量扰动即与此相关，但当时无法归类来源）。",
+      "significance": "乌洛斯计划的第一个物理动作。这是十年准备的开始，也是整个vol_01宏观线索（源质节点将被改变，战争将进入新阶段）的起点。"
+    },
+    {
+      "id": "location_triple_junction",
+      "name": "三叉结（Triple Junction）",
+      "introduced_chapter": "ch_016",
+      "description": "维格拉斯星球地壳下约300米，三条源质矿脉的天然汇聚点。整个碎晶星域最高密度的源质能量节点之一。地质上罕见，碎晶星域特殊地壳条件下形成，已存在约四百年。联邦和虚空掠夺者均知道其存在但暂未找到安全进入方式。乌洛斯通过V-07的侦察数据获得了精确坐标。",
+      "significance": "乌洛斯计划的核心目标：将三叉结转化为虚空传送桥点。"
+    }
+  ],
   "ontology_triples": [
     {"source": "源质", "relation": "REQUIRED_FOR", "target": "建筑建造与升级"},
     {"source": "源质", "relation": "SHARED_WITHIN", "target": "同阵营"},
