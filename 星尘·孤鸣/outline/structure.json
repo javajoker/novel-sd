@@ -227,7 +227,8 @@
           "id": "ch_029", "number": 29, "title": "数据异常",
           "thread_id": "thr_theta", "pov_character": "char_theta_seven", "story_time": 14,
           "one_line": "Θ-7检测到源质矿脉某处出现了不符合自然规律的能量振动模式——它不知道这意味着什么。",
-          "scene_arc": "数据扫描→异常检测→归类失败（新类别：未知来源能量扰动）", "status": "outlined"
+          "scene_arc": "数据扫描→异常检测→归类失败（新类别：未知来源能量扰动）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_029.json"
         },
         {
           "id": "ch_030", "number": 30, "title": "第一次（一）",

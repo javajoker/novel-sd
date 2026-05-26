@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "id": "evt_ch029_void_seed_anomaly",
+      "name": "数据异常",
+      "thread_id": "thr_theta",
+      "story_time": 14,
+      "status": "drafted",
+      "chapter_id": "ch_029",
+      "participants": ["char_theta_seven"],
+      "summary": "第315天例行地质扫描，三叉结区域检测到0.0002%能量偏差，含非标准频段附加信号——来源未知（实为虚空种子）。Anomaly-0009创建。14分钟52秒后无意识重开，主动决定不创建Anomaly-0010（首次裁量权）。无名文件夹第一句完整句子：「频谱特征不匹配所有已知来源。可以等待，可以不解释。」"
+    },
+    {
       "id": "evt_ch028_first_real_conversation",
       "name": "没有共鸣的话",
       "thread_id": "thr_aeon",

@@ -25,9 +25,9 @@
       "name": "Θ-7·时回",
       "pov_character": "char_theta_seven",
       "start_time": 1,
-      "current_time": 13,
-      "latest_chapter": "ch_025",
-      "event_ids": ["evt_ch003_theta_first_question", "evt_ch006_second_question", "evt_ch010_standard_deviation", "evt_ch013_null_01", "evt_ch018_tracking_decision", "evt_ch025_null01_stationary"],
+      "current_time": 14,
+      "latest_chapter": "ch_029",
+      "event_ids": ["evt_ch003_theta_first_question", "evt_ch006_second_question", "evt_ch010_standard_deviation", "evt_ch013_null_01", "evt_ch018_tracking_decision", "evt_ch025_null01_stationary", "evt_ch029_void_seed_anomaly"],
       "status": "active"
     },
     {
