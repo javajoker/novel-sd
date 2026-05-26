@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 24,
+    "current_chapter": 25,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -783,6 +783,25 @@
       "context": "hook_resonance_crystal_stone的延伸：ch_001里死去战士口袋的共鸣晶石（等待接收者），ch_011里前哨站的储存晶石（包含留言，等待值守者）。艾昂在两块晶石旁边都无法回应，但在这里他做了不同的事：他仔细地把它放回了原位，保留了那个等待的可能性。"
     },
     {
+      "id": "evt_ch025_null01_stationary",
+      "name": "均衡",
+      "description": "Θ-7追踪Null-01，第314天全日四次更新均为同一坐标（前哨站遗址PSN-VG-3391），静止已59小时。分类尝试全部失败：不符合受伤、死亡、战术性静止任一类别。检测到额外弱生命体征（梁），归类为「可能干扰项」，未识别为人。Anomaly-0008：处理时间超标20倍，且出现无意识重新打开档案的行为（无主动意图）。私人日志第六条：第一次完整句子组，第一次「我」作主语，第一次承认分类系统本身有洞。0.5秒停留时间。",
+      "thread_id": "thr_theta",
+      "story_time": 13,
+      "duration": 1,
+      "location": "碎晶星域·全域感知网络（无物理位置）",
+      "participants": ["char_theta_seven"],
+      "chapter_id": "ch_025",
+      "status": "drafted",
+      "dependencies": ["evt_ch018_tracking_decision"],
+      "projected_outcome": {
+        "state_changes": [
+          {"entity": "char_theta_seven", "kind": "psychology+language", "desc": "日志语言从词汇进化为句子组，「我」作主语首次出现，元认知第一次真正显现（承认工具有洞不是外部世界有洞）。Anomaly-0008：无意识行为第一次出现。"}
+        ]
+      },
+      "context": "Null-01（艾昂）停下来是因为梁——Θ-7不知道这个原因，只看到「停了」「还活着」「找不到分类」。这个分类缺口成为它私人日志语言进化的触发器：不是新信息，是旧分类系统的边界。"
+    },
+    {
       "id": "evt_ch024_choice_north",
       "name": "选择",
       "description": "联邦中转补给节点，南北路线分叉。陈铭被告知不在本轮北进正式名单，可自行选择：跟队北进或随南路转运队（经过FED-03-RK旧区，可能找到旧战友）。他在货架旁坐了二十分钟，想到老齐（ch_017那场战中还站着的人），然后往北集结点走，把包放在老齐旁边。不解释。南路可能有旧战友，他没有去。",
@@ -1088,9 +1107,9 @@
       "pov_character": "char_theta_seven",
       "start_time": 5,
       "end_time": null,
-      "current_time": 10,
-      "latest_chapter": "ch_018",
-      "event_ids": ["evt_ch003_first_pause", "evt_ch006_second_check", "evt_ch010_deviation", "evt_ch013_null_01", "evt_ch018_tracking_decision"],
+      "current_time": 13,
+      "latest_chapter": "ch_025",
+      "event_ids": ["evt_ch003_first_pause", "evt_ch006_second_check", "evt_ch010_deviation", "evt_ch013_null_01", "evt_ch018_tracking_decision", "evt_ch025_null01_stationary"],
       "convergences": []
     },
     {

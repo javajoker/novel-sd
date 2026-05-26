@@ -199,7 +199,8 @@
           "id": "ch_025", "number": 25, "title": "均衡",
           "thread_id": "thr_theta", "pov_character": "char_theta_seven", "story_time": 13,
           "one_line": "Θ-7追踪Null-01的移动轨迹时，在私人日志里写了一个它无法归类的问题。",
-          "scene_arc": "追踪→疑问→记录（比「为什么」更长的句子）", "status": "outlined"
+          "scene_arc": "追踪→疑问→记录（比「为什么」更长的句子）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_025.json"
         },
         {
           "id": "ch_026", "number": 26, "title": "梁",

@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "id": "evt_ch025_null01_stationary",
+      "name": "均衡",
+      "thread_id": "thr_theta",
+      "story_time": 13,
+      "status": "drafted",
+      "chapter_id": "ch_025",
+      "participants": ["char_theta_seven"],
+      "summary": "Θ-7追踪Null-01，全日四次更新均为静止（59小时，PSN-VG-3391前哨站遗址）。分类失败，Anomaly-0008（超时处理，无意识重开档案）。私人日志第六条：第一次完整句子，「我」作主语，承认分类系统有洞，停留0.5秒。额外弱生命体征（梁）未识别。"
+    },
+    {
       "id": "evt_ch024_choice_north",
       "name": "选择",
       "thread_id": "thr_chen_ming",
