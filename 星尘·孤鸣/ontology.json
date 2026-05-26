@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 13,
+    "current_chapter": 14,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -630,6 +630,23 @@
         "pov_constraint": "艾昂无法读取储存晶石的内容；他的灵能感知只有很轻的残余；他不知道那条留言是什么，不知道是谁写的"
       },
       "context": "hook_resonance_crystal_stone的延伸：ch_001里死去战士口袋的共鸣晶石（等待接收者），ch_011里前哨站的储存晶石（包含留言，等待值守者）。艾昂在两块晶石旁边都无法回应，但在这里他做了不同的事：他仔细地把它放回了原位，保留了那个等待的可能性。"
+    },
+    {
+      "id": "evt_ch014_that_person",
+      "name": "那个人",
+      "description": "陈铭在FED-TMP-1107整合编制中注意到一个老兵（无名，装备极旧但保养最好）。行军路口，老兵不按规划走非最优北绕路线，主路遇地面坍塌后老兵提前到达集结点。陈铭无法解释这个选择。傍晚停驻，陈铭注意力反复漂移向老兵，意识到喉咙里有一个问题——关于「你怎么决定的」——但老兵站起来走了，问题散了，他没有叫住。夜里念名牌：十九个（多五个，是在不想知道的情况下进来的）。不确定自己是忘了还是故意没问。",
+      "thread_id": "thr_chen_ming",
+      "story_time": 8,
+      "duration": 1,
+      "location": "elem_shard_crystal_sector",
+      "participants": ["char_chen_ming"],
+      "chapter_id": "ch_014",
+      "status": "drafted",
+      "dependencies": ["evt_ch009_new_battlefield", "evt_ch010_standard_deviation"],
+      "projected_outcome": {
+        "state_changes": [{"entity": "char_chen_ming", "kind": "psychology", "desc": "元认知精度下降：「不确定是忘了还是故意没问」——防御机制开始对自己失去透明度。名牌从十四增至十九，「不让名字进来」的控制力在减弱。"}]
+      },
+      "context": "结构共振：Θ-7在ch_010从统计数据层面发现0.4%人类战术偏差（次优但存活率更高）→ch_014陈铭从第一视角近距离遭遇一个具体的「偏差个体」。同一现象的两个叙事维度，两个角色都无法解释它，读者在两个层面同时看到。"
     },
     {
       "id": "evt_ch013_null_01",

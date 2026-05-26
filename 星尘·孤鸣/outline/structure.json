@@ -122,7 +122,8 @@
           "id": "ch_014", "number": 14, "title": "那个人",
           "thread_id": "thr_chen_ming", "pov_character": "char_chen_ming", "story_time": 8,
           "one_line": "陈铭发现他所在的临时队伍里有一个不按战术规则行动却总能活下来的老兵。",
-          "scene_arc": "观察→不情愿的好奇→某个问题没有被问出来", "status": "outlined"
+          "scene_arc": "观察→不情愿的好奇→某个问题没有被问出来", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_014.json"
         },
         {
           "id": "ch_015", "number": 15, "title": "矿脉",

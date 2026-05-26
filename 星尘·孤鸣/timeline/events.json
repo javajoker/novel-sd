@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "id": "evt_ch014_that_person",
+      "name": "那个人",
+      "thread_id": "thr_chen_ming",
+      "story_time": 8,
+      "status": "drafted",
+      "chapter_id": "ch_014",
+      "participants": ["char_chen_ming"],
+      "summary": "陈铭在FED-TMP-1107整合中观察到一个老兵的非标准战术选择（北绕路线，恰好避开主路地面坍塌，提前到达）。无法用任何现有框架解释这个选择。傍晚停驻时注意力反复漂移向老兵，意识到喉咙里有问题（关于决策方式），但老兵走了，问题散了，他没有叫住。夜里名牌增至十九个，元认知精度下降：「不确定是忘了还是故意没问。」结构共振：ch_010 Θ-7统计层面的0.4%偏差→ch_014陈铭第一视角遭遇具体偏差个体。"
+    },
+    {
       "id": "evt_ch013_null_01",
       "name": "信号空白·命名Null-01",
       "thread_id": "thr_theta",
