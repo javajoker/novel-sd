@@ -38,7 +38,7 @@
           "planned_events": ["evt_novel_opening"],
           "one_line": "艾昂在成百具尸体中独自行走，战争控制器的AI部队从他身边路过，没有人看他。",
           "scene_arc": "空→清醒→依然空",
-          "status": "beats_ready",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_001.json"
         },
         {

@@ -1,3 +1,24 @@
 {
-  "events": []
+  "events": [
+    {
+      "id": "evt_ghost_resonance_event",
+      "name": "共鸣之殇",
+      "thread_id": "thr_aeon",
+      "story_time": -3,
+      "status": "final",
+      "chapter_id": null,
+      "participants": ["char_aeon", "faction_elwis"],
+      "summary": "艾昂战场共鸣失控，将数百名阵亡战士临死体验传入共鸣网络，族人永久精神损伤，共鸣被斩断，放逐开始。"
+    },
+    {
+      "id": "evt_novel_opening",
+      "name": "战场废己",
+      "thread_id": "thr_aeon",
+      "story_time": 1,
+      "status": "drafted",
+      "chapter_id": "ch_001",
+      "participants": ["char_aeon"],
+      "summary": "艾昂独自走过红盐平原战场，替陌生战士合眼，感受了源质碎晶的振动，战争控制器的AI部队将他归类为「低优先级」。建立孤独基调。"
+    }
+  ]
 }

@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 0,
+    "current_chapter": 1,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -378,7 +378,7 @@
       "location": "elem_shard_crystal_sector",
       "participants": ["char_aeon"],
       "chapter_id": "ch_001",
-      "status": "planned",
+      "status": "drafted",
       "dependencies": [],
       "projected_outcome": {
         "state_changes": [{"entity": "char_aeon", "kind": "psychology", "desc": "建立读者对孤独状态的感知，奠定文学基调"}]

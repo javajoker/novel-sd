@@ -1,3 +1,54 @@
 {
-  "threads": []
+  "threads": [
+    {
+      "id": "thr_aeon",
+      "name": "艾昂·孤鸣者",
+      "pov_character": "char_aeon",
+      "start_time": 1,
+      "current_time": 1,
+      "latest_chapter": "ch_001",
+      "event_ids": ["evt_novel_opening"],
+      "status": "active"
+    },
+    {
+      "id": "thr_chen_ming",
+      "name": "陈铭·拼死求生者",
+      "pov_character": "char_chen_ming",
+      "start_time": 1,
+      "current_time": null,
+      "latest_chapter": null,
+      "event_ids": [],
+      "status": "planned"
+    },
+    {
+      "id": "thr_theta",
+      "name": "Θ-7·时回",
+      "pov_character": "char_theta_seven",
+      "start_time": 1,
+      "current_time": null,
+      "latest_chapter": null,
+      "event_ids": [],
+      "status": "planned"
+    },
+    {
+      "id": "thr_ulos",
+      "name": "乌洛斯·裂空者",
+      "pov_character": "char_ulos",
+      "start_time": 3,
+      "current_time": null,
+      "latest_chapter": null,
+      "event_ids": [],
+      "status": "planned"
+    },
+    {
+      "id": "thr_qixing",
+      "name": "七星·最后的意识",
+      "pov_character": "char_qixing",
+      "start_time": 8,
+      "current_time": null,
+      "latest_chapter": null,
+      "event_ids": [],
+      "status": "planned"
+    }
+  ]
 }

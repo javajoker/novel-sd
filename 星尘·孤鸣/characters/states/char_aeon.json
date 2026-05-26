@@ -1,1 +1,36 @@
-{"character_id":"char_aeon","states":[]}
+{
+  "character_id": "char_aeon",
+  "states": [
+    {
+      "story_time": 1,
+      "chapter_id": "ch_001",
+      "location": "碎晶星域·维格拉斯星球·红盐平原东侧边缘，继续向有光方向行进",
+      "physical": {
+        "status": "functional",
+        "notes": "基础状态良好——三年流亡已将生存消耗纳入常态，饥饿和疲劳是背景而非紧急状态"
+      },
+      "inventory": [
+        {"item": "elem_ability_card_jump_x3", "status": "absorbed"},
+        {"item": "elem_ability_card_shield_x1", "status": "absorbed"},
+        {"item": "自制轻型脉冲枪", "status": "equipped"},
+        {"item": "灵能族断频器", "status": "worn"},
+        {"item": "一块磨损的源质碎晶", "status": "carried"}
+      ],
+      "psychology": {
+        "sanity": 72,
+        "grief": 85,
+        "self_discipline": 95,
+        "mood": "平静如死水——但本章末尾关闭陌生战士眼睛的动作已经透露出水面下的某种东西还活着",
+        "notable_shift": "他替一个可能认识、也可能不认识的灵能族战士合上了眼睛——这个小动作证明他对「另一个存在」的感知仍然存在，他的谎言（已经无动于衷）正在以极其缓慢的方式开始松动"
+      },
+      "key_events_this_chapter": [
+        "走过红盐平原战场，数了114+具尸体",
+        "在第73具尸体旁跪下——一个可能认识的灵能族战士，合上了他的眼睛，整理了他的外套",
+        "发现了那个战士的共鸣晶石，思考等待的另一端，然后放了回去",
+        "战争控制器AI推进部队经过，被归类为「低优先级，无需响应」",
+        "在礁石高地仰望星域，持续了很长时间",
+        "取出源质碎晶，感受到低频振动，然后放回去，起身继续走"
+      ]
+    }
+  ]
+}
