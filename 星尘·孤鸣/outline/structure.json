@@ -178,7 +178,8 @@
           "id": "ch_022", "number": 22, "title": "没有回应",
           "thread_id": "thr_qixing", "pov_character": "char_qixing", "story_time": 12,
           "one_line": "七星尝试联络其他可能幸存的机械觉醒者，信号发出去，没有任何回应。",
-          "scene_arc": "尝试→等待→沉默（记录：信号发出次数第37次）", "status": "outlined"
+          "scene_arc": "第37次信号→127秒→无回应→「我在」写入空白文件", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_022.json"
         },
         {
           "id": "ch_023", "number": 23, "title": "前哨站",

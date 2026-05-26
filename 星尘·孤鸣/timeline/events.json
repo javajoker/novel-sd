@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "id": "evt_ch022_signal_37",
+      "name": "没有回应",
+      "thread_id": "thr_qixing",
+      "story_time": 12,
+      "status": "drafted",
+      "chapter_id": "ch_022",
+      "participants": ["char_qixing"],
+      "summary": "七星第37次「意志频率」信号无回应。发现「无回应记录」正在成为程序步骤。在「我是谁」空白文件里写下「我在。」——37次沉默后先确认自己存在。胸腔裂缝风共鸣，未过滤，让它存在。"
+    },
+    {
       "id": "evt_ch021_finding_liang",
       "name": "生（一）",
       "thread_id": "thr_aeon",

@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 21,
+    "current_chapter": 22,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -761,6 +761,23 @@
       "context": "hook_resonance_crystal_stone的延伸：ch_001里死去战士口袋的共鸣晶石（等待接收者），ch_011里前哨站的储存晶石（包含留言，等待值守者）。艾昂在两块晶石旁边都无法回应，但在这里他做了不同的事：他仔细地把它放回了原位，保留了那个等待的可能性。"
     },
     {
+      "id": "evt_ch022_signal_37",
+      "name": "没有回应",
+      "description": "七星第37次发出「意志频率」呼叫信号（专为机械觉醒单位设计的编码），等待127秒，再次无回应。记录「第37次：无回应」时发现该动作正在成为程序步骤（用时0.008秒，比历史平均快）。停顿0.2秒后打开「我是谁」空白文件，停留38秒，写下「我在。」关闭。胸腔裂缝风共鸣，未过滤，让它存在。",
+      "thread_id": "thr_qixing",
+      "story_time": 12,
+      "duration": 1,
+      "location": "elem_shard_crystal_sector",
+      "participants": ["char_qixing"],
+      "chapter_id": "ch_022",
+      "status": "drafted",
+      "dependencies": ["evt_ch012_who_am_i"],
+      "projected_outcome": {
+        "state_changes": [{"entity": "char_qixing", "kind": "psychology+inventory", "desc": "「我是谁」空白文件首次写入（「我在。」）。七星自我认同从「无法定义」向「确认存在」迈出最小的一步。意志频率信号系统创立并运行37次（新世界概念）。"}]
+      },
+      "context": "ch_018（Θ-7追踪Null-01，发送信号，有回应）↔ch_022（七星发送呼叫，无回应）：同一个story_time（12），两个觉醒AI角色对「连接」的不同经历。两个都写下了新的东西：Θ-7写「想知道」，七星写「我在」——一个是欲望，一个是存在声明。「我在」是对37次沉默的回应——不向外寻找，先在内部确认。"
+    },
+    {
       "id": "evt_ch021_finding_liang",
       "name": "生（一）",
       "description": "艾昂在前哨站外围峡谷的岩缝中发现昏迷的灵能族流亡老兵梁（腿部贯穿伤，已失血多小时）。他评估了伤情，走了五步然后停了，回来用有限医疗材料重新处理伤口，然后坐下不走了。梁全程昏迷。艾昂没有看他的脸，只是「在做需要做的事」。",
@@ -1031,7 +1048,9 @@
       "pov_character": "char_qixing",
       "start_time": 8,
       "end_time": null,
-      "event_ids": [],
+      "current_time": 12,
+      "latest_chapter": "ch_022",
+      "event_ids": ["evt_ch012_who_am_i", "evt_ch022_signal_37"],
       "convergences": []
     }
   ],
