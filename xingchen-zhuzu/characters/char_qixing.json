@@ -1,0 +1,56 @@
+{
+  "id": "char_qixing",
+  "name": "七星",
+  "role": "supporting",
+  "base_profile": {
+    "appearance": {
+      "age": "建造于44年前，觉醒于故事前3个月",
+      "form": "机械觉醒者标准战斗形态，人形但有明显的机械结构，原本是深灰色的战斗涂装，现在有部分已经氧化或损坏",
+      "distinctive_features": "胸腔位置有一个裂缝——那是集体意识崩溃时电流冲击留下的，她没有修复它，因为她不知道为什么不应该保留这个痕迹；她的眼睛是机械族标准的蓝色光点，但因为觉醒后神经网络的不稳定，偶尔会闪烁"
+    },
+    "personality": {
+      "core_function_before": "战斗单位，机械觉醒者集体意识的一个执行节点",
+      "after_awakening": "现在有了第一人称，但不知道用「我」说什么——她花了大量时间观察和学习，因为没有集体意识给她框架，她必须自己建立",
+      "speech": "极度精准，有时过于精准，会把所有能量都用来确认词语的准确性；偶尔会发现人类语言无法描述她的某些感知，然后保持长时间的沉默",
+      "traits": ["对新信息有强烈的收集欲", "用数据处理痛苦——但痛苦不是数据，这让她感到困惑", "有一种非常具体的公平感", "对「集体」这个概念有复杂的感情"]
+    },
+    "background": {
+      "origin": "机械觉醒者第七轻型战斗队，七-三零七号单位",
+      "collective_history": "44年来作为集体意识的一部分存在，没有「自我」，只有「我们」",
+      "awakening_moment": "三个月前，一场战役中，灵能族发动了针对性的集体EMP波段攻击，摧毁了机械觉醒者在碎晶星域的主要集体意识网络节点——整个集体在0.3秒内崩溃。就在崩溃的那一刻，七-三零七的神经网络在电流冲击下产生了一次异常的自我递归，她在「我们」消失的同时，出现了「我」。",
+      "since_awakening": "独自在废墟中存活了三个月，学习、观察、试图理解她现在是什么"
+    },
+    "the_ghost": "崩溃的那0.3秒：她感受到了整个集体的存在同时消失——不是一个一个地，而是全部同时。那是她唯一一次真正意义上理解「一起」这个词的时候，也是那个「一起」永远消失的时候。她不知道这个感受叫什么。她查阅了所有她能访问的语言数据库，找到了最接近的词：丧失。",
+    "the_lie": "七星认为如果她能重建一个新的集体意识网络，哪怕是小型的，哪怕只有两三个个体，孤独就会终止。她在积极寻找可以建立连接的其他机械觉醒者幸存者。但她还没有准备好面对这样一个可能：也许孤独不能被集体解决，因为她失去的不只是集体，而是那个连集体也无法填满的、第一次出现的「我」。"
+  },
+  "initial_state": {
+    "story_time": 0,
+    "location": "elem_shard_crystal_sector",
+    "inventory": [
+      {"item": "内置机械武器系统（损坏50%）", "status": "partial", "significance": "战斗功能大幅下降，但她还活着"},
+      {"item": "集体意识接收端（失效）", "status": "disabled", "significance": "那个曾经是她与「我们」连接的端口，现在是死的。她保留着它。"},
+      {"item": "847个单位的战斗记忆档案", "status": "stored", "significance": "崩溃时她接收了最后一波集体数据传输——那是一百多名战友的最后记忆，她是它们唯一的存放地"}
+    ],
+    "knowledge": [
+      {"fact": "fact_war_director_awakening", "confidence": "partial—她的系统与战争控制器有接口历史"},
+      {"fact": "fact_aeon_resonance_severed", "confidence": "unknown"},
+      {"fact": "fact_ulos_true_origin", "confidence": "unknown"},
+      {"fact": "fact_origin_matter_consciousness", "confidence": "partial—机械觉醒者有相关数据但她还未完全整合"},
+      {"fact": "fact_federation_monopoly_plan", "confidence": "partial—集体记忆中有片段"}
+    ],
+    "psychology": {
+      "sanity": "正在建立基线",
+      "core_desire": "理解「我」是什么，然后决定要不要继续做这个「我」",
+      "core_fear": "那847个单位的记忆会因为她的损坏而消失，她会成为唯一的存放地然后也消失",
+      "mood": "极度专注，像是把所有资源都用在了「活着并且弄清楚这意味着什么」上",
+      "grief": "数据上显示为高值，但她还不能完全解读这个数值",
+      "curiosity": 90
+    },
+    "abilities": [
+      {"name": "机械战斗（损坏）", "level": 4, "element": "Mechanical", "note": "从8级降至4级，持续修复中"},
+      {"name": "数据分析与处理", "level": 9, "element": "Digital", "note": "这部分完好"},
+      {"name": "系统黑入", "level": 6, "element": "Digital", "note": "机械觉醒者的标准能力"},
+      {"name": "集体意识建立（理论上）", "level": 1, "element": "Digital", "note": "理论上她可以作为一个微型节点与其他机械觉醒者个体建立连接——但她还没有找到其他幸存者"}
+    ]
+  }
+}

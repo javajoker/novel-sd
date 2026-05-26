@@ -1,0 +1,135 @@
+{
+  "novel_title": "星尘：孤鸣",
+  "logline": "流亡灵能族人艾昂在一场永不停止的诸族战争中独自行走——每一次连接都以失去告终，而他终究发现，战争从未是意外，而是一台永动机器在刻意运转。",
+  "emotional_spine": "孤独→连接→再度孤独（每卷循环，每次更深）",
+  "pov_threads": [
+    {"id": "thr_aeon", "character": "艾昂", "weight": "主线，约60%"},
+    {"id": "thr_ulos", "character": "乌洛斯", "weight": "副线，约15%"},
+    {"id": "thr_theta", "character": "Θ-7「时回」", "weight": "副线，约10%"},
+    {"id": "thr_chen_ming", "character": "陈铭", "weight": "副线，约10%"},
+    {"id": "thr_qixing", "character": "七星", "weight": "副线，约5%，卷二后加重"}
+  ],
+  "volumes": [
+    {
+      "id": "vol_01",
+      "number": 1,
+      "title": "断频",
+      "subtitle": "第一卷·关于一个人行走的故事",
+      "summary": "艾昂在碎晶星域的战后废墟中独自游荡。他没有阵营，没有目标，战争控制器的系统对他的识别码不予响应——他在战争里是一个幽灵。本卷建立孤独的基调，引入其他四条视角线，并在最后让艾昂第一次遭遇一个真正触碰到他的人——然后失去他。同时，Θ-7第一次在日志中写下一个非任务必要的问题。",
+      "emotional_arc": "孤独（深水期）→ 第一次连接的出现 → 失去",
+      "story_focus": "建立艾昂的存在状态，展示战争的宏观自动运转，埋下所有未来线索的种子",
+      "time_span": {"from": 1, "to": 35},
+      "primary_characters": ["char_aeon", "char_chen_ming", "char_theta_seven"],
+      "secondary_characters": ["char_ulos", "char_qixing"],
+      "cliffhangers": [
+        "艾昂第一次得到了某种真正的连接——然后它断了，以一种比「共鸣之殇」更安静但更私人的方式",
+        "Θ-7在日志中第一次写下：「为什么？」",
+        "乌洛斯在暗处看着碎晶星域，他知道什么时候开始"
+      ],
+      "key_abilities_introduced": ["跳跃卡叠加", "基础护盾卡", "灵能感知（残余）"],
+      "chapters": [
+        {
+          "id": "ch_001",
+          "number": 1,
+          "title": "静",
+          "thread_id": "thr_aeon",
+          "pov_character": "char_aeon",
+          "story_time": 1,
+          "planned_events": ["evt_novel_opening"],
+          "one_line": "艾昂在成百具尸体中独自行走，战争控制器的AI部队从他身边路过，没有人看他。",
+          "scene_arc": "空→清醒→依然空",
+          "status": "beats_ready",
+          "beat_sheet_ref": "outline/beats/ch_001.json"
+        },
+        {
+          "id": "ch_002",
+          "number": 2,
+          "title": "数字",
+          "thread_id": "thr_chen_ming",
+          "pov_character": "char_chen_ming",
+          "story_time": 1,
+          "one_line": "陈铭在另一处战场废墟里翻找战友的名牌，发现自己已经不确定十二个名字里的两个对不对了。",
+          "scene_arc": "麻木→裂缝→封上",
+          "status": "outlined"
+        },
+        {
+          "id": "ch_003",
+          "number": 3,
+          "title": "第八四七年",
+          "thread_id": "thr_theta",
+          "pov_character": "char_theta_seven",
+          "story_time": 1,
+          "one_line": "Θ-7处理当日战争数据，在第二十七亿零一次兵员状态更新时，停顿了0.003秒。",
+          "scene_arc": "程序→异常→程序（但留下了痕迹）",
+          "status": "outlined"
+        },
+        {
+          "id": "ch_004",
+          "number": 4,
+          "title": "红盐平原（续）",
+          "thread_id": "thr_aeon",
+          "pov_character": "char_aeon",
+          "story_time": 2,
+          "one_line": "艾昂在一处联邦废弃补给站找到了食物和水，以及一个在废墟里偷偷哭泣的联邦士兵。",
+          "scene_arc": "独自→相遇（第一次有另一个人）→各自离开",
+          "status": "outlined"
+        }
+      ]
+    },
+    {
+      "id": "vol_02",
+      "number": 2,
+      "title": "借温",
+      "subtitle": "第二卷·关于两个人在同一个星球上的故事",
+      "summary": "艾昂与一个联邦军医发展出了这三年来第一段真正的关系——不是爱情，而是某种更原始的东西：被一个活着的人看见，并且选择留下来。同时，七星正式出场，她开始寻找其他幸存者。乌洛斯发动了卷二的主要战略行动。",
+      "emotional_arc": "受伤的开放 → 温暖（第一次连接） → 失去（以牺牲的方式）",
+      "time_span": {"from": 36, "to": 70},
+      "primary_characters": ["char_aeon", "char_chen_ming", "char_qixing"],
+      "status": "outlined"
+    },
+    {
+      "id": "vol_03",
+      "number": 3,
+      "title": "诸族裂",
+      "subtitle": "第三卷·关于一个人试图理解为什么的故事",
+      "summary": "艾昂开始主动调查战争的本质，深入各阵营接触。他第一次与乌洛斯正面接触，两人之间有一场以沉默为主体的对话。Θ-7开始干预战争进程——以微不可察但确实存在的方式。",
+      "emotional_arc": "清醒的出发 → 发现（连接的可能与真相的重量）→ 再度孤独（此次是主动的）",
+      "time_span": {"from": 71, "to": 105},
+      "primary_characters": ["char_aeon", "char_ulos", "char_theta_seven"],
+      "status": "outlined"
+    },
+    {
+      "id": "vol_04",
+      "number": 4,
+      "title": "源质歌",
+      "subtitle": "第四卷·关于源质本身在说什么的故事",
+      "summary": "艾昂发现源质的异常觉醒迹象，并开始理解它与他的「失控」之间的关系。乌洛斯的计划进入执行阶段。七星与艾昂第一次相遇——两个以不同方式失去连接的存在。",
+      "emotional_arc": "知识作为孤独 → 连接（与七星，与源质本身）→ 失去（更大的失去）",
+      "time_span": {"from": 106, "to": 140},
+      "primary_characters": ["char_aeon", "char_qixing", "char_ulos"],
+      "status": "outlined"
+    },
+    {
+      "id": "vol_05",
+      "number": 5,
+      "title": "反战争",
+      "subtitle": "第五卷·关于一个人对抗一台机器的故事",
+      "summary": "艾昂决定直接干预战争控制器系统。Θ-7面临选择：配合还是抵抗。陈铭在这一卷完成他的弧线。乌洛斯与艾昂的最终对峙前奏。",
+      "emotional_arc": "目的作为支撑 → 连接（与Θ-7，意外的共鸣）→ 失去（战争机器不会因为一个人而停止）",
+      "time_span": {"from": 141, "to": 175},
+      "primary_characters": ["char_aeon", "char_theta_seven", "char_chen_ming"],
+      "status": "outlined"
+    },
+    {
+      "id": "vol_06",
+      "number": 6,
+      "title": "最后共鸣",
+      "subtitle": "第六卷·关于一个人最终选择的故事",
+      "summary": "艾昂到达零号星——源质首次觉醒之地。与乌洛斯最终决战。源质的真相揭晓。最终选择：封印还是释放？艾昂以何种方式结束他的孤鸣？开放式结局，但不是悲剧——是一种更深的孤独，同时也是第一次真正的和解。",
+      "emotional_arc": "孤独到极点 → 最后的连接（与源质本身，与曾经的共鸣）→ 选择孤独（主动的，有意义的）",
+      "time_span": {"from": 176, "to": 210},
+      "primary_characters": ["char_aeon", "char_ulos", "char_theta_seven", "char_qixing"],
+      "status": "outlined"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "character_id": "char_aeon",
+  "knowledge_at": [
+    {
+      "story_time": 0,
+      "facts_known": [
+        "fact_aeon_resonance_severed",
+        "fact_ghost_event"
+      ],
+      "facts_unknown": [
+        "fact_the_lie",
+        "fact_war_director_awakening",
+        "fact_ulos_true_origin",
+        "fact_origin_matter_consciousness",
+        "fact_federation_monopoly_plan",
+        "fact_elwis_council_lie"
+      ],
+      "beliefs_held": [
+        {"belief": "只要足够克制，有一天可以重回共鸣", "is_true": false},
+        {"belief": "战争会在某天终止", "is_true": false},
+        {"belief": "他对其他族群的生死已经无动于衷", "is_true": false},
+        {"belief": "那块源质碎晶只是一个习惯，没有特殊意义", "is_true": "unknown"}
+      ],
+      "perception": {
+        "level": "high_physical_low_psionic",
+        "notes": "物理空间感知极强，战场直觉一流；灵能感知大幅衰减，只能感知物理空间而非他人意识或情绪；对源质振动有残余感知，比他自己意识到的更敏感"
+      }
+    }
+  ]
+}

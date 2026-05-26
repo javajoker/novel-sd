@@ -1,0 +1,56 @@
+{
+  "id": "char_ulos",
+  "name": "乌洛斯",
+  "role": "antagonist",
+  "base_profile": {
+    "appearance": {
+      "age": "外表约四十五岁，真实年龄不明",
+      "build": "极高，虚空能量侵蚀后身体边缘有轻微的空间扭曲感，像一个没有完全固化的形状",
+      "eyes": "左眼是原本的深褐色，右眼已被虚空能量替换成一个黑洞一样的存在",
+      "distinctive_features": "声音极低沉，像是从很远的地方传来；站立时周围的物体会产生细微的引力异常；他的皮肤有裂纹，裂纹里透着紫黑色的虚空光"
+    },
+    "personality": {
+      "mbti": "ENTJ",
+      "traits": ["彻底的战略性思维", "对痛苦有奇异的容忍度", "偶尔流露出一种不合时宜的悲悯", "从不对任何人撒谎——他的残忍是直接的"],
+      "speech": "寡言，但每句话都非常精准。他喜欢用沉默作为语言。",
+      "inner_voice": "比外表更复杂，内部有一个他花了二十年压制的声音——那个声音曾经属于另一个人",
+      "contradiction": "一个以混乱为旗帜的人，内心却对秩序有极深的渴望"
+    },
+    "background": {
+      "origin": "秘密——这是全书最大的悬念之一，到卷三才开始揭晓",
+      "known_history": "约二十年前以虚空掠夺者首领的身份出现，迅速整合了散乱的虚空族群体，建立了游牧帝国式的松散统治",
+      "suspected": "有证据显示他曾经与艾尔维斯灵能族有接触，甚至也许曾经是——但这是禁忌的推测"
+    },
+    "the_ghost": "他记得共鸣的感觉。不是作为外部观察者，而是作为参与者——温暖的、充满的、被感知着的感觉。然后有什么东西将它全部夺走了，而那个夺走的力量，正是他现在正在为其服务的虚空。他是自愿的，还是被迫的？他自己也不确定。二十年过去了，那个感觉越来越遥远，像一首他快要忘记歌词的歌。",
+    "the_lie": "乌洛斯相信：如果他引爆足够大的源质失控事件，以虚空能量取代源质为宇宙的基础，一切战争就会因为失去驱动力而终止。他叫这个「终止战争的方式」。但这个方案的代价是所有生命都将在转换过程中消亡，而他无法确定自己是否真正在乎这件事——他是否只是想让某些痛苦最终停止？"
+  },
+  "initial_state": {
+    "story_time": 0,
+    "location": "elem_shard_crystal_sector",
+    "inventory": [
+      {"item": "虚空晶核", "status": "embedded", "significance": "植入他右眼眶的虚空力量来源，也是他身份的锁链"},
+      {"item": "掠夺者战旗", "status": "carried", "significance": "象征性的权力符号，他其实不在乎它"}
+    ],
+    "knowledge": [
+      {"fact": "fact_ulos_true_origin", "confidence": "certain—他知道，但选择不去想"},
+      {"fact": "fact_origin_matter_consciousness", "confidence": "partial—他有感知，但没有完整理解"},
+      {"fact": "fact_war_director_awakening", "confidence": "partial"},
+      {"fact": "fact_federation_monopoly_plan", "confidence": "certain"},
+      {"fact": "fact_aeon_resonance_severed", "confidence": "unknown"},
+      {"fact": "fact_elwis_council_lie", "confidence": "partial"}
+    ],
+    "psychology": {
+      "sanity": 55,
+      "core_desire": "终止——某种意义上的终止",
+      "core_fear": "他已经无法感受到任何东西，包括那首他快要忘记的歌",
+      "mood": "冷静到了某种危险的程度",
+      "grief": 90,
+      "conviction": 80
+    },
+    "abilities": [
+      {"name": "虚空操控", "level": 8, "element": "Void", "note": "可以扭曲局部空间，形成虚空裂隙"},
+      {"name": "虚空同化", "level": 6, "element": "Void", "note": "可以将源质暂时转化为虚空能量"},
+      {"name": "残余灵能（极度压制）", "level": "unknown", "element": "Psi", "note": "被虚空能量覆盖，几乎不可探测——直到某个特定时刻"}
+    ]
+  }
+}

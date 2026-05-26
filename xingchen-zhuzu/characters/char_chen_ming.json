@@ -1,0 +1,68 @@
+{
+  "id": "char_chen_ming",
+  "name": "陈铭",
+  "role": "supporting",
+  "base_profile": {
+    "appearance": {
+      "age": 24,
+      "build": "中等，入伍时肉，三年下来只剩肌肉和骨头",
+      "eyes": "黑色，曾经很清亮，现在有时候会空一下",
+      "hair": "联邦标准短发，不怎么打理",
+      "distinctive_features": "左手有一道很深的刀疤——不是战场的，是他自己不小心造成的，一个关于拆炸弹的故事，他偶尔会讲给新兵听"
+    },
+    "personality": {
+      "mbti": "ISFP",
+      "traits": ["非常务实", "不擅长大词", "观察力极强", "对战友的忠诚是他最后的道德锚点", "有一种被反复死亡磨出来的黑色幽默"],
+      "speech": "平实，方言腔还在，长句子说不顺，喜欢用比喻",
+      "inner_voice": "比外表聪明，只是他从不炫耀这件事"
+    },
+    "background": {
+      "origin": "联邦边境殖民地，一个叫「土星七号」的小行星矿业社区",
+      "family": "父母是矿工，他是家里唯一参军的，因为参军可以挣到矿工三倍的钱",
+      "military_history": "入伍三年，先后经历九场战役，所在排从最初十二人到现在只剩他一个",
+      "key_events": [
+        "第一场战役——他躲在一具战友的尸体后面撑过了六个小时",
+        "第七场战役——全排只有他一个人活着走出来，联邦给了他一块勋章，他把勋章扔了",
+        "现在——他不再有「排」了，以单兵形式挂靠在任何需要他的部队"
+      ]
+    },
+    "the_ghost": "第七场战役结束后的夜晚，他翻遍了所有战友的个人物品，想要找到家人的联系方式，却发现大多数人什么都没带——联邦教他们「不带个人物品以免被敌方情报利用」。他花了整整一夜试图回忆每个人的名字。他只想起来八个。他至今不知道另外三个人叫什么。",
+    "the_lie": "陈铭觉得他已经不在乎了——死亡对他来说已经只是一个数字，他已经麻木了，已经脱敏了，已经成为了一个高效的战争机器。他用这个想法保护自己。但他每次经过荒废的居民区都会停下来看，不是因为战术习惯，而是因为他在数有没有可能有孩子玩过的痕迹。"
+  },
+  "initial_state": {
+    "story_time": 0,
+    "location": "elem_shard_crystal_sector",
+    "inventory": [
+      {"item": "联邦制式步枪（型号老化）", "status": "equipped", "significance": "他要求的，拒绝了新型号——因为他已经摸清了这支枪的所有怪癖"},
+      {"item": "一把小刀", "status": "carried", "significance": "他爸的矿工刀，唯一的家庭物品"},
+      {"item": "止痛贴片（大量）", "status": "carried", "significance": "慢性膝盖伤，他不想告诉医疗队因为那意味着后撤"},
+      {"item": "十二张联邦战士名牌（非他本人的）", "status": "carried", "significance": "那八个他记得名字的战友的名牌，加上四个他后来认识的，所有人都已阵亡"}
+    ],
+    "knowledge": [
+      {"fact": "fact_federation_monopoly_plan", "confidence": "partial—他听到过片段，不知道叫什么名字"},
+      {"fact": "fact_aeon_resonance_severed", "confidence": "unknown"},
+      {"fact": "fact_war_director_awakening", "confidence": "unknown"},
+      {"fact": "fact_ulos_true_origin", "confidence": "unknown"},
+      {"fact": "fact_elwis_council_lie", "confidence": "unknown"}
+    ],
+    "beliefs": [
+      {"belief": "联邦会赢得这场战争", "is_true": false},
+      {"belief": "他已经麻木了", "is_true": false},
+      {"belief": "活着只是习惯", "is_true": "partial"}
+    ],
+    "psychology": {
+      "sanity": 58,
+      "core_desire": "一个可以停下来的地方，哪怕只是一天",
+      "core_fear": "死亡本身不怕——怕的是没人记得他叫什么",
+      "mood": "功能性正常，内部是长期的低烈度哀伤",
+      "grief": 75,
+      "survival_instinct": 95,
+      "black_humor": 70
+    },
+    "abilities": [
+      {"name": "战场生存", "level": 9, "element": "Physical", "note": "三年战场磨炼，极高的战场直觉"},
+      {"name": "步枪射击", "level": 7, "element": "Physical", "note": "不是神枪手，但在极限压力下准度维持得很好"},
+      {"name": "即兴爆炸物处理", "level": 5, "element": "Physical", "note": "自学的，因为他的排没有工兵，他不得不成为工兵"}
+    ]
+  }
+}

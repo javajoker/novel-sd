@@ -1,0 +1,78 @@
+{
+  "id": "char_aeon",
+  "name": "艾昂",
+  "role": "protagonist",
+  "base_profile": {
+    "appearance": {
+      "age": 31,
+      "build": "瘦削而有韧性，常年野外生存留下的肌肉记忆",
+      "eyes": "浅银色，灵能族的眼色，但失去共鸣后像是蒙了一层霜",
+      "hair": "深灰色，剪得很短，没有任何灵能族传统的发饰",
+      "skin": "偏苍白，有战场留下的细小疤痕，右手食指和中指有源质烧灼的痕迹",
+      "distinctive_features": "总是站在人群边缘，从不占据视觉中心；灵能族人站立时会有微弱的感应光晕，他没有"
+    },
+    "personality": {
+      "mbti": "INTJ",
+      "traits": ["极度克制", "观察者而非参与者", "偶尔冷酷直接", "在绝对孤独中保持了某种奇异的平静"],
+      "speech": "简短、准确、不依赖情绪词汇——他曾经通过共鸣传递情绪，现在用文字很笨拙",
+      "inner_voice": "其实极为丰沛，所有无处安放的情绪都内化成了对世界的精准感知",
+      "humor": "极少，偶尔出现时令人不安地准确"
+    },
+    "background": {
+      "origin": "艾尔维斯灵能族，出生于碎晶星域的灵能圣堂边境",
+      "family": "父母皆为战争中阵亡，由族群共同抚养——灵能族的孤儿不孤，因为共鸣填满一切",
+      "training": "灵能战士精英训练，专攻感知与共鸣放大，而非攻击性灵能",
+      "key_events": [
+        "十二岁第一次感知到他人情绪的震撼——灵能族孩子的成年礼",
+        "二十三岁，战场见习，第一次感知到大规模死亡的共鸣回响",
+        "二十八岁，共鸣失控事件（「共鸣之殇」），被放逐",
+        "二十八到三十一岁，三年流亡——故事开始"
+      ]
+    },
+    "the_ghost": "「共鸣之殇」：二十八岁那场防御战，他感知到己方战线在他的前方一处一处崩溃，每一个死亡都是一颗石子投入共鸣湖面——数百颗石子同时落下，涟漪彼此叠加，他来不及隔绝，将所有临死的痛苦、恐惧、遗憾如洪水般传入共鸣网络。他听到数十名族人同时尖叫，然后是更深的寂静。他不知道他们后来怎样了——共鸣斩断的那一刻，他失去了知道的能力。",
+    "the_lie": "艾昂相信：如果他能将情绪控制到足够完美，如果他永不再失控，灵能族议会会在某天重新接纳他，重新打开共鸣的门。他用三年的严苛自律证明自己可以被信任。但这个信念是一个温柔的谎——实际上，议会放逐他不仅因为事故，而是因为在那一刻的共鸣洪流中，他无意识地传递了一个更深层的感知：这场战争不可能被赢得。这个真相比任何临死之苦都更危险。"
+  },
+  "initial_state": {
+    "story_time": 0,
+    "location": "elem_shard_crystal_sector",
+    "inventory": [
+      {"item": "elem_ability_card_jump_x3", "status": "absorbed", "significance": "三张叠加的跳跃卡，让他能在战场废墟中轻盈移动"},
+      {"item": "elem_ability_card_shield_x1", "status": "absorbed", "significance": "单层护盾卡，勉强够用"},
+      {"item": "自制轻型脉冲枪", "status": "equipped", "significance": "联邦军械，战场拾取修改，不是灵能族的风格，是他的生存务实性的体现"},
+      {"item": "灵能族断频器", "status": "worn", "significance": "一个锁扣装置，套在他的太阳穴处——据他理解是用来防止共鸣残余信号干扰他人。实际上他不完全确定它有没有用"},
+      {"item": "一块磨损的源质碎晶", "status": "carried", "significance": "那场失控战役战场上捡到的，他不知道为什么一直带着它"}
+    ],
+    "knowledge": [
+      {"fact": "fact_aeon_resonance_severed", "confidence": "certain"},
+      {"fact": "fact_ghost_event", "confidence": "certain"},
+      {"fact": "fact_the_lie", "confidence": "uncertain—他相信那个谎是真的"},
+      {"fact": "fact_war_director_awakening", "confidence": "unknown"},
+      {"fact": "fact_ulos_true_origin", "confidence": "unknown"},
+      {"fact": "fact_origin_matter_consciousness", "confidence": "unknown"},
+      {"fact": "fact_federation_monopoly_plan", "confidence": "unknown"},
+      {"fact": "fact_elwis_council_lie", "confidence": "unknown"}
+    ],
+    "beliefs": [
+      {"belief": "战争会在某天终止", "is_true": false},
+      {"belief": "他的放逐是暂时的", "is_true": false},
+      {"belief": "控制情绪等于安全", "is_true": "partial—在战场上正确，在孤独里是缓慢自毁"},
+      {"belief": "他对其他族群的死亡无动于衷", "is_true": false}
+    ],
+    "psychology": {
+      "sanity": 72,
+      "core_desire": "重回共鸣——被感知，被接受",
+      "core_fear": "他已经永远无法回去了",
+      "secondary_fear": "在完全孤独中失去感知他人价值的能力",
+      "mood": "平静如死水，水下是他不去触碰的一切",
+      "hate": 0,
+      "grief": 85,
+      "self_discipline": 95
+    },
+    "abilities": [
+      {"name": "灵能感知（残余）", "level": 3, "element": "Psi", "note": "共鸣斩断后仍保留对物理空间的感知能力，但无法感知他人情绪或意识"},
+      {"name": "灵能护盾（弱化）", "level": 2, "element": "Psi", "note": "脱离共鸣网络后个人灵能护盾大幅减弱"},
+      {"name": "源质亲和（被压制）", "level": 1, "element": "Origin", "note": "灵能族对源质本就有天然亲和，艾昂的格外强烈——这是他「失控」的根本原因之一，也是秘密"},
+      {"name": "基础战场生存", "level": 4, "element": "Physical", "note": "三年流亡磨出来的，不是灵能族的战斗方式，是一个人的"}
+    ]
+  }
+}
