@@ -25,6 +25,20 @@
       }
     },
     {
+      "story_time": 5,
+      "chapter_id": "ch_009",
+      "facts_confirmed": [],
+      "facts_newly_learned": [],
+      "notes": "ch_009无新事实传递。关键：陈铭发现了自己防御机制的逻辑矛盾——他拉了那个孩子的反射不符合「不知道名字=不在意」。他没有解决这个矛盾，也没有逃开，只是搁置。",
+      "beliefs_at_chapter_end": [
+        {"belief": "联邦会赢得这场战争", "is_true": false},
+        {"belief": "他已经麻木了", "is_true": false, "note": "他拉人的反射证明了这个信念是假的，但他还没有准备好承认这件事"},
+        {"belief": "活着只是习惯", "is_true": "partial"},
+        {"belief": "不知道名字=不在意", "is_true": false, "note": "新增——他发现这个理论不成立，但他没有放弃这个理论，只是搁置了逻辑矛盾"}
+      ],
+      "new_observation": "他的反射（帮助不知道名字的人）早于他的理论（不在意）。理论被行为测试，测试结果是理论错了，但他还没有接受这个结果。这是麻木防线最深的裂缝：不再是外力造成的缺口，而是他自己的行为造成的内部矛盾。"
+    },
+    {
       "story_time": 3,
       "chapter_id": "ch_005",
       "facts_confirmed": [],

@@ -87,7 +87,8 @@
           "id": "ch_009", "number": 9, "title": "新战场",
           "thread_id": "thr_chen_ming", "pov_character": "char_chen_ming", "story_time": 5,
           "one_line": "陈铭进入了一场新的战斗，在他身边，那些他观察过的脸开始减少。",
-          "scene_arc": "战前→战中→战后（活下来了，又一次）", "status": "outlined"
+          "scene_arc": "战前→战中→战后（活下来了，又一次）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_009.json"
         },
         {
           "id": "ch_010", "number": 10, "title": "标准差",

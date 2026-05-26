@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "id": "evt_ch009_new_battlefield",
+      "name": "新战场",
+      "thread_id": "thr_chen_ming",
+      "story_time": 5,
+      "status": "drafted",
+      "chapter_id": "ch_009",
+      "participants": ["char_chen_ming"],
+      "summary": "P-14矿脉接触线战斗，FED-TMP-0914与虚空掠夺者交战。陈铭在战斗中拉了那个他从ch_005起记住脸但不知道名字的年轻士兵（气浪击倒在开阔地）。战后减员两人，年轻士兵存活。夜里念名牌时发现逻辑矛盾（帮了不知道名字的人=「不在意」理论错了），搁置矛盾，不下结论。ch_006的战略调整（Θ-7）在此落地。"
+    },
+    {
       "id": "evt_ch008_ulos_watching",
       "name": "虚空边缘",
       "thread_id": "thr_ulos",

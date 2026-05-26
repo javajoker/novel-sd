@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 8,
+    "current_chapter": 9,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -558,6 +558,30 @@
         "pov_constraint": "乌洛斯知道自己的真实来历但选择不去想；知道联邦计划；感知到战争机器异常但不知道Θ-7的具体觉醒；不知道艾昂的存在"
       },
       "context": "第四条视角线引入（thr_ulos）。最冷、最宏观的视角。乌洛斯花了二十年把自己变成三秒钟就能压制温暖记忆的机器，而那个「进步」本身就是他正在失去某种东西的证明。hook_ulos_true_origin的第一次密度暗示。"
+    },
+    {
+      "id": "evt_ch009_new_battlefield",
+      "name": "新战场",
+      "description": "P-14矿脉接触线，FED-TMP-0914遭虚空掠夺者突袭。陈铭战斗时看见年轻士兵（ch_005中记住脸的那个人）被气浪击倒在开阔地，做出了0.5秒的决定：冲出去拉他。战后减员两人，年轻士兵存活。夜里念名牌时发现逻辑矛盾：他拉了个不知道名字的人，这和「不知道名字=不在意」互相矛盾。他没有解决矛盾，搁置了。",
+      "thread_id": "thr_chen_ming",
+      "story_time": 5,
+      "duration": 1,
+      "location": "elem_shard_crystal_sector",
+      "participants": ["char_chen_ming"],
+      "chapter_id": "ch_009",
+      "status": "drafted",
+      "dependencies": ["evt_ch005_march", "evt_ch006_second_question"],
+      "projected_outcome": {
+        "state_changes": [{"entity": "char_chen_ming", "kind": "psychology", "desc": "防御机制逻辑上出现内部矛盾——不再是外部侵蚀，而是自己的行为造成的裂缝"}]
+      },
+      "beat_design": {
+        "pov": "char_chen_ming",
+        "technique": "战场叙事用感知细节而非英雄主义，决定以身体反射而非内部思考呈现",
+        "scene_arc": "战前→战中→战后（活下来了，又一次）",
+        "key_moment": "从掩体冲出去拉那个不知道名字的人——纯粹的反射，不符合他自己的理论，他在夜里发现了这个矛盾",
+        "pov_constraint": "陈铭不知道Θ-7把他的单位移到这里；不知道那个年轻士兵的名字；不知道艾昂"
+      },
+      "context": "陈铭弧的核心转折点之一。ch_002（裂缝出现）→ch_005（防御主动化）→ch_009（防御被自己的行为否定）。三章的弧度完整了第一个循环：「他已经麻木了」这个谎言越来越难以自圆其说。ch_006（Θ-7战略调整）→ch_009（战斗发生）的跨线叙事因果在读者层面实现。"
     }
   ],
   "themes": [
