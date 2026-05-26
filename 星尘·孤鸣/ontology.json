@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 19,
+    "current_chapter": 20,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -99,6 +99,18 @@
       "salience": 0.35,
       "profile_ref": "characters/char_young_soldier.json",
       "state_ref": "characters/states/char_young_soldier.json"
+    },
+    {
+      "id": "char_yata",
+      "canonical_name": "雅塔",
+      "type": "Person",
+      "subtype": "supporting",
+      "aliases": ["雅塔", "虚空主将雅塔"],
+      "description": "乌洛斯的五位主将之一，跟随乌洛斯十二年，服务年限最长。能量轮廓极稳定，从不用恐惧当动力——唯一一个在乌洛斯面前有这种特殊性的人。ch_020中看见了乌洛斯的停顿，选择不说出来（断开前多停一秒是她的语言）。",
+      "attributes": {"faction": "虚空掠夺者（乌洛斯直属）", "status": "alive", "role": "主将（服务年限最长）"},
+      "salience": 0.4,
+      "profile_ref": "characters/char_yata.json",
+      "state_ref": "characters/states/char_yata.json"
     },
     {
       "id": "char_v07",
@@ -394,6 +406,26 @@
       "valid_from_chapter": 14,
       "valid_to_chapter": 17,
       "properties": {"note": "陈铭持续观察老兵但刻意不问名字；老兵ch_017阵亡时陈铭仍不知其姓名"},
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0012",
+      "subject": "char_yata",
+      "predicate": "serves",
+      "object": "char_ulos",
+      "valid_from_chapter": 0,
+      "valid_to_chapter": null,
+      "properties": {"note": "虚空主将，服务年限十二年，是唯一一个不用恐惧当动力的将领；ch_020中看见了乌洛斯的停顿"},
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0013",
+      "subject": "char_ulos",
+      "predicate": "observed_by",
+      "object": "char_yata",
+      "valid_from_chapter": 20,
+      "valid_to_chapter": null,
+      "properties": {"note": "雅塔在ch_020中看见了乌洛斯的停顿——第一次他在他人面前有可见的内心裂缝"},
       "confidence": 1.0
     },
     {
@@ -698,6 +730,26 @@
       "context": "hook_resonance_crystal_stone的延伸：ch_001里死去战士口袋的共鸣晶石（等待接收者），ch_011里前哨站的储存晶石（包含留言，等待值守者）。艾昂在两块晶石旁边都无法回应，但在这里他做了不同的事：他仔细地把它放回了原位，保留了那个等待的可能性。"
     },
     {
+      "id": "evt_ch020_void_parliament",
+      "name": "虚空议会",
+      "description": "乌洛斯召开五将领虚空议事（能量轮廓远程出席）。雅塔汇报完北部高地哨位情况后问「时间节点，你确认过了吗」——乌洛斯停顿了不到一秒，内部触碰到十二个月后的那个问题。雅塔看见了停顿里的某种东西。议事结束，雅塔断开前多停了一秒（她的语言）。乌洛斯独处时「那首歌」约一秒多（比ch_016略长），第一次反向。",
+      "thread_id": "thr_ulos",
+      "story_time": 11,
+      "duration": 1,
+      "location": "elem_shard_crystal_sector",
+      "participants": ["char_ulos", "char_yata"],
+      "chapter_id": "ch_020",
+      "status": "drafted",
+      "dependencies": ["evt_ch016_plan_first_step"],
+      "projected_outcome": {
+        "state_changes": [
+          {"entity": "char_ulos", "kind": "psychology", "desc": "第一次在他人面前有可见裂缝；「那首歌」时长第一次反向（约一秒多）；「不相关」位置越来越满"},
+          {"entity": "char_yata", "kind": "knowledge", "desc": "看见了乌洛斯的停顿，选择不说出来（断开前多停一秒是她的语言）"}
+        ]
+      },
+      "context": "乌洛斯弧度关键节点：从绝对孤独（ch_016独自推演）到第一次被他人目击内心裂缝。雅塔是他十二年来唯一不用恐惧当动力的将领——这个特殊性使这次目击比任何其他人的目击更有重量。「那首歌」的时间线：ch_008三秒→ch_016不到一秒→ch_020约一秒多（第一次反向，被目击引发的无意识泄漏）。"
+    },
+    {
       "id": "evt_ch019_turning_back",
       "name": "折返",
       "description": "艾昂在矿石地貌深处行走至正午前，无明显原因停下坐了约一小时，随后站起来往西北方向走——这是他在小说里第一次有意识地反转行进方向，方向指向废弃的灵能族前哨站遗址（ch_011）。他没有给自己这个决定任何理由，傍晚睡前承认：「脚知道往哪里去，脑子还没给那件事一个名字。」",
@@ -894,7 +946,9 @@
       "pov_character": "char_ulos",
       "start_time": 3,
       "end_time": null,
-      "event_ids": [],
+      "current_time": 11,
+      "latest_chapter": "ch_020",
+      "event_ids": ["evt_ch008_ulos_watching", "evt_ch016_plan_first_step", "evt_ch020_void_parliament"],
       "convergences": []
     },
     {

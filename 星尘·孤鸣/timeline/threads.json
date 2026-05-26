@@ -35,9 +35,9 @@
       "name": "乌洛斯·裂空者",
       "pov_character": "char_ulos",
       "start_time": 5,
-      "current_time": 10,
-      "latest_chapter": "ch_016",
-      "event_ids": ["evt_ch008_ulos_watching", "evt_ch016_plan_first_step"],
+      "current_time": 11,
+      "latest_chapter": "ch_020",
+      "event_ids": ["evt_ch008_ulos_watching", "evt_ch016_plan_first_step", "evt_ch020_void_parliament"],
       "status": "active"
     },
     {

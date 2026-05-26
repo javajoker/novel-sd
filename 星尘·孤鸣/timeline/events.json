@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "id": "evt_ch020_void_parliament",
+      "name": "虚空议会",
+      "thread_id": "thr_ulos",
+      "story_time": 11,
+      "status": "drafted",
+      "chapter_id": "ch_020",
+      "participants": ["char_ulos", "char_yata"],
+      "summary": "乌洛斯五将领议事。雅塔问「时间节点确认了吗」——乌洛斯停顿不到一秒，雅塔看见了。两人都没有说话。独处后「那首歌」约一秒多（ch_016不到一秒，第一次反向）。第一次他在他人面前有可见内心裂缝；「那个位置越来越满了，他没有去注意」。"
+    },
+    {
       "id": "evt_ch019_turning_back",
       "name": "折返",
       "thread_id": "thr_aeon",
