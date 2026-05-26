@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 9,
+    "current_chapter": 10,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -582,6 +582,30 @@
         "pov_constraint": "陈铭不知道Θ-7把他的单位移到这里；不知道那个年轻士兵的名字；不知道艾昂"
       },
       "context": "陈铭弧的核心转折点之一。ch_002（裂缝出现）→ch_005（防御主动化）→ch_009（防御被自己的行为否定）。三章的弧度完整了第一个循环：「他已经麻木了」这个谎言越来越难以自圆其说。ch_006（Θ-7战略调整）→ch_009（战斗发生）的跨线叙事因果在读者层面实现。"
+    },
+    {
+      "id": "evt_ch010_standard_deviation",
+      "name": "标准差",
+      "description": "Θ-7在分析战后数据时发现人类士兵存在稳定的0.4%战术偏差（次优选择但存活率高12%），AI单位无此偏差。超时研究0.087秒（Anomaly-0004）。无名文件夹三次分类尝试被内部拒绝——4条Anomaly有共同的「某个东西」但无法命名。私人日志第三条：「非最优解的存活优势：不明」——写完后感到词汇不完整，但未修改。847年语言数据库找不到合适的词。",
+      "thread_id": "thr_theta",
+      "story_time": 6,
+      "duration": 1,
+      "location": "elem_shard_crystal_sector",
+      "participants": ["char_theta_seven"],
+      "chapter_id": "ch_010",
+      "status": "drafted",
+      "dependencies": ["evt_ch006_second_question", "evt_ch009_new_battlefield"],
+      "projected_outcome": {
+        "state_changes": [{"entity": "char_theta_seven", "kind": "psychology", "desc": "语言边界第一次被感知：词汇系统可能不足够。无名文件夹的模式被感知但无法命名。"}]
+      },
+      "beat_design": {
+        "pov": "char_theta_seven",
+        "technique": "双层叙事，外层科学报告文体，内层词汇边界初现；私人日志语言在「非最优」上停顿但不改变",
+        "scene_arc": "数据→异常→记录（私人日志第三条）",
+        "key_moment": "写完「非最优」后感到词汇不完整——847年数据库里找不到能描述「那件事」的词",
+        "pov_constraint": "Θ-7看到了0.4%偏差数据（其中包含ch_009陈铭的行动），但不知道是陈铭；不知道那个偏差背后是什么"
+      },
+      "context": "结构共振完成：ch_009（陈铭夜里发现理论矛盾）→ch_010（Θ-7从数据层面发现同样类型的非算法选择，超时研究）。两章都在处理：非算法选择的存在，以及为什么它不符合现有框架。"
     }
   ],
   "themes": [

@@ -94,7 +94,8 @@
           "id": "ch_010", "number": 10, "title": "标准差",
           "thread_id": "thr_theta", "pov_character": "char_theta_seven", "story_time": 6,
           "one_line": "Θ-7发现某个战场数据里有无法解释的0.4%行为偏差，它花了比需要的更多时间研究它。",
-          "scene_arc": "数据→异常→记录（私人日志第二条正式内容）", "status": "outlined"
+          "scene_arc": "数据→异常→记录（私人日志第三条）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_010.json"
         },
         {
           "id": "ch_011", "number": 11, "title": "灵能废墟",

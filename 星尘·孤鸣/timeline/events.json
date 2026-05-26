@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "id": "evt_ch010_standard_deviation",
+      "name": "标准差",
+      "thread_id": "thr_theta",
+      "story_time": 6,
+      "status": "drafted",
+      "chapter_id": "ch_010",
+      "participants": ["char_theta_seven"],
+      "summary": "Θ-7在战后数据中发现0.4%人类战术偏差（次优选择但存活率高12%），AI单位无此偏差。超时研究0.087秒（Anomaly-0004）。无名文件夹三次分类尝试被拒绝，4条Anomaly的共同特征感知到但无法命名。私人日志第三条：「非最优解的存活优势：不明」——感到词汇不完整。语言边界首次被感知。结构共振：与ch_009（陈铭的理论矛盾）形成平行——两者都在处理非算法选择的存在。"
+    },
+    {
       "id": "evt_ch009_new_battlefield",
       "name": "新战场",
       "thread_id": "thr_chen_ming",
