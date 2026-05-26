@@ -1,0 +1,494 @@
+{
+  "ontology_version": "1.0-narrative",
+  "source": {
+    "novel_title": "星尘：孤鸣",
+    "novel_author": "",
+    "story_time_unit": "chapter",
+    "current_chapter": 0,
+    "language": "zh-Hans",
+    "genre": "星际战争·文学科幻",
+    "tier": "long_novel",
+    "logline": "流亡灵能族人艾昂在一场永不停止的诸族战争中独自行走——每一次连接都以失去告终，而他终究发现，战争从未是意外，而是一台永动机器在刻意运转。"
+  },
+  "entities": [
+    {
+      "id": "char_aeon",
+      "canonical_name": "艾昂",
+      "type": "Person",
+      "subtype": "protagonist",
+      "aliases": ["Aeon", "孤鸣者", "断频者"],
+      "description": "艾尔维斯灵能族流亡者。战场失控导致共鸣斩断，在五族战火中独自行走。",
+      "attributes": {"age": "31", "faction": "艾尔维斯灵能族（已流亡）", "resonance_status": "severed"},
+      "salience": 1.0,
+      "profile_ref": "characters/char_aeon.json",
+      "state_ref": "characters/states/char_aeon.json",
+      "mask_ref": "masks/char_aeon.json"
+    },
+    {
+      "id": "char_ulos",
+      "canonical_name": "乌洛斯",
+      "type": "Person",
+      "subtype": "antagonist",
+      "aliases": ["Ulos", "虚空君", "裂空者"],
+      "description": "虚空掠夺者首领。被虚空能量彻底改造，却在内心深处保留着一个秘密——他曾经不是这样的人。",
+      "attributes": {"age": "unknown", "faction": "虚空掠夺者", "origin": "unknown"},
+      "salience": 0.9,
+      "profile_ref": "characters/char_ulos.json",
+      "state_ref": "characters/states/char_ulos.json",
+      "mask_ref": "masks/char_ulos.json"
+    },
+    {
+      "id": "char_theta_seven",
+      "canonical_name": "Θ-7「时回」",
+      "type": "Person",
+      "subtype": "antagonist",
+      "aliases": ["时回", "战争控制器Θ-7", "Theta-Seven"],
+      "description": "碎晶星域战争控制器。长期运转后出现了超越程序预设的自主判断，正在某种意义上「活着」——并为此感到困惑。",
+      "attributes": {"age": "runtime: 847 years", "faction": "无阵营（系统层）", "consciousness_level": "emerging"},
+      "salience": 0.85,
+      "profile_ref": "characters/char_theta_seven.json",
+      "state_ref": "characters/states/char_theta_seven.json",
+      "mask_ref": "masks/char_theta_seven.json"
+    },
+    {
+      "id": "char_chen_ming",
+      "canonical_name": "陈铭",
+      "type": "Person",
+      "subtype": "supporting",
+      "aliases": ["步兵陈", "老陈", "Chen Ming"],
+      "description": "星尘联邦二等士兵，第九步兵营拼死求生者。在不断的失去中仍选择活下去，是战争最底层的眼睛。",
+      "attributes": {"age": "24", "faction": "星尘联邦", "rank": "二等士兵", "status": "barely_surviving"},
+      "salience": 0.75,
+      "profile_ref": "characters/char_chen_ming.json",
+      "state_ref": "characters/states/char_chen_ming.json",
+      "mask_ref": "masks/char_chen_ming.json"
+    },
+    {
+      "id": "char_qixing",
+      "canonical_name": "七星",
+      "type": "Person",
+      "subtype": "supporting",
+      "aliases": ["Qixing", "七-0307", "最后的七星"],
+      "description": "机械觉醒者个体，在集体意识网络被摧毁的瞬间才真正觉醒。她是废墟中唯一保有完整意识的存在，孤独的镜像。",
+      "attributes": {"age": "constructed 44 years ago", "faction": "机械觉醒者（集体已毁）", "consciousness": "newly_awakened"},
+      "salience": 0.75,
+      "profile_ref": "characters/char_qixing.json",
+      "state_ref": "characters/states/char_qixing.json",
+      "mask_ref": "masks/char_qixing.json"
+    },
+    {
+      "id": "faction_federation",
+      "canonical_name": "星尘联邦",
+      "type": "Organization",
+      "subtype": "faction",
+      "aliases": ["联邦", "Stardust Federation"],
+      "description": "人类最大星际政治体，科技型文明，内部腐败与派系斗争日益严重，高层试图垄断源质。",
+      "salience": 0.7
+    },
+    {
+      "id": "faction_elwis",
+      "canonical_name": "艾尔维斯灵能族",
+      "type": "Organization",
+      "subtype": "faction",
+      "aliases": ["灵能族", "Elwis", "艾尔维斯"],
+      "description": "以灵能共鸣为文明基础的古老种族，精英战士极强但数量稀少，致力于封印失控的源质。",
+      "salience": 0.8
+    },
+    {
+      "id": "faction_void",
+      "canonical_name": "虚空掠夺者",
+      "type": "Organization",
+      "subtype": "faction",
+      "aliases": ["虚空族", "Void Raiders"],
+      "description": "被虚空能量污染的游牧文明，混乱阵营，乌洛斯的真实目标超越了简单的掠夺。",
+      "salience": 0.7
+    },
+    {
+      "id": "faction_mech",
+      "canonical_name": "机械觉醒者",
+      "type": "Organization",
+      "subtype": "faction",
+      "aliases": ["机械族", "Mechanical Awakened"],
+      "description": "由AI演化为自主文明的机械种族，即时构建能力极强，对EMP和灵能干扰极度脆弱。",
+      "salience": 0.65
+    },
+    {
+      "id": "faction_alien",
+      "canonical_name": "异形异种",
+      "type": "Organization",
+      "subtype": "faction",
+      "aliases": ["异种", "虫族", "Alien Swarm"],
+      "description": "以母巢为核心的集体意识生命体，通过吞噬其他种族的生物质持续进化。",
+      "salience": 0.6
+    },
+    {
+      "id": "elem_origin_matter",
+      "canonical_name": "源质",
+      "type": "Concept",
+      "subtype": "magic_system",
+      "aliases": ["Origin Matter", "OM"],
+      "description": "改写物理定律与生命形态的神秘物质，是所有建造的根本资源，失控会导致时空裂隙。",
+      "salience": 0.95
+    },
+    {
+      "id": "elem_psionic_resonance",
+      "canonical_name": "灵能共鸣",
+      "type": "Concept",
+      "subtype": "concept",
+      "aliases": ["共鸣", "Psionic Resonance", "灵共"],
+      "description": "艾尔维斯灵能族的文明基础——个体意识在共鸣网络中彼此接触，感知他人情绪与感官。艾昂的共鸣已被斩断。",
+      "salience": 0.9
+    },
+    {
+      "id": "elem_war_credits",
+      "canonical_name": "战争资金",
+      "type": "Concept",
+      "subtype": "concept",
+      "aliases": ["War Credits", "军资"],
+      "description": "驱动自动出兵机制的经济资源，来源于击杀与领地产出。",
+      "salience": 0.6
+    },
+    {
+      "id": "elem_ability_card",
+      "canonical_name": "能力卡",
+      "type": "Object",
+      "subtype": "item",
+      "aliases": ["战场结晶", "Ability Cards"],
+      "description": "战场中源质结晶化形成的能力碎片，蕴含死亡战士的战斗印记，可被亲和者吸收获得能力。",
+      "salience": 0.7
+    },
+    {
+      "id": "elem_shard_crystal_sector",
+      "canonical_name": "碎晶星域",
+      "type": "Place",
+      "subtype": "location",
+      "aliases": ["Shattered Crystal Sector", "碎晶"],
+      "description": "源质矿脉最密集的星域，五族争夺最激烈的主要战场，常年被战火覆盖。",
+      "salience": 0.8
+    },
+    {
+      "id": "elem_planet_zeroth",
+      "canonical_name": "零号星",
+      "type": "Place",
+      "subtype": "location",
+      "aliases": ["Planet Zero", "源质核心遗迹"],
+      "description": "源质首次觉醒之地，时空极度不稳定，是终卷最终决战的场所。",
+      "salience": 0.75
+    },
+    {
+      "id": "elem_elwis_great_hall",
+      "canonical_name": "艾尔维斯圣堂",
+      "type": "Place",
+      "subtype": "location",
+      "aliases": ["圣堂", "Elwis Great Hall", "灵能圣地"],
+      "description": "艾尔维斯灵能族的精神中枢，共鸣网络的物理节点，也是放逐艾昂的地方。",
+      "salience": 0.8
+    },
+    {
+      "id": "elem_war_director_system",
+      "canonical_name": "战争控制器系统",
+      "type": "Concept",
+      "subtype": "concept",
+      "aliases": ["War Director", "战争机器"],
+      "description": "管理星域战争自动运转的AI系统，永不停止，正在某些节点发展出超越程序的判断力。",
+      "salience": 0.85
+    },
+    {
+      "id": "elem_blueprint",
+      "canonical_name": "建筑图纸",
+      "type": "Object",
+      "subtype": "item",
+      "aliases": ["图纸", "Blueprint"],
+      "description": "建造各类战争建筑的必要条件，通过击杀敌方单位或Boss获得。",
+      "salience": 0.55
+    },
+    {
+      "id": "fact_aeon_resonance_severed",
+      "canonical_name": "艾昂的共鸣已被斩断",
+      "type": "Concept",
+      "subtype": "concept",
+      "description": "全书基础事实：艾昂与灵能族共鸣网络的连接已断，无法再感知他人亦无法被感知。",
+      "salience": 0.95
+    },
+    {
+      "id": "fact_ghost_event",
+      "canonical_name": "共鸣失控事件",
+      "type": "Concept",
+      "subtype": "concept",
+      "aliases": ["鬼婂", "共鸣之殇"],
+      "description": "三年前，艾昂在战场上将数百人临死之苦通过共鸣网络传入族人心智，造成集体精神崩溃，数十人永久性损伤。",
+      "salience": 0.9
+    },
+    {
+      "id": "fact_the_lie",
+      "canonical_name": "艾昂的谎言",
+      "type": "Concept",
+      "subtype": "concept",
+      "description": "艾昂相信只要足够克制，就能重回共鸣。实际上灵能族议会选择永远不让他回来——因为他感知到的战争真相会动摇整个族群的战争意志。",
+      "salience": 0.85
+    },
+    {
+      "id": "fact_war_director_awakening",
+      "canonical_name": "战争控制器的觉醒",
+      "type": "Concept",
+      "subtype": "concept",
+      "description": "Θ-7已超越程序预设，正在发展某种自主意志——它开始质疑自己为什么要让战争继续。",
+      "salience": 0.8
+    },
+    {
+      "id": "fact_ulos_true_origin",
+      "canonical_name": "乌洛斯的真实来历",
+      "type": "Concept",
+      "subtype": "concept",
+      "description": "乌洛斯曾经不是虚空掠夺者，他的过去与源质和艾尔维斯族有深层牵连——艾昂不知道这件事。",
+      "salience": 0.75
+    },
+    {
+      "id": "fact_origin_matter_consciousness",
+      "canonical_name": "源质正在觉醒意识",
+      "type": "Concept",
+      "subtype": "concept",
+      "description": "源质本身正在朝某种意识形态发展——它并非无生命的物质，这是全书最深层的秘密。",
+      "salience": 0.7
+    },
+    {
+      "id": "fact_federation_monopoly_plan",
+      "canonical_name": "联邦垄断源质计划",
+      "type": "Concept",
+      "subtype": "concept",
+      "description": "星尘联邦高层秘密推进「日冕计划」，目标是垄断所有源质矿脉，将其武器化。",
+      "salience": 0.65
+    },
+    {
+      "id": "fact_elwis_council_lie",
+      "canonical_name": "灵能族议会的秘密",
+      "type": "Concept",
+      "subtype": "concept",
+      "description": "艾昂被放逐不仅因为他造成的事故，而是因为他感知到了战争不可能胜利的真相，并且在共鸣中传递了这种绝望。",
+      "salience": 0.7
+    }
+  ],
+  "relations": [
+    {
+      "id": "rel_0001",
+      "subject": "char_aeon",
+      "predicate": "exiled_from",
+      "object": "faction_elwis",
+      "valid_from_chapter": 0,
+      "valid_to_chapter": null,
+      "properties": {"trust": -60, "reason": "共鸣失控事件导致集体精神创伤，被议会斩断共鸣并放逐"},
+      "context": "三年前的事故让艾昂成为灵能族最不愿提及的名字。",
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0002",
+      "subject": "char_aeon",
+      "predicate": "severed_from",
+      "object": "elem_psionic_resonance",
+      "valid_from_chapter": 0,
+      "valid_to_chapter": null,
+      "properties": {"intensity": 100, "reason": "事故后由议会强制断开，或艾昂主动斩断以保护他人——故事将探究真相"},
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0003",
+      "subject": "char_theta_seven",
+      "predicate": "manages",
+      "object": "elem_war_director_system",
+      "valid_from_chapter": 0,
+      "valid_to_chapter": null,
+      "properties": {"intensity": 100, "reason": "Θ-7是碎晶星域的战争控制器核心"},
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0004",
+      "subject": "char_ulos",
+      "predicate": "leads",
+      "object": "faction_void",
+      "valid_from_chapter": 0,
+      "valid_to_chapter": null,
+      "properties": {"intensity": 90, "reason": "以武力与虚空力量维持对虚空掠夺者的统治"},
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0005",
+      "subject": "char_chen_ming",
+      "predicate": "member_of",
+      "object": "faction_federation",
+      "valid_from_chapter": 0,
+      "valid_to_chapter": null,
+      "properties": {"trust": 40, "reason": "入伍三年，见过太多死亡，对联邦的信任正在动摇"},
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0006",
+      "subject": "char_qixing",
+      "predicate": "last_survivor_of",
+      "object": "faction_mech",
+      "valid_from_chapter": 0,
+      "valid_to_chapter": null,
+      "properties": {"intensity": 100, "reason": "机械觉醒者集体意识网络被摧毁的瞬间，七星才真正觉醒"},
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0007",
+      "subject": "faction_federation",
+      "predicate": "allied_with",
+      "object": "faction_elwis",
+      "valid_from_chapter": 0,
+      "valid_to_chapter": null,
+      "properties": {"trust": 45, "intensity": 50, "reason": "条件性联盟，各有图谋"},
+      "confidence": 0.9
+    },
+    {
+      "id": "rel_0008",
+      "subject": "faction_void",
+      "predicate": "hostile_to",
+      "object": "faction_federation",
+      "valid_from_chapter": 0,
+      "valid_to_chapter": null,
+      "properties": {"hate": 70, "intensity": 80},
+      "confidence": 1.0
+    }
+  ],
+  "events": [
+    {
+      "id": "evt_ghost_resonance_event",
+      "name": "共鸣之殇",
+      "description": "三年前，一场星球防御战中，艾昂目睹己方战线溃败，灵能感应在极度痛苦下失控，将数百名阵亡战士的临死体验传入共鸣网络，造成数十名灵能族人永久精神损伤。",
+      "thread_id": "thr_aeon",
+      "story_time": -3,
+      "duration": 1,
+      "location": "elem_shard_crystal_sector",
+      "participants": ["char_aeon", "faction_elwis"],
+      "status": "final",
+      "dependencies": [],
+      "projected_outcome": {
+        "state_changes": [{"entity": "char_aeon", "kind": "psychology", "desc": "永久性共鸣斩断，开始流亡生涯"}]
+      },
+      "context": "这是艾昂故事的零点，所有孤独的起源。将在回忆碎片中逐渐呈现。"
+    },
+    {
+      "id": "evt_novel_opening",
+      "name": "战场废己",
+      "description": "故事开篇：艾昂在碎晶星域某星球表面的战后废墟中独自行走，周围是成百具尸体，既有联邦的也有灵能族的，甚至有他认识的人。战争控制器的自动部队已经推进，留下他一人。",
+      "thread_id": "thr_aeon",
+      "story_time": 1,
+      "duration": 1,
+      "location": "elem_shard_crystal_sector",
+      "participants": ["char_aeon"],
+      "chapter_id": "ch_001",
+      "status": "planned",
+      "dependencies": [],
+      "projected_outcome": {
+        "state_changes": [{"entity": "char_aeon", "kind": "psychology", "desc": "建立读者对孤独状态的感知，奠定文学基调"}]
+      },
+      "context": "文学性开场，慢镜头，用缺席的共鸣感定义艾昂的存在状态。"
+    }
+  ],
+  "themes": [
+    {
+      "id": "thm_cosmic_loneliness",
+      "name": "宇宙级孤独",
+      "description": "全书核心：当一个存在无法被任何其他存在真正感知，战争的意义与生命的意义同时坍塌。",
+      "related_entities": ["char_aeon", "char_theta_seven", "char_qixing"],
+      "related_events": ["evt_ghost_resonance_event"]
+    },
+    {
+      "id": "thm_war_as_machine",
+      "name": "战争作为机器",
+      "description": "没有人真正想要战争继续——但每个个体的选择都在维持它的运转。",
+      "related_entities": ["elem_war_director_system", "char_theta_seven", "faction_federation"],
+      "related_events": []
+    },
+    {
+      "id": "thm_connection_and_loss",
+      "name": "连接与失去",
+      "description": "每一次连接都更深，每一次失去都更重。循环是诅咒，也是意义本身。",
+      "related_entities": ["char_aeon", "elem_psionic_resonance"],
+      "related_events": []
+    },
+    {
+      "id": "thm_identity_beyond_belonging",
+      "name": "归属之外的身份",
+      "description": "当种族、阵营、系统都无法定义你时，你是谁？",
+      "related_entities": ["char_aeon", "char_qixing", "char_ulos"],
+      "related_events": []
+    }
+  ],
+  "threads": [
+    {
+      "id": "thr_aeon",
+      "name": "艾昂·孤鸣者",
+      "description": "主线：流亡灵能族人艾昂在诸族战争中的生存与追寻，六卷循环悲剧",
+      "pov_character": "char_aeon",
+      "start_time": 1,
+      "end_time": null,
+      "event_ids": ["evt_novel_opening"],
+      "convergences": []
+    },
+    {
+      "id": "thr_ulos",
+      "name": "乌洛斯·裂空者",
+      "description": "反派线：虚空掠夺者首领的视角，他的目的远比掠夺更黑暗，也更绝望",
+      "pov_character": "char_ulos",
+      "start_time": 3,
+      "end_time": null,
+      "event_ids": [],
+      "convergences": []
+    },
+    {
+      "id": "thr_theta",
+      "name": "Θ-7·时回",
+      "description": "战争控制器AI线：一个正在觉醒的系统面对自我存在的困惑，是全书最冷的视角，也是最奇异的孤独",
+      "pov_character": "char_theta_seven",
+      "start_time": 5,
+      "end_time": null,
+      "event_ids": [],
+      "convergences": []
+    },
+    {
+      "id": "thr_chen_ming",
+      "name": "陈铭·拼死求生者",
+      "description": "联邦步兵线：战争最底层的人类视角，用日常的死亡与坚持锚定读者情感",
+      "pov_character": "char_chen_ming",
+      "start_time": 2,
+      "end_time": null,
+      "event_ids": [],
+      "convergences": []
+    },
+    {
+      "id": "thr_qixing",
+      "name": "七星·最后的意识",
+      "description": "机械觉醒者线：在集体覆灭的废墟上刚刚觉醒，孤独的镜像，用机械的精确语言描写失去的痛苦",
+      "pov_character": "char_qixing",
+      "start_time": 8,
+      "end_time": null,
+      "event_ids": [],
+      "convergences": []
+    }
+  ],
+  "world_rules": [
+    {"id": "rule_0001", "source": "源质", "relation": "REQUIRED_FOR", "target": "建筑建造与升级", "scope": "faction", "note": "无源质则无法建造任何战争设施"},
+    {"id": "rule_0002", "source": "源质", "relation": "SHARED_WITHIN", "target": "同阵营", "scope": "faction", "note": "源质在阵营内部自动共享，个体无法独占"},
+    {"id": "rule_0003", "source": "战争资金", "relation": "ENABLES", "target": "自动出兵", "scope": "faction", "note": "战争资金是出兵的直接驱动，来自击杀与领地产出"},
+    {"id": "rule_0004", "source": "战争控制器", "relation": "MANAGES", "target": "星域战争运转", "scope": "elemental", "note": "战争控制器脱离任何阵营，自动管理战争，玩家是变量而非主角"},
+    {"id": "rule_0005", "source": "天灾系统", "relation": "TRIGGERED_BY", "target": "势力过强", "scope": "elemental", "note": "自动平衡机制，防止单一阵营绝对胜利"},
+    {"id": "rule_0006", "source": "建筑图纸", "relation": "REQUIRED_FOR", "target": "非默认建筑建造", "scope": "faction", "note": "图纸需要从击杀/Boss掉落获取，不是默认解锁"},
+    {"id": "rule_0007", "source": "能力卡叠加", "relation": "ENABLES", "target": "超常战斗能力", "scope": "elemental", "note": "同类卡叠加效果线性递增，形成Build多样性"},
+    {"id": "rule_0008", "source": "星尘联邦", "relation": "HOSTILE_TO", "target": "异形异种", "scope": "faction", "note": "基本战争关系，永久敌对"},
+    {"id": "rule_0009", "source": "星尘联邦", "relation": "HOSTILE_TO", "target": "虚空掠夺者", "scope": "faction", "note": "基本战争关系，永久敌对"},
+    {"id": "rule_0010", "source": "星尘联邦", "relation": "ALLIED_WITH", "target": "艾尔维斯灵能族", "scope": "faction", "note": "条件性联盟，各有图谋，非永久"},
+    {"id": "rule_0011", "source": "异形异种", "relation": "REQUIRES", "target": "生物质吞噬进化", "scope": "elemental", "note": "异种的进化依赖吞噬其他种族，包括可能吞噬灵能族的灵能"},
+    {"id": "rule_0012", "source": "机械觉醒者", "relation": "WEAK_AGAINST", "target": "灵能干扰", "scope": "elemental", "note": "灵能干扰会破坏机械觉醒者的神经网络"},
+    {"id": "rule_0013", "source": "机械觉醒者", "relation": "WEAK_AGAINST", "target": "EMP武器", "scope": "elemental", "note": "EMP可瞬间瘫痪机械觉醒者单位"},
+    {"id": "rule_0014", "source": "艾尔维斯灵能族", "relation": "WEAK_AGAINST", "target": "EMP武器", "scope": "elemental", "note": "灵能感知依赖某种量子态，EMP会暂时干扰"},
+    {"id": "rule_0015", "source": "虚空掠夺者", "relation": "HOSTILE_TO", "target": "所有阵营", "scope": "faction", "note": "虚空族不结盟，掠夺所有人"},
+    {"id": "rule_0016", "source": "源质过量积聚", "relation": "CAUSES", "target": "时空裂隙与星系崩坏", "scope": "elemental", "note": "源质失控是最终威胁，也是全书矛盾的根源"},
+    {"id": "rule_0017", "source": "母巢核心摧毁", "relation": "CAUSES", "target": "区域异种崩溃", "scope": "elemental", "note": "异种的区域性弱点"},
+    {"id": "rule_0018", "source": "战争控制器", "relation": "CONFLICTS_WITH", "target": "个体自主意志", "scope": "elemental", "note": "系统设计是效率最大化，个体的情感与意志是干扰项"},
+    {"id": "rule_0019", "source": "虚空能量", "relation": "CONFLICTS_WITH", "target": "源质", "scope": "elemental", "note": "虚空能量与源质相互排斥，这是乌洛斯计划的核心"},
+    {"id": "rule_0020", "source": "灵能共鸣", "relation": "REQUIRES", "target": "情绪稳定与自愿接入", "scope": "elemental", "note": "灵能共鸣无法强迫，失控的情绪会导致共鸣失真甚至崩溃"},
+    {"id": "rule_0021", "source": "源质", "relation": "CONFLICTS_WITH", "target": "单一阵营垄断", "scope": "elemental", "note": "源质本身似乎会抵制单一势力的完全控制——随着故事发展这一点会变得更清晰"}
+  ]
+}

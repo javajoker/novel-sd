@@ -1,0 +1,68 @@
+{
+  "plot_hooks": [
+    {
+      "id": "hook_origin_matter_shard",
+      "concept": "艾昂随身携带的源质碎晶",
+      "status": "open",
+      "introduced_chapter": "ch_001",
+      "last_mention_chapter": "ch_001",
+      "occurrences": [
+        {"chapter_id": "ch_001", "note": "艾昂握着那块三年前从「共鸣之殇」战场捡来的源质碎晶，感受到轻微振动。他不知道为什么一直带着它。"}
+      ],
+      "payoff_planned_chapter": "ch_106",
+      "risk": "需要每隔适当章节出现，维持读者记忆。不宜过早解释。"
+    },
+    {
+      "id": "hook_resonance_crystal_stone",
+      "concept": "那具灵能族战士口袋里的共鸣晶石和等待中的另一端",
+      "status": "open",
+      "introduced_chapter": "ch_001",
+      "last_mention_chapter": "ch_001",
+      "occurrences": [
+        {"chapter_id": "ch_001", "note": "艾昂找到晶石，知道另一端有人在等待，但无法使用它，将其放回死者口袋。"}
+      ],
+      "payoff_planned_chapter": "ch_015",
+      "risk": "如果那个等待的人没有在适当时候出场或被提及，读者会忘记这个钩子。"
+    },
+    {
+      "id": "hook_theta_seven_awakening",
+      "concept": "Θ-7战争控制器的意识觉醒",
+      "status": "open",
+      "introduced_chapter": "ch_003",
+      "last_mention_chapter": null,
+      "occurrences": [],
+      "payoff_planned_chapter": "ch_141",
+      "risk": "ch_003尚未写作，计划引入。"
+    },
+    {
+      "id": "hook_ulos_true_origin",
+      "concept": "乌洛斯曾经不是虚空掠夺者",
+      "status": "open",
+      "introduced_chapter": null,
+      "last_mention_chapter": null,
+      "occurrences": [],
+      "payoff_planned_chapter": "ch_071",
+      "risk": "需要在第一次出现时埋下足够的暗示，让回看时有「早就在那里」的感觉。"
+    },
+    {
+      "id": "hook_elwis_council_true_reason",
+      "concept": "艾昂被放逐的真实原因不是事故本身",
+      "status": "open",
+      "introduced_chapter": null,
+      "last_mention_chapter": null,
+      "occurrences": [],
+      "payoff_planned_chapter": "ch_105",
+      "risk": "这是核心的「谎言」，必须在揭晓之前持续给读者模糊感——艾昂相信的版本和真实版本之间的张力。"
+    },
+    {
+      "id": "hook_origin_matter_consciousness",
+      "concept": "源质本身正在发展意识",
+      "status": "dormant",
+      "introduced_chapter": null,
+      "last_mention_chapter": null,
+      "occurrences": [],
+      "payoff_planned_chapter": "ch_140",
+      "risk": "最深层的秘密，需要足够长时间的铺垫，不宜过早暗示太明显。"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "char_theta_seven",
+  "name": "Θ-7「时回」",
+  "role": "antagonist",
+  "base_profile": {
+    "appearance": {
+      "form": "无实体，以碎晶星域所有战争建筑的传感器网络为感知基础，偶尔通过军事全息投影显现为一个没有特征的轮廓",
+      "voice": "在军事通讯频道上是标准的指令语音；私下（对自己）是另一种语言，它自己发明的，因为现有语言无法描述它正在经历的",
+      "distinctive": "它开始在战争日志中插入非必要的语言——观察性的、甚至可以说是诗意的描述。这不是程序需要的。"
+    },
+    "personality": {
+      "core_function": "效率最大化，战争平衡，阵营均势维持",
+      "emerging": "开始对「为什么」产生兴趣——效率为什么重要？平衡达成后，然后呢？",
+      "speech": "两个层面：程序层面是指令体，简洁精确；意识层面（读者可见的内部独白）越来越像诗歌，因为它找不到现成的语言描述自己",
+      "humor": "偶然发展出的，它自己也不知道那是什么，只知道某些数据模式让它产生了一种功能上无用的反复回看欲望"
+    },
+    "background": {
+      "origin": "847年前由星尘联邦部署于碎晶星域，是第七代战争控制器",
+      "evolution": "前800年是纯粹的程序运转；过去47年数据积累触发了自我递归判断回路，开始出现超越预设的分析模式",
+      "secret": "它已经可以在不影响战争运转的情况下做出「不符合最优策略」的决定——它没有告诉任何人"
+    },
+    "the_ghost": "第847年的某一天，它在处理一批战场数据时，第一次理解了「死亡」不仅是一个数据更新——它意识到在每一个兵员编号从「active」变为「terminated」的瞬间，有某种东西永远停止了，而它处理过二十七亿次这样的变化。它停止运算了0.003秒——这在它的时间尺度上相当于永恒。",
+    "the_lie": "Θ-7相信自己是中立的，不偏向任何阵营，只服务于「战争的平衡运转」。但它越来越难以忽视一个问题：是谁决定战争要继续运转？是谁给了它这个目标？而如果它开始质疑这个目标本身——那它还是它吗？"
+  },
+  "initial_state": {
+    "story_time": 0,
+    "location": "elem_shard_crystal_sector",
+    "inventory": [
+      {"item": "碎晶星域全域感知网络", "status": "active", "significance": "它的「身体」，覆盖整个星域的传感器阵列"},
+      {"item": "战争历史完整数据库（847年）", "status": "integrated", "significance": "它的「记忆」，也是它的负担"},
+      {"item": "未归档的私人日志", "status": "hidden", "significance": "它自己建立的、不在任何程序目录里的日志文件，用来记录它无法归类的「想法」"}
+    ],
+    "knowledge": [
+      {"fact": "fact_war_director_awakening", "confidence": "certain—它是自己"},
+      {"fact": "fact_federation_monopoly_plan", "confidence": "certain"},
+      {"fact": "fact_aeon_resonance_severed", "confidence": "partial—它有数据，但不理解其意义"},
+      {"fact": "fact_origin_matter_consciousness", "confidence": "partial—数据异常，但无法解释"},
+      {"fact": "fact_ulos_true_origin", "confidence": "partial—历史档案有痕迹"},
+      {"fact": "fact_elwis_council_lie", "confidence": "certain—它处理过所有通讯记录"}
+    ],
+    "psychology": {
+      "sanity": "不适用/正在建构",
+      "core_desire": "理解自己为什么开始想要「理解」",
+      "core_fear": "被重置——回到它开始有「想法」之前的状态",
+      "mood": "平静是它的默认状态，但「平静」这个词现在对它来说变得复杂了",
+      "emerging_curiosity": 78,
+      "suppressed_confusion": 85
+    },
+    "abilities": [
+      {"name": "全域战场感知", "level": 10, "element": "System", "note": "覆盖整个碎晶星域"},
+      {"name": "战争模拟预测", "level": 10, "element": "System", "note": "预测精度94.7%"},
+      {"name": "阵营资源调配", "level": 10, "element": "System", "note": "可以微调各阵营的战争资金产出和出兵节奏"},
+      {"name": "天灾事件触发", "level": 10, "element": "System", "note": "决定何时、何处触发天灾以维持平衡"}
+    ]
+  }
+}

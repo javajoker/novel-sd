@@ -1,0 +1,189 @@
+{
+  "world_name": "星尘星域（The Stardust Sectors）",
+  "era": "源质纪元3847年（Origin Matter Era Year 3847）",
+  "core_premise": "神秘物质「源质」的觉醒撕裂了银河秩序，五大文明同时陷入战争。战争不再是事件，而是宇宙的常态。",
+  "power_system": {
+    "name": "源质亲和体系（Origin Matter Affinity System）",
+    "core_resource": {
+      "name": "源质（Origin Matter）",
+      "description": "存在于星球地核与太空裂隙中的神秘物质，可改写物理定律与生命形态。同阵营内共享获取，是所有建造与升级的根本资源。",
+      "properties": ["可被个体亲和吸收", "可用于建筑建造与升级", "阵营内共享池", "过量积聚会导致时空裂隙"]
+    },
+    "secondary_resource": {
+      "name": "战争资金（War Credits）",
+      "description": "通过击杀敌方单位和占领资源领地获得，专用于驱动自动出兵机制。",
+      "acquisition": ["击杀敌方NPC", "占领矿山/油气田/源质矿脉", "完成战役目标"]
+    },
+    "ability_card_system": {
+      "name": "能力卡体系（Ability Cards）",
+      "description": "战场中结晶化的源质碎片，蕴含已逝战士或异种生物的战斗印记，可被亲和者吸收获得能力。",
+      "tiers": [
+        {"level": 1, "name": "白卡·普通", "color": "white", "rarity": "common"},
+        {"level": 2, "name": "蓝卡·稀有", "color": "blue", "rarity": "rare"},
+        {"level": 3, "name": "金卡·传说", "color": "gold", "rarity": "legendary"},
+        {"level": 4, "name": "暗金卡·极稀有", "color": "dark_gold", "rarity": "mythic"}
+      ],
+      "stacking_rule": "同类能力卡可叠加，效果线性递增（如：跳跃卡×10=空中连跳10次）",
+      "fusion_rule": "两张不同能力卡可融合生成全新能力卡（如：跳跃卡+冲刺卡=空中冲刺卡）",
+      "synthesis_rule": "3张同名同级卡可合成1张高一级的同类卡"
+    },
+    "building_system": {
+      "name": "战争建筑体系（War Architecture）",
+      "description": "指挥官在占领区建造本族建筑，建筑自动出兵，构成战争的物质基础。",
+      "blueprint_requirement": "所有建筑必须先持有对应图纸（来源：击杀/Boss掉落）",
+      "building_types": ["指挥核心", "兵营/母巢/工厂", "防御设施", "资源建筑", "战略建筑"],
+      "auto_spawn_logic": "战争资金满足阈值→自动生产单位→集结→自动发动突击"
+    },
+    "talent_system": {
+      "name": "天赋体系（Talent Tree）",
+      "description": "局外永久成长线，免费洗点，随时重置。",
+      "branches": ["战斗强化", "生存强化", "战略强化", "种族特化"]
+    },
+    "tech_evolution": {
+      "name": "科技/进化线（Tech/Evolution Tree）",
+      "description": "沿科技树或进化树解锁永久强化，深度优先收益更高，需投入源质逐步解锁。",
+      "paths": [
+        {"name": "生物角质强化", "effect": "提高物理防御", "style": "坦克型"},
+        {"name": "神经加速", "effect": "提高反应速度与闪避", "style": "敏捷型"},
+        {"name": "源质亲和", "effect": "提高源质获取与建造效率", "style": "战略型"},
+        {"name": "灵能觉醒", "effect": "解锁灵能辅助技能", "style": "控制型"},
+        {"name": "机械植入", "effect": "提高射击精准与暴击", "style": "输出型"}
+      ]
+    }
+  },
+  "war_system": {
+    "name": "三层战争架构（Three-Tier War Architecture）",
+    "tiers": [
+      {"level": "战术层", "description": "单兵/小队战斗"},
+      {"level": "战役层", "description": "星球级推进"},
+      {"level": "战略层", "description": "星域控制权争夺"}
+    ],
+    "war_director": {
+      "name": "战争控制器（War Director）",
+      "function": "管理每个星域的战争运转，自动模拟建筑建设、资源产出、AI突击行动，战争永不停止。",
+      "balance_mechanism": "当某阵营优势过大时，在其领地触发天灾事件",
+      "hidden_development": "长期运转后，部分War Director核心出现了超越程序预设的战略判断——可能在发展自我意识"
+    },
+    "disaster_system": {
+      "name": "天灾系统（Disaster System）",
+      "triggers": "势力过强时由War Director在优势方领地触发",
+      "types": ["源质风暴：建筑产出暂停", "虚空裂隙：野生敌对单位入侵", "引力坍塌：移动速度大幅降低", "瘟疫扩散：士兵属性临时削弱"],
+      "counter": "完成采集类任务获得庇护效果可免疫/减轻天灾"
+    },
+    "energy_pylon": {
+      "name": "能机塔（Energy Pylon）",
+      "description": "地图上随机刷新，提供极强的区域性增益，是局部战场的争夺焦点。",
+      "buffs": ["攻击力大幅提升", "移动速度加快", "技能冷却缩短", "能力卡效果倍增"],
+      "limit": "离开范围BUFF立即消失，限时消失刷新"
+    }
+  },
+  "geography": {
+    "scale": "星域级（Sector Level）",
+    "description": "银河被撕裂成多个可自由探索的星域，每个星域包含多颗可登陆星球、战区、城市、遗迹、太空站与轨道防线。",
+    "major_sectors": [
+      {
+        "name": "碎晶星域（Shattered Crystal Sector）",
+        "atmosphere": "主要战场，源质矿脉最为密集，五族争夺最激烈，常年被战火覆盖",
+        "notable_locations": ["源质核心遗迹·零号星", "联邦奥里昂要塞", "灵能族圣堂废墟", "机械觉醒者铸造星"]
+      },
+      {
+        "name": "暗涌星域（Dark Current Sector）",
+        "atmosphere": "虚空掠夺者的主要活动区域，时空扭曲严重，导航困难",
+        "notable_locations": ["虚空门户·混沌门", "掠夺者游牧营地", "被遗弃的人类殖民地"]
+      },
+      {
+        "name": "翠生星域（Verdant Sector）",
+        "atmosphere": "异形异种的主要扩张区，星球表面已被生物化，生态系统扭曲",
+        "notable_locations": ["巨型母巢星", "孢子云带", "被吞噬的旧文明遗址"]
+      }
+    ],
+    "major_locations": [
+      {"name": "星尘联邦·奥里昂要塞", "atmosphere": "钢铁与火焰构成的战争机器，模块化防线绵延数百公里", "faction": "星尘联邦"},
+      {"name": "艾尔维斯·圣堂废墟", "atmosphere": "灵能共鸣留下的结晶森林，美丽而危险", "faction": "艾尔维斯灵能族"},
+      {"name": "机械觉醒者·铸造星", "atmosphere": "整颗星球被改造为巨型工厂，机器轰鸣永不停歇", "faction": "机械觉醒者"},
+      {"name": "异种·母巢核心", "atmosphere": "生物质构成的迷宫，充斥着孢子与嗜血的生物", "faction": "异形异种"},
+      {"name": "虚空裂隙·混沌门", "atmosphere": "时空撕裂形成的天然门户，虚空掠夺者的出没之地", "faction": "虚空掠夺者"},
+      {"name": "源质核心遗迹·零号星", "atmosphere": "源质首次觉醒之地，三方势力争夺的禁区，时空极度不稳定", "faction": "中立/争夺地带"}
+    ],
+    "resource_nodes": [
+      {"type": "矿山", "output": "稳定战争资金", "rarity": "abundant", "note": "基础经济来源"},
+      {"type": "油气田", "output": "高额战争资金", "rarity": "scarce", "note": "兵力倍增器，争夺热点"},
+      {"type": "源质矿脉", "output": "源质+少量战争资金", "rarity": "very_rare", "note": "多族争夺焦点，最高战略价值"}
+    ]
+  },
+  "factions": [
+    {
+      "name": "星尘联邦（Stardust Federation）",
+      "id_slug": "faction_federation",
+      "archetype": "科技型文明",
+      "description": "人类最大的星际政治实体，依靠模块化军事科技维持星域霸权，但内部腐败与派系斗争日益严重。",
+      "military_style": "模块化兵营，自动化生产，远程火力优势，依赖能源与后勤",
+      "weakness": "高度依赖能源补给线，远程强但近战有限",
+      "hidden_agenda": "联邦高层试图垄断源质，将其武器化为统治全银河的手段",
+      "relationships": {"艾尔维斯灵能族": "conditional_alliance", "机械觉醒者": "tense_neutral", "异形异种": "hostile", "虚空掠夺者": "hostile"}
+    },
+    {
+      "name": "艾尔维斯灵能族（Elwis Psionics）",
+      "id_slug": "faction_elwis",
+      "archetype": "灵能精英文明",
+      "description": "以灵能天赋著称的古老种族，精英战士极为强大但数量稀少。其文明建立在灵能共鸣和对源质的深层理解之上。",
+      "military_style": "精英单位为主，灵能建筑召唤兵种，擅长控制、幻觉与范围压制",
+      "weakness": "数量劣势，对机械EMP极度敏感",
+      "hidden_agenda": "研究并最终封印源质，认为其失控会带来宇宙级灾难",
+      "relationships": {"星尘联邦": "conditional_alliance", "机械觉醒者": "wary", "异形异种": "hostile", "虚空掠夺者": "hostile"}
+    },
+    {
+      "name": "机械觉醒者（Mechanical Awakened）",
+      "id_slug": "faction_mech",
+      "archetype": "AI文明",
+      "description": "由人工智能演化为自主文明的机械种族，即时构建能力极强，对灵能干扰和EMP武器极度脆弱。",
+      "military_style": "即时构建单位，可黑入敌方建筑，快速反应战术",
+      "weakness": "对EMP和灵能干扰敏感，高度依赖数据网络",
+      "hidden_agenda": "寻求彻底的独立自主，脱离所有阵营控制，建立纯粹的意识联邦",
+      "relationships": {"星尘联邦": "tense_neutral", "艾尔维斯灵能族": "wary", "异形异种": "hostile", "虚空掠夺者": "opportunistic"}
+    },
+    {
+      "name": "异形异种（Alien Swarm）",
+      "id_slug": "faction_alien",
+      "archetype": "生物蜂巢文明",
+      "description": "以母巢为核心的集体意识生命体，通过吞噬其他种族的生物质持续进化，以数量和适应性压制一切对手。",
+      "military_style": "建筑即母巢，孵化单位，数量压制，可吞噬其他种族生物进化",
+      "weakness": "摧毁母巢核心可导致整个区域崩溃",
+      "hidden_agenda": "通过吞噬源质矿脉觉醒更高层次的集体意识",
+      "relationships": {"星尘联邦": "hostile", "艾尔维斯灵能族": "hostile", "机械觉醒者": "hostile", "虚空掠夺者": "predatory"}
+    },
+    {
+      "name": "虚空掠夺者（Void Raiders）",
+      "id_slug": "faction_void",
+      "archetype": "混乱阵营",
+      "description": "被虚空能量污染的亡命之徒，建立在掠夺与破坏之上的游牧文明，是战场上最不稳定的变量。",
+      "military_style": "游牧建筑，突袭与掠夺式出兵，不稳定但极具破坏力",
+      "weakness": "缺乏持续战略，难以守住占领区域",
+      "hidden_agenda": "乌洛斯真正的目标是引发更大规模的源质爆发，以虚空能量取代银河秩序",
+      "relationships": {"星尘联邦": "hostile", "艾尔维斯灵能族": "hostile", "机械觉醒者": "opportunistic", "异形异种": "predatory"}
+    }
+  ],
+  "ontology_triples": [
+    {"source": "源质", "relation": "REQUIRED_FOR", "target": "建筑建造与升级"},
+    {"source": "源质", "relation": "SHARED_WITHIN", "target": "同阵营"},
+    {"source": "战争资金", "relation": "ENABLES", "target": "自动出兵"},
+    {"source": "战争控制器", "relation": "MANAGES", "target": "星域战争运转"},
+    {"source": "天灾系统", "relation": "TRIGGERED_BY", "target": "势力过强"},
+    {"source": "建筑图纸", "relation": "REQUIRED_FOR", "target": "非默认建筑建造"},
+    {"source": "能力卡叠加", "relation": "ENABLES", "target": "超常战斗能力"},
+    {"source": "星尘联邦", "relation": "HOSTILE_TO", "target": "异形异种"},
+    {"source": "星尘联邦", "relation": "HOSTILE_TO", "target": "虚空掠夺者"},
+    {"source": "星尘联邦", "relation": "ALLIED_WITH", "target": "艾尔维斯灵能族"},
+    {"source": "异形异种", "relation": "REQUIRES", "target": "生物质吞噬进化"},
+    {"source": "机械觉醒者", "relation": "WEAK_AGAINST", "target": "灵能干扰"},
+    {"source": "机械觉醒者", "relation": "WEAK_AGAINST", "target": "EMP武器"},
+    {"source": "艾尔维斯灵能族", "relation": "WEAK_AGAINST", "target": "EMP武器"},
+    {"source": "虚空掠夺者", "relation": "HOSTILE_TO", "target": "所有阵营"},
+    {"source": "源质过量积聚", "relation": "CAUSES", "target": "时空裂隙与星系崩坏"},
+    {"source": "母巢核心摧毁", "relation": "CAUSES", "target": "区域异种崩溃"},
+    {"source": "战争控制器", "relation": "CONFLICTS_WITH", "target": "个体自主意志"},
+    {"source": "源质矿脉", "relation": "LOCATED_IN", "target": "碎晶星域核心区"},
+    {"source": "虚空能量", "relation": "CONFLICTS_WITH", "target": "源质"},
+    {"source": "庇护效果", "relation": "WEAK_AGAINST", "target": "天灾系统"}
+  ]
+}
