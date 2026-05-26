@@ -234,7 +234,8 @@
           "id": "ch_030", "number": 30, "title": "第一次（一）",
           "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 15,
           "one_line": "梁说了一句话：「你不是在等他们叫你回去，你是在等你自己允许你离开。」艾昂没有回答。",
-          "scene_arc": "日常→一句话→艾昂的沉默（但那句话留下了）", "status": "outlined"
+          "scene_arc": "日常→一句话→艾昂的沉默（但那句话留下了）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_030.json"
         },
         {
           "id": "ch_031", "number": 31, "title": "搜寻",

@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 29,
+    "current_chapter": 30,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -680,6 +680,40 @@
     }
   ],
   "events": [
+    {
+      "id": "evt_ch030_liang_first_cut",
+      "name": "第一次（一）",
+      "description": "前哨站第五天。梁经过五天安静观察，在艾昂往东边习惯性看了一眼后，说：「你不是在等他们叫你回去，你是在等你自己允许你离开。」艾昂没有回答——找不到不是谎言的回答。当晚艾昂发现自己好几个小时没有往东边看。梁说完后不再提，不等答案。",
+      "thread_id": "thr_aeon",
+      "story_time": 15,
+      "duration": 1,
+      "location": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站",
+      "participants": [
+        "char_aeon",
+        "char_liang"
+      ],
+      "chapter_id": "ch_030",
+      "status": "drafted",
+      "dependencies": [
+        "evt_ch028_first_real_conversation",
+        "evt_ch026_liang_first_exchange"
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_aeon",
+            "kind": "psychology+belief_shift",
+            "desc": "「你是在等你自己允许你离开」——第一次有人把他等待结构的真实形态说出来。他没有回答，但那句话开始在他内部混合。东边习惯性视线当天消失数小时（第一次行为层变化）。"
+          },
+          {
+            "entity": "char_liang",
+            "kind": "physical+psychology",
+            "desc": "60度独立直立坐姿（不靠岩壁）。首次主动说出对艾昂内部状态的观察：不是问，是陈述。"
+          }
+        ]
+      },
+      "context": "梁的观察来自：（1）残余灵能感知（能感知能量形态），（2）五天无声战场式评估，（3）自身对「不知道还有没有」式等待的亲身体验。他识别出艾昂的等待不是被动的（等外部召回），而是主动的（等自己内部许可）——这个重新框架是全书艾昂弧的关键转折种子，将在vol_01结尾开始发芽。"
+    },
     {
       "id": "evt_ch029_void_seed_anomaly",
       "name": "数据异常",
@@ -1665,8 +1699,8 @@
       "pov_character": "char_aeon",
       "start_time": 1,
       "end_time": null,
-      "current_time": 14,
-      "latest_chapter": "ch_028",
+      "current_time": 15,
+      "latest_chapter": "ch_030",
       "event_ids": [
         "evt_novel_opening",
         "evt_ch004_first_encounter",
@@ -1677,7 +1711,8 @@
         "evt_ch021_finding_liang",
         "evt_ch023_outpost_first_night",
         "evt_ch026_liang_first_exchange",
-        "evt_ch028_first_real_conversation"
+        "evt_ch028_first_real_conversation",
+        "evt_ch030_liang_first_cut"
       ],
       "convergences": []
     },
