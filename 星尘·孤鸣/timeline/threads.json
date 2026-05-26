@@ -34,11 +34,11 @@
       "id": "thr_ulos",
       "name": "乌洛斯·裂空者",
       "pov_character": "char_ulos",
-      "start_time": 3,
-      "current_time": null,
-      "latest_chapter": null,
-      "event_ids": [],
-      "status": "planned"
+      "start_time": 5,
+      "current_time": 5,
+      "latest_chapter": "ch_008",
+      "event_ids": ["evt_ch008_ulos_watching"],
+      "status": "active"
     },
     {
       "id": "thr_qixing",

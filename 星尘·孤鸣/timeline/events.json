@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "id": "evt_ch008_ulos_watching",
+      "name": "虚空边缘",
+      "thread_id": "thr_ulos",
+      "story_time": 5,
+      "status": "drafted",
+      "chapter_id": "ch_008",
+      "participants": ["char_ulos"],
+      "summary": "乌洛斯在虚空空间观察碎晶星域，十年建构的战略地图接近完整，感知到战争控制器有微弱节律变化（「裂缝」条件正在形成）。「那首歌」的压制从整个下午缩短到三秒。「快了」的判断形成。右手无意识张开又合上。hook_ulos_true_origin第一次密度暗示：他压制的是共鸣记忆。vol_01第三个悬念钩建立：他知道从哪里开始，知道什么时候开始。"
+    },
+    {
       "id": "evt_ch007_war_machine_outside",
       "name": "向量（外部观察）",
       "thread_id": "thr_aeon",

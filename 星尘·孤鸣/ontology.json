@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 7,
+    "current_chapter": 8,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -534,6 +534,30 @@
         "pov_constraint": "艾昂不知道Θ-7正在觉醒；他不知道碎晶振动的原因；他不知道他停下来的真实原因"
       },
       "context": "结构共振：ch_006（Θ-7从内部质疑战争机器），ch_007（艾昂从外部观察战争机器）——两人分别从内外接触同一系统，都不知道对方的存在。hook_origin_matter_shard的维持性出场：碎晶在能量节点附近的反应。"
+    },
+    {
+      "id": "evt_ch008_ulos_watching",
+      "name": "虚空边缘",
+      "description": "乌洛斯在虚空空间中观察碎晶星域，评估十年建构的战略地图，感知到战争控制器系统有微弱的节律变化。「那首歌」的压制时间已从整个下午缩短到三秒——他没去追问这意味着什么。他在心里形成了「快了」的判断。右手无意识地张开了，然后合上。",
+      "thread_id": "thr_ulos",
+      "story_time": 5,
+      "duration": 1,
+      "location": "elem_shard_crystal_sector",
+      "participants": ["char_ulos"],
+      "chapter_id": "ch_008",
+      "status": "drafted",
+      "dependencies": [],
+      "projected_outcome": {
+        "state_changes": [{"entity": "char_ulos", "kind": "psychology", "desc": "「快了」的判断形成——进入等待的最后阶段"}]
+      },
+      "beat_design": {
+        "pov": "char_ulos",
+        "technique": "冷静战略思维包裹深层个人悲剧，「那首歌」作为压制的共鸣记忆隐喻",
+        "scene_arc": "沉默→观察→决定",
+        "key_moment": "「那首歌」的压制：三秒钟，比二十年前的整个下午少了很多——他没有追问这意味着什么",
+        "pov_constraint": "乌洛斯知道自己的真实来历但选择不去想；知道联邦计划；感知到战争机器异常但不知道Θ-7的具体觉醒；不知道艾昂的存在"
+      },
+      "context": "第四条视角线引入（thr_ulos）。最冷、最宏观的视角。乌洛斯花了二十年把自己变成三秒钟就能压制温暖记忆的机器，而那个「进步」本身就是他正在失去某种东西的证明。hook_ulos_true_origin的第一次密度暗示。"
     }
   ],
   "themes": [

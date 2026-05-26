@@ -79,9 +79,11 @@
       "id": "hook_ulos_true_origin",
       "concept": "乌洛斯曾经不是虚空掠夺者",
       "status": "open",
-      "introduced_chapter": null,
-      "last_mention_chapter": null,
-      "occurrences": [],
+      "introduced_chapter": "ch_008",
+      "last_mention_chapter": "ch_008",
+      "occurrences": [
+        {"chapter_id": "ch_008", "note": "「那首歌」——他只记得旋律的那首歌，是共鸣的体感记忆，说明他曾经参与过灵能共鸣网络。三秒钟压制，比二十年前的整个下午少。右手无意识张开又合上（他未注意到）。这是最密度的早期暗示，但仍未直接命名。"}
+      ],
       "payoff_planned_chapter": "ch_071",
       "risk": "需要在第一次出现时埋下足够的暗示，让回看时有「早就在那里」的感觉。"
     },

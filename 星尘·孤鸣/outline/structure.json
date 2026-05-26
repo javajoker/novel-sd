@@ -80,7 +80,8 @@
           "id": "ch_008", "number": 8, "title": "虚空边缘",
           "thread_id": "thr_ulos", "pov_character": "char_ulos", "story_time": 5,
           "one_line": "乌洛斯第一章：他在虚空空间深处看着碎晶星域，他的计划已经准备了十年。",
-          "scene_arc": "沉默→观察→决定", "status": "outlined"
+          "scene_arc": "沉默→观察→决定", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_008.json"
         },
         {
           "id": "ch_009", "number": 9, "title": "新战场",
