@@ -101,7 +101,8 @@
           "id": "ch_011", "number": 11, "title": "灵能废墟",
           "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 6,
           "one_line": "艾昂发现了一处被废弃的灵能族前哨站，里面有共鸣的残余痕迹，他在那里停留了一夜。",
-          "scene_arc": "行走→发现→停留（决定留下来一夜）", "status": "outlined"
+          "scene_arc": "行走→发现→停留（决定留下来一夜）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_011.json"
         },
         {
           "id": "ch_012", "number": 12, "title": "七-三零七",

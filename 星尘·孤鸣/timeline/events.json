@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "id": "evt_ch011_psionic_ruins",
+      "name": "灵能废墟",
+      "thread_id": "thr_aeon",
+      "story_time": 6,
+      "status": "drafted",
+      "chapter_id": "ch_011",
+      "participants": ["char_aeon"],
+      "summary": "艾昂在峡谷中发现艾尔维斯废弃前哨站，触碰共鸣节点感知到残余热度，拿着包含留言的储存晶石整夜无法读取。早晨把晶石放回原位，放得很仔细。第一次主动选择在有族群痕迹的地方停留。hook_resonance_crystal_stone延伸：两块等待中的晶石，艾昂都无法回应，但这次他保留了那个等待的可能性。"
+    },
+    {
       "id": "evt_ch010_standard_deviation",
       "name": "标准差",
       "thread_id": "thr_theta",

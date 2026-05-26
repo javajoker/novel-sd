@@ -2,6 +2,41 @@
   "character_id": "char_aeon",
   "states": [
     {
+      "story_time": 6,
+      "chapter_id": "ch_011",
+      "location": "碎晶星域·维格拉斯星球北部高地，岩壁峡谷中的灵能族废弃前哨站，离开后继续向东",
+      "physical": {
+        "status": "functional",
+        "notes": "走了三天（story_time 4→6），在前哨站过了一夜。口粮消耗中，水需要补充。"
+      },
+      "inventory": [
+        {"item": "elem_ability_card_jump_x3", "status": "absorbed"},
+        {"item": "elem_ability_card_shield_x1", "status": "absorbed"},
+        {"item": "自制轻型脉冲枪", "status": "equipped"},
+        {"item": "灵能族断频器", "status": "worn"},
+        {"item": "一块磨损的源质碎晶", "status": "carried"},
+        {"item": "联邦标准口粮（约1天份）", "status": "carried"},
+        {"item": "净化水（需补充）", "status": "carried"}
+      ],
+      "psychology": {
+        "sanity": 71,
+        "grief": 87,
+        "self_discipline": 93,
+        "mood": "表面平静，内部某处比平时更沉——不是坏的沉，是那种长时间缺少某个东西然后偶然靠近了它的残余的那种沉",
+        "notable_shift": "他在废弃前哨站里，触碰了共鸣节点（残余热度），握着包含留言的储存晶石一整夜，早晨把晶石放回了原位——「放得很仔细」。这是三年流亡里他第一次主动选择在一个有他族群痕迹的地方停留，并且在离开前以一种有意义的方式处理了那里的东西。他在乎那条留言有没有被等到。他不命名这件事，但他这样做了。"
+      },
+      "key_events_this_chapter": [
+        "进入有植被的地貌（远离矿脉密集区），某种旧日记忆感浮现",
+        "在峡谷岩壁中发现艾尔维斯第二分部废弃前哨站（至少2年无人）",
+        "前哨站内：折叠外衣，空水囊，共鸣储存晶石（包含留言，等待接收者）",
+        "触碰共鸣线路节点——感知到残余热度（not empty, just cold）",
+        "拿起储存晶石，感知到轻微均匀振动，无法读取内容（共鸣已断）",
+        "决定在前哨站过夜——理由「有屋顶」（他没有追问是否是全部原因）",
+        "整夜把耳朵靠着晶石，没有听到内容，只感知到振动",
+        "早晨把晶石放回原位，放得很仔细，然后离开，继续向东"
+      ]
+    },
+    {
       "story_time": 4,
       "chapter_id": "ch_007",
       "location": "碎晶星域·维格拉斯星球北部高地，战争控制器处理节点附近三百米，夜间继续向东",
