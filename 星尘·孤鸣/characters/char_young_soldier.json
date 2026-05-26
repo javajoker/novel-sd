@@ -1,0 +1,23 @@
+{
+  "character_id": "char_young_soldier",
+  "canonical_name": "年轻士兵（无名）",
+  "type": "Person",
+  "subtype": "supporting",
+  "aliases": ["那个孩子", "年轻的那个", "约十八九岁的士兵"],
+  "status": "alive",
+  "first_chapter": "ch_005",
+  "description": "FED-TMP-0914临时编制中约十八到十九岁的年轻联邦士兵，真实姓名始终未知（陈铭刻意不问）。背包过重，步态有偏移，膝盖迟早会出问题——这是陈铭在ch_005行军时的最初评估。陈铭帮他解开了帐篷连接扣（无言），之后在ch_009的P-14战斗中被气浪击倒于开阔地，陈铭反射性冲出去将他拉回，活了下来。他在战后来向陈铭道谢，陈铭没有应声。他的生存是ch_009里陈铭发现自身防御机制逻辑矛盾的触发事件。",
+  "attributes": {
+    "age": "约18-19岁",
+    "faction": "星尘联邦（FED-TMP-0914）",
+    "rank": "普通士兵",
+    "physical": "背包过重、步态偏移（膝盖有隐患）",
+    "name_known_to_chen_ming": false
+  },
+  "narrative_function": "陈铭防御机制的第一个重大挑战。陈铭在ch_005主动决定不问他的名字（防御主动化），在ch_009反射性救了他（推翻了「不知道名字=不在意」的理论）。他是ch_009夜里陈铭发现逻辑矛盾的核心角色。",
+  "salience": 0.35,
+  "relations": [
+    {"predicate": "saved_by", "object": "char_chen_ming", "chapter": "ch_009", "note": "陈铭在P-14战斗中冲出掩体将他从开阔地带拉回"},
+    {"predicate": "unknown_to", "object": "char_chen_ming", "note": "陈铭从不知道他的名字，这是刻意的"}
+  ]
+}

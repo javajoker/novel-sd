@@ -77,6 +77,42 @@
       "mask_ref": "masks/char_qixing.json"
     },
     {
+      "id": "char_veteran_noname",
+      "canonical_name": "老兵（无名）",
+      "type": "Person",
+      "subtype": "supporting",
+      "aliases": ["那个老兵", "无名老兵"],
+      "description": "FED-TMP-1107中约四十岁的老兵，真实姓名对陈铭始终未知。旧装备保养极佳，行为不符合战术规范但系统性正确（即Θ-7在ch_010统计的0.4%偏差的人格化具体呈现）。在ch_017的接触战中阵亡，他的死是陈铭防御机制第一次完全失效的触发点。",
+      "attributes": {"age": "约40岁", "faction": "星尘联邦（FED-TMP-1107）", "status": "deceased", "deceased_chapter": "ch_017", "name_known": false},
+      "salience": 0.4,
+      "profile_ref": "characters/char_veteran_noname.json",
+      "state_ref": "characters/states/char_veteran_noname.json"
+    },
+    {
+      "id": "char_young_soldier",
+      "canonical_name": "年轻士兵（无名）",
+      "type": "Person",
+      "subtype": "supporting",
+      "aliases": ["那个孩子", "约十八九岁的士兵"],
+      "description": "FED-TMP-0914中约十八到十九岁的年轻联邦士兵，真实姓名始终未知（陈铭刻意不问）。在ch_009的P-14战斗中被气浪击倒于开阔地，陈铭反射性冲出去将他拉回，存活。他的存活是陈铭发现防御机制逻辑矛盾的直接触发。",
+      "attributes": {"age": "约18-19岁", "faction": "星尘联邦（FED-TMP-0914）", "status": "alive", "name_known": false},
+      "salience": 0.35,
+      "profile_ref": "characters/char_young_soldier.json",
+      "state_ref": "characters/states/char_young_soldier.json"
+    },
+    {
+      "id": "char_v07",
+      "canonical_name": "V-07",
+      "type": "Person",
+      "subtype": "supporting",
+      "aliases": ["代号V-07", "虚空探子V-07"],
+      "description": "乌洛斯麾下三支渗透队之一，代号V-07，在碎晶星域潜伏六年。接到乌洛斯指令前往维格拉斯北部高地确认「三叉结」坐标，与艾昂东行路径存在潜在交叉。",
+      "attributes": {"faction": "虚空掠夺者（乌洛斯直属）", "status": "active", "mission": "三叉结侦察（ch_016起）"},
+      "salience": 0.3,
+      "profile_ref": "characters/char_v07.json",
+      "state_ref": "characters/states/char_v07.json"
+    },
+    {
       "id": "faction_federation",
       "canonical_name": "星尘联邦",
       "type": "Organization",
@@ -339,6 +375,36 @@
       "valid_to_chapter": null,
       "properties": {"trust": 45, "intensity": 50, "reason": "条件性联盟，各有图谋"},
       "confidence": 0.9
+    },
+    {
+      "id": "rel_0009",
+      "subject": "char_young_soldier",
+      "predicate": "saved_by",
+      "object": "char_chen_ming",
+      "valid_from_chapter": 9,
+      "valid_to_chapter": null,
+      "properties": {"chapter": "ch_009", "note": "陈铭冲出掩体将他从开阔地带拉回，纯粹反射行为"},
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0010",
+      "subject": "char_chen_ming",
+      "predicate": "observed_but_unknown",
+      "object": "char_veteran_noname",
+      "valid_from_chapter": 14,
+      "valid_to_chapter": 17,
+      "properties": {"note": "陈铭持续观察老兵但刻意不问名字；老兵ch_017阵亡时陈铭仍不知其姓名"},
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0011",
+      "subject": "char_v07",
+      "predicate": "serves",
+      "object": "char_ulos",
+      "valid_from_chapter": 0,
+      "valid_to_chapter": null,
+      "properties": {"note": "乌洛斯直属探子，在碎晶星域潜伏六年"},
+      "confidence": 1.0
     },
     {
       "id": "rel_0008",
