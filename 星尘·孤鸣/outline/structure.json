@@ -108,7 +108,8 @@
           "id": "ch_012", "number": 12, "title": "七-三零七",
           "thread_id": "thr_qixing", "pov_character": "char_qixing", "story_time": 7,
           "one_line": "七星第一章：她在废墟中独自存在，用数据处理法试图分析「我」是什么意思，然后发现数据不够。",
-          "scene_arc": "数据处理→语言困境→保持沉默（但某个文件夹里多了一条记录）", "status": "outlined"
+          "scene_arc": "数据处理→语言困境→保持沉默（但某个文件夹里多了一条记录）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_012.json"
         },
         {
           "id": "ch_013", "number": 13, "title": "信号空白",

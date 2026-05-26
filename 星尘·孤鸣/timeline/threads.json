@@ -44,11 +44,11 @@
       "id": "thr_qixing",
       "name": "七星·最后的意识",
       "pov_character": "char_qixing",
-      "start_time": 8,
-      "current_time": null,
-      "latest_chapter": null,
-      "event_ids": [],
-      "status": "planned"
+      "start_time": 7,
+      "current_time": 7,
+      "latest_chapter": "ch_012",
+      "event_ids": ["evt_ch012_who_am_i"],
+      "status": "active"
     }
   ]
 }

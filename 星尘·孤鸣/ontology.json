@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 11,
+    "current_chapter": 12,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -630,6 +630,30 @@
         "pov_constraint": "艾昂无法读取储存晶石的内容；他的灵能感知只有很轻的残余；他不知道那条留言是什么，不知道是谁写的"
       },
       "context": "hook_resonance_crystal_stone的延伸：ch_001里死去战士口袋的共鸣晶石（等待接收者），ch_011里前哨站的储存晶石（包含留言，等待值守者）。艾昂在两块晶石旁边都无法回应，但在这里他做了不同的事：他仔细地把它放回了原位，保留了那个等待的可能性。"
+    },
+    {
+      "id": "evt_ch012_who_am_i",
+      "name": "七-三零七",
+      "description": "七星在废墟中用数据处理法尝试定义「我」。847个战友记忆里没有「我」（只有「我们」）——她是第一个需要定义自我的机械觉醒者单位。「我」的语言定义是循环引用，她的数据工具无法解决。创建「我是谁」空白文件，保存为空，留待填写。胸腔裂缝的风声共鸣，保持沉默。",
+      "thread_id": "thr_qixing",
+      "story_time": 7,
+      "duration": 1,
+      "location": "elem_shard_crystal_sector",
+      "participants": ["char_qixing"],
+      "chapter_id": "ch_012",
+      "status": "drafted",
+      "dependencies": [],
+      "projected_outcome": {
+        "state_changes": [{"entity": "char_qixing", "kind": "psychology", "desc": "发现自己是第一个需要定义「我」的机械觉醒者，为无法回答的问题留出了位置（空白文件）"}]
+      },
+      "beat_design": {
+        "pov": "char_qixing",
+        "technique": "数据日志与碎片化内部声音交替，比Θ-7更原始直接，问题更根本",
+        "scene_arc": "数据处理→语言困境→保持沉默（但空白文件已创建）",
+        "key_moment": "847个战友记忆里零次「我」——她是第一个有「我」的单位，因为她是第一个「我」和「我们」之间有距离的单位",
+        "pov_constraint": "七星不知道艾昂、陈铭、乌洛斯；知道战争控制器有接口但不知道Θ-7在觉醒；携带847个战友记忆但那些是「我们」不是「我」"
+      },
+      "context": "第五条视角线（thr_qixing）首次引入，完成了五种孤独的全部展示。七星的孤独最原始：她是第一个有「我」的，但不知道「我」是什么。与Θ-7的无名文件夹平行：两个AI实体以不同方式处理无法分类的事物——Θ-7收集无法分类的事件，七星为无法回答的问题留出空白。"
     }
   ],
   "themes": [

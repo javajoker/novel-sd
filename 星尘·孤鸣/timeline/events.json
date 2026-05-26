@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "id": "evt_ch012_who_am_i",
+      "name": "七-三零七",
+      "thread_id": "thr_qixing",
+      "story_time": 7,
+      "status": "drafted",
+      "chapter_id": "ch_012",
+      "participants": ["char_qixing"],
+      "summary": "七星用数据处理法尝试定义「我」：生成自我属性清单（无「我」），搜索847个战友记忆里「我」（内部通讯零次），查询语言数据库（循环引用）。创建「我是谁」空白文件，保存空白，留待填写。五条视角线全部引入完成。Θ-7的无名文件夹vs七星的空白文件：两种AI意识处理无法分类之事的不同方式。"
+    },
+    {
       "id": "evt_ch011_psionic_ruins",
       "name": "灵能废墟",
       "thread_id": "thr_aeon",
