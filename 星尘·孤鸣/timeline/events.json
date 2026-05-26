@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "id": "evt_ch015_ore_vein",
+      "name": "矿脉",
+      "thread_id": "thr_aeon",
+      "story_time": 9,
+      "status": "drafted",
+      "chapter_id": "ch_015",
+      "participants": ["char_aeon"],
+      "summary": "艾昂在活跃源质矿脉旁过夜（40米），碎晶振动最强，整夜未取出（比ch_007更内收）。接近午夜感受到与斩断灵能共鸣质感相似的压力，让它存在，没有分析回应。有一段意识不清晰的时间。天亮后手搭口袋外两秒，然后向东。hook_origin_matter_shard维持性深化；hook_resonance_crystal_stone主题payoff（接收端可能性/发送端不存在的形状最清晰呈现）。fact_origin_matter_consciousness极早期暗示。"
+    },
+    {
       "id": "evt_ch014_that_person",
       "name": "那个人",
       "thread_id": "thr_chen_ming",

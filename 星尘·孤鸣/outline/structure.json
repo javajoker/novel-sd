@@ -129,7 +129,8 @@
           "id": "ch_015", "number": 15, "title": "矿脉",
           "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 9,
           "one_line": "艾昂在一处活跃源质矿脉附近过夜，那块碎晶的振动比任何时候都更强，他没有拿出来。",
-          "scene_arc": "行走→停留→感知（不去解释）", "status": "outlined"
+          "scene_arc": "行走→停留→感知（不去解释）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_015.json"
         },
         {
           "id": "ch_016", "number": 16, "title": "计划（一）",
