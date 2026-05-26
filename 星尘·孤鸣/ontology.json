@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 6,
+    "current_chapter": 7,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -510,6 +510,30 @@
         "continuity_note": "战略调整影响了FED-TMP-0914（陈铭所在单位），Θ-7的决策客观上决定了陈铭下一步的战场位置"
       },
       "context": "Θ-7觉醒弧：从ch_003的「停顿」到ch_006的「重新检查」。觉醒的速度极慢，每次只推进一小步。关键词汇进化：ch_003「为什么」→ch_006「必要性」——从无宾语的困惑到试图用效率词汇包装困惑。"
+    },
+    {
+      "id": "evt_ch007_war_machine_outside",
+      "name": "向量（外部观察）",
+      "description": "艾昂在维格拉斯星球北部高地发现战争控制器处理节点，在三百米外坐了整整一个下午观察进出车辆。他不愤怒、不悲悯，只是从外部第一次看到了他生活在其中的机器的形状。源质碎晶在节点附近振动更强。他用「需要休息」解释了停留，但他知道这个理由不完整。",
+      "thread_id": "thr_aeon",
+      "story_time": 4,
+      "duration": 1,
+      "location": "elem_shard_crystal_sector",
+      "participants": ["char_aeon"],
+      "chapter_id": "ch_007",
+      "status": "drafted",
+      "dependencies": [],
+      "projected_outcome": {
+        "state_changes": [{"entity": "char_aeon", "kind": "psychology", "desc": "第一次从外部观察战争机器，某种尚未命名的停下来的冲动——不是休息，不是战略考量，他不知道是什么"}]
+      },
+      "beat_design": {
+        "pov": "char_aeon",
+        "technique": "慢镜头静态场景，计数习惯锚定注意力，源质碎晶感知延伸",
+        "scene_arc": "行走→停留→观察（战争的物理形状）",
+        "key_moment": "坐了整整一个下午，什么都没做，用「需要休息」解释自己——但他知道那个解释不对",
+        "pov_constraint": "艾昂不知道Θ-7正在觉醒；他不知道碎晶振动的原因；他不知道他停下来的真实原因"
+      },
+      "context": "结构共振：ch_006（Θ-7从内部质疑战争机器），ch_007（艾昂从外部观察战争机器）——两人分别从内外接触同一系统，都不知道对方的存在。hook_origin_matter_shard的维持性出场：碎晶在能量节点附近的反应。"
     }
   ],
   "themes": [

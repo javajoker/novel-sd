@@ -2,6 +2,39 @@
   "character_id": "char_aeon",
   "states": [
     {
+      "story_time": 4,
+      "chapter_id": "ch_007",
+      "location": "碎晶星域·维格拉斯星球北部高地，战争控制器处理节点附近三百米，夜间继续向东",
+      "physical": {
+        "status": "functional",
+        "notes": "当天走了十七小时，在处理节点附近休息了整个下午（非睡眠性休息），夜间继续行进。口粮和水仍有余量。"
+      },
+      "inventory": [
+        {"item": "elem_ability_card_jump_x3", "status": "absorbed"},
+        {"item": "elem_ability_card_shield_x1", "status": "absorbed"},
+        {"item": "自制轻型脉冲枪", "status": "equipped"},
+        {"item": "灵能族断频器", "status": "worn"},
+        {"item": "一块磨损的源质碎晶", "status": "carried", "note": "在处理节点附近振动明显强于平时，均匀且持续，取出确认后放回，未深追原因"},
+        {"item": "联邦标准口粮（约1.5天份）", "status": "carried"},
+        {"item": "净化水（半壶）", "status": "carried"}
+      ],
+      "psychology": {
+        "sanity": 71,
+        "grief": 85,
+        "self_discipline": 94,
+        "mood": "外部平静，内部有一个他没有追的感觉——他用「需要休息」解释了在处理节点外坐了一整个下午，但他知道那个解释是不完整的",
+        "notable_shift": "他第一次从外部看了战争机器的心脏，不愤怒不悲悯，只是看。但他停下来不是为了休息。他没有给「停下来」的真实原因命名，像他从不给所有难以命名的事情命名一样。源质碎晶的感知延伸：在能量节点附近有更强的反应，但他没有深究。"
+      },
+      "key_events_this_chapter": [
+        "走了十七小时从红盐平原南侧到达维格拉斯星球北部高地",
+        "在山脊看见战争控制器处理节点，与节点保持三百米距离，坐了整整一个下午",
+        "数了进出车辆：七辆→十一辆→九辆（空车快速）等批次",
+        "下午发现源质碎晶振动比平时强且均匀，取出确认，无变化，放回",
+        "夜幕时离开，理由「需要休息」——他知道这个理由不完整，但选择不追问",
+        "继续向东行走，数了六颗可见恒星"
+      ]
+    },
+    {
       "story_time": 2,
       "chapter_id": "ch_004",
       "location": "碎晶星域·维格拉斯星球北侧低地，背风处过夜",

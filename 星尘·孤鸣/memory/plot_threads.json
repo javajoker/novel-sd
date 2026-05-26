@@ -5,9 +5,10 @@
       "concept": "艾昂随身携带的源质碎晶",
       "status": "open",
       "introduced_chapter": "ch_001",
-      "last_mention_chapter": "ch_001",
+      "last_mention_chapter": "ch_007",
       "occurrences": [
-        {"chapter_id": "ch_001", "note": "艾昂握着那块三年前从「共鸣之殇」战场捡来的源质碎晶，感受到轻微振动。他不知道为什么一直带着它。"}
+        {"chapter_id": "ch_001", "note": "艾昂握着那块三年前从「共鸣之殇」战场捡来的源质碎晶，感受到轻微振动。他不知道为什么一直带着它。"},
+        {"chapter_id": "ch_007", "note": "在战争控制器处理节点三百米外，碎晶振动比平时均匀且持续。艾昂取出确认，无外观变化，放回，不追问原因。说明碎晶对源质能量节点有感知反应。"}
       ],
       "payoff_planned_chapter": "ch_106",
       "risk": "需要每隔适当章节出现，维持读者记忆。不宜过早解释。"

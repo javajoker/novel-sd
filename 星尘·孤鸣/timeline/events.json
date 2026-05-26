@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "id": "evt_ch007_war_machine_outside",
+      "name": "向量（外部观察）",
+      "thread_id": "thr_aeon",
+      "story_time": 4,
+      "status": "drafted",
+      "chapter_id": "ch_007",
+      "participants": ["char_aeon"],
+      "summary": "艾昂在维格拉斯星球北部高地高处发现战争控制器处理节点，在三百米外静坐一整个下午，数进出车辆。源质碎晶振动强于平时。夜幕时离开，理由「需要休息」但他知道不完整。结构共振：Θ-7从内部质疑战争机器（ch_006），艾昂从外部观察它（ch_007），互不知晓。"
+    },
+    {
       "id": "evt_ch006_second_question",
       "name": "二次校验",
       "thread_id": "thr_theta",
