@@ -1,0 +1,18 @@
+{
+  "character_id": "char_sgt_qi",
+  "name": "老齐",
+  "full_name_unknown": true,
+  "species": "human_federation",
+  "role": "minor_supporting",
+  "salience": 0.25,
+  "first_chapter": "ch_024",
+  "status": "alive",
+  "faction": "FED-TMP-1107（联邦临时编制）",
+  "age_approx": "五十岁出头",
+  "physical": {
+    "description": "五十多岁，战场老兵的体型——不高但结实，动作省力，每个姿势都是最优防御位置。装备极旧，联邦型号目录已无对应款，但保养极佳。"
+  },
+  "personality": "不解释决定，不问别人的决定。沉默是他最主要的语言。他的决定从来都是对的——不是理论上正确，是事后被证明对的那种。在队伍里是某种静默的锚点。",
+  "narrative_function": "陈铭在ch_017防御机制裂开之后，第一个「还活着」作为锚点进入陈铭决策权重的人。他不是情感连接的对象——陈铭不会命名这件事——只是一个方向的原因。",
+  "notes": "陈铭从未知道老齐的全名。老齐从未问过陈铭的全名。他们之间的所有「交流」都是沉默中的并排。"
+}

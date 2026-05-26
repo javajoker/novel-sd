@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "id": "evt_ch024_choice_north",
+      "name": "选择",
+      "thread_id": "thr_chen_ming",
+      "story_time": 13,
+      "status": "drafted",
+      "chapter_id": "ch_024",
+      "participants": ["char_chen_ming", "char_sgt_qi"],
+      "summary": "联邦中转补给节点。陈铭有两条路：北进任务继续，或南路转运去找旧战友。他在货架旁坐了二十分钟（全文最长决策停顿），想到老齐（ch_017那场战里仍然站着的那个人），然后往北走，把包放在老齐旁边，无话。不解释。「还活着」第一次进入陈铭的决策权重。"
+    },
+    {
       "id": "evt_ch023_outpost_first_night",
       "name": "前哨站·第一夜",
       "thread_id": "thr_aeon",

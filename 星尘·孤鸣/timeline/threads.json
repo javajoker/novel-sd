@@ -15,9 +15,9 @@
       "name": "陈铭·拼死求生者",
       "pov_character": "char_chen_ming",
       "start_time": 1,
-      "current_time": 10,
-      "latest_chapter": "ch_017",
-      "event_ids": ["evt_ch002_chen_ming_names", "evt_ch005_march", "evt_ch009_new_battlefield", "evt_ch014_that_person", "evt_ch017_the_fifteenth"],
+      "current_time": 13,
+      "latest_chapter": "ch_024",
+      "event_ids": ["evt_ch002_chen_ming_names", "evt_ch005_march", "evt_ch009_new_battlefield", "evt_ch014_that_person", "evt_ch017_the_fifteenth", "evt_ch024_choice_north"],
       "status": "active"
     },
     {

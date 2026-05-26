@@ -25,6 +25,25 @@
       }
     },
     {
+      "story_time": 13,
+      "chapter_id": "ch_024",
+      "facts_known": ["fact_federation_monopoly_plan"],
+      "facts_newly_confirmed": [],
+      "facts_unknown": [
+        "fact_aeon_resonance_severed", "fact_ghost_event", "fact_the_lie",
+        "fact_war_director_awakening", "fact_ulos_true_origin",
+        "fact_origin_matter_consciousness", "fact_elwis_council_lie"
+      ],
+      "new_observation": "知道了有一个补给节点，知道南路经过FED-03-RK旧区，知道老齐跟北队走。他不知道老齐的全名，他不知道这次选择的真实原因是什么——他只是往北走了。",
+      "beliefs_at_chapter_end": [
+        {"belief": "联邦会赢得这场战争", "is_true": false},
+        {"belief": "他已经麻木了", "is_true": false},
+        {"belief": "活着只是习惯", "is_true": "partial"},
+        {"belief": "不知道名字=不在意", "is_true": false, "note": "本章进一步：一个活着的人（老齐）的存在也开始有重量，但陈铭仍未命名它"},
+        {"belief": "他的选择是基于纯粹功能性判断的", "is_true": false, "note": "新增——二十分钟、老齐还活着、往北走。这个选择不是纯功能性的，但他不会承认。"}
+      ]
+    },
+    {
       "story_time": 10,
       "chapter_id": "ch_017",
       "facts_confirmed": [],

@@ -192,7 +192,8 @@
           "id": "ch_024", "number": 24, "title": "选择",
           "thread_id": "thr_chen_ming", "pov_character": "char_chen_ming", "story_time": 13,
           "one_line": "陈铭在战斗后面对一个选择：跟随这支队伍继续北进，还是单独向南寻找旧战友。",
-          "scene_arc": "选择→停顿→留下（理由是那个还活着的老兵）", "status": "outlined"
+          "scene_arc": "选择→停顿→留下（理由是那个还活着的老兵）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_024.json"
         },
         {
           "id": "ch_025", "number": 25, "title": "均衡",
