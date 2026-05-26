@@ -150,7 +150,8 @@
           "id": "ch_018", "number": 18, "title": "追踪",
           "thread_id": "thr_theta", "pov_character": "char_theta_seven", "story_time": 10,
           "one_line": "Θ-7将信号空白Null-01加入了它的持续追踪列表，这不是程序要求的，是它自己做的决定。",
-          "scene_arc": "日常数据→主动追踪→私人日志（第三条）", "status": "outlined"
+          "scene_arc": "日常数据→主动追踪→私人日志第五条（「想知道」）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_018.json"
         },
         {
           "id": "ch_019", "number": 19, "title": "折返",

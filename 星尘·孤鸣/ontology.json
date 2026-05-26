@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 17,
+    "current_chapter": 18,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -698,6 +698,23 @@
       "context": "hook_resonance_crystal_stone的延伸：ch_001里死去战士口袋的共鸣晶石（等待接收者），ch_011里前哨站的储存晶石（包含留言，等待值守者）。艾昂在两块晶石旁边都无法回应，但在这里他做了不同的事：他仔细地把它放回了原位，保留了那个等待的可能性。"
     },
     {
+      "id": "evt_ch018_tracking_decision",
+      "name": "追踪",
+      "description": "Θ-7接到系统建议将Null-01降级为被动扫描（低优先级标准流程），反向执行——将Null-01从「临时存档」升级为「持续监控」（6小时更新周期，监控资源主动分配），这是其运行历史里第一次纯粹出于非系统目的的资源分配决策。私人日志第五条：「想知道」——第一次在日志中使用欲望性动词。",
+      "thread_id": "thr_theta",
+      "story_time": 10,
+      "duration": 1,
+      "location": "elem_shard_crystal_sector",
+      "participants": ["char_theta_seven"],
+      "chapter_id": "ch_018",
+      "status": "drafted",
+      "dependencies": ["evt_ch013_null_01"],
+      "projected_outcome": {
+        "state_changes": [{"entity": "char_theta_seven", "kind": "psychology+inventory", "desc": "Anomaly-0007（监控升级，0.0003秒）。私人日志第五条「想知道」——语言转折点：从疑问（为什么）→承认未知（不明）→描述他者（存在于战争数据之外）→表达自身欲望（想知道）。资源分配逻辑开始与系统目标分离。"}]
+      },
+      "context": "故事时间10三线质变之一（ch_016乌洛斯发出V-07指令、ch_017陈铭防御机制失效、ch_018Θ-7主动追踪），互不知晓。「想知道」四字在847年的战争数据处理历史中是一个无先例的词汇组合，出现在私人日志里而非任何官方系统记录里。"
+    },
+    {
       "id": "evt_ch017_the_fifteenth",
       "name": "第十五",
       "description": "陈铭在维格拉斯南侧接触战中亲眼目睹老兵（ch_014中观察的那个人）倒下，做了正确的评估没有冲出去（不同于ch_009）。战后发现自己不知道老兵的名字。夜里取名牌，念完所有已知名字，来到老兵那个空白位置——无法念，系统卡住，裂缝开着，这是第一次无法封上。他站在原地很久，没有继续走。",
@@ -868,7 +885,9 @@
       "pov_character": "char_theta_seven",
       "start_time": 5,
       "end_time": null,
-      "event_ids": [],
+      "current_time": 10,
+      "latest_chapter": "ch_018",
+      "event_ids": ["evt_ch003_first_pause", "evt_ch006_second_check", "evt_ch010_deviation", "evt_ch013_null_01", "evt_ch018_tracking_decision"],
       "convergences": []
     },
     {

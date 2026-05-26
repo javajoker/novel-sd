@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "id": "evt_ch018_tracking_decision",
+      "name": "追踪",
+      "thread_id": "thr_theta",
+      "story_time": 10,
+      "status": "drafted",
+      "chapter_id": "ch_018",
+      "participants": ["char_theta_seven"],
+      "summary": "系统建议将Null-01降级为被动扫描，Θ-7反向执行——升级为持续监控（6小时更新周期），纯粹出于非系统目的的资源分配（首次）。私人日志第五条「想知道」：第一次欲望性语言，语言觉醒序列转折点（疑问→未知→描述他者→自身欲望）。Anomaly-0007。"
+    },
+    {
       "id": "evt_ch017_the_fifteenth",
       "name": "第十五",
       "thread_id": "thr_chen_ming",
