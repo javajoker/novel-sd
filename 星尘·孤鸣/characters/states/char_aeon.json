@@ -3,6 +3,42 @@
   "states": [
     {
       "story_time": 12,
+      "chapter_id": "ch_023",
+      "location": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站内部（入口旁）",
+      "physical": {
+        "status": "functional",
+        "notes": "ch_023夜晚入驻前哨站。地垫已给梁使用，自己坐靠岩壁。消耗了少量口粮。水八成。"
+      },
+      "inventory": [
+        {"item": "elem_ability_card_jump_x3", "status": "absorbed"},
+        {"item": "elem_ability_card_shield_x1", "status": "absorbed"},
+        {"item": "自制轻型脉冲枪", "status": "equipped, right-hand reachable"},
+        {"item": "灵能族断频器", "status": "worn"},
+        {"item": "一块磨损的源质碎晶", "status": "carried"},
+        {"item": "颈上名牌（12块）", "status": "carried"},
+        {"item": "联邦标准口粮（约两天份，减少）", "status": "carried"},
+        {"item": "净化水（八成）", "status": "carried"},
+        {"item": "医疗包（绑扎带少量剩余，其他已用尽）", "status": "depleted"},
+        {"item": "泡沫地垫", "status": "given_to_liang", "note": "铺给梁使用，艾昂自己坐靠岩壁入睡"}
+      ],
+      "psychology": {
+        "sanity": 70,
+        "grief": 87,
+        "self_discipline": 94,
+        "mood": "功能性，不分析情绪，只做下一件需要做的事。最后入睡前：「他已经很多年没有在另一个人的呼吸声中入睡了」——他没有继续想，进入了类似睡眠的状态。",
+        "notable_shift": "本章最重要的两件事：（1）第一次用手扶起另一个人——「小心地扶着」，不是战场拖拽，是另一种动作；（2）他把地垫给了梁，自己坐靠岩壁——这是一个默默的取舍，没有被命名；（3）「他已经很多年没有在另一个人的呼吸声中入睡了」——是他三年流亡里第一次有这种经验，他没有追问这意味着什么，只是让它存在，入睡了。"
+      },
+      "key_events_this_chapter": [
+        "夜晚气温下降，评估在外不安全，决定将梁移入前哨站",
+        "第一次扶起梁（感到他体重很轻，意识到营养不足已久）",
+        "用二十分钟将梁抬运至前哨站（一百米）",
+        "在前哨站内清理空间，铺地垫（自己的），将梁安置在最平的位置（恰好在储存晶石旁，但不知道晶石的意义）",
+        "梁短暂睁眼看了艾昂，无话语，闭上",
+        "艾昂在入口旁坐下，清点明日需求（水/食物/医疗），闭眼，在梁的呼吸声中入睡"
+      ]
+    },
+    {
+      "story_time": 12,
       "chapter_id": "ch_021",
       "location": "前哨站外围峡谷，岩缝旁（坐下，不走了）",
       "physical": {

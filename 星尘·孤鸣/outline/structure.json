@@ -185,7 +185,8 @@
           "id": "ch_023", "number": 23, "title": "前哨站",
           "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 12,
           "one_line": "艾昂帮助梁进入那处灵能族前哨站，他们在没有共鸣的情况下开始了某种共处。",
-          "scene_arc": "帮助→共处开始→第一夜", "status": "outlined"
+          "scene_arc": "帮助→共处开始→第一夜", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_023.json"
         },
         {
           "id": "ch_024", "number": 24, "title": "选择",

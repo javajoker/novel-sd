@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "id": "evt_ch023_outpost_first_night",
+      "name": "前哨站·第一夜",
+      "thread_id": "thr_aeon",
+      "story_time": 12,
+      "status": "drafted",
+      "chapter_id": "ch_023",
+      "participants": ["char_aeon", "char_liang"],
+      "summary": "艾昂夜间评估温度危险，将梁从岩缝搬运一百米入前哨站，铺自己的地垫，把梁安置在储存晶石旁（不知道晶石有意义）。梁短暂睁眼，看向艾昂方向，无话语，闭眼。艾昂靠入口坐下，在黑暗里吃了少量口粮，规划明天的水粮医疗清单，在另一个人的呼吸声中进入了某种类似睡眠的状态——他已经很多年没有在另一个人的呼吸声中入睡了。"
+    },
+    {
       "id": "evt_ch022_signal_37",
       "name": "没有回应",
       "thread_id": "thr_qixing",
