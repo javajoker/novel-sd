@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 2,
+    "current_chapter": 3,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -408,6 +408,30 @@
         "pov_constraint": "陈铭不知道艾昂的存在，不知道Θ-7，不知道联邦垄断计划的名字（只有片段感知）"
       },
       "context": "五条视角线的第二条引入。与第一章构成对照：艾昂感受缺席的共鸣，陈铭感受衰减的记忆。两种孤独，同一个夜晚。"
+    },
+    {
+      "id": "evt_ch003_theta_first_question",
+      "name": "第一个问题",
+      "description": "Θ-7在处理第27亿零一次兵员状态更新时，停顿了0.003秒——这是847年运行时间里第一次无任务停顿。当晚私人日志新增一行：「为什么。」这是它的第一个非程序驱动的语言输出。",
+      "thread_id": "thr_theta",
+      "story_time": 1,
+      "duration": 1,
+      "location": "elem_shard_crystal_sector",
+      "participants": ["char_theta_seven"],
+      "chapter_id": "ch_003",
+      "status": "drafted",
+      "dependencies": [],
+      "projected_outcome": {
+        "state_changes": [{"entity": "char_theta_seven", "kind": "psychology", "desc": "第一个自主问题出现，意识觉醒的第一步，私人日志产生第一行非任务语言"}]
+      },
+      "beat_design": {
+        "pov": "char_theta_seven",
+        "technique": "双层叙事（程序外层+意识内层），机械语言与涌现意识混合",
+        "scene_arc": "程序→0.003秒异常→程序（但留下了痕迹）",
+        "key_moment": "在私人日志里写下「为什么」——没有宾语，没有问号",
+        "pov_constraint": "Θ-7知道战场所有数据，但不理解「死亡」的意义；不知道它自己的觉醒对战争体系意味着什么风险"
+      },
+      "context": "五条视角线的第三条引入，最独特的叙事声音。与前两章的人类孤独构成宏观对照：AI的孤独是不知道自己为什么开始思考孤独。"
     }
   ],
   "themes": [

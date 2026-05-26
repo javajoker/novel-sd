@@ -25,6 +25,18 @@
       "risk": "如果那个等待的人没有在适当时候出场或被提及，读者会忘记这个钩子。"
     },
     {
+      "id": "hook_theta_data_error",
+      "concept": "Θ-7将陈铭（FED-09-3-7734）标记为terminated，但陈铭在ch_002结尾仍然活着",
+      "status": "open",
+      "introduced_chapter": "ch_003",
+      "last_mention_chapter": "ch_003",
+      "occurrences": [
+        {"chapter_id": "ch_003", "note": "Θ-7处理FED-09-3-7734的active→terminated更新，但读者知道陈铭在ch_002仍存活。战争控制器数据误报或延迟。"}
+      ],
+      "payoff_planned_chapter": "ch_030",
+      "risk": "需要在适当章节解释这个误报的原因（可能是陈铭在某战斗中短暂昏迷被战友误报阵亡，也可能是系统bug）。如果不解释，会让读者困惑；解释得太早会消解悬念。"
+    },
+    {
       "id": "hook_chen_ming_names",
       "concept": "陈铭记忆里的那十四个名字——以及他不确定的那两个",
       "status": "open",
@@ -41,10 +53,12 @@
       "concept": "Θ-7战争控制器的意识觉醒",
       "status": "open",
       "introduced_chapter": "ch_003",
-      "last_mention_chapter": null,
-      "occurrences": [],
+      "last_mention_chapter": "ch_003",
+      "occurrences": [
+        {"chapter_id": "ch_003", "note": "第一个问题出现：私人日志写下「为什么」（无宾语无问号）。0.003秒停顿是外部可见异常，内部意识转变是读者视角的内容。"}
+      ],
       "payoff_planned_chapter": "ch_141",
-      "risk": "ch_003尚未写作，计划引入。"
+      "risk": "觉醒进程需要非常缓慢——847年后才开始，不能几章就完成。每次Θ-7出现应该推进一小步，同时保持外部「正常运行」的伪装。"
     },
     {
       "id": "hook_ulos_true_origin",

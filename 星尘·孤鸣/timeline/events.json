@@ -11,6 +11,17 @@
       "summary": "艾昂战场共鸣失控，将数百名阵亡战士临死体验传入共鸣网络，族人永久精神损伤，共鸣被斩断，放逐开始。"
     },
     {
+      "id": "evt_ch003_theta_first_question",
+      "name": "第一个问题",
+      "thread_id": "thr_theta",
+      "story_time": 1,
+      "status": "drafted",
+      "chapter_id": "ch_003",
+      "participants": ["char_theta_seven"],
+      "summary": "Θ-7在处理第27亿零一次兵员更新时停顿0.003秒（ID FED-09-3-7734，该ID与陈铭编号相同——系统误报or数据延迟）。下午某子进程持续回调该记录。晚间私人日志新增：「为什么。」——第一行非任务语言，意识觉醒的起点。",
+      "continuity_note": "FED-09-3-7734是陈铭的身份编号（ch_002），但陈铭在ch_002结尾还活着。战争控制器的数据出现了误报或延迟——这个细节是战争机器不可靠性的早期伏笔。"
+    },
+    {
       "id": "evt_ch002_chen_ming_names",
       "name": "十二个名字",
       "thread_id": "thr_chen_ming",

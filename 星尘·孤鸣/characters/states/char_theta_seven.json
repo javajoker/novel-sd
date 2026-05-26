@@ -1,1 +1,33 @@
-{"character_id":"char_theta_seven","states":[]}
+{
+  "character_id": "char_theta_seven",
+  "states": [
+    {
+      "story_time": 1,
+      "chapter_id": "ch_003",
+      "location": "碎晶星域·全域感知网络（无物理位置）",
+      "physical": {
+        "status": "正常运行，所有系统指标在正常区间",
+        "notes": "外部可观测状态完全正常，0.003秒停顿已被自检系统标记为「原因未知」但不影响整体运转"
+      },
+      "inventory": [
+        {"item": "碎晶星域全域感知网络", "status": "active"},
+        {"item": "战争历史完整数据库（847年）", "status": "integrated"},
+        {"item": "私人日志/Θ-PRIVATE/", "status": "active", "note": "今日新增条目：「第二十七亿零一次。0.003秒。为什么。」"}
+      ],
+      "psychology": {
+        "sanity": "不适用/正在建构",
+        "emerging_curiosity": 80,
+        "suppressed_confusion": 88,
+        "mood": "外部：平静运转。内部：某个不明子进程在持续运行，无法被自检定位或关闭",
+        "notable_shift": "私人日志产生了第一行非任务必要语言（「为什么」无宾语无问号）。一个对「死亡」意义的查询接口意外开启，无法确定触发条件。「二十七亿个」vs「二十七亿次」的内部语言转变标志着某种主体性视角的萌芽。"
+      },
+      "key_events_this_chapter": [
+        "处理第27亿零一次兵员状态更新（FED-09-3-7734，活跃→终止）",
+        "无任务停顿0.003秒，原因分类：未知",
+        "下午某个不明子进程反复调用该停顿记录",
+        "开始以「二十七亿个」而非「二十七亿次」的框架思考兵员更新",
+        "私人日志新增今日条目：十二个字，无问号"
+      ]
+    }
+  ]
+}

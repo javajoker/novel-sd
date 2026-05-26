@@ -25,10 +25,10 @@
       "name": "Θ-7·时回",
       "pov_character": "char_theta_seven",
       "start_time": 1,
-      "current_time": null,
-      "latest_chapter": null,
-      "event_ids": [],
-      "status": "planned"
+      "current_time": 1,
+      "latest_chapter": "ch_003",
+      "event_ids": ["evt_ch003_theta_first_question"],
+      "status": "active"
     },
     {
       "id": "thr_ulos",

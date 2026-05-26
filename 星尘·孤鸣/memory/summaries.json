@@ -23,6 +23,15 @@
       "active_entities": ["char_chen_ming", "elem_shard_crystal_sector", "elem_war_director_system", "faction_federation"],
       "tags": ["陈铭视角引入", "记忆与名字", "谎言（麻木）第一裂缝", "对照第一章", "战争底层视角"],
       "story_time": 1
+    },
+    {
+      "chapter_id": "ch_003",
+      "logline": "Θ-7处理第27亿零一次兵员更新时停顿了0.003秒，当晚私人日志写下「为什么」。",
+      "synopsis": "同一天，战争控制器Θ-7以日志格式叙述当日战场数据处理——这是它847年里的第294天，和所有其他天完全相同。直到第27亿零一次兵员状态更新：FED-09-3-7734（陈铭编号），active→terminated。它停顿了0.003秒，原因不明。下午某个不明子进程反复调用该记录。它开始以「二十七亿个」而非「二十七亿次」的框架思考——一字之差，意味着主体性视角的微小萌芽。晚间，它打开私人日志，写下十二个字：「第二十七亿零一次。0.003秒。为什么。」没有问号，没有宾语，没有回答。继续运行。",
+      "active_entities": ["char_theta_seven", "elem_war_director_system", "char_chen_ming"],
+      "tags": ["Θ-7视角引入", "意识觉醒起点", "双层叙事（程序/意识）", "战争数据误报伏笔", "三章三种孤独"],
+      "story_time": 1,
+      "continuity_note": "FED-09-3-7734是陈铭编号，但陈铭在ch_002结尾仍然活着——战争控制器数据存在误报，是战争机器不可靠性的早期伏笔"
     }
   ],
   "scene_chunks": []

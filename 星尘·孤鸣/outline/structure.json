@@ -62,7 +62,8 @@
           "story_time": 1,
           "one_line": "Θ-7处理当日战争数据，在第二十七亿零一次兵员状态更新时，停顿了0.003秒。",
           "scene_arc": "程序→异常→程序（但留下了痕迹）",
-          "status": "outlined"
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_003.json"
         },
         {
           "id": "ch_004",
