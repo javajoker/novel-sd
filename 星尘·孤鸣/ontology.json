@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 15,
+    "current_chapter": 16,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -630,6 +630,23 @@
         "pov_constraint": "艾昂无法读取储存晶石的内容；他的灵能感知只有很轻的残余；他不知道那条留言是什么，不知道是谁写的"
       },
       "context": "hook_resonance_crystal_stone的延伸：ch_001里死去战士口袋的共鸣晶石（等待接收者），ch_011里前哨站的储存晶石（包含留言，等待值守者）。艾昂在两块晶石旁边都无法回应，但在这里他做了不同的事：他仔细地把它放回了原位，保留了那个等待的可能性。"
+    },
+    {
+      "id": "evt_ch016_plan_first_step",
+      "name": "计划（一）",
+      "description": "乌洛斯在虚空据点评估「日冕计划」进度（三控制区67%/51%/43%，约十二个月最优窗口），确定「三叉结」（维格拉斯北部高地三矿脉汇聚点）为核心打击目标，向探子V-07发出指令：确认三叉结坐标和源质浓度，三周内报告。计划从观察期进入行动期。「那首歌」不到一秒（ch_008三秒），压下，继续。折叠地图方式来自父亲（hook_ulos_true_origin第二次）。",
+      "thread_id": "thr_ulos",
+      "story_time": 10,
+      "duration": 1,
+      "location": "elem_shard_crystal_sector",
+      "participants": ["char_ulos"],
+      "chapter_id": "ch_016",
+      "status": "drafted",
+      "dependencies": ["evt_ch008_ulos_watching"],
+      "projected_outcome": {
+        "state_changes": [{"entity": "char_ulos", "kind": "action", "desc": "V-07指令发出，三叉结侦察启动。乌洛斯的探子将前往维格拉斯北部高地——与艾昂的行进方向形成潜在路径交叉（双方不知道对方）"}]
+      },
+      "context": "路径汇聚预告：艾昂向东走（ch_015：活跃矿脉旁），Θ-7追踪Null-01东行（ch_013），乌洛斯的探子V-07前往维格拉斯北部高地（ch_016）——三条叙事线的路径正在收敛到同一个地理区域，各不知道其他人的存在。"
     },
     {
       "id": "evt_ch015_ore_vein",

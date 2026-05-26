@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "id": "evt_ch016_plan_first_step",
+      "name": "计划（一）",
+      "thread_id": "thr_ulos",
+      "story_time": 10,
+      "status": "drafted",
+      "chapter_id": "ch_016",
+      "participants": ["char_ulos"],
+      "summary": "乌洛斯评估日冕计划进度（十二个月最优窗口），确认三叉结为打击目标，向V-07发出侦察指令。从观察期进入行动期。「那首歌」不到一秒；折叠地图「从父亲那里学来」（hook_ulos_true_origin第二次）。章末孤独意识。V-07将前往维格拉斯北部高地——与艾昂东行路径潜在交叉。"
+    },
+    {
       "id": "evt_ch015_ore_vein",
       "name": "矿脉",
       "thread_id": "thr_aeon",

@@ -136,7 +136,8 @@
           "id": "ch_016", "number": 16, "title": "计划（一）",
           "thread_id": "thr_ulos", "pov_character": "char_ulos", "story_time": 10,
           "one_line": "乌洛斯在虚空据点里推演他的计划，他需要碎晶星域一处特定的源质汇聚节点。",
-          "scene_arc": "独处→推演→决定（第一步）", "status": "outlined"
+          "scene_arc": "独处→推演→决定（第一步）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_016.json"
         },
         {
           "id": "ch_017", "number": 17, "title": "第十五",
