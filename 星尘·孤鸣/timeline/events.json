@@ -11,6 +11,16 @@
       "summary": "艾昂战场共鸣失控，将数百名阵亡战士临死体验传入共鸣网络，族人永久精神损伤，共鸣被斩断，放逐开始。"
     },
     {
+      "id": "evt_ch002_chen_ming_names",
+      "name": "十二个名字",
+      "thread_id": "thr_chen_ming",
+      "story_time": 1,
+      "status": "drafted",
+      "chapter_id": "ch_002",
+      "participants": ["char_chen_ming"],
+      "summary": "陈铭在废弃联邦营地翻找名牌，发现自己对两个名字不确定，触碰那双帆布鞋，最终慢念十四个名字封上了裂缝。建立陈铭视角声音与核心谎言（以为已麻木）。"
+    },
+    {
       "id": "evt_novel_opening",
       "name": "战场废己",
       "thread_id": "thr_aeon",

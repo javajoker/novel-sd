@@ -15,10 +15,10 @@
       "name": "陈铭·拼死求生者",
       "pov_character": "char_chen_ming",
       "start_time": 1,
-      "current_time": null,
-      "latest_chapter": null,
-      "event_ids": [],
-      "status": "planned"
+      "current_time": 1,
+      "latest_chapter": "ch_002",
+      "event_ids": ["evt_ch002_chen_ming_names"],
+      "status": "active"
     },
     {
       "id": "thr_theta",

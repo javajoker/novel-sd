@@ -1,1 +1,35 @@
-{"character_id":"char_chen_ming","states":[]}
+{
+  "character_id": "char_chen_ming",
+  "states": [
+    {
+      "story_time": 1,
+      "chapter_id": "ch_002",
+      "location": "碎晶星域·维格拉斯星球东南侧低地，向过夜掩体移动",
+      "physical": {
+        "status": "functional",
+        "notes": "膝盖旧伤（右膝），贴了止痛贴片，能走但未愈。已进食（一包联邦标准口粮），有水（一桶净化水）。"
+      },
+      "inventory": [
+        {"item": "联邦制式步枪（型号老化）", "status": "equipped"},
+        {"item": "一把小刀（父亲矿工刀）", "status": "carried"},
+        {"item": "止痛贴片（大量）", "status": "carried"},
+        {"item": "十四张联邦战士名牌", "status": "carried", "note": "原十二张加今日新找到的两张，均已念过名字"}
+      ],
+      "psychology": {
+        "sanity": 58,
+        "grief": 75,
+        "survival_instinct": 95,
+        "black_humor": 70,
+        "mood": "功能性正常，封上了今天出现的小裂缝",
+        "notable_shift": "ch_002中出现的裂缝（记忆可靠性动摇）已被用熟悉方式封上——慢念名字、放回那双鞋。但那道封印比以前任何一道都薄一些，陈铭自己没有意识到这件事。"
+      },
+      "key_events_this_chapter": [
+        "搜索维格拉斯东南侧废弃联邦营地，找到两块新名牌",
+        "在翻看名牌时发现自己对第9和第10张名牌的名字不确定",
+        "发现了一双手绘图案的白色帆布鞋（私人物品），触及情感，将其放回原位",
+        "慢念了所有十四个名字，将裂缝封上",
+        "找到口粮和净化水，继续移动"
+      ]
+    }
+  ]
+}

@@ -25,6 +25,18 @@
       "risk": "如果那个等待的人没有在适当时候出场或被提及，读者会忘记这个钩子。"
     },
     {
+      "id": "hook_chen_ming_names",
+      "concept": "陈铭记忆里的那十四个名字——以及他不确定的那两个",
+      "status": "open",
+      "introduced_chapter": "ch_002",
+      "last_mention_chapter": "ch_002",
+      "occurrences": [
+        {"chapter_id": "ch_002", "note": "陈铭发现自己对第9和第10块名牌的名字记忆模糊，慢念名字封上了裂缝，但封印越来越薄。"}
+      ],
+      "payoff_planned_chapter": "ch_020",
+      "risk": "随着陈铭失去越来越多的战友，这个钩子需要逐步升级——从「不确定两个名字」到「不确定所有名字」，是他角色弧的核心线索。"
+    },
+    {
       "id": "hook_theta_seven_awakening",
       "concept": "Θ-7战争控制器的意识觉醒",
       "status": "open",

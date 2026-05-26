@@ -50,7 +50,8 @@
           "story_time": 1,
           "one_line": "陈铭在另一处战场废墟里翻找战友的名牌，发现自己已经不确定十二个名字里的两个对不对了。",
           "scene_arc": "麻木→裂缝→封上",
-          "status": "outlined"
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_002.json"
         },
         {
           "id": "ch_003",

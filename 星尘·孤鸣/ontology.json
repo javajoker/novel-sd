@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 1,
+    "current_chapter": 2,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -384,6 +384,30 @@
         "state_changes": [{"entity": "char_aeon", "kind": "psychology", "desc": "建立读者对孤独状态的感知，奠定文学基调"}]
       },
       "context": "文学性开场，慢镜头，用缺席的共鸣感定义艾昂的存在状态。"
+    },
+    {
+      "id": "evt_ch002_chen_ming_names",
+      "name": "十二个名字",
+      "description": "陈铭在另一处战场废墟里翻找战友名牌，在数名字时发现自己对两个名字不确定了——这是他「麻木」防线出现的第一道裂缝。",
+      "thread_id": "thr_chen_ming",
+      "story_time": 1,
+      "duration": 1,
+      "location": "elem_shard_crystal_sector",
+      "participants": ["char_chen_ming"],
+      "chapter_id": "ch_002",
+      "status": "drafted",
+      "dependencies": [],
+      "projected_outcome": {
+        "state_changes": [{"entity": "char_chen_ming", "kind": "psychology", "desc": "确立陈铭的「谎言」（自以为麻木）与第一道裂缝，建立他的世界观与声音"}]
+      },
+      "beat_design": {
+        "pov": "char_chen_ming",
+        "technique": "平实叙事，黑色幽默间歇，具体物件触发情感",
+        "scene_arc": "麻木→裂缝→封上",
+        "key_moment": "他念到第九和第十块名牌时，发现自己不确定名字是否正确",
+        "pov_constraint": "陈铭不知道艾昂的存在，不知道Θ-7，不知道联邦垄断计划的名字（只有片段感知）"
+      },
+      "context": "五条视角线的第二条引入。与第一章构成对照：艾昂感受缺席的共鸣，陈铭感受衰减的记忆。两种孤独，同一个夜晚。"
     }
   ],
   "themes": [

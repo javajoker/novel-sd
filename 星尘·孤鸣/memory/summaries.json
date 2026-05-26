@@ -15,6 +15,14 @@
       "active_entities": ["char_aeon", "elem_shard_crystal_sector", "elem_psionic_resonance", "elem_origin_matter", "elem_war_director_system"],
       "tags": ["开场", "孤独", "战场废墟", "共鸣缺席", "系统幽灵", "文学基调建立"],
       "story_time": 1
+    },
+    {
+      "chapter_id": "ch_002",
+      "logline": "陈铭在战场废墟里翻找战友名牌，数名字时发现自己对两个名字不确定了。",
+      "synopsis": "同一个傍晚，同一颗星球不同区块，陈铭在废弃联邦营地里系统性地搜索战友名牌——这是他维持了三年的仪式。翻到第九和第十张名牌时，他发现自己对那两个名字的记忆变虚了；他低着头，让那个小裂缝停在那里一会儿。废墟角落有一双被主人认真放好的帆布鞋（私人物品），他拿起来看了一眼，又放了回去。最后他慢念所有十四个名字，把裂缝封上，找到口粮和净化水，继续向过夜掩体走去。",
+      "active_entities": ["char_chen_ming", "elem_shard_crystal_sector", "elem_war_director_system", "faction_federation"],
+      "tags": ["陈铭视角引入", "记忆与名字", "谎言（麻木）第一裂缝", "对照第一章", "战争底层视角"],
+      "story_time": 1
     }
   ],
   "scene_chunks": []
