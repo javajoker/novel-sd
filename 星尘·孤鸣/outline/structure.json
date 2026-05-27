@@ -275,8 +275,9 @@
         {
           "id": "ch_036", "number": 36, "title": "共处",
           "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 18,
-          "one_line": "两人在前哨站共处的日常：取水，警戒，各自的习惯在同一空间里形成了一种奇异的节奏。",
-          "scene_arc": "日常（一）→日常（二）→某种稳定（不敢命名）", "status": "outlined"
+          "one_line": "前哨站第九天：无协商惯例已成形，梁独立站立约十秒，艾昂东边方向整天消失——「今天每件事都在该在的地方」，不命名。",
+          "scene_arc": "日常（一）→日常（二）→某种稳定（不敢命名）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_036.json"
         },
         {
           "id": "ch_037", "number": 37, "title": "记忆",

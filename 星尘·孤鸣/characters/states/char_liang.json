@@ -2,6 +2,23 @@
   "character_id": "char_liang",
   "states": [
     {
+      "story_time": 18,
+      "chapter_id": "ch_036",
+      "location": "灵能族废弃前哨站",
+      "physical": {
+        "status": "alive_recovering_mobile",
+        "notes": "独立站立约十秒（左手扶入口内侧岩壁，高度约85cm，为支点最佳高度），自行坐回无跌落。较ch_034的2秒有显著进步。地垫挪至入口内侧靠岩壁，主动优化物理治疗环境。"
+      },
+      "psychology": {
+        "mood": "（从艾昂视角外部观察）：主动重新布置共享空间，没有解释，没有征求意见。下午独立完成站立练习，最后一组约十秒，自行坐回。评估自身和空间的方式：系统性，主动，不求协助。"
+      },
+      "key_events_this_chapter": [
+        "主动将地垫挪至入口内侧靠岩壁（事先评估支点高度，约85cm）",
+        "下午多组站立练习",
+        "最后一组约十秒独立站立，自行坐回（无跌落）"
+      ]
+    },
+    {
       "story_time": 17,
       "chapter_id": "ch_034",
       "location": "灵能族废弃前哨站",

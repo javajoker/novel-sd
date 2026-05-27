@@ -2,6 +2,16 @@
   "character_id": "char_aeon",
   "knowledge_at": [
     {
+      "story_time": 18,
+      "chapter_id": "ch_036",
+      "facts_confirmed": [],
+      "facts_newly_learned": [
+        "梁独立站立约十秒（手扶支撑面），自行坐回——恢复进度超预期",
+        "梁会主动布置空间以优化物理治疗（事先评估支点高度）"
+      ],
+      "notes": "ch_036无戏剧性转折，是稳定共处日常。艾昂意识到两件无意识变化：（1）「先给梁后给自己」的优先顺序已成惯例（无协商）；（2）东边方向今天整天缺席（第二次整天）。两件事都注意到了，都不分析，继续。梁的10秒站立被观察到，恢复进度良好——这意味着梁离开的时间在靠近，但艾昂没有去想这个后续。"
+    },
+    {
       "story_time": 0,
       "facts_known": [
         "fact_aeon_resonance_severed",
