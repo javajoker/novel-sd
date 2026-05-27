@@ -352,7 +352,8 @@
           "id": "ch_047", "number": 47, "title": "被感知",
           "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 24,
           "one_line": "梁通过残余共鸣第一次轻轻「触碰」了艾昂的意识边缘，艾昂感受到了三年来第一次真实的「被感知」。",
-          "scene_arc": "日常→接触（极微弱）→艾昂的反应（他没有退开）", "status": "outlined"
+          "scene_arc": "日常→接触（极微弱）→艾昂的反应（他没有退开）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_047.json"
         },
         {
           "id": "ch_048", "number": 48, "title": "虚空扩散",

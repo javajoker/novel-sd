@@ -1,6 +1,6 @@
 {
-  "last_story_time": 23,
-  "last_chapter": "ch_045",
+  "last_story_time": 24,
+  "last_chapter": "ch_047",
   "by_chapter": {
     "ch_001": [
       "evt_novel_opening"
@@ -139,6 +139,9 @@
     ],
     "ch_046": [
       "evt_ch046_null01_trajectory"
+    ],
+    "ch_047": [
+      "evt_ch047_first_perceived"
     ]
   },
   "by_story_time": {
@@ -236,6 +239,9 @@
     "23": [
       "evt_ch045_origin_song",
       "evt_ch046_null01_trajectory"
+    ],
+    "24": [
+      "evt_ch047_first_perceived"
     ]
   },
   "by_thread": {
@@ -273,6 +279,7 @@
       "evt_ch041_night_conversation",
       "evt_ch042_frequency_suppressor",
       "evt_ch045_origin_song",
+      "evt_ch047_first_perceived",
       "evt_ghost_resonance_event",
       "evt_novel_opening"
     ],
