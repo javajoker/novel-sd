@@ -35,9 +35,9 @@
       "name": "乌洛斯·裂空者",
       "pov_character": "char_ulos",
       "start_time": 5,
-      "current_time": 16,
-      "latest_chapter": "ch_033",
-      "event_ids": ["evt_ch008_ulos_watching", "evt_ch016_plan_first_step", "evt_ch020_void_parliament", "evt_ch027_void_seed_planted", "evt_ch033_ulos_monitors_anomaly"],
+      "current_time": 20,
+      "latest_chapter": "ch_039",
+      "event_ids": ["evt_ch008_ulos_watching", "evt_ch016_plan_first_step", "evt_ch020_void_parliament", "evt_ch027_void_seed_planted", "evt_ch033_ulos_monitors_anomaly", "evt_ch039_void_seed_growth"],
       "status": "active"
     },
     {

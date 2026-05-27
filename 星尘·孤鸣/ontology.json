@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 38,
+    "current_chapter": 39,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -764,6 +764,29 @@
         ]
       },
       "context": "「小时候有人教我看星星，我不记得那个人了，只记得那个动作」是艾昂在ch_028（「共鸣之前我记不清楚了」）之后第二次主动说出关于自己记忆的事，这次更小更具体，更主动（不是回答问题）。梁说的「注意本身进去了」是对共鸣本质的最具体的一次描述——为后续ch_047（「被感知」）埋下语言基础。"
+    },
+    {
+      "id": "evt_ch039_void_seed_growth",
+      "name": "虚空触手",
+      "description": "虚空种子第一阶段生长确认：18%完成，触手延伸偏差-25%（可接受），12个月计划无需调整。Θ-7分析时间三倍被记录，原因不明于外部。Null-01档案首次进入乌洛斯意识（Grid 7-N，灵能邻近，低优先级，进入「需要后续观察」）。那首歌3秒，第一次注意到「用共鸣记忆摧毁共鸣基础」的矛盾，停顿0.4秒，「某种东西正在被改变」。",
+      "thread_id": "thr_ulos",
+      "story_time": 20,
+      "duration": 1,
+      "location": "虚空据点（远程观测）",
+      "participants": ["char_ulos"],
+      "chapter_id": "ch_039",
+      "status": "drafted",
+      "dependencies": ["evt_ch033_ulos_monitors_anomaly"],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_ulos",
+            "kind": "psychology+knowledge",
+            "desc": "Null-01进入意识（低优先级）。那首歌矛盾第一次被短暂直视。计划按预期推进（18%）。suppressed_past降至83。"
+          }
+        ]
+      },
+      "context": "thr_ulos × thr_aeon间接交汇开始：乌洛斯通过Θ-7数据发现Null-01（艾昂）。乌洛斯不知道是谁，但「存在于所有已知分类之外」+灵能邻近的描述进入了他的监测范围。那首歌弧到了3秒，且伴随第一次对「拿共鸣记忆摧毁共鸣基础」这件事的短暂直视。"
     },
     {
       "id": "evt_ch038_new_recruits",
@@ -1946,14 +1969,15 @@
       "pov_character": "char_ulos",
       "start_time": 3,
       "end_time": null,
-      "current_time": 16,
-      "latest_chapter": "ch_033",
+      "current_time": 20,
+      "latest_chapter": "ch_039",
       "event_ids": [
         "evt_ch008_ulos_watching",
         "evt_ch016_plan_first_step",
         "evt_ch020_void_parliament",
         "evt_ch027_void_seed_planted",
-        "evt_ch033_ulos_monitors_anomaly"
+        "evt_ch033_ulos_monitors_anomaly",
+        "evt_ch039_void_seed_growth"
       ],
       "convergences": []
     },

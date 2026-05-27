@@ -296,8 +296,9 @@
         {
           "id": "ch_039", "number": 39, "title": "虚空触手",
           "thread_id": "thr_ulos", "pov_character": "char_ulos", "story_time": 20,
-          "one_line": "乌洛斯的虚空种子开始生长，他在暗处观察，某种东西正在被改变。",
-          "scene_arc": "等待→观察→确认（计划按预期推进）", "status": "outlined"
+          "one_line": "第一阶段18%，某种东西正在被改变——Null-01进入意识，那首歌停留了三秒，矛盾被短暂看见。",
+          "scene_arc": "等待→观察→确认（计划按预期推进）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_039.json"
         },
         {
           "id": "ch_040", "number": 40, "title": "干扰",
