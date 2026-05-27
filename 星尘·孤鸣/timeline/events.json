@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "id": "evt_ch033_ulos_monitors_anomaly",
+      "name": "计划（三）",
+      "thread_id": "thr_ulos",
+      "story_time": 16,
+      "status": "drafted",
+      "chapter_id": "ch_033",
+      "participants": ["char_ulos"],
+      "summary": "乌洛斯发现Anomaly-0009（虚空种子信号已被探测，低优先级）。识别计算误差（频谱层精度）。战争控制器纳入主动监测变量。「它探测到了。它没有追。乌洛斯想知道接下来它会怎么做。」"
+    },
+    {
       "id": "evt_ch032_forty_eight_hours",
       "name": "四十八小时",
       "thread_id": "thr_chen_ming",

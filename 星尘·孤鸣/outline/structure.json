@@ -255,7 +255,8 @@
           "id": "ch_033", "number": 33, "title": "计划（三）",
           "thread_id": "thr_ulos", "pov_character": "char_ulos", "story_time": 16,
           "one_line": "乌洛斯发现战争控制器的数据里有某个异常，与他的计划完美契合——他开始加速。",
-          "scene_arc": "观察→发现→加速计划", "status": "outlined"
+          "scene_arc": "观察→发现→加速计划", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_033.json"
         },
         {
           "id": "ch_034", "number": 34, "title": "残余共鸣",

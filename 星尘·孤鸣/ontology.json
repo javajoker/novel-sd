@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 32,
+    "current_chapter": 33,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -680,6 +680,35 @@
     }
   ],
   "events": [
+    {
+      "id": "evt_ch033_ulos_monitors_anomaly",
+      "name": "计划（三）",
+      "description": "乌洛斯例行查看战争控制器地质数据，发现Anomaly-0009（虚空种子的非标准频段信号已被探测，低优先级）。识别自己的计算误差：频谱分析精度未纳入。战争控制器的处理是「低优先级等待」——第三种他没有预料到的结果（而非无探测或全面调查）。将战争控制器行为纳入主动监测，每7天查看，12个月。十二个月计划时间线不变，但Θ-7从「无关背景」变成「需要主动观察的变量」。",
+      "thread_id": "thr_ulos",
+      "story_time": 16,
+      "duration": 1,
+      "location": "虚空据点",
+      "participants": [
+        "char_ulos"
+      ],
+      "chapter_id": "ch_033",
+      "status": "drafted",
+      "dependencies": [
+        "evt_ch027_void_seed_planted",
+        "evt_ch029_void_seed_anomaly"
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_ulos",
+            "kind": "strategy+psychology",
+            "desc": "Θ-7从背景变成变量。乌洛斯开始主动监测战争控制器的响应行为——计划外的关注，不是必需的，是他自己在想的。"
+          }
+        ]
+      },
+      "context": "thr_ulos × thr_theta的第二层交汇：乌洛斯发现Θ-7探测到了虚空种子信号（ch_029），但没有升级处理。他开始监测Θ-7的行为。Θ-7监测Anomaly-0009而不知来源；乌洛斯监测Θ-7的行为而不知Θ-7的内部变化（「可以等待，可以不解释」）。两个实体互相进入对方的视野，都不知道对方的真实状态。这个相互观察将在后续章节中发展为更深的交汇。",
+      "cross_thread_connection": "→ evt_ch029_void_seed_anomaly (Θ-7探测到信号) ↔ evt_ch033 (乌洛斯发现Θ-7探测到了，开始观察Θ-7)"
+    },
     {
       "id": "evt_ch032_forty_eight_hours",
       "name": "四十八小时",
@@ -1778,13 +1807,14 @@
       "pov_character": "char_ulos",
       "start_time": 3,
       "end_time": null,
-      "current_time": 14,
-      "latest_chapter": "ch_027",
+      "current_time": 16,
+      "latest_chapter": "ch_033",
       "event_ids": [
         "evt_ch008_ulos_watching",
         "evt_ch016_plan_first_step",
         "evt_ch020_void_parliament",
-        "evt_ch027_void_seed_planted"
+        "evt_ch027_void_seed_planted",
+        "evt_ch033_ulos_monitors_anomaly"
       ],
       "convergences": []
     },
