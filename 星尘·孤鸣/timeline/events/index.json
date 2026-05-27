@@ -1,6 +1,6 @@
 {
   "last_story_time": 29,
-  "last_chapter": "ch_057",
+  "last_chapter": "ch_058",
   "by_chapter": {
     "ch_001": [
       "evt_novel_opening"
@@ -172,6 +172,9 @@
     ],
     "ch_057": [
       "evt_ch057_heavy_casualties"
+    ],
+    "ch_058": [
+      "evt_ch058_null01_stationary"
     ]
   },
   "by_story_time": {
@@ -291,7 +294,8 @@
       "evt_ch056_partial_truth"
     ],
     "29": [
-      "evt_ch057_heavy_casualties"
+      "evt_ch057_heavy_casualties",
+      "evt_ch058_null01_stationary"
     ]
   },
   "by_thread": {
@@ -351,7 +355,8 @@
       "evt_ch035_theta_first_metaphor",
       "evt_ch040_theta_first_intervention",
       "evt_ch046_null01_trajectory",
-      "evt_ch052_qixing_contact"
+      "evt_ch052_qixing_contact",
+      "evt_ch058_null01_stationary"
     ],
     "thr_ulos": [
       "evt_ch008_ulos_watching",

@@ -429,7 +429,8 @@
           "id": "ch_058", "number": 58, "title": "静止",
           "thread_id": "thr_theta", "pov_character": "char_theta_seven", "story_time": 29,
           "one_line": "Θ-7的Null-01追踪显示它静止了很长时间，Θ-7在日志里写：「它停下来了。为什么会停下来？」",
-          "scene_arc": "追踪→静止→疑问（「为什么」第二次出现，这次有了宾语）", "status": "outlined"
+          "scene_arc": "追踪→静止→疑问（「为什么」第二次出现，这次有了宾语）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_058.json"
         },
         {
           "id": "ch_059", "number": 59, "title": "梁的决定",
