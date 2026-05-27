@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "id": "evt_ch037_first_memory_exchange",
+      "name": "记忆",
+      "thread_id": "thr_aeon",
+      "story_time": 19,
+      "status": "drafted",
+      "chapter_id": "ch_037",
+      "participants": ["char_aeon", "char_liang"],
+      "summary": "梁：「注意本身，进去了。」沉默。艾昂：「小时候有人教我看星星。我不记得那个人了，只记得那个动作。」梁没有回应。三年来艾昂第一次主动说出自己的私人记忆。"
+    },
+    {
       "id": "evt_ch036_shared_rhythm",
       "name": "共处",
       "thread_id": "thr_aeon",

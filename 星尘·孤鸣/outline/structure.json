@@ -282,8 +282,9 @@
         {
           "id": "ch_037", "number": 37, "title": "记忆",
           "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 19,
-          "one_line": "梁讲了他在共鸣时代的一个记忆，艾昂第一次说出了他自己的一件很小很小的事。",
-          "scene_arc": "梁讲→艾昂听→艾昂说（一件事，非常小）", "status": "outlined"
+          "one_line": "梁：「注意本身，进去了。」艾昂：「小时候有人教我看星星。我不记得那个人了，只记得那个动作。」三年来第一次主动说出属于自己的记忆。",
+          "scene_arc": "梁讲→艾昂听→艾昂说（一件事，非常小）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_037.json"
         },
         {
           "id": "ch_038", "number": 38, "title": "新兵",

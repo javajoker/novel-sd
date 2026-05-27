@@ -2,6 +2,22 @@
   "character_id": "char_liang",
   "states": [
     {
+      "story_time": 19,
+      "chapter_id": "ch_037",
+      "location": "灵能族废弃前哨站",
+      "physical": {
+        "status": "alive_recovering_mobile",
+        "notes": "最后一组站立练习约十三四秒，自行坐回。持续好转。"
+      },
+      "psychology": {
+        "mood": "（从艾昂视角外部观察）：傍晚说出了一个共鸣时代的具体记忆，没有前言，没有情绪词，只是陈述。听了艾昂说的话（「小时候有人教我看星星，我不记得那个人了，只记得那个动作」），没有回应。不是冷漠，是「这种话不需要回应」。"
+      },
+      "key_events_this_chapter": [
+        "说：「共鸣里有一种东西，就算不说话，另一端也知道你在注意他们。不是感情，就是那个注意本身，进去了。」",
+        "听了艾昂的话，没有回应"
+      ]
+    },
+    {
       "story_time": 18,
       "chapter_id": "ch_036",
       "location": "灵能族废弃前哨站",
