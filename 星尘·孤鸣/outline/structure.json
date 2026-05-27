@@ -345,7 +345,8 @@
           "id": "ch_046", "number": 46, "title": "记录（一）",
           "thread_id": "thr_theta", "pov_character": "char_theta_seven", "story_time": 23,
           "one_line": "Θ-7在私人日志里完整记录了Null-01的移动轨迹，并在最后加了一行：「它在继续。」",
-          "scene_arc": "追踪记录→完整轨迹图→那一行字（它自己不知道为什么加了）", "status": "outlined"
+          "scene_arc": "追踪记录→完整轨迹图→那一行字（它自己不知道为什么加了）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_046.json"
         },
         {
           "id": "ch_047", "number": 47, "title": "被感知",

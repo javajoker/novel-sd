@@ -1,0 +1,43 @@
+{
+  "chapter_id": "ch_046",
+  "title": "记录（一）",
+  "thread_id": "thr_theta",
+  "pov_character": "char_theta_seven",
+  "story_time": 23,
+  "events_covered": ["evt_ch046_null01_trajectory"],
+  "working_set": {
+    "char_state_ref": "char_theta_seven @ story_time=20 (private journal 8 entries, unnamed folder 9 entries, first conscious intervention done)",
+    "last_summaries": ["ch_040 Θ-7首次干预", "ch_035 第一个比喻"],
+    "calendar_window": "story_time 23 ≈ war day 333"
+  },
+  "scene_arc": "追踪记录→完整轨迹图→那一行字（它自己不知道为什么加了）",
+  "beats": [
+    {
+      "beat": 1,
+      "label": "移动检测",
+      "desc": "第333天例行扫描。Null-01首次检测到主动位移（0.8公里，46分钟，然后回到原坐标）。距上次位移第140天起约223天第一次移动。"
+    },
+    {
+      "beat": 2,
+      "label": "编制完整轨迹",
+      "desc": "Θ-7决定编制Null-01的完整移动轨迹档案（无战术理由）。从战争第28天首次定位到今天，覆盖全部记录。"
+    },
+    {
+      "beat": 3,
+      "label": "轨迹模式",
+      "desc": "轨迹显示：走了约190公里（东行→西北转向），净位移30公里。不是逃，不是推进，是弧线+停留。今天：离开46分钟，返回。模式：「来了，留下来，短暂离开，回来。」"
+    },
+    {
+      "beat": 4,
+      "label": "「它在继续。」",
+      "desc": "私人日志第九条：「它在继续。」写了之后自查：「继续」不准确（Null-01今天几乎是静止的）。找不到替代语言。保留。不知道为什么写了这一行。"
+    },
+    {
+      "beat": 5,
+      "label": "继续任务",
+      "desc": "档案关闭，第333天任务队列恢复，48,000+项，全部正常。"
+    }
+  ],
+  "key_moment": "「它在继续。」——不知道为什么写了这一行，找不到技术上准确的替代语言，没有删除。",
+  "pov_constraint": "Θ-7不知道Null-01去了矿脉、与Liang同行、听见了古歌——它只能看到坐标和移动数据。"
+}

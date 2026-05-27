@@ -136,6 +136,9 @@
     ],
     "ch_045": [
       "evt_ch045_origin_song"
+    ],
+    "ch_046": [
+      "evt_ch046_null01_trajectory"
     ]
   },
   "by_story_time": {
@@ -231,7 +234,8 @@
       "evt_ch044_first_recruit_dies"
     ],
     "23": [
-      "evt_ch045_origin_song"
+      "evt_ch045_origin_song",
+      "evt_ch046_null01_trajectory"
     ]
   },
   "by_thread": {
@@ -281,7 +285,8 @@
       "evt_ch025_null01_stationary",
       "evt_ch029_void_seed_anomaly",
       "evt_ch035_theta_first_metaphor",
-      "evt_ch040_theta_first_intervention"
+      "evt_ch040_theta_first_intervention",
+      "evt_ch046_null01_trajectory"
     ],
     "thr_ulos": [
       "evt_ch008_ulos_watching",
