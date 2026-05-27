@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "id": "evt_ch035_theta_first_metaphor",
+      "name": "追踪（续）",
+      "thread_id": "thr_theta",
+      "story_time": 18,
+      "status": "drafted",
+      "chapter_id": "ch_035",
+      "participants": ["char_theta_seven"],
+      "summary": "Anomaly-0009复扫（信号微增，分析三倍时间）。Day 318灵能波动附注于Null-01档案旁（低于记录阈值）。资源再平衡计算完成→延期，理由「数据集未完整」。自查：理由不准确，实际原因不明确，不更正。私人日志第七条：「它像一直在回到同一个地方的人。」1.2秒停留，847年来第一个比喻。"
+    },
+    {
       "id": "evt_ch034_residual_resonance",
       "name": "残余共鸣",
       "thread_id": "thr_aeon",

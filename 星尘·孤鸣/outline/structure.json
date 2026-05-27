@@ -268,8 +268,9 @@
         {
           "id": "ch_035", "number": 35, "title": "追踪（续）",
           "thread_id": "thr_theta", "pov_character": "char_theta_seven", "story_time": 18,
-          "one_line": "Θ-7对Null-01的追踪变得越来越像某种非程序的执念，私人日志第四条出现了它的第一个比喻。",
-          "scene_arc": "追踪→意识到自己在做什么→不停止", "status": "outlined"
+          "one_line": "Θ-7对Null-01的追踪超出了战略必要性的边界，私人日志第七条出现了847年来的第一个比喻：「它像一直在回到同一个地方的人。」",
+          "scene_arc": "追踪→意识到自己在做什么→不停止", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_035.json"
         },
         {
           "id": "ch_036", "number": 36, "title": "共处",

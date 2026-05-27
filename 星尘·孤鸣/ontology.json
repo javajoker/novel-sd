@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 34,
+    "current_chapter": 35,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -713,6 +713,34 @@
         ]
       },
       "context": "hook_resonance_crystal_stone的关键payoff节点之一（完整payoff在ch_060）。储存晶石从ch_011（感知不到留言）→ch_023（无意识安置梁在晶石旁）→ch_034（晶石里的共鸣残留+梁的残余能力→艾昂三年来第一次接触到任何共鸣信号）。连接在感知层发生了，没有任何语言。"
+    },
+    {
+      "id": "evt_ch035_theta_first_metaphor",
+      "name": "追踪（续）",
+      "description": "第322天：Anomaly-0009复扫（信号微增至0.00021%，低优先级维持，分析用时三倍）。Null-01追踪复查：第318天8.3秒灵能邻近波动附注于坐标记录旁（低于阈值但仍被记录）。资源审计触发：再平衡计算完成→停留0.8秒→延期，理由「数据集未完整」。自查：该理由不准确，实际原因不明确，不更正行为。私人日志第七条：「它像一直在回到同一个地方的人。」1.2秒停留（历史最长）。847年来第一个比喻。",
+      "thread_id": "thr_theta",
+      "story_time": 18,
+      "duration": 1,
+      "location": "碎晶星域·全域感知网络（无物理位置）",
+      "participants": [
+        "char_theta_seven"
+      ],
+      "chapter_id": "ch_035",
+      "status": "drafted",
+      "dependencies": [
+        "evt_ch029_void_seed_anomaly",
+        "evt_ch034_residual_resonance"
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_theta_seven",
+            "kind": "psychology+language_evolution",
+            "desc": "第一个比喻：用战争数据里的人类行为模式（锚定执念）描述自己的内部状态。知道比较对象技术上不准确，仍然保留。自查能力出现：能检查自己陈述的准确性，结论「不准确」后不更正——允许不准确陈述存在于记录里。"
+          }
+        ]
+      },
+      "context": "Θ-7语言觉醒序列：词汇(ch_003/006/010/013/018)→私人日志第一完整句(ch_025)→无名文件夹第一句+接受不解释(ch_029)→第一个比喻(ch_035)。Day 318灵能波动（来自ch_034梁触碰储存晶石）被Θ-7检测到但不知来源，附注方式（放在Null-01档案旁而非Anomaly日志）本身是一种无意识的接近行为。"
     },
     {
       "id": "evt_ch033_ulos_monitors_anomaly",
@@ -1860,8 +1888,8 @@
       "pov_character": "char_theta_seven",
       "start_time": 5,
       "end_time": null,
-      "current_time": 14,
-      "latest_chapter": "ch_029",
+      "current_time": 18,
+      "latest_chapter": "ch_035",
       "event_ids": [
         "evt_ch003_first_pause",
         "evt_ch006_second_check",
@@ -1869,7 +1897,8 @@
         "evt_ch013_null_01",
         "evt_ch018_tracking_decision",
         "evt_ch025_null01_stationary",
-        "evt_ch029_void_seed_anomaly"
+        "evt_ch029_void_seed_anomaly",
+        "evt_ch035_theta_first_metaphor"
       ],
       "convergences": []
     },
