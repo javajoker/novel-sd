@@ -394,7 +394,8 @@
           "id": "ch_053", "number": 53, "title": "梁的伤",
           "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 27,
           "one_line": "梁的伤开始明显恶化，他没有提，但艾昂注意到了，他也没有说。",
-          "scene_arc": "日常→观察→不说（两个人都不说，沉默的形状变了）", "status": "outlined"
+          "scene_arc": "日常→观察→不说（两个人都不说，沉默的形状变了）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_053.json"
         },
         {
           "id": "ch_054", "number": 54, "title": "计划（四）",
