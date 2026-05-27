@@ -142,6 +142,9 @@
     ],
     "ch_047": [
       "evt_ch047_first_perceived"
+    ],
+    "ch_048": [
+      "evt_ch048_void_expansion"
     ]
   },
   "by_story_time": {
@@ -241,7 +244,8 @@
       "evt_ch046_null01_trajectory"
     ],
     "24": [
-      "evt_ch047_first_perceived"
+      "evt_ch047_first_perceived",
+      "evt_ch048_void_expansion"
     ]
   },
   "by_thread": {
@@ -301,7 +305,8 @@
       "evt_ch020_void_parliament",
       "evt_ch027_void_seed_planted",
       "evt_ch033_ulos_monitors_anomaly",
-      "evt_ch039_void_seed_growth"
+      "evt_ch039_void_seed_growth",
+      "evt_ch048_void_expansion"
     ]
   }
 }

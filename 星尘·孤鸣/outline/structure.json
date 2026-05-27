@@ -359,7 +359,8 @@
           "id": "ch_048", "number": 48, "title": "虚空扩散",
           "thread_id": "thr_ulos", "pov_character": "char_ulos", "story_time": 24,
           "one_line": "乌洛斯的虚空种子扩散到了关键节点，他离计划执行近了一步，但某处出现了他没有预计的阻力。",
-          "scene_arc": "推进→成功→意外阻力（源质本身的反应）", "status": "outlined"
+          "scene_arc": "推进→成功→意外阻力（源质本身的反应）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_048.json"
         },
         {
           "id": "ch_049", "number": 49, "title": "联邦总部（一）",
