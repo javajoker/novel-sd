@@ -380,7 +380,8 @@
           "id": "ch_051", "number": 51, "title": "七星的信号",
           "thread_id": "thr_qixing", "pov_character": "char_qixing", "story_time": 26,
           "one_line": "七星尝试向战争控制器系统发送一个接触请求，她想知道她是否被纳入了任何统计。",
-          "scene_arc": "发出信号→等待→有什么东西在另一端停了一下", "status": "outlined"
+          "scene_arc": "发出信号→等待→有什么东西在另一端停了一下", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_051.json"
         },
         {
           "id": "ch_052", "number": 52, "title": "接触",

@@ -48,6 +48,16 @@
         "char_qixing"
       ],
       "summary": "第140天，建立可视化地图：8已搜索全空/死亡，13未搜索。零战术价值，系统建议删除。七星填「可能有误差」，保留。第42次意志频率无回应。"
+    },
+    {
+      "id": "evt_ch051_qixing_signal",
+      "name": "七星的信号",
+      "thread_id": "thr_qixing",
+      "story_time": 26,
+      "status": "drafted",
+      "chapter_id": "ch_051",
+      "participants": ["char_qixing", "char_theta_seven"],
+      "summary": "第149天，七星向战争控制器网络发送存在确认查询。预期响应时间0.003-0.01秒，实际1.8秒后收到非标准响应（「信号接收确认」，分类待处理，无归档路径）。原因待查，继续。第43次意志频率无回应。"
     }
   ]
 }
