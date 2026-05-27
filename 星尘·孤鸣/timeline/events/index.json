@@ -1,6 +1,6 @@
 {
   "last_story_time": 27,
-  "last_chapter": "ch_053",
+  "last_chapter": "ch_054",
   "by_chapter": {
     "ch_001": [
       "evt_novel_opening"
@@ -160,6 +160,9 @@
     ],
     "ch_053": [
       "evt_ch053_liang_worsening"
+    ],
+    "ch_054": [
+      "evt_ch054_ulos_movement"
     ]
   },
   "by_story_time": {
@@ -271,7 +274,8 @@
       "evt_ch052_qixing_contact"
     ],
     "27": [
-      "evt_ch053_liang_worsening"
+      "evt_ch053_liang_worsening",
+      "evt_ch054_ulos_movement"
     ]
   },
   "by_thread": {
@@ -337,7 +341,8 @@
       "evt_ch027_void_seed_planted",
       "evt_ch033_ulos_monitors_anomaly",
       "evt_ch039_void_seed_growth",
-      "evt_ch048_void_expansion"
+      "evt_ch048_void_expansion",
+      "evt_ch054_ulos_movement"
     ]
   }
 }

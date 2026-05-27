@@ -401,7 +401,8 @@
           "id": "ch_054", "number": 54, "title": "计划（四）",
           "thread_id": "thr_ulos", "pov_character": "char_ulos", "story_time": 27,
           "one_line": "乌洛斯开始向碎晶星域中心移动，他在等一个特定的源质共振窗口。",
-          "scene_arc": "移动→等待→某个记忆出现，他迅速压下", "status": "outlined"
+          "scene_arc": "移动→等待→某个记忆出现，他迅速压下", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_054.json"
         },
         {
           "id": "ch_055", "number": 55, "title": "第一次（二）",
