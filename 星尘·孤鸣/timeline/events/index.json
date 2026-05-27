@@ -1,6 +1,6 @@
 {
   "last_story_time": 28,
-  "last_chapter": "ch_055",
+  "last_chapter": "ch_056",
   "by_chapter": {
     "ch_001": [
       "evt_novel_opening"
@@ -166,6 +166,9 @@
     ],
     "ch_055": [
       "evt_ch055_second_contact"
+    ],
+    "ch_056": [
+      "evt_ch056_partial_truth"
     ]
   },
   "by_story_time": {
@@ -281,7 +284,8 @@
       "evt_ch054_ulos_movement"
     ],
     "28": [
-      "evt_ch055_second_contact"
+      "evt_ch055_second_contact",
+      "evt_ch056_partial_truth"
     ]
   },
   "by_thread": {
@@ -326,7 +330,8 @@
       "evt_ghost_resonance_event",
       "evt_novel_opening",
       "evt_ch053_liang_worsening",
-      "evt_ch055_second_contact"
+      "evt_ch055_second_contact",
+      "evt_ch056_partial_truth"
     ],
     "thr_theta": [
       "evt_ch003_theta_first_question",

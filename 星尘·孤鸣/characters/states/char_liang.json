@@ -2,6 +2,25 @@
   "character_id": "char_liang",
   "states": [
     {
+      "story_time": 28,
+      "chapter_id": "ch_056",
+      "location": "灵能族废弃前哨站",
+      "physical": {
+        "status": "alive_deteriorating",
+        "notes": "同ch_053状态，持续恶化，无新的突然变化。"
+      },
+      "psychology": {
+        "mood": "（从艾昂视角外部观察）：说「你从来不说那件事」，非逼问，只是观察，之后继续缝包带。听艾昂说完，停了一下，说「我听到了」，继续下一件事。接收了艾昂的内容，不评价，不给予任何位置/意义判断，只确认听见了。"
+      },
+      "knowledge_gained": ["艾昂三年前共鸣之殇的部分真相：战场感知→族群共鸣网络→所有人受伤→被切断被让离开"],
+      "key_events_this_chapter": [
+        "说「你从来不说那件事」，留开口，继续手里的事",
+        "听艾昂说完共鸣之殇部分真相",
+        "回应「我听到了」，不评价，不判断",
+        "继续日常"
+      ]
+    },
+    {
       "story_time": 27,
       "chapter_id": "ch_053",
       "location": "灵能族废弃前哨站",
