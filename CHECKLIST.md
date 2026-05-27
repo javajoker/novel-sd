@@ -27,13 +27,25 @@ context to start cold. Current state: **44 chapters drafted (vol_01), KB through
 - [ ] Create KB entries for every new character who appears (mandatory char-coverage rule),
       main or supporting.
 
-## B. Chapter-length remediation (LEN-01 back-fill)
+## B. Chapter-length remediation (LEN-01 back-fill) — DONE
 
-- [ ] **ch_042 `断频器` is below the floor (1,292 字).** Expand with fuller scene
-      realization (grounding, dialogue, interiority) to ≥ 1,500 字; re-run Phase C if any
-      state/extraction changes. (User chose "leave for now" earlier — revisit when ready.)
-- [ ] Optional: spot-check ch_041/043/044 for sparse realization even though they clear the
-      字 count (short lines / whitespace can inflate `wc -m`).
+All chapters ch_036–044 now clear the ≥1,500 char floor. Final counts:
+
+| Chapter | Before | After | Δ |
+|---------|--------|-------|---|
+| ch_036 共处 | 1,311 | 1,792 | +481 |
+| ch_037 记忆 | 712 | 1,761 | +1,049 |
+| ch_038 新兵 | 1,284 | 1,757 | +473 |
+| ch_039 虚空触手 | 1,453 | 1,593 | +140 |
+| ch_040 第329天 | 1,548 | 1,548 | — (already passing) |
+| ch_041 夜话 | 1,011 | 1,678 | +667 |
+| ch_042 断频器 | 1,292 | 1,688 | +396 |
+| ch_043 七星的地图 | 1,328 | 1,827 | +499 |
+| ch_044 消耗 | 649 | 1,577 | +928 |
+
+All expansions add physical grounding / sensory texture without introducing
+new story facts. Phase C KB state unchanged. Validator: clean PASS.
+Commits: `2e36d56` (ch_042), `20f7716` (ch_036–044 batch).
 
 ## C. KB data cleanup (pre-existing validator findings) — DONE
 
