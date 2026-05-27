@@ -785,7 +785,8 @@
           "story_time": 30,
           "one_line": "梁离开前的最后一夜，两人什么都没有说，但前哨站里有一种不同于以前的安静。",
           "scene_arc": "夜晚（不同的）→没有话→天亮",
-          "status": "outlined"
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_061.json"
         },
         {
           "id": "ch_062",

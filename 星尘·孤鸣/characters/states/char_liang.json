@@ -3,6 +3,20 @@
   "states": [
     {
       "story_time": 30,
+      "chapter_id": "ch_061",
+      "location": "灵能族废弃前哨站",
+      "physical": {"status": "alive_deteriorating", "notes": "整夜未眠，关节声（从艾昂的听觉观察）。状态同ch_059，持续恶化。"},
+      "psychology": {
+        "mood": "（从艾昂视角外部观察）：整夜清醒，偶尔调整位置，不辗转。快天亮时说「谢谢你」，平静，是陈述事实的语气，不是道别。没有等艾昂回应，天亮了。"
+      },
+      "key_events_this_chapter": [
+        "整夜未眠，在前哨站里和艾昂度过最后一夜",
+        "快天亮时说「谢谢你」",
+        "天亮了（明天离开）"
+      ]
+    },
+    {
+      "story_time": 30,
       "chapter_id": "ch_059",
       "location": "灵能族废弃前哨站",
       "physical": {

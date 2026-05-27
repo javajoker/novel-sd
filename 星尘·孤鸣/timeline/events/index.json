@@ -1,6 +1,6 @@
 {
   "last_story_time": 30,
-  "last_chapter": "ch_060",
+  "last_chapter": "ch_061",
   "by_chapter": {
     "ch_001": [
       "evt_novel_opening"
@@ -181,6 +181,9 @@
     ],
     "ch_060": [
       "evt_ch060_aeon_no_right"
+    ],
+    "ch_061": [
+      "evt_ch061_last_night"
     ]
   },
   "by_story_time": {
@@ -306,6 +309,9 @@
     "30": [
       "evt_ch059_liang_decision",
       "evt_ch060_aeon_no_right"
+    ],
+    "30": [
+      "evt_ch061_last_night"
     ]
   },
   "by_thread": {
@@ -354,7 +360,8 @@
       "evt_ch055_second_contact",
       "evt_ch056_partial_truth",
       "evt_ch059_liang_decision",
-      "evt_ch060_aeon_no_right"
+      "evt_ch060_aeon_no_right",
+      "evt_ch061_last_night"
     ],
     "thr_theta": [
       "evt_ch003_theta_first_question",
