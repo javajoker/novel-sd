@@ -1,6 +1,6 @@
 {
   "last_story_time": 31,
-  "last_chapter": "ch_063",
+  "last_chapter": "ch_064",
   "by_chapter": {
     "ch_001": [
       "evt_novel_opening"
@@ -190,6 +190,9 @@
     ],
     "ch_063": [
       "evt_ch063_emptiness"
+    ],
+    "ch_064": [
+      "evt_ch064_hq_second"
     ]
   },
   "by_story_time": {
@@ -317,7 +320,8 @@
     ],
     "31": [
       "evt_ch062_liang_leaves",
-      "evt_ch063_emptiness"
+      "evt_ch063_emptiness",
+      "evt_ch064_hq_second"
     ]
   },
   "by_thread": {
@@ -332,7 +336,8 @@
       "evt_ch038_new_recruits",
       "evt_ch044_first_recruit_dies",
       "evt_ch049_headquarters_visit",
-      "evt_ch057_heavy_casualties"
+      "evt_ch057_heavy_casualties",
+      "evt_ch064_hq_second"
     ],
     "thr_qixing": [
       "evt_ch012_who_am_i",

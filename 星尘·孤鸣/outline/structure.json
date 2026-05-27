@@ -821,7 +821,8 @@
           "story_time": 31,
           "one_line": "陈铭在联邦总部目睹了一次战略会议，联邦高层讨论的是如何「优化」兵员消耗——人是数字。",
           "scene_arc": "会议（旁观）→理解（联邦对他们是什么）→一个决定还没成形",
-          "status": "outlined"
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_064.json"
         },
         {
           "id": "ch_065",
