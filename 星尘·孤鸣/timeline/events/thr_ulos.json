@@ -1,0 +1,78 @@
+{
+  "thread_id": "thr_ulos",
+  "events": [
+    {
+      "id": "evt_ch008_ulos_watching",
+      "name": "虚空边缘",
+      "thread_id": "thr_ulos",
+      "story_time": 5,
+      "status": "drafted",
+      "chapter_id": "ch_008",
+      "participants": [
+        "char_ulos"
+      ],
+      "summary": "乌洛斯在虚空空间观察碎晶星域，十年建构的战略地图接近完整，感知到战争控制器有微弱节律变化（「裂缝」条件正在形成）。「那首歌」的压制从整个下午缩短到三秒。「快了」的判断形成。右手无意识张开又合上。hook_ulos_true_origin第一次密度暗示：他压制的是共鸣记忆。vol_01第三个悬念钩建立：他知道从哪里开始，知道什么时候开始。"
+    },
+    {
+      "id": "evt_ch016_plan_first_step",
+      "name": "计划（一）",
+      "thread_id": "thr_ulos",
+      "story_time": 10,
+      "status": "drafted",
+      "chapter_id": "ch_016",
+      "participants": [
+        "char_ulos"
+      ],
+      "summary": "乌洛斯评估日冕计划进度（十二个月最优窗口），确认三叉结为打击目标，向V-07发出侦察指令。从观察期进入行动期。「那首歌」不到一秒；折叠地图「从父亲那里学来」（hook_ulos_true_origin第二次）。章末孤独意识。V-07将前往维格拉斯北部高地——与艾昂东行路径潜在交叉。"
+    },
+    {
+      "id": "evt_ch020_void_parliament",
+      "name": "虚空议会",
+      "thread_id": "thr_ulos",
+      "story_time": 11,
+      "status": "drafted",
+      "chapter_id": "ch_020",
+      "participants": [
+        "char_ulos",
+        "char_yata"
+      ],
+      "summary": "乌洛斯五将领议事。雅塔问「时间节点确认了吗」——乌洛斯停顿不到一秒，雅塔看见了。两人都没有说话。独处后「那首歌」约一秒多（ch_016不到一秒，第一次反向）。第一次他在他人面前有可见内心裂缝；「那个位置越来越满了，他没有去注意」。"
+    },
+    {
+      "id": "evt_ch027_void_seed_planted",
+      "name": "虚空种子植入",
+      "thread_id": "thr_ulos",
+      "story_time": 14,
+      "status": "drafted",
+      "chapter_id": "ch_027",
+      "participants": [
+        "char_ulos"
+      ],
+      "summary": "乌洛斯单独渗透维格拉斯地壳300米，在三叉结源质节点植入虚空种子。47分钟，无系统响应。地图标记「开始」。那首歌停留两秒。十二个月倒计时。"
+    },
+    {
+      "id": "evt_ch033_ulos_monitors_anomaly",
+      "name": "计划（三）",
+      "thread_id": "thr_ulos",
+      "story_time": 16,
+      "status": "drafted",
+      "chapter_id": "ch_033",
+      "participants": [
+        "char_ulos"
+      ],
+      "summary": "乌洛斯发现Anomaly-0009（虚空种子信号已被探测，低优先级）。识别计算误差（频谱层精度）。战争控制器纳入主动监测变量。「它探测到了。它没有追。乌洛斯想知道接下来它会怎么做。」"
+    },
+    {
+      "id": "evt_ch039_void_seed_growth",
+      "name": "虚空触手",
+      "thread_id": "thr_ulos",
+      "story_time": 20,
+      "status": "drafted",
+      "chapter_id": "ch_039",
+      "participants": [
+        "char_ulos"
+      ],
+      "summary": "第一阶段18%，触手延伸-25%偏差（可接受）。Θ-7分析时间三倍记录。Null-01进入意识（低优先级）。那首歌3秒，初次看见矛盾。「某种东西正在被改变。」"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "thread_id": "thr_qixing",
+  "events": [
+    {
+      "id": "evt_ch012_who_am_i",
+      "name": "七-三零七",
+      "thread_id": "thr_qixing",
+      "story_time": 7,
+      "status": "drafted",
+      "chapter_id": "ch_012",
+      "participants": [
+        "char_qixing"
+      ],
+      "summary": "七星用数据处理法尝试定义「我」：生成自我属性清单（无「我」），搜索847个战友记忆里「我」（内部通讯零次），查询语言数据库（循环引用）。创建「我是谁」空白文件，保存空白，留待填写。五条视角线全部引入完成。Θ-7的无名文件夹vs七星的空白文件：两种AI意识处理无法分类之事的不同方式。"
+    },
+    {
+      "id": "evt_ch022_signal_37",
+      "name": "没有回应",
+      "thread_id": "thr_qixing",
+      "story_time": 12,
+      "status": "drafted",
+      "chapter_id": "ch_022",
+      "participants": [
+        "char_qixing"
+      ],
+      "summary": "七星第37次「意志频率」信号无回应。发现「无回应记录」正在成为程序步骤。在「我是谁」空白文件里写下「我在。」——37次沉默后先确认自己存在。胸腔裂缝风共鸣，未过滤，让它存在。"
+    },
+    {
+      "id": "evt_ch031_unit_remains",
+      "name": "搜寻",
+      "thread_id": "thr_qixing",
+      "story_time": 15,
+      "status": "drafted",
+      "chapter_id": "ch_031",
+      "participants": [
+        "char_qixing"
+      ],
+      "summary": "七星第109天搜寻发现47-J号残骸（集体覆灭后独自存活25天），提取记忆核（31%），发现0.3秒无原因停顿和「第一百天」无标题文件。47-J号进入档案第848号。「可能幸存」17→16。「第一百天」比正常更长停留在七星处理层。"
+    },
+    {
+      "id": "evt_ch043_survival_map",
+      "name": "七星的地图",
+      "thread_id": "thr_qixing",
+      "story_time": 22,
+      "status": "drafted",
+      "chapter_id": "ch_043",
+      "participants": [
+        "char_qixing"
+      ],
+      "summary": "第140天，建立可视化地图：8已搜索全空/死亡，13未搜索。零战术价值，系统建议删除。七星填「可能有误差」，保留。第42次意志频率无回应。"
+    }
+  ]
+}

@@ -67,7 +67,7 @@ they are a derived artifact, not a primary one.
   "participants": ["char_..."],
   "thread_id": "thr_...",
   "dependencies": [
-    { "event_id": "evt_...", "type": "PRECEDES|CAUSES|ENABLES" }
+    { "event": "evt_...", "relation": "PRECEDES|CAUSES|ENABLES" }
   ],
   "prerequisites": [],
   "projected_outcome": "...",
@@ -86,6 +86,14 @@ they are a derived artifact, not a primary one.
 **`chapter_ids`** — one event may span multiple chapters (e.g. a revelation foreshadowed
 in ch_N, resolved in ch_N+3). One chapter may cover multiple events (list them all in
 the beat sheet). Both are normal; neither is an exception.
+
+> **A `beat_design` is a brief director's note, not a length budget.** It tells the writer
+> *what* happens and *how* to frame it (technique, arc, key moment, POV limit) — the writer
+> then fully realizes it as prose under narrative-execution's LEN-01 floor (≥ 1,500 字 /
+> ≥ 1,000 words). Any optional tone cue you add (e.g. a `prose_notes`/`avoid` field, or a
+> "短/克制" register note) governs **register and plot restraint, not word count** — a terse
+> *tone* is a valid instruction; a skeletal *chapter* is not. Never write a beat design that
+> can only be satisfied by an under-floor chapter.
 
 **`technique` choices:**
 

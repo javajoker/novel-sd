@@ -133,12 +133,19 @@ def validate_graph(path: Path) -> set[str]:
             err(f"event {ev.get('id')!r}: location {loc!r} not a declared entity")
 
     # second pass: event dependency targets (need full event_ids set)
+    # Accepts three shapes: bare string "evt_x" (shorthand), schema object
+    # {"event_id","type"}, and the legacy validator object {"event","relation"}.
     for ev in data["events"]:
         for dep in ev.get("dependencies") or []:
-            if dep.get("event") not in event_ids:
-                err(f"event {ev.get('id')!r}: dependency target {dep.get('event')!r} not a declared event")
-            if dep.get("relation") not in DEP_RELATIONS:
-                warn(f"event {ev.get('id')!r}: dependency relation {dep.get('relation')!r} not in {sorted(DEP_RELATIONS)}")
+            if isinstance(dep, str):
+                target, rel = dep, None
+            else:
+                target = dep.get("event_id") or dep.get("event")
+                rel = dep.get("type") or dep.get("relation")
+            if target not in event_ids:
+                err(f"event {ev.get('id')!r}: dependency target {target!r} not a declared event")
+            if rel is not None and rel not in DEP_RELATIONS:
+                warn(f"event {ev.get('id')!r}: dependency relation {rel!r} not in {sorted(DEP_RELATIONS)}")
 
     for r in data["relations"]:
         rid = reg(r, "relation")

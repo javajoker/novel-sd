@@ -146,6 +146,13 @@ Quantified relationship keys (use consistently): `trust` (−100..100), `romance
 event graph that narrative-memory traces backward ("why is X happening?") and
 narrative-architect validates forward (paradox / travel-time).
 
+> **Canonical key names are `event` + `relation`.** A bare-string shorthand —
+> `"dependencies": ["evt_enter_forest", "evt_wolf_king_fight"]` — is also accepted (pure
+> chronology, relation unspecified); the validator reads both the object and string forms.
+> Use the object form whenever the `relation` matters (it usually does). Do not invent a
+> `relation` value just to satisfy the object form — a plain string is the honest encoding
+> when only ordering is known.
+
 ### 1.4 NarrativeThread — the swimlane
 
 ```json
@@ -417,8 +424,11 @@ maintains this; narrative-architect consults it so payoffs get scheduled.
 ```json
 {
   "story_time_unit": "chapter",
+  "current_story_time": 22,                    // advanced by narrative-execution every chapter (Phase C)
+  "current_chapter": "ch_044",                 // latest drafted chapter
   "world_calendar": { "epoch": "Spirit Era Year 1024", "current": "Year 1024, Month 5, Day 12" },
-  "chapter_to_world_day": { "ch_045": 130 },   // map chapter → absolute world day (optional)
+  "chapter_to_story_time": { "ch_001": 1, "ch_044": 22 },  // chapter → story_time clock (required, 1 per chapter)
+  "chapter_to_world_day": { "ch_045": 130 },   // chapter → absolute world day / in-world date (optional)
   "travel_rules": [
     { "from": "elem_city_a", "to": "elem_city_b", "distance_km": 1000,
       "terrain": "mountain", "base_days": 4, "note": "−50% speed in mountains" }
@@ -427,9 +437,70 @@ maintains this; narrative-architect consults it so payoffs get scheduled.
 }
 ```
 
+**Phase C must update this file every chapter** (it is a state-bearing file, not a static
+one): advance `current_story_time` + `current_chapter`, append the `chapter_to_story_time`
+entry, and — when the prose advances an in-world date or moves a character between locations
+— append `chapter_to_world_day` and refresh `world_calendar.current`. Leaving the calendar
+frozen at ch_001 is a Phase C violation.
+
 Used by narrative-architect's travel-time calculator and narrative-consistency's
 paradox guard (a character can't be in two places at once, or arrive faster than
-`travel_rules` allow without a sanctioned accelerator).
+`travel_rules` allow without a sanctioned accelerator). The `current_*` pointers + the
+`chapter_to_story_time` map are also the **calendar window** the writer loads under CTX-01
+(narrative-execution §B-0) — one small read instead of scanning the event graph for "what
+time is it now".
+
+---
+
+## 7b. Timeline event mirror — `timeline/events/` (sharded, for scoped reads)
+
+The canonical event graph lives in `ontology.json.events[]`; `timeline/` holds a **cheap,
+query-scoped mirror** so that writing a chapter never requires loading the full event graph.
+Events grow every chapter (like state timelines), so the mirror is **sharded by thread**:
+
+```
+timeline/
+├── threads.json              # thread registry (NarrativeThread stubs, small — load fully)
+├── events/
+│   ├── index.json            # the lookup table (small — load fully)
+│   └── <thread_id>.json      # one shard per thread: that thread's event stubs, by story_time
+└── calendar.json             # §7
+```
+
+`timeline/events/index.json`:
+```json
+{
+  "last_story_time": 22,
+  "last_chapter": "ch_044",
+  "by_chapter":     { "ch_044": ["evt_ch044_first_recruit_dies"] },
+  "by_story_time":  { "22": ["evt_ch043_survival_map", "evt_ch044_first_recruit_dies"] },
+  "by_thread":      { "thr_chen_ming": ["evt_ch044_first_recruit_dies"] }
+}
+```
+
+`timeline/events/<thread_id>.json`:
+```json
+{
+  "thread_id": "thr_chen_ming",
+  "events": [
+    { "id": "evt_ch044_first_recruit_dies", "name": "消耗", "story_time": 22,
+      "status": "drafted", "chapter_id": "ch_044",
+      "participants": ["char_chen_ming"], "summary": "…" }
+  ]
+}
+```
+
+**Scoped-read pattern (CTX-01):** to assemble a chapter's timeline context, load
+`events/index.json` (tiny) → resolve the event IDs for this chapter / story-time window /
+the POV's thread → load only the POV thread shard (and any other shard a beat references).
+Never load every shard. **Phase C** (narrative-execution C-5) rebuilds the affected shard(s)
++ `index.json` from `ontology.json.events[]` after the canonical graph is updated — the
+mirror is always regenerated from canon, never authored directly.
+
+> **Migration / back-compat.** Earlier KBs used a single flat `timeline/events.json`. Tools
+> read events from `ontology.json` (canon), so they are unaffected; the sharded mirror only
+> changes how *agents* scope their context reads. A flat `timeline/events.json` may still be
+> present as a legacy fallback, but new writes go to `timeline/events/`.
 
 ---
 

@@ -19,9 +19,11 @@ prose and the world-state knowledge base live side by side.
 │       └── <char_id>.json        # append-only per-chapter state deltas (inventory/status/knowledge/psychology)
 │
 ├── timeline/
-│   ├── threads.json              # narrative threads (multi-POV swimlanes)
-│   ├── events.json               # event graph mirror
-│   └── calendar.json             # world calendar, travel_rules, movement_speeds
+│   ├── threads.json              # narrative threads (multi-POV swimlanes) — small registry
+│   ├── events/                   # event graph mirror, SHARDED for scoped reads
+│   │   ├── index.json            # by_chapter / by_story_time / by_thread → event IDs (+ last_*)
+│   │   └── <thread_id>.json      # one shard per thread: its event stubs, by story_time
+│   └── calendar.json             # world calendar + current_* pointers + chapter_to_story_time (Phase-C updated)
 │
 ├── outline/
 │   ├── structure.json            # Novel → Volume → Chapter write-ahead tree
@@ -95,9 +97,16 @@ graph (`profile_ref` / `state_ref` / `mask_ref` on entities):
 - character **state timelines** grow every chapter → their own files.
 - **knowledge masks** are per-character and per-time → their own files.
 - **beat sheets** and **chapter profiles** are per-chapter → their own files.
+- the **timeline event mirror** grows every chapter → sharded by thread under
+  `timeline/events/` with an `index.json`, so writing a chapter loads only the relevant
+  thread shard + a tiny index, never the whole event history.
 - **prose** is the largest data → plain `.md`, never inlined into JSON.
 
-This keeps the canonical graph cheap to load while the heavy data scales out.
+This keeps the canonical graph cheap to load while the heavy data scales out. The same
+principle drives the **context window during writing** (CTX-01): a chapter is drafted from a
+small, scoped working set — the materialized POV profile, the recent-summary tail, the
+calendar window (`current_*` + `chapter_to_story_time`), and the POV's event-thread shard —
+not the full KB. Pull anything else on demand.
 
 ## Version control
 

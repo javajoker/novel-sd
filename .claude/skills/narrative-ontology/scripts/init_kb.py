@@ -14,7 +14,7 @@ Project structure created:
   ├── ontology.json              canonical temporal graph
   ├── world/world_bible.json     worldview (power system, geography, factions, rules)
   ├── characters/                profiles + T=0 states (states/ for per-chapter timelines)
-  ├── timeline/                  threads (swimlanes), events, calendar
+  ├── timeline/                  threads (swimlanes), events/ (sharded by thread + index), calendar
   ├── outline/                   Novel→Volume→Chapter tree + beats/ sheets
   ├── masks/                     per-character knowledge masks (fog of war)
   ├── chapters/                  prose drafts + profiles/ (chapter-masked KB profiles)
@@ -58,8 +58,8 @@ def main():
     args = p.parse_args()
 
     root = Path(args.root)
-    for d in ("world", "characters/states", "timeline", "outline/beats",
-              "masks", "chapters/profiles", "memory", "reference"):
+    for d in ("world", "characters/states", "timeline", "timeline/events",
+              "outline/beats", "masks", "chapters/profiles", "memory", "reference"):
         (root / d).mkdir(parents=True, exist_ok=True)
 
     write_json(root / "ontology.json", {
@@ -81,10 +81,17 @@ def main():
         "factions": [], "ontology_triples": [],
     })
     write_json(root / "timeline" / "threads.json", {"threads": []})
-    write_json(root / "timeline" / "events.json", {"events": []})
+    # event graph mirror, sharded by thread for scoped reads (canon lives in ontology.json)
+    write_json(root / "timeline" / "events" / "index.json", {
+        "last_story_time": 0, "last_chapter": None,
+        "by_chapter": {}, "by_story_time": {}, "by_thread": {},
+    })
     write_json(root / "timeline" / "calendar.json", {
-        "story_time_unit": args.unit, "world_calendar": {},
-        "chapter_to_world_day": {}, "travel_rules": [], "movement_speeds": {},
+        "story_time_unit": args.unit,
+        "current_story_time": 0, "current_chapter": None,
+        "world_calendar": {},
+        "chapter_to_story_time": {}, "chapter_to_world_day": {},
+        "travel_rules": [], "movement_speeds": {},
     })
     write_json(root / "outline" / "structure.json", {
         "novel_title": args.title, "logline": "", "volumes": [],
@@ -140,7 +147,7 @@ Story-time unit: **{unit}** · prose language: **{language}** · genre: **{genre
 | `ontology.json` | canonical temporal graph: entities, time-variant relations, events, threads, world rules |
 | `world/` | worldview / World Bible (power system, geography, factions, logic rules) |
 | `characters/` | character profiles + T=0 states; `states/` = per-chapter state timelines |
-| `timeline/` | narrative threads (swimlanes), event graph, world calendar |
+| `timeline/` | threads (swimlanes); `events/` event mirror sharded by thread + index.json; world calendar (current_* pointers, chapter_to_story_time) |
 | `outline/` | Novel→Volume→Chapter write-ahead tree; `beats/` = per-chapter beat sheets |
 | `masks/` | per-character knowledge masks (fog of war) |
 | `chapters/` | prose drafts; `profiles/` = chapter-masked KB profiles (the memory primitive) |

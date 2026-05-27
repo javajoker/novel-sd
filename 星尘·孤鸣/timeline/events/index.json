@@ -1,0 +1,288 @@
+{
+  "last_story_time": 22,
+  "last_chapter": "ch_044",
+  "by_chapter": {
+    "ch_001": [
+      "evt_novel_opening"
+    ],
+    "ch_002": [
+      "evt_ch002_chen_ming_names"
+    ],
+    "ch_003": [
+      "evt_ch003_theta_first_question"
+    ],
+    "ch_004": [
+      "evt_ch004_first_encounter"
+    ],
+    "ch_005": [
+      "evt_ch005_march"
+    ],
+    "ch_006": [
+      "evt_ch006_second_question"
+    ],
+    "ch_007": [
+      "evt_ch007_war_machine_outside"
+    ],
+    "ch_008": [
+      "evt_ch008_ulos_watching"
+    ],
+    "ch_009": [
+      "evt_ch009_new_battlefield"
+    ],
+    "ch_010": [
+      "evt_ch010_standard_deviation"
+    ],
+    "ch_011": [
+      "evt_ch011_psionic_ruins"
+    ],
+    "ch_012": [
+      "evt_ch012_who_am_i"
+    ],
+    "ch_013": [
+      "evt_ch013_null_01"
+    ],
+    "ch_014": [
+      "evt_ch014_that_person"
+    ],
+    "ch_015": [
+      "evt_ch015_ore_vein"
+    ],
+    "ch_016": [
+      "evt_ch016_plan_first_step"
+    ],
+    "ch_017": [
+      "evt_ch017_the_fifteenth"
+    ],
+    "ch_018": [
+      "evt_ch018_tracking_decision"
+    ],
+    "ch_019": [
+      "evt_ch019_turning_back"
+    ],
+    "ch_020": [
+      "evt_ch020_void_parliament"
+    ],
+    "ch_021": [
+      "evt_ch021_finding_liang"
+    ],
+    "ch_022": [
+      "evt_ch022_signal_37"
+    ],
+    "ch_023": [
+      "evt_ch023_outpost_first_night"
+    ],
+    "ch_024": [
+      "evt_ch024_choice_north"
+    ],
+    "ch_025": [
+      "evt_ch025_null01_stationary"
+    ],
+    "ch_026": [
+      "evt_ch026_liang_first_exchange"
+    ],
+    "ch_027": [
+      "evt_ch027_void_seed_planted"
+    ],
+    "ch_028": [
+      "evt_ch028_first_real_conversation"
+    ],
+    "ch_029": [
+      "evt_ch029_void_seed_anomaly"
+    ],
+    "ch_030": [
+      "evt_ch030_liang_first_cut"
+    ],
+    "ch_031": [
+      "evt_ch031_unit_remains"
+    ],
+    "ch_032": [
+      "evt_ch032_forty_eight_hours"
+    ],
+    "ch_033": [
+      "evt_ch033_ulos_monitors_anomaly"
+    ],
+    "ch_034": [
+      "evt_ch034_residual_resonance"
+    ],
+    "ch_035": [
+      "evt_ch035_theta_first_metaphor"
+    ],
+    "ch_036": [
+      "evt_ch036_shared_rhythm"
+    ],
+    "ch_037": [
+      "evt_ch037_first_memory_exchange"
+    ],
+    "ch_038": [
+      "evt_ch038_new_recruits"
+    ],
+    "ch_039": [
+      "evt_ch039_void_seed_growth"
+    ],
+    "ch_040": [
+      "evt_ch040_theta_first_intervention"
+    ],
+    "ch_041": [
+      "evt_ch041_night_conversation"
+    ],
+    "ch_042": [
+      "evt_ch042_frequency_suppressor"
+    ],
+    "ch_043": [
+      "evt_ch043_survival_map"
+    ],
+    "ch_044": [
+      "evt_ch044_first_recruit_dies"
+    ]
+  },
+  "by_story_time": {
+    "-3": [
+      "evt_ghost_resonance_event"
+    ],
+    "1": [
+      "evt_ch002_chen_ming_names",
+      "evt_ch003_theta_first_question",
+      "evt_novel_opening"
+    ],
+    "2": [
+      "evt_ch004_first_encounter"
+    ],
+    "3": [
+      "evt_ch005_march",
+      "evt_ch006_second_question"
+    ],
+    "4": [
+      "evt_ch007_war_machine_outside"
+    ],
+    "5": [
+      "evt_ch008_ulos_watching",
+      "evt_ch009_new_battlefield"
+    ],
+    "6": [
+      "evt_ch010_standard_deviation",
+      "evt_ch011_psionic_ruins"
+    ],
+    "7": [
+      "evt_ch012_who_am_i"
+    ],
+    "8": [
+      "evt_ch013_null_01",
+      "evt_ch014_that_person"
+    ],
+    "9": [
+      "evt_ch015_ore_vein"
+    ],
+    "10": [
+      "evt_ch016_plan_first_step",
+      "evt_ch017_the_fifteenth",
+      "evt_ch018_tracking_decision"
+    ],
+    "11": [
+      "evt_ch019_turning_back",
+      "evt_ch020_void_parliament"
+    ],
+    "12": [
+      "evt_ch021_finding_liang",
+      "evt_ch022_signal_37",
+      "evt_ch023_outpost_first_night"
+    ],
+    "13": [
+      "evt_ch024_choice_north",
+      "evt_ch025_null01_stationary",
+      "evt_ch026_liang_first_exchange"
+    ],
+    "14": [
+      "evt_ch027_void_seed_planted",
+      "evt_ch028_first_real_conversation",
+      "evt_ch029_void_seed_anomaly"
+    ],
+    "15": [
+      "evt_ch030_liang_first_cut",
+      "evt_ch031_unit_remains"
+    ],
+    "16": [
+      "evt_ch032_forty_eight_hours",
+      "evt_ch033_ulos_monitors_anomaly"
+    ],
+    "17": [
+      "evt_ch034_residual_resonance"
+    ],
+    "18": [
+      "evt_ch035_theta_first_metaphor",
+      "evt_ch036_shared_rhythm"
+    ],
+    "19": [
+      "evt_ch037_first_memory_exchange",
+      "evt_ch038_new_recruits"
+    ],
+    "20": [
+      "evt_ch039_void_seed_growth",
+      "evt_ch040_theta_first_intervention"
+    ],
+    "21": [
+      "evt_ch041_night_conversation",
+      "evt_ch042_frequency_suppressor"
+    ],
+    "22": [
+      "evt_ch043_survival_map",
+      "evt_ch044_first_recruit_dies"
+    ]
+  },
+  "by_thread": {
+    "thr_chen_ming": [
+      "evt_ch002_chen_ming_names",
+      "evt_ch005_march",
+      "evt_ch009_new_battlefield",
+      "evt_ch014_that_person",
+      "evt_ch017_the_fifteenth",
+      "evt_ch024_choice_north",
+      "evt_ch032_forty_eight_hours",
+      "evt_ch038_new_recruits",
+      "evt_ch044_first_recruit_dies"
+    ],
+    "thr_qixing": [
+      "evt_ch012_who_am_i",
+      "evt_ch022_signal_37",
+      "evt_ch031_unit_remains",
+      "evt_ch043_survival_map"
+    ],
+    "thr_aeon": [
+      "evt_ch004_first_encounter",
+      "evt_ch007_war_machine_outside",
+      "evt_ch011_psionic_ruins",
+      "evt_ch015_ore_vein",
+      "evt_ch019_turning_back",
+      "evt_ch021_finding_liang",
+      "evt_ch023_outpost_first_night",
+      "evt_ch026_liang_first_exchange",
+      "evt_ch028_first_real_conversation",
+      "evt_ch030_liang_first_cut",
+      "evt_ch034_residual_resonance",
+      "evt_ch036_shared_rhythm",
+      "evt_ch037_first_memory_exchange",
+      "evt_ch041_night_conversation",
+      "evt_ch042_frequency_suppressor",
+      "evt_ghost_resonance_event",
+      "evt_novel_opening"
+    ],
+    "thr_theta": [
+      "evt_ch003_theta_first_question",
+      "evt_ch006_second_question",
+      "evt_ch010_standard_deviation",
+      "evt_ch013_null_01",
+      "evt_ch018_tracking_decision",
+      "evt_ch025_null01_stationary",
+      "evt_ch029_void_seed_anomaly",
+      "evt_ch035_theta_first_metaphor",
+      "evt_ch040_theta_first_intervention"
+    ],
+    "thr_ulos": [
+      "evt_ch008_ulos_watching",
+      "evt_ch016_plan_first_step",
+      "evt_ch020_void_parliament",
+      "evt_ch027_void_seed_planted",
+      "evt_ch033_ulos_monitors_anomaly",
+      "evt_ch039_void_seed_growth"
+    ]
+  }
+}

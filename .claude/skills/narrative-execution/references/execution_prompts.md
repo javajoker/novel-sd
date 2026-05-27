@@ -15,12 +15,19 @@ single most important prompt in NovelForge — it turns prose back into database
 > 2. If the POV doesn't know an item's true name, describe it by appearance only
 >    ("Ancient Ring" → "dirty metal band").
 
-**Inputs:** the POV character; the global scene state (truth); the POV's knowledge mask
+**Inputs:** the POV character; the **chapter-scoped scene state** (per CTX-01: the truth
+relevant to *this* chapter's beats — on-scene character profiles, as-of-chapter relations,
+touched world rules — NOT the whole manuscript or full KB); the POV's knowledge mask
 (`masks/<id>.json` at this story_time) + perception level.
 
 **Output:** the **filtered scene context** — the scene rewritten strictly from the
 POV's perspective, with unknown facts/enemies/true-names removed. This filtered context
 is the ONLY world-state passed to WRITE-01b.
+
+> **Context-window discipline (CTX-01):** assemble the input scene state from the
+> chapter-scoped working set only (beat sheet + on-scene materialized profiles + last 1–3
+> summaries + targeted plot hooks + the `ontology.json` slices the beats touch). Pull any
+> other record on demand; never preload the full manuscript. See SKILL.md §B-0.
 
 Example: truth = {hidden assassin; legendary sword that looks rusty; innkeeper is a
 spy}; POV perception = low, knows none of the secrets → filtered = "A rusty sword lies
@@ -35,13 +42,23 @@ spy NOT mentioned).
 > You are a best-selling web-novel author. Write the next scene from the outline beats.
 > Mandatory: (1) **use inventory** — if the character has a weapon/item, describe them
 > using it; (2) **reflect psychology** — tone must match current sanity/mood;
-> (3) **consistency** — do not use abilities the character does not currently possess.
+> (3) **consistency** — do not use abilities the character does not currently possess;
+> (4) **fully realize each beat (LEN-01)** — the beat sheet is a director's note, not a
+> synopsis to transcribe. Dramatize every beat with scene grounding (place, time, senses),
+> full multi-turn dialogue, extended interiority (masked to what the POV knows), physical
+> blocking, and varied rhythm. Terse *tone* is fine; a skeletal *chapter* is not.
 
-**Inputs:** character state (status, inventory, psychology); the filtered scene context
-(from WRITE-01a); the plot beat(s) from the beat sheet.
+**Inputs:** the POV's materialized state (status, inventory, psychology, facts_known); the
+filtered scene context (from WRITE-01a); the plot beat(s) from the beat sheet. Assemble all
+of these from the chapter-scoped working set (CTX-01) — not the full manuscript.
 
-**Output:** prose for the scene (target length per request). Save to
-`chapters/<chapter_id>.md`. The user edits; the final edited text feeds DB-01.
+**Output:** fully-realized prose for the scene. **Length floor (non-negotiable): ≥ 1,500 字
+(Chinese) / ≥ 1,000 words (English)** per drafted unit — standard target 2,000–3,000 字 /
+1,500–2,500 words, major events 3,000–5,000+ 字 / 2,500–4,000+ words. Length is unlimited on
+the high side (one draft may cover several beats/events the author later splits); a draft
+*below* the floor is rejected at the WRITE GATE — expand the under-developed beats before
+saving. Verify with `wc -m` (字) / `wc -w` (words). Save to `chapters/<chapter_id>.md`. The
+user edits; the final edited text feeds DB-01.
 
 ---
 

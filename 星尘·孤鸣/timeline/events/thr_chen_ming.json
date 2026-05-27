@@ -1,0 +1,115 @@
+{
+  "thread_id": "thr_chen_ming",
+  "events": [
+    {
+      "id": "evt_ch002_chen_ming_names",
+      "name": "十二个名字",
+      "thread_id": "thr_chen_ming",
+      "story_time": 1,
+      "status": "drafted",
+      "chapter_id": "ch_002",
+      "participants": [
+        "char_chen_ming"
+      ],
+      "summary": "陈铭在废弃联邦营地翻找名牌，发现自己对两个名字不确定，触碰那双帆布鞋，最终慢念十四个名字封上了裂缝。建立陈铭视角声音与核心谎言（以为已麻木）。"
+    },
+    {
+      "id": "evt_ch005_march",
+      "name": "行军路上",
+      "thread_id": "thr_chen_ming",
+      "story_time": 3,
+      "status": "drafted",
+      "chapter_id": "ch_005",
+      "participants": [
+        "char_chen_ming"
+      ],
+      "summary": "陈铭随二十三人临时联邦队伍行军。发现自己在记脸（而非名字）——旧习惯的残留。跟在一个约十八岁的年轻士兵旁边，帮他解了帐篷连接扣，无言。深夜握名牌时出现念头「那孩子如果明天死了，他的名字是什么」——停留几秒后选择不追问，第二天早晨主动回避了可能的名字交换。防御机制从被动升级为主动。"
+    },
+    {
+      "id": "evt_ch009_new_battlefield",
+      "name": "新战场",
+      "thread_id": "thr_chen_ming",
+      "story_time": 5,
+      "status": "drafted",
+      "chapter_id": "ch_009",
+      "participants": [
+        "char_chen_ming"
+      ],
+      "summary": "P-14矿脉接触线战斗，FED-TMP-0914与虚空掠夺者交战。陈铭在战斗中拉了那个他从ch_005起记住脸但不知道名字的年轻士兵（气浪击倒在开阔地）。战后减员两人，年轻士兵存活。夜里念名牌时发现逻辑矛盾（帮了不知道名字的人=「不在意」理论错了），搁置矛盾，不下结论。ch_006的战略调整（Θ-7）在此落地。"
+    },
+    {
+      "id": "evt_ch014_that_person",
+      "name": "那个人",
+      "thread_id": "thr_chen_ming",
+      "story_time": 8,
+      "status": "drafted",
+      "chapter_id": "ch_014",
+      "participants": [
+        "char_chen_ming"
+      ],
+      "summary": "陈铭在FED-TMP-1107整合中观察到一个老兵的非标准战术选择（北绕路线，恰好避开主路地面坍塌，提前到达）。无法用任何现有框架解释这个选择。傍晚停驻时注意力反复漂移向老兵，意识到喉咙里有问题（关于决策方式），但老兵走了，问题散了，他没有叫住。夜里名牌增至十九个，元认知精度下降：「不确定是忘了还是故意没问。」结构共振：ch_010 Θ-7统计层面的0.4%偏差→ch_014陈铭第一视角遭遇具体偏差个体。"
+    },
+    {
+      "id": "evt_ch017_the_fifteenth",
+      "name": "第十五",
+      "thread_id": "thr_chen_ming",
+      "story_time": 10,
+      "status": "drafted",
+      "chapter_id": "ch_017",
+      "participants": [
+        "char_chen_ming"
+      ],
+      "summary": "接触战中老兵倒下，陈铭评估后没有冲出去（不同于ch_009）。战后不知道老兵的名字。夜里念名牌，来到老兵的空白位置——无法念，系统卡住，裂缝开着。他站在原地很久，没有继续走。防御机制完全失效的第一次，五章弧度（ch_002→ch_005→ch_009→ch_014→ch_017）质变完成。"
+    },
+    {
+      "id": "evt_ch024_choice_north",
+      "name": "选择",
+      "thread_id": "thr_chen_ming",
+      "story_time": 13,
+      "status": "drafted",
+      "chapter_id": "ch_024",
+      "participants": [
+        "char_chen_ming",
+        "char_sgt_qi"
+      ],
+      "summary": "联邦中转补给节点。陈铭有两条路：北进任务继续，或南路转运去找旧战友。他在货架旁坐了二十分钟（全文最长决策停顿），想到老齐（ch_017那场战里仍然站着的那个人），然后往北走，把包放在老齐旁边，无话。不解释。「还活着」第一次进入陈铭的决策权重。"
+    },
+    {
+      "id": "evt_ch032_forty_eight_hours",
+      "name": "四十八小时",
+      "thread_id": "thr_chen_ming",
+      "story_time": 16,
+      "status": "drafted",
+      "chapter_id": "ch_032",
+      "participants": [
+        "char_chen_ming",
+        "char_sgt_qi"
+      ],
+      "summary": "连续作战48小时，第41小时「老齐！」名字变声音（首次延迟），第46小时主动不取名牌（认知保护），第48小时老齐叫「陈铭」→名字归位→「在」。阵地保住。"
+    },
+    {
+      "id": "evt_ch038_new_recruits",
+      "name": "新兵",
+      "thread_id": "thr_chen_ming",
+      "story_time": 19,
+      "status": "drafted",
+      "chapter_id": "ch_038",
+      "participants": [
+        "char_chen_ming"
+      ],
+      "summary": "7名新兵（高明陈浩周建国林杰张伟苏同李刚），两天向导任务。7个名字半天记完，阻力消失。名牌7块+活着名字7个=两组七。害怕的是自己的磨损。"
+    },
+    {
+      "id": "evt_ch044_first_recruit_dies",
+      "name": "消耗",
+      "thread_id": "thr_chen_ming",
+      "story_time": 22,
+      "status": "drafted",
+      "chapter_id": "ch_044",
+      "participants": [
+        "char_chen_ming"
+      ],
+      "summary": "苏同死亡（七新兵第一个）。细节先到（微抖）。阻力消失后无缓冲，名字直接进内部。不想记=已经记了。更深处存档，带细节。七个里的一个了。"
+    }
+  ]
+}

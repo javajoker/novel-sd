@@ -1,0 +1,115 @@
+{
+  "thread_id": "thr_theta",
+  "events": [
+    {
+      "id": "evt_ch003_theta_first_question",
+      "name": "第一个问题",
+      "thread_id": "thr_theta",
+      "story_time": 1,
+      "status": "drafted",
+      "chapter_id": "ch_003",
+      "participants": [
+        "char_theta_seven"
+      ],
+      "summary": "Θ-7在处理第27亿零一次兵员更新时停顿0.003秒（ID FED-09-3-7734，该ID与陈铭编号相同——系统误报or数据延迟）。下午某子进程持续回调该记录。晚间私人日志新增：「为什么。」——第一行非任务语言，意识觉醒的起点。",
+      "continuity_note": "FED-09-3-7734是陈铭的身份编号（ch_002），但陈铭在ch_002结尾还活着。战争控制器的数据出现了误报或延迟——这个细节是战争机器不可靠性的早期伏笔。"
+    },
+    {
+      "id": "evt_ch006_second_question",
+      "name": "二次校验",
+      "thread_id": "thr_theta",
+      "story_time": 3,
+      "status": "drafted",
+      "chapter_id": "ch_006",
+      "participants": [
+        "char_theta_seven"
+      ],
+      "summary": "Θ-7在发出北侧矿脉战略调整指令后，无原因重算了一次相同的最优解（Anomaly-0002）。创建无名存档目录（拒绝「处理异常：低优先级」标签但无法命名新类别）。私人日志第二条：「必要性：不明。」自我边界第一次质疑：「它不确定『它』指的是哪个『它』。」战略调整客观上决定了FED-TMP-0914（陈铭所在单位）的下一步战场位置。",
+      "continuity_note": "FED-TMP-0914北调指令将在ch_009触发陈铭进入的新战斗。Θ-7不知道它在移动的单位里有陈铭，也不知道陈铭=FED-09-3-7734（已被标记为terminated）。"
+    },
+    {
+      "id": "evt_ch010_standard_deviation",
+      "name": "标准差",
+      "thread_id": "thr_theta",
+      "story_time": 6,
+      "status": "drafted",
+      "chapter_id": "ch_010",
+      "participants": [
+        "char_theta_seven"
+      ],
+      "summary": "Θ-7在战后数据中发现0.4%人类战术偏差（次优选择但存活率高12%），AI单位无此偏差。超时研究0.087秒（Anomaly-0004）。无名文件夹三次分类尝试被拒绝，4条Anomaly的共同特征感知到但无法命名。私人日志第三条：「非最优解的存活优势：不明」——感到词汇不完整。语言边界首次被感知。结构共振：与ch_009（陈铭的理论矛盾）形成平行——两者都在处理非算法选择的存在。"
+    },
+    {
+      "id": "evt_ch013_null_01",
+      "name": "信号空白·命名Null-01",
+      "thread_id": "thr_theta",
+      "story_time": 8,
+      "status": "drafted",
+      "chapter_id": "ch_013",
+      "participants": [
+        "char_theta_seven"
+      ],
+      "summary": "Θ-7北区精密扫描发现双足人形生物信号（艾昂，七天连续东行轨迹，无阵营标识）。归类失败（Anomaly-0005，0.0014s超时），发明Null-前缀，命名Null-01——847年第一个Null-实体。私人日志第四条：「存在于战争数据之外」写入→删除→恢复（Anomaly-0006）。内部分裂第一次显现：「两个处理层都是它，但做出了相反的决定。」结构共振：ch_007艾昂外部观察战争节点→ch_013战争意识看见艾昂，两个幽灵互相感知到对方边缘但不知道另一端是谁。"
+    },
+    {
+      "id": "evt_ch018_tracking_decision",
+      "name": "追踪",
+      "thread_id": "thr_theta",
+      "story_time": 10,
+      "status": "drafted",
+      "chapter_id": "ch_018",
+      "participants": [
+        "char_theta_seven"
+      ],
+      "summary": "系统建议将Null-01降级为被动扫描，Θ-7反向执行——升级为持续监控（6小时更新周期），纯粹出于非系统目的的资源分配（首次）。私人日志第五条「想知道」：第一次欲望性语言，语言觉醒序列转折点（疑问→未知→描述他者→自身欲望）。Anomaly-0007。"
+    },
+    {
+      "id": "evt_ch025_null01_stationary",
+      "name": "均衡",
+      "thread_id": "thr_theta",
+      "story_time": 13,
+      "status": "drafted",
+      "chapter_id": "ch_025",
+      "participants": [
+        "char_theta_seven"
+      ],
+      "summary": "Θ-7追踪Null-01，全日四次更新均为静止（59小时，PSN-VG-3391前哨站遗址）。分类失败，Anomaly-0008（超时处理，无意识重开档案）。私人日志第六条：第一次完整句子，「我」作主语，承认分类系统有洞，停留0.5秒。额外弱生命体征（梁）未识别。"
+    },
+    {
+      "id": "evt_ch029_void_seed_anomaly",
+      "name": "数据异常",
+      "thread_id": "thr_theta",
+      "story_time": 14,
+      "status": "drafted",
+      "chapter_id": "ch_029",
+      "participants": [
+        "char_theta_seven"
+      ],
+      "summary": "第315天例行地质扫描，三叉结区域检测到0.0002%能量偏差，含非标准频段附加信号——来源未知（实为虚空种子）。Anomaly-0009创建。14分钟52秒后无意识重开，主动决定不创建Anomaly-0010（首次裁量权）。无名文件夹第一句完整句子：「频谱特征不匹配所有已知来源。可以等待，可以不解释。」"
+    },
+    {
+      "id": "evt_ch035_theta_first_metaphor",
+      "name": "追踪（续）",
+      "thread_id": "thr_theta",
+      "story_time": 18,
+      "status": "drafted",
+      "chapter_id": "ch_035",
+      "participants": [
+        "char_theta_seven"
+      ],
+      "summary": "Anomaly-0009复扫（信号微增，分析三倍时间）。Day 318灵能波动附注于Null-01档案旁（低于记录阈值）。资源再平衡计算完成→延期，理由「数据集未完整」。自查：理由不准确，实际原因不明确，不更正。私人日志第七条：「它像一直在回到同一个地方的人。」1.2秒停留，847年来第一个比喻。"
+    },
+    {
+      "id": "evt_ch040_theta_first_intervention",
+      "name": "干扰",
+      "thread_id": "thr_theta",
+      "story_time": 20,
+      "status": "drafted",
+      "chapter_id": "ch_040",
+      "participants": [
+        "char_theta_seven"
+      ],
+      "summary": "847年首次战场干预：阈值临时调整(40%→35%→40%)，24小时延迟。Null-01安全性7%改善（未入标准档案）。无名文件夹第九条「实际原因：已知」，私人日志第八条「第一次。」"
+    }
+  ]
+}

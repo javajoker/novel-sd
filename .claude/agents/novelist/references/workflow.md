@@ -32,8 +32,8 @@ The conductor's quick reference. Each phase is a skill; each operation is a prom
 | LOGIC-01 | Paradox guard | II / architect (+consistency) | travel-time + location/status/item paradoxes |
 | POV-01 | POV selector | II / architect | pick the POV that maximises effect |
 | RIPPLE-01 | Timeline shifter | II / architect (+consistency) | propagate a plan-edit delay forward |
-| WRITE-01a | Fog of War filter | III / execution | mask global truth to the POV's knowledge |
-| WRITE-01b | State-driven writer | III / execution | draft prose using inventory + psychology |
+| WRITE-01a | Fog of War filter | III / execution | mask the chapter-scoped truth to the POV's knowledge (CTX-01: working set, not full manuscript) |
+| WRITE-01b | State-driven writer | III / execution | draft prose using inventory + psychology; fully realize beats to the length floor (LEN-01: ≥1,500 字 / ≥1,000 words) |
 | DB-01 | State extractor | III / execution | **core:** prose → inventory/status/knowledge/relation deltas |
 | LORE-01 | Lore harvester | III / execution | capture improvised new lore back into the KB |
 | RIPPLE-02 | Broken-link detector | III / execution (+consistency) | actual outcome vs. future outline |
@@ -52,7 +52,8 @@ The conductor's quick reference. Each phase is a skill; each operation is a prom
 | Entity nodes + state | `ontology.json.entities` + `characters/states/` | pre-write Graph-RAG | III extract |
 | Relationship edges (temporal) | `ontology.json.relations` | pre-write Graph-RAG | I (T=0) / III extract |
 | Knowledge masks | `masks/` | pre-write (fog of war) | I (T=0) / III reveal |
-| Event graph + threads | `ontology.json` + `timeline/` | II planning / IV causal query | II plan / III update |
+| Event graph + threads | `ontology.json` (canon) + `timeline/events/` (sharded mirror + index) | II planning / IV causal query / III scoped POV-shard read | II plan / III shard+index sync |
+| Calendar / story-clock | `timeline/calendar.json` | III current-time window / travel-time / paradox | III every chapter (current_*/chapter_to_story_time) |
 | Outline + beats | `outline/` | III drafting | II plan |
 | Prose | `chapters/` | IV indexing | III draft + edit |
 | Summaries + plot threads | `memory/` | IV query / II payoff scheduling | IV index |
