@@ -317,7 +317,8 @@
           "id": "ch_042", "number": 42, "title": "断频器",
           "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 21,
           "one_line": "艾昂第一次拿下断频器向梁展示，梁看着它说了一句话，艾昂听完了，然后把它戴回去。",
-          "scene_arc": "展示→梁的话→艾昂的沉默（重新戴上，但动作慢了两秒）", "status": "outlined"
+          "scene_arc": "展示→梁的话→艾昂的沉默（重新戴上，但动作慢了两秒）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_042.json"
         },
         {
           "id": "ch_043", "number": 43, "title": "七星的地图",

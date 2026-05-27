@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "id": "evt_ch042_frequency_suppressor",
+      "name": "断频器",
+      "thread_id": "thr_aeon",
+      "story_time": 21,
+      "status": "drafted",
+      "chapter_id": "ch_042",
+      "participants": ["char_aeon", "char_liang"],
+      "summary": "断频器第一次被另一个人看见。梁「戴回去吧」。艾昂戴回去，慢了两秒。无解释，无命名，但它发生了。isolation: 77→75。"
+    },
+    {
       "id": "evt_ch041_night_conversation",
       "name": "夜话",
       "thread_id": "thr_aeon",

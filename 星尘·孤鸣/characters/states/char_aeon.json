@@ -3,6 +3,34 @@
   "states": [
     {
       "story_time": 21,
+      "chapter_id": "ch_042",
+      "location": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站",
+      "physical": {"status": "functional", "notes": "例行器械检查。"},
+      "inventory": [
+        {"item": "脉冲枪", "status": "equipped"},
+        {"item": "断频器", "status": "worn", "note": "ch_042：第一次在另一个人面前摘下，梁看了一眼说「戴回去吧」，放回去时慢了两秒。"},
+        {"item": "源质碎晶", "status": "pocket"},
+        {"item": "背包（地垫已给梁）", "status": "carried"},
+        {"item": "水囊×2", "status": "carried"},
+        {"item": "干粮（库存充足，约一周）", "status": "carried"},
+        {"item": "消毒纱布（剩一半）", "status": "carried"},
+        {"item": "止痛片（剩几片）", "status": "carried"}
+      ],
+      "psychology": {
+        "sanity": "stable_low",
+        "isolation": 75,
+        "mood": "下午器械检查时，无任何触发原因，摘下了断频器，放在手心里给梁看了。梁说「戴回去吧」，就那四个字。艾昂戴回去了，但比平时慢了两秒。他知道那两秒是什么，不犹豫，就是让那两秒存在了一下。没有解释，没有命名，两人继续做各自的事。",
+        "notable_shift": "「让那两秒存在了一下」——这是三年里断频器第一次被另一个人看见。他做了这件事，没有计划，没有理由，做了就做了。梁的「戴回去吧」不是评判，也不是同情，是：我看见了，够了。艾昂的isolation值从77降至75——物件层的展示比语言层更深入，它不需要解释，但它发生了，而且两人都知道它发生了。"
+      },
+      "key_events_this_chapter": [
+        "器械检查中无触发地摘下断频器",
+        "梁说「戴回去吧」",
+        "艾昂戴回去，比平时慢了两秒",
+        "两人继续各自的事，无解释无命名"
+      ]
+    },
+    {
+      "story_time": 21,
       "chapter_id": "ch_041",
       "location": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站",
       "physical": {"status": "functional", "notes": "夜间守夜。无行动事件。"},

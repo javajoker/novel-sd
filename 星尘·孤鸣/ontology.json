@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 41,
+    "current_chapter": 42,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -764,6 +764,29 @@
         ]
       },
       "context": "「小时候有人教我看星星，我不记得那个人了，只记得那个动作」是艾昂在ch_028（「共鸣之前我记不清楚了」）之后第二次主动说出关于自己记忆的事，这次更小更具体，更主动（不是回答问题）。梁说的「注意本身进去了」是对共鸣本质的最具体的一次描述——为后续ch_047（「被感知」）埋下语言基础。"
+    },
+    {
+      "id": "evt_ch042_frequency_suppressor",
+      "name": "断频器",
+      "description": "前哨站下午，无触发原因，艾昂取下断频器，放在手心里。梁看了一眼（认识它，灵能族制式），说「戴回去吧」——四个字，没有评判，没有同情，是「我看见了，够了」。艾昂戴回去，比平时慢了两秒。他知道那两秒是什么。两人继续各自的事，无解释，无命名，但它发生了。",
+      "thread_id": "thr_aeon",
+      "story_time": 21,
+      "duration": 1,
+      "location": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站",
+      "participants": ["char_aeon", "char_liang"],
+      "chapter_id": "ch_042",
+      "status": "drafted",
+      "dependencies": ["evt_ch041_night_conversation"],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_aeon",
+            "kind": "psychology+trust",
+            "desc": "断频器第一次被另一个人看见。isolation降至75。物件层信任——比语言更深的一层。梁的「戴回去吧」是他能接受的回应方式：接受不需要解释，不需要对方处理这件事。"
+          }
+        ]
+      },
+      "context": "ch_041（第一次长对话，语言层）+ ch_042（断频器展示，物件层）= story_time 21的完整信任弧。这两件事在同一个时期发生，共同标志着艾昂与梁的关系进入了一个新阶段。断频器是他三年来最核心的物件——它代表了他与族群的所有隔断，也是他每天醒来第一个接触的东西。让另一个人看见它，是一种只有在某个阈值被跨越后才可能发生的行为。"
     },
     {
       "id": "evt_ch041_night_conversation",
@@ -2005,7 +2028,8 @@
         "evt_ch034_residual_resonance",
         "evt_ch036_shared_rhythm",
         "evt_ch037_first_memory_exchange",
-        "evt_ch041_night_conversation"
+        "evt_ch041_night_conversation",
+        "evt_ch042_frequency_suppressor"
       ],
       "convergences": []
     },
