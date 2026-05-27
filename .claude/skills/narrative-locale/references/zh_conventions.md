@@ -86,7 +86,9 @@ Chinese web novels are serialised daily; structure follows reader-retention norm
   rival), 升级 (breakthrough), 获得宝物 (gaining treasure), 扮猪吃虎 (hiding strength then
   winning). Plan a cadence of these in the beat sheets; long gaps lose readers.
 - **卷 / 章 (volumes / chapters):** a 卷 is an arc (e.g. 宗门篇, 秘境篇); chapters are
-  ~2000–4000 字 each. Map to `vol_*` / `ch_*` in the outline tree.
+  ~2000–4000 字 each. Map to `vol_*` / `ch_*` in the outline tree. The **hard per-chapter
+  floor is ≥ 1,500 字** (enforced at the WRITE GATE by narrative-execution LEN-01); a
+  drafted chapter below it must be expanded before it can pass.
 
   **Minimum chapters per volume by novel length tier** (enforced by narrative-architect):
 

@@ -81,3 +81,10 @@ python narrative-toolkit/scripts/search_novel.py <novel-slug>/ "query" --as-of 4
 Tools that read the KB share `narrative-toolkit/scripts/narrative_kb.py` (the as-of
 folding engine). To plug in dense embeddings for search, swap the scoring functions
 there; the two-stage structure is unchanged.
+
+> **Context-window discipline (CTX-01).** `build_profile.py` is the working-set primitive
+> for Phase III-B: it materializes the chapter-masked profile (folded state + active mask)
+> that — together with the beat sheet, the last 1–3 summaries, and the targeted plot hooks
+> — is the *only* context a chapter is drafted from. Pull other KB records (or prior prose
+> via `search_novel.py`) on demand; never load the full manuscript. See
+> `narrative-execution/SKILL.md` §B-0.
