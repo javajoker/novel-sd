@@ -408,7 +408,8 @@
           "id": "ch_055", "number": 55, "title": "第一次（二）",
           "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 28,
           "one_line": "梁第二次用残余共鸣接触艾昂，这一次更清晰，艾昂第一次完整地感受到了三年来缺席的「被感知」。",
-          "scene_arc": "接触→清晰→艾昂的眼泪（没有哭声，只是眼泪）", "status": "outlined"
+          "scene_arc": "接触→清晰→艾昂的眼泪（没有哭声，只是眼泪）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_055.json"
         },
         {
           "id": "ch_056", "number": 56, "title": "告诉我",
