@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 31,
+    "current_chapter": 32,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -680,6 +680,34 @@
     }
   ],
   "events": [
+    {
+      "id": "evt_ch032_forty_eight_hours",
+      "name": "四十八小时",
+      "description": "FED-TMP-1107北线推进，陈铭连续作战48小时，六次阵地转换，阵地保住。第41小时：有人呼喊「老齐！」，陈铭先处理两个音节再到达那个人——名字变成声音的第一次，可测量延迟。第46小时：主动不取名牌（认知降级状态下的主动保护）。第48小时：老齐叫「陈铭」，陈铭先听到音节，然后名字归位，回答「在」。一个不认识的战士阵亡（数据归档，不进名牌）。",
+      "thread_id": "thr_chen_ming",
+      "story_time": 16,
+      "duration": 2,
+      "location": "碎晶星域·北线推进区·FED-TMP-1107战斗区域",
+      "participants": [
+        "char_chen_ming",
+        "char_sgt_qi"
+      ],
+      "chapter_id": "ch_032",
+      "status": "drafted",
+      "dependencies": [
+        "evt_ch024_choice_north"
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_chen_ming",
+            "kind": "psychology+cognitive_stress",
+            "desc": "名字→人的语义链在极度疲劳下产生延迟（第一次）。主动保护名牌仪式不被降级认知污染（第一次）。「在」——老齐的「陈铭」让名字归位。"
+          }
+        ]
+      },
+      "context": "陈铭的心理系统核心是「名字对应人」这件事。ch_032是这个系统第一次在物理极限下产生测量到的延迟。他没有因此崩溃——他主动保护了名牌仪式，他在老齐的呼叫里找回了自己的名字。但这条线的脆弱性被具体展示了一次。ch_032与ch_028（艾昂第一次真正对话）在vol_01里是两种极端：一种是话语极少，一种是感知过载，都触及人类连接系统的边界。"
+    },
     {
       "id": "evt_ch031_unit_remains",
       "name": "搜寻",
@@ -1787,15 +1815,16 @@
       "pov_character": "char_chen_ming",
       "start_time": 2,
       "end_time": null,
-      "current_time": 13,
-      "latest_chapter": "ch_024",
+      "current_time": 16,
+      "latest_chapter": "ch_032",
       "event_ids": [
         "evt_ch002_chen_ming_names",
         "evt_ch005_march",
         "evt_ch009_new_battlefield",
         "evt_ch014_that_person",
         "evt_ch017_the_fifteenth",
-        "evt_ch024_choice_north"
+        "evt_ch024_choice_north",
+        "evt_ch032_forty_eight_hours"
       ],
       "convergences": []
     },

@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "id": "evt_ch032_forty_eight_hours",
+      "name": "四十八小时",
+      "thread_id": "thr_chen_ming",
+      "story_time": 16,
+      "status": "drafted",
+      "chapter_id": "ch_032",
+      "participants": ["char_chen_ming", "char_sgt_qi"],
+      "summary": "连续作战48小时，第41小时「老齐！」名字变声音（首次延迟），第46小时主动不取名牌（认知保护），第48小时老齐叫「陈铭」→名字归位→「在」。阵地保住。"
+    },
+    {
       "id": "evt_ch031_unit_remains",
       "name": "搜寻",
       "thread_id": "thr_qixing",

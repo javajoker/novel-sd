@@ -248,7 +248,8 @@
           "id": "ch_032", "number": 32, "title": "四十八小时",
           "thread_id": "thr_chen_ming", "pov_character": "char_chen_ming", "story_time": 16,
           "one_line": "陈铭连续作战四十八小时，进入那种比麻木更深的状态，时间感消失，名字变成了声音。",
-          "scene_arc": "战斗→极限→出来（但时间顺序对不上了）", "status": "outlined"
+          "scene_arc": "战斗→极限→出来（但时间顺序对不上了）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_032.json"
         },
         {
           "id": "ch_033", "number": 33, "title": "计划（三）",
