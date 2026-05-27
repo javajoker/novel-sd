@@ -27,11 +27,14 @@ context to start cold. Current state: **44 chapters drafted (vol_01), KB through
 - [ ] Create KB entries for every new character who appears (mandatory char-coverage rule),
       main or supporting.
 
-## B. Chapter-length remediation (LEN-01 back-fill)
+## B. Chapter-length remediation (LEN-01 back-fill) — DONE
 
-- [ ] **ch_042 `断频器` is below the floor (1,292 字).** Expand with fuller scene
-      realization (grounding, dialogue, interiority) to ≥ 1,500 字; re-run Phase C if any
-      state/extraction changes. (User chose "leave for now" earlier — revisit when ready.)
+- [x] **ch_042 `断频器` expanded: 1,292 → 1,688 字 (LEN-01 floor cleared).** Added
+      fuller scene grounding: afternoon light/artillery cadence, texture of 梁's standing
+      practice, 艾昂's equipment-check routine, physical description of the 断频器 (worn
+      finish, weight, shape), 梁's recognition and what his four-character response does and
+      doesn't mean, muscle-memory blocking of putting the device back on. No new story facts;
+      Phase C KB state unchanged. Validator: clean PASS. Committed `2e36d56`.
 - [ ] Optional: spot-check ch_041/043/044 for sparse realization even though they clear the
       字 count (short lines / whitespace can inflate `wc -m`).
 
