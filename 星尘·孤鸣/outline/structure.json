@@ -797,7 +797,8 @@
           "story_time": 31,
           "one_line": "梁离开，艾昂目送；那个共鸣接触随着距离拉开慢慢消失，直到什么都没有了。",
           "scene_arc": "离开→消失（共鸣）→消失（人）→艾昂一个人站着",
-          "status": "outlined"
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_062.json"
         },
         {
           "id": "ch_063",

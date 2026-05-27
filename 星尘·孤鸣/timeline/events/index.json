@@ -1,6 +1,6 @@
 {
-  "last_story_time": 30,
-  "last_chapter": "ch_061",
+  "last_story_time": 31,
+  "last_chapter": "ch_062",
   "by_chapter": {
     "ch_001": [
       "evt_novel_opening"
@@ -184,6 +184,9 @@
     ],
     "ch_061": [
       "evt_ch061_last_night"
+    ],
+    "ch_062": [
+      "evt_ch062_liang_leaves"
     ]
   },
   "by_story_time": {
@@ -307,11 +310,10 @@
       "evt_ch058_null01_stationary"
     ],
     "30": [
-      "evt_ch059_liang_decision",
-      "evt_ch060_aeon_no_right"
-    ],
-    "30": [
       "evt_ch061_last_night"
+    ],
+    "31": [
+      "evt_ch062_liang_leaves"
     ]
   },
   "by_thread": {
@@ -361,7 +363,8 @@
       "evt_ch056_partial_truth",
       "evt_ch059_liang_decision",
       "evt_ch060_aeon_no_right",
-      "evt_ch061_last_night"
+      "evt_ch061_last_night",
+      "evt_ch062_liang_leaves"
     ],
     "thr_theta": [
       "evt_ch003_theta_first_question",
