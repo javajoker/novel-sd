@@ -387,7 +387,8 @@
           "id": "ch_052", "number": 52, "title": "接触",
           "thread_id": "thr_theta", "pov_character": "char_theta_seven", "story_time": 26,
           "one_line": "Θ-7接收到七星的信号，在私人日志里写：「另一个不在战争里的东西。」",
-          "scene_arc": "接收→分析→记录（这是日志里第二个非战争实体）", "status": "outlined"
+          "scene_arc": "接收→分析→记录（这是日志里第二个非战争实体）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_052.json"
         },
         {
           "id": "ch_053", "number": 53, "title": "梁的伤",
