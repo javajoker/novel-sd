@@ -427,6 +427,10 @@ maintains this; narrative-architect consults it so payoffs get scheduled.
   "current_story_time": 22,                    // advanced by narrative-execution every chapter (Phase C)
   "current_chapter": "ch_044",                 // latest drafted chapter
   "world_calendar": { "epoch": "Spirit Era Year 1024", "current": "Year 1024, Month 5, Day 12" },
+  "clocks": {                                  // optional: names the parallel clocks a novel runs, so they are not conflated
+    "world year": "shared world calendar",
+    "sect-day (protagonist)": "days since entering the sect"
+  },
   "chapter_to_story_time": { "ch_001": 1, "ch_044": 22 },  // chapter → story_time clock (required, 1 per chapter)
   "chapter_to_world_day": { "ch_045": 130 },   // chapter → absolute world day / in-world date (optional)
   "travel_rules": [
@@ -442,6 +446,12 @@ one): advance `current_story_time` + `current_chapter`, append the `chapter_to_s
 entry, and — when the prose advances an in-world date or moves a character between locations
 — append `chapter_to_world_day` and refresh `world_calendar.current`. Leaving the calendar
 frozen at ch_001 is a Phase C violation.
+
+`clocks` (optional) documents the **parallel time references** a novel runs (a shared world
+year, a per-character day-count, the internal `story_time` integer, …) so tools and writers
+do not conflate them. When a story uses several clocks, prefer recording each in `clocks`
+(and keep `chapter_to_world_day` for a single canonical world-date only where one genuinely
+exists) rather than forcing incompatible clocks into one map.
 
 Used by narrative-architect's travel-time calculator and narrative-consistency's
 paradox guard (a character can't be in two places at once, or arrive faster than

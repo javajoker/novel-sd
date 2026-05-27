@@ -77,6 +77,7 @@ python narrative-consistency/scripts/check_consistency.py <novel-slug>/
 
 # operate (narrative-toolkit)
 python narrative-toolkit/scripts/view_kb.py <novel-slug>/ --timeline      # inspect
+python narrative-toolkit/scripts/view_kb.py <novel-slug>/ --calendar      # story-clock window (CTX-01)
 python narrative-toolkit/scripts/build_profile.py <novel-slug>/ --chapter ch_045  # memory snapshot
 python narrative-toolkit/scripts/search_novel.py <novel-slug>/ "query" --as-of 45  # KB-first + KAG
 ```

@@ -90,6 +90,7 @@ def main():
         "story_time_unit": args.unit,
         "current_story_time": 0, "current_chapter": None,
         "world_calendar": {},
+        "clocks": {},
         "chapter_to_story_time": {}, "chapter_to_world_day": {},
         "travel_rules": [], "movement_speeds": {},
     })

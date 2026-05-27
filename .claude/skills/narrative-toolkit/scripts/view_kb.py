@@ -7,6 +7,8 @@ Views:
   --timeline           events ordered by story-time, grouped into thread swimlanes.
   --character <id>     one character: profile, state timeline, relations over time.
   --events             the event graph: each event with its causal dependencies.
+  --calendar           story-clock window: current time, world calendar, parallel clocks,
+                       recent chapter→story_time map, travel rules, movement speeds.
   --snapshot N         full world state as of story-time N (locations, relations, statuses).
   --chapter <id>       same as --snapshot, resolved from the chapter's story-time.
 
@@ -106,7 +108,10 @@ def events_view(kb: NarrativeKB) -> dict:
         "story_time": _int(e.get("story_time"), 0), "thread": e.get("thread_id"),
         "location": kb.name(e.get("location")) if e.get("location") else None,
         "participants": [kb.name(p) for p in (e.get("participants") or [])],
-        "dependencies": [f"{d.get('relation')} {d.get('event')}" for d in (e.get("dependencies") or [])],
+        "dependencies": [
+            (f"{d.get('type') or d.get('relation') or 'PRECEDES'} {d.get('event_id') or d.get('event')}"
+             if isinstance(d, dict) else f"PRECEDES {d}")
+            for d in (e.get("dependencies") or [])],
         "prerequisites": e.get("prerequisites", []),
         "projected_outcome": e.get("projected_outcome", {}),
         "status": e.get("status", ""),
@@ -137,7 +142,35 @@ def chapter_to_time(kb: NarrativeKB, chapter_id: str):
         for ch in (vol.get("chapters") or []):
             if ch.get("id") == chapter_id:
                 return _int(ch.get("story_time"), 0)
+    # fall back to the authoritative calendar map
+    c2t = (kb.calendar or {}).get("chapter_to_story_time", {}) or {}
+    if chapter_id in c2t:
+        return _int(c2t[chapter_id], 0)
     return None
+
+
+def _chnum(ch):
+    import re
+    m = re.search(r"(\d+)", ch or "")
+    return int(m.group(1)) if m else 0
+
+
+def calendar_view(kb: NarrativeKB) -> dict:
+    cal = kb.calendar or {}
+    c2t = cal.get("chapter_to_story_time", {}) or {}
+    recent = sorted(c2t.items(), key=lambda kv: _chnum(kv[0]))[-10:]
+    return {
+        "story_time_unit": cal.get("story_time_unit"),
+        "current_story_time": cal.get("current_story_time"),
+        "current_chapter": cal.get("current_chapter"),
+        "world_calendar": cal.get("world_calendar", {}),
+        "clocks": cal.get("clocks", {}),
+        "chapters_mapped": len(c2t),
+        "recent_chapters": recent,
+        "chapter_to_world_day": cal.get("chapter_to_world_day", {}),
+        "travel_rules": cal.get("travel_rules", []),
+        "movement_speeds": cal.get("movement_speeds", {}),
+    }
 
 
 # --------- pretty printers ---------
@@ -198,6 +231,38 @@ def print_character(d):
         p(f"    {r['subject']} --{r['predicate']}--> {r['object']}  [{span}] {props}")
 
 
+def print_calendar(d):
+    p("📅 Calendar / story-clock\n")
+    p(f"   unit: {d['story_time_unit']} · now: story_time={d['current_story_time']} "
+      f"({d['current_chapter']}) · {d['chapters_mapped']} chapters mapped")
+    wc = d["world_calendar"] or {}
+    if wc:
+        p("\n  World calendar:")
+        for k in ("epoch", "current", "note"):
+            if wc.get(k):
+                p(f"    {k}: {wc[k]}")
+    clocks = d["clocks"] or {}
+    if clocks:
+        p("\n  Parallel clocks (this novel runs several — do not conflate):")
+        for name, desc in clocks.items():
+            p(f"    • {name}: {desc}")
+    if d["recent_chapters"]:
+        p("\n  Recent chapters → story_time:")
+        for ch, t in d["recent_chapters"]:
+            wd = (d["chapter_to_world_day"] or {}).get(ch)
+            p(f"    {ch} → t={t}" + (f"   (world: {wd})" if wd else ""))
+    if d["travel_rules"]:
+        p("\n  Travel rules:")
+        for r in d["travel_rules"]:
+            frm = r.get("from", "?"); to = r.get("to", "?")
+            base = r.get("base_days", r.get("distance", "?"))
+            p(f"    {frm} → {to}: {base}" + (f"  ({r['note']})" if r.get("note") else ""))
+    if d["movement_speeds"]:
+        p("\n  Movement speeds:")
+        for who, spd in d["movement_speeds"].items():
+            p(f"    {who}: {spd}")
+
+
 def print_events(d):
     p("🔗 Event graph\n")
     for e in d["events"]:
@@ -235,6 +300,7 @@ def main():
     g.add_argument("--timeline", action="store_true")
     g.add_argument("--character", metavar="ID")
     g.add_argument("--events", action="store_true")
+    g.add_argument("--calendar", action="store_true")
     g.add_argument("--snapshot", type=int, metavar="N")
     g.add_argument("--chapter", metavar="ID")
     ap.add_argument("--json", action="store_true")
@@ -251,6 +317,8 @@ def main():
         d, pr = character_view(kb, args.character), print_character
     elif args.events:
         d, pr = events_view(kb), print_events
+    elif args.calendar:
+        d, pr = calendar_view(kb), print_calendar
     elif args.snapshot is not None:
         d, pr = snapshot(kb, args.snapshot), print_snapshot
     elif args.chapter:
