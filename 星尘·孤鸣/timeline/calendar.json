@@ -1,7 +1,7 @@
 {
   "story_time_unit": "chapter",
-  "current_story_time": 24,
-  "current_chapter": "ch_048",
+  "current_story_time": 25,
+  "current_chapter": "ch_049",
   "world_calendar": {
     "epoch": "源质纪元（Origin Matter Era）",
     "current": "源质纪元3847年，碎晶星域战争第十九年",
@@ -61,7 +61,8 @@
     "ch_045": 23,
     "ch_046": 23,
     "ch_047": 24,
-    "ch_048": 24
+    "ch_048": 24,
+    "ch_049": 25
   },
   "chapter_to_world_day": {
     "ch_001": "3847年·碎晶星域·维格拉斯星球战役结束后第6小时"

@@ -1,6 +1,6 @@
 {
-  "last_story_time": 24,
-  "last_chapter": "ch_047",
+  "last_story_time": 25,
+  "last_chapter": "ch_049",
   "by_chapter": {
     "ch_001": [
       "evt_novel_opening"
@@ -145,6 +145,9 @@
     ],
     "ch_048": [
       "evt_ch048_void_expansion"
+    ],
+    "ch_049": [
+      "evt_ch049_headquarters_visit"
     ]
   },
   "by_story_time": {
@@ -246,6 +249,9 @@
     "24": [
       "evt_ch047_first_perceived",
       "evt_ch048_void_expansion"
+    ],
+    "25": [
+      "evt_ch049_headquarters_visit"
     ]
   },
   "by_thread": {
@@ -258,7 +264,8 @@
       "evt_ch024_choice_north",
       "evt_ch032_forty_eight_hours",
       "evt_ch038_new_recruits",
-      "evt_ch044_first_recruit_dies"
+      "evt_ch044_first_recruit_dies",
+      "evt_ch049_headquarters_visit"
     ],
     "thr_qixing": [
       "evt_ch012_who_am_i",

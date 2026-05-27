@@ -110,6 +110,18 @@
         "char_chen_ming"
       ],
       "summary": "苏同死亡（七新兵第一个）。细节先到（微抖）。阻力消失后无缓冲，名字直接进内部。不想记=已经记了。更深处存档，带细节。七个里的一个了。"
+    },
+    {
+      "id": "evt_ch049_headquarters_visit",
+      "name": "联邦总部（一）",
+      "thread_id": "thr_chen_ming",
+      "story_time": 25,
+      "status": "drafted",
+      "chapter_id": "ch_049",
+      "participants": [
+        "char_chen_ming"
+      ],
+      "summary": "临时调派联邦前线总部两天。看见干净的手、屏幕、百分比。一小时会议零次人名，全部「损耗率」「容许范围」。「你们营损耗比在可接受范围低端，表现不错」——答「谢谢」，确认名牌，回程，地形重新变回认识的样子。"
     }
   ]
 }

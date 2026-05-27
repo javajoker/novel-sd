@@ -366,7 +366,8 @@
           "id": "ch_049", "number": 49, "title": "联邦总部（一）",
           "thread_id": "thr_chen_ming", "pov_character": "char_chen_ming", "story_time": 25,
           "one_line": "陈铭被临时调往联邦前线总部，第一次看见了战争上层的人，他们的手是干净的。",
-          "scene_arc": "调令→到达→观察（不说话，但记下了很多东西）", "status": "outlined"
+          "scene_arc": "调令→到达→观察（不说话，但记下了很多东西）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_049.json"
         },
         {
           "id": "ch_050", "number": 50, "title": "足够了",
