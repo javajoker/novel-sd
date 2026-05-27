@@ -262,7 +262,8 @@
           "id": "ch_034", "number": 34, "title": "残余共鸣",
           "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 17,
           "one_line": "梁在源质矿脉靠近时展示了他残余的灵能，艾昂感受到了三年来第一次极其微弱的共鸣接触。",
-          "scene_arc": "日常→意外的接触→艾昂的反应（不是痛，是别的什么）", "status": "outlined"
+          "scene_arc": "日常→意外的接触→艾昂的反应（不是痛，是别的什么）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_034.json"
         },
         {
           "id": "ch_035", "number": 35, "title": "追踪（续）",
