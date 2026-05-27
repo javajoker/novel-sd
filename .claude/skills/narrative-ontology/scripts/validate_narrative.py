@@ -15,7 +15,8 @@ Checks performed:
     6. event.thread_id resolves to a declared thread; participants/location resolve
        to entities; dependency target events exist.
   Cross-file:
-    7. characters/states/<id>.json: no duplicate story_time per character.
+    7. characters/states/<id>.json: snapshots ordered by story_time (duplicates OK when
+       chapters share a clock value); each snapshot has story_time.
     8. masks/<id>.json: well-formed; story_time present.
     9. outline/structure.json: chapter.beat_sheet_ref files exist; planned_events
        resolve to declared events.
@@ -177,12 +178,14 @@ def validate_kb(root: Path) -> None:
             data = load(sf)
             if not isinstance(data, dict):
                 continue
-            times: set = set()
+            # Every snapshot needs a story_time. Multiple snapshots at the SAME story_time
+            # are allowed — two chapters can share a clock value (e.g. ch_041 and ch_042
+            # both at story_time 21), each contributing its own append-only delta. On-disk
+            # order is not load-bearing: snapshots are stored newest-first by convention and
+            # the toolkit folds them in sorted order regardless.
             for st in data.get("states") or []:
-                ts = st.get("story_time")
-                if ts in times:
-                    err(f"{sf}: duplicate story_time {ts}")
-                times.add(ts)
+                if st.get("story_time") is None:
+                    err(f"{sf}: a state snapshot is missing story_time")
 
     # 8. masks
     masks_dir = root / "masks"

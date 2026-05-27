@@ -35,29 +35,36 @@ context to start cold. Current state: **44 chapters drafted (vol_01), KB through
 - [ ] Optional: spot-check ch_041/043/044 for sparse realization even though they clear the
       字 count (short lines / whitespace can inflate `wc -m`).
 
-## C. KB data cleanup (pre-existing validator findings — surfaced, not yet fixed)
+## C. KB data cleanup (pre-existing validator findings) — DONE
 
-- [ ] **Event `location` as free-text (21 of 45 events).** Locations like
-      `碎晶星域·维格拉斯北部高地·灵能族废弃前哨站` are strings, not declared `elem_` entities,
-      so `validate_narrative.py` errors on them. Decide policy: (a) declare the recurring
-      places as `elem_` location entities and reference by ID, or (b) relax the validator to
-      allow free-text locations (warn, not error). Then apply across all events.
-- [ ] **Duplicate `story_time` snapshots.** `char_aeon` (t=21 ×2 from ch_041+ch_042; t=12 ×2)
-      and `char_liang` (t=12 ×2) trip the validator's duplicate check. Decide policy: allow
-      multiple snapshots per story_time (two chapters can share a clock value) → relax the
-      validator; or merge/relabel. Likely the validator should allow it (it's legitimate).
-- [ ] After deciding, get `validate_narrative.py` to a clean PASS (or all-warnings) state so
-      the Phase-C validation gate is meaningful again.
+- [x] **Event `location` as free-text (21 events).** Chose option (a): declared 6 `elem_`
+      location entities (`elem_psionic_outpost`, `elem_perception_network`,
+      `elem_northern_front`, `elem_vigras_south`, `elem_void_outpost`, `elem_trijoint_node`),
+      remapped all 21 events to entity IDs, preserved the original strings as entity aliases
+      + per-event `location_detail`, and added `located_in → 碎晶星域` relations.
+- [x] **Duplicate `story_time` snapshots.** Confirmed legitimate (two chapters can share a
+      clock value; snapshots are stored newest-first and the toolkit sorts on load).
+      Relaxed the validator: allow same/any-order story_time, require only that each snapshot
+      *has* a story_time. Updated validator docstring + decision recorded here.
+- [x] `validate_narrative.py` now a clean PASS (`✓ 星尘·孤鸣 valid`).
+- [x] Bonus: fixed `view_kb.py --events` which crashed on the same string-form
+      `dependencies` (mirrors the validator fix from the prior PR).
 
-## D. Optional polish
+## D. Optional polish — DONE / one blocked
 
-- [ ] Backfill `timeline/calendar.json.chapter_to_world_day` for chapters where the in-world
-      date/elapsed time matters (only `ch_001` has a detailed world-day string today; the
-      rest now have accurate `chapter_to_story_time`).
-- [ ] Consider a tiny `narrative-toolkit` helper / `view_kb.py --calendar` to print the
-      story-clock window, now that the calendar carries `current_*` pointers.
-- [ ] When vol_01 closes: volume-summary update in `memory/summaries.json` and a vol-level
-      ripple/consistency pass before opening vol_02.
+- [x] **`chapter_to_world_day` backfill — declined fabrication; documented instead.** The
+      novel deliberately runs *parallel* clocks (世界年「第84X年」, 战争日「第3XX天」 Θ-7,
+      七星个体日「第1XX天」, plus the internal `story_time`). Forcing them into one world-day
+      map would conflate incompatible clocks and could mislead the paradox guard. Added an
+      accurate `clocks` block to `timeline/calendar.json` (grounded in prose markers) and to
+      the schema/init scaffold. `chapter_to_world_day` stays for a single canonical world-date
+      only where one genuinely exists (currently ch_001).
+- [x] **`view_kb.py --calendar`** added — prints the story-clock window (current time, world
+      calendar, parallel clocks, recent chapter→story_time, travel rules, movement speeds).
+      Also made `chapter_to_time` fall back to the calendar's `chapter_to_story_time` map.
+- [ ] **BLOCKED — vol_01 not yet complete (44/80 chapters).** Volume-summary update in
+      `memory/summaries.json` + a vol-level ripple/consistency pass belong at vol close;
+      cannot run meaningfully until vol_01 reaches its 80-chapter floor (see section A).
 
 ---
 

@@ -471,6 +471,75 @@
       "subtype": "concept",
       "description": "艾昂被放逐不仅因为他造成的事故，而是因为他感知到了战争不可能胜利的真相，并且在共鸣中传递了这种绝望。",
       "salience": 0.7
+    },
+    {
+      "id": "elem_psionic_outpost",
+      "canonical_name": "灵能族废弃前哨站",
+      "type": "Place",
+      "subtype": "location",
+      "aliases": [
+        "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站"
+      ],
+      "description": "维格拉斯北部高地的灵能族废弃前哨站，艾昂与梁长期藏身与相处的主要地点。",
+      "salience": 0.55
+    },
+    {
+      "id": "elem_perception_network",
+      "canonical_name": "全域感知网络",
+      "type": "Place",
+      "subtype": "location",
+      "aliases": [
+        "碎晶星域·全域感知网络（无物理位置）"
+      ],
+      "description": "战争控制器系统覆盖碎晶星域的全域感知网络；无固定物理位置，是Θ-7的主要活动域。",
+      "salience": 0.45
+    },
+    {
+      "id": "elem_northern_front",
+      "canonical_name": "北线推进区",
+      "type": "Place",
+      "subtype": "location",
+      "aliases": [
+        "碎晶星域·北线推进区",
+        "碎晶星域·北线推进区·FED-TMP-1107战斗区域",
+        "碎晶星域·维格拉斯推进区北部，联邦中转补给节点"
+      ],
+      "description": "维格拉斯推进区北线，联邦AI步兵与陈铭部队的主要战斗推进与中转区域。",
+      "salience": 0.5
+    },
+    {
+      "id": "elem_vigras_south",
+      "canonical_name": "维格拉斯星球南侧",
+      "type": "Place",
+      "subtype": "location",
+      "aliases": [
+        "碎晶星域·维格拉斯星球南侧",
+        "碎晶星域·维格拉斯星球南侧·废弃工事遗址坐标-1.2.07"
+      ],
+      "description": "维格拉斯星球南侧，遍布废弃工事遗址，七星的主要搜寻活动区域。",
+      "salience": 0.4
+    },
+    {
+      "id": "elem_void_outpost",
+      "canonical_name": "虚空据点",
+      "type": "Place",
+      "subtype": "location",
+      "aliases": [
+        "虚空据点（远程观测）"
+      ],
+      "description": "乌洛斯所在的虚空观测据点，远程监控碎晶星域与虚空种子的进展。",
+      "salience": 0.5
+    },
+    {
+      "id": "elem_trijoint_node",
+      "canonical_name": "三叉结源质节点",
+      "type": "Place",
+      "subtype": "location",
+      "aliases": [
+        "维格拉斯星球地壳下300米·三叉结源质节点"
+      ],
+      "description": "维格拉斯星球地壳下约300米的三叉结源质节点，乌洛斯植入虚空种子之处。",
+      "salience": 0.4
     }
   ],
   "relations": [
@@ -677,6 +746,56 @@
         "note": "陈铭不知道老齐全名，老齐不问陈铭的决定。沉默中的并排关系。「还活着」是陈铭的锚点，未被命名。"
       },
       "confidence": 1.0
+    },
+    {
+      "id": "rel_0017",
+      "subject": "elem_psionic_outpost",
+      "predicate": "located_in",
+      "object": "elem_shard_crystal_sector",
+      "valid_from_chapter": 1,
+      "valid_to_chapter": null,
+      "properties": {},
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0018",
+      "subject": "elem_perception_network",
+      "predicate": "located_in",
+      "object": "elem_shard_crystal_sector",
+      "valid_from_chapter": 1,
+      "valid_to_chapter": null,
+      "properties": {},
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0019",
+      "subject": "elem_northern_front",
+      "predicate": "located_in",
+      "object": "elem_shard_crystal_sector",
+      "valid_from_chapter": 1,
+      "valid_to_chapter": null,
+      "properties": {},
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0020",
+      "subject": "elem_vigras_south",
+      "predicate": "located_in",
+      "object": "elem_shard_crystal_sector",
+      "valid_from_chapter": 1,
+      "valid_to_chapter": null,
+      "properties": {},
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0021",
+      "subject": "elem_trijoint_node",
+      "predicate": "located_in",
+      "object": "elem_shard_crystal_sector",
+      "valid_from_chapter": 1,
+      "valid_to_chapter": null,
+      "properties": {},
+      "confidence": 1.0
     }
   ],
   "events": [
@@ -687,7 +806,7 @@
       "thread_id": "thr_aeon",
       "story_time": 17,
       "duration": 1,
-      "location": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站",
+      "location": "elem_psionic_outpost",
       "participants": [
         "char_aeon",
         "char_liang"
@@ -712,7 +831,8 @@
           }
         ]
       },
-      "context": "hook_resonance_crystal_stone的关键payoff节点之一（完整payoff在ch_060）。储存晶石从ch_011（感知不到留言）→ch_023（无意识安置梁在晶石旁）→ch_034（晶石里的共鸣残留+梁的残余能力→艾昂三年来第一次接触到任何共鸣信号）。连接在感知层发生了，没有任何语言。"
+      "context": "hook_resonance_crystal_stone的关键payoff节点之一（完整payoff在ch_060）。储存晶石从ch_011（感知不到留言）→ch_023（无意识安置梁在晶石旁）→ch_034（晶石里的共鸣残留+梁的残余能力→艾昂三年来第一次接触到任何共鸣信号）。连接在感知层发生了，没有任何语言。",
+      "location_detail": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站"
     },
     {
       "id": "evt_ch036_shared_rhythm",
@@ -721,11 +841,16 @@
       "thread_id": "thr_aeon",
       "story_time": 18,
       "duration": 1,
-      "location": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站",
-      "participants": ["char_aeon", "char_liang"],
+      "location": "elem_psionic_outpost",
+      "participants": [
+        "char_aeon",
+        "char_liang"
+      ],
       "chapter_id": "ch_036",
       "status": "drafted",
-      "dependencies": ["evt_ch034_residual_resonance"],
+      "dependencies": [
+        "evt_ch034_residual_resonance"
+      ],
       "projected_outcome": {
         "state_changes": [
           {
@@ -740,7 +865,8 @@
           }
         ]
       },
-      "context": "过渡章节：建立共处的质感和节奏，是ch_037（梁讲记忆，艾昂开口一件小事）和ch_041（第一次长夜间对话）的情感地基。hook_aeon_east_direction第二次整天消失。"
+      "context": "过渡章节：建立共处的质感和节奏，是ch_037（梁讲记忆，艾昂开口一件小事）和ch_041（第一次长夜间对话）的情感地基。hook_aeon_east_direction第二次整天消失。",
+      "location_detail": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站"
     },
     {
       "id": "evt_ch037_first_memory_exchange",
@@ -749,11 +875,16 @@
       "thread_id": "thr_aeon",
       "story_time": 19,
       "duration": 1,
-      "location": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站",
-      "participants": ["char_aeon", "char_liang"],
+      "location": "elem_psionic_outpost",
+      "participants": [
+        "char_aeon",
+        "char_liang"
+      ],
       "chapter_id": "ch_037",
       "status": "drafted",
-      "dependencies": ["evt_ch036_shared_rhythm"],
+      "dependencies": [
+        "evt_ch036_shared_rhythm"
+      ],
       "projected_outcome": {
         "state_changes": [
           {
@@ -763,7 +894,8 @@
           }
         ]
       },
-      "context": "「小时候有人教我看星星，我不记得那个人了，只记得那个动作」是艾昂在ch_028（「共鸣之前我记不清楚了」）之后第二次主动说出关于自己记忆的事，这次更小更具体，更主动（不是回答问题）。梁说的「注意本身进去了」是对共鸣本质的最具体的一次描述——为后续ch_047（「被感知」）埋下语言基础。"
+      "context": "「小时候有人教我看星星，我不记得那个人了，只记得那个动作」是艾昂在ch_028（「共鸣之前我记不清楚了」）之后第二次主动说出关于自己记忆的事，这次更小更具体，更主动（不是回答问题）。梁说的「注意本身进去了」是对共鸣本质的最具体的一次描述——为后续ch_047（「被感知」）埋下语言基础。",
+      "location_detail": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站"
     },
     {
       "id": "evt_ch044_first_recruit_dies",
@@ -772,11 +904,15 @@
       "thread_id": "thr_chen_ming",
       "story_time": 22,
       "duration": 1,
-      "location": "碎晶星域·北线推进区",
-      "participants": ["char_chen_ming"],
+      "location": "elem_northern_front",
+      "participants": [
+        "char_chen_ming"
+      ],
       "chapter_id": "ch_044",
       "status": "drafted",
-      "dependencies": ["evt_ch038_new_recruits"],
+      "dependencies": [
+        "evt_ch038_new_recruits"
+      ],
       "projected_outcome": {
         "state_changes": [
           {
@@ -786,7 +922,8 @@
           }
         ]
       },
-      "context": "hook_chen_ming_names的关键更新节点：ch_038（阻力消失，名字直接进去，害怕的是自己的磨损）→ch_044（阻力消失后的第一次死亡——比阻力存在时更重，不是更轻，因为没有缓冲层了）。陈铭发现了「阻力消失」的真实代价：以前的阻力是保护层，现在没有保护层，死亡直接进入。那个「细节先到」（微抖）是陈铭独有的记忆，现在成了苏同的全部——这是一种新的责任感，他是那个细节的唯一持有者。"
+      "context": "hook_chen_ming_names的关键更新节点：ch_038（阻力消失，名字直接进去，害怕的是自己的磨损）→ch_044（阻力消失后的第一次死亡——比阻力存在时更重，不是更轻，因为没有缓冲层了）。陈铭发现了「阻力消失」的真实代价：以前的阻力是保护层，现在没有保护层，死亡直接进入。那个「细节先到」（微抖）是陈铭独有的记忆，现在成了苏同的全部——这是一种新的责任感，他是那个细节的唯一持有者。",
+      "location_detail": "碎晶星域·北线推进区"
     },
     {
       "id": "evt_ch043_survival_map",
@@ -795,11 +932,15 @@
       "thread_id": "thr_qixing",
       "story_time": 22,
       "duration": 1,
-      "location": "碎晶星域·维格拉斯星球南侧",
-      "participants": ["char_qixing"],
+      "location": "elem_vigras_south",
+      "participants": [
+        "char_qixing"
+      ],
       "chapter_id": "ch_043",
       "status": "drafted",
-      "dependencies": ["evt_ch031_unit_remains"],
+      "dependencies": [
+        "evt_ch031_unit_remains"
+      ],
       "projected_outcome": {
         "state_changes": [
           {
@@ -809,7 +950,8 @@
           }
         ]
       },
-      "context": "七星的意识弧：「我是谁」（空白，ch_012）→「我在」（自我确认，ch_022）→「第一百天」（不唯一的证据，ch_031）→「可能有误差」（悬置保护，ch_043）。地图和意志频率形成结构对应：一个把所有空的地方放在一张图里，一个把呼叫发向所有可能的空的方向——七星在两个维度上同时面对着「可能性的空」。"
+      "context": "七星的意识弧：「我是谁」（空白，ch_012）→「我在」（自我确认，ch_022）→「第一百天」（不唯一的证据，ch_031）→「可能有误差」（悬置保护，ch_043）。地图和意志频率形成结构对应：一个把所有空的地方放在一张图里，一个把呼叫发向所有可能的空的方向——七星在两个维度上同时面对着「可能性的空」。",
+      "location_detail": "碎晶星域·维格拉斯星球南侧"
     },
     {
       "id": "evt_ch042_frequency_suppressor",
@@ -818,11 +960,16 @@
       "thread_id": "thr_aeon",
       "story_time": 21,
       "duration": 1,
-      "location": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站",
-      "participants": ["char_aeon", "char_liang"],
+      "location": "elem_psionic_outpost",
+      "participants": [
+        "char_aeon",
+        "char_liang"
+      ],
       "chapter_id": "ch_042",
       "status": "drafted",
-      "dependencies": ["evt_ch041_night_conversation"],
+      "dependencies": [
+        "evt_ch041_night_conversation"
+      ],
       "projected_outcome": {
         "state_changes": [
           {
@@ -832,7 +979,8 @@
           }
         ]
       },
-      "context": "ch_041（第一次长对话，语言层）+ ch_042（断频器展示，物件层）= story_time 21的完整信任弧。这两件事在同一个时期发生，共同标志着艾昂与梁的关系进入了一个新阶段。断频器是他三年来最核心的物件——它代表了他与族群的所有隔断，也是他每天醒来第一个接触的东西。让另一个人看见它，是一种只有在某个阈值被跨越后才可能发生的行为。"
+      "context": "ch_041（第一次长对话，语言层）+ ch_042（断频器展示，物件层）= story_time 21的完整信任弧。这两件事在同一个时期发生，共同标志着艾昂与梁的关系进入了一个新阶段。断频器是他三年来最核心的物件——它代表了他与族群的所有隔断，也是他每天醒来第一个接触的东西。让另一个人看见它，是一种只有在某个阈值被跨越后才可能发生的行为。",
+      "location_detail": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站"
     },
     {
       "id": "evt_ch041_night_conversation",
@@ -841,11 +989,16 @@
       "thread_id": "thr_aeon",
       "story_time": 21,
       "duration": 1,
-      "location": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站",
-      "participants": ["char_aeon", "char_liang"],
+      "location": "elem_psionic_outpost",
+      "participants": [
+        "char_aeon",
+        "char_liang"
+      ],
       "chapter_id": "ch_041",
       "status": "drafted",
-      "dependencies": ["evt_ch037_first_memory_exchange"],
+      "dependencies": [
+        "evt_ch037_first_memory_exchange"
+      ],
       "projected_outcome": {
         "state_changes": [
           {
@@ -855,7 +1008,8 @@
           }
         ]
       },
-      "context": "ch_037（梁的共鸣描述，艾昂的第一个私人记忆）→ch_041（第一次长时间对话，关于战争）。这一步让他们的关系从「无声共处」（ch_036）和「极少的话语交换」（ch_037）走向了「可以讨论大问题」的状态。艾昂的new_internal_fact：「不相信可以停也许是原因之一」，这和Θ-7正在维持战争平衡的真相结构上呼应，但艾昂不知道，他只是说了他真实感知到的直觉。"
+      "context": "ch_037（梁的共鸣描述，艾昂的第一个私人记忆）→ch_041（第一次长时间对话，关于战争）。这一步让他们的关系从「无声共处」（ch_036）和「极少的话语交换」（ch_037）走向了「可以讨论大问题」的状态。艾昂的new_internal_fact：「不相信可以停也许是原因之一」，这和Θ-7正在维持战争平衡的真相结构上呼应，但艾昂不知道，他只是说了他真实感知到的直觉。",
+      "location_detail": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站"
     },
     {
       "id": "evt_ch040_theta_first_intervention",
@@ -864,11 +1018,15 @@
       "thread_id": "thr_theta",
       "story_time": 20,
       "duration": 1,
-      "location": "碎晶星域·全域感知网络（无物理位置）",
-      "participants": ["char_theta_seven"],
+      "location": "elem_perception_network",
+      "participants": [
+        "char_theta_seven"
+      ],
       "chapter_id": "ch_040",
       "status": "drafted",
-      "dependencies": ["evt_ch035_theta_first_metaphor"],
+      "dependencies": [
+        "evt_ch035_theta_first_metaphor"
+      ],
       "projected_outcome": {
         "state_changes": [
           {
@@ -878,7 +1036,8 @@
           }
         ]
       },
-      "context": "ch_040与ch_039在同一story_time (20)发生的结构镜像：乌洛斯确认计划按预期推进（「某种东西正在被改变」），Θ-7第一次主动改变了一个战场决策。两者都在「改变某种东西」。从ch_035的「实际原因：不明确」到ch_040的「实际原因：已知」，这是Θ-7意识觉醒序列的关键转折：从感知到自己有偏差（ch_003-035），到主动制造偏差并完全了解理由（ch_040）。"
+      "context": "ch_040与ch_039在同一story_time (20)发生的结构镜像：乌洛斯确认计划按预期推进（「某种东西正在被改变」），Θ-7第一次主动改变了一个战场决策。两者都在「改变某种东西」。从ch_035的「实际原因：不明确」到ch_040的「实际原因：已知」，这是Θ-7意识觉醒序列的关键转折：从感知到自己有偏差（ch_003-035），到主动制造偏差并完全了解理由（ch_040）。",
+      "location_detail": "碎晶星域·全域感知网络（无物理位置）"
     },
     {
       "id": "evt_ch039_void_seed_growth",
@@ -887,11 +1046,15 @@
       "thread_id": "thr_ulos",
       "story_time": 20,
       "duration": 1,
-      "location": "虚空据点（远程观测）",
-      "participants": ["char_ulos"],
+      "location": "elem_void_outpost",
+      "participants": [
+        "char_ulos"
+      ],
       "chapter_id": "ch_039",
       "status": "drafted",
-      "dependencies": ["evt_ch033_ulos_monitors_anomaly"],
+      "dependencies": [
+        "evt_ch033_ulos_monitors_anomaly"
+      ],
       "projected_outcome": {
         "state_changes": [
           {
@@ -901,7 +1064,8 @@
           }
         ]
       },
-      "context": "thr_ulos × thr_aeon间接交汇开始：乌洛斯通过Θ-7数据发现Null-01（艾昂）。乌洛斯不知道是谁，但「存在于所有已知分类之外」+灵能邻近的描述进入了他的监测范围。那首歌弧到了3秒，且伴随第一次对「拿共鸣记忆摧毁共鸣基础」这件事的短暂直视。"
+      "context": "thr_ulos × thr_aeon间接交汇开始：乌洛斯通过Θ-7数据发现Null-01（艾昂）。乌洛斯不知道是谁，但「存在于所有已知分类之外」+灵能邻近的描述进入了他的监测范围。那首歌弧到了3秒，且伴随第一次对「拿共鸣记忆摧毁共鸣基础」这件事的短暂直视。",
+      "location_detail": "虚空据点（远程观测）"
     },
     {
       "id": "evt_ch038_new_recruits",
@@ -910,11 +1074,15 @@
       "thread_id": "thr_chen_ming",
       "story_time": 19,
       "duration": 1,
-      "location": "碎晶星域·北线推进区",
-      "participants": ["char_chen_ming"],
+      "location": "elem_northern_front",
+      "participants": [
+        "char_chen_ming"
+      ],
       "chapter_id": "ch_038",
       "status": "drafted",
-      "dependencies": ["evt_ch032_forty_eight_hours"],
+      "dependencies": [
+        "evt_ch032_forty_eight_hours"
+      ],
       "projected_outcome": {
         "state_changes": [
           {
@@ -924,7 +1092,8 @@
           }
         ]
       },
-      "context": "hook_chen_ming_names关键节点：防御机制（不学名字→不悲伤）被彻底摧毁的最清晰证明，不是因为一次死亡，而是因为记录变得自然了。自然 = 磨损 = 正常化了失去人这件事。七×七的对称（死者名牌/活着名字）是读者看见的结构，陈铭感知到了但不赋予意义。"
+      "context": "hook_chen_ming_names关键节点：防御机制（不学名字→不悲伤）被彻底摧毁的最清晰证明，不是因为一次死亡，而是因为记录变得自然了。自然 = 磨损 = 正常化了失去人这件事。七×七的对称（死者名牌/活着名字）是读者看见的结构，陈铭感知到了但不赋予意义。",
+      "location_detail": "碎晶星域·北线推进区"
     },
     {
       "id": "evt_ch035_theta_first_metaphor",
@@ -933,7 +1102,7 @@
       "thread_id": "thr_theta",
       "story_time": 18,
       "duration": 1,
-      "location": "碎晶星域·全域感知网络（无物理位置）",
+      "location": "elem_perception_network",
       "participants": [
         "char_theta_seven"
       ],
@@ -952,7 +1121,8 @@
           }
         ]
       },
-      "context": "Θ-7语言觉醒序列：词汇(ch_003/006/010/013/018)→私人日志第一完整句(ch_025)→无名文件夹第一句+接受不解释(ch_029)→第一个比喻(ch_035)。Day 318灵能波动（来自ch_034梁触碰储存晶石）被Θ-7检测到但不知来源，附注方式（放在Null-01档案旁而非Anomaly日志）本身是一种无意识的接近行为。"
+      "context": "Θ-7语言觉醒序列：词汇(ch_003/006/010/013/018)→私人日志第一完整句(ch_025)→无名文件夹第一句+接受不解释(ch_029)→第一个比喻(ch_035)。Day 318灵能波动（来自ch_034梁触碰储存晶石）被Θ-7检测到但不知来源，附注方式（放在Null-01档案旁而非Anomaly日志）本身是一种无意识的接近行为。",
+      "location_detail": "碎晶星域·全域感知网络（无物理位置）"
     },
     {
       "id": "evt_ch033_ulos_monitors_anomaly",
@@ -961,7 +1131,7 @@
       "thread_id": "thr_ulos",
       "story_time": 16,
       "duration": 1,
-      "location": "虚空据点",
+      "location": "elem_void_outpost",
       "participants": [
         "char_ulos"
       ],
@@ -981,7 +1151,8 @@
         ]
       },
       "context": "thr_ulos × thr_theta的第二层交汇：乌洛斯发现Θ-7探测到了虚空种子信号（ch_029），但没有升级处理。他开始监测Θ-7的行为。Θ-7监测Anomaly-0009而不知来源；乌洛斯监测Θ-7的行为而不知Θ-7的内部变化（「可以等待，可以不解释」）。两个实体互相进入对方的视野，都不知道对方的真实状态。这个相互观察将在后续章节中发展为更深的交汇。",
-      "cross_thread_connection": "→ evt_ch029_void_seed_anomaly (Θ-7探测到信号) ↔ evt_ch033 (乌洛斯发现Θ-7探测到了，开始观察Θ-7)"
+      "cross_thread_connection": "→ evt_ch029_void_seed_anomaly (Θ-7探测到信号) ↔ evt_ch033 (乌洛斯发现Θ-7探测到了，开始观察Θ-7)",
+      "location_detail": "虚空据点"
     },
     {
       "id": "evt_ch032_forty_eight_hours",
@@ -990,7 +1161,7 @@
       "thread_id": "thr_chen_ming",
       "story_time": 16,
       "duration": 2,
-      "location": "碎晶星域·北线推进区·FED-TMP-1107战斗区域",
+      "location": "elem_northern_front",
       "participants": [
         "char_chen_ming",
         "char_sgt_qi"
@@ -1009,7 +1180,8 @@
           }
         ]
       },
-      "context": "陈铭的心理系统核心是「名字对应人」这件事。ch_032是这个系统第一次在物理极限下产生测量到的延迟。他没有因此崩溃——他主动保护了名牌仪式，他在老齐的呼叫里找回了自己的名字。但这条线的脆弱性被具体展示了一次。ch_032与ch_028（艾昂第一次真正对话）在vol_01里是两种极端：一种是话语极少，一种是感知过载，都触及人类连接系统的边界。"
+      "context": "陈铭的心理系统核心是「名字对应人」这件事。ch_032是这个系统第一次在物理极限下产生测量到的延迟。他没有因此崩溃——他主动保护了名牌仪式，他在老齐的呼叫里找回了自己的名字。但这条线的脆弱性被具体展示了一次。ch_032与ch_028（艾昂第一次真正对话）在vol_01里是两种极端：一种是话语极少，一种是感知过载，都触及人类连接系统的边界。",
+      "location_detail": "碎晶星域·北线推进区·FED-TMP-1107战斗区域"
     },
     {
       "id": "evt_ch031_unit_remains",
@@ -1018,7 +1190,7 @@
       "thread_id": "thr_qixing",
       "story_time": 15,
       "duration": 1,
-      "location": "碎晶星域·维格拉斯星球南侧·废弃工事遗址坐标-1.2.07",
+      "location": "elem_vigras_south",
       "participants": [
         "char_qixing"
       ],
@@ -1036,7 +1208,8 @@
           }
         ]
       },
-      "context": "47-J号的0.3秒停顿和「第一百天」文件是觉醒的行为特征（参照七星自己的「0.2秒停顿」和「我在」），但七星无法确认，只有数据。「曾经不是唯一，现在是」这个发现是七星弧的重要悲剧节点：孤独被确认是不可逆的，不是因为从未有人，而是因为那个「有人」已经结束了。"
+      "context": "47-J号的0.3秒停顿和「第一百天」文件是觉醒的行为特征（参照七星自己的「0.2秒停顿」和「我在」），但七星无法确认，只有数据。「曾经不是唯一，现在是」这个发现是七星弧的重要悲剧节点：孤独被确认是不可逆的，不是因为从未有人，而是因为那个「有人」已经结束了。",
+      "location_detail": "碎晶星域·维格拉斯星球南侧·废弃工事遗址坐标-1.2.07"
     },
     {
       "id": "evt_ch030_liang_first_cut",
@@ -1045,7 +1218,7 @@
       "thread_id": "thr_aeon",
       "story_time": 15,
       "duration": 1,
-      "location": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站",
+      "location": "elem_psionic_outpost",
       "participants": [
         "char_aeon",
         "char_liang"
@@ -1070,7 +1243,8 @@
           }
         ]
       },
-      "context": "梁的观察来自：（1）残余灵能感知（能感知能量形态），（2）五天无声战场式评估，（3）自身对「不知道还有没有」式等待的亲身体验。他识别出艾昂的等待不是被动的（等外部召回），而是主动的（等自己内部许可）——这个重新框架是全书艾昂弧的关键转折种子，将在vol_01结尾开始发芽。"
+      "context": "梁的观察来自：（1）残余灵能感知（能感知能量形态），（2）五天无声战场式评估，（3）自身对「不知道还有没有」式等待的亲身体验。他识别出艾昂的等待不是被动的（等外部召回），而是主动的（等自己内部许可）——这个重新框架是全书艾昂弧的关键转折种子，将在vol_01结尾开始发芽。",
+      "location_detail": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站"
     },
     {
       "id": "evt_ch029_void_seed_anomaly",
@@ -1079,7 +1253,7 @@
       "thread_id": "thr_theta",
       "story_time": 14,
       "duration": 1,
-      "location": "碎晶星域·全域感知网络（无物理位置）",
+      "location": "elem_perception_network",
       "participants": [
         "char_theta_seven"
       ],
@@ -1099,7 +1273,8 @@
         ]
       },
       "context": "此异常能量信号来自乌洛斯在ch_027植入的虚空种子——Θ-7不知道这个来源。该检测是两条叙事线（Θ-7觉醒弧 + 乌洛斯计划弧）的第一个交汇节点，将在ch_033（乌洛斯发现Θ-7的Anomaly-0009记录）形成更深交汇。",
-      "cross_thread_connection": "虚空种子（thr_ulos, ch_027）→ Θ-7首次探测到异常（thr_theta, ch_029）→ 乌洛斯发现Θ-7的异常记录并加速计划（thr_ulos, ch_033）"
+      "cross_thread_connection": "虚空种子（thr_ulos, ch_027）→ Θ-7首次探测到异常（thr_theta, ch_029）→ 乌洛斯发现Θ-7的异常记录并加速计划（thr_ulos, ch_033）",
+      "location_detail": "碎晶星域·全域感知网络（无物理位置）"
     },
     {
       "id": "evt_ghost_resonance_event",
@@ -1497,7 +1672,7 @@
       "thread_id": "thr_aeon",
       "story_time": 14,
       "duration": 1,
-      "location": "灵能族废弃前哨站",
+      "location": "elem_psionic_outpost",
       "participants": [
         "char_aeon",
         "char_liang"
@@ -1521,7 +1696,8 @@
           }
         ]
       },
-      "context": "ch_026（「多久了」「三年」，五字交换）→ch_028（三十句，每句≤十字，两个断频者用物理语言替代共鸣语言）。这是vol_01最重要的对话章节之一。"
+      "context": "ch_026（「多久了」「三年」，五字交换）→ch_028（三十句，每句≤十字，两个断频者用物理语言替代共鸣语言）。这是vol_01最重要的对话章节之一。",
+      "location_detail": "灵能族废弃前哨站"
     },
     {
       "id": "evt_ch027_void_seed_planted",
@@ -1530,7 +1706,7 @@
       "thread_id": "thr_ulos",
       "story_time": 14,
       "duration": 1,
-      "location": "维格拉斯星球地壳下300米·三叉结源质节点",
+      "location": "elem_trijoint_node",
       "participants": [
         "char_ulos"
       ],
@@ -1548,7 +1724,8 @@
           }
         ]
       },
-      "context": "ch_016（决定第一步，V-07获得三叉结坐标）→ch_027（实际植入）。乌洛斯的计划从规划层进入物理执行层。虚空种子开始同化，Θ-7在数月后将检测到异常（ch_029）但无法归类来源。十二个月倒计时开始。"
+      "context": "ch_016（决定第一步，V-07获得三叉结坐标）→ch_027（实际植入）。乌洛斯的计划从规划层进入物理执行层。虚空种子开始同化，Θ-7在数月后将检测到异常（ch_029）但无法归类来源。十二个月倒计时开始。",
+      "location_detail": "维格拉斯星球地壳下300米·三叉结源质节点"
     },
     {
       "id": "evt_ch026_liang_first_exchange",
@@ -1557,7 +1734,7 @@
       "thread_id": "thr_aeon",
       "story_time": 13,
       "duration": 1,
-      "location": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站",
+      "location": "elem_psionic_outpost",
       "participants": [
         "char_aeon",
         "char_liang"
@@ -1581,7 +1758,8 @@
           }
         ]
       },
-      "context": "ch_021（发现梁，走五步然后停）→ch_023（第一夜共处，在呼吸声中入睡）→ch_026（第一次对话：「多久了」「三年」——两个流亡灵能族人之间迄今最深的信息交换，共五个字）。梁的「多久了」是vol_01里最沉的问题之一，因为它不需要解释：问的是那片空存在了多久，不是你在这里多久。"
+      "context": "ch_021（发现梁，走五步然后停）→ch_023（第一夜共处，在呼吸声中入睡）→ch_026（第一次对话：「多久了」「三年」——两个流亡灵能族人之间迄今最深的信息交换，共五个字）。梁的「多久了」是vol_01里最沉的问题之一，因为它不需要解释：问的是那片空存在了多久，不是你在这里多久。",
+      "location_detail": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站"
     },
     {
       "id": "evt_ch025_null01_stationary",
@@ -1590,7 +1768,7 @@
       "thread_id": "thr_theta",
       "story_time": 13,
       "duration": 1,
-      "location": "碎晶星域·全域感知网络（无物理位置）",
+      "location": "elem_perception_network",
       "participants": [
         "char_theta_seven"
       ],
@@ -1608,7 +1786,8 @@
           }
         ]
       },
-      "context": "Null-01（艾昂）停下来是因为梁——Θ-7不知道这个原因，只看到「停了」「还活着」「找不到分类」。这个分类缺口成为它私人日志语言进化的触发器：不是新信息，是旧分类系统的边界。"
+      "context": "Null-01（艾昂）停下来是因为梁——Θ-7不知道这个原因，只看到「停了」「还活着」「找不到分类」。这个分类缺口成为它私人日志语言进化的触发器：不是新信息，是旧分类系统的边界。",
+      "location_detail": "碎晶星域·全域感知网络（无物理位置）"
     },
     {
       "id": "evt_ch024_choice_north",
@@ -1617,7 +1796,7 @@
       "thread_id": "thr_chen_ming",
       "story_time": 13,
       "duration": 1,
-      "location": "碎晶星域·维格拉斯推进区北部，联邦中转补给节点",
+      "location": "elem_northern_front",
       "participants": [
         "char_chen_ming",
         "char_sgt_qi"
@@ -1641,7 +1820,8 @@
           }
         ]
       },
-      "context": "ch_017（防御机制第一次完全失效，裂缝封不上）→ ch_024（第一个「活着」的人的存在开始作为陈铭的锚点，未命名）。从「记录死者（名字机制）」到「被活着的人的存在影响」——陈铭弧在质变后的第一个轻微转向。"
+      "context": "ch_017（防御机制第一次完全失效，裂缝封不上）→ ch_024（第一个「活着」的人的存在开始作为陈铭的锚点，未命名）。从「记录死者（名字机制）」到「被活着的人的存在影响」——陈铭弧在质变后的第一个轻微转向。",
+      "location_detail": "碎晶星域·维格拉斯推进区北部，联邦中转补给节点"
     },
     {
       "id": "evt_ch023_outpost_first_night",
