@@ -117,6 +117,48 @@ Chinese 中文 web fiction). Set it at init: `init_kb.py ... --language zh-Hans 
 
 ---
 
+## Per-chapter writing discipline (two non-negotiables)
+
+Phase III-B (WRITE) is governed by two rules the **narrative-execution** skill specifies in
+full (CTX-01 and LEN-01). They are summarized here because they shape every chapter:
+
+### 1. Context-window discipline — write from a chapter-scoped working set (CTX-01)
+
+Each chapter is written from a **small, focused context**, not the whole manuscript or the
+whole KB. The default working set is: this chapter's beat sheet, the **materialized profile**
+of the POV (and on-scene characters only) via `build_profile.py`, the **last 1–3 chapter
+summaries**, the **open plot-thread hooks the beats target**, and the specific
+`ontology.json` slices the beats touch (event beat designs, as-of-chapter relations,
+relevant world rules).
+
+Expand outward **only on demand** — if a beat needs a fact, a prior line of dialogue, or a
+character not in the working set, fetch that single record (`search_novel.py` for a specific
+passage; one more profile; one lore entry) and move on. Never preload the full text "to be
+safe." This is what lets the novel exceed the model's context window, keeps voice/style
+consistent, and makes each chapter a self-contained transaction over timeline + state +
+recent-memory + its own beats. Continuity across chapters is carried by `memory/summaries.json`
+and the materialized profile — **not** by re-reading earlier prose in full.
+
+### 2. Prose-density floor — a chapter must fully realize its beats (LEN-01)
+
+A beat sheet is a director's note, not the chapter. A drafted chapter must **dramatize** each
+beat with scene grounding, full dialogue exchanges, interiority (masked to what the POV
+knows), physical blocking, and varied rhythm. Length is **unlimited on the high side** — a
+chapter may run long to finish its event(s), and one continuous draft may cover several
+beats/events the author later splits — but it must never fall below the floor:
+
+| Language | Per-chapter floor | Standard target | Major-event target |
+|---|---|---|---|
+| Chinese (字) | **≥ 1,500 字** | 2,000–3,000 字 | 3,000–5,000+ 字 |
+| English (words) | **≥ 1,000 words** | 1,500–2,500 words | 2,500–4,000+ words |
+
+A draft below the floor is **rejected at the WRITE GATE** — expand the under-developed beats
+before it can pass. A beat sheet's `avoid`/"短/简" cues guide *register and plot restraint*,
+**not** word count; terse tone is fine, a skeletal chapter is not. Check length with
+`wc -m` (字) / `wc -w` (words) before sign-off.
+
+---
+
 ## The gate-based workflow
 
 The NovelForge cycle is **event-driven and gate-gated.** The unit of work is one

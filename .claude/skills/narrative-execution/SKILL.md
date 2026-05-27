@@ -33,9 +33,49 @@ must be complete before writing any of them.
 **Phase B produces exactly one file:** `chapters/<chapter_id>.md`.
 **Phase B must not write any other KB file.** KB updates are Phase C's job.
 
+### B-0 — Context-window discipline (CTX-01) — read this BEFORE assembling context
+
+> **Write each chapter from a small, chapter-scoped working set — never the whole
+> manuscript or the whole KB.** Loading "everything" to be safe is the anti-pattern that
+> wrecks both quality and cost: the model drifts, latency explodes, and the context limit
+> is hit early on long novels. The KB exists precisely so you *don't* have to.
+
+**The default working set (load only these):**
+
+1. `outline/beats/<ch>.json` — this chapter's beat sheet (the agenda).
+2. The **POV's materialized profile** at this `story_time` — the folded state snapshot +
+   active mask. Build it with `narrative-toolkit/scripts/build_profile.py` rather than
+   reading the full `characters/states/<id>.json` history by hand. This one object carries
+   the POV's current inventory, status, psychology, abilities, and `facts_known`.
+3. Materialized profiles for **other on-scene characters only** — not the whole cast.
+4. `memory/summaries.json` — **only the last 1–3 chapter synopses** (continuity tail), not
+   the full summary history.
+5. `memory/plot_threads.json` — **only the open hooks the beat sheet targets**, not every
+   thread.
+6. The specific `ontology.json` slices the beats touch: the `events[events_covered]`
+   beat designs, the **as-of-chapter** relation edges for on-scene characters, and any
+   `world_rules` a beat could violate.
+
+**Expand outward only on demand.** If a beat references a fact, item, place, prior scene,
+or character not in the working set, *then* pull that one record — a single prior chapter's
+prose via `search_novel.py`, one more character's profile, one lore entry. Pull the
+specific record, not the whole file; close it mentally once used. Never preload the full
+manuscript "just in case."
+
+**Do not read full prose of earlier chapters to maintain continuity** — that is what
+`memory/summaries.json` + the materialized profile are for. Reach for raw prose only when
+a beat needs an exact callback (a line of dialogue, a precise description) that the summary
+doesn't preserve, and then fetch just that passage.
+
+This keeps every chapter self-contained: it is written from the timeline context, the
+character's current state, the recent-memory tail, and its own beats — which is also what
+keeps voice/style consistent and lets foreshadowing, reverse-order, and contradiction
+handling work inside a bounded window.
+
 ### B-1 — Context assembly + knowledge masking (WRITE-01a, Fog of War)
 
-Before drafting, assemble context from all relevant KB files:
+Assemble the chapter-scoped working set from B-0. The table below is the **menu** of KB
+files — load the rows you need for *this* chapter's beats, not all of them every time:
 
 | KB file | What to read | Purpose |
 |---|---|---|
@@ -81,6 +121,47 @@ Draft the scene from the beat sheet + filtered context. Mandatory constraints:
 established facts:** stop, surface the conflict to the author, and return to
 narrative-architect for a plan revision. Do not improvise around a gate violation
 silently — that is how continuity drift starts.
+
+### B-2a — Prose-density floor (LEN-01) — a chapter must FULLY REALIZE its beats
+
+A beat sheet is a director's note, not a synopsis to be transcribed. A drafted chapter that
+merely *lists* what happens in a few terse lines is **not done** — it must dramatize each
+beat with scene texture. Over-compression is as much a defect as a continuity error.
+
+**Hard minimum (non-negotiable):** a single drafted unit must reach the language floor:
+
+| Language | Per-chapter floor | Standard target | Major-event target |
+|---|---|---|---|
+| Chinese (字) | **≥ 1,500 字** | 2,000–3,000 字 | 3,000–5,000+ 字 |
+| English (words) | **≥ 1,000 words** | 1,500–2,500 words | 2,500–4,000+ words |
+
+A draft below the floor is rejected at the WRITE GATE — expand it before it can pass.
+(For Chinese 网文 sizing conventions see **narrative-locale**; the floor never drops below
+the table above regardless of genre.)
+
+**Length comes from realization, not padding.** To reach the floor, develop — do not repeat
+or inflate:
+
+- **Scene grounding** — where, when, the sensory field (light, sound, temperature, smell);
+  open every scene in a concrete place at a concrete time.
+- **Full dialogue exchanges** — let conversations breathe across multiple turns with beats,
+  pauses, and subtext; never collapse an exchange to a single reported line.
+- **Interiority** — extended POV observation, reasoning, memory, and emotional movement,
+  filtered through the mask (only what the POV knows). One sentence of inner life is not
+  enough for a beat that turns on it.
+- **Physical action and blocking** — show characters moving through space and handling
+  objects, not just speaking in a void.
+- **Rhythm** — vary sentence length; let a key moment land with its own paragraph.
+
+**Length serves the event, not a quota.** A chapter may run long to finish its event(s) —
+length is *unlimited* on the high side, and one continuous draft may cover several beats or
+events that the author later splits into multiple chapters. But it may never fall below the
+floor. If a beat sheet's `prose_notes` carry an `avoid` list or a "短/简" tone cue, that
+guides **register and restraint of plot, not word count** — terse *tone* is fine; a terse
+*chapter* that skips scene realization is not. When in doubt, dramatize the beat in full.
+
+After drafting, do a quick length check (`wc -m` for 字, `wc -w` for words). If under floor,
+return to the beats and realize the under-developed ones before saving as final.
 
 Save draft to `chapters/<chapter_id>.md`. The author reviews and edits.
 **The final edited text is the input to Phase C.** Phase C must not begin until prose is
@@ -285,6 +366,12 @@ or just see it?
 
 ## Phase B output checklist
 
+- [ ] Context-window discipline (CTX-01): drafted from the chapter-scoped working set
+      (beats + POV/on-scene profiles + recent-summary tail + targeted threads), expanding
+      to other KB only on demand. Full manuscript NOT loaded.
+- [ ] Prose-density floor (LEN-01): draft meets the language floor (≥ 1,500 字 / ≥ 1,000
+      words) and fully realizes every beat with scene grounding, full dialogue, and
+      interiority — not a synopsis. Verified with `wc -m` / `wc -w`.
 - [ ] `chapters/<chapter_id>.md` — the finalised, author-approved prose.
   *(This is the only file Phase B writes.)*
 
@@ -312,6 +399,13 @@ or just see it?
 
 ## Anti-patterns
 
+- **Loading the whole manuscript/KB to write one chapter (CTX-01 violation).** Draft from
+  the chapter-scoped working set; pull other records only on demand. Preloading "everything
+  to be safe" causes drift, latency, and context exhaustion — the KB exists to prevent it.
+- **Transcribing the beat sheet instead of dramatizing it (LEN-01 violation).** A few terse
+  lines that merely state what happens is not a chapter. Under-floor drafts (< 1,500 字 /
+  < 1,000 words) are rejected at the WRITE GATE. Realize every beat with scene texture,
+  full dialogue, and interiority.
 - **Starting Phase C before prose is final.** KB updates mid-edit cause state snapshots
   that reference deleted or rewritten beats. Wait for author sign-off.
 - **Writing KB files in Phase B.** The write gate exists for a reason — if prose-in-
