@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "id": "evt_ch043_survival_map",
+      "name": "七星的地图",
+      "thread_id": "thr_qixing",
+      "story_time": 22,
+      "status": "drafted",
+      "chapter_id": "ch_043",
+      "participants": ["char_qixing"],
+      "summary": "第140天，建立可视化地图：8已搜索全空/死亡，13未搜索。零战术价值，系统建议删除。七星填「可能有误差」，保留。第42次意志频率无回应。"
+    },
+    {
       "id": "evt_ch042_frequency_suppressor",
       "name": "断频器",
       "thread_id": "thr_aeon",

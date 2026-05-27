@@ -45,9 +45,9 @@
       "name": "七星·最后的意识",
       "pov_character": "char_qixing",
       "start_time": 7,
-      "current_time": 15,
-      "latest_chapter": "ch_031",
-      "event_ids": ["evt_ch012_who_am_i", "evt_ch022_signal_37", "evt_ch031_unit_remains"],
+      "current_time": 22,
+      "latest_chapter": "ch_043",
+      "event_ids": ["evt_ch012_who_am_i", "evt_ch022_signal_37", "evt_ch031_unit_remains", "evt_ch043_survival_map"],
       "status": "active"
     }
   ]

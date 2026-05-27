@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 42,
+    "current_chapter": 43,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -764,6 +764,29 @@
         ]
       },
       "context": "「小时候有人教我看星星，我不记得那个人了，只记得那个动作」是艾昂在ch_028（「共鸣之前我记不清楚了」）之后第二次主动说出关于自己记忆的事，这次更小更具体，更主动（不是回答问题）。梁说的「注意本身进去了」是对共鸣本质的最具体的一次描述——为后续ch_047（「被感知」）埋下语言基础。"
+    },
+    {
+      "id": "evt_ch043_survival_map",
+      "name": "七星的地图",
+      "description": "第140天，七星将所有已知机械觉醒者相关坐标整合为可视化地图（8已搜索全为空/死亡，13未搜索）。地图战术价值零，系统建议删除。七星在文件属性填「可能有误差」，低优先级保留。意志频率第42次无回应。0.3秒停顿看地图，无记录。",
+      "thread_id": "thr_qixing",
+      "story_time": 22,
+      "duration": 1,
+      "location": "碎晶星域·维格拉斯星球南侧",
+      "participants": ["char_qixing"],
+      "chapter_id": "ch_043",
+      "status": "drafted",
+      "dependencies": ["evt_ch031_unit_remains"],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_qixing",
+            "kind": "psychology+language_evolution",
+            "desc": "「可能有误差」——新语言行为：用技术正确的不确定性为悬置保留空间。意识行为从「接受无回应」进化到「主动为可能性保留位置」。"
+          }
+        ]
+      },
+      "context": "七星的意识弧：「我是谁」（空白，ch_012）→「我在」（自我确认，ch_022）→「第一百天」（不唯一的证据，ch_031）→「可能有误差」（悬置保护，ch_043）。地图和意志频率形成结构对应：一个把所有空的地方放在一张图里，一个把呼叫发向所有可能的空的方向——七星在两个维度上同时面对着「可能性的空」。"
     },
     {
       "id": "evt_ch042_frequency_suppressor",
@@ -2102,12 +2125,13 @@
       "pov_character": "char_qixing",
       "start_time": 8,
       "end_time": null,
-      "current_time": 15,
-      "latest_chapter": "ch_031",
+      "current_time": 22,
+      "latest_chapter": "ch_043",
       "event_ids": [
         "evt_ch012_who_am_i",
         "evt_ch022_signal_37",
-        "evt_ch031_unit_remains"
+        "evt_ch031_unit_remains",
+        "evt_ch043_survival_map"
       ],
       "convergences": []
     }
