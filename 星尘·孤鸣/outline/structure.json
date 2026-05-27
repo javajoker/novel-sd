@@ -809,7 +809,8 @@
           "story_time": 31,
           "one_line": "艾昂在灵能族前哨站里独自待了一天，什么都没有做，等待某种他说不清的东西稳定下来。",
           "scene_arc": "空→空→空（但不是ch_001的那种空）",
-          "status": "outlined"
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_063.json"
         },
         {
           "id": "ch_064",
