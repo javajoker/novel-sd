@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "id": "evt_ch044_first_recruit_dies",
+      "name": "消耗",
+      "thread_id": "thr_chen_ming",
+      "story_time": 22,
+      "status": "drafted",
+      "chapter_id": "ch_044",
+      "participants": ["char_chen_ming"],
+      "summary": "苏同死亡（七新兵第一个）。细节先到（微抖）。阻力消失后无缓冲，名字直接进内部。不想记=已经记了。更深处存档，带细节。七个里的一个了。"
+    },
+    {
       "id": "evt_ch043_survival_map",
       "name": "七星的地图",
       "thread_id": "thr_qixing",

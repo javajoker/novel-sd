@@ -331,7 +331,8 @@
           "id": "ch_044", "number": 44, "title": "消耗",
           "thread_id": "thr_chen_ming", "pov_character": "char_chen_ming", "story_time": 22,
           "one_line": "陈铭的新兵里第一个死了，他不想记这个名字，但他还是记了——在更深的地方记的。",
-          "scene_arc": "战斗→死亡→记名字（这次不是口袋里，是更深处）", "status": "outlined"
+          "scene_arc": "战斗→死亡→记名字（这次不是口袋里，是更深处）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_044.json"
         },
         {
           "id": "ch_045", "number": 45, "title": "源质歌",

@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 43,
+    "current_chapter": 44,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -764,6 +764,29 @@
         ]
       },
       "context": "「小时候有人教我看星星，我不记得那个人了，只记得那个动作」是艾昂在ch_028（「共鸣之前我记不清楚了」）之后第二次主动说出关于自己记忆的事，这次更小更具体，更主动（不是回答问题）。梁说的「注意本身进去了」是对共鸣本质的最具体的一次描述——为后续ch_047（「被感知」）埋下语言基础。"
+    },
+    {
+      "id": "evt_ch044_first_recruit_dies",
+      "name": "消耗",
+      "description": "苏同死亡（七名新兵里第一个）。陈铭未目击全程，战损核对时听见名字，细节先到（左手大拇指微抖）。阻力消失后没有保护层，名字直接进入内部。不想记，认出「不想记=已经记了」，把苏同放进更深处，带着那个独属于陈铭的细节。七个里的一个了。",
+      "thread_id": "thr_chen_ming",
+      "story_time": 22,
+      "duration": 1,
+      "location": "碎晶星域·北线推进区",
+      "participants": ["char_chen_ming"],
+      "chapter_id": "ch_044",
+      "status": "drafted",
+      "dependencies": ["evt_ch038_new_recruits"],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_chen_ming",
+            "kind": "psychology",
+            "desc": "阻力消失后的第一次死亡体验：比预期更深，不是更轻。名牌仪式到内部直接存档的转变完成。isolation降至60。"
+          }
+        ]
+      },
+      "context": "hook_chen_ming_names的关键更新节点：ch_038（阻力消失，名字直接进去，害怕的是自己的磨损）→ch_044（阻力消失后的第一次死亡——比阻力存在时更重，不是更轻，因为没有缓冲层了）。陈铭发现了「阻力消失」的真实代价：以前的阻力是保护层，现在没有保护层，死亡直接进入。那个「细节先到」（微抖）是陈铭独有的记忆，现在成了苏同的全部——这是一种新的责任感，他是那个细节的唯一持有者。"
     },
     {
       "id": "evt_ch043_survival_map",
@@ -2104,8 +2127,8 @@
       "pov_character": "char_chen_ming",
       "start_time": 2,
       "end_time": null,
-      "current_time": 19,
-      "latest_chapter": "ch_038",
+      "current_time": 22,
+      "latest_chapter": "ch_044",
       "event_ids": [
         "evt_ch002_chen_ming_names",
         "evt_ch005_march",
@@ -2114,7 +2137,8 @@
         "evt_ch017_the_fifteenth",
         "evt_ch024_choice_north",
         "evt_ch032_forty_eight_hours",
-        "evt_ch038_new_recruits"
+        "evt_ch038_new_recruits",
+        "evt_ch044_first_recruit_dies"
       ],
       "convergences": []
     },
