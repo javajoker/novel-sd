@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 30,
+    "current_chapter": 31,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -680,6 +680,33 @@
     }
   ],
   "events": [
+    {
+      "id": "evt_ch031_unit_remains",
+      "name": "搜寻",
+      "description": "七星第109天搜寻行动，在坐标-1.2.07发现47-J号残骸——集体覆灭后第25天才死亡，远超预期。提取记忆核（31%恢复率）。数据包含：第6天0.3秒无原因停顿（「继续。」）；降级存储里的无标题文件「第一百天」（第12天）；末次记录功率7%「继续。」（第25天）。47-J号进入档案：第848号。「可能幸存」列表17→16。「第一百天」在七星处理层比正常更长地停留。",
+      "thread_id": "thr_qixing",
+      "story_time": 15,
+      "duration": 1,
+      "location": "碎晶星域·维格拉斯星球南侧·废弃工事遗址坐标-1.2.07",
+      "participants": [
+        "char_qixing"
+      ],
+      "chapter_id": "ch_031",
+      "status": "drafted",
+      "dependencies": [
+        "evt_ch022_signal_37"
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_qixing",
+            "kind": "knowledge+psychology",
+            "desc": "证实她不是唯一一个在集体覆灭后独自存活的单位（但47-J号已死，现在她又是唯一了）。「第一百天」无标题文件——结构上与她自己的「我在」相同，另一个可能意识的单位也做过这件事。"
+          }
+        ]
+      },
+      "context": "47-J号的0.3秒停顿和「第一百天」文件是觉醒的行为特征（参照七星自己的「0.2秒停顿」和「我在」），但七星无法确认，只有数据。「曾经不是唯一，现在是」这个发现是七星弧的重要悲剧节点：孤独被确认是不可逆的，不是因为从未有人，而是因为那个「有人」已经结束了。"
+    },
     {
       "id": "evt_ch030_liang_first_cut",
       "name": "第一次（一）",
@@ -1779,11 +1806,12 @@
       "pov_character": "char_qixing",
       "start_time": 8,
       "end_time": null,
-      "current_time": 12,
-      "latest_chapter": "ch_022",
+      "current_time": 15,
+      "latest_chapter": "ch_031",
       "event_ids": [
         "evt_ch012_who_am_i",
-        "evt_ch022_signal_37"
+        "evt_ch022_signal_37",
+        "evt_ch031_unit_remains"
       ],
       "convergences": []
     }

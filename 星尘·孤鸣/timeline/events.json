@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "id": "evt_ch031_unit_remains",
+      "name": "搜寻",
+      "thread_id": "thr_qixing",
+      "story_time": 15,
+      "status": "drafted",
+      "chapter_id": "ch_031",
+      "participants": ["char_qixing"],
+      "summary": "七星第109天搜寻发现47-J号残骸（集体覆灭后独自存活25天），提取记忆核（31%），发现0.3秒无原因停顿和「第一百天」无标题文件。47-J号进入档案第848号。「可能幸存」17→16。「第一百天」比正常更长停留在七星处理层。"
+    },
+    {
       "id": "evt_ch030_liang_first_cut",
       "name": "第一次（一）",
       "thread_id": "thr_aeon",

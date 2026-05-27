@@ -241,7 +241,8 @@
           "id": "ch_031", "number": 31, "title": "搜寻",
           "thread_id": "thr_qixing", "pov_character": "char_qixing", "story_time": 15,
           "one_line": "七星在废墟中找到了一具完全损毁的机械觉醒者残骸，试图提取最后的记忆档案。",
-          "scene_arc": "搜寻→发现→提取（残缺的，但是有的）", "status": "outlined"
+          "scene_arc": "搜寻→发现→提取（残缺的，但是有的）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_031.json"
         },
         {
           "id": "ch_032", "number": 32, "title": "四十八小时",
