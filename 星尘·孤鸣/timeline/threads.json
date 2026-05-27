@@ -5,9 +5,9 @@
       "name": "艾昂·孤鸣者",
       "pov_character": "char_aeon",
       "start_time": 1,
-      "current_time": 9,
-      "latest_chapter": "ch_015",
-      "event_ids": ["evt_novel_opening", "evt_ch004_first_encounter", "evt_ch007_war_machine_outside", "evt_ch011_psionic_ruins", "evt_ch015_ore_vein"],
+      "current_time": 21,
+      "latest_chapter": "ch_041",
+      "event_ids": ["evt_novel_opening", "evt_ch004_first_encounter", "evt_ch007_war_machine_outside", "evt_ch011_psionic_ruins", "evt_ch015_ore_vein", "evt_ch019_turning_back", "evt_ch021_finding_liang", "evt_ch023_outpost_first_night", "evt_ch026_liang_first_exchange", "evt_ch028_first_real_conversation", "evt_ch030_liang_first_cut", "evt_ch034_residual_resonance", "evt_ch036_shared_rhythm", "evt_ch037_first_memory_exchange", "evt_ch041_night_conversation", "evt_ch042_frequency_suppressor"],
       "status": "active"
     },
     {
@@ -15,9 +15,9 @@
       "name": "陈铭·拼死求生者",
       "pov_character": "char_chen_ming",
       "start_time": 1,
-      "current_time": 10,
-      "latest_chapter": "ch_017",
-      "event_ids": ["evt_ch002_chen_ming_names", "evt_ch005_march", "evt_ch009_new_battlefield", "evt_ch014_that_person", "evt_ch017_the_fifteenth"],
+      "current_time": 22,
+      "latest_chapter": "ch_044",
+      "event_ids": ["evt_ch002_chen_ming_names", "evt_ch005_march", "evt_ch009_new_battlefield", "evt_ch014_that_person", "evt_ch017_the_fifteenth", "evt_ch024_choice_north", "evt_ch032_forty_eight_hours", "evt_ch038_new_recruits", "evt_ch044_first_recruit_dies"],
       "status": "active"
     },
     {
@@ -25,9 +25,9 @@
       "name": "Θ-7·时回",
       "pov_character": "char_theta_seven",
       "start_time": 1,
-      "current_time": 8,
-      "latest_chapter": "ch_013",
-      "event_ids": ["evt_ch003_theta_first_question", "evt_ch006_second_question", "evt_ch010_standard_deviation", "evt_ch013_null_01"],
+      "current_time": 20,
+      "latest_chapter": "ch_040",
+      "event_ids": ["evt_ch003_theta_first_question", "evt_ch006_second_question", "evt_ch010_standard_deviation", "evt_ch013_null_01", "evt_ch018_tracking_decision", "evt_ch025_null01_stationary", "evt_ch029_void_seed_anomaly", "evt_ch035_theta_first_metaphor", "evt_ch040_theta_first_intervention"],
       "status": "active"
     },
     {
@@ -35,9 +35,9 @@
       "name": "乌洛斯·裂空者",
       "pov_character": "char_ulos",
       "start_time": 5,
-      "current_time": 10,
-      "latest_chapter": "ch_016",
-      "event_ids": ["evt_ch008_ulos_watching", "evt_ch016_plan_first_step"],
+      "current_time": 20,
+      "latest_chapter": "ch_039",
+      "event_ids": ["evt_ch008_ulos_watching", "evt_ch016_plan_first_step", "evt_ch020_void_parliament", "evt_ch027_void_seed_planted", "evt_ch033_ulos_monitors_anomaly", "evt_ch039_void_seed_growth"],
       "status": "active"
     },
     {
@@ -45,9 +45,9 @@
       "name": "七星·最后的意识",
       "pov_character": "char_qixing",
       "start_time": 7,
-      "current_time": 7,
-      "latest_chapter": "ch_012",
-      "event_ids": ["evt_ch012_who_am_i"],
+      "current_time": 22,
+      "latest_chapter": "ch_043",
+      "event_ids": ["evt_ch012_who_am_i", "evt_ch022_signal_37", "evt_ch031_unit_remains", "evt_ch043_survival_map"],
       "status": "active"
     }
   ]

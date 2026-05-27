@@ -2,6 +2,36 @@
   "character_id": "char_aeon",
   "knowledge_at": [
     {
+      "story_time": 21,
+      "chapter_id": "ch_041",
+      "facts_confirmed": [],
+      "facts_newly_learned": [
+        "梁知道艾尔维斯族约八百年前曾有过一次内部停战倡议——存在过，没有推进。梁有艾尔维斯族历史知识，且愿意在对话里使用它。"
+      ],
+      "notes": "ch_041主要是内部发展而非外部事实获取。艾昂第一次在另一个人面前区分了「我的判断」和「真相的准确性」（「我不觉得它会停。不知道这是不是对的。」）。说出了「从来没有想过以后是什么样的」——第一次把自己内部的空白说给另一个人听，不是悲剧陈述，只是实况报告。梁的历史知识（八百年前倡议）是新增的关于梁的认知——他知道历史，他用历史对话。",
+      "new_internal_fact": "战争也许在某个时间点本可以停止，但「不相信可以停」这件事本身可能是原因之一——这是艾昂自己说出来的，他不确定是不是对的，但它是真实的直觉。「以后的样子」这个维度在艾昂的内部地图上是空的——不是被封锁，而是从来没有在这个位置生成过地形。"
+    },
+    {
+      "story_time": 19,
+      "chapter_id": "ch_037",
+      "facts_confirmed": [],
+      "facts_newly_learned": [
+        "梁对共鸣的具体描述：「注意本身，进去了」——共鸣不只是情感传递，还包括「注意」本身（attention itself）的可传输性"
+      ],
+      "notes": "ch_037无新外部事实。关键内部发展：（1）听见了梁对共鸣「注意本身进去了」的描述，他知道那是什么意思但不记得感觉了；（2）说出了「小时候有人教我看星星，我不记得那个人了，只记得那个动作」——这是三年来第一次主动说出属于他的私人过去记忆（不是对问题的回答）；（3）说完没有为它赋予意义，继续做手里的事。",
+      "new_internal_fact": "「那个人」（教他看星星的人）现在存在于被说出来的记忆里——他记得动作，不记得人，但这件事被说出来了，它从完全内部变成了被另一个人听见的。"
+    },
+    {
+      "story_time": 18,
+      "chapter_id": "ch_036",
+      "facts_confirmed": [],
+      "facts_newly_learned": [
+        "梁独立站立约十秒（手扶支撑面），自行坐回——恢复进度超预期",
+        "梁会主动布置空间以优化物理治疗（事先评估支点高度）"
+      ],
+      "notes": "ch_036无戏剧性转折，是稳定共处日常。艾昂意识到两件无意识变化：（1）「先给梁后给自己」的优先顺序已成惯例（无协商）；（2）东边方向今天整天缺席（第二次整天）。两件事都注意到了，都不分析，继续。梁的10秒站立被观察到，恢复进度良好——这意味着梁离开的时间在靠近，但艾昂没有去想这个后续。"
+    },
+    {
       "story_time": 0,
       "facts_known": [
         "fact_aeon_resonance_severed",
@@ -25,6 +55,138 @@
         "level": "high_physical_low_psionic",
         "notes": "物理空间感知极强，战场直觉一流；灵能感知大幅衰减，只能感知物理空间而非他人意识或情绪；对源质振动有残余感知，比他自己意识到的更敏感"
       }
+    },
+    {
+      "story_time": 17,
+      "chapter_id": "ch_034",
+      "facts_known": ["fact_aeon_resonance_severed", "fact_ghost_event"],
+      "facts_newly_confirmed": [],
+      "facts_unknown": [
+        "fact_the_lie", "fact_war_director_awakening", "fact_ulos_true_origin",
+        "fact_origin_matter_consciousness", "fact_federation_monopoly_plan", "fact_elwis_council_lie"
+      ],
+      "new_observation": "储存晶石有旧灵能共鸣残留（梁激活了）。梁有残余灵能能力（可以触碰高浓度灵能积累物并产生辐射）。他自己的断频接收位置在极微弱信号下仍有残存感知。",
+      "beliefs_at_chapter_end": [
+        {"belief": "只要足够克制，有一天可以重回共鸣", "is_true": false},
+        {"belief": "战争会在某天终止", "is_true": false},
+        {"belief": "他对其他族群的生死已经无动于衷", "is_true": false},
+        {"belief": "他的断频接收位置已经完全封闭，不可能再感知任何东西", "is_true": false, "note": "新增→被打穿（轻微）：那几秒里他感知到了什么。不是「共鸣恢复」，但接收位置并非绝对封闭。他决定不去想这件事意味着什么，但内部事实已经改变了一点点。"},
+        {"belief": "「在沉默之前和在沉默之后，这两种沉默不完全一样。」", "is_true": true, "note": "这是他自己的内部语言对这件事的描述——不是信念系统的一部分，但它成为了他此刻的内部知识。"}
+      ]
+    },
+    {
+      "story_time": 15,
+      "chapter_id": "ch_030",
+      "facts_known": ["fact_aeon_resonance_severed", "fact_ghost_event"],
+      "facts_newly_confirmed": [],
+      "facts_unknown": [
+        "fact_the_lie", "fact_war_director_awakening", "fact_ulos_true_origin",
+        "fact_origin_matter_consciousness", "fact_federation_monopoly_plan", "fact_elwis_council_lie"
+      ],
+      "new_observation": "梁五天的观察之后说出了对艾昂等待结构的分析——「你是在等你自己允许你离开」。艾昂没有否认，没有确认。艾昂新的内部事实：那句话在那里了，且当天晚上东边方向的习惯性视线消失了几小时。",
+      "beliefs_at_chapter_end": [
+        {"belief": "只要足够克制，有一天可以重回共鸣", "is_true": false},
+        {"belief": "战争会在某天终止", "is_true": false},
+        {"belief": "他对其他族群的生死已经无动于衷", "is_true": false},
+        {"belief": "他没有方向，只是在走", "is_true": false},
+        {"belief": "他的断频体验无法被任何人理解", "is_true": false},
+        {"belief": "他在等族人召回他", "is_true": false, "note": "新增→被重新框架但未完全处理：梁说出「你是在等你自己允许你离开」，这把「等待外部召回」的框架打开，但艾昂没有回答——他没有承认，也没有否认。这个信念的结构开始松动，但他还没有用新框架替换它。"},
+        {"belief": "连接不只是负担", "is_true": "unknown", "note": "ch_028「没有想到也可以不那么困难」→ch_030（梁说了那句话，艾昂不否认）：连接的形式变得更复杂——有时候连接是被看见，被看见有时候比被理解更难承受"}
+      ]
+    },
+    {
+      "story_time": 14,
+      "chapter_id": "ch_028",
+      "facts_known": ["fact_aeon_resonance_severed", "fact_ghost_event"],
+      "facts_newly_confirmed": [],
+      "facts_unknown": [
+        "fact_the_lie", "fact_war_director_awakening", "fact_ulos_true_origin",
+        "fact_origin_matter_consciousness", "fact_federation_monopoly_plan", "fact_elwis_council_lie"
+      ],
+      "new_observation": "梁要去西边约30公里的地方（目的未知）。梁在等「不知道还有没有」的另一端（某人/网络，艾昂不知道是谁或什么）。梁理解「共鸣之前我记不清楚了」。艾昂新的内部事实：他对自己的断频体验第一次用语言说了出来。",
+      "beliefs_at_chapter_end": [
+        {"belief": "只要足够克制，有一天可以重回共鸣", "is_true": false},
+        {"belief": "战争会在某天终止", "is_true": false},
+        {"belief": "他对其他族群的生死已经无动于衷", "is_true": false},
+        {"belief": "他没有方向，只是在走", "is_true": false},
+        {"belief": "他可以在不与人发生连接的情况下帮助一个人", "is_true": false, "note": "「没有想到它也可以不那么困难」——第一次承认与人说话这件事不只是负担"},
+        {"belief": "他的断频体验无法被任何人理解", "is_true": false, "note": "新增→被打穿：梁点头了，他听懂了。这是艾昂三年来第一次体验到被理解。"}
+      ]
+    },
+    {
+      "story_time": 13,
+      "chapter_id": "ch_026",
+      "facts_known": ["fact_aeon_resonance_severed", "fact_ghost_event"],
+      "facts_newly_confirmed": [],
+      "facts_unknown": [
+        "fact_the_lie", "fact_war_director_awakening", "fact_ulos_true_origin",
+        "fact_origin_matter_consciousness", "fact_federation_monopoly_plan", "fact_elwis_council_lie"
+      ],
+      "new_observation": "梁的共鸣感知仍在（感知到艾昂的断频）。梁的身体历史：近战武器训练超十年（虎口茧），旧伤愈合良好（曾得到处置）。梁独立进食。梁的第一句话是「多久了」，不是问句，看着艾昂的颈肩（共鸣接收点位置）。艾昂说了「三年」——第一次对任何人说出这个数字。他意识到在规划两周，没有审视这件事。",
+      "beliefs_at_chapter_end": [
+        {"belief": "只要足够克制，有一天可以重回共鸣", "is_true": false},
+        {"belief": "战争会在某天终止", "is_true": false},
+        {"belief": "他对其他族群的生死已经无动于衷", "is_true": false},
+        {"belief": "那块源质碎晶只是一个习惯", "is_true": "unknown"},
+        {"belief": "他没有方向，只是在走", "is_true": false},
+        {"belief": "他可以在不与人发生连接的情况下帮助一个人", "is_true": "increasingly uncertain"},
+        {"belief": "他的断频对身边的人来说是不可见的", "is_true": false, "note": "新增——梁感知到了，「多久了」证明了这件事。三年来第一次有人知道那片空的存在。艾昂没有给这件事一个名字，但它现在是一个已知的事实。"}
+      ]
+    },
+    {
+      "story_time": 12,
+      "chapter_id": "ch_023",
+      "facts_known": ["fact_aeon_resonance_severed", "fact_ghost_event"],
+      "facts_newly_confirmed": [],
+      "facts_unknown": [
+        "fact_the_lie", "fact_war_director_awakening", "fact_ulos_true_origin",
+        "fact_origin_matter_consciousness", "fact_federation_monopoly_plan", "fact_elwis_council_lie"
+      ],
+      "new_observation": "梁体重很轻（营养不足已久）；会对痛有声音反应；能短暂睁眼。艾昂不知道梁的名字、来历、共鸣状态。他把梁安置在储存晶石旁——他不知道那块晶石有留言（ch_011他知道晶石在那里但不知道内容，他感知不到共鸣）。",
+      "beliefs_at_chapter_end": [
+        {"belief": "只要足够克制，有一天可以重回共鸣", "is_true": false},
+        {"belief": "战争会在某天终止", "is_true": false},
+        {"belief": "他对其他族群的生死已经无动于衷", "is_true": false},
+        {"belief": "那块源质碎晶只是一个习惯", "is_true": "unknown"},
+        {"belief": "他没有方向，只是在走", "is_true": false},
+        {"belief": "他可以在不与人发生连接的情况下帮助一个人", "is_true": "increasingly uncertain", "note": "新增——他花了整夜扶着一个人，听着另一个人的呼吸声入睡，这件事的规模超出了「做需要做的事」的定义"}
+      ]
+    },
+    {
+      "story_time": 12,
+      "chapter_id": "ch_021",
+      "facts_known": ["fact_aeon_resonance_severed", "fact_ghost_event"],
+      "facts_newly_confirmed": [],
+      "facts_unknown": [
+        "fact_the_lie", "fact_war_director_awakening", "fact_ulos_true_origin",
+        "fact_origin_matter_consciousness", "fact_federation_monopoly_plan", "fact_elwis_council_lie"
+      ],
+      "new_observation": "发现并处理了梁（名字尚不知）。已知：灵能族、正式族纹（曾参与共鸣网络）、流亡状态（衣物修补方式）、腿部贯穿伤。未知：名字、来历、与共鸣之殇的关系（如有）。艾昂不知道这个人与他的历史是否有交叉。",
+      "beliefs_at_chapter_end": [
+        {"belief": "只要足够克制，有一天可以重回共鸣", "is_true": false},
+        {"belief": "战争会在某天终止", "is_true": false},
+        {"belief": "他对其他族群的生死已经无动于衷", "is_true": false, "note": "ch_021直接证伪——他停下来了"},
+        {"belief": "那块源质碎晶只是一个习惯", "is_true": "unknown"},
+        {"belief": "他没有方向，只是在走", "is_true": false, "note": "他到这里了，他不走了"}
+      ]
+    },
+    {
+      "story_time": 11,
+      "chapter_id": "ch_019",
+      "facts_known": ["fact_aeon_resonance_severed", "fact_ghost_event"],
+      "facts_newly_confirmed": [],
+      "facts_unknown": [
+        "fact_the_lie", "fact_war_director_awakening", "fact_ulos_true_origin",
+        "fact_origin_matter_consciousness", "fact_federation_monopoly_plan", "fact_elwis_council_lie"
+      ],
+      "new_observation": "他知道：前哨站遗址大概在西北方向两天路程处，那里有裂隙渗水。他不知道：为什么他往那个方向走了。他没有问自己这个问题，但在睡前他承认了「脚知道」这件事存在。",
+      "beliefs_at_chapter_end": [
+        {"belief": "只要足够克制，有一天可以重回共鸣", "is_true": false},
+        {"belief": "战争会在某天终止", "is_true": false},
+        {"belief": "他对其他族群的生死已经无动于衷", "is_true": false},
+        {"belief": "那块源质碎晶只是一个习惯", "is_true": "unknown"},
+        {"belief": "他没有方向，只是在走", "is_true": "increasingly false", "note": "新增——第一次有意识地走向某个地方（前哨站），但他还不承认「是走向」，只是「脚知道」"}
+      ]
     },
     {
       "story_time": 9,

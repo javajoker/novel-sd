@@ -2,6 +2,16 @@
   "character_id": "char_chen_ming",
   "knowledge_at": [
     {
+      "story_time": 16,
+      "chapter_id": "ch_032",
+      "facts_confirmed": [],
+      "facts_newly_learned": [],
+      "notes": "ch_032无新外部事实传递。关键内部发展：（1）名字→人的语义链在第41小时出现可测量延迟（「老齐！」先处理音节再到人）——这是他整个心理系统核心机制的第一次明显损伤，虽然短暂；（2）第46小时主动不取名牌：有意识地保护名牌仪式不被降级认知状态污染——说明他在极度疲劳中仍然维持了对自己的元认知；（3）老齐叫「陈铭」，名字归位，「在」——回到自己，锚点重新落地。48小时结束时他还在，但这条线在中间有过一次真实的变细。",
+      "beliefs_at_chapter_end": [
+        {"belief": "名字是把人保留下来的方式", "is_true": "unknown", "note": "核心信念：在48小时中经历了第一次具体的威胁——名字变成了声音。信念没有崩，但它的脆弱性被具体展示了一次。"}
+      ]
+    },
+    {
       "story_time": 0,
       "facts_known": ["fact_federation_monopoly_plan"],
       "facts_known_confidence": {"fact_federation_monopoly_plan": "partial—听过片段，不知道名字"},
@@ -23,6 +33,25 @@
         "level": "high_physical_ground_level",
         "notes": "极强的战场直觉与地面感知，没有任何超自然感知，观察力指向物理细节而非情绪"
       }
+    },
+    {
+      "story_time": 13,
+      "chapter_id": "ch_024",
+      "facts_known": ["fact_federation_monopoly_plan"],
+      "facts_newly_confirmed": [],
+      "facts_unknown": [
+        "fact_aeon_resonance_severed", "fact_ghost_event", "fact_the_lie",
+        "fact_war_director_awakening", "fact_ulos_true_origin",
+        "fact_origin_matter_consciousness", "fact_elwis_council_lie"
+      ],
+      "new_observation": "知道了有一个补给节点，知道南路经过FED-03-RK旧区，知道老齐跟北队走。他不知道老齐的全名，他不知道这次选择的真实原因是什么——他只是往北走了。",
+      "beliefs_at_chapter_end": [
+        {"belief": "联邦会赢得这场战争", "is_true": false},
+        {"belief": "他已经麻木了", "is_true": false},
+        {"belief": "活着只是习惯", "is_true": "partial"},
+        {"belief": "不知道名字=不在意", "is_true": false, "note": "本章进一步：一个活着的人（老齐）的存在也开始有重量，但陈铭仍未命名它"},
+        {"belief": "他的选择是基于纯粹功能性判断的", "is_true": false, "note": "新增——二十分钟、老齐还活着、往北走。这个选择不是纯功能性的，但他不会承认。"}
+      ]
     },
     {
       "story_time": 10,

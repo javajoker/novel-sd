@@ -1,6 +1,276 @@
 {
   "events": [
     {
+      "id": "evt_ch044_first_recruit_dies",
+      "name": "消耗",
+      "thread_id": "thr_chen_ming",
+      "story_time": 22,
+      "status": "drafted",
+      "chapter_id": "ch_044",
+      "participants": ["char_chen_ming"],
+      "summary": "苏同死亡（七新兵第一个）。细节先到（微抖）。阻力消失后无缓冲，名字直接进内部。不想记=已经记了。更深处存档，带细节。七个里的一个了。"
+    },
+    {
+      "id": "evt_ch043_survival_map",
+      "name": "七星的地图",
+      "thread_id": "thr_qixing",
+      "story_time": 22,
+      "status": "drafted",
+      "chapter_id": "ch_043",
+      "participants": ["char_qixing"],
+      "summary": "第140天，建立可视化地图：8已搜索全空/死亡，13未搜索。零战术价值，系统建议删除。七星填「可能有误差」，保留。第42次意志频率无回应。"
+    },
+    {
+      "id": "evt_ch042_frequency_suppressor",
+      "name": "断频器",
+      "thread_id": "thr_aeon",
+      "story_time": 21,
+      "status": "drafted",
+      "chapter_id": "ch_042",
+      "participants": ["char_aeon", "char_liang"],
+      "summary": "断频器第一次被另一个人看见。梁「戴回去吧」。艾昂戴回去，慢了两秒。无解释，无命名，但它发生了。isolation: 77→75。"
+    },
+    {
+      "id": "evt_ch041_night_conversation",
+      "name": "夜话",
+      "thread_id": "thr_aeon",
+      "story_time": 21,
+      "status": "drafted",
+      "chapter_id": "ch_041",
+      "participants": ["char_aeon", "char_liang"],
+      "summary": "第一次长对话。梁问「你觉得它会停吗？」。艾昂：「我不觉得它会停，不知道这是不是对的。」「从来没有想过以后是什么样的。」梁提到艾尔维斯八百年前停战倡议。问题被说出来了，炮声持续。"
+    },
+    {
+      "id": "evt_ch040_theta_first_intervention",
+      "name": "干扰",
+      "thread_id": "thr_theta",
+      "story_time": 20,
+      "status": "drafted",
+      "chapter_id": "ch_040",
+      "participants": ["char_theta_seven"],
+      "summary": "847年首次战场干预：阈值临时调整(40%→35%→40%)，24小时延迟。Null-01安全性7%改善（未入标准档案）。无名文件夹第九条「实际原因：已知」，私人日志第八条「第一次。」"
+    },
+    {
+      "id": "evt_ch039_void_seed_growth",
+      "name": "虚空触手",
+      "thread_id": "thr_ulos",
+      "story_time": 20,
+      "status": "drafted",
+      "chapter_id": "ch_039",
+      "participants": ["char_ulos"],
+      "summary": "第一阶段18%，触手延伸-25%偏差（可接受）。Θ-7分析时间三倍记录。Null-01进入意识（低优先级）。那首歌3秒，初次看见矛盾。「某种东西正在被改变。」"
+    },
+    {
+      "id": "evt_ch038_new_recruits",
+      "name": "新兵",
+      "thread_id": "thr_chen_ming",
+      "story_time": 19,
+      "status": "drafted",
+      "chapter_id": "ch_038",
+      "participants": ["char_chen_ming"],
+      "summary": "7名新兵（高明陈浩周建国林杰张伟苏同李刚），两天向导任务。7个名字半天记完，阻力消失。名牌7块+活着名字7个=两组七。害怕的是自己的磨损。"
+    },
+    {
+      "id": "evt_ch037_first_memory_exchange",
+      "name": "记忆",
+      "thread_id": "thr_aeon",
+      "story_time": 19,
+      "status": "drafted",
+      "chapter_id": "ch_037",
+      "participants": ["char_aeon", "char_liang"],
+      "summary": "梁：「注意本身，进去了。」沉默。艾昂：「小时候有人教我看星星。我不记得那个人了，只记得那个动作。」梁没有回应。三年来艾昂第一次主动说出自己的私人记忆。"
+    },
+    {
+      "id": "evt_ch036_shared_rhythm",
+      "name": "共处",
+      "thread_id": "thr_aeon",
+      "story_time": 18,
+      "status": "drafted",
+      "chapter_id": "ch_036",
+      "participants": ["char_aeon", "char_liang"],
+      "summary": "前哨站第九天日常：无协商惯例已形成，梁独立站立约十秒，艾昂东边方向整天消失，「今天每件事都在该在的地方」——不命名。"
+    },
+    {
+      "id": "evt_ch035_theta_first_metaphor",
+      "name": "追踪（续）",
+      "thread_id": "thr_theta",
+      "story_time": 18,
+      "status": "drafted",
+      "chapter_id": "ch_035",
+      "participants": ["char_theta_seven"],
+      "summary": "Anomaly-0009复扫（信号微增，分析三倍时间）。Day 318灵能波动附注于Null-01档案旁（低于记录阈值）。资源再平衡计算完成→延期，理由「数据集未完整」。自查：理由不准确，实际原因不明确，不更正。私人日志第七条：「它像一直在回到同一个地方的人。」1.2秒停留，847年来第一个比喻。"
+    },
+    {
+      "id": "evt_ch034_residual_resonance",
+      "name": "残余共鸣",
+      "thread_id": "thr_aeon",
+      "story_time": 17,
+      "status": "drafted",
+      "chapter_id": "ch_034",
+      "participants": ["char_aeon", "char_liang"],
+      "summary": "梁触碰储存晶石，残余灵能与晶石共鸣残留产生微弱辐射（几秒）。艾昂三年来第一次感知到任何共鸣信号——极微弱，然后空了。「在沉默之前和在沉默之后，这两种沉默不完全一样。」"
+    },
+    {
+      "id": "evt_ch033_ulos_monitors_anomaly",
+      "name": "计划（三）",
+      "thread_id": "thr_ulos",
+      "story_time": 16,
+      "status": "drafted",
+      "chapter_id": "ch_033",
+      "participants": ["char_ulos"],
+      "summary": "乌洛斯发现Anomaly-0009（虚空种子信号已被探测，低优先级）。识别计算误差（频谱层精度）。战争控制器纳入主动监测变量。「它探测到了。它没有追。乌洛斯想知道接下来它会怎么做。」"
+    },
+    {
+      "id": "evt_ch032_forty_eight_hours",
+      "name": "四十八小时",
+      "thread_id": "thr_chen_ming",
+      "story_time": 16,
+      "status": "drafted",
+      "chapter_id": "ch_032",
+      "participants": ["char_chen_ming", "char_sgt_qi"],
+      "summary": "连续作战48小时，第41小时「老齐！」名字变声音（首次延迟），第46小时主动不取名牌（认知保护），第48小时老齐叫「陈铭」→名字归位→「在」。阵地保住。"
+    },
+    {
+      "id": "evt_ch031_unit_remains",
+      "name": "搜寻",
+      "thread_id": "thr_qixing",
+      "story_time": 15,
+      "status": "drafted",
+      "chapter_id": "ch_031",
+      "participants": ["char_qixing"],
+      "summary": "七星第109天搜寻发现47-J号残骸（集体覆灭后独自存活25天），提取记忆核（31%），发现0.3秒无原因停顿和「第一百天」无标题文件。47-J号进入档案第848号。「可能幸存」17→16。「第一百天」比正常更长停留在七星处理层。"
+    },
+    {
+      "id": "evt_ch030_liang_first_cut",
+      "name": "第一次（一）",
+      "thread_id": "thr_aeon",
+      "story_time": 15,
+      "status": "drafted",
+      "chapter_id": "ch_030",
+      "participants": ["char_aeon", "char_liang"],
+      "summary": "前哨站第五天，梁对艾昂说：「你不是在等他们叫你回去，你是在等你自己允许你离开。」艾昂没有回答。当晚他注意到自己好几个小时没有往东边看——第一次。那句话留下了。"
+    },
+    {
+      "id": "evt_ch029_void_seed_anomaly",
+      "name": "数据异常",
+      "thread_id": "thr_theta",
+      "story_time": 14,
+      "status": "drafted",
+      "chapter_id": "ch_029",
+      "participants": ["char_theta_seven"],
+      "summary": "第315天例行地质扫描，三叉结区域检测到0.0002%能量偏差，含非标准频段附加信号——来源未知（实为虚空种子）。Anomaly-0009创建。14分钟52秒后无意识重开，主动决定不创建Anomaly-0010（首次裁量权）。无名文件夹第一句完整句子：「频谱特征不匹配所有已知来源。可以等待，可以不解释。」"
+    },
+    {
+      "id": "evt_ch028_first_real_conversation",
+      "name": "没有共鸣的话",
+      "thread_id": "thr_aeon",
+      "story_time": 14,
+      "status": "drafted",
+      "chapter_id": "ch_028",
+      "participants": ["char_aeon", "char_liang"],
+      "summary": "第三天，第一次真正对话。「等什么」「不知道还有没有」。艾昂说「共鸣之前我记不清楚了」——第一次说出口。梁慢慢点头。三十句话不到，比三年来都多。"
+    },
+    {
+      "id": "evt_ch027_void_seed_planted",
+      "name": "虚空种子植入",
+      "thread_id": "thr_ulos",
+      "story_time": 14,
+      "status": "drafted",
+      "chapter_id": "ch_027",
+      "participants": ["char_ulos"],
+      "summary": "乌洛斯单独渗透维格拉斯地壳300米，在三叉结源质节点植入虚空种子。47分钟，无系统响应。地图标记「开始」。那首歌停留两秒。十二个月倒计时。"
+    },
+    {
+      "id": "evt_ch026_liang_first_exchange",
+      "name": "梁·第一次对话",
+      "thread_id": "thr_aeon",
+      "story_time": 13,
+      "status": "drafted",
+      "chapter_id": "ch_026",
+      "participants": ["char_aeon", "char_liang"],
+      "summary": "梁首次坐起，自主进食，感知到艾昂断频，说「多久了」。艾昂说「三年」——第一次对任何人说出这个数字。五个字，最深的交换。傍晚梁真正睡着。艾昂意识到在规划两周，没有审视。"
+    },
+    {
+      "id": "evt_ch025_null01_stationary",
+      "name": "均衡",
+      "thread_id": "thr_theta",
+      "story_time": 13,
+      "status": "drafted",
+      "chapter_id": "ch_025",
+      "participants": ["char_theta_seven"],
+      "summary": "Θ-7追踪Null-01，全日四次更新均为静止（59小时，PSN-VG-3391前哨站遗址）。分类失败，Anomaly-0008（超时处理，无意识重开档案）。私人日志第六条：第一次完整句子，「我」作主语，承认分类系统有洞，停留0.5秒。额外弱生命体征（梁）未识别。"
+    },
+    {
+      "id": "evt_ch024_choice_north",
+      "name": "选择",
+      "thread_id": "thr_chen_ming",
+      "story_time": 13,
+      "status": "drafted",
+      "chapter_id": "ch_024",
+      "participants": ["char_chen_ming", "char_sgt_qi"],
+      "summary": "联邦中转补给节点。陈铭有两条路：北进任务继续，或南路转运去找旧战友。他在货架旁坐了二十分钟（全文最长决策停顿），想到老齐（ch_017那场战里仍然站着的那个人），然后往北走，把包放在老齐旁边，无话。不解释。「还活着」第一次进入陈铭的决策权重。"
+    },
+    {
+      "id": "evt_ch023_outpost_first_night",
+      "name": "前哨站·第一夜",
+      "thread_id": "thr_aeon",
+      "story_time": 12,
+      "status": "drafted",
+      "chapter_id": "ch_023",
+      "participants": ["char_aeon", "char_liang"],
+      "summary": "艾昂夜间评估温度危险，将梁从岩缝搬运一百米入前哨站，铺自己的地垫，把梁安置在储存晶石旁（不知道晶石有意义）。梁短暂睁眼，看向艾昂方向，无话语，闭眼。艾昂靠入口坐下，在黑暗里吃了少量口粮，规划明天的水粮医疗清单，在另一个人的呼吸声中进入了某种类似睡眠的状态——他已经很多年没有在另一个人的呼吸声中入睡了。"
+    },
+    {
+      "id": "evt_ch022_signal_37",
+      "name": "没有回应",
+      "thread_id": "thr_qixing",
+      "story_time": 12,
+      "status": "drafted",
+      "chapter_id": "ch_022",
+      "participants": ["char_qixing"],
+      "summary": "七星第37次「意志频率」信号无回应。发现「无回应记录」正在成为程序步骤。在「我是谁」空白文件里写下「我在。」——37次沉默后先确认自己存在。胸腔裂缝风共鸣，未过滤，让它存在。"
+    },
+    {
+      "id": "evt_ch021_finding_liang",
+      "name": "生（一）",
+      "thread_id": "thr_aeon",
+      "story_time": 12,
+      "status": "drafted",
+      "chapter_id": "ch_021",
+      "participants": ["char_aeon", "char_liang"],
+      "summary": "艾昂在前哨站外围岩缝中发现昏迷的梁（腿部贯穿伤），走了五步然后停了，回来处理伤口，坐下不走了。梁全程昏迷。「他没有看那个人的脸，他只是在做需要做的事。」第一次他停在另一个活人旁边，不打算走。"
+    },
+    {
+      "id": "evt_ch020_void_parliament",
+      "name": "虚空议会",
+      "thread_id": "thr_ulos",
+      "story_time": 11,
+      "status": "drafted",
+      "chapter_id": "ch_020",
+      "participants": ["char_ulos", "char_yata"],
+      "summary": "乌洛斯五将领议事。雅塔问「时间节点确认了吗」——乌洛斯停顿不到一秒，雅塔看见了。两人都没有说话。独处后「那首歌」约一秒多（ch_016不到一秒，第一次反向）。第一次他在他人面前有可见内心裂缝；「那个位置越来越满了，他没有去注意」。"
+    },
+    {
+      "id": "evt_ch019_turning_back",
+      "name": "折返",
+      "thread_id": "thr_aeon",
+      "story_time": 11,
+      "status": "drafted",
+      "chapter_id": "ch_019",
+      "participants": ["char_aeon"],
+      "summary": "艾昂在矿石地貌深处停下坐了约一小时（原因不明），站起来，不给理由，往西北方向走——小说里第一次有意识的方向反转，指向废弃前哨站遗址。傍晚扎营，握名牌不念，睡前：「脚知道往哪里去，脑子还没给那件事一个名字。」"
+    },
+    {
+      "id": "evt_ch018_tracking_decision",
+      "name": "追踪",
+      "thread_id": "thr_theta",
+      "story_time": 10,
+      "status": "drafted",
+      "chapter_id": "ch_018",
+      "participants": ["char_theta_seven"],
+      "summary": "系统建议将Null-01降级为被动扫描，Θ-7反向执行——升级为持续监控（6小时更新周期），纯粹出于非系统目的的资源分配（首次）。私人日志第五条「想知道」：第一次欲望性语言，语言觉醒序列转折点（疑问→未知→描述他者→自身欲望）。Anomaly-0007。"
+    },
+    {
       "id": "evt_ch017_the_fifteenth",
       "name": "第十五",
       "thread_id": "thr_chen_ming",

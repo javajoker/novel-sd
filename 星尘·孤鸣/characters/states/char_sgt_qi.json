@@ -1,0 +1,24 @@
+{
+  "character_id": "char_sgt_qi",
+  "states": [
+    {
+      "story_time": 13,
+      "chapter_id": "ch_024",
+      "location": "联邦中转补给节点，北面集结点",
+      "physical": {
+        "status": "functional",
+        "notes": "战斗后无受伤，常规状态。"
+      },
+      "psychology": {
+        "mood": "（从陈铭视角的外部观察）：在集结点擦枪，不看也不问陈铭走来。陈铭把包放在旁边，他继续擦枪。说「走了」，出发。",
+        "notable_shift": "无内心信息可获取——陈铭视角只能看外部行为。他对陈铭加入北队没有任何明显反应。"
+      },
+      "key_events_this_chapter": [
+        "首次在文本中出现（虽然已在FED-TMP-1107存在）",
+        "在集结点擦枪，不问陈铭的选择",
+        "陈铭把包放在旁边，他不说话",
+        "说「走了」，带队出发北进"
+      ]
+    }
+  ]
+}

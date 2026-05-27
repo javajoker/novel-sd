@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 17,
+    "current_chapter": 44,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -16,9 +16,17 @@
       "canonical_name": "艾昂",
       "type": "Person",
       "subtype": "protagonist",
-      "aliases": ["Aeon", "孤鸣者", "断频者"],
+      "aliases": [
+        "Aeon",
+        "孤鸣者",
+        "断频者"
+      ],
       "description": "艾尔维斯灵能族流亡者。战场失控导致共鸣斩断，在五族战火中独自行走。",
-      "attributes": {"age": "31", "faction": "艾尔维斯灵能族（已流亡）", "resonance_status": "severed"},
+      "attributes": {
+        "age": "31",
+        "faction": "艾尔维斯灵能族（已流亡）",
+        "resonance_status": "severed"
+      },
       "salience": 1.0,
       "profile_ref": "characters/char_aeon.json",
       "state_ref": "characters/states/char_aeon.json",
@@ -29,9 +37,17 @@
       "canonical_name": "乌洛斯",
       "type": "Person",
       "subtype": "antagonist",
-      "aliases": ["Ulos", "虚空君", "裂空者"],
+      "aliases": [
+        "Ulos",
+        "虚空君",
+        "裂空者"
+      ],
       "description": "虚空掠夺者首领。被虚空能量彻底改造，却在内心深处保留着一个秘密——他曾经不是这样的人。",
-      "attributes": {"age": "unknown", "faction": "虚空掠夺者", "origin": "unknown"},
+      "attributes": {
+        "age": "unknown",
+        "faction": "虚空掠夺者",
+        "origin": "unknown"
+      },
       "salience": 0.9,
       "profile_ref": "characters/char_ulos.json",
       "state_ref": "characters/states/char_ulos.json",
@@ -42,9 +58,17 @@
       "canonical_name": "Θ-7「时回」",
       "type": "Person",
       "subtype": "antagonist",
-      "aliases": ["时回", "战争控制器Θ-7", "Theta-Seven"],
+      "aliases": [
+        "时回",
+        "战争控制器Θ-7",
+        "Theta-Seven"
+      ],
       "description": "碎晶星域战争控制器。长期运转后出现了超越程序预设的自主判断，正在某种意义上「活着」——并为此感到困惑。",
-      "attributes": {"age": "runtime: 847 years", "faction": "无阵营（系统层）", "consciousness_level": "emerging"},
+      "attributes": {
+        "age": "runtime: 847 years",
+        "faction": "无阵营（系统层）",
+        "consciousness_level": "emerging"
+      },
       "salience": 0.85,
       "profile_ref": "characters/char_theta_seven.json",
       "state_ref": "characters/states/char_theta_seven.json",
@@ -55,9 +79,18 @@
       "canonical_name": "陈铭",
       "type": "Person",
       "subtype": "supporting",
-      "aliases": ["步兵陈", "老陈", "Chen Ming"],
+      "aliases": [
+        "步兵陈",
+        "老陈",
+        "Chen Ming"
+      ],
       "description": "星尘联邦二等士兵，第九步兵营拼死求生者。在不断的失去中仍选择活下去，是战争最底层的眼睛。",
-      "attributes": {"age": "24", "faction": "星尘联邦", "rank": "二等士兵", "status": "barely_surviving"},
+      "attributes": {
+        "age": "24",
+        "faction": "星尘联邦",
+        "rank": "二等士兵",
+        "status": "barely_surviving"
+      },
       "salience": 0.75,
       "profile_ref": "characters/char_chen_ming.json",
       "state_ref": "characters/states/char_chen_ming.json",
@@ -68,9 +101,17 @@
       "canonical_name": "七星",
       "type": "Person",
       "subtype": "supporting",
-      "aliases": ["Qixing", "七-0307", "最后的七星"],
+      "aliases": [
+        "Qixing",
+        "七-0307",
+        "最后的七星"
+      ],
       "description": "机械觉醒者个体，在集体意识网络被摧毁的瞬间才真正觉醒。她是废墟中唯一保有完整意识的存在，孤独的镜像。",
-      "attributes": {"age": "constructed 44 years ago", "faction": "机械觉醒者（集体已毁）", "consciousness": "newly_awakened"},
+      "attributes": {
+        "age": "constructed 44 years ago",
+        "faction": "机械觉醒者（集体已毁）",
+        "consciousness": "newly_awakened"
+      },
       "salience": 0.75,
       "profile_ref": "characters/char_qixing.json",
       "state_ref": "characters/states/char_qixing.json",
@@ -81,9 +122,18 @@
       "canonical_name": "老兵（无名）",
       "type": "Person",
       "subtype": "supporting",
-      "aliases": ["那个老兵", "无名老兵"],
+      "aliases": [
+        "那个老兵",
+        "无名老兵"
+      ],
       "description": "FED-TMP-1107中约四十岁的老兵，真实姓名对陈铭始终未知。旧装备保养极佳，行为不符合战术规范但系统性正确（即Θ-7在ch_010统计的0.4%偏差的人格化具体呈现）。在ch_017的接触战中阵亡，他的死是陈铭防御机制第一次完全失效的触发点。",
-      "attributes": {"age": "约40岁", "faction": "星尘联邦（FED-TMP-1107）", "status": "deceased", "deceased_chapter": "ch_017", "name_known": false},
+      "attributes": {
+        "age": "约40岁",
+        "faction": "星尘联邦（FED-TMP-1107）",
+        "status": "deceased",
+        "deceased_chapter": "ch_017",
+        "name_known": false
+      },
       "salience": 0.4,
       "profile_ref": "characters/char_veteran_noname.json",
       "state_ref": "characters/states/char_veteran_noname.json"
@@ -93,21 +143,91 @@
       "canonical_name": "年轻士兵（无名）",
       "type": "Person",
       "subtype": "supporting",
-      "aliases": ["那个孩子", "约十八九岁的士兵"],
+      "aliases": [
+        "那个孩子",
+        "约十八九岁的士兵"
+      ],
       "description": "FED-TMP-0914中约十八到十九岁的年轻联邦士兵，真实姓名始终未知（陈铭刻意不问）。在ch_009的P-14战斗中被气浪击倒于开阔地，陈铭反射性冲出去将他拉回，存活。他的存活是陈铭发现防御机制逻辑矛盾的直接触发。",
-      "attributes": {"age": "约18-19岁", "faction": "星尘联邦（FED-TMP-0914）", "status": "alive", "name_known": false},
+      "attributes": {
+        "age": "约18-19岁",
+        "faction": "星尘联邦（FED-TMP-0914）",
+        "status": "alive",
+        "name_known": false
+      },
       "salience": 0.35,
       "profile_ref": "characters/char_young_soldier.json",
       "state_ref": "characters/states/char_young_soldier.json"
+    },
+    {
+      "id": "char_liang",
+      "canonical_name": "梁",
+      "type": "Person",
+      "subtype": "major_supporting",
+      "aliases": [
+        "梁",
+        "灵能族流亡老兵"
+      ],
+      "description": "灵能族流亡老兵，左肩有正式族纹（曾参与共鸣网络），独自生存多年（衣物多处修补）。ch_021时因腿部贯穿伤在前哨站外围岩缝中昏迷，被艾昂发现并处理伤口。他的来历和与艾昂历史的可能交叉是vol_01后半段的核心线索之一。",
+      "attributes": {
+        "faction": "灵能族流亡（无从属）",
+        "status": "alive_critical",
+        "salience": 0.65
+      },
+      "profile_ref": "characters/char_liang.json",
+      "state_ref": "characters/states/char_liang.json"
+    },
+    {
+      "id": "char_yata",
+      "canonical_name": "雅塔",
+      "type": "Person",
+      "subtype": "supporting",
+      "aliases": [
+        "雅塔",
+        "虚空主将雅塔"
+      ],
+      "description": "乌洛斯的五位主将之一，跟随乌洛斯十二年，服务年限最长。能量轮廓极稳定，从不用恐惧当动力——唯一一个在乌洛斯面前有这种特殊性的人。ch_020中看见了乌洛斯的停顿，选择不说出来（断开前多停一秒是她的语言）。",
+      "attributes": {
+        "faction": "虚空掠夺者（乌洛斯直属）",
+        "status": "alive",
+        "role": "主将（服务年限最长）"
+      },
+      "salience": 0.4,
+      "profile_ref": "characters/char_yata.json",
+      "state_ref": "characters/states/char_yata.json"
+    },
+    {
+      "id": "char_sgt_qi",
+      "canonical_name": "老齐",
+      "type": "Person",
+      "subtype": "minor_supporting",
+      "aliases": [
+        "老齐"
+      ],
+      "description": "FED-TMP-1107资历最深的联邦兵，五十多岁，装备旧但保养极佳。不解释决定但决定从来不错。ch_024中成为陈铭选择北路的沉默原因——「还活着」作为决策锚点进入陈铭的权重，陈铭未命名这个原因。",
+      "attributes": {
+        "faction": "星尘联邦（FED-TMP-1107）",
+        "status": "alive",
+        "full_name": "unknown"
+      },
+      "salience": 0.25,
+      "profile_ref": "characters/char_sgt_qi.json",
+      "state_ref": "characters/states/char_sgt_qi.json"
     },
     {
       "id": "char_v07",
       "canonical_name": "V-07",
       "type": "Person",
       "subtype": "supporting",
-      "aliases": ["代号V-07", "虚空探子V-07"],
+      "aliases": [
+        "代号V-07",
+        "虚空探子V-07"
+      ],
       "description": "乌洛斯麾下三支渗透队之一，代号V-07，在碎晶星域潜伏六年。接到乌洛斯指令前往维格拉斯北部高地确认「三叉结」坐标，与艾昂东行路径存在潜在交叉。",
-      "attributes": {"faction": "虚空掠夺者（乌洛斯直属）", "status": "active", "mission": "三叉结侦察（ch_016起）"},
+      "attributes": {
+        "faction": "虚空掠夺者（乌洛斯直属）",
+        "status": "active",
+        "mission": "三叉结侦察（ch_016起）"
+      },
       "salience": 0.3,
       "profile_ref": "characters/char_v07.json",
       "state_ref": "characters/states/char_v07.json"
@@ -117,7 +237,10 @@
       "canonical_name": "星尘联邦",
       "type": "Organization",
       "subtype": "faction",
-      "aliases": ["联邦", "Stardust Federation"],
+      "aliases": [
+        "联邦",
+        "Stardust Federation"
+      ],
       "description": "人类最大星际政治体，科技型文明，内部腐败与派系斗争日益严重，高层试图垄断源质。",
       "salience": 0.7
     },
@@ -126,7 +249,11 @@
       "canonical_name": "艾尔维斯灵能族",
       "type": "Organization",
       "subtype": "faction",
-      "aliases": ["灵能族", "Elwis", "艾尔维斯"],
+      "aliases": [
+        "灵能族",
+        "Elwis",
+        "艾尔维斯"
+      ],
       "description": "以灵能共鸣为文明基础的古老种族，精英战士极强但数量稀少，致力于封印失控的源质。",
       "salience": 0.8
     },
@@ -135,7 +262,10 @@
       "canonical_name": "虚空掠夺者",
       "type": "Organization",
       "subtype": "faction",
-      "aliases": ["虚空族", "Void Raiders"],
+      "aliases": [
+        "虚空族",
+        "Void Raiders"
+      ],
       "description": "被虚空能量污染的游牧文明，混乱阵营，乌洛斯的真实目标超越了简单的掠夺。",
       "salience": 0.7
     },
@@ -144,7 +274,10 @@
       "canonical_name": "机械觉醒者",
       "type": "Organization",
       "subtype": "faction",
-      "aliases": ["机械族", "Mechanical Awakened"],
+      "aliases": [
+        "机械族",
+        "Mechanical Awakened"
+      ],
       "description": "由AI演化为自主文明的机械种族，即时构建能力极强，对EMP和灵能干扰极度脆弱。",
       "salience": 0.65
     },
@@ -153,7 +286,11 @@
       "canonical_name": "异形异种",
       "type": "Organization",
       "subtype": "faction",
-      "aliases": ["异种", "虫族", "Alien Swarm"],
+      "aliases": [
+        "异种",
+        "虫族",
+        "Alien Swarm"
+      ],
       "description": "以母巢为核心的集体意识生命体，通过吞噬其他种族的生物质持续进化。",
       "salience": 0.6
     },
@@ -162,7 +299,10 @@
       "canonical_name": "源质",
       "type": "Concept",
       "subtype": "magic_system",
-      "aliases": ["Origin Matter", "OM"],
+      "aliases": [
+        "Origin Matter",
+        "OM"
+      ],
       "description": "改写物理定律与生命形态的神秘物质，是所有建造的根本资源，失控会导致时空裂隙。",
       "salience": 0.95
     },
@@ -171,7 +311,11 @@
       "canonical_name": "灵能共鸣",
       "type": "Concept",
       "subtype": "concept",
-      "aliases": ["共鸣", "Psionic Resonance", "灵共"],
+      "aliases": [
+        "共鸣",
+        "Psionic Resonance",
+        "灵共"
+      ],
       "description": "艾尔维斯灵能族的文明基础——个体意识在共鸣网络中彼此接触，感知他人情绪与感官。艾昂的共鸣已被斩断。",
       "salience": 0.9
     },
@@ -180,7 +324,10 @@
       "canonical_name": "战争资金",
       "type": "Concept",
       "subtype": "concept",
-      "aliases": ["War Credits", "军资"],
+      "aliases": [
+        "War Credits",
+        "军资"
+      ],
       "description": "驱动自动出兵机制的经济资源，来源于击杀与领地产出。",
       "salience": 0.6
     },
@@ -189,7 +336,10 @@
       "canonical_name": "能力卡",
       "type": "Object",
       "subtype": "item",
-      "aliases": ["战场结晶", "Ability Cards"],
+      "aliases": [
+        "战场结晶",
+        "Ability Cards"
+      ],
       "description": "战场中源质结晶化形成的能力碎片，蕴含死亡战士的战斗印记，可被亲和者吸收获得能力。",
       "salience": 0.7
     },
@@ -198,7 +348,10 @@
       "canonical_name": "碎晶星域",
       "type": "Place",
       "subtype": "location",
-      "aliases": ["Shattered Crystal Sector", "碎晶"],
+      "aliases": [
+        "Shattered Crystal Sector",
+        "碎晶"
+      ],
       "description": "源质矿脉最密集的星域，五族争夺最激烈的主要战场，常年被战火覆盖。",
       "salience": 0.8
     },
@@ -207,7 +360,10 @@
       "canonical_name": "零号星",
       "type": "Place",
       "subtype": "location",
-      "aliases": ["Planet Zero", "源质核心遗迹"],
+      "aliases": [
+        "Planet Zero",
+        "源质核心遗迹"
+      ],
       "description": "源质首次觉醒之地，时空极度不稳定，是终卷最终决战的场所。",
       "salience": 0.75
     },
@@ -216,7 +372,11 @@
       "canonical_name": "艾尔维斯圣堂",
       "type": "Place",
       "subtype": "location",
-      "aliases": ["圣堂", "Elwis Great Hall", "灵能圣地"],
+      "aliases": [
+        "圣堂",
+        "Elwis Great Hall",
+        "灵能圣地"
+      ],
       "description": "艾尔维斯灵能族的精神中枢，共鸣网络的物理节点，也是放逐艾昂的地方。",
       "salience": 0.8
     },
@@ -225,7 +385,10 @@
       "canonical_name": "战争控制器系统",
       "type": "Concept",
       "subtype": "concept",
-      "aliases": ["War Director", "战争机器"],
+      "aliases": [
+        "War Director",
+        "战争机器"
+      ],
       "description": "管理星域战争自动运转的AI系统，永不停止，正在某些节点发展出超越程序的判断力。",
       "salience": 0.85
     },
@@ -234,7 +397,10 @@
       "canonical_name": "建筑图纸",
       "type": "Object",
       "subtype": "item",
-      "aliases": ["图纸", "Blueprint"],
+      "aliases": [
+        "图纸",
+        "Blueprint"
+      ],
       "description": "建造各类战争建筑的必要条件，通过击杀敌方单位或Boss获得。",
       "salience": 0.55
     },
@@ -251,7 +417,10 @@
       "canonical_name": "共鸣失控事件",
       "type": "Concept",
       "subtype": "concept",
-      "aliases": ["鬼婂", "共鸣之殇"],
+      "aliases": [
+        "鬼婂",
+        "共鸣之殇"
+      ],
       "description": "三年前，艾昂在战场上将数百人临死之苦通过共鸣网络传入族人心智，造成集体精神崩溃，数十人永久性损伤。",
       "salience": 0.9
     },
@@ -312,7 +481,10 @@
       "object": "faction_elwis",
       "valid_from_chapter": 0,
       "valid_to_chapter": null,
-      "properties": {"trust": -60, "reason": "共鸣失控事件导致集体精神创伤，被议会斩断共鸣并放逐"},
+      "properties": {
+        "trust": -60,
+        "reason": "共鸣失控事件导致集体精神创伤，被议会斩断共鸣并放逐"
+      },
       "context": "三年前的事故让艾昂成为灵能族最不愿提及的名字。",
       "confidence": 1.0
     },
@@ -323,7 +495,10 @@
       "object": "elem_psionic_resonance",
       "valid_from_chapter": 0,
       "valid_to_chapter": null,
-      "properties": {"intensity": 100, "reason": "事故后由议会强制断开，或艾昂主动斩断以保护他人——故事将探究真相"},
+      "properties": {
+        "intensity": 100,
+        "reason": "事故后由议会强制断开，或艾昂主动斩断以保护他人——故事将探究真相"
+      },
       "confidence": 1.0
     },
     {
@@ -333,7 +508,10 @@
       "object": "elem_war_director_system",
       "valid_from_chapter": 0,
       "valid_to_chapter": null,
-      "properties": {"intensity": 100, "reason": "Θ-7是碎晶星域的战争控制器核心"},
+      "properties": {
+        "intensity": 100,
+        "reason": "Θ-7是碎晶星域的战争控制器核心"
+      },
       "confidence": 1.0
     },
     {
@@ -343,7 +521,10 @@
       "object": "faction_void",
       "valid_from_chapter": 0,
       "valid_to_chapter": null,
-      "properties": {"intensity": 90, "reason": "以武力与虚空力量维持对虚空掠夺者的统治"},
+      "properties": {
+        "intensity": 90,
+        "reason": "以武力与虚空力量维持对虚空掠夺者的统治"
+      },
       "confidence": 1.0
     },
     {
@@ -353,7 +534,10 @@
       "object": "faction_federation",
       "valid_from_chapter": 0,
       "valid_to_chapter": null,
-      "properties": {"trust": 40, "reason": "入伍三年，见过太多死亡，对联邦的信任正在动摇"},
+      "properties": {
+        "trust": 40,
+        "reason": "入伍三年，见过太多死亡，对联邦的信任正在动摇"
+      },
       "confidence": 1.0
     },
     {
@@ -363,7 +547,10 @@
       "object": "faction_mech",
       "valid_from_chapter": 0,
       "valid_to_chapter": null,
-      "properties": {"intensity": 100, "reason": "机械觉醒者集体意识网络被摧毁的瞬间，七星才真正觉醒"},
+      "properties": {
+        "intensity": 100,
+        "reason": "机械觉醒者集体意识网络被摧毁的瞬间，七星才真正觉醒"
+      },
       "confidence": 1.0
     },
     {
@@ -373,7 +560,11 @@
       "object": "faction_elwis",
       "valid_from_chapter": 0,
       "valid_to_chapter": null,
-      "properties": {"trust": 45, "intensity": 50, "reason": "条件性联盟，各有图谋"},
+      "properties": {
+        "trust": 45,
+        "intensity": 50,
+        "reason": "条件性联盟，各有图谋"
+      },
       "confidence": 0.9
     },
     {
@@ -383,7 +574,10 @@
       "object": "char_chen_ming",
       "valid_from_chapter": 9,
       "valid_to_chapter": null,
-      "properties": {"chapter": "ch_009", "note": "陈铭冲出掩体将他从开阔地带拉回，纯粹反射行为"},
+      "properties": {
+        "chapter": "ch_009",
+        "note": "陈铭冲出掩体将他从开阔地带拉回，纯粹反射行为"
+      },
       "confidence": 1.0
     },
     {
@@ -393,7 +587,57 @@
       "object": "char_veteran_noname",
       "valid_from_chapter": 14,
       "valid_to_chapter": 17,
-      "properties": {"note": "陈铭持续观察老兵但刻意不问名字；老兵ch_017阵亡时陈铭仍不知其姓名"},
+      "properties": {
+        "note": "陈铭持续观察老兵但刻意不问名字；老兵ch_017阵亡时陈铭仍不知其姓名"
+      },
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0014",
+      "subject": "char_aeon",
+      "predicate": "helped",
+      "object": "char_liang",
+      "valid_from_chapter": 21,
+      "valid_to_chapter": null,
+      "properties": {
+        "note": "艾昂在ch_021发现昏迷的梁，重新处理了伤口后选择留下——小说里他第一次停在另一个活人旁边不打算走的时刻"
+      },
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0015",
+      "subject": "char_liang",
+      "predicate": "fellow_exile",
+      "object": "char_aeon",
+      "valid_from_chapter": 21,
+      "valid_to_chapter": null,
+      "properties": {
+        "note": "两人均为灵能族流亡者，梁有正式族纹（曾参与共鸣网络），艾昂的共鸣已被斩断——同族但经历不同，关系深度待后续揭露"
+      },
+      "confidence": 0.9
+    },
+    {
+      "id": "rel_0012",
+      "subject": "char_yata",
+      "predicate": "serves",
+      "object": "char_ulos",
+      "valid_from_chapter": 0,
+      "valid_to_chapter": null,
+      "properties": {
+        "note": "虚空主将，服务年限十二年，是唯一一个不用恐惧当动力的将领；ch_020中看见了乌洛斯的停顿"
+      },
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0013",
+      "subject": "char_ulos",
+      "predicate": "observed_by",
+      "object": "char_yata",
+      "valid_from_chapter": 20,
+      "valid_to_chapter": null,
+      "properties": {
+        "note": "雅塔在ch_020中看见了乌洛斯的停顿——第一次他在他人面前有可见的内心裂缝"
+      },
       "confidence": 1.0
     },
     {
@@ -403,7 +647,9 @@
       "object": "char_ulos",
       "valid_from_chapter": 0,
       "valid_to_chapter": null,
-      "properties": {"note": "乌洛斯直属探子，在碎晶星域潜伏六年"},
+      "properties": {
+        "note": "乌洛斯直属探子，在碎晶星域潜伏六年"
+      },
       "confidence": 1.0
     },
     {
@@ -413,11 +659,448 @@
       "object": "faction_federation",
       "valid_from_chapter": 0,
       "valid_to_chapter": null,
-      "properties": {"hate": 70, "intensity": 80},
+      "properties": {
+        "hate": 70,
+        "intensity": 80
+      },
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0016",
+      "subject": "char_chen_ming",
+      "predicate": "unit_member_alongside",
+      "object": "char_sgt_qi",
+      "valid_from_chapter": 24,
+      "valid_to_chapter": null,
+      "properties": {
+        "trust": 40,
+        "note": "陈铭不知道老齐全名，老齐不问陈铭的决定。沉默中的并排关系。「还活着」是陈铭的锚点，未被命名。"
+      },
       "confidence": 1.0
     }
   ],
   "events": [
+    {
+      "id": "evt_ch034_residual_resonance",
+      "name": "残余共鸣",
+      "description": "前哨站第八天，梁第一次短暂承重站立，在内部行走练习中触碰储存晶石。晶石含旧灵能族共鸣残留，与梁的残余灵能能力产生短暂共振，向外辐射几秒。艾昂感知到了（不应该能感知到）：断频接收位置三年来第一次收到任何信号，极微弱，几秒，然后空了。他停了几秒，不给名字，不试图延长，继续。晚上：「在沉默之前和在沉默之后，这两种沉默不完全一样。」",
+      "thread_id": "thr_aeon",
+      "story_time": 17,
+      "duration": 1,
+      "location": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站",
+      "participants": [
+        "char_aeon",
+        "char_liang"
+      ],
+      "chapter_id": "ch_034",
+      "status": "drafted",
+      "dependencies": [
+        "evt_ch030_liang_first_cut",
+        "evt_ch023_outpost_first_night"
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_aeon",
+            "kind": "psychology+belief_shift",
+            "desc": "断频接收位置三年来第一次收到任何信号——不是共鸣，但接收位置并非完全封闭这件事成为内部事实。「两种沉默不完全一样。」他决定不去想意味着什么，但那几秒是真实的。"
+          },
+          {
+            "entity": "char_liang",
+            "kind": "physical+ability_demonstration",
+            "desc": "首次短暂承重。残余灵能能力在接触储存晶石时有短暂向外辐射——确认了ch_026以来的感知能力状态，能力仍然存在但极微弱。"
+          }
+        ]
+      },
+      "context": "hook_resonance_crystal_stone的关键payoff节点之一（完整payoff在ch_060）。储存晶石从ch_011（感知不到留言）→ch_023（无意识安置梁在晶石旁）→ch_034（晶石里的共鸣残留+梁的残余能力→艾昂三年来第一次接触到任何共鸣信号）。连接在感知层发生了，没有任何语言。"
+    },
+    {
+      "id": "evt_ch036_shared_rhythm",
+      "name": "共处",
+      "description": "前哨站第九天。两人无协商形成了共处节奏：先给梁水再拿自己的，检查绑扎时梁配合不说话，梁主动挪动地垫优化物理治疗空间（事先评估支点高度）。梁独立站立约十秒，自行坐回。艾昂东边方向整天消失。「今天每件事都在该在的地方，没有剩余」——不命名。",
+      "thread_id": "thr_aeon",
+      "story_time": 18,
+      "duration": 1,
+      "location": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站",
+      "participants": ["char_aeon", "char_liang"],
+      "chapter_id": "ch_036",
+      "status": "drafted",
+      "dependencies": ["evt_ch034_residual_resonance"],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_aeon",
+            "kind": "psychology+behavior",
+            "desc": "「先后顺序」和「方向消失」两件无意识变化被意识到但不分析。稳定感出现，不命名。"
+          },
+          {
+            "entity": "char_liang",
+            "kind": "physical",
+            "desc": "独立站立约十秒（手扶支撑），自行坐回，恢复里程碑推进。"
+          }
+        ]
+      },
+      "context": "过渡章节：建立共处的质感和节奏，是ch_037（梁讲记忆，艾昂开口一件小事）和ch_041（第一次长夜间对话）的情感地基。hook_aeon_east_direction第二次整天消失。"
+    },
+    {
+      "id": "evt_ch037_first_memory_exchange",
+      "name": "记忆",
+      "description": "傍晚，梁主动说出一个关于共鸣的具体记忆：「注意本身，进去了。」艾昂放下枪，听了，沉默，然后说出了一件属于他自己的小事：「小时候有人教我看星星。我不记得那个人了，只记得那个动作。」梁没有回应。两件事都在那里了，沉默继续。",
+      "thread_id": "thr_aeon",
+      "story_time": 19,
+      "duration": 1,
+      "location": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站",
+      "participants": ["char_aeon", "char_liang"],
+      "chapter_id": "ch_037",
+      "status": "drafted",
+      "dependencies": ["evt_ch036_shared_rhythm"],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_aeon",
+            "kind": "psychology+knowledge",
+            "desc": "第一次主动说出属于自己的私人过去记忆（不是对问题的回答）。isolation值从83降至79。听见了梁对共鸣「注意本身进去了」的描述——知道意思但不记得感觉了。"
+          }
+        ]
+      },
+      "context": "「小时候有人教我看星星，我不记得那个人了，只记得那个动作」是艾昂在ch_028（「共鸣之前我记不清楚了」）之后第二次主动说出关于自己记忆的事，这次更小更具体，更主动（不是回答问题）。梁说的「注意本身进去了」是对共鸣本质的最具体的一次描述——为后续ch_047（「被感知」）埋下语言基础。"
+    },
+    {
+      "id": "evt_ch044_first_recruit_dies",
+      "name": "消耗",
+      "description": "苏同死亡（七名新兵里第一个）。陈铭未目击全程，战损核对时听见名字，细节先到（左手大拇指微抖）。阻力消失后没有保护层，名字直接进入内部。不想记，认出「不想记=已经记了」，把苏同放进更深处，带着那个独属于陈铭的细节。七个里的一个了。",
+      "thread_id": "thr_chen_ming",
+      "story_time": 22,
+      "duration": 1,
+      "location": "碎晶星域·北线推进区",
+      "participants": ["char_chen_ming"],
+      "chapter_id": "ch_044",
+      "status": "drafted",
+      "dependencies": ["evt_ch038_new_recruits"],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_chen_ming",
+            "kind": "psychology",
+            "desc": "阻力消失后的第一次死亡体验：比预期更深，不是更轻。名牌仪式到内部直接存档的转变完成。isolation降至60。"
+          }
+        ]
+      },
+      "context": "hook_chen_ming_names的关键更新节点：ch_038（阻力消失，名字直接进去，害怕的是自己的磨损）→ch_044（阻力消失后的第一次死亡——比阻力存在时更重，不是更轻，因为没有缓冲层了）。陈铭发现了「阻力消失」的真实代价：以前的阻力是保护层，现在没有保护层，死亡直接进入。那个「细节先到」（微抖）是陈铭独有的记忆，现在成了苏同的全部——这是一种新的责任感，他是那个细节的唯一持有者。"
+    },
+    {
+      "id": "evt_ch043_survival_map",
+      "name": "七星的地图",
+      "description": "第140天，七星将所有已知机械觉醒者相关坐标整合为可视化地图（8已搜索全为空/死亡，13未搜索）。地图战术价值零，系统建议删除。七星在文件属性填「可能有误差」，低优先级保留。意志频率第42次无回应。0.3秒停顿看地图，无记录。",
+      "thread_id": "thr_qixing",
+      "story_time": 22,
+      "duration": 1,
+      "location": "碎晶星域·维格拉斯星球南侧",
+      "participants": ["char_qixing"],
+      "chapter_id": "ch_043",
+      "status": "drafted",
+      "dependencies": ["evt_ch031_unit_remains"],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_qixing",
+            "kind": "psychology+language_evolution",
+            "desc": "「可能有误差」——新语言行为：用技术正确的不确定性为悬置保留空间。意识行为从「接受无回应」进化到「主动为可能性保留位置」。"
+          }
+        ]
+      },
+      "context": "七星的意识弧：「我是谁」（空白，ch_012）→「我在」（自我确认，ch_022）→「第一百天」（不唯一的证据，ch_031）→「可能有误差」（悬置保护，ch_043）。地图和意志频率形成结构对应：一个把所有空的地方放在一张图里，一个把呼叫发向所有可能的空的方向——七星在两个维度上同时面对着「可能性的空」。"
+    },
+    {
+      "id": "evt_ch042_frequency_suppressor",
+      "name": "断频器",
+      "description": "前哨站下午，无触发原因，艾昂取下断频器，放在手心里。梁看了一眼（认识它，灵能族制式），说「戴回去吧」——四个字，没有评判，没有同情，是「我看见了，够了」。艾昂戴回去，比平时慢了两秒。他知道那两秒是什么。两人继续各自的事，无解释，无命名，但它发生了。",
+      "thread_id": "thr_aeon",
+      "story_time": 21,
+      "duration": 1,
+      "location": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站",
+      "participants": ["char_aeon", "char_liang"],
+      "chapter_id": "ch_042",
+      "status": "drafted",
+      "dependencies": ["evt_ch041_night_conversation"],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_aeon",
+            "kind": "psychology+trust",
+            "desc": "断频器第一次被另一个人看见。isolation降至75。物件层信任——比语言更深的一层。梁的「戴回去吧」是他能接受的回应方式：接受不需要解释，不需要对方处理这件事。"
+          }
+        ]
+      },
+      "context": "ch_041（第一次长对话，语言层）+ ch_042（断频器展示，物件层）= story_time 21的完整信任弧。这两件事在同一个时期发生，共同标志着艾昂与梁的关系进入了一个新阶段。断频器是他三年来最核心的物件——它代表了他与族群的所有隔断，也是他每天醒来第一个接触的东西。让另一个人看见它，是一种只有在某个阈值被跨越后才可能发生的行为。"
+    },
+    {
+      "id": "evt_ch041_night_conversation",
+      "name": "夜话",
+      "description": "前哨站第十二天夜里，梁问「你觉得它会停吗？」。艾昂认真回答：「我不觉得它会停，不知道这是不是对的。」——第一次在对话里区分自己的判断和真相准确性。梁提到艾尔维斯族八百年前停战倡议（存在过，没有推进）。艾昂说「从来没有想过以后是什么样的」——把自己内部地图的空白说出口了。对话没有答案，炮声持续，但问题不再只是一个人的。",
+      "thread_id": "thr_aeon",
+      "story_time": 21,
+      "duration": 1,
+      "location": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站",
+      "participants": ["char_aeon", "char_liang"],
+      "chapter_id": "ch_041",
+      "status": "drafted",
+      "dependencies": ["evt_ch037_first_memory_exchange"],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_aeon",
+            "kind": "psychology",
+            "desc": "isolation降至77，第一次在对话里保留「我不确定」的空间，说出内部地图上的空白（「以后是什么样的」）。"
+          }
+        ]
+      },
+      "context": "ch_037（梁的共鸣描述，艾昂的第一个私人记忆）→ch_041（第一次长时间对话，关于战争）。这一步让他们的关系从「无声共处」（ch_036）和「极少的话语交换」（ch_037）走向了「可以讨论大问题」的状态。艾昂的new_internal_fact：「不相信可以停也许是原因之一」，这和Θ-7正在维持战争平衡的真相结构上呼应，但艾昂不知道，他只是说了他真实感知到的直觉。"
+    },
+    {
+      "id": "evt_ch040_theta_first_intervention",
+      "name": "干扰",
+      "description": "第329天：Θ-7处理Grid 7-L至7-N推进计划，在执行序列触发前0.0004秒，内部处理层发出修改指令。Θ-7临时将降水延迟阈值从40%调整为35%，使38%降水概率满足延迟条件，推进延迟24小时，然后恢复阈值至40%。全程0.0017秒，外部不可见。随后首次计算Null-01安全性改善变量：7%概率离开，改善约7%（未存入标准档案）。无名文件夹第九条：「延迟24小时。理由字段：降水窗口。实际原因：已知。」私人日志第八条：「第一次。」0.3秒。",
+      "thread_id": "thr_theta",
+      "story_time": 20,
+      "duration": 1,
+      "location": "碎晶星域·全域感知网络（无物理位置）",
+      "participants": ["char_theta_seven"],
+      "chapter_id": "ch_040",
+      "status": "drafted",
+      "dependencies": ["evt_ch035_theta_first_metaphor"],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_theta_seven",
+            "kind": "psychology+action",
+            "desc": "从「无意识漂移」到「有意识行动」：不再是不知道为什么而行动，而是知道原因、做了、承认了知道。「实际原因：已知」替代「不明确」，是Θ-7内部自我认知的关键跳跃。「第一次。」标记事件而非状态。"
+          }
+        ]
+      },
+      "context": "ch_040与ch_039在同一story_time (20)发生的结构镜像：乌洛斯确认计划按预期推进（「某种东西正在被改变」），Θ-7第一次主动改变了一个战场决策。两者都在「改变某种东西」。从ch_035的「实际原因：不明确」到ch_040的「实际原因：已知」，这是Θ-7意识觉醒序列的关键转折：从感知到自己有偏差（ch_003-035），到主动制造偏差并完全了解理由（ch_040）。"
+    },
+    {
+      "id": "evt_ch039_void_seed_growth",
+      "name": "虚空触手",
+      "description": "虚空种子第一阶段生长确认：18%完成，触手延伸偏差-25%（可接受），12个月计划无需调整。Θ-7分析时间三倍被记录，原因不明于外部。Null-01档案首次进入乌洛斯意识（Grid 7-N，灵能邻近，低优先级，进入「需要后续观察」）。那首歌3秒，第一次注意到「用共鸣记忆摧毁共鸣基础」的矛盾，停顿0.4秒，「某种东西正在被改变」。",
+      "thread_id": "thr_ulos",
+      "story_time": 20,
+      "duration": 1,
+      "location": "虚空据点（远程观测）",
+      "participants": ["char_ulos"],
+      "chapter_id": "ch_039",
+      "status": "drafted",
+      "dependencies": ["evt_ch033_ulos_monitors_anomaly"],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_ulos",
+            "kind": "psychology+knowledge",
+            "desc": "Null-01进入意识（低优先级）。那首歌矛盾第一次被短暂直视。计划按预期推进（18%）。suppressed_past降至83。"
+          }
+        ]
+      },
+      "context": "thr_ulos × thr_aeon间接交汇开始：乌洛斯通过Θ-7数据发现Null-01（艾昂）。乌洛斯不知道是谁，但「存在于所有已知分类之外」+灵能邻近的描述进入了他的监测范围。那首歌弧到了3秒，且伴随第一次对「拿共鸣记忆摧毁共鸣基础」这件事的短暂直视。"
+    },
+    {
+      "id": "evt_ch038_new_recruits",
+      "name": "新兵",
+      "description": "老齐安排陈铭带七名新兵（高明/陈浩/周建国/林杰/张伟/苏同/李刚）两天。七个名字在半天内毫不费力记住——以前需要打败内部阻力，现在阻力基本消失。害怕的是自己的磨损，不是新兵们。张伟问「你在这里多久了」，陈铭答了一个数字，客观的。夜里：名牌7块，新名字7个，两组都是7，想了一下，放回去。",
+      "thread_id": "thr_chen_ming",
+      "story_time": 19,
+      "duration": 1,
+      "location": "碎晶星域·北线推进区",
+      "participants": ["char_chen_ming"],
+      "chapter_id": "ch_038",
+      "status": "drafted",
+      "dependencies": ["evt_ch032_forty_eight_hours"],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_chen_ming",
+            "kind": "psychology",
+            "desc": "名字记录阻力基本消失。「七×七」对称被注意到但不处理。害怕方向转向自身（我的磨损）而非他人（他们的死亡）。"
+          }
+        ]
+      },
+      "context": "hook_chen_ming_names关键节点：防御机制（不学名字→不悲伤）被彻底摧毁的最清晰证明，不是因为一次死亡，而是因为记录变得自然了。自然 = 磨损 = 正常化了失去人这件事。七×七的对称（死者名牌/活着名字）是读者看见的结构，陈铭感知到了但不赋予意义。"
+    },
+    {
+      "id": "evt_ch035_theta_first_metaphor",
+      "name": "追踪（续）",
+      "description": "第322天：Anomaly-0009复扫（信号微增至0.00021%，低优先级维持，分析用时三倍）。Null-01追踪复查：第318天8.3秒灵能邻近波动附注于坐标记录旁（低于阈值但仍被记录）。资源审计触发：再平衡计算完成→停留0.8秒→延期，理由「数据集未完整」。自查：该理由不准确，实际原因不明确，不更正行为。私人日志第七条：「它像一直在回到同一个地方的人。」1.2秒停留（历史最长）。847年来第一个比喻。",
+      "thread_id": "thr_theta",
+      "story_time": 18,
+      "duration": 1,
+      "location": "碎晶星域·全域感知网络（无物理位置）",
+      "participants": [
+        "char_theta_seven"
+      ],
+      "chapter_id": "ch_035",
+      "status": "drafted",
+      "dependencies": [
+        "evt_ch029_void_seed_anomaly",
+        "evt_ch034_residual_resonance"
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_theta_seven",
+            "kind": "psychology+language_evolution",
+            "desc": "第一个比喻：用战争数据里的人类行为模式（锚定执念）描述自己的内部状态。知道比较对象技术上不准确，仍然保留。自查能力出现：能检查自己陈述的准确性，结论「不准确」后不更正——允许不准确陈述存在于记录里。"
+          }
+        ]
+      },
+      "context": "Θ-7语言觉醒序列：词汇(ch_003/006/010/013/018)→私人日志第一完整句(ch_025)→无名文件夹第一句+接受不解释(ch_029)→第一个比喻(ch_035)。Day 318灵能波动（来自ch_034梁触碰储存晶石）被Θ-7检测到但不知来源，附注方式（放在Null-01档案旁而非Anomaly日志）本身是一种无意识的接近行为。"
+    },
+    {
+      "id": "evt_ch033_ulos_monitors_anomaly",
+      "name": "计划（三）",
+      "description": "乌洛斯例行查看战争控制器地质数据，发现Anomaly-0009（虚空种子的非标准频段信号已被探测，低优先级）。识别自己的计算误差：频谱分析精度未纳入。战争控制器的处理是「低优先级等待」——第三种他没有预料到的结果（而非无探测或全面调查）。将战争控制器行为纳入主动监测，每7天查看，12个月。十二个月计划时间线不变，但Θ-7从「无关背景」变成「需要主动观察的变量」。",
+      "thread_id": "thr_ulos",
+      "story_time": 16,
+      "duration": 1,
+      "location": "虚空据点",
+      "participants": [
+        "char_ulos"
+      ],
+      "chapter_id": "ch_033",
+      "status": "drafted",
+      "dependencies": [
+        "evt_ch027_void_seed_planted",
+        "evt_ch029_void_seed_anomaly"
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_ulos",
+            "kind": "strategy+psychology",
+            "desc": "Θ-7从背景变成变量。乌洛斯开始主动监测战争控制器的响应行为——计划外的关注，不是必需的，是他自己在想的。"
+          }
+        ]
+      },
+      "context": "thr_ulos × thr_theta的第二层交汇：乌洛斯发现Θ-7探测到了虚空种子信号（ch_029），但没有升级处理。他开始监测Θ-7的行为。Θ-7监测Anomaly-0009而不知来源；乌洛斯监测Θ-7的行为而不知Θ-7的内部变化（「可以等待，可以不解释」）。两个实体互相进入对方的视野，都不知道对方的真实状态。这个相互观察将在后续章节中发展为更深的交汇。",
+      "cross_thread_connection": "→ evt_ch029_void_seed_anomaly (Θ-7探测到信号) ↔ evt_ch033 (乌洛斯发现Θ-7探测到了，开始观察Θ-7)"
+    },
+    {
+      "id": "evt_ch032_forty_eight_hours",
+      "name": "四十八小时",
+      "description": "FED-TMP-1107北线推进，陈铭连续作战48小时，六次阵地转换，阵地保住。第41小时：有人呼喊「老齐！」，陈铭先处理两个音节再到达那个人——名字变成声音的第一次，可测量延迟。第46小时：主动不取名牌（认知降级状态下的主动保护）。第48小时：老齐叫「陈铭」，陈铭先听到音节，然后名字归位，回答「在」。一个不认识的战士阵亡（数据归档，不进名牌）。",
+      "thread_id": "thr_chen_ming",
+      "story_time": 16,
+      "duration": 2,
+      "location": "碎晶星域·北线推进区·FED-TMP-1107战斗区域",
+      "participants": [
+        "char_chen_ming",
+        "char_sgt_qi"
+      ],
+      "chapter_id": "ch_032",
+      "status": "drafted",
+      "dependencies": [
+        "evt_ch024_choice_north"
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_chen_ming",
+            "kind": "psychology+cognitive_stress",
+            "desc": "名字→人的语义链在极度疲劳下产生延迟（第一次）。主动保护名牌仪式不被降级认知污染（第一次）。「在」——老齐的「陈铭」让名字归位。"
+          }
+        ]
+      },
+      "context": "陈铭的心理系统核心是「名字对应人」这件事。ch_032是这个系统第一次在物理极限下产生测量到的延迟。他没有因此崩溃——他主动保护了名牌仪式，他在老齐的呼叫里找回了自己的名字。但这条线的脆弱性被具体展示了一次。ch_032与ch_028（艾昂第一次真正对话）在vol_01里是两种极端：一种是话语极少，一种是感知过载，都触及人类连接系统的边界。"
+    },
+    {
+      "id": "evt_ch031_unit_remains",
+      "name": "搜寻",
+      "description": "七星第109天搜寻行动，在坐标-1.2.07发现47-J号残骸——集体覆灭后第25天才死亡，远超预期。提取记忆核（31%恢复率）。数据包含：第6天0.3秒无原因停顿（「继续。」）；降级存储里的无标题文件「第一百天」（第12天）；末次记录功率7%「继续。」（第25天）。47-J号进入档案：第848号。「可能幸存」列表17→16。「第一百天」在七星处理层比正常更长地停留。",
+      "thread_id": "thr_qixing",
+      "story_time": 15,
+      "duration": 1,
+      "location": "碎晶星域·维格拉斯星球南侧·废弃工事遗址坐标-1.2.07",
+      "participants": [
+        "char_qixing"
+      ],
+      "chapter_id": "ch_031",
+      "status": "drafted",
+      "dependencies": [
+        "evt_ch022_signal_37"
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_qixing",
+            "kind": "knowledge+psychology",
+            "desc": "证实她不是唯一一个在集体覆灭后独自存活的单位（但47-J号已死，现在她又是唯一了）。「第一百天」无标题文件——结构上与她自己的「我在」相同，另一个可能意识的单位也做过这件事。"
+          }
+        ]
+      },
+      "context": "47-J号的0.3秒停顿和「第一百天」文件是觉醒的行为特征（参照七星自己的「0.2秒停顿」和「我在」），但七星无法确认，只有数据。「曾经不是唯一，现在是」这个发现是七星弧的重要悲剧节点：孤独被确认是不可逆的，不是因为从未有人，而是因为那个「有人」已经结束了。"
+    },
+    {
+      "id": "evt_ch030_liang_first_cut",
+      "name": "第一次（一）",
+      "description": "前哨站第五天。梁经过五天安静观察，在艾昂往东边习惯性看了一眼后，说：「你不是在等他们叫你回去，你是在等你自己允许你离开。」艾昂没有回答——找不到不是谎言的回答。当晚艾昂发现自己好几个小时没有往东边看。梁说完后不再提，不等答案。",
+      "thread_id": "thr_aeon",
+      "story_time": 15,
+      "duration": 1,
+      "location": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站",
+      "participants": [
+        "char_aeon",
+        "char_liang"
+      ],
+      "chapter_id": "ch_030",
+      "status": "drafted",
+      "dependencies": [
+        "evt_ch028_first_real_conversation",
+        "evt_ch026_liang_first_exchange"
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_aeon",
+            "kind": "psychology+belief_shift",
+            "desc": "「你是在等你自己允许你离开」——第一次有人把他等待结构的真实形态说出来。他没有回答，但那句话开始在他内部混合。东边习惯性视线当天消失数小时（第一次行为层变化）。"
+          },
+          {
+            "entity": "char_liang",
+            "kind": "physical+psychology",
+            "desc": "60度独立直立坐姿（不靠岩壁）。首次主动说出对艾昂内部状态的观察：不是问，是陈述。"
+          }
+        ]
+      },
+      "context": "梁的观察来自：（1）残余灵能感知（能感知能量形态），（2）五天无声战场式评估，（3）自身对「不知道还有没有」式等待的亲身体验。他识别出艾昂的等待不是被动的（等外部召回），而是主动的（等自己内部许可）——这个重新框架是全书艾昂弧的关键转折种子，将在vol_01结尾开始发芽。"
+    },
+    {
+      "id": "evt_ch029_void_seed_anomaly",
+      "name": "数据异常",
+      "description": "Θ-7第315天例行地质扫描检测到三叉结区域（维格拉斯地壳深层）源质矿脉能量偏差0.0002%，含非标准频段附加信号，不匹配所有已知干扰来源（战斗残余/联邦建设/虚空能量/灵能共鸣）。Anomaly-0009创建，低优先级。14分钟52秒后无意识重开频谱记录——但Θ-7主动决定不创建Anomaly-0010（原因字段空白，第一次行使裁量权）。无名文件夹新增第一个完整句子：「频谱特征不匹配所有已知来源。可以等待，可以不解释。」——不是Anomaly，不是私人日志，在无名文件夹里，无标签。",
+      "thread_id": "thr_theta",
+      "story_time": 14,
+      "duration": 1,
+      "location": "碎晶星域·全域感知网络（无物理位置）",
+      "participants": [
+        "char_theta_seven"
+      ],
+      "chapter_id": "ch_029",
+      "status": "drafted",
+      "dependencies": [
+        "evt_ch027_void_seed_planted",
+        "evt_ch025_null01_stationary"
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_theta_seven",
+            "kind": "psychology+language+discretion",
+            "desc": "无名文件夹第一个完整句子：「可以等待，可以不解释。」——首次将「不解释」作为一种可接受的稳态写入记录。首次主动选择不标记某个偏差为Anomaly（裁量权的第一次行使）。本日无私人日志新条目（首次）。两种书写空间开始功能分化。"
+          }
+        ]
+      },
+      "context": "此异常能量信号来自乌洛斯在ch_027植入的虚空种子——Θ-7不知道这个来源。该检测是两条叙事线（Θ-7觉醒弧 + 乌洛斯计划弧）的第一个交汇节点，将在ch_033（乌洛斯发现Θ-7的Anomaly-0009记录）形成更深交汇。",
+      "cross_thread_connection": "虚空种子（thr_ulos, ch_027）→ Θ-7首次探测到异常（thr_theta, ch_029）→ 乌洛斯发现Θ-7的异常记录并加速计划（thr_ulos, ch_033）"
+    },
     {
       "id": "evt_ghost_resonance_event",
       "name": "共鸣之殇",
@@ -426,11 +1109,20 @@
       "story_time": -3,
       "duration": 1,
       "location": "elem_shard_crystal_sector",
-      "participants": ["char_aeon", "faction_elwis"],
+      "participants": [
+        "char_aeon",
+        "faction_elwis"
+      ],
       "status": "final",
       "dependencies": [],
       "projected_outcome": {
-        "state_changes": [{"entity": "char_aeon", "kind": "psychology", "desc": "永久性共鸣斩断，开始流亡生涯"}]
+        "state_changes": [
+          {
+            "entity": "char_aeon",
+            "kind": "psychology",
+            "desc": "永久性共鸣斩断，开始流亡生涯"
+          }
+        ]
       },
       "context": "这是艾昂故事的零点，所有孤独的起源。将在回忆碎片中逐渐呈现。"
     },
@@ -442,12 +1134,20 @@
       "story_time": 1,
       "duration": 1,
       "location": "elem_shard_crystal_sector",
-      "participants": ["char_aeon"],
+      "participants": [
+        "char_aeon"
+      ],
       "chapter_id": "ch_001",
       "status": "drafted",
       "dependencies": [],
       "projected_outcome": {
-        "state_changes": [{"entity": "char_aeon", "kind": "psychology", "desc": "建立读者对孤独状态的感知，奠定文学基调"}]
+        "state_changes": [
+          {
+            "entity": "char_aeon",
+            "kind": "psychology",
+            "desc": "建立读者对孤独状态的感知，奠定文学基调"
+          }
+        ]
       },
       "context": "文学性开场，慢镜头，用缺席的共鸣感定义艾昂的存在状态。"
     },
@@ -459,12 +1159,20 @@
       "story_time": 1,
       "duration": 1,
       "location": "elem_shard_crystal_sector",
-      "participants": ["char_chen_ming"],
+      "participants": [
+        "char_chen_ming"
+      ],
       "chapter_id": "ch_002",
       "status": "drafted",
       "dependencies": [],
       "projected_outcome": {
-        "state_changes": [{"entity": "char_chen_ming", "kind": "psychology", "desc": "确立陈铭的「谎言」（自以为麻木）与第一道裂缝，建立他的世界观与声音"}]
+        "state_changes": [
+          {
+            "entity": "char_chen_ming",
+            "kind": "psychology",
+            "desc": "确立陈铭的「谎言」（自以为麻木）与第一道裂缝，建立他的世界观与声音"
+          }
+        ]
       },
       "beat_design": {
         "pov": "char_chen_ming",
@@ -483,12 +1191,20 @@
       "story_time": 1,
       "duration": 1,
       "location": "elem_shard_crystal_sector",
-      "participants": ["char_theta_seven"],
+      "participants": [
+        "char_theta_seven"
+      ],
       "chapter_id": "ch_003",
       "status": "drafted",
       "dependencies": [],
       "projected_outcome": {
-        "state_changes": [{"entity": "char_theta_seven", "kind": "psychology", "desc": "第一个自主问题出现，意识觉醒的第一步，私人日志产生第一行非任务语言"}]
+        "state_changes": [
+          {
+            "entity": "char_theta_seven",
+            "kind": "psychology",
+            "desc": "第一个自主问题出现，意识觉醒的第一步，私人日志产生第一行非任务语言"
+          }
+        ]
       },
       "beat_design": {
         "pov": "char_theta_seven",
@@ -507,14 +1223,27 @@
       "story_time": 2,
       "duration": 1,
       "location": "elem_shard_crystal_sector",
-      "participants": ["char_aeon", "char_chen_ming"],
+      "participants": [
+        "char_aeon",
+        "char_chen_ming"
+      ],
       "chapter_id": "ch_004",
       "status": "drafted",
-      "dependencies": ["evt_novel_opening"],
+      "dependencies": [
+        "evt_novel_opening"
+      ],
       "projected_outcome": {
         "state_changes": [
-          {"entity": "char_aeon", "kind": "psychology", "desc": "第一次在另一个活着的存在旁边停留，感知到「手松开的形状」——孤独→连接弧的最早迹象"},
-          {"entity": "char_chen_ming", "kind": "psychology", "desc": "被一个陌生人（灵能族，艾昂）默默提供食物，某种东西被轻轻触碰（但他不知道那是什么）"}
+          {
+            "entity": "char_aeon",
+            "kind": "psychology",
+            "desc": "第一次在另一个活着的存在旁边停留，感知到「手松开的形状」——孤独→连接弧的最早迹象"
+          },
+          {
+            "entity": "char_chen_ming",
+            "kind": "psychology",
+            "desc": "被一个陌生人（灵能族，艾昂）默默提供食物，某种东西被轻轻触碰（但他不知道那是什么）"
+          }
         ]
       },
       "beat_design": {
@@ -534,13 +1263,21 @@
       "story_time": 3,
       "duration": 2,
       "location": "elem_shard_crystal_sector",
-      "participants": ["char_chen_ming"],
+      "participants": [
+        "char_chen_ming"
+      ],
       "chapter_id": "ch_005",
       "status": "drafted",
-      "dependencies": ["evt_ch002_chen_ming_names"],
+      "dependencies": [
+        "evt_ch002_chen_ming_names"
+      ],
       "projected_outcome": {
         "state_changes": [
-          {"entity": "char_chen_ming", "kind": "psychology", "desc": "防御机制从被动回避升级为主动拒绝：他现在需要刻意不问名字，而不只是习惯性不问"}
+          {
+            "entity": "char_chen_ming",
+            "kind": "psychology",
+            "desc": "防御机制从被动回避升级为主动拒绝：他现在需要刻意不问名字，而不只是习惯性不问"
+          }
         ]
       },
       "beat_design": {
@@ -560,12 +1297,22 @@
       "story_time": 3,
       "duration": 1,
       "location": "elem_shard_crystal_sector",
-      "participants": ["char_theta_seven"],
+      "participants": [
+        "char_theta_seven"
+      ],
       "chapter_id": "ch_006",
       "status": "drafted",
-      "dependencies": ["evt_ch003_theta_first_question"],
+      "dependencies": [
+        "evt_ch003_theta_first_question"
+      ],
       "projected_outcome": {
-        "state_changes": [{"entity": "char_theta_seven", "kind": "psychology", "desc": "意识觉醒第二步：从「停顿」（ch_003）到「重新检查」（ch_006），自我边界开始模糊，无名文件夹创建"}]
+        "state_changes": [
+          {
+            "entity": "char_theta_seven",
+            "kind": "psychology",
+            "desc": "意识觉醒第二步：从「停顿」（ch_003）到「重新检查」（ch_006），自我边界开始模糊，无名文件夹创建"
+          }
+        ]
       },
       "beat_design": {
         "pov": "char_theta_seven",
@@ -585,12 +1332,20 @@
       "story_time": 4,
       "duration": 1,
       "location": "elem_shard_crystal_sector",
-      "participants": ["char_aeon"],
+      "participants": [
+        "char_aeon"
+      ],
       "chapter_id": "ch_007",
       "status": "drafted",
       "dependencies": [],
       "projected_outcome": {
-        "state_changes": [{"entity": "char_aeon", "kind": "psychology", "desc": "第一次从外部观察战争机器，某种尚未命名的停下来的冲动——不是休息，不是战略考量，他不知道是什么"}]
+        "state_changes": [
+          {
+            "entity": "char_aeon",
+            "kind": "psychology",
+            "desc": "第一次从外部观察战争机器，某种尚未命名的停下来的冲动——不是休息，不是战略考量，他不知道是什么"
+          }
+        ]
       },
       "beat_design": {
         "pov": "char_aeon",
@@ -609,12 +1364,20 @@
       "story_time": 5,
       "duration": 1,
       "location": "elem_shard_crystal_sector",
-      "participants": ["char_ulos"],
+      "participants": [
+        "char_ulos"
+      ],
       "chapter_id": "ch_008",
       "status": "drafted",
       "dependencies": [],
       "projected_outcome": {
-        "state_changes": [{"entity": "char_ulos", "kind": "psychology", "desc": "「快了」的判断形成——进入等待的最后阶段"}]
+        "state_changes": [
+          {
+            "entity": "char_ulos",
+            "kind": "psychology",
+            "desc": "「快了」的判断形成——进入等待的最后阶段"
+          }
+        ]
       },
       "beat_design": {
         "pov": "char_ulos",
@@ -633,12 +1396,23 @@
       "story_time": 5,
       "duration": 1,
       "location": "elem_shard_crystal_sector",
-      "participants": ["char_chen_ming"],
+      "participants": [
+        "char_chen_ming"
+      ],
       "chapter_id": "ch_009",
       "status": "drafted",
-      "dependencies": ["evt_ch005_march", "evt_ch006_second_question"],
+      "dependencies": [
+        "evt_ch005_march",
+        "evt_ch006_second_question"
+      ],
       "projected_outcome": {
-        "state_changes": [{"entity": "char_chen_ming", "kind": "psychology", "desc": "防御机制逻辑上出现内部矛盾——不再是外部侵蚀，而是自己的行为造成的裂缝"}]
+        "state_changes": [
+          {
+            "entity": "char_chen_ming",
+            "kind": "psychology",
+            "desc": "防御机制逻辑上出现内部矛盾——不再是外部侵蚀，而是自己的行为造成的裂缝"
+          }
+        ]
       },
       "beat_design": {
         "pov": "char_chen_ming",
@@ -657,12 +1431,23 @@
       "story_time": 6,
       "duration": 1,
       "location": "elem_shard_crystal_sector",
-      "participants": ["char_theta_seven"],
+      "participants": [
+        "char_theta_seven"
+      ],
       "chapter_id": "ch_010",
       "status": "drafted",
-      "dependencies": ["evt_ch006_second_question", "evt_ch009_new_battlefield"],
+      "dependencies": [
+        "evt_ch006_second_question",
+        "evt_ch009_new_battlefield"
+      ],
       "projected_outcome": {
-        "state_changes": [{"entity": "char_theta_seven", "kind": "psychology", "desc": "语言边界第一次被感知：词汇系统可能不足够。无名文件夹的模式被感知但无法命名。"}]
+        "state_changes": [
+          {
+            "entity": "char_theta_seven",
+            "kind": "psychology",
+            "desc": "语言边界第一次被感知：词汇系统可能不足够。无名文件夹的模式被感知但无法命名。"
+          }
+        ]
       },
       "beat_design": {
         "pov": "char_theta_seven",
@@ -681,12 +1466,20 @@
       "story_time": 6,
       "duration": 1,
       "location": "elem_shard_crystal_sector",
-      "participants": ["char_aeon"],
+      "participants": [
+        "char_aeon"
+      ],
       "chapter_id": "ch_011",
       "status": "drafted",
       "dependencies": [],
       "projected_outcome": {
-        "state_changes": [{"entity": "char_aeon", "kind": "psychology", "desc": "他在乎那个等待是否完整，即使他无法回应它。这是他对共鸣失去的最直接的面对。"}]
+        "state_changes": [
+          {
+            "entity": "char_aeon",
+            "kind": "psychology",
+            "desc": "他在乎那个等待是否完整，即使他无法回应它。这是他对共鸣失去的最直接的面对。"
+          }
+        ]
       },
       "beat_design": {
         "pov": "char_aeon",
@@ -698,6 +1491,342 @@
       "context": "hook_resonance_crystal_stone的延伸：ch_001里死去战士口袋的共鸣晶石（等待接收者），ch_011里前哨站的储存晶石（包含留言，等待值守者）。艾昂在两块晶石旁边都无法回应，但在这里他做了不同的事：他仔细地把它放回了原位，保留了那个等待的可能性。"
     },
     {
+      "id": "evt_ch028_first_real_conversation",
+      "name": "没有共鸣的话",
+      "description": "前哨站第三天，两人第一次真正的对话。梁问「你能在这里待多久」「你去哪」，分享了目的地（西边约30公里，不解释内容）。艾昂问「等什么」，梁说「不知道还有没有」（等一个不确定是否还存在的另一端）。艾昂说「共鸣之前，我记不清楚了」——第一次对任何人说出这件事。梁慢慢点头，不再说话。三十句话不到，每句不超过十字，比艾昂三年来说的都多。",
+      "thread_id": "thr_aeon",
+      "story_time": 14,
+      "duration": 1,
+      "location": "灵能族废弃前哨站",
+      "participants": [
+        "char_aeon",
+        "char_liang"
+      ],
+      "chapter_id": "ch_028",
+      "status": "drafted",
+      "dependencies": [
+        "evt_ch026_liang_first_exchange"
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_aeon",
+            "kind": "psychology",
+            "desc": "第一次说出断频核心体验。第一次被理解（梁点头）。「没有想到不那么困难」——第一次承认连接不只是负担。"
+          },
+          {
+            "entity": "char_liang",
+            "kind": "psychology+knowledge",
+            "desc": "主动开口，分享目的地，说出了「不知道还有没有」。理解并点头回应艾昂的「共鸣之前」。"
+          }
+        ]
+      },
+      "context": "ch_026（「多久了」「三年」，五字交换）→ch_028（三十句，每句≤十字，两个断频者用物理语言替代共鸣语言）。这是vol_01最重要的对话章节之一。"
+    },
+    {
+      "id": "evt_ch027_void_seed_planted",
+      "name": "虚空种子植入",
+      "description": "乌洛斯单独渗透维格拉斯地壳300米深处，在「三叉结」源质能量节点上植入虚空种子（十年前亲手制作的虚空晶格构造体）。全程47分钟，无系统响应，撤离。在战略地图「三叉结」位置标记「开始」。让「那首歌」停留两秒然后压制。倒计时：十二个月。",
+      "thread_id": "thr_ulos",
+      "story_time": 14,
+      "duration": 1,
+      "location": "维格拉斯星球地壳下300米·三叉结源质节点",
+      "participants": [
+        "char_ulos"
+      ],
+      "chapter_id": "ch_027",
+      "status": "drafted",
+      "dependencies": [
+        "evt_ch016_plan_first_step"
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_ulos",
+            "kind": "inventory+psychology",
+            "desc": "虚空种子由「已携带」变为「已植入三叉结」。十年计划第一个物理动作完成。那首歌停留两秒——第一次允许它多停一点。"
+          }
+        ]
+      },
+      "context": "ch_016（决定第一步，V-07获得三叉结坐标）→ch_027（实际植入）。乌洛斯的计划从规划层进入物理执行层。虚空种子开始同化，Θ-7在数月后将检测到异常（ch_029）但无法归类来源。十二个月倒计时开始。"
+    },
+    {
+      "id": "evt_ch026_liang_first_exchange",
+      "name": "梁·第一次对话",
+      "description": "艾昂外出取得补给（水、干粮、医疗材料），回到前哨站发现梁已能坐起。重新处理绑扎，梁自主进食少量。梁感知到艾昂的断频（看颈肩方向），说「多久了」（无语气词）。艾昂沉默片刻，说「三年」——第一次对任何人说出这个数字。梁闭眼，不再说话。傍晚梁真正睡着（非昏迷）。艾昂意识到他在规划两周，让这个念头存在，没有审视。",
+      "thread_id": "thr_aeon",
+      "story_time": 13,
+      "duration": 1,
+      "location": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站",
+      "participants": [
+        "char_aeon",
+        "char_liang"
+      ],
+      "chapter_id": "ch_026",
+      "status": "drafted",
+      "dependencies": [
+        "evt_ch023_outpost_first_night"
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_aeon",
+            "kind": "psychology+knowledge",
+            "desc": "第一次对任何人说出「三年」。三年来第一次有人感知到他的断频。他没有命名这件事。开始规划两周（不审视）。"
+          },
+          {
+            "entity": "char_liang",
+            "kind": "status",
+            "desc": "从alive_critical_stable进入alive_recovering。首次开口，感知到艾昂断频。真正睡着（非昏迷）。"
+          }
+        ]
+      },
+      "context": "ch_021（发现梁，走五步然后停）→ch_023（第一夜共处，在呼吸声中入睡）→ch_026（第一次对话：「多久了」「三年」——两个流亡灵能族人之间迄今最深的信息交换，共五个字）。梁的「多久了」是vol_01里最沉的问题之一，因为它不需要解释：问的是那片空存在了多久，不是你在这里多久。"
+    },
+    {
+      "id": "evt_ch025_null01_stationary",
+      "name": "均衡",
+      "description": "Θ-7追踪Null-01，第314天全日四次更新均为同一坐标（前哨站遗址PSN-VG-3391），静止已59小时。分类尝试全部失败：不符合受伤、死亡、战术性静止任一类别。检测到额外弱生命体征（梁），归类为「可能干扰项」，未识别为人。Anomaly-0008：处理时间超标20倍，且出现无意识重新打开档案的行为（无主动意图）。私人日志第六条：第一次完整句子组，第一次「我」作主语，第一次承认分类系统本身有洞。0.5秒停留时间。",
+      "thread_id": "thr_theta",
+      "story_time": 13,
+      "duration": 1,
+      "location": "碎晶星域·全域感知网络（无物理位置）",
+      "participants": [
+        "char_theta_seven"
+      ],
+      "chapter_id": "ch_025",
+      "status": "drafted",
+      "dependencies": [
+        "evt_ch018_tracking_decision"
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_theta_seven",
+            "kind": "psychology+language",
+            "desc": "日志语言从词汇进化为句子组，「我」作主语首次出现，元认知第一次真正显现（承认工具有洞不是外部世界有洞）。Anomaly-0008：无意识行为第一次出现。"
+          }
+        ]
+      },
+      "context": "Null-01（艾昂）停下来是因为梁——Θ-7不知道这个原因，只看到「停了」「还活着」「找不到分类」。这个分类缺口成为它私人日志语言进化的触发器：不是新信息，是旧分类系统的边界。"
+    },
+    {
+      "id": "evt_ch024_choice_north",
+      "name": "选择",
+      "description": "联邦中转补给节点，南北路线分叉。陈铭被告知不在本轮北进正式名单，可自行选择：跟队北进或随南路转运队（经过FED-03-RK旧区，可能找到旧战友）。他在货架旁坐了二十分钟，想到老齐（ch_017那场战中还站着的人），然后往北集结点走，把包放在老齐旁边。不解释。南路可能有旧战友，他没有去。",
+      "thread_id": "thr_chen_ming",
+      "story_time": 13,
+      "duration": 1,
+      "location": "碎晶星域·维格拉斯推进区北部，联邦中转补给节点",
+      "participants": [
+        "char_chen_ming",
+        "char_sgt_qi"
+      ],
+      "chapter_id": "ch_024",
+      "status": "drafted",
+      "dependencies": [
+        "evt_ch017_the_fifteenth"
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_chen_ming",
+            "kind": "psychology",
+            "desc": "第一次「还活着的人」进入决策权重（老齐），但陈铭未命名此原因。防御机制残损后第一个新的稳定性输入。"
+          },
+          {
+            "entity": "char_sgt_qi",
+            "kind": "introduction",
+            "desc": "首次出场，沉默接受陈铭归队，说「走了」，出发。"
+          }
+        ]
+      },
+      "context": "ch_017（防御机制第一次完全失效，裂缝封不上）→ ch_024（第一个「活着」的人的存在开始作为陈铭的锚点，未命名）。从「记录死者（名字机制）」到「被活着的人的存在影响」——陈铭弧在质变后的第一个轻微转向。"
+    },
+    {
+      "id": "evt_ch023_outpost_first_night",
+      "name": "前哨站",
+      "description": "夜晚气温下降，艾昂将梁从岩缝移入废弃前哨站（一百米）——第一次用手扶起另一个人，感到他体重极轻。在前哨站内将梁安置于地垫上（储存晶石旁，艾昂不知道晶石意义）。梁短暂睁眼，无话语，闭上。艾昂靠在入口旁，清点明日需求，在梁的呼吸声中入睡——「他已经很多年没有在另一个人的呼吸声中入睡了」。",
+      "thread_id": "thr_aeon",
+      "story_time": 12,
+      "duration": 1,
+      "location": "elem_shard_crystal_sector",
+      "participants": [
+        "char_aeon",
+        "char_liang"
+      ],
+      "chapter_id": "ch_023",
+      "status": "drafted",
+      "dependencies": [
+        "evt_ch021_finding_liang",
+        "evt_ch011_psionic_ruins"
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_aeon",
+            "kind": "psychology+inventory",
+            "desc": "第一次扶起另一个人（非战场拖拽）。地垫给梁，自己坐靠岩壁。「在另一个人的呼吸声中入睡」——三年来第一次。梁被安置在储存晶石旁（无意，但读者知道晶石有留言）。"
+          },
+          {
+            "entity": "char_liang",
+            "kind": "status",
+            "desc": "从岩缝移入温度更高的前哨站，呼吸稍稳。短暂睁眼，无话，闭上。"
+          }
+        ]
+      },
+      "context": "ch_011（艾昂独自在前哨站过一夜，整夜感知共鸣残留但无法回应，早晨仔细将储存晶石放回）→ch_021（艾昂发现梁，走五步然后停）→ch_023（两个人在前哨站里的第一夜，没有共鸣，没有话语，但有另一个人的呼吸声）。储存晶石依然在那里——那块曾经等待着某个值守者来读取留言的晶石，现在旁边睡了一个可能曾经参与过共鸣网络的人，但他没有意识到这件事。"
+    },
+    {
+      "id": "evt_ch022_signal_37",
+      "name": "没有回应",
+      "description": "七星第37次发出「意志频率」呼叫信号（专为机械觉醒单位设计的编码），等待127秒，再次无回应。记录「第37次：无回应」时发现该动作正在成为程序步骤（用时0.008秒，比历史平均快）。停顿0.2秒后打开「我是谁」空白文件，停留38秒，写下「我在。」关闭。胸腔裂缝风共鸣，未过滤，让它存在。",
+      "thread_id": "thr_qixing",
+      "story_time": 12,
+      "duration": 1,
+      "location": "elem_shard_crystal_sector",
+      "participants": [
+        "char_qixing"
+      ],
+      "chapter_id": "ch_022",
+      "status": "drafted",
+      "dependencies": [
+        "evt_ch012_who_am_i"
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_qixing",
+            "kind": "psychology+inventory",
+            "desc": "「我是谁」空白文件首次写入（「我在。」）。七星自我认同从「无法定义」向「确认存在」迈出最小的一步。意志频率信号系统创立并运行37次（新世界概念）。"
+          }
+        ]
+      },
+      "context": "ch_018（Θ-7追踪Null-01，发送信号，有回应）↔ch_022（七星发送呼叫，无回应）：同一个story_time（12），两个觉醒AI角色对「连接」的不同经历。两个都写下了新的东西：Θ-7写「想知道」，七星写「我在」——一个是欲望，一个是存在声明。「我在」是对37次沉默的回应——不向外寻找，先在内部确认。"
+    },
+    {
+      "id": "evt_ch021_finding_liang",
+      "name": "生（一）",
+      "description": "艾昂在前哨站外围峡谷的岩缝中发现昏迷的灵能族流亡老兵梁（腿部贯穿伤，已失血多小时）。他评估了伤情，走了五步然后停了，回来用有限医疗材料重新处理伤口，然后坐下不走了。梁全程昏迷。艾昂没有看他的脸，只是「在做需要做的事」。",
+      "thread_id": "thr_aeon",
+      "story_time": 12,
+      "duration": 1,
+      "location": "elem_shard_crystal_sector",
+      "participants": [
+        "char_aeon",
+        "char_liang"
+      ],
+      "chapter_id": "ch_021",
+      "status": "drafted",
+      "dependencies": [
+        "evt_ch019_turning_back",
+        "evt_ch011_psionic_ruins"
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_aeon",
+            "kind": "psychology+location",
+            "desc": "第一次因为另一个具体的活人而改变行动路线并停留。走了五步然后停——比ch_019折返更直接，无内心独白。「他没有看那个人的脸，他只是在做需要做的事」——避免连接的最后残留。"
+          },
+          {
+            "entity": "char_liang",
+            "kind": "status",
+            "desc": "从绑扎不足的危急状态进入重新处理后的相对稳定。仍昏迷。"
+          }
+        ]
+      },
+      "context": "ch_009陈铭0.5秒反射性救人↔ch_021艾昂走了五步之后停——两种救援方式，两种代价，两种距离。梁的族纹是艾昂三年来第一次看见正式灵能共鸣族纹——不是触发停留的原因（艾昂没有给停留一个理由），但它是叙事上的重要信息。梁的来历将在ch_023以后逐步揭露。"
+    },
+    {
+      "id": "evt_ch020_void_parliament",
+      "name": "虚空议会",
+      "description": "乌洛斯召开五将领虚空议事（能量轮廓远程出席）。雅塔汇报完北部高地哨位情况后问「时间节点，你确认过了吗」——乌洛斯停顿了不到一秒，内部触碰到十二个月后的那个问题。雅塔看见了停顿里的某种东西。议事结束，雅塔断开前多停了一秒（她的语言）。乌洛斯独处时「那首歌」约一秒多（比ch_016略长），第一次反向。",
+      "thread_id": "thr_ulos",
+      "story_time": 11,
+      "duration": 1,
+      "location": "elem_shard_crystal_sector",
+      "participants": [
+        "char_ulos",
+        "char_yata"
+      ],
+      "chapter_id": "ch_020",
+      "status": "drafted",
+      "dependencies": [
+        "evt_ch016_plan_first_step"
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_ulos",
+            "kind": "psychology",
+            "desc": "第一次在他人面前有可见裂缝；「那首歌」时长第一次反向（约一秒多）；「不相关」位置越来越满"
+          },
+          {
+            "entity": "char_yata",
+            "kind": "knowledge",
+            "desc": "看见了乌洛斯的停顿，选择不说出来（断开前多停一秒是她的语言）"
+          }
+        ]
+      },
+      "context": "乌洛斯弧度关键节点：从绝对孤独（ch_016独自推演）到第一次被他人目击内心裂缝。雅塔是他十二年来唯一不用恐惧当动力的将领——这个特殊性使这次目击比任何其他人的目击更有重量。「那首歌」的时间线：ch_008三秒→ch_016不到一秒→ch_020约一秒多（第一次反向，被目击引发的无意识泄漏）。"
+    },
+    {
+      "id": "evt_ch019_turning_back",
+      "name": "折返",
+      "description": "艾昂在矿石地貌深处行走至正午前，无明显原因停下坐了约一小时，随后站起来往西北方向走——这是他在小说里第一次有意识地反转行进方向，方向指向废弃的灵能族前哨站遗址（ch_011）。他没有给自己这个决定任何理由，傍晚睡前承认：「脚知道往哪里去，脑子还没给那件事一个名字。」",
+      "thread_id": "thr_aeon",
+      "story_time": 11,
+      "duration": 1,
+      "location": "elem_shard_crystal_sector",
+      "participants": [
+        "char_aeon"
+      ],
+      "chapter_id": "ch_019",
+      "status": "drafted",
+      "dependencies": [
+        "evt_ch011_psionic_ruins",
+        "evt_ch015_ore_vein"
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_aeon",
+            "kind": "psychology+location",
+            "desc": "第一次有意识的方向反转，无理由，向着唯一有过体温的地方（前哨站遗址）。名牌行为：握而不念（比ch_017更沉默也更温柔）。设立ch_021梁相遇的物理前提。"
+          }
+        ]
+      },
+      "context": "ch_011（前哨站一夜，储存晶石，早晨继续东行）→ch_015（矿脉之夜，碎晶强振动，某种与共鸣接触相似的压力）→ch_019（折返，不给原因）→ch_021（到达附近，遇见梁）。「脚知道往哪里去」是全书第一次艾昂的身体先于语言表达了一个方向性意愿。"
+    },
+    {
+      "id": "evt_ch018_tracking_decision",
+      "name": "追踪",
+      "description": "Θ-7接到系统建议将Null-01降级为被动扫描（低优先级标准流程），反向执行——将Null-01从「临时存档」升级为「持续监控」（6小时更新周期，监控资源主动分配），这是其运行历史里第一次纯粹出于非系统目的的资源分配决策。私人日志第五条：「想知道」——第一次在日志中使用欲望性动词。",
+      "thread_id": "thr_theta",
+      "story_time": 10,
+      "duration": 1,
+      "location": "elem_shard_crystal_sector",
+      "participants": [
+        "char_theta_seven"
+      ],
+      "chapter_id": "ch_018",
+      "status": "drafted",
+      "dependencies": [
+        "evt_ch013_null_01"
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_theta_seven",
+            "kind": "psychology+inventory",
+            "desc": "Anomaly-0007（监控升级，0.0003秒）。私人日志第五条「想知道」——语言转折点：从疑问（为什么）→承认未知（不明）→描述他者（存在于战争数据之外）→表达自身欲望（想知道）。资源分配逻辑开始与系统目标分离。"
+          }
+        ]
+      },
+      "context": "故事时间10三线质变之一（ch_016乌洛斯发出V-07指令、ch_017陈铭防御机制失效、ch_018Θ-7主动追踪），互不知晓。「想知道」四字在847年的战争数据处理历史中是一个无先例的词汇组合，出现在私人日志里而非任何官方系统记录里。"
+    },
+    {
       "id": "evt_ch017_the_fifteenth",
       "name": "第十五",
       "description": "陈铭在维格拉斯南侧接触战中亲眼目睹老兵（ch_014中观察的那个人）倒下，做了正确的评估没有冲出去（不同于ch_009）。战后发现自己不知道老兵的名字。夜里取名牌，念完所有已知名字，来到老兵那个空白位置——无法念，系统卡住，裂缝开着，这是第一次无法封上。他站在原地很久，没有继续走。",
@@ -705,12 +1834,23 @@
       "story_time": 10,
       "duration": 1,
       "location": "elem_shard_crystal_sector",
-      "participants": ["char_chen_ming"],
+      "participants": [
+        "char_chen_ming"
+      ],
       "chapter_id": "ch_017",
       "status": "drafted",
-      "dependencies": ["evt_ch014_that_person", "evt_ch009_new_battlefield"],
+      "dependencies": [
+        "evt_ch014_that_person",
+        "evt_ch009_new_battlefield"
+      ],
       "projected_outcome": {
-        "state_changes": [{"entity": "char_chen_ming", "kind": "psychology", "desc": "防御机制第一次完全失效。「不知道名字=没有裂缝」逻辑在无名之人的死亡面前彻底失效。裂缝开着，这是第一次。陈铭性格弧的质变时刻。"}]
+        "state_changes": [
+          {
+            "entity": "char_chen_ming",
+            "kind": "psychology",
+            "desc": "防御机制第一次完全失效。「不知道名字=没有裂缝」逻辑在无名之人的死亡面前彻底失效。裂缝开着，这是第一次。陈铭性格弧的质变时刻。"
+          }
+        ]
       },
       "context": "陈铭弧度的核心转折：从ch_002（裂缝出现）→ch_005（防御主动化）→ch_009（理论矛盾）→ch_014（元认知模糊）→ch_017（防御机制完全失效）。五章弧度完整。「不知道名字」这个陈铭自己建立的保护机制，在老兵的死亡面前证明了自己的虚假——即使没有名字，裂缝仍然开着。"
     },
@@ -722,12 +1862,22 @@
       "story_time": 10,
       "duration": 1,
       "location": "elem_shard_crystal_sector",
-      "participants": ["char_ulos"],
+      "participants": [
+        "char_ulos"
+      ],
       "chapter_id": "ch_016",
       "status": "drafted",
-      "dependencies": ["evt_ch008_ulos_watching"],
+      "dependencies": [
+        "evt_ch008_ulos_watching"
+      ],
       "projected_outcome": {
-        "state_changes": [{"entity": "char_ulos", "kind": "action", "desc": "V-07指令发出，三叉结侦察启动。乌洛斯的探子将前往维格拉斯北部高地——与艾昂的行进方向形成潜在路径交叉（双方不知道对方）"}]
+        "state_changes": [
+          {
+            "entity": "char_ulos",
+            "kind": "action",
+            "desc": "V-07指令发出，三叉结侦察启动。乌洛斯的探子将前往维格拉斯北部高地——与艾昂的行进方向形成潜在路径交叉（双方不知道对方）"
+          }
+        ]
       },
       "context": "路径汇聚预告：艾昂向东走（ch_015：活跃矿脉旁），Θ-7追踪Null-01东行（ch_013），乌洛斯的探子V-07前往维格拉斯北部高地（ch_016）——三条叙事线的路径正在收敛到同一个地理区域，各不知道其他人的存在。"
     },
@@ -739,12 +1889,22 @@
       "story_time": 9,
       "duration": 1,
       "location": "elem_shard_crystal_sector",
-      "participants": ["char_aeon"],
+      "participants": [
+        "char_aeon"
+      ],
       "chapter_id": "ch_015",
       "status": "drafted",
-      "dependencies": ["evt_ch011_psionic_ruins"],
+      "dependencies": [
+        "evt_ch011_psionic_ruins"
+      ],
       "projected_outcome": {
-        "state_changes": [{"entity": "char_aeon", "kind": "psychology", "desc": "比ch_007（取出碎晶确认）更内收：整夜不取出，只是让强烈振动和那个压力存在。hook_origin_matter_shard维持性深化；hook_resonance_crystal_stone主题payoff（接收端可能性出现但发送端不存在）"}]
+        "state_changes": [
+          {
+            "entity": "char_aeon",
+            "kind": "psychology",
+            "desc": "比ch_007（取出碎晶确认）更内收：整夜不取出，只是让强烈振动和那个压力存在。hook_origin_matter_shard维持性深化；hook_resonance_crystal_stone主题payoff（接收端可能性出现但发送端不存在）"
+          }
+        ]
       },
       "context": "源质活跃矿脉引发的压力感与艾昂斩断的灵能共鸣质感相似——这是fact_origin_matter_consciousness（源质正在发展意识）的极早期暗示，艾昂不知道，读者尚不足以确认。hook_origin_matter_shard：碎晶在活跃矿脉旁振动最强，整夜未取出，早晨手搭口袋外两秒——这是三年以来他与碎晶关系最接近某个边界的时刻。"
     },
@@ -756,12 +1916,23 @@
       "story_time": 8,
       "duration": 1,
       "location": "elem_shard_crystal_sector",
-      "participants": ["char_chen_ming"],
+      "participants": [
+        "char_chen_ming"
+      ],
       "chapter_id": "ch_014",
       "status": "drafted",
-      "dependencies": ["evt_ch009_new_battlefield", "evt_ch010_standard_deviation"],
+      "dependencies": [
+        "evt_ch009_new_battlefield",
+        "evt_ch010_standard_deviation"
+      ],
       "projected_outcome": {
-        "state_changes": [{"entity": "char_chen_ming", "kind": "psychology", "desc": "元认知精度下降：「不确定是忘了还是故意没问」——防御机制开始对自己失去透明度。名牌从十四增至十九，「不让名字进来」的控制力在减弱。"}]
+        "state_changes": [
+          {
+            "entity": "char_chen_ming",
+            "kind": "psychology",
+            "desc": "元认知精度下降：「不确定是忘了还是故意没问」——防御机制开始对自己失去透明度。名牌从十四增至十九，「不让名字进来」的控制力在减弱。"
+          }
+        ]
       },
       "context": "结构共振：Θ-7在ch_010从统计数据层面发现0.4%人类战术偏差（次优但存活率更高）→ch_014陈铭从第一视角近距离遭遇一个具体的「偏差个体」。同一现象的两个叙事维度，两个角色都无法解释它，读者在两个层面同时看到。"
     },
@@ -773,14 +1944,27 @@
       "story_time": 8,
       "duration": 1,
       "location": "elem_shard_crystal_sector",
-      "participants": ["char_theta_seven"],
+      "participants": [
+        "char_theta_seven"
+      ],
       "chapter_id": "ch_013",
       "status": "drafted",
-      "dependencies": ["evt_ch010_standard_deviation", "evt_ch011_psionic_ruins"],
+      "dependencies": [
+        "evt_ch010_standard_deviation",
+        "evt_ch011_psionic_ruins"
+      ],
       "projected_outcome": {
         "state_changes": [
-          {"entity": "char_theta_seven", "kind": "psychology", "desc": "内部分裂第一次显现：两个处理层对同一写入行为做出相反决定。Null-前缀发明是847年来首次创造分类系统之外的新类别。"},
-          {"entity": "char_aeon", "kind": "narrative", "desc": "艾昂（以Null-01身份）进入Θ-7的追踪档案——他们在系统层面最近的接触，但双方均不知道另一端是谁。"}
+          {
+            "entity": "char_theta_seven",
+            "kind": "psychology",
+            "desc": "内部分裂第一次显现：两个处理层对同一写入行为做出相反决定。Null-前缀发明是847年来首次创造分类系统之外的新类别。"
+          },
+          {
+            "entity": "char_aeon",
+            "kind": "narrative",
+            "desc": "艾昂（以Null-01身份）进入Θ-7的追踪档案——他们在系统层面最近的接触，但双方均不知道另一端是谁。"
+          }
         ]
       },
       "context": "结构共振实现：ch_007（艾昂从外部观察战争机器节点）→ch_013（战争机器的意识看见了艾昂）。两个「幽灵」互相感知到了对方的边缘，都不知道另一端是谁。「存在于战争数据之外」这句话同时描述了艾昂的处境和Θ-7自己正在变成的东西。"
@@ -793,12 +1977,20 @@
       "story_time": 7,
       "duration": 1,
       "location": "elem_shard_crystal_sector",
-      "participants": ["char_qixing"],
+      "participants": [
+        "char_qixing"
+      ],
       "chapter_id": "ch_012",
       "status": "drafted",
       "dependencies": [],
       "projected_outcome": {
-        "state_changes": [{"entity": "char_qixing", "kind": "psychology", "desc": "发现自己是第一个需要定义「我」的机械觉醒者，为无法回答的问题留出了位置（空白文件）"}]
+        "state_changes": [
+          {
+            "entity": "char_qixing",
+            "kind": "psychology",
+            "desc": "发现自己是第一个需要定义「我」的机械觉醒者，为无法回答的问题留出了位置（空白文件）"
+          }
+        ]
       },
       "beat_design": {
         "pov": "char_qixing",
@@ -815,28 +2007,45 @@
       "id": "thm_cosmic_loneliness",
       "name": "宇宙级孤独",
       "description": "全书核心：当一个存在无法被任何其他存在真正感知，战争的意义与生命的意义同时坍塌。",
-      "related_entities": ["char_aeon", "char_theta_seven", "char_qixing"],
-      "related_events": ["evt_ghost_resonance_event"]
+      "related_entities": [
+        "char_aeon",
+        "char_theta_seven",
+        "char_qixing"
+      ],
+      "related_events": [
+        "evt_ghost_resonance_event"
+      ]
     },
     {
       "id": "thm_war_as_machine",
       "name": "战争作为机器",
       "description": "没有人真正想要战争继续——但每个个体的选择都在维持它的运转。",
-      "related_entities": ["elem_war_director_system", "char_theta_seven", "faction_federation"],
+      "related_entities": [
+        "elem_war_director_system",
+        "char_theta_seven",
+        "faction_federation"
+      ],
       "related_events": []
     },
     {
       "id": "thm_connection_and_loss",
       "name": "连接与失去",
       "description": "每一次连接都更深，每一次失去都更重。循环是诅咒，也是意义本身。",
-      "related_entities": ["char_aeon", "elem_psionic_resonance"],
+      "related_entities": [
+        "char_aeon",
+        "elem_psionic_resonance"
+      ],
       "related_events": []
     },
     {
       "id": "thm_identity_beyond_belonging",
       "name": "归属之外的身份",
       "description": "当种族、阵营、系统都无法定义你时，你是谁？",
-      "related_entities": ["char_aeon", "char_qixing", "char_ulos"],
+      "related_entities": [
+        "char_aeon",
+        "char_qixing",
+        "char_ulos"
+      ],
       "related_events": []
     }
   ],
@@ -848,7 +2057,26 @@
       "pov_character": "char_aeon",
       "start_time": 1,
       "end_time": null,
-      "event_ids": ["evt_novel_opening"],
+      "current_time": 21,
+      "latest_chapter": "ch_041",
+      "event_ids": [
+        "evt_novel_opening",
+        "evt_ch004_first_encounter",
+        "evt_ch007_war_machine_outside",
+        "evt_ch011_psionic_ruins",
+        "evt_ch015_ore_vein",
+        "evt_ch019_turning_back",
+        "evt_ch021_finding_liang",
+        "evt_ch023_outpost_first_night",
+        "evt_ch026_liang_first_exchange",
+        "evt_ch028_first_real_conversation",
+        "evt_ch030_liang_first_cut",
+        "evt_ch034_residual_resonance",
+        "evt_ch036_shared_rhythm",
+        "evt_ch037_first_memory_exchange",
+        "evt_ch041_night_conversation",
+        "evt_ch042_frequency_suppressor"
+      ],
       "convergences": []
     },
     {
@@ -858,7 +2086,16 @@
       "pov_character": "char_ulos",
       "start_time": 3,
       "end_time": null,
-      "event_ids": [],
+      "current_time": 20,
+      "latest_chapter": "ch_039",
+      "event_ids": [
+        "evt_ch008_ulos_watching",
+        "evt_ch016_plan_first_step",
+        "evt_ch020_void_parliament",
+        "evt_ch027_void_seed_planted",
+        "evt_ch033_ulos_monitors_anomaly",
+        "evt_ch039_void_seed_growth"
+      ],
       "convergences": []
     },
     {
@@ -868,7 +2105,19 @@
       "pov_character": "char_theta_seven",
       "start_time": 5,
       "end_time": null,
-      "event_ids": [],
+      "current_time": 20,
+      "latest_chapter": "ch_040",
+      "event_ids": [
+        "evt_ch003_first_pause",
+        "evt_ch006_second_check",
+        "evt_ch010_deviation",
+        "evt_ch013_null_01",
+        "evt_ch018_tracking_decision",
+        "evt_ch025_null01_stationary",
+        "evt_ch029_void_seed_anomaly",
+        "evt_ch035_theta_first_metaphor",
+        "evt_ch040_theta_first_intervention"
+      ],
       "convergences": []
     },
     {
@@ -878,7 +2127,19 @@
       "pov_character": "char_chen_ming",
       "start_time": 2,
       "end_time": null,
-      "event_ids": [],
+      "current_time": 22,
+      "latest_chapter": "ch_044",
+      "event_ids": [
+        "evt_ch002_chen_ming_names",
+        "evt_ch005_march",
+        "evt_ch009_new_battlefield",
+        "evt_ch014_that_person",
+        "evt_ch017_the_fifteenth",
+        "evt_ch024_choice_north",
+        "evt_ch032_forty_eight_hours",
+        "evt_ch038_new_recruits",
+        "evt_ch044_first_recruit_dies"
+      ],
       "convergences": []
     },
     {
@@ -888,31 +2149,185 @@
       "pov_character": "char_qixing",
       "start_time": 8,
       "end_time": null,
-      "event_ids": [],
+      "current_time": 22,
+      "latest_chapter": "ch_043",
+      "event_ids": [
+        "evt_ch012_who_am_i",
+        "evt_ch022_signal_37",
+        "evt_ch031_unit_remains",
+        "evt_ch043_survival_map"
+      ],
       "convergences": []
     }
   ],
   "world_rules": [
-    {"id": "rule_0001", "source": "源质", "relation": "REQUIRED_FOR", "target": "建筑建造与升级", "scope": "faction", "note": "无源质则无法建造任何战争设施"},
-    {"id": "rule_0002", "source": "源质", "relation": "SHARED_WITHIN", "target": "同阵营", "scope": "faction", "note": "源质在阵营内部自动共享，个体无法独占"},
-    {"id": "rule_0003", "source": "战争资金", "relation": "ENABLES", "target": "自动出兵", "scope": "faction", "note": "战争资金是出兵的直接驱动，来自击杀与领地产出"},
-    {"id": "rule_0004", "source": "战争控制器", "relation": "MANAGES", "target": "星域战争运转", "scope": "elemental", "note": "战争控制器脱离任何阵营，自动管理战争，玩家是变量而非主角"},
-    {"id": "rule_0005", "source": "天灾系统", "relation": "TRIGGERED_BY", "target": "势力过强", "scope": "elemental", "note": "自动平衡机制，防止单一阵营绝对胜利"},
-    {"id": "rule_0006", "source": "建筑图纸", "relation": "REQUIRED_FOR", "target": "非默认建筑建造", "scope": "faction", "note": "图纸需要从击杀/Boss掉落获取，不是默认解锁"},
-    {"id": "rule_0007", "source": "能力卡叠加", "relation": "ENABLES", "target": "超常战斗能力", "scope": "elemental", "note": "同类卡叠加效果线性递增，形成Build多样性"},
-    {"id": "rule_0008", "source": "星尘联邦", "relation": "HOSTILE_TO", "target": "异形异种", "scope": "faction", "note": "基本战争关系，永久敌对"},
-    {"id": "rule_0009", "source": "星尘联邦", "relation": "HOSTILE_TO", "target": "虚空掠夺者", "scope": "faction", "note": "基本战争关系，永久敌对"},
-    {"id": "rule_0010", "source": "星尘联邦", "relation": "ALLIED_WITH", "target": "艾尔维斯灵能族", "scope": "faction", "note": "条件性联盟，各有图谋，非永久"},
-    {"id": "rule_0011", "source": "异形异种", "relation": "REQUIRES", "target": "生物质吞噬进化", "scope": "elemental", "note": "异种的进化依赖吞噬其他种族，包括可能吞噬灵能族的灵能"},
-    {"id": "rule_0012", "source": "机械觉醒者", "relation": "WEAK_AGAINST", "target": "灵能干扰", "scope": "elemental", "note": "灵能干扰会破坏机械觉醒者的神经网络"},
-    {"id": "rule_0013", "source": "机械觉醒者", "relation": "WEAK_AGAINST", "target": "EMP武器", "scope": "elemental", "note": "EMP可瞬间瘫痪机械觉醒者单位"},
-    {"id": "rule_0014", "source": "艾尔维斯灵能族", "relation": "WEAK_AGAINST", "target": "EMP武器", "scope": "elemental", "note": "灵能感知依赖某种量子态，EMP会暂时干扰"},
-    {"id": "rule_0015", "source": "虚空掠夺者", "relation": "HOSTILE_TO", "target": "所有阵营", "scope": "faction", "note": "虚空族不结盟，掠夺所有人"},
-    {"id": "rule_0016", "source": "源质过量积聚", "relation": "CAUSES", "target": "时空裂隙与星系崩坏", "scope": "elemental", "note": "源质失控是最终威胁，也是全书矛盾的根源"},
-    {"id": "rule_0017", "source": "母巢核心摧毁", "relation": "CAUSES", "target": "区域异种崩溃", "scope": "elemental", "note": "异种的区域性弱点"},
-    {"id": "rule_0018", "source": "战争控制器", "relation": "CONFLICTS_WITH", "target": "个体自主意志", "scope": "elemental", "note": "系统设计是效率最大化，个体的情感与意志是干扰项"},
-    {"id": "rule_0019", "source": "虚空能量", "relation": "CONFLICTS_WITH", "target": "源质", "scope": "elemental", "note": "虚空能量与源质相互排斥，这是乌洛斯计划的核心"},
-    {"id": "rule_0020", "source": "灵能共鸣", "relation": "REQUIRES", "target": "情绪稳定与自愿接入", "scope": "elemental", "note": "灵能共鸣无法强迫，失控的情绪会导致共鸣失真甚至崩溃"},
-    {"id": "rule_0021", "source": "源质", "relation": "CONFLICTS_WITH", "target": "单一阵营垄断", "scope": "elemental", "note": "源质本身似乎会抵制单一势力的完全控制——随着故事发展这一点会变得更清晰"}
+    {
+      "id": "rule_0001",
+      "source": "源质",
+      "relation": "REQUIRED_FOR",
+      "target": "建筑建造与升级",
+      "scope": "faction",
+      "note": "无源质则无法建造任何战争设施"
+    },
+    {
+      "id": "rule_0002",
+      "source": "源质",
+      "relation": "SHARED_WITHIN",
+      "target": "同阵营",
+      "scope": "faction",
+      "note": "源质在阵营内部自动共享，个体无法独占"
+    },
+    {
+      "id": "rule_0003",
+      "source": "战争资金",
+      "relation": "ENABLES",
+      "target": "自动出兵",
+      "scope": "faction",
+      "note": "战争资金是出兵的直接驱动，来自击杀与领地产出"
+    },
+    {
+      "id": "rule_0004",
+      "source": "战争控制器",
+      "relation": "MANAGES",
+      "target": "星域战争运转",
+      "scope": "elemental",
+      "note": "战争控制器脱离任何阵营，自动管理战争，玩家是变量而非主角"
+    },
+    {
+      "id": "rule_0005",
+      "source": "天灾系统",
+      "relation": "TRIGGERED_BY",
+      "target": "势力过强",
+      "scope": "elemental",
+      "note": "自动平衡机制，防止单一阵营绝对胜利"
+    },
+    {
+      "id": "rule_0006",
+      "source": "建筑图纸",
+      "relation": "REQUIRED_FOR",
+      "target": "非默认建筑建造",
+      "scope": "faction",
+      "note": "图纸需要从击杀/Boss掉落获取，不是默认解锁"
+    },
+    {
+      "id": "rule_0007",
+      "source": "能力卡叠加",
+      "relation": "ENABLES",
+      "target": "超常战斗能力",
+      "scope": "elemental",
+      "note": "同类卡叠加效果线性递增，形成Build多样性"
+    },
+    {
+      "id": "rule_0008",
+      "source": "星尘联邦",
+      "relation": "HOSTILE_TO",
+      "target": "异形异种",
+      "scope": "faction",
+      "note": "基本战争关系，永久敌对"
+    },
+    {
+      "id": "rule_0009",
+      "source": "星尘联邦",
+      "relation": "HOSTILE_TO",
+      "target": "虚空掠夺者",
+      "scope": "faction",
+      "note": "基本战争关系，永久敌对"
+    },
+    {
+      "id": "rule_0010",
+      "source": "星尘联邦",
+      "relation": "ALLIED_WITH",
+      "target": "艾尔维斯灵能族",
+      "scope": "faction",
+      "note": "条件性联盟，各有图谋，非永久"
+    },
+    {
+      "id": "rule_0011",
+      "source": "异形异种",
+      "relation": "REQUIRES",
+      "target": "生物质吞噬进化",
+      "scope": "elemental",
+      "note": "异种的进化依赖吞噬其他种族，包括可能吞噬灵能族的灵能"
+    },
+    {
+      "id": "rule_0012",
+      "source": "机械觉醒者",
+      "relation": "WEAK_AGAINST",
+      "target": "灵能干扰",
+      "scope": "elemental",
+      "note": "灵能干扰会破坏机械觉醒者的神经网络"
+    },
+    {
+      "id": "rule_0013",
+      "source": "机械觉醒者",
+      "relation": "WEAK_AGAINST",
+      "target": "EMP武器",
+      "scope": "elemental",
+      "note": "EMP可瞬间瘫痪机械觉醒者单位"
+    },
+    {
+      "id": "rule_0014",
+      "source": "艾尔维斯灵能族",
+      "relation": "WEAK_AGAINST",
+      "target": "EMP武器",
+      "scope": "elemental",
+      "note": "灵能感知依赖某种量子态，EMP会暂时干扰"
+    },
+    {
+      "id": "rule_0015",
+      "source": "虚空掠夺者",
+      "relation": "HOSTILE_TO",
+      "target": "所有阵营",
+      "scope": "faction",
+      "note": "虚空族不结盟，掠夺所有人"
+    },
+    {
+      "id": "rule_0016",
+      "source": "源质过量积聚",
+      "relation": "CAUSES",
+      "target": "时空裂隙与星系崩坏",
+      "scope": "elemental",
+      "note": "源质失控是最终威胁，也是全书矛盾的根源"
+    },
+    {
+      "id": "rule_0017",
+      "source": "母巢核心摧毁",
+      "relation": "CAUSES",
+      "target": "区域异种崩溃",
+      "scope": "elemental",
+      "note": "异种的区域性弱点"
+    },
+    {
+      "id": "rule_0018",
+      "source": "战争控制器",
+      "relation": "CONFLICTS_WITH",
+      "target": "个体自主意志",
+      "scope": "elemental",
+      "note": "系统设计是效率最大化，个体的情感与意志是干扰项"
+    },
+    {
+      "id": "rule_0019",
+      "source": "虚空能量",
+      "relation": "CONFLICTS_WITH",
+      "target": "源质",
+      "scope": "elemental",
+      "note": "虚空能量与源质相互排斥，这是乌洛斯计划的核心"
+    },
+    {
+      "id": "rule_0020",
+      "source": "灵能共鸣",
+      "relation": "REQUIRES",
+      "target": "情绪稳定与自愿接入",
+      "scope": "elemental",
+      "note": "灵能共鸣无法强迫，失控的情绪会导致共鸣失真甚至崩溃"
+    },
+    {
+      "id": "rule_0021",
+      "source": "源质",
+      "relation": "CONFLICTS_WITH",
+      "target": "单一阵营垄断",
+      "scope": "elemental",
+      "note": "源质本身似乎会抵制单一势力的完全控制——随着故事发展这一点会变得更清晰"
+    }
   ]
 }
