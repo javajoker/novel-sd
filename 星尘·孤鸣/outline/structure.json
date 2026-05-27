@@ -422,7 +422,8 @@
           "id": "ch_057", "number": 57, "title": "新兵（续）",
           "thread_id": "thr_chen_ming", "pov_character": "char_chen_ming", "story_time": 29,
           "one_line": "陈铭的新兵队伍遭遇了重大伤亡，他自己也受了伤，名牌口袋里多了三块新的。",
-          "scene_arc": "战斗（激烈）→伤亡→陈铭的伤（不严重但真实）", "status": "outlined"
+          "scene_arc": "战斗（激烈）→伤亡→陈铭的伤（不严重但真实）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_057.json"
         },
         {
           "id": "ch_058", "number": 58, "title": "静止",
