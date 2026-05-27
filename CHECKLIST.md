@@ -29,14 +29,23 @@ context to start cold. Current state: **44 chapters drafted (vol_01), KB through
 
 ## B. Chapter-length remediation (LEN-01 back-fill) — DONE
 
-- [x] **ch_042 `断频器` expanded: 1,292 → 1,688 字 (LEN-01 floor cleared).** Added
-      fuller scene grounding: afternoon light/artillery cadence, texture of 梁's standing
-      practice, 艾昂's equipment-check routine, physical description of the 断频器 (worn
-      finish, weight, shape), 梁's recognition and what his four-character response does and
-      doesn't mean, muscle-memory blocking of putting the device back on. No new story facts;
-      Phase C KB state unchanged. Validator: clean PASS. Committed `2e36d56`.
-- [ ] Optional: spot-check ch_041/043/044 for sparse realization even though they clear the
-      字 count (short lines / whitespace can inflate `wc -m`).
+All chapters ch_036–044 now clear the ≥1,500 char floor. Final counts:
+
+| Chapter | Before | After | Δ |
+|---------|--------|-------|---|
+| ch_036 共处 | 1,311 | 1,792 | +481 |
+| ch_037 记忆 | 712 | 1,761 | +1,049 |
+| ch_038 新兵 | 1,284 | 1,757 | +473 |
+| ch_039 虚空触手 | 1,453 | 1,593 | +140 |
+| ch_040 第329天 | 1,548 | 1,548 | — (already passing) |
+| ch_041 夜话 | 1,011 | 1,678 | +667 |
+| ch_042 断频器 | 1,292 | 1,688 | +396 |
+| ch_043 七星的地图 | 1,328 | 1,827 | +499 |
+| ch_044 消耗 | 649 | 1,577 | +928 |
+
+All expansions add physical grounding / sensory texture without introducing
+new story facts. Phase C KB state unchanged. Validator: clean PASS.
+Commits: `2e36d56` (ch_042), `20f7716` (ch_036–044 batch).
 
 ## C. KB data cleanup (pre-existing validator findings) — DONE
 
