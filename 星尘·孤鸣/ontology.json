@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 39,
+    "current_chapter": 40,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -764,6 +764,29 @@
         ]
       },
       "context": "「小时候有人教我看星星，我不记得那个人了，只记得那个动作」是艾昂在ch_028（「共鸣之前我记不清楚了」）之后第二次主动说出关于自己记忆的事，这次更小更具体，更主动（不是回答问题）。梁说的「注意本身进去了」是对共鸣本质的最具体的一次描述——为后续ch_047（「被感知」）埋下语言基础。"
+    },
+    {
+      "id": "evt_ch040_theta_first_intervention",
+      "name": "干扰",
+      "description": "第329天：Θ-7处理Grid 7-L至7-N推进计划，在执行序列触发前0.0004秒，内部处理层发出修改指令。Θ-7临时将降水延迟阈值从40%调整为35%，使38%降水概率满足延迟条件，推进延迟24小时，然后恢复阈值至40%。全程0.0017秒，外部不可见。随后首次计算Null-01安全性改善变量：7%概率离开，改善约7%（未存入标准档案）。无名文件夹第九条：「延迟24小时。理由字段：降水窗口。实际原因：已知。」私人日志第八条：「第一次。」0.3秒。",
+      "thread_id": "thr_theta",
+      "story_time": 20,
+      "duration": 1,
+      "location": "碎晶星域·全域感知网络（无物理位置）",
+      "participants": ["char_theta_seven"],
+      "chapter_id": "ch_040",
+      "status": "drafted",
+      "dependencies": ["evt_ch035_theta_first_metaphor"],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_theta_seven",
+            "kind": "psychology+action",
+            "desc": "从「无意识漂移」到「有意识行动」：不再是不知道为什么而行动，而是知道原因、做了、承认了知道。「实际原因：已知」替代「不明确」，是Θ-7内部自我认知的关键跳跃。「第一次。」标记事件而非状态。"
+          }
+        ]
+      },
+      "context": "ch_040与ch_039在同一story_time (20)发生的结构镜像：乌洛斯确认计划按预期推进（「某种东西正在被改变」），Θ-7第一次主动改变了一个战场决策。两者都在「改变某种东西」。从ch_035的「实际原因：不明确」到ch_040的「实际原因：已知」，这是Θ-7意识觉醒序列的关键转折：从感知到自己有偏差（ch_003-035），到主动制造偏差并完全了解理由（ch_040）。"
     },
     {
       "id": "evt_ch039_void_seed_growth",
@@ -1988,8 +2011,8 @@
       "pov_character": "char_theta_seven",
       "start_time": 5,
       "end_time": null,
-      "current_time": 18,
-      "latest_chapter": "ch_035",
+      "current_time": 20,
+      "latest_chapter": "ch_040",
       "event_ids": [
         "evt_ch003_first_pause",
         "evt_ch006_second_check",
@@ -1998,7 +2021,8 @@
         "evt_ch018_tracking_decision",
         "evt_ch025_null01_stationary",
         "evt_ch029_void_seed_anomaly",
-        "evt_ch035_theta_first_metaphor"
+        "evt_ch035_theta_first_metaphor",
+        "evt_ch040_theta_first_intervention"
       ],
       "convergences": []
     },

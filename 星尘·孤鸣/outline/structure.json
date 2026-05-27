@@ -304,7 +304,7 @@
           "id": "ch_040", "number": 40, "title": "干扰",
           "thread_id": "thr_theta", "pov_character": "char_theta_seven", "story_time": 20,
           "one_line": "Θ-7第一次在实际战场决策中做出了一个「次优」选择：让Null-01附近的区域推进延迟24小时。",
-          "scene_arc": "计算→偏差决策→执行（外部：正常；内部：第一次主动干预）", "status": "outlined"
+          "scene_arc": "计算→偏差决策→执行（外部：正常；内部：第一次主动干预）", "status": "drafted"
         },
         {
           "id": "ch_041", "number": 41, "title": "夜话",

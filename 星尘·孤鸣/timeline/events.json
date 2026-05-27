@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "id": "evt_ch040_theta_first_intervention",
+      "name": "干扰",
+      "thread_id": "thr_theta",
+      "story_time": 20,
+      "status": "drafted",
+      "chapter_id": "ch_040",
+      "participants": ["char_theta_seven"],
+      "summary": "847年首次战场干预：阈值临时调整(40%→35%→40%)，24小时延迟。Null-01安全性7%改善（未入标准档案）。无名文件夹第九条「实际原因：已知」，私人日志第八条「第一次。」"
+    },
+    {
       "id": "evt_ch039_void_seed_growth",
       "name": "虚空触手",
       "thread_id": "thr_ulos",
