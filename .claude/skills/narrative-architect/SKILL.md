@@ -67,7 +67,7 @@ they are a derived artifact, not a primary one.
   "participants": ["char_..."],
   "thread_id": "thr_...",
   "dependencies": [
-    { "event_id": "evt_...", "type": "PRECEDES|CAUSES|ENABLES" }
+    { "event": "evt_...", "relation": "PRECEDES|CAUSES|ENABLES" }
   ],
   "prerequisites": [],
   "projected_outcome": "...",

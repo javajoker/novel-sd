@@ -13,9 +13,11 @@ field-level schema: `narrative-ontology/references/narrative_schema.md`.
 │   ├── <char_id>.json         ← base profile + initial_state (T=0)
 │   └── states/<char_id>.json  ← append-only CharacterState deltas over story-time
 ├── timeline/
-│   ├── threads.json           ← NarrativeThread[] (multi-POV swimlanes)
-│   ├── events.json            ← event graph mirror
-│   └── calendar.json          ← world calendar, travel_rules, movement_speeds
+│   ├── threads.json           ← NarrativeThread[] (multi-POV swimlanes), small registry
+│   ├── events/                ← event graph mirror, sharded for scoped reads
+│   │   ├── index.json         ← by_chapter / by_story_time / by_thread → event IDs (+ last_*)
+│   │   └── <thread_id>.json    ← one shard per thread: its event stubs, by story_time
+│   └── calendar.json          ← world calendar + current_*/chapter_to_story_time + travel_rules
 ├── outline/
 │   ├── structure.json         ← Novel→Volume→Chapter write-ahead tree
 │   └── beats/<chapter_id>.json← BeatSheet: ordered beats + emotional arc
@@ -42,7 +44,8 @@ field-level schema: `narrative-ontology/references/narrative_schema.md`.
 | `world/` | genesis, execution (LORE-01) | all (pre-checks) |
 | `characters/<id>.json` | genesis | all |
 | `characters/states/<id>.json` | execution (DB-01) | execution (mask context), consistency |
-| `timeline/calendar.json` | genesis/architect | architect (travel-time), consistency (paradox) |
+| `timeline/events/<thr>.json` + `index.json` | execution (C-5, regenerated from canon) | execution (CTX-01 scoped read: POV shard + index) |
+| `timeline/calendar.json` | genesis/architect (setup); **execution every chapter** (current_*/chapter_to_story_time) | execution (CTX-01 time window), architect (travel-time), consistency (paradox) |
 | `outline/structure.json` + `beats/` | architect | execution, memory |
 | `masks/<id>.json` | genesis (T=0), execution (reveal) | execution (fog of war), consistency |
 | `chapters/<id>.md` | execution | memory (indexing) |
@@ -84,7 +87,10 @@ there; the two-stage structure is unchanged.
 
 > **Context-window discipline (CTX-01).** `build_profile.py` is the working-set primitive
 > for Phase III-B: it materializes the chapter-masked profile (folded state + active mask)
-> that — together with the beat sheet, the last 1–3 summaries, and the targeted plot hooks
-> — is the *only* context a chapter is drafted from. Pull other KB records (or prior prose
-> via `search_novel.py`) on demand; never load the full manuscript. See
+> that — together with the beat sheet, the last 1–3 summaries, the targeted plot hooks, the
+> **calendar window** (`timeline/calendar.json` current_*/chapter_to_story_time), and the
+> **POV's event-thread shard** (`timeline/events/index.json` → `events/<thr>.json`) — is the
+> *only* context a chapter is drafted from. The event mirror is sharded by thread so a
+> chapter never loads the whole event history. Pull other shards / KB records (or prior
+> prose via `search_novel.py`) on demand; never load the full manuscript. See
 > `narrative-execution/SKILL.md` §B-0.

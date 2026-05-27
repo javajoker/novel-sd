@@ -52,7 +52,8 @@ The conductor's quick reference. Each phase is a skill; each operation is a prom
 | Entity nodes + state | `ontology.json.entities` + `characters/states/` | pre-write Graph-RAG | III extract |
 | Relationship edges (temporal) | `ontology.json.relations` | pre-write Graph-RAG | I (T=0) / III extract |
 | Knowledge masks | `masks/` | pre-write (fog of war) | I (T=0) / III reveal |
-| Event graph + threads | `ontology.json` + `timeline/` | II planning / IV causal query | II plan / III update |
+| Event graph + threads | `ontology.json` (canon) + `timeline/events/` (sharded mirror + index) | II planning / IV causal query / III scoped POV-shard read | II plan / III shard+index sync |
+| Calendar / story-clock | `timeline/calendar.json` | III current-time window / travel-time / paradox | III every chapter (current_*/chapter_to_story_time) |
 | Outline + beats | `outline/` | III drafting | II plan |
 | Prose | `chapters/` | IV indexing | III draft + edit |
 | Summaries + plot threads | `memory/` | IV query / II payoff scheduling | IV index |

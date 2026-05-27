@@ -49,8 +49,10 @@ assumes exactly this layout:
 │   └── states/<char_id>.json     # ordered CharacterState snapshots over story-time
 ├── timeline/
 │   ├── threads.json              # NarrativeThread[] — the swimlanes (multi-POV)
-│   ├── events.json               # event graph: nodes + causal/chronological edges
-│   └── calendar.json             # world calendar ↔ story_time mapping, travel-time rules
+│   ├── events/                   # event graph mirror, sharded by thread for scoped reads
+│   │   ├── index.json            # by_chapter / by_story_time / by_thread → event IDs
+│   │   └── <thread_id>.json      # one shard per thread (event stubs by story_time)
+│   └── calendar.json             # world calendar ↔ story_time map (current_*, chapter_to_story_time), travel rules
 ├── outline/
 │   ├── structure.json            # Novel → Volume → Chapter outline tree (write-ahead plan)
 │   └── beats/<chapter_id>.json   # BeatSheet: ordered beats + emotional arc for one chapter

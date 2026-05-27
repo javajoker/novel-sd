@@ -55,12 +55,22 @@ must be complete before writing any of them.
 6. The specific `ontology.json` slices the beats touch: the `events[events_covered]`
    beat designs, the **as-of-chapter** relation edges for on-scene characters, and any
    `world_rules` a beat could violate.
+7. **The calendar window** — `timeline/calendar.json`: `current_story_time` /
+   `current_chapter` / the `chapter_to_story_time` entry for this chapter (so the prose
+   knows "what time is it now" without scanning the event graph), plus the `travel_rules`
+   and `movement_speeds` that apply **only if** this chapter changes location.
+8. **The POV's event-thread shard, time-scoped** — read `timeline/events/index.json` (tiny)
+   to resolve which event IDs sit in this chapter / story-time window / the POV's thread,
+   then load **only** the POV thread shard `timeline/events/<thr>.json` for that window.
+   Other threads' shards are loaded only when a beat explicitly references a cross-thread
+   event (e.g. a convergence). **Never load the full event graph** (`ontology.json.events`
+   or every shard) to write one chapter.
 
 **Expand outward only on demand.** If a beat references a fact, item, place, prior scene,
-or character not in the working set, *then* pull that one record — a single prior chapter's
-prose via `search_novel.py`, one more character's profile, one lore entry. Pull the
-specific record, not the whole file; close it mentally once used. Never preload the full
-manuscript "just in case."
+character, or **another thread's event** not in the working set, *then* pull that one
+record — a single prior chapter's prose via `search_novel.py`, one more character's profile,
+one lore entry, one other thread shard. Pull the specific record, not the whole file; close
+it mentally once used. Never preload the full manuscript "just in case."
 
 **Do not read full prose of earlier chapters to maintain continuity** — that is what
 `memory/summaries.json` + the materialized profile are for. Reach for raw prose only when
@@ -90,7 +100,8 @@ files — load the rows you need for *this* chapter's beats, not all of them eve
 | `world/world_bible.json` | Setting, power system, factions | Lore accuracy in descriptions |
 | `memory/summaries.json` | Last 1–3 chapter synopses | Continuity: tone, open threads, callbacks |
 | `memory/plot_threads.json` | Open hooks relevant to this chapter | Must not silently drop an active thread |
-| `timeline/calendar.json` | Travel rules if location changes | Paradox prevention |
+| `timeline/calendar.json` | `current_*` + `chapter_to_story_time` (always); `travel_rules`/`movement_speeds` only if location changes | Current time-of-story; paradox prevention |
+| `timeline/events/index.json` + `events/<pov_thr>.json` | Index (always) → POV thread shard for this story-time window | Time-scoped event context; avoids loading the full event graph |
 
 Then apply three filters in order:
 
@@ -234,11 +245,27 @@ The writer often improvises new proper nouns ("the Star-Fire Grass"). Detect con
 yet in the KB and create entries in `world/world_bible.json` + `ontology.json` entities
 so they become canonical. Do not let improvised lore stay un-tracked.
 
-### C-5 — Timeline mirrors
+### C-5 — Timeline mirrors + calendar (regenerate from canon)
 
-Sync the cheap mirror files after `ontology.json` is updated:
-- `timeline/events.json` — one stub per event referencing `ontology.json#events`.
-- `timeline/threads.json` — thread stubs with updated `event_ids`.
+After `ontology.json` is updated, regenerate the cheap, query-scoped mirrors from it:
+
+- `timeline/events/<thread_id>.json` — for **each thread touched this chapter**, append the
+  new event stub(s) to that thread's shard (sorted by story_time). Stubs reference
+  `ontology.json#events`; do not author event truth here.
+- `timeline/events/index.json` — add the chapter's event IDs under `by_chapter[ch]`,
+  `by_story_time[t]`, and `by_thread[thr]`; advance `last_story_time` + `last_chapter`.
+- `timeline/threads.json` — thread stubs with updated `event_ids` and `current_time`.
+- **`timeline/calendar.json` (state-bearing — update every chapter, do NOT leave frozen):**
+  - advance `current_story_time` and `current_chapter`;
+  - append `chapter_to_story_time[<ch>] = <story_time>`;
+  - **if** the prose advances an in-world date or moves a character between locations:
+    append `chapter_to_world_day[<ch>]` and refresh `world_calendar.current`; add any new
+    `travel_rules` / `movement_speeds` the prose established (LORE-01-style).
+
+> Legacy KBs may still carry a flat `timeline/events.json`; new writes go to
+> `timeline/events/`. If a flat file is present, you may migrate it once (split by thread)
+> or leave it as a read-only fallback — but keep `timeline/events/` authoritative going
+> forward.
 
 ### C-6 — Outline status
 
@@ -267,16 +294,18 @@ judgement on how to resolve each flag.
 The sequence below resolves all inter-file dependencies:
 
 ```
-1.  characters/states/<id>.json     — state snapshots per affected character
-2.  masks/<id>.json                 — knowledge updates per affected POV
-3.  ontology.json                   — relations, events, threads, world_rules, current_chapter
-4.  timeline/events.json            — mirror sync
-5.  timeline/threads.json           — mirror sync
-6.  world/world_bible.json          — improvised lore writeback
-7.  outline/structure.json          — chapter status advance
-8.  memory/summaries.json           — chapter + volume summaries
-9.  memory/plot_threads.json        — hook occurrences + status updates
-10. [ripple check]                  — narrative-consistency scan
+1.  characters/states/<id>.json       — state snapshots per affected character
+2.  masks/<id>.json                   — knowledge updates per affected POV
+3.  ontology.json                     — relations, events, threads, world_rules, current_chapter
+4.  timeline/events/<thr>.json        — append stub to each touched thread shard
+5.  timeline/events/index.json        — by_chapter/by_story_time/by_thread + last_*
+6.  timeline/threads.json             — thread stubs: event_ids + current_time
+7.  timeline/calendar.json            — current_story_time/current_chapter + chapter_to_story_time (+ world_day/travel if changed)
+8.  world/world_bible.json            — improvised lore writeback
+9.  outline/structure.json            — chapter status advance
+10. memory/summaries.json             — chapter + volume summaries
+11. memory/plot_threads.json          — hook occurrences + status updates
+12. [ripple check]                    — narrative-consistency scan
 ```
 
 ---
@@ -356,8 +385,9 @@ or just see it?
 | World rules / lore | `world/` + `ontology.json.world_rules` | ✓ (pre-check) | ✓ (LORE-01) |
 | Entity nodes + state | `ontology.json.entities` + `characters/states/` | ✓ (Graph-RAG) | ✓ (DB-01) |
 | Relationship edges | `ontology.json.relations` | ✓ (Graph-RAG) | ✓ (DB-01) |
-| Event graph | `ontology.json.events[]` + `timeline/events.json` | ✓ (beat prereqs) | ✓ planned→drafted |
-| Narrative threads | `ontology.json.threads[]` + `timeline/threads.json` | ✓ (convergence) | ✓ append event_ids |
+| Event graph | `ontology.json.events[]` + `timeline/events/<thr>.json` + `index.json` | ✓ (scoped: POV shard + index) | ✓ planned→drafted; shard+index sync |
+| Narrative threads | `ontology.json.threads[]` + `timeline/threads.json` | ✓ (convergence) | ✓ append event_ids + current_time |
+| Calendar / story-clock | `timeline/calendar.json` | ✓ (current time + travel) | ✓ current_*/chapter_to_story_time every chapter |
 | Chapter cursor | `ontology.json.source.current_chapter` | — | ✓ advance |
 | Knowledge masks | `masks/` | ✓ (Fog of War) | ✓ fact revealed |
 | Prose | `chapters/` | — | ✓ (Phase B only) |
@@ -383,9 +413,13 @@ or just see it?
 - [ ] `ontology.json.relations[]` — old edges terminated, new edges created.
 - [ ] `ontology.json.events[]` — status advanced `planned→drafted`; projected_outcome
       corrected; improvised events added.
-- [ ] `timeline/events.json` — mirror synced.
+- [ ] `timeline/events/<thr>.json` + `timeline/events/index.json` — touched thread shard(s)
+      appended; index updated (by_chapter / by_story_time / by_thread + last_*).
 - [ ] `ontology.json.threads[]` + `timeline/threads.json` — event IDs appended; new
-      convergences recorded; mirror synced.
+      convergences recorded; `current_time` advanced; mirror synced.
+- [ ] `timeline/calendar.json` — `current_story_time` + `current_chapter` advanced;
+      `chapter_to_story_time` entry added; `world_day`/`travel_rules` updated if the prose
+      moved the date or a character's location. (NOT left frozen.)
 - [ ] `ontology.json.world_rules[]` — new lore-rules added (LORE-01).
 - [ ] `ontology.json.source.current_chapter` — advanced to this chapter number.
 - [ ] `world/world_bible.json` — improvised new lore entered.
@@ -420,6 +454,13 @@ or just see it?
   final. Cheap, deterministic, catches errors that compound expensively.
 - **Un-tracked improvised lore.** Harvest new proper nouns into the KB (LORE-01)
   immediately, or continuity drifts.
+- **Leaving the calendar frozen (C-5 violation).** `timeline/calendar.json` is
+  state-bearing, not static — advance `current_story_time`/`current_chapter` and append the
+  `chapter_to_story_time` entry every chapter. A calendar stuck at ch_001 silently breaks
+  the time-of-story context the next chapter loads under CTX-01.
+- **Loading the full event graph to write one chapter (CTX-01 violation).** Use the
+  `timeline/events/index.json` + the POV thread shard; pull other shards only when a beat
+  names a cross-thread event. Never read `ontology.json.events` in full just to draft.
 
 ---
 

@@ -1,0 +1,221 @@
+{
+  "thread_id": "thr_aeon",
+  "events": [
+    {
+      "id": "evt_ghost_resonance_event",
+      "name": "共鸣之殇",
+      "thread_id": "thr_aeon",
+      "story_time": -3,
+      "status": "final",
+      "chapter_id": null,
+      "participants": [
+        "char_aeon",
+        "faction_elwis"
+      ],
+      "summary": "艾昂战场共鸣失控，将数百名阵亡战士临死体验传入共鸣网络，族人永久精神损伤，共鸣被斩断，放逐开始。"
+    },
+    {
+      "id": "evt_novel_opening",
+      "name": "战场废己",
+      "thread_id": "thr_aeon",
+      "story_time": 1,
+      "status": "drafted",
+      "chapter_id": "ch_001",
+      "participants": [
+        "char_aeon"
+      ],
+      "summary": "艾昂独自走过红盐平原战场，替陌生战士合眼，感受了源质碎晶的振动，战争控制器的AI部队将他归类为「低优先级」。建立孤独基调。"
+    },
+    {
+      "id": "evt_ch004_first_encounter",
+      "name": "补给站相遇",
+      "thread_id": "thr_aeon",
+      "story_time": 2,
+      "status": "drafted",
+      "chapter_id": "ch_004",
+      "participants": [
+        "char_aeon",
+        "char_chen_ming"
+      ],
+      "summary": "艾昂在废弃联邦补给站找到物资，发现一名独自哭泣的联邦士兵（陈铭，可从细节辨认）。他默默分了口粮，两人无言共处，然后各自离开。艾昂第一次感受到「手松开的形状」——另一个活着的存在在场时注意力的聚拢与消散。"
+    },
+    {
+      "id": "evt_ch007_war_machine_outside",
+      "name": "向量（外部观察）",
+      "thread_id": "thr_aeon",
+      "story_time": 4,
+      "status": "drafted",
+      "chapter_id": "ch_007",
+      "participants": [
+        "char_aeon"
+      ],
+      "summary": "艾昂在维格拉斯星球北部高地高处发现战争控制器处理节点，在三百米外静坐一整个下午，数进出车辆。源质碎晶振动强于平时。夜幕时离开，理由「需要休息」但他知道不完整。结构共振：Θ-7从内部质疑战争机器（ch_006），艾昂从外部观察它（ch_007），互不知晓。"
+    },
+    {
+      "id": "evt_ch011_psionic_ruins",
+      "name": "灵能废墟",
+      "thread_id": "thr_aeon",
+      "story_time": 6,
+      "status": "drafted",
+      "chapter_id": "ch_011",
+      "participants": [
+        "char_aeon"
+      ],
+      "summary": "艾昂在峡谷中发现艾尔维斯废弃前哨站，触碰共鸣节点感知到残余热度，拿着包含留言的储存晶石整夜无法读取。早晨把晶石放回原位，放得很仔细。第一次主动选择在有族群痕迹的地方停留。hook_resonance_crystal_stone延伸：两块等待中的晶石，艾昂都无法回应，但这次他保留了那个等待的可能性。"
+    },
+    {
+      "id": "evt_ch015_ore_vein",
+      "name": "矿脉",
+      "thread_id": "thr_aeon",
+      "story_time": 9,
+      "status": "drafted",
+      "chapter_id": "ch_015",
+      "participants": [
+        "char_aeon"
+      ],
+      "summary": "艾昂在活跃源质矿脉旁过夜（40米），碎晶振动最强，整夜未取出（比ch_007更内收）。接近午夜感受到与斩断灵能共鸣质感相似的压力，让它存在，没有分析回应。有一段意识不清晰的时间。天亮后手搭口袋外两秒，然后向东。hook_origin_matter_shard维持性深化；hook_resonance_crystal_stone主题payoff（接收端可能性/发送端不存在的形状最清晰呈现）。fact_origin_matter_consciousness极早期暗示。"
+    },
+    {
+      "id": "evt_ch019_turning_back",
+      "name": "折返",
+      "thread_id": "thr_aeon",
+      "story_time": 11,
+      "status": "drafted",
+      "chapter_id": "ch_019",
+      "participants": [
+        "char_aeon"
+      ],
+      "summary": "艾昂在矿石地貌深处停下坐了约一小时（原因不明），站起来，不给理由，往西北方向走——小说里第一次有意识的方向反转，指向废弃前哨站遗址。傍晚扎营，握名牌不念，睡前：「脚知道往哪里去，脑子还没给那件事一个名字。」"
+    },
+    {
+      "id": "evt_ch021_finding_liang",
+      "name": "生（一）",
+      "thread_id": "thr_aeon",
+      "story_time": 12,
+      "status": "drafted",
+      "chapter_id": "ch_021",
+      "participants": [
+        "char_aeon",
+        "char_liang"
+      ],
+      "summary": "艾昂在前哨站外围岩缝中发现昏迷的梁（腿部贯穿伤），走了五步然后停了，回来处理伤口，坐下不走了。梁全程昏迷。「他没有看那个人的脸，他只是在做需要做的事。」第一次他停在另一个活人旁边，不打算走。"
+    },
+    {
+      "id": "evt_ch023_outpost_first_night",
+      "name": "前哨站·第一夜",
+      "thread_id": "thr_aeon",
+      "story_time": 12,
+      "status": "drafted",
+      "chapter_id": "ch_023",
+      "participants": [
+        "char_aeon",
+        "char_liang"
+      ],
+      "summary": "艾昂夜间评估温度危险，将梁从岩缝搬运一百米入前哨站，铺自己的地垫，把梁安置在储存晶石旁（不知道晶石有意义）。梁短暂睁眼，看向艾昂方向，无话语，闭眼。艾昂靠入口坐下，在黑暗里吃了少量口粮，规划明天的水粮医疗清单，在另一个人的呼吸声中进入了某种类似睡眠的状态——他已经很多年没有在另一个人的呼吸声中入睡了。"
+    },
+    {
+      "id": "evt_ch026_liang_first_exchange",
+      "name": "梁·第一次对话",
+      "thread_id": "thr_aeon",
+      "story_time": 13,
+      "status": "drafted",
+      "chapter_id": "ch_026",
+      "participants": [
+        "char_aeon",
+        "char_liang"
+      ],
+      "summary": "梁首次坐起，自主进食，感知到艾昂断频，说「多久了」。艾昂说「三年」——第一次对任何人说出这个数字。五个字，最深的交换。傍晚梁真正睡着。艾昂意识到在规划两周，没有审视。"
+    },
+    {
+      "id": "evt_ch028_first_real_conversation",
+      "name": "没有共鸣的话",
+      "thread_id": "thr_aeon",
+      "story_time": 14,
+      "status": "drafted",
+      "chapter_id": "ch_028",
+      "participants": [
+        "char_aeon",
+        "char_liang"
+      ],
+      "summary": "第三天，第一次真正对话。「等什么」「不知道还有没有」。艾昂说「共鸣之前我记不清楚了」——第一次说出口。梁慢慢点头。三十句话不到，比三年来都多。"
+    },
+    {
+      "id": "evt_ch030_liang_first_cut",
+      "name": "第一次（一）",
+      "thread_id": "thr_aeon",
+      "story_time": 15,
+      "status": "drafted",
+      "chapter_id": "ch_030",
+      "participants": [
+        "char_aeon",
+        "char_liang"
+      ],
+      "summary": "前哨站第五天，梁对艾昂说：「你不是在等他们叫你回去，你是在等你自己允许你离开。」艾昂没有回答。当晚他注意到自己好几个小时没有往东边看——第一次。那句话留下了。"
+    },
+    {
+      "id": "evt_ch034_residual_resonance",
+      "name": "残余共鸣",
+      "thread_id": "thr_aeon",
+      "story_time": 17,
+      "status": "drafted",
+      "chapter_id": "ch_034",
+      "participants": [
+        "char_aeon",
+        "char_liang"
+      ],
+      "summary": "梁触碰储存晶石，残余灵能与晶石共鸣残留产生微弱辐射（几秒）。艾昂三年来第一次感知到任何共鸣信号——极微弱，然后空了。「在沉默之前和在沉默之后，这两种沉默不完全一样。」"
+    },
+    {
+      "id": "evt_ch036_shared_rhythm",
+      "name": "共处",
+      "thread_id": "thr_aeon",
+      "story_time": 18,
+      "status": "drafted",
+      "chapter_id": "ch_036",
+      "participants": [
+        "char_aeon",
+        "char_liang"
+      ],
+      "summary": "前哨站第九天日常：无协商惯例已形成，梁独立站立约十秒，艾昂东边方向整天消失，「今天每件事都在该在的地方」——不命名。"
+    },
+    {
+      "id": "evt_ch037_first_memory_exchange",
+      "name": "记忆",
+      "thread_id": "thr_aeon",
+      "story_time": 19,
+      "status": "drafted",
+      "chapter_id": "ch_037",
+      "participants": [
+        "char_aeon",
+        "char_liang"
+      ],
+      "summary": "梁：「注意本身，进去了。」沉默。艾昂：「小时候有人教我看星星。我不记得那个人了，只记得那个动作。」梁没有回应。三年来艾昂第一次主动说出自己的私人记忆。"
+    },
+    {
+      "id": "evt_ch041_night_conversation",
+      "name": "夜话",
+      "thread_id": "thr_aeon",
+      "story_time": 21,
+      "status": "drafted",
+      "chapter_id": "ch_041",
+      "participants": [
+        "char_aeon",
+        "char_liang"
+      ],
+      "summary": "第一次长对话。梁问「你觉得它会停吗？」。艾昂：「我不觉得它会停，不知道这是不是对的。」「从来没有想过以后是什么样的。」梁提到艾尔维斯八百年前停战倡议。问题被说出来了，炮声持续。"
+    },
+    {
+      "id": "evt_ch042_frequency_suppressor",
+      "name": "断频器",
+      "thread_id": "thr_aeon",
+      "story_time": 21,
+      "status": "drafted",
+      "chapter_id": "ch_042",
+      "participants": [
+        "char_aeon",
+        "char_liang"
+      ],
+      "summary": "断频器第一次被另一个人看见。梁「戴回去吧」。艾昂戴回去，慢了两秒。无解释，无命名，但它发生了。isolation: 77→75。"
+    }
+  ]
+}

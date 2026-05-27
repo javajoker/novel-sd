@@ -106,6 +106,43 @@ class NarrativeKB:
                        and _int(e.get("story_time")) <= t],
                       key=lambda e: _int(e.get("story_time"), 0))
 
+    # ---- scoped timeline mirror (CTX-01) ----
+    def events_index(self) -> dict:
+        """The sharded event mirror's index (timeline/events/index.json).
+        Falls back to deriving an index from the canonical ontology events so callers
+        work whether or not the mirror has been generated yet."""
+        idx = _load(self.root / "timeline" / "events" / "index.json")
+        if idx:
+            return idx
+        by_ch: dict = {}; by_t: dict = {}; by_thr: dict = {}
+        last_t = 0; last_ch = None
+        for e in self.events:
+            eid = e.get("id"); ch = e.get("chapter_id"); thr = e.get("thread_id")
+            t = _int(e.get("story_time"), 0)
+            if ch:
+                by_ch.setdefault(ch, []).append(eid)
+            by_t.setdefault(str(t), []).append(eid)
+            if thr:
+                by_thr.setdefault(thr, []).append(eid)
+            if t >= last_t:
+                last_t = t; last_ch = ch or last_ch
+        return {"last_story_time": last_t, "last_chapter": last_ch,
+                "by_chapter": by_ch, "by_story_time": by_t, "by_thread": by_thr}
+
+    def thread_events(self, thread_id: str) -> list:
+        """Event stubs for one thread — the CTX-01 scoped read. Prefers the sharded
+        mirror shard (timeline/events/<thread_id>.json); falls back to filtering the
+        canonical ontology events when no shard file exists yet."""
+        shard = _load(self.root / "timeline" / "events" / f"{thread_id}.json")
+        evs = (shard.get("events", []) or []) if shard else \
+              [e for e in self.events if e.get("thread_id") == thread_id]
+        return sorted(evs, key=lambda e: _int(e.get("story_time"), 0))
+
+    def thread_events_as_of(self, thread_id: str, t: int) -> list:
+        return [e for e in self.thread_events(thread_id)
+                if _int(e.get("story_time")) is not None
+                and _int(e.get("story_time")) <= t]
+
     def character_state_as_of(self, char_id: str, t: int) -> dict:
         prof = self.profile(char_id)
         init = prof.get("initial_state", {}) or {}

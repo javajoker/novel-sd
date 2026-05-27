@@ -127,9 +127,13 @@ full (CTX-01 and LEN-01). They are summarized here because they shape every chap
 Each chapter is written from a **small, focused context**, not the whole manuscript or the
 whole KB. The default working set is: this chapter's beat sheet, the **materialized profile**
 of the POV (and on-scene characters only) via `build_profile.py`, the **last 1–3 chapter
-summaries**, the **open plot-thread hooks the beats target**, and the specific
-`ontology.json` slices the beats touch (event beat designs, as-of-chapter relations,
-relevant world rules).
+summaries**, the **open plot-thread hooks the beats target**, the specific `ontology.json`
+slices the beats touch (event beat designs, as-of-chapter relations, relevant world rules),
+and the **time-scoped timeline slice**: the calendar window (`timeline/calendar.json` —
+`current_story_time`/`current_chapter`/`chapter_to_story_time`, plus travel rules only if
+the location changes) and the POV's event-thread shard (`timeline/events/index.json` →
+`events/<pov_thr>.json` for this story-time window). The event graph is **sharded by thread**
+precisely so a chapter loads its own thread, not all events.
 
 Expand outward **only on demand** — if a beat needs a fact, a prior line of dialogue, or a
 character not in the working set, fetch that single record (`search_novel.py` for a specific
@@ -212,7 +216,8 @@ One chapter may cover multiple events. Both are normal.
 ║   narrative-execution — prose drafting                            │      ║
 ║                                                                   │      ║
 ║   Inputs:  beat sheet (events_covered), event beat_designs,       │      ║
-║            states, masks, ontology, world, memory                 │      ║
+║            states, masks, ontology slices, world, summaries,      │      ║
+║            calendar window + POV event-thread shard (CTX-01)      │      ║
 ║   Output:  chapters/<ch>.md ONLY                                  │      ║
 ║                                                                   │      ║
 ║   Rules:                                                          │      ║
@@ -237,13 +242,15 @@ One chapter may cover multiple events. Both are normal.
 ║   3. ontology.json                (relations, events→drafted,     │      ║
 ║                                    threads, world_rules,          │      ║
 ║                                    current_chapter)               │      ║
-║   4. timeline/events.json         (mirror sync)                   │      ║
-║   5. timeline/threads.json        (mirror sync)                   │      ║
-║   6. world/world_bible.json       (improvised lore)               │      ║
-║   7. outline/structure.json       (status: drafted)               │      ║
-║   8. memory/summaries.json        (chapter + vol summaries)       │      ║
-║   9. memory/plot_threads.json     (occurrences + hook status)     │      ║
-║   10. [ripple check]              (narrative-consistency)         │      ║
+║   4. timeline/events/<thr>.json   (append per touched thread)     │      ║
+║   5. timeline/events/index.json   (by ch/time/thread + last_*)    │      ║
+║   6. timeline/threads.json        (event_ids + current_time)      │      ║
+║   7. timeline/calendar.json       (current_* + story_time map)    │      ║
+║   8. world/world_bible.json       (improvised lore)               │      ║
+║   9. outline/structure.json       (status: drafted)               │      ║
+║   10. memory/summaries.json       (chapter + vol summaries)       │      ║
+║   11. memory/plot_threads.json    (occurrences + hooks)           │      ║
+║   12. [ripple check]              (narrative-consistency)         │      ║
 ║                                                                   │      ║
 ║   ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼  UPDATE GATE  ▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼              │      ║
 ║   ALL Phase C checklist items complete for this chapter.          │      ║
@@ -292,9 +299,9 @@ read, when it is written, and which phase owns it:
 | `characters/states/<id>.json` | ✓ | — | ✓ | ✓ new snapshot | — |
 | `masks/<id>.json` | ✓ | ✓ projected | ✓ (fog of war) | ✓ confirmed | — |
 | `ontology.json` | ✓ | ✓ events+threads | ✓ (graph-RAG) | ✓ all fields | ✓ |
-| `timeline/events.json` | ✓ | ✓ mirror | — | ✓ mirror sync | ✓ |
-| `timeline/threads.json` | ✓ | ✓ mirror | — | ✓ mirror sync | ✓ |
-| `timeline/calendar.json` | ✓ | ✓ (new chapters) | ✓ (travel) | — | — |
+| `timeline/events/<thr>.json` + `index.json` | ✓ | ✓ mirror | ✓ (scoped: POV shard + index) | ✓ shard+index sync | ✓ |
+| `timeline/threads.json` | ✓ | ✓ mirror | — | ✓ mirror sync + current_time | ✓ |
+| `timeline/calendar.json` | ✓ | ✓ (new chapters) | ✓ (current time + travel) | ✓ current_*/chapter_to_story_time **every chapter** | ✓ |
 | `outline/structure.json` | ✓ | ✓ beats_ready | ✓ (position) | ✓ → drafted | ✓ |
 | `outline/beats/<ch>.json` | — | ✓ A writes | ✓ B reads | — | ✓ D revises |
 | `memory/summaries.json` | ✓ | — | ✓ continuity | ✓ new entry | ✓ |
@@ -345,8 +352,10 @@ read, when it is written, and which phase owns it:
      beat-by-beat → author edits. One output: `chapters/<ch>.md`. Stop if deviation
      required; return to A.
    - **C — KB Update.** After prose is final: character states → masks → ontology
-     (advance events in `events_covered` to drafted) → timeline mirrors → world lore
-     → outline status → memory summaries → plot threads → ripple check. Check UPDATE GATE.
+     (advance events in `events_covered` to drafted) → timeline event shards + index →
+     threads → **calendar (advance current_*/chapter_to_story_time — every chapter)** →
+     world lore → outline status → memory summaries → plot threads → ripple check.
+     Check UPDATE GATE.
    - **D — Adjust.** Index finished chapter (narrative-memory); review ripple flags;
      fix event graph if needed; define next event.
 6. **Persist preferences.** Use `memory-ontology` to remember author style, fixed canon,
@@ -435,6 +444,13 @@ characters who appear, create them before starting the next chapter's Phase A.
   data. Parallelising them causes write conflicts on ontology.json.
 - **Un-tracked improvised lore.** New factions/herbs/rules invented in prose must be
   harvested into the KB (LORE-01) before the next design pass.
+- **Frozen calendar.** `timeline/calendar.json` is state-bearing: Phase C must advance
+  `current_story_time`/`current_chapter` and append `chapter_to_story_time` every chapter.
+  A calendar stuck at the first chapter desyncs the time-of-story context every later
+  chapter loads, and breaks the paradox guard's travel-time checks.
+- **Loading the full event graph to draft.** Use the sharded `timeline/events/` mirror —
+  index + the POV's thread shard — not the whole `ontology.json.events` array. The shard
+  layout exists to keep the writing context window small (CTX-01).
 - **Skipping character KB entries for supporting/minor roles.** Every character who
   appears in prose must have at minimum an ontology entity and a profile file. Committing
   a chapter without these is a Phase C violation — fix before starting the next cycle.
