@@ -2,6 +2,23 @@
   "character_id": "char_liang",
   "states": [
     {
+      "story_time": 30,
+      "chapter_id": "ch_059",
+      "location": "灵能族废弃前哨站",
+      "physical": {
+        "status": "alive_deteriorating",
+        "notes": "同ch_053，持续恶化，基线继续上移。决定了离开的时间（未说具体时间，但今天告诉了艾昂）。"
+      },
+      "psychology": {
+        "mood": "（从艾昂视角外部观察）：说了决定，继续做手里的事，好像说完了就说完了，不等艾昂回应，不看他是否有话说。他睡觉，呼吸规律。"
+      },
+      "key_events_this_chapter": [
+        "在修外壁隔热层时告诉艾昂决定：往灵能族领土方向走，在能感受到共鸣的地方结束",
+        "说完继续修外壁隔热层",
+        "之后入睡"
+      ]
+    },
+    {
       "story_time": 28,
       "chapter_id": "ch_056",
       "location": "灵能族废弃前哨站",

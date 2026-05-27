@@ -1,6 +1,6 @@
 {
-  "last_story_time": 29,
-  "last_chapter": "ch_058",
+  "last_story_time": 30,
+  "last_chapter": "ch_060",
   "by_chapter": {
     "ch_001": [
       "evt_novel_opening"
@@ -175,6 +175,12 @@
     ],
     "ch_058": [
       "evt_ch058_null01_stationary"
+    ],
+    "ch_059": [
+      "evt_ch059_liang_decision"
+    ],
+    "ch_060": [
+      "evt_ch060_aeon_no_right"
     ]
   },
   "by_story_time": {
@@ -296,6 +302,10 @@
     "29": [
       "evt_ch057_heavy_casualties",
       "evt_ch058_null01_stationary"
+    ],
+    "30": [
+      "evt_ch059_liang_decision",
+      "evt_ch060_aeon_no_right"
     ]
   },
   "by_thread": {
@@ -342,7 +352,9 @@
       "evt_novel_opening",
       "evt_ch053_liang_worsening",
       "evt_ch055_second_contact",
-      "evt_ch056_partial_truth"
+      "evt_ch056_partial_truth",
+      "evt_ch059_liang_decision",
+      "evt_ch060_aeon_no_right"
     ],
     "thr_theta": [
       "evt_ch003_theta_first_question",
