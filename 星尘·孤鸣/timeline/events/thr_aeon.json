@@ -216,6 +216,19 @@
         "char_liang"
       ],
       "summary": "断频器第一次被另一个人看见。梁「戴回去吧」。艾昂戴回去，慢了两秒。无解释，无命名，但它发生了。isolation: 77→75。"
+    },
+    {
+      "id": "evt_ch045_origin_song",
+      "name": "源质歌",
+      "thread_id": "thr_aeon",
+      "story_time": 23,
+      "status": "drafted",
+      "chapter_id": "ch_045",
+      "participants": [
+        "char_aeon",
+        "char_liang"
+      ],
+      "summary": "梁在矿脉旁自发唱了一首灵能族古歌（低的，可能无意识）。艾昂认出是艾尔维斯的声音，三年来第一次。断频器关着，只接收声音层，不接收共鸣层。他选择不动、不问、不命名，让歌在那里。歌结束，只说「可以走了」。那首歌在他体内停了一段时间，然后走了。isolation: 75→73。"
     }
   ]
 }

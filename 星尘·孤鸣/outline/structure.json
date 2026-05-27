@@ -338,7 +338,8 @@
           "id": "ch_045", "number": 45, "title": "源质歌",
           "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 23,
           "one_line": "梁在源质矿脉靠近时自发唱了一首灵能族古歌，艾昂三年来第一次听见了自己族群的声音。",
-          "scene_arc": "矿脉→歌声→艾昂的反应（他没有动，让歌声在他身边流动）", "status": "outlined"
+          "scene_arc": "矿脉→歌声→艾昂的反应（他没有动，让歌声在他身边流动）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_045.json"
         },
         {
           "id": "ch_046", "number": 46, "title": "记录（一）",

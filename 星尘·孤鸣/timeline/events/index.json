@@ -1,6 +1,6 @@
 {
-  "last_story_time": 22,
-  "last_chapter": "ch_044",
+  "last_story_time": 23,
+  "last_chapter": "ch_045",
   "by_chapter": {
     "ch_001": [
       "evt_novel_opening"
@@ -133,6 +133,9 @@
     ],
     "ch_044": [
       "evt_ch044_first_recruit_dies"
+    ],
+    "ch_045": [
+      "evt_ch045_origin_song"
     ]
   },
   "by_story_time": {
@@ -226,6 +229,9 @@
     "22": [
       "evt_ch043_survival_map",
       "evt_ch044_first_recruit_dies"
+    ],
+    "23": [
+      "evt_ch045_origin_song"
     ]
   },
   "by_thread": {
@@ -262,6 +268,7 @@
       "evt_ch037_first_memory_exchange",
       "evt_ch041_night_conversation",
       "evt_ch042_frequency_suppressor",
+      "evt_ch045_origin_song",
       "evt_ghost_resonance_event",
       "evt_novel_opening"
     ],
