@@ -310,7 +310,8 @@
           "id": "ch_041", "number": 41, "title": "夜话",
           "thread_id": "thr_aeon", "pov_character": "char_aeon", "story_time": 21,
           "one_line": "两人第一次长时间的夜间对话，关于战争为什么不停止——没有答案，但问题本身变得可以被说出口了。",
-          "scene_arc": "夜晚→第一个问题→更多问题（仍然没有答案，但某种东西在流动）", "status": "outlined"
+          "scene_arc": "夜晚→第一个问题→更多问题（仍然没有答案，但某种东西在流动）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_041.json"
         },
         {
           "id": "ch_042", "number": 42, "title": "断频器",
