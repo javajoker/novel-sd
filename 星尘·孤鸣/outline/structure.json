@@ -289,8 +289,9 @@
         {
           "id": "ch_038", "number": 38, "title": "新兵",
           "thread_id": "thr_chen_ming", "pov_character": "char_chen_ming", "story_time": 19,
-          "one_line": "陈铭被临时设为向导带新兵，他记下了每个人的名字，速度比以前快了一点。",
-          "scene_arc": "接任务→观察新兵→记名字（比以前快了，也比以前更害怕）", "status": "outlined"
+          "one_line": "七名新兵，七块名牌，名字记录阻力消失了——这件事本身就是让陈铭害怕的东西。",
+          "scene_arc": "接任务→观察新兵→记名字（比以前快了，也比以前更害怕）", "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_038.json"
         },
         {
           "id": "ch_039", "number": 39, "title": "虚空触手",

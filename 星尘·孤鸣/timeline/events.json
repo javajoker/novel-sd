@@ -1,6 +1,16 @@
 {
   "events": [
     {
+      "id": "evt_ch038_new_recruits",
+      "name": "新兵",
+      "thread_id": "thr_chen_ming",
+      "story_time": 19,
+      "status": "drafted",
+      "chapter_id": "ch_038",
+      "participants": ["char_chen_ming"],
+      "summary": "7名新兵（高明陈浩周建国林杰张伟苏同李刚），两天向导任务。7个名字半天记完，阻力消失。名牌7块+活着名字7个=两组七。害怕的是自己的磨损。"
+    },
+    {
       "id": "evt_ch037_first_memory_exchange",
       "name": "记忆",
       "thread_id": "thr_aeon",

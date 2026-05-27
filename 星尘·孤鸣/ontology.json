@@ -4,7 +4,7 @@
     "novel_title": "星尘：孤鸣",
     "novel_author": "",
     "story_time_unit": "chapter",
-    "current_chapter": 37,
+    "current_chapter": 38,
     "language": "zh-Hans",
     "genre": "星际战争·文学科幻",
     "tier": "long_novel",
@@ -764,6 +764,29 @@
         ]
       },
       "context": "「小时候有人教我看星星，我不记得那个人了，只记得那个动作」是艾昂在ch_028（「共鸣之前我记不清楚了」）之后第二次主动说出关于自己记忆的事，这次更小更具体，更主动（不是回答问题）。梁说的「注意本身进去了」是对共鸣本质的最具体的一次描述——为后续ch_047（「被感知」）埋下语言基础。"
+    },
+    {
+      "id": "evt_ch038_new_recruits",
+      "name": "新兵",
+      "description": "老齐安排陈铭带七名新兵（高明/陈浩/周建国/林杰/张伟/苏同/李刚）两天。七个名字在半天内毫不费力记住——以前需要打败内部阻力，现在阻力基本消失。害怕的是自己的磨损，不是新兵们。张伟问「你在这里多久了」，陈铭答了一个数字，客观的。夜里：名牌7块，新名字7个，两组都是7，想了一下，放回去。",
+      "thread_id": "thr_chen_ming",
+      "story_time": 19,
+      "duration": 1,
+      "location": "碎晶星域·北线推进区",
+      "participants": ["char_chen_ming"],
+      "chapter_id": "ch_038",
+      "status": "drafted",
+      "dependencies": ["evt_ch032_forty_eight_hours"],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_chen_ming",
+            "kind": "psychology",
+            "desc": "名字记录阻力基本消失。「七×七」对称被注意到但不处理。害怕方向转向自身（我的磨损）而非他人（他们的死亡）。"
+          }
+        ]
+      },
+      "context": "hook_chen_ming_names关键节点：防御机制（不学名字→不悲伤）被彻底摧毁的最清晰证明，不是因为一次死亡，而是因为记录变得自然了。自然 = 磨损 = 正常化了失去人这件事。七×七的对称（死者名牌/活着名字）是读者看见的结构，陈铭感知到了但不赋予意义。"
     },
     {
       "id": "evt_ch035_theta_first_metaphor",
@@ -1962,8 +1985,8 @@
       "pov_character": "char_chen_ming",
       "start_time": 2,
       "end_time": null,
-      "current_time": 16,
-      "latest_chapter": "ch_032",
+      "current_time": 19,
+      "latest_chapter": "ch_038",
       "event_ids": [
         "evt_ch002_chen_ming_names",
         "evt_ch005_march",
@@ -1971,7 +1994,8 @@
         "evt_ch014_that_person",
         "evt_ch017_the_fifteenth",
         "evt_ch024_choice_north",
-        "evt_ch032_forty_eight_hours"
+        "evt_ch032_forty_eight_hours",
+        "evt_ch038_new_recruits"
       ],
       "convergences": []
     },
