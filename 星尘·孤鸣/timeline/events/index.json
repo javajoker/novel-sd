@@ -1,6 +1,6 @@
 {
   "last_story_time": 35,
-  "last_chapter": "ch_079",
+  "last_chapter": "ch_080",
   "by_chapter": {
     "ch_001": [
       "evt_novel_opening"
@@ -238,6 +238,9 @@
     ],
     "ch_079": [
       "evt_ch079_ulos_memory"
+    ],
+    "ch_080": [
+      "evt_ch080_aeon_vol01_close"
     ]
   },
   "by_story_time": {
@@ -389,7 +392,8 @@
       "evt_ch076_aeon_crystal",
       "evt_ch077_theta_blank_weight",
       "evt_ch078_ulos_vantage",
-      "evt_ch079_ulos_memory"
+      "evt_ch079_ulos_memory",
+      "evt_ch080_aeon_vol01_close"
     ]
   },
   "by_thread": {
@@ -449,7 +453,8 @@
       "evt_ch066_aeon_walks_again",
       "evt_ch070_liang_epilogue",
       "evt_ch075_aeon_east_pull",
-      "evt_ch076_aeon_crystal"
+      "evt_ch076_aeon_crystal",
+      "evt_ch080_aeon_vol01_close"
     ],
     "thr_theta": [
       "evt_ch003_theta_first_question",

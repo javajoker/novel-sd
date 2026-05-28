@@ -1013,7 +1013,8 @@
           "story_time": 35,
           "one_line": "vol_01终章：艾昂把碎晶放回去，站起身，继续走——那个空腔没有名字，但它在，他知道它在。",
           "scene_arc": "静止→收好碎晶→继续走（vol_01结束，vol_02开始的门）",
-          "status": "outlined"
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_080.json"
         }
       ]
     },
