@@ -1,6 +1,6 @@
 {
   "last_story_time": 34,
-  "last_chapter": "ch_072",
+  "last_chapter": "ch_073",
   "by_chapter": {
     "ch_001": [
       "evt_novel_opening"
@@ -217,6 +217,9 @@
     ],
     "ch_072": [
       "evt_ch072_null01_terminated"
+    ],
+    "ch_073": [
+      "evt_ch073_plan_final"
     ]
   },
   "by_story_time": {
@@ -359,7 +362,8 @@
     "34": [
       "evt_ch070_liang_epilogue",
       "evt_ch071_sixteenth",
-      "evt_ch072_null01_terminated"
+      "evt_ch072_null01_terminated",
+      "evt_ch073_plan_final"
     ]
   },
   "by_thread": {
@@ -444,7 +448,8 @@
       "evt_ch039_void_seed_growth",
       "evt_ch048_void_expansion",
       "evt_ch054_ulos_movement",
-      "evt_ch068_void_operation"
+      "evt_ch068_void_operation",
+      "evt_ch073_plan_final"
     ]
   }
 }

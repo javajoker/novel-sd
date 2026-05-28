@@ -929,7 +929,8 @@
           "story_time": 34,
           "one_line": "乌洛斯确认了最终目标节点，他等的那个时机到了——他走向碎晶星域的中心。",
           "scene_arc": "确认→出发（走向）→某个记忆短暂浮现（那首歌的某个词）",
-          "status": "outlined"
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_073.json"
         },
         {
           "id": "ch_074",
