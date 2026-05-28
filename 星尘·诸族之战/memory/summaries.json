@@ -51,6 +51,16 @@
       "active_entities": ["char_ke_yan", "char_liu_shuang", "elem_origin_theta", "elem_stardust_fortress"],
       "events_covered": ["evt_liushuang_anomaly"],
       "tags": ["刘霜的手", "源质融合疗愈", "柯炎看见了但没问", "'不问列表'成型", "撤退伏击", "任务完成"]
+    },
+    {
+      "chapter_id": "ch_006",
+      "story_time": 6,
+      "title": "虚影的眼",
+      "logline": "同一天，Ω站——虚影在矿带战场录像里看见了那种移动方式，微微偏了头，建了一个文件夹，写上'柯炎'。",
+      "synopsis": "siege_day 47，与ch_005并行。虚影在Ω站处理情报（联邦矿带增兵分析）；例行筛查时看到精英异种伏击录像，注意到柯炎的移动方式：在威胁实体化之前就已离位，没有思考间隙——源质感知，且精度超出感知者正常上限。虚影微微偏头（唯一的人性外显）。重新调出该人物所有录像片段，确认特征一致。查兵籍档案：柯炎，26岁，赤焰星域，父亲矿难死亡，母亲黑色星期四阵亡——在那两行字上停了不到一秒，合上档案。建立文件夹，标签：柯炎。内心独白：不打算接触（不到时候），只是想看一个'年轻版的自己'会不会走上不同的路。",
+      "active_entities": ["char_void_echo", "char_ke_yan", "elem_omega_station"],
+      "events_covered": ["evt_void_echo_observes"],
+      "tags": ["虚影POV首次", "柯炎被标记", "微微偏头", "Ω站", "沈毅幽灵", "感知特征识别"]
     }
   ],
   "scene_chunks": []

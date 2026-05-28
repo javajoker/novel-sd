@@ -4,7 +4,7 @@
     "novel_title": "星尘：诸族之战",
     "novel_author": "同人作者",
     "story_time_unit": "chapter",
-    "current_chapter": 5,
+    "current_chapter": 6,
     "language": "zh-Hans",
     "genre": "科幻战争",
     "tier": "long_novel",
@@ -677,7 +677,7 @@
       ],
       "prerequisites": [],
       "projected_outcome": "虚影通过残存监视网络看到柯炎的战斗记录，认出那种源质感知特征——与当年第零团最强成员相似；开始关注。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_006"
       ],

@@ -8,12 +8,47 @@
       "location": "elem_omega_station",
       "inventory_delta": [],
       "status": [
-        { "type": "baseline", "desc": "巅峰状态·隐匿中；源质觉醒者上位；9年虚空生涯", "severity": "n/a" }
+        {
+          "type": "baseline",
+          "desc": "巅峰状态·隐匿中；源质觉醒者上位；9年虚空生涯",
+          "severity": "n/a"
+        }
       ],
       "knowledge_gained": [],
-      "psychology": { "sanity": 78, "mood": "冷静·蓄势", "core_desire": "完成被中断9年的暗源计划，让联邦为背叛付出代价", "core_fear": "再次信任某人，再次被抛弃" },
+      "psychology": {
+        "sanity": 78,
+        "mood": "冷静·蓄势",
+        "core_desire": "完成被中断9年的暗源计划，让联邦为背叛付出代价",
+        "core_fear": "再次信任某人，再次被抛弃"
+      },
       "abilities_delta": [],
       "notes": "T=0 锚点。完整初始状态见 characters/char_void_echo.json.initial_state。真名陈霆/前第零团少校；持Θ区遗迹残图。"
+    },
+    {
+      "story_time": 6,
+      "chapter_id": "ch_006",
+      "location": "elem_omega_station",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "fact_ke_yan_potential",
+          "confidence": "confirmed",
+          "trigger": "战场录像分析：柯炎的移动方式具有超出感知者上限的精度，与第零团最强感知者的'感知语法'一致"
+        },
+        {
+          "fact": "柯炎：26岁，赤焰星域，父矿难+母黑色星期四阵亡",
+          "confidence": "confirmed",
+          "trigger": "联邦兵籍档案查询"
+        }
+      ],
+      "psychology": {
+        "sanity": 90,
+        "mood": "冷峻·已建立关注但控制情绪",
+        "notes": "首次在九年内感到'好奇'——建立柯炎文件夹是这个情绪的行为化。微微偏头：唯一外显的人性信号。沈毅的名字没有说出来，但他的幽灵在场。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_006：标记柯炎。不打算接触——只是观察。Θ区地图空白问题仍待解决。"
     }
   ]
 }
