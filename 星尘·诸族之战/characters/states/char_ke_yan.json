@@ -2,6 +2,20 @@
   "character_id": "char_ke_yan",
   "states": [
     {
+      "story_time": 16,
+      "chapter_id": "ch_016",
+      "location": "elem_stardust_fortress（情报处理站 → 食堂 → 宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "情报站对遗迹板材的处理速度和标记级别异常——使用了他没见过的标记前缀，速度远快于标准战场遗物流程", "confidence": "observed_indirect", "trigger": "提交过程目击" },
+        { "fact": "联合突袭任务：siege_day 55，断裂要塞以东约12km，三个小队，目标为异种前进基地，可能有先驱级指挥个体", "confidence": "official_briefing_pre", "trigger": "通讯板公告" }
+      ],
+      "psychology": { "sanity": 70, "mood": "任务模式·格子满但扣上了·已经在准备后天", "notes": "今天的格子装入量是这段时间最大的一天，但他没有打开它——他的处理方式是把所有东西存进去，然后继续运转。他注意到了情报站的异常反应，把它放在信息缺口位置，不追。联合突袭任务公告给了他一个新的前向任务焦点，有任务的时候他的系统运转更稳定。" },
+      "abilities_delta": [],
+      "notes": "ch_016：提交板材，情报站异常快速反应，晚饭，两张蓝卡确认，联合突袭任务公告，装备预检，睡了。"
+    },
+    {
       "story_time": 15,
       "chapter_id": "ch_015",
       "location": "elem_origin_theta（Θ区遗迹内部 → 回程途中）",
