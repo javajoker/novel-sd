@@ -222,6 +222,19 @@
           "beat_sheet_ref": "outline/beats/ch_010.json"
         },
         {
+          "id": "ch_011",
+          "number": 11,
+          "title": "撤回",
+          "sub_arc": "A·围困",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 11,
+          "planned_events": [],
+          "one_line": "五个名字记进格子；报告语言装不下那一秒的先驱；归程途中格子的重量比以前费力地压回去；失眠，往指挥廊走。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_011.json"
+        },
+        {
           "id": "ch_012",
           "number": 12,
           "title": "少校的真话",

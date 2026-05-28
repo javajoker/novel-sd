@@ -2,6 +2,21 @@
   "character_id": "char_ke_yan",
   "states": [
     {
+      "story_time": 11,
+      "chapter_id": "ch_011",
+      "location": "elem_shattered_bastion → elem_stardust_fortress",
+      "inventory_delta": [],
+      "status": [
+        { "type": "psychological_load", "desc": "格子的重量开始在物理感觉上显现——按回去的动作比以前费力；失眠是格子满载的身体化反应", "severity": "minor" }
+      ],
+      "knowledge_gained": [
+        { "fact": "断裂要塞虫潮伤亡：五死九重伤；五个名字记住了", "confidence": "confirmed", "trigger": "清算会" }
+      ],
+      "psychology": { "sanity": 75, "mood": "疲惫·下沉·格子在变重", "notes": "格子里现在存着：矿道感知炸开+那一烫、先驱对视+那一秒、刘霜检查停顿、五个死亡名字。这些东西合在一起的重量开始超过他习惯管理的量，但他还没有打开格子的意愿，他选择走动，消耗。" },
+      "abilities_delta": [],
+      "notes": "ch_011：断裂要塞轮换结束，归主要塞，失眠，往指挥廊走。直接过渡到ch_012。"
+    },
+    {
       "story_time": 10,
       "chapter_id": "ch_010",
       "location": "elem_shattered_bastion（断裂要塞外围 → 第二防线）",
