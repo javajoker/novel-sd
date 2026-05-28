@@ -1,12 +1,11 @@
 # 星尘·灵渊挽歌 — 工作清单 (Work Checklist)
 
-> **Status (after A1–D1 migration):** 17 chapters drafted (prose `ch_001`–`ch_017`),
-> beat sheets through `ch_021`, ontology `current_chapter: 17`. **33 events**
-> (29 retrofitted + 4 new for ch_018–021), all with `chapter_ids` (array) +
-> `beat_design`. All 21 beat sheets carry `events_covered`. vol_01/02/03 promoted to
-> canonical `volumes[]` (all `drafted` / vol_03 `in_progress`). 17 chapter summaries +
-> 3 volume summaries. Masks for 4 POV characters (`char_yi_lan`, `char_zhao`,
-> `char_ling_yin`, `char_shou_yan`). Tier: `long_novel`.
+> **Status (after D2–D6 + E):** 25 chapters drafted (prose `ch_001`–`ch_025`),
+> beat sheets through `ch_025`, ontology `current_chapter: 25`. **43 events** total
+> (33 from before + 10 new for ch_018–025). Beat sheets ch_022–025 newly designed.
+> vol_03 Sub-arc A 'A·告别路口' complete. 25 chapter summaries + 3 volume summaries
+> (vol_03 updated). Plot hooks updated through ch_025. Masks: 4 POV characters.
+> Tier: `long_novel`. Next: Sub-arc B planning (F1).
 >
 > Workflow: event-driven NovelForge cycle. See `.claude/agents/novelist/AGENT.md`.
 
@@ -57,21 +56,26 @@
       - `evt_yilan_first_half_confession` (ch_021, thr_yi_lan) — 伊岚第一次半开口
       Each thread's `event_ids` was updated. Existing ch_018–021 beat sheets already
       carry the matching `events_covered` (from A3).
-- [ ] **D2.** Write prose `chapters/ch_018.md` → then Phase C KB update.
-- [ ] **D3.** Write prose `chapters/ch_019.md` (Ling Yin POV) → then Phase C KB update.
-- [ ] **D4.** Write prose `chapters/ch_020.md` → then Phase C KB update.
-- [ ] **D5.** Write prose `chapters/ch_021.md` → then Phase C KB update.
-- [ ] **D6.** Design + write `ch_022`–`ch_025` to close Sub-arc A — including the
+- [x] **D2.** Write prose `chapters/ch_018.md` → then Phase C KB update.
+- [x] **D3.** Write prose `chapters/ch_019.md` (Ling Yin POV) → then Phase C KB update.
+- [x] **D4.** Write prose `chapters/ch_020.md` → then Phase C KB update.
+- [x] **D5.** Write prose `chapters/ch_021.md` → then Phase C KB update.
+- [x] **D6.** Design + write `ch_022`–`ch_025` to close Sub-arc A — including the
       foreshadowed payoff at **ch_024** (伊岚完整说出方向的真相; foreshadowed by
       ch_020/ch_021 half-confessions and ch_019's parallel structure).
+      Beat sheets ch_022–025 created. Prose drafted. KB updated: summaries, plot_threads,
+      structure.json (ch_018–025), timeline/events.json (10 new events).
 
 ## E. Validation & profiles
 
-- [ ] **E1.** Run `narrative-ontology/scripts/validate_narrative.py` and resolve flags.
-- [ ] **E2.** Run `narrative-consistency/scripts/check_consistency.py` (ripple/paradox)
-      and resolve flags.
-- [ ] **E3.** Generate chapter-masked profiles into `chapters/profiles/` beyond `ch_001`
-      (only ch_001.json exists) via `narrative-toolkit/scripts/build_profile.py`.
+- [x] **E1.** Run `narrative-ontology/scripts/validate_narrative.py` and resolve flags.
+      Result: 0 errors, 2 pre-existing warnings (invalid relation type names in old events).
+      Fixed: added `elem_huipo_wasteland_east` entity; fixed location string in
+      `evt_zhao_discovers_arrow_carving`.
+- [x] **E2.** Run `narrative-consistency/scripts/check_consistency.py` (ripple/paradox)
+      and resolve flags. Result: ✓ no consistency violations found.
+- [x] **E3.** Generate chapter-masked profiles into `chapters/profiles/` beyond `ch_001`.
+      Generated ch_002–ch_025 (24 profiles). ch_025 is ~9031 tokens, 16 active entities.
 
 ## F. Long-horizon (vol_03 sub-arcs B/C/D — plan when Sub-arc A is done)
 
