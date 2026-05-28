@@ -166,6 +166,19 @@
           "status": "drafted"
         },
         {
+          "id": "ch_007",
+          "number": 7,
+          "title": "归营",
+          "sub_arc": "A·围困",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 7,
+          "planned_events": [],
+          "one_line": "归营第一天；他清点卡牌，填写报告，看着食堂里的一千多人，关灯入睡——明天是Θ区矿道，地层震动风险。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_007.json"
+        },
+        {
           "id": "ch_008",
           "number": 8,
           "title": "看得太清楚",
