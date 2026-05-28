@@ -2,6 +2,19 @@
   "character_id": "char_ke_yan",
   "states": [
     {
+      "story_time": 18,
+      "chapter_id": "ch_018",
+      "location": "elem_stardust_fortress（宿舍 → 要塞通道夜行 → 宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "刘霜在凌晨走廊偶遇中说'明天多注意右侧'，语气是告知，不是建议——她的感应数据给了她指向右侧路线的确认", "confidence": "observed_direct_statement", "trigger": "走廊偶遇，她主动告知" }
+      ],
+      "psychology": { "sanity": 70, "mood": "前任务待机状态·稳·右侧信息叠加完成", "notes": "他把刘霜的告知和昨天的弱信号放在'操作性记忆'位置，不是格子（情感信息），是明天可以直接调用的战术信息。这个区分他做得很自然，是他内部系统的分层，但他没有给这个分层起过名字。他理解'感知待机'是他身体的准备方式，不对抗它，给它空间运行。" },
+      "abilities_delta": [],
+      "notes": "ch_018：凌晨感知待机，起来夜行确认状态，走廊偶遇刘霜，接收她的'多注意右侧'，返回轻睡眠。04:30起床，06:00集合。"
+    },
+    {
       "story_time": 17,
       "chapter_id": "ch_017",
       "location": "elem_stardust_fortress（简报室）→ elem_shattered_bastion（断裂要塞外围前出阵地）",
