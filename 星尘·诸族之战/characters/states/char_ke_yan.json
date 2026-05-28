@@ -2,6 +2,20 @@
   "character_id": "char_ke_yan",
   "states": [
     {
+      "story_time": 36,
+      "chapter_id": "ch_036",
+      "location": "elem_stardust_fortress（医疗区 → Θ区外围东侧阵地 → 要塞走廊 → 宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "刘霜所有七个数据点现在各有合理解释，框架完整，一致性已验证", "confidence": "self_confirmed_via_retroactive_analysis", "trigger": "下午轮值，回头看七个数据点" },
+        { "fact": "她在某个时候知道了他在记录数据点，但没有问他、没有说破，她也在等——'她选择了siege_day 85的矿道，是她的选择'", "confidence": "inferred_from_她说七个", "trigger": "快睡着前最后一个想法" }
+      ],
+      "psychology": { "sanity": 63, "mood": "稳定·余震·认知框架更新完成·格子第一次轻开", "notes": "异常变成了认知——她的动作不再是'待解释的数据点'，是'他认识的人在工作'。他今晚第一次主动把格子开了一点，看了，关上（不是扣上）。格子旁边多了一个新的重量：'知道了一件我以前不知道的事的那种重量'，不是悲哀，是信息本身的重量。两种重量在一起但没有混在一起。走廊对话：两句话，都是真的，存进信息层。" },
+      "abilities_delta": [],
+      "notes": "ch_036：余震，siege_day 87，揭身后第一天，数据点反向验证，走廊'谢谢你没有问更多'/'我等你说'，格子第一次主动轻开。"
+    },
+    {
       "story_time": 35,
       "chapter_id": "ch_035",
       "location": "elem_shattered_bastion（废弃矿道内 → 矿道外掩体）",
