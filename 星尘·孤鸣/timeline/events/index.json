@@ -1,6 +1,6 @@
 {
-  "last_story_time": 32,
-  "last_chapter": "ch_067",
+  "last_story_time": 33,
+  "last_chapter": "ch_068",
   "by_chapter": {
     "ch_001": [
       "evt_novel_opening"
@@ -202,6 +202,9 @@
     ],
     "ch_067": [
       "evt_ch067_signal_found"
+    ],
+    "ch_068": [
+      "evt_ch068_void_operation"
     ]
   },
   "by_story_time": {
@@ -336,6 +339,9 @@
       "evt_ch065_termination_order",
       "evt_ch066_aeon_walks_again",
       "evt_ch067_signal_found"
+    ],
+    "33": [
+      "evt_ch068_void_operation"
     ]
   },
   "by_thread": {
@@ -415,7 +421,8 @@
       "evt_ch033_ulos_monitors_anomaly",
       "evt_ch039_void_seed_growth",
       "evt_ch048_void_expansion",
-      "evt_ch054_ulos_movement"
+      "evt_ch054_ulos_movement",
+      "evt_ch068_void_operation"
     ]
   }
 }

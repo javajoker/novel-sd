@@ -869,7 +869,8 @@
           "story_time": 33,
           "one_line": "乌洛斯的计划开始执行第一阶段，碎晶星域某处出现了第一次异常虚空波动，各阵营都感受到了。",
           "scene_arc": "行动→波动→各阵营的反应（乌洛斯在看）",
-          "status": "outlined"
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_068.json"
         },
         {
           "id": "ch_069",
