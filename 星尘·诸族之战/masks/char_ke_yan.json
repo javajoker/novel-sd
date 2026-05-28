@@ -2,6 +2,38 @@
   "character_id": "char_ke_yan",
   "knowledge_at": [
     {
+      "story_time": 13,
+      "chapter_id": "ch_013",
+      "facts_known": [
+        "fact_federation_losing",
+        "周恒已对胜利失去信心（'我们守的不是要塞，是上面用来拖时间的数字'——直接确认）"
+      ],
+      "facts_suspected": [
+        { "fact": "刘霜持有并使用非标准医疗器材（可能是某种攻击性源质能力）", "basis": "ch_002+ch_003" },
+        { "fact": "刘霜的源质感应能力超出普通医疗兵范畴", "basis": "ch_008停顿" },
+        { "fact": "fact_ke_yan_potential", "stage": "acknowledged_but_still_deflecting", "basis": "第二次蓝卡合成时'我这次知道我在做什么'出现且难以压下——'运气好'框架磨损加剧，但尚未放弃" },
+        { "fact": "fact_herald_evolving", "stage": "suspected_unnamed", "basis": "'那东西不一样'" },
+        { "fact": "周恒密令的大致性质：上面希望要塞充当拖延棋子而非守住", "stage": "partial_suspected", "basis": "'上面用来拖时间的数字'这句话的语气" }
+      ],
+      "facts_rumored": [
+        "fact_theta_secret"
+      ],
+      "facts_unknown": [
+        "fact_void_echo_identity",
+        "刘霜的秘密项目身份",
+        "周恒密令的具体内容"
+      ],
+      "beliefs_held": [
+        { "belief": "自己只是战争机器里的一颗螺丝钉", "is_true": false, "status": "the_lie：外壳完好，但格子盖子需要用力按才能扣上，以前不需要按" },
+        { "belief": "蓝卡合成是运气，与自身无关", "is_true": false, "status": "磨损加剧：'运气好'这两个字说出来之后他能感知到它磨损了——'还能用，但已经能透光了'" },
+        { "belief": "刘霜只是普通医疗兵", "is_true": false, "status": "继续主动不追" }
+      ],
+      "projected_facts_to_learn": [
+        { "fact": "fact_herald_evolving", "stage": "named_and_acknowledged", "trigger": "ch_055先驱战略行动" },
+        { "fact": "fact_ke_yan_potential", "stage": "acknowledged_undecoded", "trigger": "ch_019-020'运气好'框架完全失效" }
+      ]
+    },
+    {
       "story_time": 12,
       "chapter_id": "ch_012",
       "facts_known": [
