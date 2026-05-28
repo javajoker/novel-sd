@@ -989,7 +989,8 @@
           "story_time": 35,
           "one_line": "乌洛斯站在碎晶星域的一处高点，在暗处看着整片星域——他知道什么时候开始了。",
           "scene_arc": "站立→观察→「知道了」",
-          "status": "outlined"
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_078.json"
         },
         {
           "id": "ch_079",
@@ -1000,7 +1001,8 @@
           "story_time": 35,
           "one_line": "乌洛斯的内部独白：他想起了那首快要忘记歌词的歌，想起了某个他不再去想的人的名字。",
           "scene_arc": "独白→记忆浮现→压下（但这一次慢了一点）",
-          "status": "outlined"
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_079.json"
         },
         {
           "id": "ch_080",
