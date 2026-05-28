@@ -1,6 +1,6 @@
 {
-  "last_story_time": 33,
-  "last_chapter": "ch_069",
+  "last_story_time": 34,
+  "last_chapter": "ch_070",
   "by_chapter": {
     "ch_001": [
       "evt_novel_opening"
@@ -208,6 +208,9 @@
     ],
     "ch_069": [
       "evt_ch069_theta_adjustment"
+    ],
+    "ch_070": [
+      "evt_ch070_liang_epilogue"
     ]
   },
   "by_story_time": {
@@ -346,6 +349,9 @@
     "33": [
       "evt_ch068_void_operation",
       "evt_ch069_theta_adjustment"
+    ],
+    "34": [
+      "evt_ch070_liang_epilogue"
     ]
   },
   "by_thread": {
@@ -400,7 +406,8 @@
       "evt_ch061_last_night",
       "evt_ch062_liang_leaves",
       "evt_ch063_emptiness",
-      "evt_ch066_aeon_walks_again"
+      "evt_ch066_aeon_walks_again",
+      "evt_ch070_liang_epilogue"
     ],
     "thr_theta": [
       "evt_ch003_theta_first_question",

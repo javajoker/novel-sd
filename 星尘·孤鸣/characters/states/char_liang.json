@@ -2,6 +2,20 @@
   "character_id": "char_liang",
   "states": [
     {
+      "story_time": 34,
+      "chapter_id": "ch_070",
+      "location": "灵能族废墟·旧刻印石台边（已亡）",
+      "physical": {
+        "status": "deceased",
+        "notes": "按他的计划，在灵能族废墟旧刻印边以他选择的方式结束。被经过的聚居点老人远远看见坐着，后来不在了。死亡时间约在梁离开前哨站后数周内。"
+      },
+      "key_events_this_chapter": [
+        "死亡确认（间接，via聚居点老人→艾昂）",
+        "死在他想去的地方，以他想要的方式",
+        "梁弧至此正式闭合"
+      ]
+    },
+    {
       "story_time": 30,
       "chapter_id": "ch_061",
       "location": "灵能族废弃前哨站",

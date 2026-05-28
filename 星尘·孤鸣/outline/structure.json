@@ -893,7 +893,8 @@
           "story_time": 34,
           "one_line": "艾昂路过一处平静的地方，他不知道，但那正是梁选择停下来的方向——那块碎晶振动了一下。",
           "scene_arc": "行走→路过→那块碎晶（振动，一次，然后没有了）",
-          "status": "outlined"
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_070.json"
         },
         {
           "id": "ch_071",
