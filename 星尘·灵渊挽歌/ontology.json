@@ -309,6 +309,19 @@
       "salience": 0.65
     },
     {
+      "id": "elem_huipo_wasteland_east",
+      "canonical_name": "灰珀荒原东行段",
+      "type": "Place",
+      "subtype": "location",
+      "aliases": [
+        "东行荒原",
+        "荒原东侧",
+        "开阔地带"
+      ],
+      "description": "灰珀荒原向东延伸的行进路段。矿石群密度逐渐稀疏，地势微微向东偏南倾斜，遮蔽角度减少。vol_03 Sub-arc A的主要行进区域（ch_015–025）。含渗水点、矿脉裂缝等地形元素。",
+      "salience": 0.6
+    },
+    {
       "id": "elem_seventh_garrison",
       "canonical_name": "第七戍垒",
       "type": "Place",
@@ -1770,7 +1783,7 @@
       "thread_id": "thr_garrison",
       "story_time": 15,
       "duration": 1,
-      "location": "elem_huipo_wasteland_east（渗水点）",
+      "location": "elem_huipo_wasteland_east",
       "participants": [
         "char_zhao",
         "char_yi_lan"

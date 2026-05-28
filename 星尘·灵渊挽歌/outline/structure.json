@@ -340,6 +340,120 @@
           "one_line": "昭POV：渗水点降频等待窄频脉冲；发现至少两年前箭头刻痕指东侧偏南；告诉伊岚，她说'走'——三条线不独立。",
           "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_017.json"
+        },
+        {
+          "id": "ch_018",
+          "number": 18,
+          "title": "节律",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_yi_lan",
+          "story_time": 16,
+          "planned_events": [
+            "evt_team_rhythm",
+            "evt_lingyin_subband_test"
+          ],
+          "one_line": "第二天行进，40分钟窗口成为队伍自然节律；聆音开始a'子频段测试；伊岚意识到不触遗核是主动管理；守岩'这件事有节律了'击中她内心松动的节点。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_018.json"
+        },
+        {
+          "id": "ch_019",
+          "number": 19,
+          "title": "聆音的实验",
+          "thread_id": "thr_hive",
+          "pov_character": "char_ling_yin",
+          "story_time": 16,
+          "planned_events": [
+            "evt_lingyin_subband_test"
+          ],
+          "one_line": "聆音POV：独立测试a'子频段十次，守夜完成第五次静止有效观测，确认蚕母定位偏差约20度，决定明天告诉队伍。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_019.json"
+        },
+        {
+          "id": "ch_020",
+          "number": 20,
+          "title": "还有多远",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_zhao",
+          "story_time": 17,
+          "planned_events": [
+            "evt_zhao_asks_target"
+          ],
+          "one_line": "昭POV：战术地图的空白有了重量；他直接问伊岚'那个方向有什么'；她说'我不确定'——真话但不完整；昭决定等，确定了下一次更直接。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_020.json"
+        },
+        {
+          "id": "ch_021",
+          "number": 21,
+          "title": "第二个渗水点",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_yi_lan",
+          "story_time": 17,
+          "planned_events": [
+            "evt_yilan_first_half_confession"
+          ],
+          "one_line": "守岩陈述'你知道我们要去哪里'；伊岚第一次说出'我想我知道大概的方向'；昭回来后那个'东'的质感变了。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_021.json"
+        },
+        {
+          "id": "ch_022",
+          "number": 22,
+          "title": "子频段",
+          "thread_id": "thr_hive",
+          "pov_character": "char_ling_yin",
+          "story_time": 18,
+          "planned_events": [
+            "evt_lingyin_subband_confirmed"
+          ],
+          "one_line": "聆音完成十次测试确认a'有效，向队伍公布；昭整合为战术；伊岚看见镜子——聆音有测试逻辑，她自己在等什么？",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_022.json"
+        },
+        {
+          "id": "ch_023",
+          "number": 23,
+          "title": "升温",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_yi_lan",
+          "story_time": 18,
+          "planned_events": [
+            "evt_hive_scout_encounter",
+            "evt_yihe_warming"
+          ],
+          "one_line": "开阔地遭遇虫群探查单元，a'战术首次实战；遗核比昨天更热；傍晚伊岚诚实：她在等的是勇气，不是确认。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_023.json"
+        },
+        {
+          "id": "ch_024",
+          "number": 24,
+          "title": "所有的线",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_yi_lan",
+          "story_time": 19,
+          "planned_events": [
+            "evt_yilan_full_confession"
+          ],
+          "one_line": "昭直接追问；伊岚向全队说出完整真相：ch_014回应脉冲、薇瑟频率、选东的原因；守岩'她留的东西在你手里，往那里走'。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_024.json"
+        },
+        {
+          "id": "ch_025",
+          "number": 25,
+          "title": "随行（二）",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 19,
+          "planned_events": [
+            "evt_subarc_a_closure"
+          ],
+          "one_line": "说完之后队伍沉默后重新出发；昭用目标优先级重构战术；聆音记住薇瑟频率特征；Sub-arc A收束，Sub-arc B东行深荒开始。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_025.json"
         }
       ],
       "status": "in_progress"

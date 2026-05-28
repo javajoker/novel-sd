@@ -26,6 +26,15 @@
     { "id": "evt_open_terrain_battle",        "story_time": 14, "thread_id": "thr_garrison","chapter_id": "ch_014", "status": "drafted", "canonical": "ontology.json#events" },
     { "id": "evt_lingyin_active_pulse",       "story_time": 14, "thread_id": "thr_hive",   "chapter_id": "ch_014", "status": "drafted", "canonical": "ontology.json#events" },
     { "id": "evt_shou_yan_names_suixing",     "story_time": 14, "thread_id": "thr_garrison","chapter_id": "ch_014", "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_yihe_response_signal",       "story_time": 14, "thread_id": "thr_yi_lan", "chapter_id": "ch_014", "status": "drafted", "canonical": "ontology.json#events" }
+    { "id": "evt_yihe_response_signal",       "story_time": 14, "thread_id": "thr_yi_lan", "chapter_id": "ch_014", "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_team_rhythm",                "story_time": 16, "thread_id": "thr_garrison","chapter_ids": ["ch_018"], "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_lingyin_subband_test",       "story_time": 16, "thread_id": "thr_hive",   "chapter_ids": ["ch_018","ch_019"], "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_zhao_asks_target",           "story_time": 17, "thread_id": "thr_garrison","chapter_ids": ["ch_020"], "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_yilan_first_half_confession","story_time": 17, "thread_id": "thr_yi_lan", "chapter_ids": ["ch_021"], "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_lingyin_subband_confirmed",  "story_time": 18, "thread_id": "thr_hive",   "chapter_ids": ["ch_022"], "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_hive_scout_encounter",       "story_time": 18, "thread_id": "thr_garrison","chapter_ids": ["ch_023"], "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_yihe_warming",               "story_time": 18, "thread_id": "thr_yi_lan", "chapter_ids": ["ch_023"], "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_yilan_full_confession",      "story_time": 19, "thread_id": "thr_yi_lan", "chapter_ids": ["ch_024"], "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_subarc_a_closure",           "story_time": 19, "thread_id": "thr_garrison","chapter_ids": ["ch_025"], "status": "drafted", "canonical": "ontology.json#events" }
   ]
 }
