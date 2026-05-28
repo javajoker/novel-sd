@@ -977,7 +977,8 @@
           "story_time": 35,
           "one_line": "Θ-7在Null-01重新稳定移动后，私人日志里写下了一行比以前任何时候都更接近人类语言的东西。",
           "scene_arc": "日志（第八条）→那一行字→Θ-7停了0.001秒看着它",
-          "status": "outlined"
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_077.json"
         },
         {
           "id": "ch_078",
