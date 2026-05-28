@@ -177,7 +177,8 @@
             "evt_perception_edge"
           ],
           "one_line": "缺氧失血的边缘，他第一次'看见'源质的流动本身；他下意识吸入一缕，胸口一烫。",
-          "status": "planned"
+          "status": "beats_ready",
+          "beat_sheet_ref": "outline/beats/ch_008.json"
         },
         {
           "id": "ch_010",
@@ -191,7 +192,8 @@
             "evt_herald_first_sighting"
           ],
           "one_line": "虫潮中那只异种没有扑向最近的猎物，而是看了他一眼——那一眼里有计算。",
-          "status": "planned"
+          "status": "beats_ready",
+          "beat_sheet_ref": "outline/beats/ch_010.json"
         },
         {
           "id": "ch_012",
@@ -205,7 +207,8 @@
             "evt_zhou_despair"
           ],
           "one_line": "周恒说：我们守的不是要塞，是上面用来拖时间的数字。",
-          "status": "planned"
+          "status": "beats_ready",
+          "beat_sheet_ref": "outline/beats/ch_012.json"
         },
         {
           "id": "ch_015",
@@ -219,7 +222,8 @@
             "evt_theta_map_fragment"
           ],
           "one_line": "残图上的符号让他的源质感知本能地共鸣了一下，像被叫了名字。",
-          "status": "planned"
+          "status": "beats_ready",
+          "beat_sheet_ref": "outline/beats/ch_015.json"
         },
         {
           "id": "ch_019",
@@ -233,7 +237,8 @@
             "evt_subarc_a_climax"
           ],
           "one_line": "两条撤退路线之间，他选了对的那条；活下来的人因他而活。",
-          "status": "planned"
+          "status": "beats_ready",
+          "beat_sheet_ref": "outline/beats/ch_019.json"
         },
         {
           "id": "ch_020",
@@ -247,7 +252,8 @@
             "evt_subarc_a_climax"
           ],
           "one_line": "他第一次说不出'这与我无关'这五个字。",
-          "status": "planned"
+          "status": "beats_ready",
+          "beat_sheet_ref": "outline/beats/ch_020.json"
         },
         {
           "id": "ch_025",

@@ -64,10 +64,12 @@
 - [ ] **W4+.** Continue chapter-by-chapter via the per-event design→write→update→adjust
       loop. In progress:
       - [x] Beat sheets synthesized + prose drafted: ch_004（中继站）, ch_005 (evt_liushuang_anomaly), ch_006 (evt_void_echo_observes, 虚影POV)
-      - [ ] Beat sheets for remaining anchored chapters: ch_008, ch_010, ch_012, ch_015, ch_019–020 (sub-arc A climax)
-      - [ ] Sub-arcs B/C/D + un-anchored chapters (defined per-event)
+      - [x] Beat sheets synthesized (write-ready): ch_008 (感知边界), ch_010 (先驱), ch_012 (周恒的真话), ch_015 (残图), ch_019 (选择), ch_020 (幸存的代价)
+      - [ ] Sub-arcs B/C/D + un-anchored chapters ch_007, ch_009, ch_011, ch_013–014, ch_016–018 etc. (defined per-event)
 
 ## Validation
 
-- [ ] **V1.** Run `narrative-ontology/scripts/validate_narrative.py`.
+- [x] **V1.** Run `narrative-ontology/scripts/validate_narrative.py`. Result: ✓ 0 errors,
+      2 pre-existing warnings (char_swarm_herald + char_psi_elder mask files not yet
+      created — those POV characters haven't appeared in prose).
 - [ ] **V2.** Run `narrative-consistency/scripts/check_consistency.py`.

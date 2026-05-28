@@ -611,7 +611,7 @@
       "thread_id": "thr_protagonist",
       "dependencies": [
         {
-          "type": "FOLLOWS",
+          "type": "HAPPENED_AFTER",
           "event_id": "evt_first_synthesis"
         }
       ],
