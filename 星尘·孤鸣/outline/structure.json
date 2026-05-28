@@ -965,7 +965,8 @@
           "story_time": 35,
           "one_line": "艾昂在一处源质矿脉汇聚处停下来，那块碎晶的振动达到了三年来的最高点，他第一次把它拿出来看。",
           "scene_arc": "停下→拿出碎晶→看着它（第一次真的在看，而不是只是握着）",
-          "status": "outlined"
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_076.json"
         },
         {
           "id": "ch_077",
