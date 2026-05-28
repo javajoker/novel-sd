@@ -1,6 +1,6 @@
 {
   "last_story_time": 34,
-  "last_chapter": "ch_071",
+  "last_chapter": "ch_072",
   "by_chapter": {
     "ch_001": [
       "evt_novel_opening"
@@ -214,6 +214,9 @@
     ],
     "ch_071": [
       "evt_ch071_sixteenth"
+    ],
+    "ch_072": [
+      "evt_ch072_null01_terminated"
     ]
   },
   "by_story_time": {
@@ -355,7 +358,8 @@
     ],
     "34": [
       "evt_ch070_liang_epilogue",
-      "evt_ch071_sixteenth"
+      "evt_ch071_sixteenth",
+      "evt_ch072_null01_terminated"
     ]
   },
   "by_thread": {
@@ -428,7 +432,8 @@
       "evt_ch052_qixing_contact",
       "evt_ch058_null01_stationary",
       "evt_ch065_termination_order",
-      "evt_ch069_theta_adjustment"
+      "evt_ch069_theta_adjustment",
+      "evt_ch072_null01_terminated"
     ],
     "thr_ulos": [
       "evt_ch008_ulos_watching",

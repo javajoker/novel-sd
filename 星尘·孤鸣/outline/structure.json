@@ -917,7 +917,8 @@
           "story_time": 34,
           "one_line": "Θ-7对「为什么」的第二次完整记录：更长，更复杂，像一首它自己也不知道如何完成的歌的第一句。",
           "scene_arc": "私人日志（第七条）→比以前任何时候都长→结尾是一个未完成的句子",
-          "status": "outlined"
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_072.json"
         },
         {
           "id": "ch_073",
