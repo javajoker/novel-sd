@@ -1,0 +1,633 @@
+{
+  "chapter_id": "ch_001",
+  "story_time": 1,
+  "pov_character": "char_yi_lan",
+  "pov_character_name": "伊岚",
+  "generated_as_of": 1,
+  "summary_context": {
+    "novel": "《星尘·灵渊挽歌》是星际战争游戏《星尘：诸族之战》的同人长篇，守土悲歌、群像基调。源质觉醒撕裂银河，诸族陷入由冷漠的战导自动运转的永恒战争。灵能精英种族艾尔维斯灵能族（灵裔）节节败退，退守灵渊星域。灵裔以体内灵渊汲取灵能、以源质为燃料，但灵能透支会累积‘灵蚀’，逐步抹去记忆与自我，终使人沦为空壳。年轻灵裔伊岚拥有罕见异能‘渡蚀’，能把战友的灵蚀转移到自己灵渊承接——能救人，代价是更快烧尽自己。在死守边境卫星灰珀第七戍垒的戍队里（老兵戍长守岩、战友昭、孩童灵能天才聆音），伊岚背负着导师薇瑟为掩护撤离而灵蚀化的旧伤，固执地相信只要自己足够强，就能独自扛下所有人的代价。随着空壳化的薇瑟随虫潮现身、虫后蚀母觊觎聆音纯净的灵渊、穹枢下令撤退，伊岚将被迫直面：守土不是一个人的殉道，而是众人分担的守护。",
+    "volume": "卷一·灰珀残照。确立基调、群像与核心代价。第七戍垒在守岩带领下死守灰珀源质矿脉，伊岚以渡蚀替战友承接灵蚀。一轮虫潮强袭中她救下濒临空壳化的昭，并在突破口认出随虫潮现身的、空壳化的导师薇瑟。联邦军官凯尔以源质换矿脉开采权的协定逼出第一个抉择；虫后蚀母透过空壳尝到聆音灵渊的气息，将戍垒升格为吞噬目标；穹枢撤退令与守岩的抗命撕裂戍队。本卷在惨胜与燃尽中，逼伊岚动摇‘独自承蚀’的执念。",
+    "recent_chapters": [
+      {
+        "chapter_id": "ch_001",
+        "logline": "虫潮强袭中伊岚以渡蚀救下濒临空壳化的昭，却在退潮的突破口认出空壳化的导师薇瑟。",
+        "story_time": 1
+      }
+    ]
+  },
+  "active_entities": [
+    {
+      "id": "char_kai_er",
+      "name": "凯尔",
+      "type": "Person",
+      "subtype": "supporting",
+      "description": "星尘联邦派驻灰珀战区的军官，为源质矿脉而来。务实、灰色，带着附带条件的结盟提议。",
+      "state": {
+        "location": "elem_huipo",
+        "inventory": [
+          "联邦结盟协定草案"
+        ],
+        "status": [],
+        "psychology": {
+          "sanity": 95,
+          "core_desire": "完成任务并自保",
+          "core_fear": "卷入注定败局",
+          "mood": "审慎",
+          "erosion_load": 0
+        },
+        "knowledge": [
+          "fact_huipo_vein"
+        ]
+      }
+    },
+    {
+      "id": "char_ling_yin",
+      "name": "聆音",
+      "type": "Person",
+      "subtype": "supporting",
+      "description": "戍垒里最年幼的灵裔，感灵阶，却拥有罕见纯净而深邃的灵渊。是众人守护的未来，也因此被异种虫后觊觎。",
+      "state": {
+        "location": "elem_seventh_garrison",
+        "inventory": [
+          "伊岚给的源质护符"
+        ],
+        "status": [],
+        "psychology": {
+          "sanity": 90,
+          "core_desire": "大家都别走",
+          "core_fear": "被独自留下",
+          "mood": "怯生生的依赖",
+          "erosion_load": 2
+        },
+        "knowledge": []
+      }
+    },
+    {
+      "id": "char_shi_mu",
+      "name": "蚀母",
+      "type": "Person",
+      "subtype": "antagonist",
+      "description": "异种虫巢的母体意志化身。以吞噬灵裔的灵渊来进化，尤其渴求纯净深邃的灵渊。冷酷、浩大、永远饥饿。",
+      "state": {
+        "location": "elem_huipo",
+        "inventory": [],
+        "status": [],
+        "psychology": {
+          "sanity": 100,
+          "core_desire": "进化",
+          "core_fear": "（无）",
+          "mood": "饥饿",
+          "erosion_load": 0
+        },
+        "knowledge": []
+      }
+    },
+    {
+      "id": "char_shou_yan",
+      "name": "守岩",
+      "type": "Person",
+      "subtype": "supporting",
+      "description": "第七戍垒戍长，灵枢阶老兵，守灰珀数十年。已早期灵蚀，会忘记活人的名字却记得所有阵亡者。坚信一个人撑住战线就是尽责。",
+      "state": {
+        "location": "elem_seventh_garrison",
+        "inventory": [
+          "戍长灵枢节杖"
+        ],
+        "status": [],
+        "psychology": {
+          "sanity": 60,
+          "core_desire": "守住灰珀直到最后一人",
+          "core_fear": "忘记死者的名字",
+          "mood": "枯寂而坚硬",
+          "erosion_load": 71
+        },
+        "knowledge": [
+          "fact_huipo_vein",
+          "fact_sanctuary_retreating"
+        ]
+      }
+    },
+    {
+      "id": "char_wei_se",
+      "name": "薇瑟",
+      "type": "Person",
+      "subtype": "supporting",
+      "description": "伊岚的导师，曾是灵渊阶的伟大守御者。为掩护一次撤离透支灵能而灵蚀化，如今是失去自我的空壳，在战场边缘游荡。伊岚之痛的源头。",
+      "state": {
+        "location": "elem_huipo",
+        "inventory": [],
+        "status": [],
+        "psychology": {
+          "sanity": 0,
+          "core_desire": "（无）",
+          "core_fear": "（无）",
+          "mood": "空茫",
+          "erosion_load": 100
+        },
+        "knowledge": []
+      }
+    },
+    {
+      "id": "char_yi_lan",
+      "name": "伊岚",
+      "type": "Person",
+      "subtype": "protagonist",
+      "description": "年轻灵裔战士，御灵阶。罕见异能「渡蚀」——能把他人的灵蚀转移到自己灵渊承接。亲历导师薇瑟为掩护撤离而灵蚀化，立誓独自扛下所有人的代价。",
+      "state": {
+        "location": "elem_seventh_garrison",
+        "inventory": [
+          "elem_wei_se_core",
+          "源质结晶 x6",
+          "灵能制式短刃"
+        ],
+        "status": [
+          {
+            "type": "debuff",
+            "desc": "灵渊崩蚀加深：承接昭的灵蚀，erosion_load 22→约 31",
+            "severity": "medium"
+          }
+        ],
+        "psychology": {
+          "sanity": 74,
+          "core_desire": "守住残部与聆音的未来",
+          "core_fear": "灵蚀夺走记忆，让自己忘记死者、变成空壳",
+          "mood": "旧伤撕裂、希望与恐惧并炸",
+          "erosion_load": 31
+        },
+        "knowledge": [
+          "fact_dushi_ability",
+          "fact_dushi_true_cost",
+          "fact_huipo_vein",
+          "fact_sanctuary_retreating",
+          "fact_shi_mu_hunts_lingyin",
+          "fact_wei_se_hollowed",
+          "fact_wei_se_returns"
+        ]
+      }
+    },
+    {
+      "id": "char_zhao",
+      "name": "昭",
+      "type": "Person",
+      "subtype": "supporting",
+      "description": "伊岚的战友，织念阶，话多而暖，戍队里的活气。第七戍垒强袭战中灵能透支濒临灵蚀，被伊岚以渡蚀救下。",
+      "state": {
+        "location": "elem_seventh_garrison",
+        "inventory": [
+          "源质结晶 x3",
+          "灵能制式长铳"
+        ],
+        "status": [
+          {
+            "type": "debuff",
+            "desc": "灵能透支后虚脱，短时无法战斗",
+            "severity": "medium"
+          }
+        ],
+        "psychology": {
+          "sanity": 66,
+          "core_desire": "守住身边仅剩的人",
+          "core_fear": "再一次眼睁睁失去",
+          "mood": "劫后的羞愧与对伊岚自损的愤怒/愧疚",
+          "erosion_load": 12
+        },
+        "knowledge": [
+          "fact_dushi_ability",
+          "fact_sanctuary_retreating"
+        ]
+      }
+    },
+    {
+      "id": "elem_aierweisi",
+      "name": "艾尔维斯灵能族",
+      "type": "Organization",
+      "subtype": "faction",
+      "description": "灵能精英种族，数量稀少。以灵渊汲取灵能，灵能建筑召唤兵种，擅长控制、幻觉与范围压制。源质觉醒后节节败退，退守灵渊星域。"
+    },
+    {
+      "id": "elem_seventh_garrison",
+      "name": "第七戍垒",
+      "type": "Place",
+      "subtype": "location",
+      "description": "灰珀地表的灵裔前线戍垒，由守岩坐镇。灵能护盾与召唤建筑构成的最后防线，长期被异种虫潮强袭。"
+    },
+    {
+      "id": "elem_wei_se_core",
+      "name": "薇瑟遗核",
+      "type": "Object",
+      "subtype": "item",
+      "description": "薇瑟灵蚀化前留给伊岚的灵枢聚焦核，能稳定渡蚀的灵能回路。是伊岚最重要的遗物与情感锚点。"
+    },
+    {
+      "id": "elem_xingchen_lianbang",
+      "name": "星尘联邦",
+      "type": "Organization",
+      "subtype": "faction",
+      "description": "人类科技阵营，模块化兵营与舰队，自动化生产、远程火力强，依赖能源与后勤。对源质矿脉态度暧昧，时盟时争。"
+    },
+    {
+      "id": "elem_yixing",
+      "name": "异形异种",
+      "type": "Organization",
+      "subtype": "faction",
+      "description": "生物蜂巢文明，建筑即母巢，孵化单位、以数量洪流压制，可吞噬其他种族进化。对灵裔的灵渊有特殊饥渴。"
+    }
+  ],
+  "relations_in_effect": [
+    {
+      "subject": "char_yi_lan",
+      "subject_name": "伊岚",
+      "predicate": "member_of",
+      "object": "elem_aierweisi",
+      "object_name": "艾尔维斯灵能族",
+      "properties": {
+        "reason": "灵裔战士"
+      },
+      "since_chapter": 0
+    },
+    {
+      "subject": "char_shou_yan",
+      "subject_name": "守岩",
+      "predicate": "member_of",
+      "object": "elem_aierweisi",
+      "object_name": "艾尔维斯灵能族",
+      "properties": {
+        "reason": "灵裔戍长"
+      },
+      "since_chapter": 0
+    },
+    {
+      "subject": "char_wei_se",
+      "subject_name": "薇瑟",
+      "predicate": "member_of",
+      "object": "elem_aierweisi",
+      "object_name": "艾尔维斯灵能族",
+      "properties": {
+        "reason": "灵裔守御者"
+      },
+      "since_chapter": 0
+    },
+    {
+      "subject": "char_ling_yin",
+      "subject_name": "聆音",
+      "predicate": "member_of",
+      "object": "elem_aierweisi",
+      "object_name": "艾尔维斯灵能族",
+      "properties": {
+        "reason": "灵裔孩童"
+      },
+      "since_chapter": 0
+    },
+    {
+      "subject": "char_zhao",
+      "subject_name": "昭",
+      "predicate": "member_of",
+      "object": "elem_aierweisi",
+      "object_name": "艾尔维斯灵能族",
+      "properties": {
+        "reason": "灵裔战士"
+      },
+      "since_chapter": 0
+    },
+    {
+      "subject": "char_yi_lan",
+      "subject_name": "伊岚",
+      "predicate": "student_of",
+      "object": "char_wei_se",
+      "object_name": "薇瑟",
+      "properties": {
+        "trust": 95,
+        "reason": "薇瑟一手带大并传授渡蚀回路"
+      },
+      "since_chapter": 0
+    },
+    {
+      "subject": "char_yi_lan",
+      "subject_name": "伊岚",
+      "predicate": "serves_under",
+      "object": "char_shou_yan",
+      "object_name": "守岩",
+      "properties": {
+        "trust": 80,
+        "reason": "第七戍垒戍长"
+      },
+      "since_chapter": 0
+    },
+    {
+      "subject": "char_yi_lan",
+      "subject_name": "伊岚",
+      "predicate": "protects",
+      "object": "char_ling_yin",
+      "object_name": "聆音",
+      "properties": {
+        "trust": 70,
+        "reason": "把聆音的纯净灵渊视作必须守住的未来"
+      },
+      "since_chapter": 0
+    },
+    {
+      "subject": "char_yi_lan",
+      "subject_name": "伊岚",
+      "predicate": "comrade_of",
+      "object": "char_zhao",
+      "object_name": "昭",
+      "properties": {
+        "trust": 75,
+        "reason": "并肩戍守的战友"
+      },
+      "since_chapter": 0
+    },
+    {
+      "subject": "char_shou_yan",
+      "subject_name": "守岩",
+      "predicate": "commands",
+      "object": "elem_seventh_garrison",
+      "object_name": "第七戍垒",
+      "properties": {
+        "reason": "戍长坐镇"
+      },
+      "since_chapter": 0
+    },
+    {
+      "subject": "char_shi_mu",
+      "subject_name": "蚀母",
+      "predicate": "leads",
+      "object": "elem_yixing",
+      "object_name": "异形异种",
+      "properties": {
+        "reason": "虫巢母体意志"
+      },
+      "since_chapter": 0
+    },
+    {
+      "subject": "elem_yixing",
+      "subject_name": "异形异种",
+      "predicate": "hostile_to",
+      "object": "elem_aierweisi",
+      "object_name": "艾尔维斯灵能族",
+      "properties": {
+        "hate": 100,
+        "reason": "虫群饥渴灵裔的灵渊"
+      },
+      "since_chapter": 0
+    },
+    {
+      "subject": "char_kai_er",
+      "subject_name": "凯尔",
+      "predicate": "member_of",
+      "object": "elem_xingchen_lianbang",
+      "object_name": "星尘联邦",
+      "properties": {
+        "reason": "联邦军官"
+      },
+      "since_chapter": 0
+    },
+    {
+      "subject": "char_yi_lan",
+      "subject_name": "伊岚",
+      "predicate": "possesses",
+      "object": "elem_wei_se_core",
+      "object_name": "薇瑟遗核",
+      "properties": {
+        "reason": "导师遗物，渡蚀的稳定核"
+      },
+      "since_chapter": 0
+    },
+    {
+      "subject": "char_shi_mu",
+      "subject_name": "蚀母",
+      "predicate": "hunts",
+      "object": "char_ling_yin",
+      "object_name": "聆音",
+      "properties": {
+        "intensity": 90,
+        "reason": "觊觎聆音纯净深邃的灵渊以进化"
+      },
+      "since_chapter": 0
+    }
+  ],
+  "events_so_far": [
+    {
+      "id": "evt_huipo_assault",
+      "name": "灰珀·第七戍垒强袭战",
+      "story_time": 1,
+      "thread_id": "thr_garrison",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_yi_lan_dushi_zhao",
+      "name": "伊岚渡蚀救昭",
+      "story_time": 1,
+      "thread_id": "thr_yi_lan",
+      "participants": [
+        "char_yi_lan",
+        "char_zhao"
+      ]
+    },
+    {
+      "id": "evt_wei_se_appears",
+      "name": "空壳薇瑟现身突破口",
+      "story_time": 1,
+      "thread_id": "thr_hive",
+      "participants": [
+        "char_wei_se",
+        "char_yi_lan"
+      ]
+    }
+  ],
+  "pov_knowledge_mask": {
+    "facts_known": [
+      "fact_dushi_ability",
+      "fact_huipo_vein",
+      "fact_sanctuary_retreating",
+      "fact_wei_se_hollowed",
+      "fact_wei_se_returns"
+    ],
+    "facts_unknown": [
+      "fact_dushi_true_cost",
+      "fact_shi_mu_hunts_lingyin"
+    ],
+    "beliefs_held": [
+      {
+        "belief": "只要灵蚀由我一个人承接，旁人就能保全",
+        "is_true": false
+      },
+      {
+        "belief": "薇瑟的空壳里还残留着她——我能听见",
+        "is_true": true
+      }
+    ],
+    "perception": {
+      "level": "high",
+      "notes": "强袭末尾，伊岚在突破口认出空壳薇瑟，并在渡蚀感知中触到她灵渊深处一丝悸动。"
+    }
+  },
+  "visible_facts": [
+    "fact_dushi_ability",
+    "fact_huipo_vein",
+    "fact_sanctuary_retreating",
+    "fact_wei_se_hollowed",
+    "fact_wei_se_returns"
+  ],
+  "open_plot_threads": [
+    {
+      "concept": "空壳薇瑟灵渊深处残留的‘自我余烬’",
+      "status": "open",
+      "last_mention": "ch_001",
+      "risk": "核心情感线，需持续推进；勿长期搁置。"
+    },
+    {
+      "concept": "蚀母觊觎聆音纯净深邃的灵渊",
+      "status": "open",
+      "last_mention": "ch_001",
+      "risk": "反派引信，计划在 ch_004 由蚀母视角点明。"
+    },
+    {
+      "concept": "渡蚀真正的最终代价（伊岚尚不自知）",
+      "status": "open",
+      "last_mention": "ch_001",
+      "risk": "主角悲核，计划在 ch_007 以失忆/幻觉征兆显形。"
+    },
+    {
+      "concept": "灰珀源质矿脉与联邦凯尔的结盟协定",
+      "status": "dormant",
+      "last_mention": "ch_001",
+      "risk": "抉择型支线，计划 ch_003 由凯尔登场点燃。"
+    },
+    {
+      "concept": "守岩的早期灵蚀与终将到来的燃尽",
+      "status": "open",
+      "last_mention": "ch_001",
+      "risk": "群像悲点，计划在卷末 ch_008 兑现。"
+    }
+  ],
+  "world_rules": [
+    {
+      "id": "rule_0001",
+      "source": "灵能",
+      "relation": "REQUIRES",
+      "target": "源质",
+      "scope": "faction",
+      "note": "灵裔动用灵能须以源质为燃料；源质枯竭则灵能难以为继。"
+    },
+    {
+      "id": "rule_0002",
+      "source": "灵能透支",
+      "relation": "CAUSES",
+      "target": "灵蚀",
+      "scope": "taboo",
+      "note": "超出灵渊负荷地动用灵能，必积累灵蚀。"
+    },
+    {
+      "id": "rule_0003",
+      "source": "灵蚀",
+      "relation": "CONFLICTS_WITH",
+      "target": "自我",
+      "scope": "taboo",
+      "note": "灵蚀累积到阈值，灵裔将丧失记忆与情感，沦为空壳。"
+    },
+    {
+      "id": "rule_0004",
+      "source": "渡蚀",
+      "relation": "TRANSFERS",
+      "target": "灵蚀",
+      "scope": "taboo",
+      "note": "渡蚀可将灵蚀由一人转入施术者灵渊承接；代价是施术者灵渊加速崩蚀。仅伊岚掌握。"
+    },
+    {
+      "id": "rule_0005",
+      "source": "灵渊",
+      "relation": "RANKS_HIGHER_THAN",
+      "target": "灵枢",
+      "scope": "hierarchy",
+      "note": "灵裔阶位：感灵 < 织念 < 御灵 < 灵枢 < 灵渊。"
+    },
+    {
+      "id": "rule_0006",
+      "source": "灵枢",
+      "relation": "RANKS_HIGHER_THAN",
+      "target": "御灵",
+      "scope": "hierarchy",
+      "note": "灵枢阶高于御灵阶。"
+    },
+    {
+      "id": "rule_0007",
+      "source": "御灵",
+      "relation": "RANKS_HIGHER_THAN",
+      "target": "织念",
+      "scope": "hierarchy",
+      "note": "御灵阶高于织念阶。"
+    },
+    {
+      "id": "rule_0008",
+      "source": "织念",
+      "relation": "RANKS_HIGHER_THAN",
+      "target": "感灵",
+      "scope": "hierarchy",
+      "note": "织念阶高于感灵阶。"
+    },
+    {
+      "id": "rule_0009",
+      "source": "异种",
+      "relation": "DEVOURS",
+      "target": "灵裔灵渊",
+      "scope": "faction",
+      "note": "异种吞噬灵裔灵渊以进化，灵渊越纯净深邃越受觊觎。"
+    },
+    {
+      "id": "rule_0010",
+      "source": "机械觉醒者",
+      "relation": "WEAK_AGAINST",
+      "target": "EMP",
+      "scope": "faction",
+      "note": "AI单位对EMP敏感。"
+    },
+    {
+      "id": "rule_0011",
+      "source": "战导",
+      "relation": "BALANCES",
+      "target": "优势阵营",
+      "scope": "faction",
+      "note": "当某阵营优势过大，战导在其领地降下天灾以平衡强弱。"
+    },
+    {
+      "id": "rule_0012",
+      "source": "庇护",
+      "relation": "NEGATES",
+      "target": "天灾",
+      "scope": "faction",
+      "note": "完成采集类任务获得的庇护效果可免疫或减轻天灾。"
+    },
+    {
+      "id": "rule_0013",
+      "source": "灰珀",
+      "relation": "LOCATED_IN",
+      "target": "灵渊星域",
+      "scope": "geography",
+      "note": "灰珀是灵渊星域的边境卫星与第一道门户。"
+    },
+    {
+      "id": "rule_0014",
+      "source": "第七戍垒",
+      "relation": "LOCATED_IN",
+      "target": "灰珀",
+      "scope": "geography",
+      "note": "第七戍垒位于灰珀地表。"
+    },
+    {
+      "id": "rule_0015",
+      "source": "穹枢",
+      "relation": "LOCATED_IN",
+      "target": "灵渊星域",
+      "scope": "geography",
+      "note": "穹枢是灵渊星域中枢圣城。"
+    }
+  ],
+  "language": "zh-Hans",
+  "token_estimate": 4350
+}

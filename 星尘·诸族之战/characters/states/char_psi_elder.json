@@ -1,0 +1,19 @@
+{
+  "character_id": "char_psi_elder",
+  "states": [
+    {
+      "story_time": 0,
+      "chapter_id": null,
+      "baseline": true,
+      "location": "elem_origin_theta",
+      "inventory_delta": [],
+      "status": [
+        { "type": "baseline", "desc": "独立行动·失联第四个月；族议会任务卷轴二层加密未破解；自行搜集Θ区古灵能档案残片", "severity": "n/a" }
+      ],
+      "knowledge_gained": [],
+      "psychology": { "sanity": 80, "mood": "孤立·警觉", "core_desire": "理解族议会为何想抹除灵能族自己的源头", "core_fear": "自己是被丢出去的耗材" },
+      "abilities_delta": [],
+      "notes": "T=0 锚点。完整初始状态见 characters/char_psi_elder.json.initial_state。灵能精英；可召唤白鹭式构装体；正前往边界星域核心地带。"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "character_id": "char_liu_shuang",
+  "states": [
+    {
+      "story_time": 0,
+      "chapter_id": null,
+      "baseline": true,
+      "location": "elem_stardust_fortress",
+      "inventory_delta": [],
+      "status": [
+        { "type": "baseline", "desc": "稳定的源质融合者；以医疗兵身份隐藏；秘密项目数据采集中", "severity": "n/a" }
+      ],
+      "knowledge_gained": [],
+      "psychology": { "sanity": 88, "mood": "专注·隐忧", "core_desire": "让源质融合成为选择而非代价", "core_fear": "因她的沉默而让被观察者受害" },
+      "abilities_delta": [],
+      "notes": "T=0 锚点。完整初始状态见 characters/char_liu_shuang.json.initial_state。秘密身份：联邦特殊项目研究员。"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "char_shou_yan",
+  "name": "守岩",
+  "role": "supporting",
+  "base_profile": {
+    "appearance": { "build": "魁伟而佝偻", "hair": "霜白", "eyes": "浑浊，常有一瞬的失神", "features": "战甲上刻满阵亡者的名字" },
+    "personality": { "traits": ["沉默", "固执", "尽责到自毁", "记得每一个死者"], "speech": "极简，常重复一句旧令" },
+    "background": { "origin": "灰珀本地灵裔", "family": "旧戍队尽数阵亡", "key_events": ["守灰珀数十年，送走一整代戍卒", "已步入早期灵蚀"] },
+    "the_ghost": "亲手目送整支旧戍队燃尽，唯独自己活着。",
+    "the_lie": "一个人撑住战线就是尽责；撤退即背叛死者。",
+    "erosion_note": "早期灵蚀：会忘记活人的名字，却记得所有阵亡者的名字与死法。"
+  },
+  "initial_state": {
+    "story_time": 0,
+    "location": "elem_seventh_garrison",
+    "inventory": [{ "item": "戍长灵枢节杖", "status": "equipped", "significance": "调度戍垒灵能护盾与召唤建筑" }],
+    "knowledge": [
+      { "fact": "fact_sanctuary_retreating", "confidence": "certain" },
+      { "fact": "fact_huipo_vein", "confidence": "certain" }
+    ],
+    "psychology": { "sanity": 60, "core_desire": "守住灰珀直到最后一人", "core_fear": "忘记死者的名字", "mood": "枯寂而坚硬", "erosion_load": 71 },
+    "abilities": [{ "name": "灵枢·护盾调度与召唤", "level": "稳枢" }]
+  }
+}

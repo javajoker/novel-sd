@@ -1,0 +1,74 @@
+{
+  "id": "char_liu_shuang",
+  "name": "刘霜",
+  "role": "supporting",
+  "base_profile": {
+    "appearance": {
+      "age": 24,
+      "build": "纤细，但举手投足有种被压制的力量感",
+      "eyes": "浅灰色，医疗兵特有的那种——在扫描病人时既冷静又专注",
+      "hair": "扎成实用的低马尾，总有几缕散出来",
+      "features": "右手有源质注射的针眼痕迹（常戴手套遮住），皮肤偏白，像是很少晒太阳",
+      "voice": "低柔，但在手术状态下会变得异常清晰和权威"
+    },
+    "personality": {
+      "mbti": "INFJ",
+      "traits": ["观察敏锐", "话少", "在关键时刻会做出出人意料的选择", "对生命价值有自己独特的判断", "内心有清晰的道德红线"],
+      "speech": "简练，多是问句——她用问题代替陈述，让对话者自己得出答案",
+      "quirks": "救人之前会先评估，不是冷漠，而是在计算有限资源的最优分配。这在战场上是美德，有时候让人感到残酷"
+    },
+    "background": {
+      "origin": "灵晶星域边缘，人类移民区",
+      "family": "父亲是研究源质融合的科学家，在一次实验事故中成为植物人",
+      "education": "联邦医学院，专攻战场外科和源质融合医疗",
+      "key_events": [
+        "17岁：父亲的实验室事故，她第一次接触了源质融合的危险边界",
+        "19岁：被发现有天然的源质感应能力，被联邦特殊部门秘密征召进行了第一次融合手术",
+        "22岁：成为源质融合者，但选择以医疗兵身份隐藏在普通部队中——她有自己的任务",
+        "24岁：第7突击营，第43天围困"
+      ],
+      "secret": "她是联邦内部一个秘密研究项目的成员，任务是在战场上寻找具有高度源质适应性的个体（就像柯炎）并记录其数据。她对柯炎的关注一开始是任务驱动的，后来开始分不清界限。"
+    },
+    "the_ghost": "父亲试图用自己的身体证明源质融合可以被完全控制，结果意识永久困在半融合状态。刘霜每次给战友注射源质药剂时，都会在一瞬间看见父亲睁开的、空洞的眼睛。",
+    "the_lie": "相信信息控制等于保护——只要她不说，就不会有人被卷入危险。她一直用沉默保护别人，殊不知沉默本身就是一种暴力。",
+    "motivation": {
+      "surface": "履行任务，保证战友存活",
+      "deep": "找到让源质融合真正安全的方法，让父亲的牺牲有意义",
+      "secret_fear": "如果柯炎知道她一直在记录他的数据，他会怎么看她"
+    }
+  },
+  "initial_state": {
+    "story_time": 0,
+    "location": "elem_stardust_fortress",
+    "inventory": [
+      { "item": "医疗兵急救套件", "status": "equipped", "significance": "已接近耗尽" },
+      { "item": "源质融合注射器×3", "status": "carried", "significance": "秘密携带，普通医疗兵不应该有这个" },
+      { "item": "蓝卡·快速愈合×1", "status": "carried", "significance": "个人能力卡，来源不明" },
+      { "item": "加密数据掌机", "status": "carried", "significance": "记录柯炎源质感应数据的设备" }
+    ],
+    "knowledge": [
+      { "fact": "fact_ke_yan_potential", "confidence": "confirmed（她的数据证实）" },
+      { "fact": "fact_federation_losing", "confidence": "certain" },
+      { "fact": "fact_void_echo_identity", "confidence": "unknown" },
+      { "fact": "fact_theta_secret", "confidence": "partial（知道有遗迹，不知道意义）" }
+    ],
+    "beliefs": [
+      { "belief": "柯炎是一个普通老兵", "is_true": false },
+      { "belief": "沉默是保护别人的最好方式", "is_true": false },
+      { "belief": "她对柯炎只是职业关注", "is_true": false }
+    ],
+    "psychology": {
+      "sanity": 88,
+      "core_desire": "让源质融合成为一种选择而非代价",
+      "core_fear": "被她观察和保护的人因为她的沉默而受到伤害",
+      "mood": "专注·隐忧",
+      "notes": "任务与情感开始产生冲突，每天都在评估是否应该透露柯炎的特殊性"
+    },
+    "abilities": [
+      { "name": "战场外科", "level": "精通", "element": "无" },
+      { "name": "源质感应（隐藏）", "level": "中级", "element": "无" },
+      { "name": "源质融合状态", "level": "稳定融合者", "element": "生命/治愈倾向" }
+    ],
+    "status": "健康·隐藏真实实力"
+  }
+}

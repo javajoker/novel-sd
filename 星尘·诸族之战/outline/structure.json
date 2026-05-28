@@ -1,0 +1,100 @@
+{
+  "novel_title": "星尘：诸族之战",
+  "logline": "源质纪元第47年，边界星域，星尘要塞被围困的第四十三天——一个坚信自己只是战争机器里一颗螺丝钉的联邦老兵，在能力卡与源质觉醒的混乱洪流里一路蜕变，被迫面对那个他逃避了一生的问题：当你真的能改变战争的走向，你还能假装自己只是旁观者吗？",
+  "serial_notes": {
+    "tier": "long_novel",
+    "target_per_volume": "≥80 chapters",
+    "golden_three": "黄金三章 (ch_001–003)：ch_001 立围城+源质感知的隐性闪光；ch_002 突围任务受命，柯炎读出周恒认命；ch_003 第一战 + 第一次合成蓝卡（'我改变了结果'的爽点初现）。",
+    "pacing": "战场爽点 + 关系暗线交替；每5-8章一个小高潮，每20章一个sub-arc 收束，每80章一个卷末突破。",
+    "pov_strategy": "默认 char_ke_yan POV；每隔约5-7章插入一次 char_void_echo POV（thr_void_echo）；卷一中后段引入 char_psi_elder 偶发POV、char_swarm_herald 偶发POV作为thr_war_strategy 的具象化窗口。"
+  },
+  "volumes": [
+    {
+      "id": "vol_01",
+      "number": 1,
+      "title": "第四十三日",
+      "status": "planned",
+      "summary": "星尘要塞被围困的第43天为起点，柯炎在反复的突围任务中从源质感知者一路逼近源质融合者，途中遇见非蜂巢的异种先驱、被虚影远距离观察、与刘霜的隐藏身份擦肩、目睹周恒指挥层的崩塌。卷一终结于他在Θ区边缘的第一次主动操控源质——他十二岁起就用来活下去的那个'我只是螺丝钉'的谎言彻底破碎。",
+      "story_focus": "柯炎的源质感知 → 吸附者 → 融合者突破路径；周恒指挥心理崩盘与星尘要塞陷落的宏观战局；虚影对柯炎的远距离观察与第一次直接接触；异种先驱的非蜂巢迹象浮出水面；艾薇儿独立行动逼近Θ区。",
+      "time_span": { "from": 1, "to": 80 },
+      "primary_characters": ["char_ke_yan", "char_void_echo", "char_major_zhou", "char_liu_shuang", "char_swarm_herald", "char_psi_elder"],
+      "sub_arcs": [
+        {
+          "id": "A·围困",
+          "chapters": "ch_001–ch_020",
+          "summary": "第43天的星尘要塞；突围抢源质任务展开；黄金三章建立柯炎的'螺丝钉'信念并第一次暗示他的天赋；首次合成蓝卡；与刘霜的医疗兵幻象擦边；虚影远距离首次注意到他；异种先驱第一次在虫潮里停下；周恒的真话出口；Θ区残图入手；sub-arc 末以一次惨烈选择第一次裂开'与我无关'的旁观者姿态。",
+          "anchored_events": ["evt_siege_day43", "evt_breakout_briefing", "evt_first_synthesis", "evt_liushuang_anomaly", "evt_void_echo_observes", "evt_perception_edge", "evt_herald_first_sighting", "evt_zhou_despair", "evt_theta_map_fragment", "evt_subarc_a_climax"]
+        },
+        {
+          "id": "B·裂痕",
+          "chapters": "ch_021–ch_040",
+          "summary": "突击营减员后的重建期；艾薇儿独立进入边界星域；刘霜的隐藏身份逼近暴露；柯炎与队友信任开始松动；异种先驱进一步显出战略层迹象；要塞内部对密令的暗流。",
+          "anchored_events": ["evt_psi_elder_enters", "evt_liushuang_revealed"]
+        },
+        {
+          "id": "C·暗影",
+          "chapters": "ch_041–ch_060",
+          "summary": "虚影第一次直接接触柯炎，抛出关于联邦背叛与父母之死的碎片真相；异种先驱完成战略级'诱敌'；柯炎与艾薇儿被绝境推到一起，灵能与源质感知第一次咬合。",
+          "anchored_events": ["evt_void_echo_contact", "evt_herald_strategy", "evt_uneasy_alliance"]
+        },
+        {
+          "id": "D·突围",
+          "chapters": "ch_061–ch_080",
+          "summary": "星尘要塞被总攻；周恒以让出活路的方式收束；残部向Θ区方向突围，与艾薇儿同行；柯炎在Θ区边缘绝境中第一次主动伸手抓住源质，突破吸附者→融合者，谎言碎裂。卷末。",
+          "anchored_events": ["evt_fortress_crisis", "evt_breakout_to_theta", "evt_keyan_breakthrough"]
+        }
+      ],
+      "chapters": [
+        { "id": "ch_001", "number": 1, "title": "第四十三日", "sub_arc": "A·围困", "thread_id": "thr_protagonist", "pov_character": "char_ke_yan", "story_time": 1, "planned_events": ["evt_siege_day43"], "one_line": "围困第43天黎明，城墙上的源质感知一闪——柯炎把救下新兵这件事归功于运气。", "status": "planned", "beat_sheet_ref": "outline/beats/ch_001.json" },
+        { "id": "ch_002", "number": 2, "title": "突围简报", "sub_arc": "A·围困", "thread_id": "thr_protagonist", "pov_character": "char_ke_yan", "story_time": 2, "planned_events": ["evt_breakout_briefing"], "one_line": "周恒下令时眼里的东西，和父亲进矿前那一眼一样。", "status": "planned", "beat_sheet_ref": "outline/beats/ch_002.json" },
+        { "id": "ch_003", "number": 3, "title": "第一张蓝卡", "sub_arc": "A·围困", "thread_id": "thr_protagonist", "pov_character": "char_ke_yan", "story_time": 3, "planned_events": ["evt_first_synthesis"], "one_line": "敌方开火的同一瞬间他已不在原地；他捡起三张同名白卡合成了蓝卡·预知闪避。", "status": "planned", "beat_sheet_ref": "outline/beats/ch_003.json" },
+        { "id": "ch_005", "number": 5, "title": "医疗兵的手", "sub_arc": "A·围困", "thread_id": "thr_protagonist", "pov_character": "char_ke_yan", "story_time": 5, "planned_events": ["evt_liushuang_anomaly"], "one_line": "刘霜按住伤口的瞬间，他的源质感知里有一缕本不该存在的波动从她掌心流出。", "status": "planned" },
+        { "id": "ch_006", "number": 6, "title": "虚影的眼", "sub_arc": "A·围困", "thread_id": "thr_void_echo", "pov_character": "char_void_echo", "story_time": 6, "planned_events": ["evt_void_echo_observes"], "one_line": "虚影在战场录像前停下，微微偏头——他认得这种移动方式。", "status": "planned" },
+        { "id": "ch_008", "number": 8, "title": "看得太清楚", "sub_arc": "A·围困", "thread_id": "thr_protagonist", "pov_character": "char_ke_yan", "story_time": 8, "planned_events": ["evt_perception_edge"], "one_line": "缺氧失血的边缘，他第一次'看见'源质的流动本身；他下意识吸入一缕，胸口一烫。", "status": "planned" },
+        { "id": "ch_010", "number": 10, "title": "蜂巢里的停顿", "sub_arc": "A·围困", "thread_id": "thr_protagonist", "pov_character": "char_ke_yan", "story_time": 10, "planned_events": ["evt_herald_first_sighting"], "one_line": "虫潮中那只异种没有扑向最近的猎物，而是看了他一眼——那一眼里有计算。", "status": "planned" },
+        { "id": "ch_012", "number": 12, "title": "少校的真话", "sub_arc": "A·围困", "thread_id": "thr_protagonist", "pov_character": "char_ke_yan", "story_time": 12, "planned_events": ["evt_zhou_despair"], "one_line": "周恒说：我们守的不是要塞，是上面用来拖时间的数字。", "status": "planned" },
+        { "id": "ch_015", "number": 15, "title": "残图", "sub_arc": "A·围困", "thread_id": "thr_protagonist", "pov_character": "char_ke_yan", "story_time": 15, "planned_events": ["evt_theta_map_fragment"], "one_line": "残图上的符号让他的源质感知本能地共鸣了一下，像被叫了名字。", "status": "planned" },
+        { "id": "ch_019", "number": 19, "title": "选择", "sub_arc": "A·围困", "thread_id": "thr_protagonist", "pov_character": "char_ke_yan", "story_time": 19, "planned_events": ["evt_subarc_a_climax"], "one_line": "两条撤退路线之间，他选了对的那条；活下来的人因他而活。", "status": "planned" },
+        { "id": "ch_020", "number": 20, "title": "卷一小高潮·与我无关", "sub_arc": "A·围困", "thread_id": "thr_protagonist", "pov_character": "char_ke_yan", "story_time": 19, "planned_events": ["evt_subarc_a_climax"], "one_line": "他第一次说不出'这与我无关'这五个字。", "status": "planned" },
+        { "id": "ch_025", "number": 25, "title": "灵能特使", "sub_arc": "B·裂痕", "thread_id": "thr_war_strategy", "pov_character": "char_psi_elder", "story_time": 25, "planned_events": ["evt_psi_elder_enters"], "one_line": "她俯视这片人类的废墟战场——却在Θ区方向感到一丝皱眉的源质共鸣。", "status": "planned" },
+        { "id": "ch_035", "number": 35, "title": "医生", "sub_arc": "B·裂痕", "thread_id": "thr_protagonist", "pov_character": "char_ke_yan", "story_time": 35, "planned_events": ["evt_liushuang_revealed"], "one_line": "刘霜不再隐藏全力出手——他终于明白她一直在'压着'自己，和他一样害怕被看见。", "status": "planned" },
+        { "id": "ch_050", "number": 50, "title": "一句问话", "sub_arc": "C·暗影", "thread_id": "thr_void_echo", "pov_character": "char_ke_yan", "story_time": 50, "planned_events": ["evt_void_echo_contact"], "one_line": "虚影没有杀他，只问：你父母的死，你真以为是意外吗？", "status": "planned" },
+        { "id": "ch_055", "number": 55, "title": "蜂巢的诱敌", "sub_arc": "C·暗影", "thread_id": "thr_war_strategy", "pov_character": "char_swarm_herald", "story_time": 55, "planned_events": ["evt_herald_strategy"], "one_line": "先驱指挥虫潮做出一次诱敌——蜂巢从不诱敌。", "status": "planned" },
+        { "id": "ch_058", "number": 58, "title": "背靠背", "sub_arc": "C·暗影", "thread_id": "thr_protagonist", "pov_character": "char_ke_yan", "story_time": 58, "planned_events": ["evt_uneasy_alliance"], "one_line": "灵能的幻觉与源质感知第一次咬合；他们都意识到对方不是低等，也不是工具。", "status": "planned" },
+        { "id": "ch_070", "number": 70, "title": "要塞之夜", "sub_arc": "D·突围", "thread_id": "thr_war_strategy", "pov_character": "char_ke_yan", "story_time": 70, "planned_events": ["evt_fortress_crisis"], "one_line": "周恒最后一次下令——这一次眼里不是认命，是把活路让出去的决意。", "status": "planned" },
+        { "id": "ch_078", "number": 78, "title": "Θ区的边缘", "sub_arc": "D·突围", "thread_id": "thr_protagonist", "pov_character": "char_ke_yan", "story_time": 78, "planned_events": ["evt_breakout_to_theta"], "one_line": "整片矿脉像心跳一样搏动；他知道自己在靠近某个会改变一切的东西。", "status": "planned" },
+        { "id": "ch_080", "number": 80, "title": "卷末·我能改变结果", "sub_arc": "D·突围", "thread_id": "thr_protagonist", "pov_character": "char_ke_yan", "story_time": 80, "planned_events": ["evt_keyan_breakthrough"], "one_line": "他第一次主动伸手抓住源质——剧痛中他承认了那件逃避一生的事。", "status": "planned" }
+      ],
+      "unanchored_chapters_note": "卷一共 80 章，达 long_novel 80/卷下限。以上 19 章为timeline锚定章节（含events），其余 61 章为各 sub_arc 内的爽点 / 小冲突 / 角色侧写章节，将在执行阶段沿事件驱动循环（A→B→C→D，每事件）逐次定义并合成 beat sheet，无需在 Phase II 一次性枚举。"
+    }
+  ],
+  "volumes_upcoming": [
+    {
+      "id": "vol_02",
+      "number": 2,
+      "title": "源质之心",
+      "summary": "Θ区争夺白热化。柯炎从融合者走向觉醒者；刘霜的全部任务背景被迫摊开，联邦秘密项目浮出；虚影的真实身份与暗源计划逐步揭晓；艾薇儿与族议会的真实关系开始崩塌；异种先驱第一次对蜂巢产生'拒绝'。",
+      "story_focus": "源质觉醒者突破代价 / 联邦秘密项目 / 暗源计划 / 灵能族族议会真相 / 异种先驱的拒绝",
+      "time_span": { "from": 81, "to": 160 },
+      "primary_characters": ["char_ke_yan", "char_liu_shuang", "char_void_echo", "char_psi_elder", "char_swarm_herald"]
+    },
+    {
+      "id": "vol_03",
+      "number": 3,
+      "title": "诸族",
+      "summary": "机械觉醒者与多族卷入Θ区争夺；战争控制器系统因异种先驱与柯炎的存在出现根本性预测失误；柯炎走向源质觉醒者；天灾事件被各方利用与反利用。",
+      "story_focus": "多族混战 / 机械族登场 / 战争控制器失准 / 天灾博弈 / 觉醒者层级突破",
+      "time_span": { "from": 161, "to": 240 },
+      "primary_characters": ["char_ke_yan", "char_void_echo", "char_psi_elder", "char_swarm_herald"]
+    },
+    {
+      "id": "vol_04",
+      "number": 4,
+      "title": "原点",
+      "summary": "Θ区遗迹真相揭开，暗源计划的真正目的浮现，柯炎面对成为'源质主宰'的选择——也面对他十二岁起就在逃避的问题：当一个螺丝钉真的能改变战争走向，他要承担什么。系列收束。",
+      "story_focus": "Θ区原点真相 / 暗源计划真目的 / 源质主宰的代价 / 螺丝钉之死 / 战争走向的归属",
+      "time_span": { "from": 241, "to": 320 },
+      "primary_characters": ["char_ke_yan", "char_void_echo", "char_psi_elder"]
+    }
+  ]
+}

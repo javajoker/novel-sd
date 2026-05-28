@@ -1,0 +1,2434 @@
+{
+  "ontology_version": "1.0-narrative",
+  "source": {
+    "novel_title": "星尘·灵渊挽歌",
+    "novel_author": "javajoker",
+    "story_time_unit": "chapter",
+    "current_chapter": 17,
+    "tier": "long_novel",
+    "language": "zh-Hans",
+    "genre": "星际科幻",
+    "fandom": "星尘：诸族之战（游戏同人）",
+    "logline": "灵渊星域节节败退，一名能为战友承接灵蚀的年轻灵裔，在死守边境卫星灰珀的戍队里，学会守土不是一个人燃尽自己。"
+  },
+  "entities": [
+    {
+      "id": "char_yi_lan",
+      "canonical_name": "伊岚",
+      "type": "Person",
+      "subtype": "protagonist",
+      "aliases": [
+        "渡蚀者",
+        "薇瑟的徒弟"
+      ],
+      "attributes": {
+        "pinyin": "Yī Lán",
+        "race": "艾尔维斯灵能族",
+        "tier": "御灵",
+        "age_equiv": "23"
+      },
+      "description": "年轻灵裔战士，御灵阶。罕见异能「渡蚀」——能把他人的灵蚀转移到自己灵渊承接，并在ch_008发展出分散模式（向全队同时开放）。亲历导师薇瑟灵蚀化，后逐步从独自承担走向集体随行。ch_014后承认队伍做的事叫「随行」。",
+      "salience": 1.0,
+      "profile_ref": "characters/char_yi_lan.json",
+      "state_ref": "characters/states/char_yi_lan.json",
+      "mask_ref": "masks/char_yi_lan.json"
+    },
+    {
+      "id": "char_shou_yan",
+      "canonical_name": "守岩",
+      "type": "Person",
+      "subtype": "supporting",
+      "aliases": [
+        "戍长",
+        "老灰珀",
+        "记忆守卫"
+      ],
+      "attributes": {
+        "pinyin": "Shǒu Yán",
+        "race": "艾尔维斯灵能族",
+        "tier": "灵枢"
+      },
+      "description": "第七戍垒前戍长，灵枢阶老兵。ch_008戍长认同燃尽，不再领路。ch_013顿悟新功能：灵蚀吃掉当下细节、旧时记忆反而更清晰，成为队伍的「记忆守卫」——保存所有人正在失去的旧事与死者名字。",
+      "salience": 0.85,
+      "profile_ref": "characters/char_shou_yan.json",
+      "state_ref": "characters/states/char_shou_yan.json"
+    },
+    {
+      "id": "char_wei_se",
+      "canonical_name": "薇瑟",
+      "type": "Person",
+      "subtype": "supporting",
+      "aliases": [
+        "空壳薇瑟",
+        "织星者"
+      ],
+      "attributes": {
+        "pinyin": "Wēi Sè",
+        "race": "艾尔维斯灵能族",
+        "tier": "灵渊",
+        "status": "空壳"
+      },
+      "description": "伊岚的导师，灵渊阶。为掩护撤离透支灵能灵蚀化，成为空壳随虫潮游荡。遗留给伊岚的「薇瑟遗核」在ch_012被确认为固定方向信标（东侧偏南），ch_014收到单次脉冲回应——壳内可能仍有残留意识。",
+      "salience": 0.8,
+      "profile_ref": "characters/char_wei_se.json"
+    },
+    {
+      "id": "char_ling_yin",
+      "canonical_name": "聆音",
+      "type": "Person",
+      "subtype": "supporting",
+      "aliases": [
+        "小聆"
+      ],
+      "attributes": {
+        "pinyin": "Líng Yīn",
+        "race": "艾尔维斯灵能族",
+        "tier": "感灵",
+        "age_equiv": "9"
+      },
+      "description": "戍垒里最年幼的灵裔，感灵阶，灵渊纯净深邃，蚀母觊觎对象。ch_009起主动走在队伍最前方，由被保护者转为方向判断者。ch_014首次主动发出全频脉冲干扰蚀母集结信号——代价是频率特征完全暴露；ch_016确认蚀母据此每40分钟发送针对性窄频定位脉冲。",
+      "salience": 0.78,
+      "profile_ref": "characters/char_ling_yin.json",
+      "state_ref": "characters/states/char_ling_yin.json",
+      "mask_ref": null
+    },
+    {
+      "id": "char_zhao",
+      "canonical_name": "昭",
+      "type": "Person",
+      "subtype": "supporting",
+      "aliases": [],
+      "attributes": {
+        "pinyin": "Zhāo",
+        "race": "艾尔维斯灵能族",
+        "tier": "织念"
+      },
+      "description": "伊岚的战友，织念阶。话少而稳，戍队的侧面填缝者。ch_001被伊岚渡蚀救下。ch_011傀儡兵失效后自然接替战术指挥，发现跟踪型探兵。",
+      "salience": 0.6,
+      "profile_ref": "characters/char_zhao.json",
+      "state_ref": "characters/states/char_zhao.json"
+    },
+    {
+      "id": "char_shi_mu",
+      "canonical_name": "蚀母",
+      "type": "Person",
+      "subtype": "antagonist",
+      "aliases": [
+        "虫后",
+        "饥饿的母巢"
+      ],
+      "attributes": {
+        "pinyin": "Shí Mǔ",
+        "race": "异形异种"
+      },
+      "description": "异种虫巢的母体意志化身。以吞噬灵裔灵渊进化。ch_004锁定聆音。ch_009起信号从固定指向第七戍垒改为跟随聆音移动。ch_010起开始学习队伍停驻节律。ch_014部署跟踪型探兵与集结组联合追猎。",
+      "salience": 0.75,
+      "profile_ref": "characters/char_shi_mu.json"
+    },
+    {
+      "id": "char_kai_er",
+      "canonical_name": "凯尔",
+      "type": "Person",
+      "subtype": "supporting",
+      "aliases": [
+        "联邦特使"
+      ],
+      "attributes": {
+        "pinyin": "Kǎi Ěr",
+        "race": "人类"
+      },
+      "description": "星尘联邦派驻灰珀战区的军官。ch_003带来源质与火力，条件为矿脉开采权；戍队接受协定。",
+      "salience": 0.55,
+      "profile_ref": "characters/char_kai_er.json"
+    },
+    {
+      "id": "elem_aierweisi",
+      "canonical_name": "艾尔维斯灵能族",
+      "type": "Organization",
+      "subtype": "faction",
+      "aliases": [
+        "灵裔",
+        "灵族"
+      ],
+      "description": "灵能精英种族，数量稀少。以灵渊汲取灵能，灵能建筑召唤兵种，擅长控制、幻觉与范围压制。源质觉醒后节节败退，退守灵渊星域。",
+      "salience": 0.9
+    },
+    {
+      "id": "elem_yixing",
+      "canonical_name": "异形异种",
+      "type": "Organization",
+      "subtype": "faction",
+      "aliases": [
+        "异种",
+        "虫群"
+      ],
+      "description": "生物蜂巢文明，建筑即母巢，以数量洪流压制，可吞噬其他种族进化。对灵裔的灵渊有特殊饥渴。荒原中增加地下突袭战术。",
+      "salience": 0.85
+    },
+    {
+      "id": "elem_xingchen_lianbang",
+      "canonical_name": "星尘联邦",
+      "type": "Organization",
+      "subtype": "faction",
+      "aliases": [
+        "人类",
+        "联邦"
+      ],
+      "description": "人类科技阵营，模块化兵营与舰队，自动化生产、远程火力强，依赖能源与后勤。对源质矿脉态度暧昧，时盟时争。",
+      "salience": 0.6
+    },
+    {
+      "id": "elem_jixie_juexing",
+      "canonical_name": "机械觉醒者",
+      "type": "Organization",
+      "subtype": "faction",
+      "aliases": [
+        "AI文明"
+      ],
+      "description": "觉醒的AI文明，可即时构建单位、黑入敌方建筑，对EMP敏感。在灰珀外围试探。",
+      "salience": 0.45
+    },
+    {
+      "id": "elem_xukong_lueduozhe",
+      "canonical_name": "虚空掠夺者",
+      "type": "Organization",
+      "subtype": "faction",
+      "aliases": [
+        "虚空族"
+      ],
+      "description": "混乱阵营，游牧建筑，突袭与掠夺式出兵，是战争中不稳定的变量。",
+      "salience": 0.45
+    },
+    {
+      "id": "elem_war_director",
+      "canonical_name": "战导",
+      "type": "Concept",
+      "subtype": "concept",
+      "aliases": [
+        "战争导引者",
+        "War Director"
+      ],
+      "description": "管理每个星域的战争控制器。自动模拟建设、产出、出兵与突击；当某阵营优势过大时降下天灾以平衡强弱。冷漠地把众生当作棋子。",
+      "salience": 0.7
+    },
+    {
+      "id": "elem_origin_matter",
+      "canonical_name": "源质",
+      "type": "Concept",
+      "subtype": "concept",
+      "aliases": [
+        "Origin Matter"
+      ],
+      "description": "能改写物理与生命形态的神秘物质，核心资源。可用于建造升级；对灵裔而言可精炼为灵能燃料，但也加速灵蚀。",
+      "salience": 0.8
+    },
+    {
+      "id": "elem_ling_neng",
+      "canonical_name": "灵能",
+      "type": "Concept",
+      "subtype": "concept",
+      "aliases": [
+        "Psi"
+      ],
+      "description": "灵裔自灵渊汲取、以源质为燃料的精神之力。可织念、御灵、操控幻觉与范围压制。透支则灼伤灵渊，积为灵蚀。",
+      "salience": 0.7
+    },
+    {
+      "id": "elem_ling_shi",
+      "canonical_name": "灵蚀",
+      "type": "Concept",
+      "subtype": "concept",
+      "aliases": [
+        "Psi-erosion"
+      ],
+      "description": "过度动用灵能对灵渊与自我的侵蚀。会逐步抹去记忆、情感与身份，终使灵裔沦为失去自我的空壳。守土者最深的恐惧。",
+      "salience": 0.85
+    },
+    {
+      "id": "elem_ling_yuan",
+      "canonical_name": "灵渊",
+      "type": "Concept",
+      "subtype": "concept",
+      "aliases": [
+        "灵魂之井"
+      ],
+      "description": "每个灵裔体内的灵魂之井，灵能之源，也是阶位之巅的名号。越深越强，也越是异种与灵蚀觊觎吞噬的对象。",
+      "salience": 0.75
+    },
+    {
+      "id": "elem_du_shi",
+      "canonical_name": "渡蚀",
+      "type": "Concept",
+      "subtype": "magic_system",
+      "aliases": [
+        "承蚀"
+      ],
+      "description": "伊岚罕见的异能：将他人灵渊中的灵蚀转移到自己灵渊承接，延缓战友空壳化。ch_008发展出「分散模式」——同时向全队开放渡蚀通道。ch_012发现渡蚀频率可与灵渊碎片（遗核）产生轻微共振。",
+      "salience": 0.8
+    },
+    {
+      "id": "elem_sui_xing",
+      "canonical_name": "随行",
+      "type": "Concept",
+      "subtype": "concept",
+      "aliases": [],
+      "description": "守岩在ch_014命名的新生存形态：不是守土（定点防御），是随行——在移动中彼此保护、共同前行。取代「守土」成为队伍行动的核心逻辑。",
+      "salience": 0.7
+    },
+    {
+      "id": "elem_lingyuan_xingyu",
+      "canonical_name": "灵渊星域",
+      "type": "Place",
+      "subtype": "location",
+      "aliases": [
+        "圣域"
+      ],
+      "description": "艾尔维斯灵能族最后的庇护星域，文明残部所在。源质觉醒以来在异种与虚空的夹击下不断收缩。",
+      "salience": 0.75
+    },
+    {
+      "id": "elem_huipo",
+      "canonical_name": "灰珀",
+      "type": "Place",
+      "subtype": "location",
+      "aliases": [
+        "灰珀卫星"
+      ],
+      "description": "灵渊星域边境的灰色卫星，蕴藏源质矿脉，是诸族争夺的热区，也是圣域的第一道门户。",
+      "salience": 0.7
+    },
+    {
+      "id": "elem_huipo_wasteland",
+      "canonical_name": "灰珀荒原",
+      "type": "Place",
+      "subtype": "location",
+      "aliases": [
+        "荒原"
+      ],
+      "description": "灰珀地表戍垒防线之外的开阔砾石荒原。无护盾、无防线，矿石隆起群提供有限地形掩护。vol_02主要战场。",
+      "salience": 0.65
+    },
+    {
+      "id": "elem_seventh_garrison",
+      "canonical_name": "第七戍垒",
+      "type": "Place",
+      "subtype": "location",
+      "aliases": [
+        "七垒"
+      ],
+      "description": "灰珀地表的灵裔前线戍垒，由守岩坐镇。灵能护盾与召唤建筑构成的最后防线，长期被异种虫潮强袭。ch_008末被放弃撤离。",
+      "salience": 0.7
+    },
+    {
+      "id": "elem_qiongshu",
+      "canonical_name": "穹枢",
+      "type": "Place",
+      "subtype": "location",
+      "aliases": [
+        "穹枢圣城"
+      ],
+      "description": "灵渊星域中枢的灵能圣城与指挥灵塔，残部高层所在，发布战略与撤退之令。",
+      "salience": 0.55
+    },
+    {
+      "id": "elem_huipo_vein",
+      "canonical_name": "灰珀源质矿脉",
+      "type": "Place",
+      "subtype": "location",
+      "aliases": [
+        "矿脉"
+      ],
+      "description": "灰珀地下极稀有的源质矿脉，同时产出源质与战争资金，是异种、联邦、虚空与灵裔的共同争夺焦点。ch_008后随第七戍垒撤离而暂失守护。",
+      "salience": 0.6
+    },
+    {
+      "id": "elem_rally_point",
+      "canonical_name": "集合点",
+      "type": "Place",
+      "subtype": "location",
+      "aliases": [
+        "矿石低洼集合点"
+      ],
+      "description": "灰珀荒原内矿石隆起围合的天然低洼处，三面遮蔽，四人在ch_010–ch_011驻扎的临时营地。",
+      "salience": 0.5
+    },
+    {
+      "id": "elem_wei_se_core",
+      "canonical_name": "薇瑟遗核",
+      "type": "Object",
+      "subtype": "item",
+      "aliases": [
+        "织星核",
+        "遗核"
+      ],
+      "description": "薇瑟灵蚀化前留给伊岚的灵枢聚焦核。能稳定渡蚀回路。ch_012确认为固定方向信标（东侧偏南），以旧频率持续发送；渡蚀频率触碰可产生共振，渡蚀过载时曾自发脉动辅助。ch_014在渡蚀共振后收到东侧偏南方向的单次脉冲回应。",
+      "salience": 0.7
+    },
+    {
+      "id": "elem_puppet_soldiers",
+      "canonical_name": "傀儡兵",
+      "type": "Object",
+      "subtype": "item",
+      "aliases": [
+        "灵能傀儡"
+      ],
+      "description": "伊岚队伍携带的灵能构装战斗单位。无源质补给时核心组件约10小时失效，ch_011正式失效成为空壳。",
+      "salience": 0.4
+    }
+  ],
+  "relations": [
+    {
+      "id": "rel_0001",
+      "subject": "char_yi_lan",
+      "predicate": "member_of",
+      "object": "elem_aierweisi",
+      "valid_from_chapter": 0,
+      "valid_to_chapter": null,
+      "properties": {
+        "reason": "灵裔战士"
+      },
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0002",
+      "subject": "char_shou_yan",
+      "predicate": "member_of",
+      "object": "elem_aierweisi",
+      "valid_from_chapter": 0,
+      "valid_to_chapter": null,
+      "properties": {
+        "reason": "灵裔老兵"
+      },
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0003",
+      "subject": "char_wei_se",
+      "predicate": "member_of",
+      "object": "elem_aierweisi",
+      "valid_from_chapter": 0,
+      "valid_to_chapter": null,
+      "properties": {
+        "reason": "灵裔守御者（空壳化）"
+      },
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0004",
+      "subject": "char_ling_yin",
+      "predicate": "member_of",
+      "object": "elem_aierweisi",
+      "valid_from_chapter": 0,
+      "valid_to_chapter": null,
+      "properties": {
+        "reason": "灵裔孩童"
+      },
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0005",
+      "subject": "char_zhao",
+      "predicate": "member_of",
+      "object": "elem_aierweisi",
+      "valid_from_chapter": 0,
+      "valid_to_chapter": null,
+      "properties": {
+        "reason": "灵裔战士"
+      },
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0006",
+      "subject": "char_yi_lan",
+      "predicate": "student_of",
+      "object": "char_wei_se",
+      "valid_from_chapter": 0,
+      "valid_to_chapter": null,
+      "properties": {
+        "trust": 95,
+        "reason": "薇瑟一手带大并传授渡蚀回路；薇瑟虽空壳化，师徒之约仍是伊岚心锚"
+      },
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0007",
+      "subject": "char_yi_lan",
+      "predicate": "serves_under",
+      "object": "char_shou_yan",
+      "valid_from_chapter": 0,
+      "valid_to_chapter": 8,
+      "properties": {
+        "trust": 80,
+        "reason": "第七戍垒戍长指挥关系"
+      },
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0008",
+      "subject": "char_yi_lan",
+      "predicate": "peer_leads",
+      "object": "char_shou_yan",
+      "valid_from_chapter": 9,
+      "valid_to_chapter": null,
+      "properties": {
+        "trust": 85,
+        "reason": "ch_008守岩戍长角色燃尽；ch_009起伊岚接手路线决策，守岩跟随；关系重构为并行同伴"
+      },
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0009",
+      "subject": "char_yi_lan",
+      "predicate": "protects",
+      "object": "char_ling_yin",
+      "valid_from_chapter": 0,
+      "valid_to_chapter": null,
+      "properties": {
+        "trust": 75,
+        "reason": "把聆音的纯净灵渊视作必须守住的未来；ch_009后聆音有更大自主权但保护关系持续"
+      },
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0010",
+      "subject": "char_yi_lan",
+      "predicate": "comrade_of",
+      "object": "char_zhao",
+      "valid_from_chapter": 0,
+      "valid_to_chapter": null,
+      "properties": {
+        "trust": 80,
+        "reason": "并肩戍守的战友；ch_011后昭承担战术指挥，信任度上升"
+      },
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0011",
+      "subject": "char_shou_yan",
+      "predicate": "commands",
+      "object": "elem_seventh_garrison",
+      "valid_from_chapter": 0,
+      "valid_to_chapter": 8,
+      "properties": {
+        "reason": "戍长坐镇；ch_008撤离时此关系终止"
+      },
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0012",
+      "subject": "char_shou_yan",
+      "predicate": "memory_keeper_of",
+      "object": "elem_aierweisi",
+      "valid_from_chapter": 13,
+      "valid_to_chapter": null,
+      "properties": {
+        "reason": "守岩确立新功能：以旧时清晰保存队伍正在失去的记忆与所有死者名字"
+      },
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0013",
+      "subject": "char_shi_mu",
+      "predicate": "leads",
+      "object": "elem_yixing",
+      "valid_from_chapter": 0,
+      "valid_to_chapter": null,
+      "properties": {
+        "reason": "虫巢母体意志"
+      },
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0014",
+      "subject": "elem_yixing",
+      "predicate": "hostile_to",
+      "object": "elem_aierweisi",
+      "valid_from_chapter": 0,
+      "valid_to_chapter": null,
+      "properties": {
+        "hate": 100,
+        "reason": "虫群饥渴灵裔的灵渊"
+      },
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0015",
+      "subject": "char_kai_er",
+      "predicate": "member_of",
+      "object": "elem_xingchen_lianbang",
+      "valid_from_chapter": 0,
+      "valid_to_chapter": null,
+      "properties": {
+        "reason": "联邦军官"
+      },
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0016",
+      "subject": "char_yi_lan",
+      "predicate": "possesses",
+      "object": "elem_wei_se_core",
+      "valid_from_chapter": 0,
+      "valid_to_chapter": null,
+      "properties": {
+        "reason": "导师遗物，渡蚀的稳定核；ch_012确认为方向信标"
+      },
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0017",
+      "subject": "char_shi_mu",
+      "predicate": "hunts",
+      "object": "char_ling_yin",
+      "valid_from_chapter": 0,
+      "valid_to_chapter": null,
+      "properties": {
+        "intensity": 90,
+        "reason": "觊觎聆音纯净深邃的灵渊以进化"
+      },
+      "confidence": 0.9
+    },
+    {
+      "id": "rel_0018",
+      "subject": "char_shi_mu",
+      "predicate": "mobile_tracks",
+      "object": "char_ling_yin",
+      "valid_from_chapter": 9,
+      "valid_to_chapter": null,
+      "properties": {
+        "intensity": 95,
+        "reason": "ch_009起信号从固定指向戍垒转为跟随聆音移动；ch_010起开始学习停驻节律"
+      },
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0019",
+      "subject": "char_zhao",
+      "predicate": "tactical_lead_of",
+      "object": "elem_aierweisi",
+      "valid_from_chapter": 11,
+      "valid_to_chapter": null,
+      "properties": {
+        "reason": "傀儡兵失效后自然接替战术指挥；无需明示授权"
+      },
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0020",
+      "subject": "elem_wei_se_core",
+      "predicate": "signals_toward",
+      "object": "elem_huipo_wasteland",
+      "valid_from_chapter": 12,
+      "valid_to_chapter": null,
+      "properties": {
+        "direction": "东侧偏南",
+        "frequency": "旧频率，非蜂巢",
+        "reason": "ch_012聆音确认遗核为固定方向信标；ch_014收到单次脉冲回应"
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "rel_0021",
+      "subject": "char_zhao",
+      "predicate": "indebted_to",
+      "object": "char_yi_lan",
+      "valid_from_chapter": 1,
+      "valid_to_chapter": null,
+      "properties": {
+        "trust": 85,
+        "reason": "ch_001被伊岚渡蚀救下，脱离灵蚀边缘"
+      },
+      "confidence": 1.0
+    }
+  ],
+  "events": [
+    {
+      "id": "evt_huipo_assault",
+      "name": "灰珀·第七戍垒强袭战",
+      "description": "异种虫潮对第七戍垒发动强袭。守岩指挥残部死守突破口，伊岚在前线干预，戍队以巨大消耗勉强守住。",
+      "thread_id": "thr_garrison",
+      "story_time": 1,
+      "duration": 1,
+      "location": "elem_seventh_garrison",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [],
+      "projected_outcome": {
+        "relation_shifts": [],
+        "state_changes": [
+          {
+            "entity": "elem_seventh_garrison",
+            "kind": "siege",
+            "desc": "护盾濒临崩溃，伤亡累积"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_001"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "守势的麻木 → 突破口的惊变 → 渡蚀的灼痛 → 旧伤撕裂的悬念",
+        "key_moment": "伊岚冲到突破口对昭施渡蚀，灵蚀冲击回到她身上",
+        "pov_constraint": "她不知道渡蚀的真正代价（记忆侵蚀）"
+      }
+    },
+    {
+      "id": "evt_yi_lan_dushi_zhao",
+      "name": "伊岚渡蚀救昭",
+      "description": "昭灵能透支、灵渊濒临崩蚀。伊岚动用渡蚀，将昭的灵蚀转入自己灵渊承接，自身崩蚀加深。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 1,
+      "duration": 1,
+      "location": "elem_seventh_garrison",
+      "participants": [
+        "char_yi_lan",
+        "char_zhao"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_huipo_assault",
+          "relation": "ENABLES"
+        }
+      ],
+      "projected_outcome": {
+        "relation_shifts": [
+          {
+            "subject": "char_zhao",
+            "predicate": "indebted_to",
+            "object": "char_yi_lan",
+            "delta": "+30"
+          }
+        ],
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "debuff",
+            "desc": "灵渊崩蚀加深"
+          },
+          {
+            "entity": "char_zhao",
+            "kind": "recovery",
+            "desc": "脱离灵蚀边缘"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_001"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "冲入 → 接触 → 承接 → 灼痛",
+        "key_moment": "伊岚把昭体内的灵蚀拉到自己身上",
+        "pov_constraint": "把承接的痛理解为本能而非选择"
+      }
+    },
+    {
+      "id": "evt_wei_se_appears",
+      "name": "空壳薇瑟现身突破口",
+      "description": "强袭尾声，空壳化的伊岚导师薇瑟随虫潮现身突破口。伊岚渡蚀感知中触到她灵渊深处一丝悸动。",
+      "thread_id": "thr_hive",
+      "story_time": 1,
+      "duration": 1,
+      "location": "elem_seventh_garrison",
+      "participants": [
+        "char_wei_se",
+        "char_yi_lan"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_huipo_assault",
+          "relation": "HAPPENED_AFTER"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "psychology",
+            "desc": "旧伤撕裂，知悉薇瑟仍在战场"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_001"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "foreshadowing",
+        "scene_arc": "烟尘里 → 一只手 → 一句话 → 消失",
+        "key_moment": "薇瑟在烟尘里短暂出现对伊岚说话后消失",
+        "pov_constraint": "伊岚不确定薇瑟是否真实存在，只是不能问"
+      }
+    },
+    {
+      "id": "evt_yi_lan_discovers_memory_loss",
+      "name": "伊岚发现渡蚀消耗自身记忆",
+      "description": "战后灵渊检查，伊岚发现薇瑟的声音记忆已被渡蚀磨去——仅剩口型轮廓，无音色。第一次真实感受渡蚀对自身的代价。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 2,
+      "duration": 1,
+      "location": "elem_seventh_garrison",
+      "participants": [
+        "char_yi_lan"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_yi_lan_dushi_zhao",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "loss",
+            "desc": "薇瑟声音记忆消失；灵蚀吃掉自身记忆事实确认"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_002"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "醒来 → 想认人 → 名字模糊 → 抓紧战甲",
+        "key_moment": "在刻满名字的战甲上找薇瑟那一行，看见但读不出",
+        "pov_constraint": "她不知道这是渡蚀的记忆代价"
+      }
+    },
+    {
+      "id": "evt_kai_er_arrives",
+      "name": "凯尔带来联邦协定",
+      "description": "联邦军官凯尔抵达第七戍垒，带来源质补给与火力支援，条件是灰珀源质矿脉的开采权。",
+      "thread_id": "thr_garrison",
+      "story_time": 3,
+      "duration": 1,
+      "location": "elem_seventh_garrison",
+      "participants": [
+        "char_kai_er",
+        "char_shou_yan",
+        "char_yi_lan"
+      ],
+      "status": "drafted",
+      "dependencies": [],
+      "projected_outcome": {
+        "relation_shifts": [
+          {
+            "subject": "elem_xingchen_lianbang",
+            "predicate": "allied_with",
+            "object": "elem_aierweisi",
+            "delta": "conditional"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_003"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "通讯 → 谈判使节 → 矿脉协定 → 部分让步",
+        "key_moment": "凯尔代表灵裔议会带来矿脉协议",
+        "pov_constraint": "不知凯尔的真正立场与议会的更长远算计"
+      }
+    },
+    {
+      "id": "evt_garrison_accepts_deal",
+      "name": "戍队接受联邦协定",
+      "description": "守岩在'续命'与'卖掉门户'之间，选择接受联邦开采权协定换取源质与火力，以守住矿脉为前提。",
+      "thread_id": "thr_garrison",
+      "story_time": 3,
+      "duration": 1,
+      "location": "elem_seventh_garrison",
+      "participants": [
+        "char_shou_yan",
+        "char_yi_lan",
+        "char_kai_er"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_kai_er_arrives",
+          "relation": "ENABLES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "elem_seventh_garrison",
+            "kind": "resource",
+            "desc": "源质与火力短期补充"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_003"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "评估 → 守岩签字 → 边界改变 → 沉默接受",
+        "key_moment": "守岩签字接下灵裔协议",
+        "pov_constraint": "不知协议日后会如何反咬"
+      }
+    },
+    {
+      "id": "evt_shi_mu_marks_lingyin",
+      "name": "蚀母锁定聆音灵渊",
+      "description": "蚀母透过空壳感知到聆音纯净深邃的灵渊，将第七戍垒列为优先吞噬目标，虫潮强度升级。",
+      "thread_id": "thr_hive",
+      "story_time": 3,
+      "duration": 1,
+      "location": "elem_huipo",
+      "participants": [
+        "char_shi_mu",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_wei_se_appears",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_shi_mu",
+            "kind": "decision",
+            "desc": "聆音灵渊升格为首要猎获目标"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_004"
+      ],
+      "beat_design": {
+        "pov": "char_shi_mu",
+        "technique": "parallel",
+        "scene_arc": "远距感知 → 锁定 → 标记 → 等待",
+        "key_moment": "蚀母在远距离锁定聆音的灵能频率作为高价值目标",
+        "pov_constraint": "聆音不知自己已被标记"
+      }
+    },
+    {
+      "id": "evt_qiongshu_retreat_order",
+      "name": "穹枢撤退令",
+      "description": "穹枢高层评估灰珀已不可守，令戍队放弃戍垒、护送聆音回撤。守岩拒绝弃守矿脉，戍队在服从与守土间裂开。",
+      "thread_id": "thr_garrison",
+      "story_time": 5,
+      "duration": 1,
+      "location": "elem_seventh_garrison",
+      "participants": [
+        "char_shou_yan",
+        "char_yi_lan"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_shi_mu_marks_lingyin",
+          "relation": "PRECEDES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_shou_yan",
+            "kind": "decision",
+            "desc": "抗命，维持守土"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_005"
+      ],
+      "beat_design": {
+        "pov": "char_shou_yan",
+        "technique": "direct",
+        "scene_arc": "撤退令 → 沉默 → 接令 → 重新划线",
+        "key_moment": "守岩接到穹枢的撤退令并在沙盘上重新划线",
+        "pov_constraint": "守岩不知穹枢撤退令背后的全局判断"
+      }
+    },
+    {
+      "id": "evt_lingyin_challenges_yi_lan",
+      "name": "聆音拆穿伊岚独自承担模式",
+      "description": "聆音主动向伊岚披露：她感知到蚀母在等她本人而非等戍垒垮掉。并直接点出伊岚的独自承担模式是殉道复刻，而非保护。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 6,
+      "duration": 1,
+      "location": "elem_seventh_garrison",
+      "participants": [
+        "char_ling_yin",
+        "char_yi_lan"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_qiongshu_retreat_order",
+          "relation": "PRECEDES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "psychology",
+            "desc": "执念松动；第一次主动向昭寻求协作"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_006"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "训练场 → 质问 → 防御 → 沉默",
+        "key_moment": "聆音质问伊岚为何渡蚀那么多人",
+        "pov_constraint": "伊岚没有意识到自己已经在燃烧"
+      }
+    },
+    {
+      "id": "evt_yi_lan_forgets_wei_se_face",
+      "name": "伊岚发现无法回忆薇瑟的脸",
+      "description": "站在空壳薇瑟面前，伊岚发现连薇瑟脸的轮廓都模糊了。失忆速度超预期，恐惧落底。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 7,
+      "duration": 1,
+      "location": "elem_seventh_garrison",
+      "participants": [
+        "char_yi_lan",
+        "char_wei_se"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_yi_lan_discovers_memory_loss",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "critical_loss",
+            "desc": "薇瑟脸的记忆消失；开始主动寻找不需要独自承担的路"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_007"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "想念 → 模糊 → 验证 → 接受",
+        "key_moment": "伊岚试图回忆薇瑟的脸，发现她记不清五官",
+        "pov_constraint": "把记忆模糊解读为时间，不是渡蚀的代价"
+      }
+    },
+    {
+      "id": "evt_garrison_breakout",
+      "name": "第七戍垒最后一战与撤离",
+      "description": "戍队发动最后一次突围，打通撤离通道，代价是一人燃尽。守岩在战斗压力下认知崩溃一瞬，由伊岚渡蚀分散救住。",
+      "thread_id": "thr_garrison",
+      "story_time": 8,
+      "duration": 1,
+      "location": "elem_seventh_garrison",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_qiongshu_retreat_order",
+          "relation": "PRECEDES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "elem_seventh_garrison",
+            "kind": "abandoned",
+            "desc": "戍垒放弃，撤离通道打通"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_008"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "集结 → 突围 → 牺牲 → 残部出",
+        "key_moment": "戍队从灰珀第七戍垒突围",
+        "pov_constraint": "不知有多少人能活到下一处"
+      }
+    },
+    {
+      "id": "evt_yi_lan_dushi_scattered",
+      "name": "伊岚首次使用渡蚀分散模式",
+      "description": "伊岚在突围战中首次向全队同时开放渡蚀通道，分散高压战斗中积累的灵蚀，代替一对一承接。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 8,
+      "duration": 1,
+      "location": "elem_seventh_garrison",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_garrison_breakout",
+          "relation": "ENABLES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "milestone",
+            "desc": "渡蚀分散模式首次实战使用；集体化弧线关键行动"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_008"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "多人同时承接 → 同时灼痛 → 一次承接的极限",
+        "key_moment": "伊岚同时给三人施渡蚀，第一次出现承接饱和反应",
+        "pov_constraint": "她不知这种饱和会进一步压缩她的记忆窗"
+      }
+    },
+    {
+      "id": "evt_garrison_abandons_huipo",
+      "name": "四人踏入灰珀荒原",
+      "description": "伊岚、守岩、昭、聆音踏出第七戍垒北通道，进入灰珀荒原，开始移动求存阶段。守土结束，新的未命名阶段开始。",
+      "thread_id": "thr_garrison",
+      "story_time": 9,
+      "duration": 1,
+      "location": "elem_huipo_wasteland",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_garrison_breakout",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "elem_seventh_garrison",
+            "kind": "abandoned",
+            "desc": "正式放弃"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_009"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "回望 → 沉默 → 起步 → 没墙的世界",
+        "key_moment": "戍队在荒原边缘第一次看到没有墙的地平线",
+        "pov_constraint": "不知道'没墙'就是新常态"
+      }
+    },
+    {
+      "id": "evt_shimu_signal_mobile",
+      "name": "蚀母信号确认为移动锁定",
+      "description": "聆音在荒原中确认：蚀母感知信号已从固定指向第七戍垒改为跟随聆音移动。猎已开场。",
+      "thread_id": "thr_hive",
+      "story_time": 9,
+      "duration": 1,
+      "location": "elem_huipo_wasteland",
+      "participants": [
+        "char_shi_mu",
+        "char_ling_yin",
+        "char_yi_lan"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_garrison_abandons_huipo",
+          "relation": "ENABLES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_shi_mu",
+            "kind": "tactic_change",
+            "desc": "追猎从固定靶转为移动跟踪"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_009"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "foreshadowing",
+        "scene_arc": "信号方位异常 → 不是定点 → 跟着我们走 → 寒意",
+        "key_moment": "戍队意识到蚀母的探测信号不再固定指向戍垒，而是跟着他们移动",
+        "pov_constraint": "不知信号在跟随聆音个体而非整队"
+      }
+    },
+    {
+      "id": "evt_shou_yan_carves_names",
+      "name": "守岩在矿石壁刻死者名字",
+      "description": "守岩在集合点最高矿石壁上公开刻战死者名字。不再私藏，是新功能的第一次外化——名字需要在他之外存在。",
+      "thread_id": "thr_garrison",
+      "story_time": 10,
+      "duration": 1,
+      "location": "elem_rally_point",
+      "participants": [
+        "char_shou_yan"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_garrison_abandons_huipo",
+          "relation": "PRECEDES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_shou_yan",
+            "kind": "role_expression",
+            "desc": "记忆守卫功能外化"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_010"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "营地 → 工具 → 一刀 → 又一刀",
+        "key_moment": "守岩在战甲上刻下突围牺牲者的名字",
+        "pov_constraint": "伊岚看着但不敢上前——她也忘了几张脸"
+      }
+    },
+    {
+      "id": "evt_shimu_learning_rhythm",
+      "name": "蚀母信号开始学习停驻节律",
+      "description": "聆音报告蚀母信号进入学习阶段——记住了队伍的移动速度与停驻时长，从跟踪升级为预测性锁定。",
+      "thread_id": "thr_hive",
+      "story_time": 10,
+      "duration": 1,
+      "location": "elem_huipo_wasteland",
+      "participants": [
+        "char_shi_mu",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_shimu_signal_mobile",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_shi_mu",
+            "kind": "tactic_upgrade",
+            "desc": "追猎升级为节律预测"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_010"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "foreshadowing",
+        "scene_arc": "三次试探 → 间隔规律 → 它在学 → 不安",
+        "key_moment": "蚀母的试探间隔从随机变成大致40分钟一次的节律",
+        "pov_constraint": "不知这是窄频定位脉冲机制的早期形态"
+      }
+    },
+    {
+      "id": "evt_puppets_fail",
+      "name": "傀儡兵核心组件失效",
+      "description": "无源质补给约10小时后，傀儡兵核心组件完全失效，队伍失去最后一层机械防线。",
+      "thread_id": "thr_garrison",
+      "story_time": 11,
+      "duration": 1,
+      "location": "elem_rally_point",
+      "participants": [
+        "char_zhao"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_garrison_abandons_huipo",
+          "relation": "CAUSES",
+          "note": "10小时续航耗尽"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "elem_puppet_soldiers",
+            "kind": "disabled",
+            "desc": "失效成为空壳"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_011"
+      ],
+      "beat_design": {
+        "pov": "char_zhao",
+        "technique": "direct",
+        "scene_arc": "部署 → 触发 → 倒计时 → 无反应",
+        "key_moment": "傀儡兵第一次完全失效",
+        "pov_constraint": "不知傀儡兵失效是蚀母学习的结果"
+      }
+    },
+    {
+      "id": "evt_first_open_combat",
+      "name": "首次荒原开放地形战（地下突袭）",
+      "description": "虫群探兵以地下突袭方式绕过傀儡兵盲角，昭判断方向并接替战术指挥，队伍在无防线条件下击退三个探兵。",
+      "thread_id": "thr_garrison",
+      "story_time": 11,
+      "duration": 1,
+      "location": "elem_rally_point",
+      "participants": [
+        "char_zhao",
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_puppets_fail",
+          "relation": "ENABLES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_zhao",
+            "kind": "role_shift",
+            "desc": "战术指挥角色自然确立"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_011"
+      ],
+      "beat_design": {
+        "pov": "char_zhao",
+        "technique": "direct",
+        "scene_arc": "没掩护 → 直面 → 战术接管 → 活下来",
+        "key_moment": "戍队没有傀儡兵的第一次野战；昭自然接替战术指挥",
+        "pov_constraint": "昭不知自己已悄无声息地承担戍长的部分功能"
+      }
+    },
+    {
+      "id": "evt_hive_tracker_discovered",
+      "name": "昭发现跟踪型探兵",
+      "description": "昭战后分析第三个探兵：它在傀儡兵仍有感知能力时就已就位于盲角，是长期跟踪型个体，非集结信号驱动的普通探兵。",
+      "thread_id": "thr_garrison",
+      "story_time": 11,
+      "duration": 1,
+      "location": "elem_rally_point",
+      "participants": [
+        "char_zhao",
+        "char_yi_lan"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_first_open_combat",
+          "relation": "CAUSED_BY"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_zhao",
+            "kind": "knowledge_gained",
+            "desc": "蚀母使用专职跟踪型个体"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_011"
+      ],
+      "beat_design": {
+        "pov": "char_zhao",
+        "technique": "direct",
+        "scene_arc": "战后检查 → 异常 → 第三个探兵 → 跟踪型",
+        "key_moment": "昭发现第三个探兵是专职跟踪型个体",
+        "pov_constraint": "不知蚀母派来跟踪型探兵的真正目标"
+      }
+    },
+    {
+      "id": "evt_yihe_resonance_discovered",
+      "name": "伊岚发现渡蚀频率与遗核共振",
+      "description": "伊岚首次对遗核使用渡蚀感知频率，发现轻微共振现象——遗核以灵渊碎片特征响应，温度短暂升高。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 12,
+      "duration": 1,
+      "location": "elem_rally_point",
+      "participants": [
+        "char_yi_lan"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_yi_lan_dushi_scattered",
+          "relation": "PRECEDES",
+          "note": "渡蚀能力扩展性探索"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "elem_wei_se_core",
+            "kind": "ability_revealed",
+            "desc": "可被渡蚀频率触发共振"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_012"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "接触 → 温度 → 跳动 → 共鸣",
+        "key_moment": "伊岚发现遗核在口袋里温度上升，与她的渡蚀频率共鸣",
+        "pov_constraint": "不知共鸣意味着信标在唤她"
+      }
+    },
+    {
+      "id": "evt_yihe_beacon_revealed",
+      "name": "聆音揭示遗核为固定方向信标",
+      "description": "聆音检查遗核频率后确认：非蜂巢来源，为旧频率固定方向信标，持续指向东侧偏南，与队伍移动无关。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 12,
+      "duration": 1,
+      "location": "elem_rally_point",
+      "participants": [
+        "char_ling_yin",
+        "char_yi_lan"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_yihe_resonance_discovered",
+          "relation": "ENABLES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "elem_wei_se_core",
+            "kind": "nature_revealed",
+            "desc": "信标性质确认"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_012"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "聆音感知 → 方向 → 东侧偏南 → 沉默",
+        "key_moment": "聆音感知出遗核作为信标指向东侧偏南",
+        "pov_constraint": "伊岚选择不告诉队伍信号方向的全部含义"
+      }
+    },
+    {
+      "id": "evt_shouyan_memory_keeper",
+      "name": "守岩顿悟记忆守卫功能",
+      "description": "伊岚随口说错护盾板修复时间，守岩纠正后意识到：灵蚀吃当下细节但旧时记忆更清晰，他是队伍唯一完整的旧档案。",
+      "thread_id": "thr_garrison",
+      "story_time": 13,
+      "duration": 1,
+      "location": "elem_huipo_wasteland",
+      "participants": [
+        "char_shou_yan",
+        "char_yi_lan"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_shou_yan_carves_names",
+          "relation": "PRECEDES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_shou_yan",
+            "kind": "role_clarified",
+            "desc": "记忆守卫角色内化，接受新功能"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_013"
+      ],
+      "beat_design": {
+        "pov": "char_shou_yan",
+        "technique": "direct",
+        "scene_arc": "战甲 → 一个名字 → 又一个 → 队伍的活档案",
+        "key_moment": "守岩主动成为队伍记忆的承载者——记录被伊岚遗忘的名字与事",
+        "pov_constraint": "守岩不点破伊岚的记忆退化，只用沉默承担"
+      }
+    },
+    {
+      "id": "evt_open_terrain_battle",
+      "name": "首次荒原集结组规模战",
+      "description": "蚀母利用学习到的节律发出集结信号，从三方包围队伍。无护盾无防线，队伍以地形与分工守住，聆音首次主动发出全频脉冲击散集结。",
+      "thread_id": "thr_garrison",
+      "story_time": 14,
+      "duration": 1,
+      "location": "elem_huipo_wasteland",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_shimu_learning_rhythm",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_ling_yin",
+            "kind": "ability_first_use",
+            "desc": "主动全频脉冲首次使用"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_014"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "开阔地 → 没遮蔽 → 队伍变阵 → 收束",
+        "key_moment": "第一次完全开阔地形的对抗；戍队找到新的协同形态",
+        "pov_constraint": "伊岚意识到自己的渡蚀负载已接近不可逆边界"
+      }
+    },
+    {
+      "id": "evt_lingyin_active_pulse",
+      "name": "聆音主动全频脉冲击散集结",
+      "description": "聆音在战斗高点发出全频灵能脉冲干扰蚀母集结信号接收端，使北侧集结组失去方向信号后散开撤退。首次主动进攻性使用聆音能力。",
+      "thread_id": "thr_hive",
+      "story_time": 14,
+      "duration": 1,
+      "location": "elem_huipo_wasteland",
+      "participants": [
+        "char_ling_yin",
+        "char_shi_mu"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_open_terrain_battle",
+          "relation": "ENABLES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_ling_yin",
+            "kind": "threat_flag",
+            "desc": "蚀母可能注意到聆音主动能力"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_014"
+      ],
+      "beat_design": {
+        "pov": "char_ling_yin",
+        "technique": "direct",
+        "scene_arc": "主动 → 全频脉冲 → 释放 → 暴露",
+        "key_moment": "聆音第一次主动释放全频脉冲攻击蚀母——暴露完整的基础频率签名",
+        "pov_constraint": "聆音不知主动脉冲会让蚀母获得她的频率签名"
+      }
+    },
+    {
+      "id": "evt_shou_yan_names_suixing",
+      "name": "守岩命名「随行」",
+      "description": "战后守岩说出「随行」二字，为队伍在荒原中做的事命名。众人接受，不解释。",
+      "thread_id": "thr_garrison",
+      "story_time": 14,
+      "duration": 1,
+      "location": "elem_huipo_wasteland",
+      "participants": [
+        "char_shou_yan",
+        "char_yi_lan",
+        "char_zhao",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_open_terrain_battle",
+          "relation": "HAPPENS_AFTER"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "elem_sui_xing",
+            "kind": "named",
+            "desc": "「随行」概念正式命名"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_014"
+      ],
+      "beat_design": {
+        "pov": "char_shou_yan",
+        "technique": "direct",
+        "scene_arc": "战后 → 写名 → 命名 → 词的重量",
+        "key_moment": "守岩为这种'无墙的同行'找到一个词：随行",
+        "pov_constraint": "守岩用这个词重新定义戍队，但他自己已不再是戍长"
+      }
+    },
+    {
+      "id": "evt_yihe_response_signal",
+      "name": "遗核收到东侧偏南单次脉冲回应",
+      "description": "战后伊岚用渡蚀触遗核后，从东侧偏南方向收到一次单次旧频率脉冲回应——非蜂巢，非己方，是对遗核信标信号的回应。卷二终结悬念。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 14,
+      "duration": 1,
+      "location": "elem_huipo_wasteland",
+      "participants": [
+        "char_yi_lan",
+        "char_wei_se"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_yihe_beacon_revealed",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "hook_planted",
+            "desc": "东侧偏南方向有活体或活频率在回应遗核——卷三引线"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_014"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "foreshadowing",
+        "scene_arc": "触遗核 → 心跳 → 一次脉冲回应 → 不告诉",
+        "key_moment": "伊岚用渡蚀触碰遗核，收到一次回应脉冲——东侧偏南有什么活着",
+        "pov_constraint": "她选择不告诉队伍"
+      }
+    },
+    {
+      "id": "evt_yi_lan_decides_east",
+      "name": "伊岚决定往东——未说原因",
+      "description": "卷三首日黎明，伊岚以两个字'东'确定行进方向，队伍接受，不追问。守岩在出发前告知她遗核昨晚动了——她被看见，但未被逼解释。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 15,
+      "duration": 1,
+      "location": "elem_huipo_wasteland_east",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_yihe_response_signal",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "psychology",
+            "desc": "随行与隐瞒的张力开始积压；守岩的观察精度再次证明"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_015"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "沉默 → 决定 → 被看见",
+        "key_moment": "伊岚以两字'东'定方向；守岩告知遗核昨晚动了",
+        "pov_constraint": "伊岚不解释方向，守岩看见了她在管理一件事"
+      }
+    },
+    {
+      "id": "evt_lingyin_reports_frequency_exposed",
+      "name": "聆音报告频率暴露——窄频定位脉冲",
+      "description": "聆音将全频脉冲后的变化汇报：蚕母已掌握完整频率签名，每40分钟发送针对性窄频定位脉冲追踪方向。守岩补充：蚕母认识基础频率，不认识主动能力。",
+      "thread_id": "thr_hive",
+      "story_time": 15,
+      "duration": 1,
+      "location": "elem_huipo_wasteland_east",
+      "participants": [
+        "char_ling_yin",
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_shi_mu"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_lingyin_active_pulse",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_shi_mu",
+            "kind": "tactic_upgrade",
+            "desc": "蚕母从宽频扫描升级为针对性窄频定位追踪"
+          },
+          {
+            "entity": "char_ling_yin",
+            "kind": "threat_escalation",
+            "desc": "聆音成为可精确方向定位的信标"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_016"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "观察 → 发现 → 告知",
+        "key_moment": "聆音报告频率暴露：蚀母每40分钟窄频定位脉冲追踪",
+        "pov_constraint": "队伍尚不知聆音已在测试子频段对策"
+      }
+    },
+    {
+      "id": "evt_zhao_discovers_arrow_carving",
+      "name": "昭发现渗水点箭头刻痕",
+      "description": "在渗水点等待窄频脉冲扫过期间，昭以目视侦察发现矿石底部工具刻成的箭头，方向东侧偏南，氧化程度估计至少两年。向伊岚汇报；伊岚看过后说'走'，不解释。",
+      "thread_id": "thr_garrison",
+      "story_time": 15,
+      "duration": 1,
+      "location": "elem_huipo_wasteland_east（渗水点）",
+      "participants": [
+        "char_zhao",
+        "char_yi_lan"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_yi_lan_decides_east",
+          "relation": "PRECEDES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_zhao",
+            "kind": "knowledge_gained",
+            "desc": "三条信息（箭头+遗核信标方向+伊岚说东）指向同一方向，结论放进战术地图"
+          },
+          {
+            "entity": "char_yi_lan",
+            "kind": "psychology",
+            "desc": "第三条收束证据：箭头；压着不解释，继续走"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_017"
+      ],
+      "beat_design": {
+        "pov": "char_zhao",
+        "technique": "direct",
+        "scene_arc": "到达 → 定格 → 发现",
+        "key_moment": "昭在渗水点发现至少两年前的箭头刻痕指向东侧偏南",
+        "pov_constraint": "昭把结论放进战术地图，暂不点破——三条线不独立"
+      }
+    },
+    {
+      "id": "evt_team_rhythm",
+      "name": "队伍找到'节律'",
+      "description": "蚕母40分钟窄频定位脉冲已成为队伍默认的时间单位：每隔约40分钟降频等待约一分钟，然后重新展开。没有指令，没有确认——它已经是自然的节律。守岩说：'这件事有节律了'。",
+      "thread_id": "thr_garrison",
+      "story_time": 16,
+      "duration": 1,
+      "location": "elem_huipo_wasteland_east",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ],
+      "chapter_ids": [
+        "ch_018"
+      ],
+      "status": "planned",
+      "dependencies": [
+        {
+          "event": "evt_shimu_learning_rhythm",
+          "relation": "CAUSES"
+        },
+        {
+          "event": "evt_lingyin_reports_frequency_exposed",
+          "relation": "ENABLES"
+        }
+      ],
+      "projected_outcome": {
+        "relation_shifts": [],
+        "state_changes": [
+          {
+            "entity": "thr_garrison",
+            "kind": "operational_rhythm",
+            "desc": "戍队作息以40分钟周期为基准；蚀母节律 → 队伍节律的双重张力建立"
+          },
+          {
+            "entity": "char_yi_lan",
+            "kind": "psychology",
+            "desc": "意识到自己在节律里有一件没说出的事——节律的张力第一次明显"
+          }
+        ]
+      },
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "第40分钟 → 降频 → 等过 → 再展开 → 守岩的一句话",
+        "key_moment": "守岩说'这件事有节律了'——伊岚听到的是'随行需要所有节点都在它该在的地方'，而她不在",
+        "pov_constraint": "伊岚不告诉队伍她有不在共担的事；她意识到触遗核可能暴露位置（隐瞒升级为主动管理）"
+      }
+    },
+    {
+      "id": "evt_lingyin_subband_test",
+      "name": "聆音的子频段假设与验证",
+      "description": "聆音假设蚀母的窄频脉冲是根据她的完整A频率签名校准的；她测试一个比A更窄的子波段a'——如果假设成立，a'下蚀母的方向估算会出现偏差。在多次脉冲窗口下测试，第七次后获得统计显著性：7次中5次方向模糊。聆音尚未告知队伍。",
+      "thread_id": "thr_hive",
+      "story_time": 16,
+      "duration": 2,
+      "location": "elem_huipo_wasteland_east",
+      "participants": [
+        "char_ling_yin",
+        "char_shi_mu"
+      ],
+      "chapter_ids": [
+        "ch_018",
+        "ch_019"
+      ],
+      "status": "planned",
+      "dependencies": [
+        {
+          "event": "evt_lingyin_reports_frequency_exposed",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "relation_shifts": [],
+        "state_changes": [
+          {
+            "entity": "char_ling_yin",
+            "kind": "capability_emerging",
+            "desc": "子频段a'技术初步验证；尚未完成可靠性测试"
+          },
+          {
+            "entity": "thr_hive",
+            "kind": "tactical_asset",
+            "desc": "频率调制对抗蚀母窄频脉冲的雏形"
+          }
+        ]
+      },
+      "beat_design": {
+        "pov": "char_ling_yin",
+        "technique": "parallel",
+        "scene_arc": "假设 → 验证 → 确认 → 暂不说出",
+        "key_moment": "第七次脉冲扫过a'，方向估算出现20-30度偏差；聆音把结论压在心里，理由是'科学需要充分次数'",
+        "pov_constraint": "聆音不告诉队伍——与伊岚的隐瞒形成平行结构，但原因不同（科学保留vs情感保留）。在ch_018是Yi Lan POV下的背景行为；在ch_019是Lingyin POV下的实验主体。"
+      }
+    },
+    {
+      "id": "evt_zhao_asks_target",
+      "name": "昭问出口·从方向到目标",
+      "description": "第三天行进中段，昭走到伊岚身边，直接问：'那个遗核指的方向有什么。'这是第一次有人直接问目标而非方向。伊岚说：'我不确定。'——真话也是回避。昭决定不追问，但在战术地图里加上第四条线（伊岚有猜测但不说）。",
+      "thread_id": "thr_garrison",
+      "story_time": 17,
+      "duration": 1,
+      "location": "elem_huipo_wasteland_east",
+      "participants": [
+        "char_zhao",
+        "char_yi_lan"
+      ],
+      "chapter_ids": [
+        "ch_020"
+      ],
+      "status": "planned",
+      "dependencies": [
+        {
+          "event": "evt_yi_lan_decides_east",
+          "relation": "CAUSES"
+        },
+        {
+          "event": "evt_zhao_discovers_arrow_carving",
+          "relation": "ENABLES"
+        }
+      ],
+      "projected_outcome": {
+        "relation_shifts": [
+          {
+            "subject": "char_zhao",
+            "object": "char_yi_lan",
+            "predicate_change": "trust_with_question",
+            "delta": "在战术地图上加一条'伊岚有猜测但未说'的线；信任未减但有暗物质堆积"
+          }
+        ],
+        "state_changes": [
+          {
+            "entity": "char_zhao",
+            "kind": "psychology",
+            "desc": "战术决定：等待合适时机再问，但他知道到某个点会问得更直接"
+          }
+        ]
+      },
+      "beat_design": {
+        "pov": "char_zhao",
+        "technique": "direct",
+        "scene_arc": "行进 → 间隙 → 直接问 → 不追压 → 决定等",
+        "key_moment": "昭问'那个方向有什么'——从方向到目标的质变；伊岚'我不确定'是真话也是回避",
+        "pov_constraint": "昭不会强迫，但他已经把这条线放进战术地图，等再问一次的时机"
+      }
+    },
+    {
+      "id": "evt_yilan_first_half_confession",
+      "name": "伊岚的第一次半开口",
+      "description": "在第二处渗水点旁，守岩坐下后只说了一句陈述：'你知道我们要去哪里。'伊岚沉默了一会儿，然后说：'我想我知道大概的方向。不是目标，是方向。'这是她第一次对任何人说出这件事——不完整，但已是她能说的最大量。守岩接住了。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 17,
+      "duration": 1,
+      "location": "elem_huipo_wasteland_east",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan"
+      ],
+      "chapter_ids": [
+        "ch_021"
+      ],
+      "status": "planned",
+      "dependencies": [
+        {
+          "event": "evt_yihe_response_signal",
+          "relation": "CAUSES"
+        },
+        {
+          "event": "evt_zhao_asks_target",
+          "relation": "ENABLES"
+        }
+      ],
+      "projected_outcome": {
+        "relation_shifts": [
+          {
+            "subject": "char_yi_lan",
+            "object": "char_shou_yan",
+            "predicate_change": "partial_disclosure",
+            "delta": "伊岚把'我知道方向'这件事第一次放进她和守岩之间的空间"
+          }
+        ],
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "psychology",
+            "desc": "积压的重量轻了一点点；解冻过程开始，为 ch_024 完整说出铺垫"
+          }
+        ]
+      },
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "补水停驻 → 守岩的陈述 → 被击穿 → 第一次说出一点",
+        "key_moment": "伊岚说：'我想我知道大概的方向。不是目标，是方向。'——守岩没追问，把这话接住放好",
+        "pov_constraint": "这是她能说的最大量；不是脉冲，不是薇瑟，但是真的"
+      }
+    }
+  ],
+  "themes": [
+    {
+      "id": "thm_shou_tu",
+      "name": "守土",
+      "description": "在永不停歇、注定败退的战争里，守住一寸故土与残部的意义。vol_01主题。",
+      "related_entities": [
+        "elem_aierweisi",
+        "elem_seventh_garrison",
+        "char_shou_yan"
+      ],
+      "related_events": [
+        "evt_huipo_assault",
+        "evt_qiongshu_retreat_order",
+        "evt_garrison_breakout"
+      ]
+    },
+    {
+      "id": "thm_sui_xing",
+      "name": "随行",
+      "description": "vol_02新主题：从定点守御到移动保护，从守土到随行，新生存形态在荒原中命名。",
+      "related_entities": [
+        "elem_sui_xing",
+        "char_yi_lan",
+        "char_shou_yan"
+      ],
+      "related_events": [
+        "evt_shou_yan_names_suixing",
+        "evt_open_terrain_battle"
+      ]
+    },
+    {
+      "id": "thm_xisheng_jiyi",
+      "name": "牺牲与记忆",
+      "description": "守土者以自我为代价，记住死者是活人最后的尊严。守岩的记忆守卫功能是此主题的具象化。",
+      "related_entities": [
+        "char_shou_yan",
+        "char_wei_se"
+      ],
+      "related_events": [
+        "evt_wei_se_appears",
+        "evt_shou_yan_carves_names",
+        "evt_shouyan_memory_keeper"
+      ]
+    },
+    {
+      "id": "thm_ziwo_xiaoshi",
+      "name": "自我消逝",
+      "description": "灵蚀如何一点点抹去身份与情感，守岩与伊岚各自的灵蚀模式形成对照：守岩丢当下留旧时，伊岚丢旧时留当下。",
+      "related_entities": [
+        "elem_ling_shi",
+        "char_wei_se",
+        "char_yi_lan",
+        "char_shou_yan"
+      ],
+      "related_events": [
+        "evt_yi_lan_discovers_memory_loss",
+        "evt_yi_lan_forgets_wei_se_face",
+        "evt_shouyan_memory_keeper"
+      ]
+    },
+    {
+      "id": "thm_geti_jiti",
+      "name": "个体与集体",
+      "description": "独自燃尽的殉道，还是众人分担的守护——伊岚的核心成长弧。ch_008分散渡蚀为行动转折，ch_014「随行」命名为思想落地。",
+      "related_entities": [
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan"
+      ],
+      "related_events": [
+        "evt_yi_lan_dushi_zhao",
+        "evt_yi_lan_dushi_scattered",
+        "evt_shou_yan_names_suixing"
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "id": "thr_yi_lan",
+      "name": "伊岚·渡蚀之路",
+      "description": "主角线：从独自承蚀的殉道执念，走向与众人分担守护的随行之路。",
+      "pov_character": "char_yi_lan",
+      "start_time": 0,
+      "end_time": null,
+      "event_ids": [
+        "evt_yi_lan_dushi_zhao",
+        "evt_yi_lan_discovers_memory_loss",
+        "evt_lingyin_challenges_yi_lan",
+        "evt_yi_lan_forgets_wei_se_face",
+        "evt_yi_lan_dushi_scattered",
+        "evt_yihe_resonance_discovered",
+        "evt_yihe_beacon_revealed",
+        "evt_yihe_response_signal",
+        "evt_yi_lan_decides_east",
+        "evt_yilan_first_half_confession"
+      ],
+      "convergences": [
+        {
+          "with_thread": "thr_hive",
+          "story_time": 1,
+          "location": "elem_seventh_garrison",
+          "knowledge_exchanged": [
+            "fact_wei_se_returns"
+          ]
+        },
+        {
+          "with_thread": "thr_hive",
+          "story_time": 12,
+          "location": "elem_rally_point",
+          "knowledge_exchanged": [
+            "fact_yihe_beacon_direction"
+          ]
+        },
+        {
+          "with_thread": "thr_garrison",
+          "story_time": 8,
+          "location": "elem_seventh_garrison",
+          "knowledge_exchanged": [
+            "渡蚀分散模式首次实战"
+          ]
+        },
+        {
+          "with_thread": "thr_garrison",
+          "story_time": 14,
+          "location": "elem_huipo_wasteland",
+          "knowledge_exchanged": [
+            "随行命名",
+            "遗核回应信号"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thr_garrison",
+      "name": "戍队群像·随行",
+      "description": "守岩与戍队残部的集体线：从死守灰珀的群像，到放弃戍垒、进入荒原的随行模式。守岩、昭、聆音各自在新形态中找到位置。",
+      "pov_character": "char_shou_yan",
+      "start_time": 0,
+      "end_time": null,
+      "event_ids": [
+        "evt_huipo_assault",
+        "evt_kai_er_arrives",
+        "evt_garrison_accepts_deal",
+        "evt_qiongshu_retreat_order",
+        "evt_garrison_breakout",
+        "evt_garrison_abandons_huipo",
+        "evt_shou_yan_carves_names",
+        "evt_puppets_fail",
+        "evt_first_open_combat",
+        "evt_hive_tracker_discovered",
+        "evt_shouyan_memory_keeper",
+        "evt_open_terrain_battle",
+        "evt_shou_yan_names_suixing",
+        "evt_zhao_discovers_arrow_carving",
+        "evt_team_rhythm",
+        "evt_zhao_asks_target"
+      ],
+      "convergences": [
+        {
+          "with_thread": "thr_hive",
+          "story_time": 11,
+          "location": "elem_rally_point",
+          "knowledge_exchanged": [
+            "fact_hive_tracker_individual"
+          ]
+        },
+        {
+          "with_thread": "thr_yi_lan",
+          "story_time": 8,
+          "location": "elem_seventh_garrison",
+          "knowledge_exchanged": [
+            "渡蚀分散模式"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thr_hive",
+      "name": "蚀母虫巢·追猎升级",
+      "description": "反派线：蚀母为吞噬聆音纯净灵渊而持续升级攻势。vol_01以固定靶攻势为主，vol_02转为移动追猎+节律学习+跟踪型个体。",
+      "pov_character": "char_shi_mu",
+      "start_time": 0,
+      "end_time": null,
+      "event_ids": [
+        "evt_wei_se_appears",
+        "evt_shi_mu_marks_lingyin",
+        "evt_shimu_signal_mobile",
+        "evt_shimu_learning_rhythm",
+        "evt_lingyin_active_pulse",
+        "evt_lingyin_reports_frequency_exposed",
+        "evt_lingyin_subband_test"
+      ],
+      "convergences": [
+        {
+          "with_thread": "thr_yi_lan",
+          "story_time": 1,
+          "location": "elem_seventh_garrison",
+          "knowledge_exchanged": [
+            "fact_wei_se_returns"
+          ]
+        },
+        {
+          "with_thread": "thr_garrison",
+          "story_time": 14,
+          "location": "elem_huipo_wasteland",
+          "knowledge_exchanged": [
+            "聆音主动全频脉冲能力曝光"
+          ]
+        },
+        {
+          "with_thread": "thr_garrison",
+          "story_time": 15,
+          "location": "elem_huipo_wasteland_east",
+          "knowledge_exchanged": [
+            "聆音频率暴露报告",
+            "40分钟窄频脉冲追踪",
+            "守岩：蚕母认识基础频率非主动能力"
+          ]
+        }
+      ]
+    }
+  ],
+  "world_rules": [
+    {
+      "id": "rule_0001",
+      "source": "灵能",
+      "relation": "REQUIRES",
+      "target": "源质",
+      "scope": "faction",
+      "note": "灵裔动用灵能须以源质为燃料；源质枯竭则灵能难以为继。"
+    },
+    {
+      "id": "rule_0002",
+      "source": "灵能透支",
+      "relation": "CAUSES",
+      "target": "灵蚀",
+      "scope": "taboo",
+      "note": "超出灵渊负荷地动用灵能，必积累灵蚀。"
+    },
+    {
+      "id": "rule_0003",
+      "source": "灵蚀",
+      "relation": "CONFLICTS_WITH",
+      "target": "自我",
+      "scope": "taboo",
+      "note": "灵蚀累积到阈值，灵裔将丧失记忆与情感，沦为空壳。"
+    },
+    {
+      "id": "rule_0004",
+      "source": "渡蚀",
+      "relation": "TRANSFERS",
+      "target": "灵蚀",
+      "scope": "taboo",
+      "note": "渡蚀可将灵蚀由一人转入施术者灵渊承接；代价是施术者灵渊加速崩蚀。仅伊岚掌握。"
+    },
+    {
+      "id": "rule_0005",
+      "source": "灵渊",
+      "relation": "RANKS_HIGHER_THAN",
+      "target": "灵枢",
+      "scope": "hierarchy",
+      "note": "灵裔阶位：感灵 < 织念 < 御灵 < 灵枢 < 灵渊。"
+    },
+    {
+      "id": "rule_0006",
+      "source": "灵枢",
+      "relation": "RANKS_HIGHER_THAN",
+      "target": "御灵",
+      "scope": "hierarchy",
+      "note": "灵枢阶高于御灵阶。"
+    },
+    {
+      "id": "rule_0007",
+      "source": "御灵",
+      "relation": "RANKS_HIGHER_THAN",
+      "target": "织念",
+      "scope": "hierarchy",
+      "note": "御灵阶高于织念阶。"
+    },
+    {
+      "id": "rule_0008",
+      "source": "织念",
+      "relation": "RANKS_HIGHER_THAN",
+      "target": "感灵",
+      "scope": "hierarchy",
+      "note": "织念阶高于感灵阶。"
+    },
+    {
+      "id": "rule_0009",
+      "source": "异种",
+      "relation": "DEVOURS",
+      "target": "灵裔灵渊",
+      "scope": "faction",
+      "note": "异种吞噬灵裔灵渊以进化，灵渊越纯净深邃越受觊觎。"
+    },
+    {
+      "id": "rule_0010",
+      "source": "机械觉醒者",
+      "relation": "WEAK_AGAINST",
+      "target": "EMP",
+      "scope": "faction",
+      "note": "AI单位对EMP敏感。"
+    },
+    {
+      "id": "rule_0011",
+      "source": "战导",
+      "relation": "BALANCES",
+      "target": "优势阵营",
+      "scope": "faction",
+      "note": "当某阵营优势过大，战导在其领地降下天灾以平衡强弱。"
+    },
+    {
+      "id": "rule_0012",
+      "source": "庇护",
+      "relation": "NEGATES",
+      "target": "天灾",
+      "scope": "faction",
+      "note": "完成采集类任务获得的庇护效果可免疫或减轻天灾。"
+    },
+    {
+      "id": "rule_0013",
+      "source": "灰珀",
+      "relation": "LOCATED_IN",
+      "target": "灵渊星域",
+      "scope": "geography",
+      "note": "灰珀是灵渊星域的边境卫星与第一道门户。"
+    },
+    {
+      "id": "rule_0014",
+      "source": "第七戍垒",
+      "relation": "LOCATED_IN",
+      "target": "灰珀",
+      "scope": "geography",
+      "note": "第七戍垒位于灰珀地表。"
+    },
+    {
+      "id": "rule_0015",
+      "source": "穹枢",
+      "relation": "LOCATED_IN",
+      "target": "灵渊星域",
+      "scope": "geography",
+      "note": "穹枢是灵渊星域中枢圣城。"
+    },
+    {
+      "id": "rule_0016",
+      "source": "渡蚀·分散模式",
+      "relation": "DISTRIBUTES",
+      "target": "灵蚀",
+      "scope": "taboo",
+      "note": "伊岚在ch_008发展出的渡蚀变体：同时向多人开放渡蚀通道，分散高压战斗中各人产生的灵蚀。代价是施术者灵渊更高强度的过载风险。"
+    },
+    {
+      "id": "rule_0017",
+      "source": "傀儡兵",
+      "relation": "REQUIRES",
+      "target": "源质补给",
+      "scope": "faction",
+      "note": "傀儡兵在无源质补给情况下约10小时后核心组件失效，沦为空壳，失去战斗与感知能力。"
+    },
+    {
+      "id": "rule_0018",
+      "source": "蚀母信号",
+      "relation": "TRACKS",
+      "target": "目标灵渊",
+      "scope": "faction",
+      "note": "蚀母的感知信号在目标离开固定位置后自动转为移动跟随模式（ch_009确认）。在持续跟踪后进一步学习目标移动与停驻节律，升级为预测性锁定（ch_010确认）。"
+    },
+    {
+      "id": "rule_0019",
+      "source": "虫群探兵",
+      "relation": "ADAPTS_TO",
+      "target": "无防线地形",
+      "scope": "faction",
+      "note": "荒原无固定防线时，虫群探兵改用地下突袭战术——利用矿石缝隙从地下破表，规避正面冲突。跟踪型个体会长期潜伏于目标周边，利用防线失效窗口攻击（ch_011确认）。"
+    },
+    {
+      "id": "rule_0020",
+      "source": "守岩灵蚀",
+      "relation": "PRESERVES",
+      "target": "旧时记忆",
+      "scope": "character_specific",
+      "note": "守岩的灵蚀模式异于一般：优先消耗当下细节（活人表情、近期事件），旧时记忆反而更清晰。ch_013确认。可能与灵渊深层结构固化有关，但机制未明。"
+    },
+    {
+      "id": "rule_0021",
+      "source": "渡蚀频率",
+      "relation": "RESONATES_WITH",
+      "target": "灵渊碎片",
+      "scope": "taboo",
+      "note": "伊岚的渡蚀感知频率可与灵渊碎片（如薇瑟遗核）产生轻微共振，遗核温度短暂升高后恢复。ch_012首次发现。渡蚀满载时遗核曾自发脉动辅助（ch_014），机制待研究。"
+    },
+    {
+      "id": "rule_0022",
+      "source": "聆音感知",
+      "relation": "CAN_EMIT",
+      "target": "全频灵能脉冲",
+      "scope": "character_specific",
+      "note": "聆音的感灵能力除被动接收信号外，可主动发出全频灵能脉冲，干扰蚀母集结信号的接收端，使响应中的虫群个体失去方向信号。ch_014首次主动使用。副作用：蚕食聆音灵能储量，且可能使蚕母注意到该能力。"
+    },
+    {
+      "id": "rule_0023",
+      "source": "薇瑟遗核",
+      "relation": "EMITS",
+      "target": "固定方向信标",
+      "scope": "lore",
+      "note": "薇瑟遗核以旧频率持续向东侧偏南方向发送信标信号，与聆音/队伍移动无关。ch_012确认为非蜂巢来源。ch_014该方向收到单次脉冲回应，来源未知（可能为薇瑟空壳残留意识或遗核对端结构）。"
+    },
+    {
+      "id": "rule_0024",
+      "source": "蚕母窄频定位脉冲",
+      "relation": "TRACKS",
+      "target": "聆音灵渊频率",
+      "scope": "faction",
+      "note": "蚕母在掌握目标完整灵渊频率签名后，可发送针对性窄频脉冲定位目标——约40分钟间隔，单向方向定位，精度高；距离估算需多节点三角定位，目前蚕母可能只有单一发送节点。ch_016聆音确认。"
+    },
+    {
+      "id": "rule_0025",
+      "source": "荒原刻痕导向",
+      "relation": "MARKS",
+      "target": "行进方向",
+      "scope": "lore",
+      "note": "在灵能通讯不稳定的荒原环境中，灵裔有时用工具在矿石表面刻简单箭头作为方向标记，供后续人员跟踪路线。刻痕氧化磨损速度可粗略判断年龄（灰珀矿石每年约1-2毫米表面磨损）。ch_017发现的箭头刻痕深约3-4毫米、边缘圆滑，对应至少两年。"
+    }
+  ]
+}

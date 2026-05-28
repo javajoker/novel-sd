@@ -1,0 +1,23 @@
+{
+  "id": "char_zhao",
+  "name": "昭",
+  "role": "supporting",
+  "base_profile": {
+    "appearance": { "build": "结实", "hair": "深褐短发", "eyes": "亮", "features": "笑起来有缺了一角的虎牙" },
+    "personality": { "traits": ["话多", "护短", "用玩笑掩饰恐惧", "重情"], "speech": "插科打诨，关键时刻却最先扑上去" },
+    "background": { "origin": "随父母逃入灵渊星域的难民之子", "family": "父母亡于上一次撤离", "key_events": ["与伊岚同期入伍，并肩多年"] },
+    "the_ghost": "撤离那夜没能拉住父母的手。",
+    "the_lie": "只要一直笑，死亡就追不上自己人。"
+  },
+  "initial_state": {
+    "story_time": 0,
+    "location": "elem_seventh_garrison",
+    "inventory": [{ "item": "灵能制式长铳", "status": "equipped" }, { "item": "源质结晶 x3", "status": "carried" }],
+    "knowledge": [
+      { "fact": "fact_sanctuary_retreating", "confidence": "certain" },
+      { "fact": "fact_dushi_ability", "confidence": "certain" }
+    ],
+    "psychology": { "sanity": 72, "core_desire": "守住身边仅剩的人", "core_fear": "再一次眼睁睁失去", "mood": "强撑的乐观", "erosion_load": 40 },
+    "abilities": [{ "name": "织念·灵铳齐射", "level": "纯熟" }]
+  }
+}

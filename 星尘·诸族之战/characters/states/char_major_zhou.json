@@ -1,0 +1,19 @@
+{
+  "character_id": "char_major_zhou",
+  "states": [
+    {
+      "story_time": 0,
+      "chapter_id": null,
+      "baseline": true,
+      "location": "elem_stardust_fortress",
+      "inventory_delta": [],
+      "status": [
+        { "type": "baseline", "desc": "围困第43天；铁面外象内崩；持有联邦高层密令尚未决定是否执行", "severity": "n/a" }
+      ],
+      "knowledge_gained": [],
+      "psychology": { "sanity": 72, "mood": "铁面·内崩", "core_desire": "在指挥生涯结束前做一件毫无妥协的正确的事", "core_fear": "再次妥协，再次让人死在自己的谎言里" },
+      "abilities_delta": [],
+      "notes": "T=0 锚点。完整初始状态见 characters/char_major_zhou.json.initial_state。1200名士兵，22天未与家人通讯。"
+    }
+  ]
+}

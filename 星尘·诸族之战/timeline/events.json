@@ -1,0 +1,23 @@
+{
+  "_note": "Mirror of ontology.json#events — thin stubs (id, story_time, thread, status, chapter_ids). Authoritative source is ontology.json.events[].",
+  "events": [
+    { "id": "evt_siege_day43", "story_time": 1, "thread_id": "thr_protagonist", "chapter_ids": ["ch_001"], "status": "planned" },
+    { "id": "evt_breakout_briefing", "story_time": 2, "thread_id": "thr_protagonist", "chapter_ids": ["ch_002"], "status": "planned" },
+    { "id": "evt_first_synthesis", "story_time": 3, "thread_id": "thr_protagonist", "chapter_ids": ["ch_003"], "status": "planned" },
+    { "id": "evt_liushuang_anomaly", "story_time": 5, "thread_id": "thr_protagonist", "chapter_ids": ["ch_005"], "status": "planned" },
+    { "id": "evt_void_echo_observes", "story_time": 6, "thread_id": "thr_void_echo", "chapter_ids": ["ch_006"], "status": "planned" },
+    { "id": "evt_perception_edge", "story_time": 8, "thread_id": "thr_protagonist", "chapter_ids": ["ch_008"], "status": "planned" },
+    { "id": "evt_herald_first_sighting", "story_time": 10, "thread_id": "thr_protagonist", "chapter_ids": ["ch_010"], "status": "planned" },
+    { "id": "evt_zhou_despair", "story_time": 12, "thread_id": "thr_protagonist", "chapter_ids": ["ch_012"], "status": "planned" },
+    { "id": "evt_theta_map_fragment", "story_time": 15, "thread_id": "thr_protagonist", "chapter_ids": ["ch_015"], "status": "planned" },
+    { "id": "evt_subarc_a_climax", "story_time": 19, "thread_id": "thr_protagonist", "chapter_ids": ["ch_019", "ch_020"], "status": "planned" },
+    { "id": "evt_psi_elder_enters", "story_time": 25, "thread_id": "thr_war_strategy", "chapter_ids": ["ch_025"], "status": "planned" },
+    { "id": "evt_liushuang_revealed", "story_time": 35, "thread_id": "thr_protagonist", "chapter_ids": ["ch_035"], "status": "planned" },
+    { "id": "evt_void_echo_contact", "story_time": 50, "thread_id": "thr_void_echo", "chapter_ids": ["ch_050"], "status": "planned" },
+    { "id": "evt_herald_strategy", "story_time": 55, "thread_id": "thr_war_strategy", "chapter_ids": ["ch_055"], "status": "planned" },
+    { "id": "evt_uneasy_alliance", "story_time": 58, "thread_id": "thr_protagonist", "chapter_ids": ["ch_058"], "status": "planned" },
+    { "id": "evt_fortress_crisis", "story_time": 70, "thread_id": "thr_war_strategy", "chapter_ids": ["ch_070"], "status": "planned" },
+    { "id": "evt_breakout_to_theta", "story_time": 78, "thread_id": "thr_protagonist", "chapter_ids": ["ch_078"], "status": "planned" },
+    { "id": "evt_keyan_breakthrough", "story_time": 80, "thread_id": "thr_protagonist", "chapter_ids": ["ch_080"], "status": "planned" }
+  ]
+}

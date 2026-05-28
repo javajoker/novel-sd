@@ -1,0 +1,33 @@
+{
+  "character_id": "char_ke_yan",
+  "knowledge_at": [
+    {
+      "story_time": 0,
+      "chapter_id": null,
+      "facts_known": [
+        "fact_federation_losing"
+      ],
+      "facts_rumored": [
+        "fact_theta_secret"
+      ],
+      "facts_unknown": [
+        "fact_void_echo_identity",
+        "fact_herald_evolving",
+        "fact_ke_yan_potential"
+      ],
+      "beliefs_held": [
+        { "belief": "自己只是战争机器里的一颗螺丝钉，个人选择无法撼动战争走向", "is_true": false, "status": "the_lie：贯穿全卷的核心谎言" },
+        { "belief": "刘霜只是普通医疗兵", "is_true": false, "status": "未受质疑" },
+        { "belief": "周恒还在坚守是因为职责，不是因为绝望", "is_true": "partial", "status": "隐约觉得不对" },
+        { "belief": "自己的源质感知只是老兵直觉、人人皆有", "is_true": false, "status": "自我合理化中" }
+      ],
+      "projected_facts_to_learn": [
+        { "fact": "fact_ke_yan_potential", "stage": "suspected", "trigger": "ch_003 first synthesis 中第一次明显感到'我和别人不一样'，但会立刻自我合理化" }
+      ],
+      "perception": {
+        "level": "high（未自知）",
+        "notes": "源质感知者边缘，逼近吸附者；战场上能预判半秒到一秒的源质流动与敌方动作。他把这归功于经验与运气，从不主动检验自己的极限。"
+      }
+    }
+  ]
+}

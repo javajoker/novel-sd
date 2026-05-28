@@ -1,0 +1,29 @@
+{
+  "_note": "权威 NarrativeThread[] 存于 ontology.json 的 threads[]。此文件为镜像入口，编辑请以 ontology.json 为准。",
+  "threads": [
+    {
+      "id": "thr_yi_lan",
+      "name": "伊岚·渡蚀之路",
+      "description": "主角线：从独自承蚀的殉道执念，走向与众人分担守护的随行之路。",
+      "pov_character": "char_yi_lan",
+      "active_volumes": ["vol_01", "vol_02"],
+      "canonical": "ontology.json#threads"
+    },
+    {
+      "id": "thr_garrison",
+      "name": "戍队群像·随行",
+      "description": "集体线：守岩、昭、聆音与伊岚的共同线，从死守灰珀到放弃戍垒、荒原随行，各角色在新形态中确立位置。",
+      "pov_character": "char_shou_yan",
+      "active_volumes": ["vol_01", "vol_02"],
+      "canonical": "ontology.json#threads"
+    },
+    {
+      "id": "thr_hive",
+      "name": "蚀母虫巢·追猎升级",
+      "description": "反派线：蚀母对聆音灵渊的追猎从固定靶攻势（vol_01）升级为移动跟踪+节律学习+跟踪型个体（vol_02）。",
+      "pov_character": "char_shi_mu",
+      "active_volumes": ["vol_01", "vol_02"],
+      "canonical": "ontology.json#threads"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "character_id": "char_ling_yin",
+  "knowledge_at": [
+    {
+      "story_time": 1,
+      "chapter_id": "ch_001",
+      "facts_known": [
+        "fact_dushi_ability",
+        "fact_sanctuary_retreating",
+        "fact_huipo_vein",
+        "fact_wei_se_hollowed"
+      ],
+      "facts_unknown": [
+        "fact_shi_mu_hunts_lingyin",
+        "fact_wei_se_returns",
+        "fact_dushi_true_cost"
+      ],
+      "beliefs_held": [
+        { "belief": "伊岚以渡蚀承接灵蚀，是戍队最稀缺的资源——必须保护她不烧尽", "is_true": "partial（保护方向对，但'保护'的方式还在摸索）" },
+        { "belief": "我的灵能频率只用来感知与干扰，不用来主动暴露", "is_true": true, "status": "默认作业纪律" }
+      ],
+      "perception": {
+        "level": "high",
+        "notes": "灵能频率感知：擅长读取大范围灵渊波动与蜂巢信号；对蚀母频率有过近距离接触经验；战场上承担'听见'功能。"
+      }
+    },
+    {
+      "story_time": 14,
+      "chapter_id": "ch_014",
+      "facts_known": [
+        "fact_dushi_ability",
+        "fact_sanctuary_retreating",
+        "fact_huipo_vein",
+        "fact_wei_se_hollowed",
+        "fact_shimu_mobile_signal",
+        "fact_shimu_learning_rhythm",
+        "fact_lingyin_frequency_exposed",
+        "fact_yihe_response_signal"
+      ],
+      "facts_unknown": [
+        "fact_shi_mu_hunts_lingyin（仍不知蚀母锁定目标就是她个人，认为是队伍）",
+        "fact_dushi_true_cost",
+        "fact_yihe_beacon_direction（队伍内部讨论时她在场，但东侧偏南指什么不清楚）"
+      ],
+      "beliefs_held": [
+        { "belief": "全频脉冲必须用——它在战术上是对的", "is_true": true, "status": "ch_014 决策" },
+        { "belief": "全频脉冲的代价我能承担", "is_true": "partial", "status": "ch_016 才发现代价比预期高" }
+      ],
+      "projected_facts_to_learn": [
+        { "fact": "fact_lingyin_probe_interval", "stage": "to_discover", "trigger": "ch_015–016 行进中蚀母信号的新形态" },
+        { "fact": "fact_shi_mu_hunts_lingyin", "stage": "to_discover", "trigger": "ch_016 守岩说'它认识的是你的基础频率'——主语暗示" }
+      ],
+      "perception": {
+        "level": "high",
+        "notes": "ch_014 主动释放全频脉冲后，她的灵能签名已被蚀母收录。她尚未完全意识到这意味着'她'是目标，不是队伍。"
+      }
+    },
+    {
+      "story_time": 15,
+      "chapter_id": "ch_016",
+      "facts_known": [
+        "fact_dushi_ability",
+        "fact_sanctuary_retreating",
+        "fact_huipo_vein",
+        "fact_wei_se_hollowed",
+        "fact_shimu_mobile_signal",
+        "fact_shimu_learning_rhythm",
+        "fact_lingyin_frequency_exposed",
+        "fact_yihe_response_signal",
+        "fact_lingyin_probe_interval",
+        "fact_shi_mu_hunts_lingyin"
+      ],
+      "facts_unknown": [
+        "fact_dushi_true_cost",
+        "fact_yihe_beacon_direction（精确指向不明，只知方向）",
+        "fact_yilan_response_pulse_secret（她不知伊岚收到了回应脉冲）"
+      ],
+      "beliefs_held": [
+        { "belief": "蚀母认识的是我的基础频率，不是我全部能做的事——守岩的判断给了我新边界", "is_true": true, "status": "ch_016 守岩稳住了她" },
+        { "belief": "我能在40分钟窗口里做完关键动作", "is_true": "to_be_tested", "status": "战术框架成立，需更多试验" }
+      ],
+      "projected_facts_to_learn": [
+        { "fact": "fact_lingyin_subband_a_prime", "stage": "actively_testing", "trigger": "ch_018 行进中开始测试比基础频率更窄的子波段" }
+      ],
+      "perception": {
+        "level": "high",
+        "notes": "ch_016 后：感知形态从'被动监听'升级为'主动假设+验证'；这是她的科学家面向第一次明显凸显，与伊岚的'隐瞒以避免共担'形成平行结构。"
+      }
+    },
+    {
+      "story_time": 16,
+      "chapter_id": "ch_018",
+      "facts_known": [
+        "fact_dushi_ability", "fact_sanctuary_retreating", "fact_huipo_vein",
+        "fact_wei_se_hollowed", "fact_shimu_mobile_signal", "fact_shimu_learning_rhythm",
+        "fact_lingyin_frequency_exposed", "fact_yihe_response_signal",
+        "fact_lingyin_probe_interval", "fact_shi_mu_hunts_lingyin"
+      ],
+      "facts_partial": [
+        { "fact": "fact_lingyin_subband_a_prime", "confidence": "5/7 tests show direction blur — statistically significant, but运动中的a'维持不够稳定，需要更稳态环境再测" }
+      ],
+      "facts_unknown": [
+        "fact_dushi_true_cost",
+        "fact_yilan_response_pulse_secret",
+        "fact_wasteland_arrow_marking（昭ch_017的发现还未在队内公开讨论；聆音不知箭头存在）"
+      ],
+      "beliefs_held": [
+        { "belief": "我不是在隐瞒，是在等我自己准备好——科学要求", "is_true": true, "status": "她对自己沉默的解释，与伊岚的解释不同但形态相似" },
+        { "belief": "如果a'假设成立，蚀母的窄频脉冲精度会被降到广频扫描水平", "is_true": "tentatively_true（待充分验证）" }
+      ],
+      "projected_facts_to_learn": [],
+      "perception": {
+        "level": "high",
+        "notes": "ch_018-019 跨章节：在ch_018是Yi Lan POV下她的测试以背景出现；ch_019进入她自己的POV，进行系统化的7次测试。她和伊岚都在'暂不说出某件事'，但原因和性质不同。"
+      }
+    }
+  ]
+}

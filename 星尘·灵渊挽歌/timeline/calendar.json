@@ -1,0 +1,78 @@
+{
+  "story_time_unit": "chapter",
+  "world_calendar": {
+    "epoch": "源质觉醒后·收缩纪",
+    "current": "收缩纪 第七年，灰珀守备第 2,203 日"
+  },
+  "chapter_to_world_day": {
+    "ch_001": 2190,
+    "ch_002": 2191,
+    "ch_003": 2192,
+    "ch_004": 2192,
+    "ch_005": 2194,
+    "ch_006": 2195,
+    "ch_007": 2196,
+    "ch_008": 2197,
+    "ch_009": 2197,
+    "ch_010": 2198,
+    "ch_011": 2198,
+    "ch_012": 2199,
+    "ch_013": 2200,
+    "ch_014": 2201
+  },
+  "chapter_locations": {
+    "ch_001": "elem_seventh_garrison",
+    "ch_002": "elem_seventh_garrison",
+    "ch_003": "elem_seventh_garrison",
+    "ch_004": "elem_huipo",
+    "ch_005": "elem_seventh_garrison",
+    "ch_006": "elem_seventh_garrison",
+    "ch_007": "elem_seventh_garrison",
+    "ch_008": "elem_seventh_garrison",
+    "ch_009": "elem_huipo_wasteland",
+    "ch_010": "elem_rally_point",
+    "ch_011": "elem_rally_point",
+    "ch_012": "elem_rally_point",
+    "ch_013": "elem_huipo_wasteland",
+    "ch_014": "elem_huipo_wasteland"
+  },
+  "travel_rules": [
+    {
+      "from": "elem_huipo",
+      "to": "elem_qiongshu",
+      "distance": "星域内跃迁",
+      "terrain": "传送门",
+      "base_days": 1,
+      "note": "需穹枢开启灵能传送门；战时门控收紧。"
+    },
+    {
+      "from": "elem_seventh_garrison",
+      "to": "elem_huipo_vein",
+      "distance_km": 40,
+      "terrain": "灰珀地表辐射荒原",
+      "base_days": 1,
+      "note": "源质辐射区，灵能护盾消耗加倍。"
+    },
+    {
+      "from": "elem_seventh_garrison",
+      "to": "elem_rally_point",
+      "distance_km": 30,
+      "terrain": "灰珀荒原砾石地带",
+      "base_hours": 5,
+      "note": "无护盾徒步，灰珀低重力约60km/日；ch_009队伍约5小时抵达。"
+    },
+    {
+      "from": "elem_rally_point",
+      "to": "elem_huipo_wasteland_east",
+      "distance_km": "未测定",
+      "terrain": "灰珀荒原·东侧矿石平原",
+      "note": "遗核信标指向东侧偏南；跟踪型探兵来向东南。两方向扇形区域内为vol_03潜在目标区域。"
+    }
+  ],
+  "movement_speeds": {
+    "灵裔徒步": "灰珀低重力下约 60 km/日",
+    "灵裔徒步（荒原砾石）": "约 40–50 km/日（砾石地形减速约20%）",
+    "异种虫潮推进": "强袭时数小时内可漫过一处戍垒",
+    "异种探兵（地下）": "矿石缝隙中约 10–15 km/日，受缝隙密度影响"
+  }
+}

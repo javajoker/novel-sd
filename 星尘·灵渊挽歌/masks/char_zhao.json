@@ -1,0 +1,53 @@
+{
+  "character_id": "char_zhao",
+  "knowledge_at": [
+    {
+      "story_time": 1,
+      "facts_known": [
+        "fact_dushi_ability", "fact_sanctuary_retreating", "fact_huipo_vein",
+        "fact_wei_se_hollowed"
+      ],
+      "facts_unknown": ["fact_shi_mu_hunts_lingyin", "fact_wei_se_returns", "fact_dushi_true_cost"],
+      "beliefs_held": [
+        { "belief": "伊岚的渡蚀会先烧尽她自己", "is_true": true, "status": "新生的愧疚" }
+      ],
+      "perception": { "level": "medium", "notes": "战士视角：感知围绕地形与战术威胁；对灵渊频率的精细感知能力有限，依赖队伍其他人的感知汇报。" }
+    },
+    {
+      "story_time": 11,
+      "facts_known": [
+        "fact_dushi_ability", "fact_sanctuary_retreating", "fact_huipo_vein",
+        "fact_wei_se_hollowed", "fact_shimu_mobile_signal", "fact_shimu_learning_rhythm",
+        "fact_hive_tracker_individual"
+      ],
+      "facts_unknown": ["fact_shi_mu_hunts_lingyin", "fact_dushi_true_cost", "fact_yihe_beacon_direction"],
+      "beliefs_held": [
+        { "belief": "傀儡兵已失效，未来的防线只有人", "is_true": true },
+        { "belief": "蚕母已部署长期跟踪型个体，不只是集结响应", "is_true": true }
+      ],
+      "perception": { "level": "medium", "notes": "战术洞察层面：通过战场行为分析识别跟踪型探兵；无法直接感知灵能频率，但能通过行为逻辑推断威胁模型。" }
+    },
+    {
+      "story_time": 15,
+      "facts_known": [
+        "fact_dushi_ability", "fact_sanctuary_retreating", "fact_huipo_vein",
+        "fact_wei_se_hollowed", "fact_shimu_mobile_signal", "fact_shimu_learning_rhythm",
+        "fact_hive_tracker_individual",
+        "fact_lingyin_frequency_exposed", "fact_lingyin_probe_interval",
+        "fact_lingyin_capability_hidden",
+        "fact_wasteland_arrow_marking",
+        "fact_connections_not_independent"
+      ],
+      "facts_unknown": [
+        "fact_yihe_response_signal", "fact_yihe_beacon_direction",
+        "fact_dushi_true_cost", "fact_wei_se_ember_nature"
+      ],
+      "beliefs_held": [
+        { "belief": "东侧偏南：箭头+遗核信标方向+伊岚说东——三件事不独立", "is_true": true, "status": "压在战术地图里，等合适的时候问" },
+        { "belief": "聆音频率暴露改变了队伍的所有移动与藏匿策略", "is_true": true }
+      ],
+      "projected_facts_to_learn": [],
+      "perception": { "level": "medium", "notes": "ch_017 POV：渗水点侦察中目视+触觉分析发现箭头刻痕（≥2年），亲历第一次窄频探测脉冲降频等待。战术综合：三条信息指向同一方向，结论放进战术地图暂不说出。" }
+    }
+  ]
+}

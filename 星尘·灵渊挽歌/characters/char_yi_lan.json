@@ -1,0 +1,41 @@
+{
+  "id": "char_yi_lan",
+  "name": "伊岚",
+  "role": "protagonist",
+  "base_profile": {
+    "appearance": { "age_equiv": 23, "build": "瘦削而紧绷", "hair": "银灰", "eyes": "微光蓝眼，渡蚀时黯淡如灰烬", "features": "左腕缠着薇瑟遗核的灵能回路纹" },
+    "personality": { "traits": ["刚硬", "自我牺牲", "寡言", "戒备", "对死者过分执着"], "speech": "短促、克制，少废话", "mbti": "INFJ" },
+    "background": { "origin": "更早一座沦陷圣域的孤儿", "family": "亲族皆亡，由薇瑟收养训练", "key_events": ["孩提时圣域沦陷、亲族亡于虫潮", "薇瑟掩护撤离而灵蚀化成空壳，伊岚无力承接"] },
+    "the_ghost": "亲眼看着导师薇瑟为掩护撤离透支灵渊、灵蚀化成空壳，自己却太弱、接不住那份灵蚀。",
+    "the_lie": "只要我足够强，就能独自扛下所有人的灵蚀，让别人不必付出代价——守土是一个人的殉道。",
+    "arc": "从独自燃尽的殉道执念，学会守土是众人分担的守护；承认自己也需要被接住。"
+  },
+  "initial_state": {
+    "story_time": 0,
+    "location": "elem_seventh_garrison",
+    "inventory": [
+      { "item": "elem_wei_se_core", "status": "equipped", "significance": "导师遗物，稳定渡蚀回路的灵枢聚焦核" },
+      { "item": "源质结晶 x6", "status": "carried", "significance": "灵能燃料配给" },
+      { "item": "灵能制式短刃", "status": "equipped" }
+    ],
+    "knowledge": [
+      { "fact": "fact_wei_se_hollowed", "confidence": "certain" },
+      { "fact": "fact_dushi_ability", "confidence": "certain" },
+      { "fact": "fact_sanctuary_retreating", "confidence": "certain" },
+      { "fact": "fact_huipo_vein", "confidence": "certain" },
+      { "fact": "fact_shi_mu_hunts_lingyin", "confidence": "unknown" },
+      { "fact": "fact_dushi_true_cost", "confidence": "unknown" },
+      { "fact": "fact_wei_se_returns", "confidence": "unknown" }
+    ],
+    "beliefs": [
+      { "belief": "守岩仍撑得住，戍垒还能守", "is_true": false },
+      { "belief": "灵蚀只要由我一个人承接，旁人就能保全", "is_true": false }
+    ],
+    "psychology": { "sanity": 78, "core_desire": "守住残部与聆音的未来", "core_fear": "灵蚀夺走记忆，让自己忘记死者、变成空壳", "mood": "紧绷而压抑", "erosion_load": 22 },
+    "abilities": [
+      { "name": "织念", "level": "圆融", "note": "远程念力压制与轻幻觉" },
+      { "name": "御灵·屏障与灵刃", "level": "中御", "note": "前线主力手段" },
+      { "name": "渡蚀", "level": "罕见异能", "note": "转移他人灵蚀至自身灵渊承接，代价是自我加速崩蚀" }
+    ]
+  }
+}

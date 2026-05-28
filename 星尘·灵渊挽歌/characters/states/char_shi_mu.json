@@ -1,0 +1,22 @@
+{
+  "character_id": "char_shi_mu",
+  "states": [
+    {
+      "story_time": 3,
+      "chapter_id": "ch_004",
+      "location": "巢穴核心（灰珀外域）",
+      "inventory_delta": [],
+      "status": [
+        { "type": "active", "desc": "通过空壳薇瑟感知聆音灵渊信号，发出专项捕获指令" }
+      ],
+      "knowledge_gained": [
+        { "fact": "fact_lingyin_pure_lingyuan", "source": "通过空壳薇瑟传回的感知残影识别聆音灵渊的完整性" },
+        { "fact": "fact_wei_se_residue_noise", "source": "发现空壳薇瑟灵渊底层有残余对抗信号，标记为低优先级噪点" }
+      ],
+      "psychology": { "mood": "冷静的渴望；对完整灵渊的饥饿状态；不急于一时", "erosion_load": 0 },
+      "abilities_delta": [
+        { "ability": "专项信号素指令", "change": "首次对第七戍垒发出'不破坏聆音，带回'的专项猎食指令" }
+      ]
+    }
+  ]
+}

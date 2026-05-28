@@ -1,0 +1,31 @@
+{
+  "_note": "权威事件图（节点+因果边）存于 ontology.json 的 events[]。此文件为镜像入口，编辑请以 ontology.json 为准。",
+  "events": [
+    { "id": "evt_huipo_assault",             "story_time": 1,  "thread_id": "thr_garrison", "chapter_id": "ch_001", "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_yi_lan_dushi_zhao",          "story_time": 1,  "thread_id": "thr_yi_lan",  "chapter_id": "ch_001", "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_wei_se_appears",             "story_time": 1,  "thread_id": "thr_hive",    "chapter_id": "ch_001", "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_yi_lan_discovers_memory_loss","story_time": 2, "thread_id": "thr_yi_lan",  "chapter_id": "ch_002", "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_kai_er_arrives",             "story_time": 3,  "thread_id": "thr_garrison","chapter_id": "ch_003", "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_garrison_accepts_deal",      "story_time": 3,  "thread_id": "thr_garrison","chapter_id": "ch_003", "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_shi_mu_marks_lingyin",       "story_time": 3,  "thread_id": "thr_hive",   "chapter_id": "ch_004", "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_qiongshu_retreat_order",     "story_time": 5,  "thread_id": "thr_garrison","chapter_id": "ch_005", "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_lingyin_challenges_yi_lan",  "story_time": 6,  "thread_id": "thr_yi_lan", "chapter_id": "ch_006", "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_yi_lan_forgets_wei_se_face", "story_time": 7,  "thread_id": "thr_yi_lan", "chapter_id": "ch_007", "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_garrison_breakout",          "story_time": 8,  "thread_id": "thr_garrison","chapter_id": "ch_008", "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_yi_lan_dushi_scattered",     "story_time": 8,  "thread_id": "thr_yi_lan", "chapter_id": "ch_008", "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_garrison_abandons_huipo",    "story_time": 9,  "thread_id": "thr_garrison","chapter_id": "ch_009", "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_shimu_signal_mobile",        "story_time": 9,  "thread_id": "thr_hive",   "chapter_id": "ch_009", "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_shou_yan_carves_names",      "story_time": 10, "thread_id": "thr_garrison","chapter_id": "ch_010", "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_shimu_learning_rhythm",      "story_time": 10, "thread_id": "thr_hive",   "chapter_id": "ch_010", "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_puppets_fail",               "story_time": 11, "thread_id": "thr_garrison","chapter_id": "ch_011", "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_first_open_combat",          "story_time": 11, "thread_id": "thr_garrison","chapter_id": "ch_011", "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_hive_tracker_discovered",    "story_time": 11, "thread_id": "thr_garrison","chapter_id": "ch_011", "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_yihe_resonance_discovered",  "story_time": 12, "thread_id": "thr_yi_lan", "chapter_id": "ch_012", "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_yihe_beacon_revealed",       "story_time": 12, "thread_id": "thr_yi_lan", "chapter_id": "ch_012", "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_shouyan_memory_keeper",      "story_time": 13, "thread_id": "thr_garrison","chapter_id": "ch_013", "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_open_terrain_battle",        "story_time": 14, "thread_id": "thr_garrison","chapter_id": "ch_014", "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_lingyin_active_pulse",       "story_time": 14, "thread_id": "thr_hive",   "chapter_id": "ch_014", "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_shou_yan_names_suixing",     "story_time": 14, "thread_id": "thr_garrison","chapter_id": "ch_014", "status": "drafted", "canonical": "ontology.json#events" },
+    { "id": "evt_yihe_response_signal",       "story_time": 14, "thread_id": "thr_yi_lan", "chapter_id": "ch_014", "status": "drafted", "canonical": "ontology.json#events" }
+  ]
+}

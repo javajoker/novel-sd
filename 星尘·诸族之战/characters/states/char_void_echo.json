@@ -1,0 +1,19 @@
+{
+  "character_id": "char_void_echo",
+  "states": [
+    {
+      "story_time": 0,
+      "chapter_id": null,
+      "baseline": true,
+      "location": "elem_omega_station",
+      "inventory_delta": [],
+      "status": [
+        { "type": "baseline", "desc": "巅峰状态·隐匿中；源质觉醒者上位；9年虚空生涯", "severity": "n/a" }
+      ],
+      "knowledge_gained": [],
+      "psychology": { "sanity": 78, "mood": "冷静·蓄势", "core_desire": "完成被中断9年的暗源计划，让联邦为背叛付出代价", "core_fear": "再次信任某人，再次被抛弃" },
+      "abilities_delta": [],
+      "notes": "T=0 锚点。完整初始状态见 characters/char_void_echo.json.initial_state。真名陈霆/前第零团少校；持Θ区遗迹残图。"
+    }
+  ]
+}

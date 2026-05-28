@@ -1,0 +1,12 @@
+{
+  "description": "Manifest of external reference docs/resources for this novel (research, real-world sources, style samples, maps, art). Drop files into reference/ and register them here.",
+  "resources": [
+    {
+      "id": "ref_gdd",
+      "type": "source",
+      "title": "星尘：诸族之战 — 游戏设计文档（GDD）",
+      "path": "/Users/dcjojo/Downloads/ifwg/星尘-诸族之战.html",
+      "note": "本同人小说的世界观与设定来源：源质、五大种族、战导/天灾、能力卡/建造/出兵/任务等系统。小说在其上原创人物与剧情（灵裔守土悲歌）。外部引用，未拷入项目。"
+    }
+  ]
+}

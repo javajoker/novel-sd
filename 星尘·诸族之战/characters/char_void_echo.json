@@ -1,0 +1,72 @@
+{
+  "id": "char_void_echo",
+  "name": "虚影",
+  "role": "antagonist",
+  "base_profile": {
+    "appearance": {
+      "age": "外表约30岁，实际约38岁（源质觉醒者延缓衰老）",
+      "build": "高挑，身形介于优雅和危险之间",
+      "eyes": "左眼深棕（原本的颜色），右眼虚空紫（源质觉醒后的特征）",
+      "hair": "黑色中有丝丝银白，虚空掠夺者式的凌乱绑发",
+      "features": "颈部有一道被联邦特殊拘禁装置留下的环形烧痕",
+      "voice": "低沉，带有回声效果，是高度源质融合的副作用"
+    },
+    "personality": {
+      "mbti": "INTJ",
+      "traits": ["冷酷理性", "长远谋划", "极度自律", "对联邦充满憎恨但非盲目仇恨", "在混乱中寻找真正的秩序"],
+      "speech": "从不废话，每句话都有目的。会用沉默作为武器",
+      "quirks": "会在发现真正有趣的事时微微偏头——这是他人性残留的唯一外显迹象"
+    },
+    "background": {
+      "origin": "赤焰星域，联邦核心区",
+      "real_name": "陈霆（Chen Ting）",
+      "former_identity": "联邦源质觉醒者部队'第零团'少校，同时也是源质主宰候选人",
+      "key_events": [
+        "源质纪元第38年：作为第零团核心成员，参与了'暗源计划'——试图通过摧毁Θ区来阻止异种获得源质",
+        "暗源计划暴露：联邦高层为了撇清责任，将第零团成员全部扣押，准备当替罪羊。陈霆是唯一逃脱的人",
+        "流亡9年：在虚空掠夺者中积累力量，从普通战士升为高层。这9年让他理解了'体制'的本质",
+        "现在：以'虚影'身份运作，真实目的是独自找到Θ区遗迹，完成他未竟的计划——但计划的内容，连他自己都在重新审视"
+      ]
+    },
+    "the_ghost": "第零团的队员们被联邦押入地下牢房时，他是唯一没有回头的人。他逃了，活了，但那一刻队友们的眼神——愤怒还是解脱？他永远不确定。",
+    "the_lie": "相信孤身一人完成使命比信任任何人都更可靠。他以为孤独是一种战略，实际上是一种恐惧。",
+    "motivation": {
+      "surface": "完成暗源计划的真正目标",
+      "deep": "证明联邦体制应该被推翻——但他越来越不确定自己的方式是否会产生更坏的结果",
+      "关于柯炎": "他发现柯炎的源质感知特征与当年第零团最强成员相似，开始关注他。不是要招募，而是在观察——一个年轻版的自己，会做出不同的选择吗？"
+    }
+  },
+  "initial_state": {
+    "story_time": 0,
+    "location": "elem_omega_station",
+    "inventory": [
+      { "item": "虚影刃（改装自联邦制式武器）", "status": "equipped", "significance": "见证了他从联邦到虚空的整个转变" },
+      { "item": "暗金卡·虚空穿梭×1", "status": "carried", "significance": "最高品质能力卡，来源：从一名灵能精英身上夺取" },
+      { "item": "Θ区遗迹地图（残缺）", "status": "carried", "significance": "9年搜集的成果，仍有关键空白" }
+    ],
+    "knowledge": [
+      { "fact": "fact_theta_secret", "confidence": "high（最接近真相的人之一）" },
+      { "fact": "fact_void_echo_identity", "confidence": "self（他就是虚影）" },
+      { "fact": "fact_ke_yan_potential", "confidence": "partial（正在观察）" },
+      { "fact": "fact_herald_evolving", "confidence": "aware（他是少数察觉到异种先驱异变的人之一）" }
+    ],
+    "beliefs": [
+      { "belief": "孤独行动比信任他人更可靠", "is_true": false },
+      { "belief": "联邦无法被改革，只能被取代", "is_true": "complex" },
+      { "belief": "柯炎只是一个有潜力的普通士兵，还不值得直接接触", "is_true": false }
+    ],
+    "psychology": {
+      "sanity": 78,
+      "core_desire": "完成那个9年前被中断的计划，并让联邦为它的背叛付出代价",
+      "core_fear": "再次信任某人，然后再次被抛弃",
+      "mood": "冷静·蓄势",
+      "notes": "9年的虚空生涯让他学会了等待。Θ区争夺战即将开始，这是他等待的那个时机。"
+    },
+    "abilities": [
+      { "name": "虚空穿梭（暗金卡）", "level": "精通", "element": "虚空" },
+      { "name": "源质觉醒（完整）", "level": "觉醒者上位", "element": "虚空/混沌" },
+      { "name": "战术指挥", "level": "前第零团少校级", "element": "无" }
+    ],
+    "status": "巅峰状态·隐匿中"
+  }
+}

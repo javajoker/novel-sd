@@ -1,0 +1,20 @@
+{
+  "id": "char_shi_mu",
+  "name": "蚀母",
+  "role": "antagonist",
+  "base_profile": {
+    "appearance": { "build": "庞硕、半透明、不断蠕动重构的母体", "features": "体内悬浮着无数被吞噬灵渊的灰白余烬" },
+    "personality": { "traits": ["冷酷", "无情绪而有渴望", "以群体智慧思考", "永远饥饿"], "speech": "不用言语，以信息素与本能号令虫群" },
+    "background": { "origin": "异种虫巢的母体意志化身", "key_events": ["沿星域吞噬灵裔灵渊而不断进化", "察觉灰珀有罕见纯净灵渊"] },
+    "the_want": "吞噬足够纯净深邃的灵渊，完成下一次进化跃迁。",
+    "method": "以虫潮强袭、以空壳作触手回传气息；优先标记最纯净的灵渊。"
+  },
+  "initial_state": {
+    "story_time": 0,
+    "location": "elem_huipo",
+    "inventory": [],
+    "knowledge": [],
+    "psychology": { "sanity": 100, "core_desire": "进化", "core_fear": "（无）", "mood": "饥饿", "erosion_load": 0 },
+    "abilities": [{ "name": "虫群号令与吞噬进化", "level": "母体" }]
+  }
+}

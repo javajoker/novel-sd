@@ -1,0 +1,21 @@
+{
+  "id": "char_wei_se",
+  "name": "薇瑟",
+  "role": "supporting",
+  "base_profile": {
+    "appearance": { "build": "曾经挺拔，今则空茫游移", "hair": "灰白凌乱", "eyes": "全然无神，偶有一闪即逝的悸动", "features": "灵渊外溢的灰色裂纹爬满颈侧" },
+    "personality": { "traits": ["（空壳·无自我）", "残留对伊岚气息的微弱趋近"], "speech": "无言，偶发破碎的旧语" },
+    "background": { "origin": "灵渊阶的伟大守御者，织星者", "family": "收养并训练伊岚", "key_events": ["为掩护一次撤离开渊透支，灵蚀化成空壳", "如今随战场气流游荡，被虫群裹挟"] },
+    "the_ghost": "（已无自我可被回忆所困）",
+    "the_lie": "（生前同样信奉独自燃尽以护人——伊岚之执念的源头）",
+    "hollow_note": "空壳：无识无我，但灵渊深处残留极微弱的‘自我余烬’，唯有伊岚的渡蚀能感知。"
+  },
+  "initial_state": {
+    "story_time": 0,
+    "location": "elem_huipo",
+    "inventory": [],
+    "knowledge": [],
+    "psychology": { "sanity": 0, "core_desire": "（无）", "core_fear": "（无）", "mood": "空茫", "erosion_load": 100 },
+    "abilities": [{ "name": "残存灵渊余威", "level": "不受控", "note": "灵能仍强，但无意志驱动，随虫群本能释放" }]
+  }
+}

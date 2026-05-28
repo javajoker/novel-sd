@@ -1,0 +1,113 @@
+{
+  "character_id": "char_yi_lan",
+  "knowledge_at": [
+    {
+      "story_time": 0,
+      "facts_known": ["fact_wei_se_hollowed", "fact_dushi_ability", "fact_sanctuary_retreating", "fact_huipo_vein"],
+      "facts_unknown": ["fact_shi_mu_hunts_lingyin", "fact_dushi_true_cost", "fact_wei_se_returns"],
+      "beliefs_held": [
+        { "belief": "守岩仍撑得住，戍垒还能守", "is_true": false },
+        { "belief": "只要灵蚀由我一个人承接，旁人就能保全", "is_true": false }
+      ],
+      "perception": { "level": "high", "notes": "渡蚀使她能感知他人灵渊中的灵蚀深浅；但读不出全局战导调度，也读不出蚀母的意图。" }
+    },
+    {
+      "story_time": 1,
+      "facts_known": ["fact_wei_se_hollowed", "fact_dushi_ability", "fact_sanctuary_retreating", "fact_huipo_vein", "fact_wei_se_returns"],
+      "facts_unknown": ["fact_shi_mu_hunts_lingyin", "fact_dushi_true_cost"],
+      "beliefs_held": [
+        { "belief": "只要灵蚀由我一个人承接，旁人就能保全", "is_true": false },
+        { "belief": "薇瑟的空壳里还残留着她——我能听见", "is_true": true }
+      ],
+      "perception": { "level": "high", "notes": "强袭末尾，伊岚在突破口认出空壳薇瑟，并在渡蚀感知中触到她灵渊深处一丝悸动。" }
+    },
+    {
+      "story_time": 2,
+      "facts_known": ["fact_wei_se_hollowed", "fact_dushi_ability", "fact_sanctuary_retreating", "fact_huipo_vein", "fact_wei_se_returns", "fact_dushi_erases_memory"],
+      "facts_unknown": ["fact_shi_mu_hunts_lingyin", "fact_dushi_true_cost"],
+      "beliefs_held": [
+        { "belief": "只要灵蚀由我一个人承接，旁人就能保全", "is_true": false },
+        { "belief": "薇瑟的空壳里还残留着她——遗核的微温或许是证据", "is_true": true }
+      ],
+      "perception": { "level": "high", "notes": "战后检查灵渊，发现薇瑟的声音记忆已被渡蚀磨去，第一次真实感受到渡蚀对自身记忆的代价；遗核夜里发出微弱温度，不确定真实性。" }
+    },
+    {
+      "story_time": 6,
+      "facts_known": ["fact_wei_se_hollowed", "fact_dushi_ability", "fact_sanctuary_retreating", "fact_huipo_vein", "fact_wei_se_returns", "fact_dushi_erases_memory", "fact_lingyin_knows_shimu"],
+      "facts_unknown": ["fact_dushi_true_cost"],
+      "beliefs_held": [
+        { "belief": "只要灵蚀由我一个人承接，旁人就能保全", "is_true": false, "status": "被动摇，但未放弃" },
+        { "belief": "薇瑟的空壳里还残留着她——遗核的微温或许是证据", "is_true": true },
+        { "belief": "我需要开口请求协作才能真正保护聆音", "is_true": true, "status": "新生" }
+      ],
+      "perception": { "level": "high", "notes": "聆音主动披露：感知到蚀母在等她（非等戍垒垮掉）。伊岚意识到自己的独自承担模式是在复刻薇瑟的殉道选择。第一次主动向昭开口请求协作。" }
+    },
+    {
+      "story_time": 9,
+      "facts_known": ["fact_wei_se_hollowed", "fact_dushi_ability", "fact_sanctuary_retreating", "fact_huipo_vein", "fact_wei_se_returns", "fact_dushi_erases_memory", "fact_lingyin_knows_shimu", "fact_shimu_mobile_signal"],
+      "facts_unknown": ["fact_dushi_true_cost", "fact_wei_se_ember_nature"],
+      "beliefs_held": [
+        { "belief": "只要灵蚀由我一个人承接，旁人就能保全", "is_true": false, "status": "已实质放弃，行动层面已改变" },
+        { "belief": "薇瑟的空壳里还残留着她——遗核比任何一次都温", "is_true": true },
+        { "belief": "这件事不叫守土了，但还没有名字", "is_true": true, "status": "新生" }
+      ],
+      "perception": { "level": "high", "notes": "聆音确认：蚀母信号已从固定指向第七戍垒变为跟随聆音的移动锁定。伊岚接收这个事实，整合入行动框架而非崩溃。遗核在荒原中比任何一次都温——检查它的方式从'希望'变成了'旧伤'。" }
+    },
+    {
+      "story_time": 10,
+      "facts_known": ["fact_wei_se_hollowed", "fact_dushi_ability", "fact_sanctuary_retreating", "fact_huipo_vein", "fact_wei_se_returns", "fact_dushi_erases_memory", "fact_lingyin_knows_shimu", "fact_shimu_mobile_signal", "fact_shimu_learning_rhythm"],
+      "facts_unknown": ["fact_dushi_true_cost", "fact_wei_se_ember_nature"],
+      "beliefs_held": [
+        { "belief": "只要灵蚀由我一个人承接，旁人就能保全", "is_true": false, "status": "已实质放弃，行动层面已改变" },
+        { "belief": "薇瑟的空壳里还残留着她——遗核比任何一次都热", "is_true": true },
+        { "belief": "这件事不叫守土了，但还没有名字", "is_true": true },
+        { "belief": "固定驻扎是奢侈品，时间窗口在收窄", "is_true": true, "status": "新生" }
+      ],
+      "perception": { "level": "high", "notes": "首夜集合点：以灵能感知（约30米半径）代替护盾。遗核在夜间更热，但无幻觉。聆音告知蚀母信号已进入'学习节律'阶段——威胁升级为预测性锁定。" }
+    },
+    {
+      "story_time": 12,
+      "facts_known": ["fact_wei_se_hollowed", "fact_dushi_ability", "fact_sanctuary_retreating", "fact_huipo_vein", "fact_wei_se_returns", "fact_dushi_erases_memory", "fact_lingyin_knows_shimu", "fact_shimu_mobile_signal", "fact_shimu_learning_rhythm", "fact_yihe_beacon_direction", "fact_yihe_dushi_resonance"],
+      "facts_unknown": ["fact_dushi_true_cost", "fact_wei_se_ember_nature"],
+      "beliefs_held": [
+        { "belief": "只要灵蚀由我一个人承接，旁人就能保全", "is_true": false, "status": "已实质放弃" },
+        { "belief": "薇瑟的空壳里还残留着她——遗核的方向可能在追踪她", "is_true": true, "status": "从'希望'演变为'可能性'，带着重量" },
+        { "belief": "遗核方向（东侧偏南）与跟踪型探兵路径（东南）存在交叠——但不能说出来", "is_true": "unknown", "status": "压着，等" }
+      ],
+      "perception": { "level": "high", "notes": "第二夜：首次对遗核用渡蚀感知，发现共振现象。聆音确认遗核频率非蜂巢，为固定方向信标（东侧偏南）。伊岚将此与昭的探兵报告（东南方向）并排放置但未连结——避免说出某个需要立刻回应的结论。" }
+    },
+    {
+      "story_time": 14,
+      "facts_known": ["fact_wei_se_hollowed", "fact_dushi_ability", "fact_sanctuary_retreating", "fact_huipo_vein", "fact_wei_se_returns", "fact_dushi_erases_memory", "fact_lingyin_knows_shimu", "fact_shimu_mobile_signal", "fact_shimu_learning_rhythm", "fact_yihe_beacon_direction", "fact_yihe_dushi_resonance", "fact_yihe_response_signal", "fact_yihe_overload_assist"],
+      "facts_unknown": ["fact_dushi_true_cost", "fact_wei_se_ember_nature"],
+      "beliefs_held": [
+        { "belief": "只要灵蚀由我一个人承接，旁人就能保全", "is_true": false, "status": "已实质放弃" },
+        { "belief": "薇瑟的空壳里还残留着她——遗核东侧偏南方向有活体回应", "is_true": "unknown", "status": "回应脉冲确认了某种存在，握着不说" },
+        { "belief": "我们做的事叫随行", "is_true": true, "status": "守岩命名，接受" }
+      ],
+      "perception": { "level": "high", "notes": "卷末：首次荒原大战守住。战中遗核对渡蚀过载有辅助脉动。战后触遗核时收到东侧偏南方向单次脉冲回应——旧频率，非蜂巢。守岩命名'随行'，伊岚接受。两件事（遗核回应、随行命名）同时发生，各自放着。" }
+    },
+    {
+      "story_time": 15,
+      "facts_known": [
+        "fact_wei_se_hollowed", "fact_dushi_ability", "fact_sanctuary_retreating", "fact_huipo_vein",
+        "fact_wei_se_returns", "fact_dushi_erases_memory", "fact_lingyin_knows_shimu",
+        "fact_shimu_mobile_signal", "fact_shimu_learning_rhythm",
+        "fact_yihe_beacon_direction", "fact_yihe_dushi_resonance",
+        "fact_yihe_response_signal", "fact_yihe_overload_assist",
+        "fact_shou_yan_noticed_yihe_moved",
+        "fact_lingyin_frequency_exposed",
+        "fact_lingyin_capability_hidden",
+        "fact_wasteland_arrow_marking"
+      ],
+      "facts_unknown": ["fact_dushi_true_cost", "fact_wei_se_ember_nature", "fact_connections_not_independent"],
+      "beliefs_held": [
+        { "belief": "只要灵蚀由我一个人承接，旁人就能保全", "is_true": false, "status": "已实质放弃" },
+        { "belief": "东侧偏南方向有某种活的、能回应的存在——遗核回应、箭头标记、遗核信标指向同一方向", "is_true": "unknown", "status": "三线收束，沉着携带，未说出" },
+        { "belief": "我们做的事叫随行——但随行需要说出来的事，我还有一件没说", "is_true": true, "status": "随行与隐瞒的张力" }
+      ],
+      "projected_facts_to_learn": [],
+      "perception": { "level": "high", "notes": "ch_015-017：决定往东，守岩告知遗核动了，聆音报告频率暴露（窄频定位脉冲每40分钟），昭发现渗水点箭头刻痕（至少两年，指东侧偏南）。三条来自不同方向的证据收束到同一方向，伊岚选择不解释只说'走'。" }
+    }
+  ]
+}

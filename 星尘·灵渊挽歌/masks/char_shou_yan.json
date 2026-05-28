@@ -1,0 +1,140 @@
+{
+  "character_id": "char_shou_yan",
+  "knowledge_at": [
+    {
+      "story_time": 1,
+      "chapter_id": "ch_001",
+      "facts_known": [
+        "fact_dushi_ability",
+        "fact_sanctuary_retreating",
+        "fact_huipo_vein",
+        "fact_wei_se_hollowed",
+        "fact_garrison_attrition_rate"
+      ],
+      "facts_unknown": [
+        "fact_shi_mu_hunts_lingyin",
+        "fact_wei_se_returns",
+        "fact_dushi_true_cost（具体的记忆代价机制还不知）"
+      ],
+      "beliefs_held": [
+        { "belief": "守土是把所有人留下，不是把自己留下", "is_true": true, "status": "戍长信条" },
+        { "belief": "穹枢会按战略价值评估每一处戍垒——不一定有人来" , "is_true": true, "status": "克制的现实主义" }
+      ],
+      "perception": {
+        "level": "medium",
+        "notes": "战士视角：感知围绕地形、人员状态与战术威胁；对灵能频率的精细感知能力有限，依赖聆音的感知汇报。但有极强的'人'的精度——他记得每个人的名字、状态、上一次哭是什么时候。"
+      }
+    },
+    {
+      "story_time": 11,
+      "chapter_id": "ch_011",
+      "facts_known": [
+        "fact_dushi_ability", "fact_sanctuary_retreating", "fact_huipo_vein",
+        "fact_wei_se_hollowed", "fact_garrison_attrition_rate",
+        "fact_shimu_mobile_signal", "fact_shimu_learning_rhythm",
+        "fact_hive_tracker_individual"
+      ],
+      "facts_unknown": [
+        "fact_shi_mu_hunts_lingyin",
+        "fact_dushi_true_cost",
+        "fact_yihe_beacon_direction"
+      ],
+      "beliefs_held": [
+        { "belief": "傀儡兵失效后我已经不是戍长了——这件事我知道，伊岚知道，昭知道，但没人需要说出来", "is_true": true, "status": "ch_011 安静的角色转换" },
+        { "belief": "伊岚的渡蚀正在烧她自己——我要记下她忘掉的东西", "is_true": true, "status": "活档案功能的初始指令" }
+      ],
+      "perception": {
+        "level": "medium",
+        "notes": "ch_011 后：他主动开始记录被伊岚遗忘的东西——名字、对话、某人的脸。这是 memory_keeper 功能的实质开始，不需要任何宣告。"
+      }
+    },
+    {
+      "story_time": 14,
+      "chapter_id": "ch_014",
+      "facts_known": [
+        "fact_dushi_ability", "fact_sanctuary_retreating", "fact_huipo_vein",
+        "fact_wei_se_hollowed", "fact_garrison_attrition_rate",
+        "fact_shimu_mobile_signal", "fact_shimu_learning_rhythm",
+        "fact_hive_tracker_individual",
+        "fact_lingyin_frequency_exposed",
+        "fact_yihe_signal_node（遗核为旧频率、东侧偏南方向信标——他在ch_012在场听到聆音的判断）",
+        "fact_yihe_response_signal（卷末战后他在场——伊岚以渡蚀触遗核收到回应；但他不点破伊岚的'压住'）"
+      ],
+      "facts_unknown": [
+        "fact_dushi_true_cost",
+        "fact_shi_mu_hunts_lingyin（他到ch_016才确认）"
+      ],
+      "beliefs_held": [
+        { "belief": "我为这种'无墙的同行'找到一个词：随行", "is_true": true, "status": "ch_014 命名时刻" },
+        { "belief": "伊岚把某件事压住了，我不问，但我看见了", "is_true": true, "status": "memory_keeper 升级为'看见者'的开始" }
+      ],
+      "perception": {
+        "level": "medium",
+        "notes": "ch_014 卷末：他完成了从戍长→活档案→命名者的角色变迁。'随行'这个词成为本卷给后面所有章节的工具。"
+      }
+    },
+    {
+      "story_time": 15,
+      "chapter_id": "ch_015",
+      "facts_known": [
+        "fact_dushi_ability", "fact_sanctuary_retreating", "fact_huipo_vein",
+        "fact_wei_se_hollowed", "fact_garrison_attrition_rate",
+        "fact_shimu_mobile_signal", "fact_shimu_learning_rhythm",
+        "fact_hive_tracker_individual",
+        "fact_lingyin_frequency_exposed",
+        "fact_yihe_signal_node",
+        "fact_yihe_response_signal",
+        "fact_yilan_knows_direction_partial（他在ch_015观察到伊岚说'东'的方式和ch_014收到回应后那一刻的隐瞒在同一形态里——他还没有确认细节，但他知道'有一件事'）"
+      ],
+      "facts_unknown": [
+        "fact_dushi_true_cost",
+        "fact_shi_mu_hunts_lingyin（还差一拍）"
+      ],
+      "projected_facts_to_learn": [
+        { "fact": "fact_shi_mu_hunts_lingyin", "stage": "imminent", "trigger": "ch_016 聆音报告时他自己的提问'你以前的频率和昨晚那个一样吗'" },
+        { "fact": "fact_wasteland_arrow_marking", "stage": "via_zhao", "trigger": "ch_017 昭发现并汇报" }
+      ],
+      "beliefs_held": [
+        { "belief": "把我知道的事放进能被看见的地方——不追问，不解释", "is_true": true, "status": "ch_015 对伊岚说'你手里那个东西昨晚动了'即此原则的执行" },
+        { "belief": "伊岚需要时间，不需要被推", "is_true": true, "status": "memory_keeper 的耐心" }
+      ],
+      "perception": {
+        "level": "medium",
+        "notes": "ch_015：他用一句陈述（不是问题）让伊岚知道'我看见了'——这是 memory_keeper 功能的成熟形态。他不收集真相，他制造一个让真相可以来的空间。"
+      }
+    },
+    {
+      "story_time": 17,
+      "chapter_id": "ch_021",
+      "facts_known": [
+        "fact_dushi_ability", "fact_sanctuary_retreating", "fact_huipo_vein",
+        "fact_wei_se_hollowed", "fact_garrison_attrition_rate",
+        "fact_shimu_mobile_signal", "fact_shimu_learning_rhythm",
+        "fact_hive_tracker_individual",
+        "fact_lingyin_frequency_exposed",
+        "fact_lingyin_probe_interval",
+        "fact_shi_mu_hunts_lingyin",
+        "fact_yihe_signal_node",
+        "fact_yihe_response_signal",
+        "fact_yilan_knows_direction_partial",
+        "fact_wasteland_arrow_marking",
+        "fact_connections_not_independent"
+      ],
+      "facts_unknown": [
+        "fact_dushi_true_cost",
+        "fact_wei_se_ember_nature（薇瑟余烬的本质：是否仍是她）"
+      ],
+      "beliefs_held": [
+        { "belief": "你知道我们要去哪里", "is_true": true, "status": "ch_021 他对伊岚说出这句陈述——是他承担'看见'的最高浓度时刻" },
+        { "belief": "她能说出多少就接住多少，不评价不追问", "is_true": true, "status": "memory_keeper 的姿势已稳态" }
+      ],
+      "projected_facts_to_learn": [
+        { "fact": "fact_yi_lan_full_direction_truth", "stage": "ch_024_expected", "trigger": "伊岚已半开口，下一次说出会更完整" }
+      ],
+      "perception": {
+        "level": "medium",
+        "notes": "ch_021 渗水点：守岩用一句陈述击穿伊岚的封闭——但他自己并不期待立即收到完整答案。他在'制造空间'，让答案到来。这是本系列对'见证'这个动作的核心定义。"
+      }
+    }
+  ]
+}

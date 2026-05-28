@@ -1,0 +1,19 @@
+{
+  "character_id": "char_wei_se",
+  "states": [
+    {
+      "story_time": 0,
+      "chapter_id": null,
+      "baseline": true,
+      "location": "elem_seventh_garrison（突破口区，空壳形态出现的场景）",
+      "design_note": "薇瑟在故事开始前已被蚀母吞噬其灵渊主体——她以'空壳'形态出现在战场，没有可演化的'活'状态。她的本体不再积累 inventory / psychology / abilities 等运行时变量；这些字段对她不适用。",
+      "ember_locus": {
+        "object": "elem_wei_se_core（遗核）",
+        "description": "她的'自我余烬'寄存在遗核中——温度、共振、回应脉冲都是这块余烬的外显信号；'真实性存疑'与'真实在场'两种解读对所有出场都成立。",
+        "tracked_in": "memory/plot_threads.json#hook_wei_se_ember"
+      },
+      "appearance_log": "她在文本里出现的方式（短暂可见 / 遗核回应 / 第一次说话 / 第一次消失）由 hook_wei_se_ember.occurrences 与相关章节的 beat sheet 记录；她没有独立的 state delta 链条。",
+      "notes": "本文件存在的目的是把'她没有可更新的运行时状态'这个设计决策锚定在 KB 的标准位置——避免后续作者误以为遗漏了状态快照。所有与薇瑟相关的'状态变化'实际上是遗核或队伍内部对她的认知变化，应记录在 elem_wei_se_core 的相关位置或对应的 mask / hook 上。"
+    }
+  ]
+}

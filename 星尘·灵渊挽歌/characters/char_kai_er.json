@@ -1,0 +1,20 @@
+{
+  "id": "char_kai_er",
+  "name": "凯尔",
+  "role": "supporting",
+  "base_profile": {
+    "appearance": { "build": "中等，军姿笔挺", "features": "联邦动力装甲，左胸源质勋章" },
+    "personality": { "traits": ["务实", "灰色", "谈判式礼貌", "把人命换算成资源"], "speech": "精确、克制、永远留有余地" },
+    "background": { "origin": "星尘联邦灰珀战区派驻军官", "key_events": ["奉命接洽灵裔，换取灰珀源质矿脉的开采权"] },
+    "the_want": "以最小代价拿到灰珀源质矿脉，向上交差。",
+    "grey_note": "并非反派：他能带来灵裔急需的源质与火力，但每一份援助都有附带条件。"
+  },
+  "initial_state": {
+    "story_time": 0,
+    "location": "elem_huipo",
+    "inventory": [{ "item": "联邦结盟协定草案", "status": "carried" }],
+    "knowledge": [{ "fact": "fact_huipo_vein", "confidence": "certain" }],
+    "psychology": { "sanity": 95, "core_desire": "完成任务并自保", "core_fear": "卷入注定败局", "mood": "审慎", "erosion_load": 0 },
+    "abilities": [{ "name": "联邦战术指挥与后勤调度", "level": "军官" }]
+  }
+}

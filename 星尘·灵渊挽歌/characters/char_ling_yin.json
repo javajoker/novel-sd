@@ -1,0 +1,21 @@
+{
+  "id": "char_ling_yin",
+  "name": "聆音",
+  "role": "supporting",
+  "base_profile": {
+    "appearance": { "age_equiv": 9, "build": "瘦小", "hair": "近乎透明的浅金", "eyes": "清澈过分，瞳底有星点流转", "features": "灵渊纯净，靠近时旁人灵息会不自觉安宁" },
+    "personality": { "traits": ["安静", "早慧", "对灵息异常敏感", "会替大人难过"], "speech": "稚气却常一语中的" },
+    "background": { "origin": "戍垒中诞生的孩子", "family": "由戍队众人共同抚养", "key_events": ["天生拥有罕见纯净深邃的灵渊", "尚未真正上过战场"] },
+    "the_ghost": "（尚幼，悲剧未至——她是众人守护的‘未来’本身）",
+    "the_lie": "只要自己乖、不添乱，大人们就不会有人离开。",
+    "plot_note": "纯净灵渊是蚀母觊觎吞噬的目标，也是穹枢必须护送回撤的战略资产。"
+  },
+  "initial_state": {
+    "story_time": 0,
+    "location": "elem_seventh_garrison",
+    "inventory": [{ "item": "伊岚给的源质护符", "status": "carried", "significance": "安抚与微弱护佑" }],
+    "knowledge": [],
+    "psychology": { "sanity": 90, "core_desire": "大家都别走", "core_fear": "被独自留下", "mood": "怯生生的依赖", "erosion_load": 2 },
+    "abilities": [{ "name": "感灵·通感", "level": "初醒", "note": "能感知他人灵息的明暗与悲喜" }]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "plot_hooks": [
+    {
+      "id": "hook_keyan_potential",
+      "title": "柯炎的源质感知潜力",
+      "summary": "柯炎的源质感知远超普通士兵，有走向觉醒者甚至主宰的潜力；他自己只是隐约察觉，并不断自我合理化为'老兵直觉'。",
+      "related_facts": ["fact_ke_yan_potential"],
+      "planted_chapter": "ch_001",
+      "payoff_target_chapter": "ch_080",
+      "severity": "primary",
+      "status": "open",
+      "occurrences": []
+    },
+    {
+      "id": "hook_void_echo_identity",
+      "title": "虚影的真实身份（陈霆/前第零团）",
+      "summary": "虚影曾是联邦源质觉醒者部队第零团少校陈霆，9年前因暗源计划暴露后被联邦扣押并准备当替罪羊，他是唯一逃脱者。",
+      "related_facts": ["fact_void_echo_identity"],
+      "planted_chapter": "ch_006",
+      "payoff_target_chapter": "vol_02-vol_03",
+      "severity": "primary",
+      "status": "open",
+      "occurrences": []
+    },
+    {
+      "id": "hook_theta_secret",
+      "title": "Θ区遗迹与最初源质觉醒原点",
+      "summary": "Θ区深处存在源质浓度极高的古代遗迹，传说是宇宙中最初源质觉醒的原点。控制它就能扭转整场战争。",
+      "related_facts": ["fact_theta_secret"],
+      "planted_chapter": "ch_015",
+      "payoff_target_chapter": "vol_04",
+      "severity": "primary",
+      "status": "open",
+      "occurrences": []
+    },
+    {
+      "id": "hook_herald_evolving",
+      "title": "异种先驱进化出独立意识",
+      "summary": "一名异种通过吞噬多名源质觉醒者，已超越蜂巢意识，发展出独立思考和战略能力——蜂巢尚未发现，发现后会清理。",
+      "related_facts": ["fact_herald_evolving"],
+      "planted_chapter": "ch_010",
+      "payoff_target_chapter": "vol_02",
+      "severity": "primary",
+      "status": "open",
+      "occurrences": []
+    },
+    {
+      "id": "hook_liushuang_secret",
+      "title": "刘霜的隐藏融合者身份与秘密项目",
+      "summary": "刘霜实为联邦特殊项目研究员，以医疗兵身份隐藏；任务是观察柯炎这类高源质适应性个体并记录数据。任务与情感开始冲突。",
+      "related_facts": [],
+      "planted_chapter": "ch_005",
+      "payoff_target_chapter": "ch_035",
+      "severity": "secondary",
+      "status": "open",
+      "occurrences": []
+    },
+    {
+      "id": "hook_zhou_despair_directive",
+      "title": "周恒的密令：放弃普通士兵、保护数据",
+      "summary": "周恒已接到联邦高层密令——若要塞不可守，优先撤离源质研究数据而非1200名普通士兵。他尚未决定是否服从。",
+      "related_facts": [],
+      "planted_chapter": "ch_002",
+      "payoff_target_chapter": "ch_070",
+      "severity": "secondary",
+      "status": "open",
+      "occurrences": []
+    },
+    {
+      "id": "hook_federation_losing",
+      "title": "联邦边界战线全面崩溃",
+      "summary": "联邦在边界星域的防线持续收缩，多个前沿据点已失守。星尘要塞是最后的钉子。",
+      "related_facts": ["fact_federation_losing"],
+      "planted_chapter": "ch_001",
+      "payoff_target_chapter": "ch_070",
+      "severity": "macro",
+      "status": "open",
+      "occurrences": []
+    },
+    {
+      "id": "hook_psi_elder_mission",
+      "title": "艾薇儿与族议会的真实关系",
+      "summary": "艾薇儿被族议会派去边界星域确认Θ区古灵能档案是否存在，并在必要时'抹除'它——她不知族议会为何要抹除自己文明的源头，也不知失联是否被安排。",
+      "related_facts": [],
+      "planted_chapter": "ch_025",
+      "payoff_target_chapter": "vol_02",
+      "severity": "secondary",
+      "status": "open",
+      "occurrences": []
+    },
+    {
+      "id": "hook_an_yuan_plan",
+      "title": "暗源计划——9年前未竟之事",
+      "summary": "9年前第零团试图通过摧毁Θ区阻止异种获得源质，计划暴露后被联邦高层当替罪羊。虚影是唯一逃脱者，他的真实目标是完成它——但他自己也在重新审视计划的内容。",
+      "related_facts": [],
+      "planted_chapter": "ch_050",
+      "payoff_target_chapter": "vol_02-vol_04",
+      "severity": "primary",
+      "status": "open",
+      "occurrences": []
+    },
+    {
+      "id": "hook_keyan_parents_death",
+      "title": "柯炎父母之死的真相",
+      "summary": "柯炎父亲死于矿难（联邦管理层为产量忽视安全），母亲死于'黑色星期四'战役——他怀疑是联邦战略放弃；虚影在ch_050的一句问话将这件事推到前景。",
+      "related_facts": [],
+      "planted_chapter": "ch_050",
+      "payoff_target_chapter": "vol_03",
+      "severity": "primary",
+      "status": "open",
+      "occurrences": []
+    }
+  ]
+}

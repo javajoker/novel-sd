@@ -1,0 +1,38 @@
+{
+  "character_id": "char_ling_yin",
+  "states": [
+    {
+      "story_time": 14,
+      "chapter_id": "ch_014",
+      "location": "elem_huipo_wasteland（东侧矿石群）",
+      "inventory_delta": [],
+      "status": [
+        { "type": "milestone", "desc": "首次主动使用全频灵能脉冲干扰蚕母集结信号——将自身频率与蚕母集结接收端重合，北侧集结组失去方向散开撤退", "severity": "n/a" },
+        { "type": "critical", "desc": "全频脉冲后灵能储量大量消耗；灵能频率完整签名向所有方向广播——蚕母已可识别聆音的完整基础频率特征", "severity": "high" }
+      ],
+      "knowledge_gained": [],
+      "psychology": { "sanity": 72, "mood": "主动出击之后的沉静——她做了昨晚能做的事，代价她知道，暂时不说出来", "erosion_load": 5 },
+      "abilities_delta": [
+        { "ability": "全频灵能脉冲（主动干扰）", "change": "首次将感知能力用作主动干扰手段；向外广播频率可覆盖蚕母集结信号接收端——代价是频率特征完全暴露" }
+      ],
+      "derived_inventory": []
+    },
+    {
+      "story_time": 15,
+      "chapter_id": "ch_015–ch_016",
+      "location": "elem_huipo_wasteland_east（东行途中）",
+      "inventory_delta": [],
+      "status": [
+        { "type": "debuff", "desc": "ch_014全频脉冲后灵能恢复中：感知范围缩至约平时六成，主动感知力度克制，维持基础覆盖", "severity": "medium" },
+        { "type": "psychology", "desc": "ch_016：将频率暴露事实主动汇报给队伍（等到确认完才说出）；接受守岩关于'蚕母认识基础频率而非全部'的信息，威胁边界变清晰了", "severity": "n/a" },
+        { "type": "psychology", "desc": "ch_015–016：在行进中持续测试频率边界——展开感知再收缩，测量能往外推多远而不触发蚕母探测脉冲；主动寻找对策", "severity": "n/a" }
+      ],
+      "knowledge_gained": [
+        { "fact": "fact_lingyin_frequency_exposed", "source": "自身感知：全频脉冲后发现蚕母信号变从宽频扫描变为针对性窄频定位脉冲，约40分钟间隔，方向精度高" },
+        { "fact": "fact_lingyin_capability_hidden", "source": "ch_016：守岩的提示——蚕母见过她的基础感知频率，但没见过她用同一频率做别的事" }
+      ],
+      "psychology": { "sanity": 72, "mood": "平静、工作、自己找方法；威胁边界更清楚了，不因此崩溃，在找能做的事", "erosion_load": 5 },
+      "abilities_delta": []
+    }
+  ]
+}

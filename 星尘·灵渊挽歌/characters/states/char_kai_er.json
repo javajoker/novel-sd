@@ -1,0 +1,19 @@
+{
+  "character_id": "char_kai_er",
+  "states": [
+    {
+      "story_time": 3,
+      "chapter_id": "ch_003",
+      "location": "elem_seventh_garrison",
+      "inventory_delta": [],
+      "status": [
+        { "type": "active", "desc": "登场，在灰珀临时平台等待戍垒答复；正式带来联邦协定" }
+      ],
+      "knowledge_gained": [
+        { "fact": "fact_lingyin_exists", "source": "己方情报；主动提及联邦可安置灵能天才" }
+      ],
+      "psychology": { "sanity": 100, "mood": "职业性的中立；精于谈判，不带情绪", "erosion_load": 0 },
+      "abilities_delta": []
+    }
+  ]
+}

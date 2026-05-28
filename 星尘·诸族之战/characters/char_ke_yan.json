@@ -1,0 +1,86 @@
+{
+  "id": "char_ke_yan",
+  "name": "柯炎",
+  "role": "protagonist",
+  "base_profile": {
+    "appearance": {
+      "age": 26,
+      "build": "中等偏瘦，肌肉线条实用而非美观",
+      "eyes": "深棕色，习惯性眯着，像是在黑暗中看清了太多东西",
+      "hair": "短发，有一撮被某次爆炸烧焦后再生的白毛",
+      "features": "左脸颊有一道细长疤痕，鼻梁被打断后自然愈合略有弯折。表情很少变化，即使在笑，眼睛也是凉的",
+      "voice": "低而平，说话极简，惜字如金"
+    },
+    "personality": {
+      "mbti": "ISTP",
+      "traits": ["冷静", "务实", "直觉敏锐", "不信任体制", "行动优先于言语", "在沉默中积累判断"],
+      "speech": "极简，不废话。紧急状态下反而更冷静。偶尔一句话能戳中要害",
+      "quirks": "在高压情境下会下意识摸左手无名指——那里曾有一枚联邦徽章戒指，已经在某次任务中丢失"
+    },
+    "background": {
+      "origin": "赤焰星域，矿区第三区，工人家庭",
+      "family": "父亲是矿工，在源质矿脉爆炸事故中死亡（柯炎12岁时）；母亲后来参军，在联邦与机械族的背刺战役中牺牲",
+      "education": "联邦军校三年，以战术分析科第一名毕业，主动申请前线",
+      "key_events": [
+        "12岁：父亲在矿难中死亡，矿难的直接原因是联邦管理层为了提高源质产量忽视安全规程",
+        "20岁：母亲在'黑色星期四'战役中牺牲，那场战役的失败在官方报告中被归咎于前线指挥失误，但柯炎怀疑是联邦高层的战略放弃",
+        "23岁：在一次侦察任务中，他第一次感知到了源质的流动——那是他第一次意识到自己和别人不同",
+        "26岁：现在，第7突击营，边界星域，被困在星尘要塞的第43天"
+      ],
+      "military_record": "三次战场表彰，两次军纪处分（擅自行动、违抗命令——结果都证明他是对的）"
+    },
+    "the_ghost": "12岁那年，父亲进矿之前回头看了他一眼。柯炎记得那个眼神——不是告别，是无奈和认命。那一刻他理解了什么是体制的暴力：不是子弹，而是让人习惯了死亡的规律性。他从那一天开始不信任任何大型组织。",
+    "the_lie": "柯炎相信自己只是一颗螺丝钉，战争比任何个体都更大，个人的选择无法撼动战争走势。这个信念让他高效战斗，也让他不愿承担真正的责任。整个故事是关于这个谎言被打碎的过程。",
+    "motivation": {
+      "surface": "活下去，保护身边的战友",
+      "deep": "找到并摧毁那个让他父母死去的体制漏洞——无论它是联邦的腐败、战争的机器，还是更大的真相",
+      "secret_fear": "如果他真的有能力改变战争，他还能保持清醒的旁观者姿态吗？"
+    },
+    "combat_style": {
+      "specialization": "近中距离突击，战术机动",
+      "origin_level": "源质感知者（边缘状态，即将突破到吸附者）",
+      "signature": "利用源质感知预判敌方行动，往往在敌方开枪的同一瞬间已经不在那个位置",
+      "weapon_preference": "联邦标准步枪 + 近战刀",
+      "cards_at_t0": ["白卡·闪避感知×2", "白卡·稳定射击×1"]
+    }
+  },
+  "initial_state": {
+    "story_time": 0,
+    "location": "elem_stardust_fortress",
+    "inventory": [
+      { "item": "elem_standard_rifle", "status": "equipped", "significance": "服役三年，枪托上刻着母亲名字首字母" },
+      { "item": "elem_tactical_armor", "status": "equipped", "significance": "有多处修补痕迹" },
+      { "item": "白卡·闪避感知×2", "status": "carried", "significance": "战场捡来的，叠加后已有明显效果" },
+      { "item": "白卡·稳定射击×1", "status": "carried", "significance": "第一张能力卡，从一具精英兵尸体上取得" },
+      { "item": "3枚战争资金硬币", "status": "carried", "significance": "仅剩这些" },
+      { "item": "联邦急救包（半空）", "status": "carried", "significance": "医疗物资紧缺" }
+    ],
+    "knowledge": [
+      { "fact": "fact_federation_losing", "confidence": "certain" },
+      { "fact": "fact_ke_yan_potential", "confidence": "uncertain（只是隐约感觉）" },
+      { "fact": "fact_void_echo_identity", "confidence": "unknown" },
+      { "fact": "fact_herald_evolving", "confidence": "unknown" },
+      { "fact": "fact_theta_secret", "confidence": "rumor（战友间的传说）" }
+    ],
+    "beliefs": [
+      { "belief": "自己只是一颗螺丝钉，战争结果与个人无关", "is_true": false },
+      { "belief": "刘霜只是普通的医疗兵", "is_true": false },
+      { "belief": "周少校还在坚守是因为职责，不是因为绝望", "is_true": "partial" }
+    ],
+    "psychology": {
+      "sanity": 85,
+      "core_desire": "活下去，同时搞清楚父母的死是否可以避免",
+      "core_fear": "成为那个因一个选择而改变了很多人命运的人",
+      "mood": "疲惫·清醒",
+      "notes": "43天围困，外表镇定，内心开始对胜利失去判断"
+    },
+    "abilities": [
+      { "name": "源质感知", "level": "初级（感知范围约10米，高危情境下被动激活）", "element": "无" },
+      { "name": "战术机动", "level": "精熟（军校第一）", "element": "无" },
+      { "name": "近战格斗", "level": "优秀", "element": "无" },
+      { "name": "远程射击", "level": "精准射手", "element": "无" }
+    ],
+    "status": "健康·轻微疲劳",
+    "notes": "第7突击营，第43天。下一次突围任务即将开始。"
+  }
+}

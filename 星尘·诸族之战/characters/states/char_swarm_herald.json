@@ -1,0 +1,19 @@
+{
+  "character_id": "char_swarm_herald",
+  "states": [
+    {
+      "story_time": 0,
+      "chapter_id": null,
+      "baseline": true,
+      "location": "elem_shattered_bastion",
+      "inventory_delta": [],
+      "status": [
+        { "type": "baseline", "desc": "进化中·尚未被蜂巢识别为异常；甲壳间嵌入7块源质结晶；非正式先驱级", "severity": "n/a" }
+      ],
+      "knowledge_gained": [],
+      "psychology": { "individuation": 35, "mood": "迟疑·观察中", "core_desire": "理解'停顿'与'我'的意义", "core_fear": "被蜂巢识别为异类后清理" },
+      "abilities_delta": [],
+      "notes": "T=0 锚点。完整初始状态见 characters/char_swarm_herald.json.initial_state。已吞噬3名源质觉醒者+1名灵能精英；个体意识雏形35/100。"
+    }
+  ]
+}

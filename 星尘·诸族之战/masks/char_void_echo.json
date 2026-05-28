@@ -1,0 +1,35 @@
+{
+  "character_id": "char_void_echo",
+  "knowledge_at": [
+    {
+      "story_time": 0,
+      "chapter_id": null,
+      "facts_known": [
+        "fact_void_echo_identity",
+        "fact_theta_secret",
+        "fact_federation_losing"
+      ],
+      "facts_partial": [
+        "fact_herald_evolving",
+        "fact_ke_yan_potential"
+      ],
+      "facts_unknown": [
+        "Θ区遗迹地图的关键空白部分（地图残缺）",
+        "刘霜的隐藏融合者身份与联邦秘密项目关联",
+        "艾薇儿的真实任务"
+      ],
+      "beliefs_held": [
+        { "belief": "孤独行动比信任他人更可靠", "is_true": false, "status": "the_lie：表面是战略，实则是创伤" },
+        { "belief": "联邦无法被改革，只能被取代", "is_true": "complex", "status": "9年来不断自证" },
+        { "belief": "柯炎只是一个有潜力的普通士兵，还不值得直接接触", "is_true": false, "status": "将在ch_006被自身观察推翻" }
+      ],
+      "projected_facts_to_learn": [
+        { "fact": "fact_ke_yan_potential", "stage": "confirm", "trigger": "ch_006 evt_void_echo_observes：通过战场录像确认柯炎的感知特征与第零团旧人同源" }
+      ],
+      "perception": {
+        "level": "very high",
+        "notes": "源质觉醒者上位；可在极远距离感知源质波动与人类源质适应性签名。9年虚空生涯让他对'人'的解读极冷峻，但仍残留旧第零团队员的辨识本能。"
+      }
+    }
+  ]
+}

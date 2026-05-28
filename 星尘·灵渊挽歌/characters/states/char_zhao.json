@@ -1,0 +1,52 @@
+{
+  "character_id": "char_zhao",
+  "states": [
+    {
+      "story_time": 1,
+      "chapter_id": "ch_001",
+      "location": "elem_seventh_garrison",
+      "inventory_delta": [
+        { "item": "灵能制式长铳", "action": "modify", "reason": "硬接掘地异种时丢铳改以念墙封口" }
+      ],
+      "status": [
+        { "type": "recovery", "desc": "经伊岚渡蚀脱离灵蚀边缘，灵渊回稳", "severity": "n/a" },
+        { "type": "debuff", "desc": "灵能透支后虚脱，短时无法战斗", "severity": "medium" }
+      ],
+      "knowledge_gained": [],
+      "psychology": { "sanity": 66, "mood": "劫后的羞愧与对伊岚自损的愤怒/愧疚", "erosion_load": 12 },
+      "abilities_delta": []
+    },
+    {
+      "story_time": 11,
+      "chapter_id": "ch_011",
+      "location": "灰珀荒原·集合点",
+      "inventory_delta": [],
+      "status": [
+        { "type": "milestone", "desc": "傀儡兵失效后自然接替战术指挥，发出行动分配指令；无需明示授权，无需头衔确认", "severity": "n/a" },
+        { "type": "psychology", "desc": "战后分析：发现第三个探兵为专职跟踪型，与集结型探兵行为模式不同；识别出'傀儡兵倒计时盲角'被利用", "severity": "n/a" }
+      ],
+      "knowledge_gained": [
+        { "fact": "fact_hive_tracker_individual", "source": "战后检查第三个探兵：它在傀儡兵仍有感知能力时就已就位于盲角，表明其为长期跟踪型个体，而非集结信号驱动的普通探兵" }
+      ],
+      "psychology": { "sanity": 66, "mood": "实用性的冷静；战术分析完整，报告完整，继续守", "erosion_load": 12 },
+      "abilities_delta": []
+    },
+    {
+      "story_time": 15,
+      "chapter_id": "ch_017",
+      "location": "elem_huipo_wasteland_east（渗水点）",
+      "inventory_delta": [],
+      "status": [
+        { "type": "milestone", "desc": "首次亲历窄频探测脉冲全流程降频等待；以心率计数代替计时器，在感知收缩约束下完成外围矿石目视侦察", "severity": "n/a" },
+        { "type": "psychology", "desc": "发现渗水点箭头刻痕后完成独立分析（刻痕类型、氧化程度、年代估算），随即将多条信息整合：东侧偏南——箭头+遗核信标方向+伊岚说'东'——三件事不独立", "severity": "n/a" }
+      ],
+      "knowledge_gained": [
+        { "fact": "fact_lingyin_probe_interval", "source": "ch_016全队通报：蚕母40分钟发送一次针对聆音的窄频定位脉冲；方向精度高，距离估算需多节点三角定位" },
+        { "fact": "fact_wasteland_arrow_marking", "source": "ch_017：在渗水点西侧矿石底部亲自发现并验证——工具刻成的箭头，圆滑边缘对应至少两年风化，指向东侧偏南" },
+        { "fact": "fact_connections_not_independent", "source": "ch_017：三条信息收束到同一方向——他把结论放进战术地图，暂不说出" }
+      ],
+      "psychology": { "sanity": 66, "mood": "战术地图在积累信息，指向一个还没完整轮廓的结论；继续走，等合适的时候问", "erosion_load": 12 },
+      "abilities_delta": []
+    }
+  ]
+}

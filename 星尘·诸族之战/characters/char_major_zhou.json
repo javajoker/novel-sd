@@ -1,0 +1,71 @@
+{
+  "id": "char_major_zhou",
+  "name": "周恒",
+  "role": "supporting",
+  "base_profile": {
+    "appearance": {
+      "age": 42,
+      "build": "魁梧，但近年来明显消瘦，战甲下能感觉到那种透支的疲惫",
+      "eyes": "深色，布满红丝，睡眠严重不足",
+      "hair": "鬓角灰白，此前是全黑",
+      "features": "左手缺少小拇指（机械族袭击中的伤），使用了联邦义肢但没有处理得很好",
+      "voice": "洪亮，但在私下场合会突然变得很轻、很平"
+    },
+    "personality": {
+      "mbti": "ESTJ",
+      "traits": ["责任驱动", "对下属保护欲强", "公开场合绝对权威", "私下深陷自我怀疑", "用愤怒掩盖悲伤"],
+      "speech": "命令语气是职业习惯，但在极少数时刻会说真话，而真话往往是无力感的暴露",
+      "quirks": "每天会站在要塞观察孔前看一次边界的战况，不说话，看很久。这已经是习惯，但他自己也不清楚是在寻找希望还是习惯绝望"
+    },
+    "background": {
+      "origin": "赤焰星域，联邦军队世家",
+      "family": "已婚，妻子和儿子在赤焰星域后方。上次通讯是22天前",
+      "key_events": [
+        "18年前：以优异成绩从联邦军官学院毕业，雄心壮志",
+        "12年前：参与赤焰星域第一次防御战，亲眼看见联邦高层的战略失误葬送了整支先锋部队",
+        "7年前：晋升少校，调任边界星域。他是主动申请的，因为他认为这里需要真正有能力的人",
+        "现在：43天围困。他知道援军没有来的理由，但每天仍向上级发援助申请——因为如果不发，他下面的1200个士兵怎么想"
+      ]
+    },
+    "the_ghost": "12年前那场失败，他是报告的起草人之一。他写了真话，被联邦高层压下去，换成了另一份报告。他签了字。那次以后他就不再相信报告能改变任何事，但又无法停止写它们。",
+    "the_lie": "相信只要维持秩序和士气，就等于给士兵一个活下去的希望。他不明白有时候真相哪怕是绝望的，也比谎言更尊重人。",
+    "motivation": {
+      "surface": "守住星尘要塞，等待援军",
+      "deep": "在自己指挥生涯结束之前，做一件真正正确的事——哪怕只有一件",
+      "secret": "已经接到了联邦高层的密令：如果要塞不可守，优先撤离源质研究数据，而非普通士兵。他还没有决定是否服从。"
+    }
+  },
+  "initial_state": {
+    "story_time": 0,
+    "location": "elem_stardust_fortress",
+    "inventory": [
+      { "item": "少校指挥杖（智能战术终端）", "status": "equipped", "significance": "权力与责任的象征" },
+      { "item": "联邦高层密令（加密）", "status": "secured", "significance": "内容是放弃普通士兵、优先保护数据的命令" },
+      { "item": "家庭全息照（妻子、儿子）", "status": "personal", "significance": "每天要看的东西" }
+    ],
+    "knowledge": [
+      { "fact": "fact_federation_losing", "confidence": "certain（他最清楚）" },
+      { "fact": "fact_ke_yan_potential", "confidence": "hunch（他知道柯炎不寻常，但不知道程度）" },
+      { "fact": "fact_void_echo_identity", "confidence": "unknown" },
+      { "fact": "fact_theta_secret", "confidence": "classified（他知道Θ区有战略价值，不知道遗迹的事）" }
+    ],
+    "beliefs": [
+      { "belief": "援军会来，只是时间问题", "is_true": false },
+      { "belief": "维持士气比揭示真相更重要", "is_true": "complex" },
+      { "belief": "那道密令可以先放着，不到最后一刻不需要执行", "is_true": false }
+    ],
+    "psychology": {
+      "sanity": 72,
+      "core_desire": "在有生之年做一件毫无妥协的正确的事",
+      "core_fear": "再次妥协，再次签字，再次让人死在他的谎言里",
+      "mood": "铁面·内崩",
+      "notes": "43天。1200人。援军不来。密令在保险箱里等着他。"
+    },
+    "abilities": [
+      { "name": "战略指挥", "level": "老练", "element": "无" },
+      { "name": "战场判断", "level": "精通", "element": "无" },
+      { "name": "源质感应", "level": "无（普通人）", "element": "无" }
+    ],
+    "status": "健康·高度紧张"
+  }
+}

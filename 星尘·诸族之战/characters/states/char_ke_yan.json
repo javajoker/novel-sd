@@ -1,0 +1,19 @@
+{
+  "character_id": "char_ke_yan",
+  "states": [
+    {
+      "story_time": 0,
+      "chapter_id": null,
+      "baseline": true,
+      "location": "elem_stardust_fortress",
+      "inventory_delta": [],
+      "status": [
+        { "type": "baseline", "desc": "围困第43天；健康·轻微疲劳；源质感知者边缘状态，逼近吸附者", "severity": "n/a" }
+      ],
+      "knowledge_gained": [],
+      "psychology": { "sanity": 85, "mood": "疲惫·清醒", "core_desire": "活下去，搞清父母之死是否本可避免", "core_fear": "成为'一个选择改变了很多人命运'的人" },
+      "abilities_delta": [],
+      "notes": "T=0 锚点。完整初始状态见 characters/char_ke_yan.json.initial_state（inventory、知识、信念、能力清单）。"
+    }
+  ]
+}
