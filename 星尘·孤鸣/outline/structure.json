@@ -905,7 +905,8 @@
           "story_time": 34,
           "one_line": "陈铭回到前线，失去第十六个名字，但这次他把那个名字念了两遍，然后把口袋里所有的牌都数了一遍。",
           "scene_arc": "失去→念名字（两遍）→数所有的牌（仪式变了）",
-          "status": "outlined"
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_071.json"
         },
         {
           "id": "ch_072",

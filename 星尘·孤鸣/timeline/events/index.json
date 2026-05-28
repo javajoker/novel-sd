@@ -1,6 +1,6 @@
 {
   "last_story_time": 34,
-  "last_chapter": "ch_070",
+  "last_chapter": "ch_071",
   "by_chapter": {
     "ch_001": [
       "evt_novel_opening"
@@ -211,6 +211,9 @@
     ],
     "ch_070": [
       "evt_ch070_liang_epilogue"
+    ],
+    "ch_071": [
+      "evt_ch071_sixteenth"
     ]
   },
   "by_story_time": {
@@ -351,7 +354,8 @@
       "evt_ch069_theta_adjustment"
     ],
     "34": [
-      "evt_ch070_liang_epilogue"
+      "evt_ch070_liang_epilogue",
+      "evt_ch071_sixteenth"
     ]
   },
   "by_thread": {
@@ -367,7 +371,8 @@
       "evt_ch044_first_recruit_dies",
       "evt_ch049_headquarters_visit",
       "evt_ch057_heavy_casualties",
-      "evt_ch064_hq_second"
+      "evt_ch064_hq_second",
+      "evt_ch071_sixteenth"
     ],
     "thr_qixing": [
       "evt_ch012_who_am_i",
