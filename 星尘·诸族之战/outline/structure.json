@@ -555,6 +555,58 @@
           "beat_sheet_ref": "outline/beats/ch_036.json"
         },
         {
+          "id": "ch_037",
+          "number": 37,
+          "title": "提案",
+          "sub_arc": "B·裂痕",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 37,
+          "planned_events": [],
+          "one_line": "siege_day 89，联邦正式申报柯炎为'非标准战场感知资产'；工具与资产是同一批数据，重量不同。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_037.json"
+        },
+        {
+          "id": "ch_038",
+          "number": 38,
+          "title": "默认",
+          "sub_arc": "B·裂痕",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 38,
+          "planned_events": [],
+          "one_line": "siege_day 91，刘霜直接开口问感知数据；她的能力使用从'数据点'变成'战术事件'；档案：待确认→确认。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_038.json"
+        },
+        {
+          "id": "ch_039",
+          "number": 39,
+          "title": "信号",
+          "sub_arc": "B·裂痕",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 39,
+          "planned_events": [],
+          "one_line": "siege_day 93，通信日志里的0.4秒空白——无法解释，存进待分析；虚影的第一道影子。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_039.json"
+        },
+        {
+          "id": "ch_040",
+          "number": 40,
+          "title": "底线",
+          "sub_arc": "B·裂痕",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 40,
+          "planned_events": [],
+          "one_line": "siege_day 95，最大规模攻势，守住，资源触底；周恒提到联邦新指令，暂不公布；格子角度变了。Sub-arc B终。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_040.json"
+        },
+        {
           "id": "ch_025",
           "number": 25,
           "title": "灵能特使",

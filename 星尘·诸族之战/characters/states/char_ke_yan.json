@@ -2,6 +2,61 @@
   "character_id": "char_ke_yan",
   "states": [
     {
+      "story_time": 40,
+      "chapter_id": "ch_040",
+      "location": "elem_stardust_fortress（北墙外围 → 战略室走廊 → 宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "资源曲线斜率更陡：弹药8-10天（正常消耗），医疗物资低于安全线15%，食物3周；外部补给断联siege_day 82至今", "confidence": "confirmed_briefing", "trigger": "siege_day 95战后评估简报" },
+        { "fact": "周恒有来自联邦的新指令，暂不大范围通知", "confidence": "directly_heard_fragment", "trigger": "走廊，周恒与高级士官对话片段" }
+      ],
+      "psychology": { "sanity": 62, "mood": "稳定·Sub-arc B终·格子角度变了", "notes": "四小时攻势，战斗里他是工作状态，战斗后格子重量回到前景，不重不轻，和以前一样。资源曲线更陡了六天，他存好了数字。周恒有不公布的新指令，他存进待分析。格子里的东西没变，但他看那些东西的角度不一样了——他还没能用语言描述那个角度，只能确认它存在，是新的。" },
+      "abilities_delta": [],
+      "notes": "ch_040：siege_day 95最大规模攻势，守住，资源触底，周恒新指令（未公开），格子角度变了。Sub-arc B终结。待分析列表：3个条目（通信空白+联邦规划+新指令）。"
+    },
+    {
+      "story_time": 39,
+      "chapter_id": "ch_039",
+      "location": "elem_stardust_fortress（通信室 → 走廊 → 宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "siege_day 93 03:17，加密通信流0.4秒空白，无硬件/协议/Θ区/外部干扰解释；谢荣：可能是日志误差（未确认）", "confidence": "observed_unexplained", "trigger": "核查弹药记录时偶然发现" }
+      ],
+      "psychology": { "sanity": 63, "mood": "稳定·待分析增加·异常已记录", "notes": "他在快睡着之前有一个他没有让它发展的感觉：两件待分析的事都是关于他的。他停下来了，因为那只是感觉，不是数据。他不做感觉层面的分析。" },
+      "abilities_delta": [],
+      "notes": "ch_039：信号，0.4秒通信空白（虚影首次接入痕迹，柯炎未知），存入待分析，两个待分析条目。"
+    },
+    {
+      "story_time": 38,
+      "chapter_id": "ch_038",
+      "location": "elem_stardust_fortress（Θ区外围西侧阵地 → 宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "刘霜战斗配合新基线：直接询问感知数据，不再需要掩饰；她的源质能力使用已记录为'战术事件'（非'数据点'）", "confidence": "observed_confirmed", "trigger": "siege_day 91西侧阵地中等规模接触" },
+        { "fact": "配合可行性（实测）：坐标共享响应0.8秒，两次低量级源质能力使用均为高效战术决策", "confidence": "directly_measured", "trigger": "同上" }
+      ],
+      "psychology": { "sanity": 63, "mood": "稳定·配合基线更新·档案完善", "notes": "她的档案字段从'待确认'变成了'确认'，从'估计'变成了'测量'。写法变了——她的能力使用不再是数据点，是战术事件。那个写法变化不是刻意的，他写完了才发现，那就是那是什么。" },
+      "abilities_delta": [],
+      "notes": "ch_038：默认，siege_day 91，刘霜直接询问，能力使用记录格式更新，搭档档案：待确认→确认。"
+    },
+    {
+      "story_time": 37,
+      "chapter_id": "ch_037",
+      "location": "elem_stardust_fortress（战术室 → 走廊 → 训练场）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "联邦战术支援部要求上报'非标准战场感知资产'参数，项目名：实时感知共享协议；他的数据已进入官方申报表（甲类）", "confidence": "directly_told_and_filled", "trigger": "陈副官，siege_day 89晨" },
+        { "fact": "陈副官询问战区层面感知任务的准备需求——意味着有人在更高层面把他纳入规划", "confidence": "inferred_from_question", "trigger": "同上" }
+      ],
+      "psychology": { "sanity": 63, "mood": "稳定·制度化压力·the_lie新节点", "notes": "工具与资产是同一批数据，但落地框架不同，重量不同。他注意到了这个区别，没有试图解释，只是注意到了。待分析：联邦对战区层面感知任务有评估需求，来源/细节未知。" },
+      "abilities_delta": [],
+      "notes": "ch_037：提案，siege_day 89，联邦实时感知共享协议申报，陈副官询问战区任务，训练场郑暮配合精度提升（坐标误差0.8m→0.5m）。"
+    },
+    {
       "story_time": 36,
       "chapter_id": "ch_036",
       "location": "elem_stardust_fortress（医疗区 → Θ区外围东侧阵地 → 要塞走廊 → 宿舍）",
