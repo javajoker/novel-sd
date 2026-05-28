@@ -767,9 +767,57 @@
           "status": "written"
         },
         {
+          "id": "ch_051",
+          "number": 51,
+          "title": "后续",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 51,
+          "planned_events": [],
+          "one_line": "他尝试建立父母之死的事实层——发现那个层几乎是空的，他持有的是一个从未检验过的叙述。",
+          "status": "written"
+        },
+        {
+          "id": "ch_052",
+          "number": 52,
+          "title": "等待",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 52,
+          "planned_events": [],
+          "one_line": "连续三天每天早上第一件事是查通信日志找第四次信号；弹药5.7天；他写好了一句备用回复，放在掌机里等着。",
+          "status": "written"
+        },
+        {
+          "id": "ch_053",
+          "number": 53,
+          "title": "档案",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 53,
+          "planned_events": [],
+          "one_line": "档案查阅：记录只有几行，印章编号锁后，事实层=空；记录有一次修改时间戳，内容无权查阅。",
+          "status": "written"
+        },
+        {
+          "id": "ch_054",
+          "number": 54,
+          "title": "方向",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_psi_elder",
+          "story_time": 54,
+          "planned_events": [],
+          "one_line": "艾薇儿第四次信号，三角定位确认：信号在人类要塞内部；活体假设成立，优先级升高。",
+          "status": "written"
+        },
+        {
           "id": "ch_055",
           "number": 55,
-          "title": "蜂巢的诱敌",
+          "title": "诱饵",
           "sub_arc": "C·暗影",
           "thread_id": "thr_war_strategy",
           "pov_character": "char_swarm_herald",
@@ -778,7 +826,7 @@
             "evt_herald_strategy"
           ],
           "one_line": "先驱指挥虫潮做出一次诱敌——蜂巢从不诱敌。",
-          "status": "planned"
+          "status": "written"
         },
         {
           "id": "ch_058",

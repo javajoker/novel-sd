@@ -2,6 +2,94 @@
   "character_id": "char_ke_yan",
   "states": [
     {
+      "story_time": 53,
+      "chapter_id": "ch_053",
+      "location": "elem_stardust_fortress（通信室→走廊→宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "联邦民用档案记录：父母死亡，职业=技术研究员，类型=事故类，印章编号=机密归档B级权限；记录有一次后期修改，内容无权查阅",
+          "confidence": "档案截图确认",
+          "trigger": "C级权限查询"
+        },
+        {
+          "fact": "事实层总结：我亲眼见过=无；被告知=年份+设施+故障（口头，无法验证）；档案有的=登记框架（锁后）；结论：事实层等同于空",
+          "confidence": "self_assessed",
+          "trigger": "三列清单建立"
+        },
+        {
+          "fact": "认知更新：他以为格子里是那件事，但实际是那件事的一个叙述，从未被检验过",
+          "confidence": "confirmed_insight",
+          "trigger": "档案查阅后反思"
+        }
+      ],
+      "psychology": {
+        "sanity": 58,
+        "mood": "稳定·分析框架运行·格子外壁轮廓感继续增强",
+        "notes": "他今天发现格子里存的是一个叙述，不是事实。以前他以为格子里是那件事，完整的。今天他发现那件事从来就没有被他打开过检验，他存进格子的是一个别人告诉他的版本，他接受了，不看，不问。那句话质疑的是这整个结构，不只是那件事本身。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_053：档案，siege_day 119，父母死亡档案查阅，机密B级权限锁后，事实层空，格子里是叙述不是事实。"
+    },
+    {
+      "story_time": 52,
+      "chapter_id": "ch_052",
+      "location": "elem_stardust_fortress（通信室→简报室→Θ区外围→空置休息室→宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "行为改变确认：连续第三天早上第一件事是查通信日志，为找第四次信号，不是为战术信息",
+          "confidence": "self_observed",
+          "trigger": "早上例行查询"
+        },
+        {
+          "fact": "弹药管控第六天：5.7天（计划外消耗0.4天）；东南通道预计12天以上；差距结构未变",
+          "confidence": "confirmed_briefing",
+          "trigger": "周恒简报"
+        },
+        {
+          "fact": "信号时间窗口估算：第1→2次间隔16天，第2→3次5天，间隔缩短；下次可能3-5天内，但模式不确定",
+          "confidence": "low_extrapolation",
+          "trigger": "间隔序列分析"
+        }
+      ],
+      "psychology": {
+        "sanity": 59,
+        "mood": "稳定·等待中·被等待的认知",
+        "notes": "他第一次感知到自己在这件事里是被等待的那个人，不是主动方，那个位置和他以前的习惯位置不同。他在掌机里写好了一句回复草稿：'我知道的比你以为的少。'"
+      },
+      "abilities_delta": [],
+      "notes": "ch_052：等待，siege_day 117，行为改变（每日查日志），弹药5.7天，回复草稿写好存档。"
+    },
+    {
+      "story_time": 51,
+      "chapter_id": "ch_051",
+      "location": "elem_stardust_fortress（走廊→宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "父母之死事实层建立：时间=年份（月份不明），地点=联邦研究设施（名称不明），死因=设施故障+能源系统异常（口头转述，无法验证），当时在场=无（训练基地），见过直接证据=无",
+          "confidence": "self_reconstructed",
+          "trigger": "脑子里清点"
+        },
+        {
+          "fact": "认知：格子里存的是一个叙述，不是那件事本身；那个叙述从来没有被检验过",
+          "confidence": "confirmed_insight",
+          "trigger": "事实层建立过程中"
+        }
+      ],
+      "psychology": {
+        "sanity": 60,
+        "mood": "稳定·事实层建立中·格子外壁轮廓感出现",
+        "notes": "格子外壁今晚有了形状感，不是格子打开了，是格子里的那件事开始在外壁上有了轮廓，比他以前以为的大。那是他第一次感知到格子里那件事有形状。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_051：后续，siege_day 115，父母之死事实层建立，轮廓感第一次出现。"
+    },
+    {
       "story_time": 50,
       "chapter_id": "ch_050",
       "location": "elem_stardust_fortress（通信室→私密角落→走廊→宿舍）",
