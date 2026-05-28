@@ -2,6 +2,62 @@
   "character_id": "char_ke_yan",
   "states": [
     {
+      "story_time": 45,
+      "chapter_id": "ch_044",
+      "location": "elem_stardust_fortress（医疗区 → 走廊 → 宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "外部'关注对象清单'条目与他参数高度匹配（每项都对）：来源未确认，外部，siege_day 91时间戳", "confidence": "刘霜转述+原件确认", "trigger": "刘霜siege_day 103告知，晚上看到原件" },
+        { "fact": "清单另两条：Θ区研究人员（灵能感知类），第三条未识别描述", "confidence": "刘霜转述+原件确认", "trigger": "同上" },
+        { "fact": "清单时间戳siege_day 91与西侧阵地战斗吻合——有人在那天之后更新了他的条目", "confidence": "inferred_from_timestamp", "trigger": "原件时间戳对比" }
+      ],
+      "psychology": { "sanity": 62, "mood": "稳定·Sub-arc C深入·待分析列表4条·有人一直在看", "notes": "四个待分析条目：联邦规划、通信空白、新指令、外部观察清单。他首次明确感知到'它们都和我有关'，把这个模式存进了分析层边缘。刘霜先来找他而不是先上报，他注意到了。" },
+      "abilities_delta": [],
+      "notes": "ch_044：清单，siege_day 103，外部关注对象清单，有人在看，刘霜告知。"
+    },
+    {
+      "story_time": 43,
+      "chapter_id": "ch_043",
+      "location": "elem_stardust_fortress（东侧阵地 → 宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "先驱战后停留行为：第4次记录（siege_day 87/91/95/101），停留时长单调增加（30秒→1分20秒→2分→3分），停留距离增加", "confidence": "远程预警实测+郑暮观察印证", "trigger": "siege_day 101战后清场扫描" },
+        { "fact": "郑暮独立观察（非仪器）与远程预警数据方向一致，siege_day 91数据点可信度提升", "confidence": "confirmed", "trigger": "郑暮非正式询问" }
+      ],
+      "psychology": { "sanity": 63, "mood": "稳定·先驱行为异常追踪·数据集积累", "notes": "先驱行为数据集建立，总结性注记首次写入。资源曲线（下行）与先驱能力曲线（上行）形成反向关系，他注意到了两条线的方向相反。" },
+      "abilities_delta": [],
+      "notes": "ch_043：先驱变了，siege_day 101，战后停留3分，郑暮确认，先驱行为趋势曲线建立。"
+    },
+    {
+      "story_time": 42,
+      "chapter_id": "ch_042",
+      "location": "elem_stardust_fortress（Θ区外围东侧 → 战术室 → 宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "撤离后感知覆盖损失三分之二（11-12m→3-4m），这个差值等效于siege_day 95规模攻势中约增加一半伤亡", "confidence": "calculated", "trigger": "防守轮值期间分析" },
+        { "fact": "那个矛盾（撤离vs留守）在战略层级已被指令截断，不是战术层级能调整的", "confidence": "confirmed_by_chen", "trigger": "陈副官非正式询问" }
+      ],
+      "psychology": { "sanity": 62, "mood": "稳定·the_lie深层压力·格子分析层界面变薄", "notes": "他第一次看了自己从siege_day 1到现在的效用曲线，它在上升，命令在它还没到顶点时把它截断了。他不知道该怎么看这件事——他以为螺丝钉不需要有效用曲线。格子和分析层的界面今天比以前更薄了一点，他记录了这件事。" },
+      "abilities_delta": [],
+      "notes": "ch_042：矛盾，siege_day 99，撤离分析，效用曲线被截断，格子/分析层界面变薄。"
+    },
+    {
+      "story_time": 41,
+      "chapter_id": "ch_041",
+      "location": "elem_stardust_fortress（战术室 → 周恒办公室 → 宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "Category-A优先撤离令正式公布：他在名单上，同级刘霜和一名未知者（共三人），撤离触发条件：弹药<5天，路线：西北联邦前进基地", "confidence": "周恒当面告知", "trigger": "siege_day 97全要塞简报+周恒私下谈话" }
+      ],
+      "psychology": { "sanity": 63, "mood": "稳定·Sub-arc C开启·撤离命令已知", "notes": "他是那个要被优先保存的，不是螺丝钉的框架。那个命令他接受了，没有阻力，但他把'我对那个命令的感知是否完整'存进了待处理。格子旁边多了新重量：'联邦认为要塞放弃是一个可操作的选项'。" },
+      "abilities_delta": [],
+      "notes": "ch_041：指令，siege_day 97，Category-A撤离令，周恒告知，和刘霜同级，弹药5天触发。"
+    },
+    {
       "story_time": 40,
       "chapter_id": "ch_040",
       "location": "elem_stardust_fortress（北墙外围 → 战略室走廊 → 宿舍）",
