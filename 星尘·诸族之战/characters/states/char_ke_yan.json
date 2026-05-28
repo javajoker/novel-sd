@@ -2,6 +2,74 @@
   "character_id": "char_ke_yan",
   "states": [
     {
+      "story_time": 35,
+      "chapter_id": "ch_035",
+      "location": "elem_shattered_bastion（废弃矿道内 → 矿道外掩体）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "刘霜的真实身份：联邦特殊项目，三年前加入（来星尘要塞之前），源质融合者，银白色源质能力（能量屏障/源质组织能力）", "confidence": "directly_witnessed_and_told", "trigger": "evt_liushuang_revealed：矿道死胡同，先驱逼迫，她展开了完整的源质能力" },
+        { "fact": "她一直知道他在记录数据点（她说'七个'，他说'八个但今天是零'）", "confidence": "she_told_him", "trigger": "矿道外，等待接应时的对话" }
+      ],
+      "psychology": { "sanity": 62, "mood": "稳定·evt_liushuang_revealed后·待确认队列清空·新基线", "notes": "他的'待确认'区域里关于刘霜的那个积累重量在今天消失了，不是因为所有问题都回答了，是因为等待的姿态不需要了，那个重量变成了一个已知的事实，事实不需要等。他在往要塞走的路上感知到了这件事。'信任受冲击，却也彼此更深地认出对方'——他接受了她给的那个（联邦特殊项目，三年前），没有要求更多，等她能说更多的时候。" },
+      "abilities_delta": [],
+      "notes": "ch_035：evt_liushuang_revealed，矿道死胡同，先驱，她的银白源质屏障击退先驱，'从什么时候开始？'——'联邦特殊项目，三年前'，'七个'/'八个但今天是零'。Sub-arc B完成。"
+    },
+    {
+      "story_time": 34,
+      "chapter_id": "ch_034",
+      "location": "elem_stardust_fortress（北墙外围射击位 → 宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "感知基线继续上移：siege_day 83夜班底噪下感知边界11-12米（siege_day 58=9-10m，基线继续漂移）", "confidence": "observed_measured", "trigger": "夜哨感知边界专门测试" }
+      ],
+      "psychology": { "sanity": 63, "mood": "稳定·张力章·明天的确认感", "notes": "他在说了'好'之后感知到一种他以前没有过的'某件事要成真了'的清晰感，那种清晰感和战场上确认了某个判断的感觉接近但有一个他找不到词描述的不同。他把灯关上睡了，等明天。" },
+      "abilities_delta": [],
+      "notes": "ch_034：siege_day 83夜哨，她说'明天'，感知基线11-12m，等待张力章。"
+    },
+    {
+      "story_time": 33,
+      "chapter_id": "ch_033",
+      "location": "elem_shattered_bastion（断裂要塞外围）",
+      "inventory_delta": [
+        { "item": "白卡（未指定）", "change": "+3", "note": "清场拾取三张白卡" }
+      ],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "刘霜anomaly #7：银白色源质爆发（约0.5秒）击退两只异种，颜色与残图板材共鸣同频，这是时序异常之外的直接能力展示", "confidence": "directly_witnessed_sensed", "trigger": "断裂要塞外围战斗，siege_day 81" },
+        { "fact": "他的数据积累在今天转变为'数据已经足够了'——第一次不再写'等数据足够的时候我会知道'，改为'我知道了'", "confidence": "self_concluded", "trigger": "更新数据点列表后的内部确认" }
+      ],
+      "psychology": { "sanity": 62, "mood": "稳定·数据转结论·'我想问你一件事'后", "notes": "他第一次主动开口，说出了那句话，她说'不是现在'，他说'好'。他感知到两人都知道那个问题在那里了，它不会消失。第一次从'记录'转变为'行动'的迹象。" },
+      "abilities_delta": [],
+      "notes": "ch_033：anomaly #7（银白源质爆发），'我想问你一件事'，'不是现在'，数据转结论。"
+    },
+    {
+      "story_time": 32,
+      "chapter_id": "ch_032",
+      "location": "elem_theta_outer（Θ区外围北侧阵地）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "蓝卡·远程预警实战参数：约3公里（矿带浓度，东南），精度极低（有/无），冷却约20秒，消耗低，与全向感知形成'远端预警+近端确认'双层体系", "confidence": "confirmed_via_combat", "trigger": "siege_day 79虫潮，远程预警首次实战激活" },
+        { "fact": "今天减少的那一半伤亡和他激活了远程预警卡有直接的因果关系——he knows this and does not attribute it to luck", "confidence": "confirmed_causal", "trigger": "战后评估分析" }
+      ],
+      "psychology": { "sanity": 63, "mood": "稳定·因果关系清晰·the_lie裂缝", "notes": "他站在清场的战场上把那条因果关系过了一遍，没有用运气框架模糊它，今天他没有。格子的重量比以前任何时候都更像是他身体的一部分了。" },
+      "abilities_delta": [],
+      "notes": "ch_032：蓝卡·远程预警首次实战，siege_day 79，大规模虫潮，减少伤亡一半，因果关系清晰承认。"
+    },
+    {
+      "story_time": 31,
+      "chapter_id": "ch_031",
+      "location": "elem_stardust_fortress（柯炎视角，不知艾薇儿）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [],
+      "psychology": { "sanity": 63, "mood": "稳定·正常运行", "notes": "ch_031是艾薇儿POV，柯炎没有意识到他今天在使用远程预警的时候发出的频率被她感知到了。" },
+      "abilities_delta": [],
+      "notes": "ch_031：艾薇儿POV chapter，柯炎无意识中第二次被感知到古遗共鸣频率。"
+    },
+    {
       "story_time": 30,
       "chapter_id": "ch_030",
       "location": "elem_stardust_fortress（大简报室 → 走廊 → 食堂 → 宿舍）",
