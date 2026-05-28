@@ -2,6 +2,27 @@
   "character_id": "char_ke_yan",
   "states": [
     {
+      "story_time": 8,
+      "chapter_id": "ch_008",
+      "location": "elem_origin_theta（Θ区矿道崩塌段 → 矿道外部）",
+      "inventory_delta": [],
+      "status": [
+        { "type": "injury_resolved", "desc": "左腿肌肉压迫（约90分钟），解压后疼痛剧烈，行走需支撑；预计24-48小时恢复", "severity": "minor" },
+        { "type": "physiological_event", "desc": "近缺氧临界：意识有短暂模糊，脱险后回清；无长期影响", "severity": "minor" },
+        { "type": "source_quality_event", "desc": "源质感知在缺氧+失控状态下骤扩至数百米范围（矿脉整体图）；第一次主动吸收一缕源质进入胸腔（烫感深于蓝卡合成时）；此为吸附者突破前兆，未完成正式突破", "severity": "significant" }
+      ],
+      "knowledge_gained": [
+        { "fact": "感知范围在高浓度+失控状态下可大幅超出平时边界——整片矿脉的源质流动'如血管亮起'", "confidence": "bodily_experienced", "trigger": "缺氧临界感知炸开" },
+        { "fact": "身体可以下意识引入外部源质（一缕）并整合——比蓝卡合成时更深的烫感，感觉'安住'", "confidence": "bodily_experienced_not_analyzed", "trigger": "濒死时无意识动作" },
+        { "fact": "刘霜在他胸口检查时停顿了约1.5秒", "confidence": "noted", "trigger": "脱险后刘霜检查时的停顿" }
+      ],
+      "psychology": { "sanity": 78, "mood": "疲惫·清醒·格子里多了一个没有标签的重量", "notes": "他把矿道里发生的所有事情放进了格子——感知炸开、那一缕、那一烫——没有标签，不处理，只是存放。刘霜的停顿同样入格。他现在只想活着、让腿恢复、继续任务。the_lie在表面完好，但格子的内容越来越沉。" },
+      "abilities_delta": [
+        { "ability": "源质感知范围", "delta": "突破前兆触发但未固化——平时范围不变，但内部极限被证明可以更高（被动触发条件：缺氧+高浓度+控制失效）" }
+      ],
+      "notes": "ch_008：Θ区矿道崩塌，被困约2.5小时，脱险。这是吸附者突破前的第一次明确前兆事件。"
+    },
+    {
       "story_time": 5,
       "chapter_id": "ch_005",
       "location": "elem_origin_theta（撤退路段）→ elem_stardust_fortress（外围防线）",

@@ -2,6 +2,20 @@
   "character_id": "char_liu_shuang",
   "states": [
     {
+      "story_time": 8,
+      "chapter_id": "ch_008",
+      "location": "elem_origin_theta（Θ区矿道崩塌段外部）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "柯炎内部已出现吸附者级别的源质特征（主动吸收痕迹，胸腔源质结构轻微变化），但未完成正式突破", "confidence": "confirmed_data", "trigger": "脱险检查时源质感应在其胸腔位置停顿读取" },
+        { "fact": "此次变化的触发条件：高浓度矿道+缺氧临界+感知控制机制失效——压力触发而非主动觉醒", "confidence": "inferred", "trigger": "结合任务参数（矿道高浓度、被困约2.5小时）与体征读取" }
+      ],
+      "psychology": { "sanity": 82, "mood": "专注·隐忧·数据点质量升级（需重新评估他的突破时间线）", "notes": "她曾一度确定他要死了；他活了，并且是以他自己的方式活了。这个结果让她的数据集需要修订：突破时间线比她估计的更近，触发条件也和她的预测不完全吻合。她在回程中对掌机做了较长的更新记录，然后锁上了。" },
+      "abilities_delta": [],
+      "notes": "ch_008：矿道崩塌搜救，参与脱险行动，对柯炎进行脱险后检查，读取到吸附者前兆特征，未言明。"
+    },
+    {
       "story_time": 4,
       "chapter_id": "ch_004",
       "location": "elem_origin_theta（废弃中继站 → 夜营）",

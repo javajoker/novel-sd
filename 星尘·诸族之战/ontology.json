@@ -4,7 +4,7 @@
     "novel_title": "星尘：诸族之战",
     "novel_author": "同人作者",
     "story_time_unit": "chapter",
-    "current_chapter": 7,
+    "current_chapter": 8,
     "language": "zh-Hans",
     "genre": "科幻战争",
     "tier": "long_novel",
@@ -707,7 +707,7 @@
       ],
       "prerequisites": [],
       "projected_outcome": "一次濒死中柯炎的源质感知范围骤然扩张，逼近吸附者边缘；身体出现第一次主动吸收反应（突破前兆）。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_008"
       ],

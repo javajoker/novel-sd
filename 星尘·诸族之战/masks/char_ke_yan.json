@@ -2,6 +2,36 @@
   "character_id": "char_ke_yan",
   "knowledge_at": [
     {
+      "story_time": 8,
+      "chapter_id": "ch_008",
+      "facts_known": [
+        "fact_federation_losing"
+      ],
+      "facts_suspected": [
+        { "fact": "周恒对胜利已无信心，但仍在执行职责", "basis": "'回来'那一眼" },
+        { "fact": "刘霜持有并使用非标准医疗器材（可能是某种攻击性源质能力）", "basis": "ch_002装备区目击 + ch_003战场出手" },
+        { "fact": "刘霜的源质感应能力超出普通医疗兵范畴（她在检查他时知道比她应该知道的更多）", "basis": "ch_008脱险检查时的1.5秒停顿" },
+        { "fact": "fact_ke_yan_potential", "stage": "forced_partial_acknowledged_then_filed", "basis": "矿道里发生的那件事（感知炸开、那一缕、那一烫）无法用'运气'完全框住——但他主动选择不分析，放进格子" }
+      ],
+      "facts_rumored": [
+        "fact_theta_secret"
+      ],
+      "facts_unknown": [
+        "fact_void_echo_identity",
+        "fact_herald_evolving",
+        "刘霜的秘密项目身份",
+        "周恒密令的具体内容"
+      ],
+      "beliefs_held": [
+        { "belief": "自己只是战争机器里的一颗螺丝钉", "is_true": false, "status": "the_lie：外壳完好，但格子里已经存着一件他知道螺丝钉做不到的事" },
+        { "belief": "刘霜只是普通医疗兵", "is_true": false, "status": "进一步崩裂：她的检查停顿证明她读到了他身体里的源质信息，这不是医疗兵技能" },
+        { "belief": "矿道里那件事是'缺氧幻觉+应激反应'", "is_true": false, "status": "新增防御性解释，不太好用，他没有完全信它" }
+      ],
+      "projected_facts_to_learn": [
+        { "fact": "fact_ke_yan_potential", "stage": "acknowledged_undecoded", "trigger": "ch_019-020：先驱引导战术导致三死，'运气好'框架第一次完全失效——他必须面对那个格子里的东西" }
+      ]
+    },
+    {
       "story_time": 3,
       "chapter_id": "ch_003",
       "facts_known": [

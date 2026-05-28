@@ -181,7 +181,7 @@
         {
           "id": "ch_008",
           "number": 8,
-          "title": "看得太清楚",
+          "title": "感知边界",
           "sub_arc": "A·围困",
           "thread_id": "thr_protagonist",
           "pov_character": "char_ke_yan",
@@ -190,7 +190,7 @@
             "evt_perception_edge"
           ],
           "one_line": "缺氧失血的边缘，他第一次'看见'源质的流动本身；他下意识吸入一缕，胸口一烫。",
-          "status": "beats_ready",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_008.json"
         },
         {
