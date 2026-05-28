@@ -2,6 +2,74 @@
   "character_id": "char_ke_yan",
   "states": [
     {
+      "story_time": 24,
+      "chapter_id": "ch_024",
+      "location": "elem_stardust_fortress（食堂 → 战术组第二问询室 → 北墙防守位 → 宿舍）",
+      "inventory_delta": [
+        { "item": "蓝卡·瞬位", "change": "+1", "note": "第三张蓝卡合成完成，宿舍独自操作；白卡·稳定射击×3 → 蓝卡·瞬位" },
+        { "item": "白卡·稳定射击", "change": "-3", "note": "第三次蓝卡合成消耗" },
+        { "item": "白卡·稳定射击", "change": "+1", "note": "下午防守任务战场拾取" }
+      ],
+      "status": ["三张蓝卡持有者：蓝卡·预知闪避 + 蓝卡·全向感知 + 蓝卡·瞬位"],
+      "knowledge_gained": [
+        { "fact": "自己的确认度比提交报告里写的高——第一次公开承认这个差距（冯思问询中说出口）", "confidence": "self_acknowledged_public", "trigger": "战术组问询，口头陈述" },
+        { "fact": "'实时的源质感知共享协议'——他的感知能力的系统性应用方向，他从没考虑过，今天由冯思陈述，他存进'待分析'区域", "confidence": "new_concept_received", "trigger": "冯思的陈述语气跟进" },
+        { "fact": "说出来和只是知道，是不一样的事——语言把知道变成了可以共享的格式，这个差别在问询里变得清晰", "confidence": "self_observed", "trigger": "在问询室把先驱信号特征用语言描述完整" }
+      ],
+      "psychology": { "sanity": 62, "mood": "稳定·感知语言化余波·第三张蓝卡功能性接收", "notes": "问询里被要求描述感知，这件事在他身上留下了一种他观察到的余波：某件事被说出来之后比不说的时候在认知里更清楚了。他不知道该如何处理这种清晰，他只是知道它发生了。蓝卡·瞬位合成以'功能性事实'的方式存进信息层：我现在有三张蓝卡，这是真的，他很快睡着了。格子重量继续透出，但今天他没有去接触格子。" },
+      "abilities_delta": [
+        { "ability": "蓝卡·瞬位", "change": "acquired", "note": "主动激活·短距位移·要塞5-8m·Θ区15-20m·冷却≥60s" }
+      ],
+      "notes": "ch_024：战术组问询（冯思中尉），白卡·稳定射击×3合成蓝卡·瞬位（第三次蓝卡合成），现持三张蓝卡。"
+    },
+    {
+      "story_time": 23,
+      "chapter_id": "ch_023",
+      "location": "elem_stardust_fortress → elem_theta_outer（Θ区外围巡逻路线）",
+      "inventory_delta": [
+        { "item": "白卡·闪避感知", "change": "+1", "note": "返回途中异种残骸拾取，现×2" }
+      ],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "他与刘霜的感知配合结构：两个主动运行的系统互相补位，不是指挥/执行关系，是两个积极工作者在不说话的情况下贡献信息。这个结构今天他主动验证并标注了。", "confidence": "self_analyzed_tested", "trigger": "ch_023巡逻，主动测试她的补位反应" },
+        { "fact": "刘霜使用了'Θ区主脉的分支节律'这个词——这是源质工程学/Θ区地质研究文献词汇，不在标准医疗兵培训范围内", "confidence": "observed_linguistic_anomaly", "trigger": "返回途中刘霜与郑暮对话" },
+        { "fact": "郑暮功能性评估完成：工程数据+感知覆盖可以叠加，属于'可依赖工作搭档'分类", "confidence": "field_assessed", "trigger": "首次共同巡逻任务" }
+      ],
+      "psychology": { "sanity": 63, "mood": "稳定·数据积累中·待确认区域有新条目", "notes": "他的'待确认'区域继续积累刘霜的数据点，现在第五个。他没有结论，也没有焦虑，他在等数据足够的时候再处理。他处理不确定信息的方式从'忽略/归类噪声'转变成了'记录+不下结论'，这个转变本身他今天注意到了。" },
+      "abilities_delta": [],
+      "notes": "ch_023：Θ区外围三人巡逻（柯炎/刘霜/郑暮），两处标记干净，刘霜源质工程学词汇第五个数据点，白卡·闪避感知×2。"
+    },
+    {
+      "story_time": 22,
+      "chapter_id": "ch_022",
+      "location": "elem_stardust_fortress（北墙夜哨射击位 → 撤离路线 → 宿舍）",
+      "inventory_delta": [
+        { "item": "白卡·稳定射击", "change": "+2", "note": "撤离路线异种残骸拾取，累计×3，合成条件满足" }
+      ],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "siege_day 58夜哨，感知边界九到十米（干净底噪夜班）——比固定认知六到八米高，不同方向验证（北侧开阔地 vs 要塞墙体方向对比）。可能是基线在移动，需更多数据", "confidence": "observed_needs_more_data", "trigger": "夜哨主动感知边界测试" },
+        { "fact": "感知能力已从'工具'转变为'默认运行的系统'：不等指令就在扫描、确认、分类；主动中断指令的效果约两秒，然后情境驱动自动恢复", "confidence": "confirmed_via_active_test", "trigger": "夜哨中发现感知自主运行，主动尝试打断确认" }
+      ],
+      "psychology": { "sanity": 63, "mood": "稳定·夜哨态·数据记录习惯化", "notes": "格子重量透出比昨天稍微明显了一点，他感知它，让它在那里，不打开，躺下睡了。三张白卡·稳定射击合成条件满足，他决定在宿舍清楚地做这件事，不是在战场外围，因为他想刻意一次，更清楚一次。" },
+      "abilities_delta": [],
+      "notes": "ch_022：北墙夜哨三小时，感知9-10m，感知自动化确认，白卡·稳定射击累计×3，合成条件满足待宿舍操作。"
+    },
+    {
+      "story_time": 21,
+      "chapter_id": "ch_021",
+      "location": "elem_stardust_fortress（医疗区 → 战损会议室 → 宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "联合突袭最终伤亡确认：三死（第二小队成员）、两重伤（第二小队），第一小队零死亡一轻伤（林岐）", "confidence": "official_report_confirmed", "trigger": "siege_day 56战损评估会议" },
+        { "fact": "陈路调至要塞工程部临时项目组（Θ区地质稳定性评估），小队缺口待填", "confidence": "official_notification", "trigger": "人事调动通知" }
+      ],
+      "psychology": { "sanity": 61, "mood": "重整期·格子重量透出·运行继续", "notes": "格子的重量今天比昨天重了一点，不是因为他想了更多，是因为它就在那里，它的存在感比昨天更明显了。他没有打开格子，没有试图处理它，他选择了继续前进，因为没有别的选项。他在战损评估报告里的名字是出现在'第一小队'栏的，零死亡，他是这个结果的一部分原因，这件事他今天没有用任何框架去处理，他只是让它在那里。" },
+      "abilities_delta": [],
+      "notes": "ch_021：siege_day 56，战损评估，小队重整，陈路调离，格子重量透出，the_lie裂缝第一天的延续。"
+    },
+    {
       "story_time": 19,
       "chapter_id": "ch_019_020",
       "location": "elem_shattered_bastion（断裂要塞外围 → 废弃矿道 → 联合撤退点 → 断裂要塞残墙）",

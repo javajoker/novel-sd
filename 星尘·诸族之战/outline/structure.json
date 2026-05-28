@@ -360,6 +360,58 @@
           "beat_sheet_ref": "outline/beats/ch_020.json"
         },
         {
+          "id": "ch_021",
+          "number": 21,
+          "title": "重整",
+          "sub_arc": "B·裂痕",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 21,
+          "planned_events": [],
+          "one_line": "siege_day 56，战损评估；格子扣不上，重量开始透出来。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_021.json"
+        },
+        {
+          "id": "ch_022",
+          "number": 22,
+          "title": "夜哨",
+          "sub_arc": "B·裂痕",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 22,
+          "planned_events": [],
+          "one_line": "siege_day 58，感知边界九到十米；感知从工具变成了默认运行的系统。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_022.json"
+        },
+        {
+          "id": "ch_023",
+          "number": 23,
+          "title": "配合",
+          "sub_arc": "B·裂痕",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 23,
+          "planned_events": [],
+          "one_line": "siege_day 61，柯炎注意到他与刘霜的感知配合结构；她用了源质工程学词汇。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_023.json"
+        },
+        {
+          "id": "ch_024",
+          "number": 24,
+          "title": "问询",
+          "sub_arc": "B·裂痕",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 24,
+          "planned_events": [],
+          "one_line": "siege_day 63，战术复盘问询；第三张蓝卡合成：蓝卡·瞬位。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_024.json"
+        },
+        {
           "id": "ch_025",
           "number": 25,
           "title": "灵能特使",
