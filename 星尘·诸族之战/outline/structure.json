@@ -536,7 +536,9 @@
           "thread_id": "thr_protagonist",
           "pov_character": "char_ke_yan",
           "story_time": 35,
-          "planned_events": ["evt_liushuang_revealed"],
+          "planned_events": [
+            "evt_liushuang_revealed"
+          ],
           "one_line": "siege_day 85，矿道死胡同，先驱逼迫；刘霜展开银白源质能力；'从什么时候开始？'——联邦特殊项目三年前。",
           "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_035.json"
@@ -701,9 +703,59 @@
           "status": "planned"
         },
         {
+          "id": "ch_046",
+          "number": 46,
+          "title": "频率",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 46,
+          "planned_events": [],
+          "one_line": "防守轮值里他感知到了两个信号的频率不同——这是他的感知系统出现的第三个新维度。",
+          "status": "written"
+        },
+        {
+          "id": "ch_047",
+          "number": 47,
+          "title": "第二次空白",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 47,
+          "planned_events": [],
+          "one_line": "0.4秒，0.8秒——精确翻倍；序列号间断150字节，加密，关联他的士兵编号。",
+          "status": "written"
+        },
+        {
+          "id": "ch_048",
+          "number": 48,
+          "title": "低于五天",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 48,
+          "planned_events": [],
+          "one_line": "弹药4.3天，通道5-7天，两个数字交叉——周恒宣布撤离协议正式进入启动状态。",
+          "status": "written"
+        },
+        {
+          "id": "ch_049",
+          "number": 49,
+          "title": "通道",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 49,
+          "planned_events": [
+            "evt_corridor_attempt_fail"
+          ],
+          "one_line": "他用了全部四张蓝卡；西北通道打通失败；先驱战略协调级别确认。",
+          "status": "written"
+        },
+        {
           "id": "ch_050",
           "number": 50,
-          "title": "一句问话",
+          "title": "问话",
           "sub_arc": "C·暗影",
           "thread_id": "thr_void_echo",
           "pov_character": "char_ke_yan",
@@ -712,7 +764,7 @@
             "evt_void_echo_contact"
           ],
           "one_line": "虚影没有杀他，只问：你父母的死，你真以为是意外吗？",
-          "status": "planned"
+          "status": "written"
         },
         {
           "id": "ch_055",
