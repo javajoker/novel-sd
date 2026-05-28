@@ -953,7 +953,8 @@
           "story_time": 35,
           "one_line": "艾昂继续向东，某处有什么他不知道为什么在意，像一个没有方向的引力在拉着他的注意力。",
           "scene_arc": "行走→某种感知→跟着走（不分析）",
-          "status": "outlined"
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_075.json"
         },
         {
           "id": "ch_076",

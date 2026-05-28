@@ -1,6 +1,6 @@
 {
   "last_story_time": 35,
-  "last_chapter": "ch_074",
+  "last_chapter": "ch_075",
   "by_chapter": {
     "ch_001": [
       "evt_novel_opening"
@@ -223,6 +223,9 @@
     ],
     "ch_074": [
       "evt_ch074_qixing_node_contact"
+    ],
+    "ch_075": [
+      "evt_ch075_aeon_east_pull"
     ]
   },
   "by_story_time": {
@@ -369,7 +372,8 @@
       "evt_ch073_plan_final"
     ],
     "35": [
-      "evt_ch074_qixing_node_contact"
+      "evt_ch074_qixing_node_contact",
+      "evt_ch075_aeon_east_pull"
     ]
   },
   "by_thread": {
@@ -427,7 +431,8 @@
       "evt_ch062_liang_leaves",
       "evt_ch063_emptiness",
       "evt_ch066_aeon_walks_again",
-      "evt_ch070_liang_epilogue"
+      "evt_ch070_liang_epilogue",
+      "evt_ch075_aeon_east_pull"
     ],
     "thr_theta": [
       "evt_ch003_theta_first_question",

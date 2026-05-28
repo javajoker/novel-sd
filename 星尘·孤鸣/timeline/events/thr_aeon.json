@@ -224,7 +224,10 @@
       "story_time": 25,
       "status": "drafted",
       "chapter_id": "ch_050",
-      "participants": ["char_aeon", "char_liang"],
+      "participants": [
+        "char_aeon",
+        "char_liang"
+      ],
       "summary": "梁说「共鸣不是被感知的唯一方式」，三天后艾昂说出ch_047的事（「我感知到了什么，从你那边过来的」）。梁：「足够了。」睡前：断频器断共鸣通道，不断他存在于感知中的可能性——他仍然在那里。isolation: 70→67。"
     },
     {
@@ -260,7 +263,10 @@
       "story_time": 27,
       "status": "drafted",
       "chapter_id": "ch_053",
-      "participants": ["char_aeon", "char_liang"],
+      "participants": [
+        "char_aeon",
+        "char_liang"
+      ],
       "summary": "梁的伤明显恶化：起床节奏从三步变为五步，晨练第七步主动停顿四秒，右手握力波动。艾昂以精确感知记录了全部细节，整合出基线上移的趋势，知道这条线的走向。他没有说，因为梁更直接地知道自己身体的状态——说出来不是新信息，是在他的事上盖章。两人的沉默今天开始有了形状：不再是空的，是有重量的。isolation: 67（无变化）。"
     },
     {
@@ -270,7 +276,10 @@
       "story_time": 28,
       "status": "drafted",
       "chapter_id": "ch_055",
-      "participants": ["char_aeon", "char_liang"],
+      "participants": [
+        "char_aeon",
+        "char_liang"
+      ],
       "summary": "傍晚，梁的残余灵能延展（有一丝主动成分），接触艾昂约十二秒——比第一次的四秒更长更清晰。艾昂认出「被感知」和「感知」的根本区别：三年里他一直是发出方，这一次是接收方，第二次被站在门另一边的人完整感知到。眼泪来了，没有哭声，他待在接触里不擦，多一秒再多一秒，然后它结束了。两人都不说话。睡前，他想的不是「何时能恢复」，只是：今天，第二次，十二秒，它发生了。isolation: 67→63。"
     },
     {
@@ -280,7 +289,10 @@
       "story_time": 28,
       "status": "drafted",
       "chapter_id": "ch_056",
-      "participants": ["char_aeon", "char_liang"],
+      "participants": [
+        "char_aeon",
+        "char_liang"
+      ],
       "summary": "ch_055三天后，梁说「你从来不说那件事」，留了一个开口。艾昂第一次向另一个人说出共鸣之殇部分真相：战场大规模死亡感知通过他进入族群共鸣网络，所有人受伤，他被切断，被让离开。他停在「让我离开」之后——不说回归路径，因为不确定那部分是否还是真的。梁：「我听到了。」三年来那件事第一次被说出来被另一个人听见了。isolation: 63（无变化，有内在释放）。"
     },
     {
@@ -290,7 +302,10 @@
       "story_time": 30,
       "status": "drafted",
       "chapter_id": "ch_059",
-      "participants": ["char_aeon", "char_liang"],
+      "participants": [
+        "char_aeon",
+        "char_liang"
+      ],
       "summary": "普通的下午，梁在修外壁隔热层时说：想走了，往灵能族领土方向走，在能感受到共鸣的地方结束。艾昂停顿——试图找一句可以说的话，找不到。梁说完继续做手里的事，那句话悬在前哨站里，不需要艾昂回应才能是真实的。isolation: 63（无变化）。"
     },
     {
@@ -300,7 +315,9 @@
       "story_time": 30,
       "status": "drafted",
       "chapter_id": "ch_060",
-      "participants": ["char_aeon"],
+      "participants": [
+        "char_aeon"
+      ],
       "summary": "梁睡后，艾昂整夜在那个停顿里。他不想梁走，那个「不」真实存在。试了三句话：不要走/你不能走/还有别的办法，每一句都站在他没有权利站的位置上。到达：他没有权利阻止梁，因为梁的身体和梁的死是梁的，梁想在共鸣里结束是梁有权利做的选择。感受和权利是两件事。他停手了——不说那句话，不是放弃感受，是知道了边界。isolation: 63→60。"
     },
     {
@@ -310,7 +327,10 @@
       "story_time": 30,
       "status": "drafted",
       "chapter_id": "ch_061",
-      "participants": ["char_aeon", "char_liang"],
+      "participants": [
+        "char_aeon",
+        "char_liang"
+      ],
       "summary": "梁离开前的最后一夜。艾昂第二夜未眠，坐着，让夜过。梁也没睡，偶尔调整位置。两人都在场，什么都没说。快天亮时梁说了一句「谢谢你」，不是道别，是陈述一个早就成立的事实。艾昂没有回答——沉默是他能给出的最完整的回应，任何词语放进去都会比沉默小一号。天亮了。"
     },
     {
@@ -320,7 +340,10 @@
       "story_time": 31,
       "status": "drafted",
       "chapter_id": "ch_062",
-      "participants": ["char_aeon", "char_liang"],
+      "participants": [
+        "char_aeon",
+        "char_liang"
+      ],
       "summary": "梁早晨出发，轻装，只带走属于他的那部分。最后绕前哨站转了一圈，出门向东南方向走。艾昂站在门口用灵能感知追踪梁的存在信号，信号随距离缓慢衰减，最终超出感知范围消失。「不是死，是距离」——艾昂知道这个区别，但感知层是空的。站在门口，面向那个方向，很久未动。"
     },
     {
@@ -330,7 +353,9 @@
       "story_time": 31,
       "status": "drafted",
       "chapter_id": "ch_063",
-      "participants": ["char_aeon"],
+      "participants": [
+        "char_aeon"
+      ],
       "summary": "梁走后当天。艾昂在前哨站里做日常的事，发现这里的空变了形状——形状是梁的。在这里住了112天（三年来最长）。这次的孤独不是无形的均质感，是有轮廓的，那个轮廓是梁留下的。决定今天还待在这里，明天再想接下来去哪里。去检查外墙传感器，继续。"
     },
     {
@@ -340,7 +365,9 @@
       "story_time": 32,
       "status": "drafted",
       "chapter_id": "ch_066",
-      "participants": ["char_aeon"],
+      "participants": [
+        "char_aeon"
+      ],
       "summary": "梁走后某天，艾昂离开前哨站，往北行走。关闭系统节点，留下物资，保持梁的物件原样（没有权利动）。重新进入长途行走节奏。不带目标，只带方向。中途休息时确认自己带着的东西：112天、梁的「谢谢你」、「孤独有形状」这件事。继续走。isolation 60→58。"
     },
     {
@@ -350,8 +377,22 @@
       "story_time": 34,
       "status": "drafted",
       "chapter_id": "ch_070",
-      "participants": ["char_aeon"],
+      "participants": [
+        "char_aeon"
+      ],
       "summary": "行走中经过北部聚居点，从老人描述得知梁已在灵能族废墟旧刻印边结束（间接确认）。停下来让确认安置。回忆梁的具体细节。认识：这件失去不是破碎而是完整的形状——他在其中做了他能做的有权利做的事。带着，继续走。isolation 58→56。梁弧正式闭合。"
+    },
+    {
+      "id": "evt_ch075_aeon_east_pull",
+      "name": "东边（一）",
+      "thread_id": "thr_aeon",
+      "story_time": 35,
+      "status": "drafted",
+      "chapter_id": "ch_075",
+      "participants": [
+        "char_aeon"
+      ],
+      "summary": "离开北部聚居点后若干天，艾昂在行走中多次感知到东偏南方向低频源质场振动（不是灵能族、不是虚空信号、来源未知）。第三次注意到后调整路线向东偏南，不分析不命名，跟着感知走——他三年流亡里的处理方式。地形出现碎晶星域外围特征（折叠矿质结构，晶体化）。他三年里一直绕开碎晶星域，现在往那里走。（源质振动来源：乌洛斯的虚空种子行动89%，中心汇聚阶段，场强溢出至外围）"
     }
   ]
 }
