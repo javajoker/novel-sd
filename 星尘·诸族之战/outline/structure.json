@@ -194,6 +194,19 @@
           "beat_sheet_ref": "outline/beats/ch_008.json"
         },
         {
+          "id": "ch_009",
+          "number": 9,
+          "title": "前沿",
+          "sub_arc": "A·围困",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 9,
+          "planned_events": [],
+          "one_line": "脱险次日轻差；接调令前往断裂要塞；深夜夜哨感知到远处积累的大规模虫潮——明天来。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_009.json"
+        },
+        {
           "id": "ch_010",
           "number": 10,
           "title": "蜂巢里的停顿",
