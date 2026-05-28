@@ -2,6 +2,21 @@
   "character_id": "char_ke_yan",
   "states": [
     {
+      "story_time": 17,
+      "chapter_id": "ch_017",
+      "location": "elem_stardust_fortress（简报室）→ elem_shattered_bastion（断裂要塞外围前出阵地）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "联合突袭详细方案：两条路线，第一小队（柯炎/陈路/刘霜/韩宗/林岐）走左侧废弃矿道，其他两个小队走右侧破碎地形", "confidence": "official_briefing", "trigger": "任务简报" },
+        { "fact": "联邦情报：可能有先驱级指挥个体，简报里用'可能'处理，没有专门强调", "confidence": "official_briefing_uncertain", "trigger": "任务简报" },
+        { "fact": "右侧破碎地形远端（约25m）有一个弱信号：感知到了然后失去，全向感知覆盖范围内（13m内）无异常，该信号不够确认", "confidence": "self_perceived_uncertain", "trigger": "前出侦察时感知扫描" }
+      ],
+      "psychology": { "sanity": 70, "mood": "任务准备状态·前向专注·右侧弱信号待确认", "notes": "他把'可能有先驱'的权重调高了，独自存在记忆里，不写进战术报告。右侧弱信号同样放在记忆里，打了'待确认'标记。刘霜扫描方向和他弱信号方向一致，他注意到了这个对位，但没有追。他对明天的准备是系统性的——两条路，感知分配，全向感知备用节点。" },
+      "abilities_delta": [],
+      "notes": "ch_017：简报，前出侦察，右侧弱信号记录，战术报告提交（不含弱信号），装备确认，睡了。"
+    },
+    {
       "story_time": 16,
       "chapter_id": "ch_016",
       "location": "elem_stardust_fortress（情报处理站 → 食堂 → 宿舍）",
