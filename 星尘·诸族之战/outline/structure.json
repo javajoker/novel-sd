@@ -423,7 +423,8 @@
             "evt_psi_elder_enters"
           ],
           "one_line": "她俯视这片人类的废墟战场——却在Θ区方向感到一丝皱眉的源质共鸣。",
-          "status": "planned"
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_025.json"
         },
         {
           "id": "ch_035",

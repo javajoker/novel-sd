@@ -4,7 +4,7 @@
     "novel_title": "星尘：诸族之战",
     "novel_author": "同人作者",
     "story_time_unit": "chapter",
-    "current_chapter": 24,
+    "current_chapter": 25,
     "language": "zh-Hans",
     "genre": "科幻战争",
     "tier": "long_novel",
@@ -12,7 +12,8 @@
     "logline": "源质纪元第47年，边界星域，星尘要塞被围困的第四十三天——一个坚信自己只是战争机器里一颗螺丝钉的联邦老兵，在能力卡与源质觉醒的混乱洪流里一路蜕变，被迫面对那个他逃避了一生的问题：当你真的能改变战争的走向，你还能假装自己只是旁观者吗？",
     "pov_roster": [
       "char_ke_yan",
-      "char_void_echo"
+      "char_void_echo",
+      "char_psi_elder"
     ],
     "omniscient_thread": "thr_war_strategy"
   },
