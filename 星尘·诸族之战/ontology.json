@@ -4,7 +4,7 @@
     "novel_title": "星尘：诸族之战",
     "novel_author": "同人作者",
     "story_time_unit": "chapter",
-    "current_chapter": 18,
+    "current_chapter": 19,
     "language": "zh-Hans",
     "genre": "科幻战争",
     "tier": "long_novel",
@@ -836,7 +836,7 @@
       ],
       "prerequisites": [],
       "projected_outcome": "一次任务惨烈收场，突击营减员；柯炎一个战术选择直接决定谁死谁活，他的'我只是螺丝钉'第一次裂开。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_019",
         "ch_020"

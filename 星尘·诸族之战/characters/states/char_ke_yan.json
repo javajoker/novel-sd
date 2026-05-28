@@ -2,6 +2,21 @@
   "character_id": "char_ke_yan",
   "states": [
     {
+      "story_time": 19,
+      "chapter_id": "ch_019_020",
+      "location": "elem_shattered_bastion（断裂要塞外围 → 废弃矿道 → 联合撤退点 → 断裂要塞残墙）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "通讯切断是主动干扰（干净，有意识，先驱级行为）——不是器材故障", "confidence": "self_analyzed", "trigger": "通讯断开的质感区分" },
+        { "fact": "右侧破碎地形有先驱在等：三个叠加来源确认——ch_017弱信号+ch_018刘霜告知+全向感知边缘余波（组织过的、被压制的存在感）", "confidence": "triple_source_convergence", "trigger": "ch_019任务中激活全向感知时" },
+        { "fact": "evt_subarc_a_climax：三死两重伤，来自右侧第二小队；第一小队零死亡，一轻伤", "confidence": "confirmed_official_report", "trigger": "通讯恢复后收到伤亡报告" }
+      ],
+      "psychology": { "sanity": 60, "mood": "the_lie第一条裂缝·格子扣不上了·无结论但必须继续", "notes": "'运气好'框架今天第一次完全失效——他试图用它覆盖今天清单的每一个节点，找不到能用的地方，那个框架装不下今天的形状。'我知道'和胸口的重量之间出现了差距，这个差距以前不存在。格子盖子只扣进去一半，剩下一半扣不上，他没有承认这件事，但他无法不知道这件事。他没有找到任何结论，他没有解决任何事情，他选择了继续往前走，因为没有别的选项。the_lie第一次真正裂开——外壳有了一条缝，但没有粉碎。Sub-arc B开始了，他不知道。" },
+      "abilities_delta": [],
+      "notes": "ch_019+020：联合突袭，先驱引导陷阱，选择左路，六人活，三人死。'运气好'失效，格子扣不上，残墙独立，没有结论，继续前行。evt_subarc_a_climax完成。"
+    },
+    {
       "story_time": 18,
       "chapter_id": "ch_018",
       "location": "elem_stardust_fortress（宿舍 → 要塞通道夜行 → 宿舍）",

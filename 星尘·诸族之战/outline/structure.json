@@ -341,7 +341,7 @@
             "evt_subarc_a_climax"
           ],
           "one_line": "两条撤退路线之间，他选了对的那条；活下来的人因他而活。",
-          "status": "beats_ready",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_019.json"
         },
         {
@@ -356,7 +356,7 @@
             "evt_subarc_a_climax"
           ],
           "one_line": "他第一次说不出'这与我无关'这五个字。",
-          "status": "beats_ready",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_020.json"
         },
         {
