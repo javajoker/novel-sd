@@ -2,6 +2,68 @@
   "character_id": "char_ke_yan",
   "states": [
     {
+      "story_time": 4,
+      "chapter_id": "ch_004",
+      "location": "elem_origin_theta（废弃中继站 → 夜营）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "蓝卡·预知闪避可以主动持在手中触发——热感在接近威胁时增强，引导行动", "confidence": "experienced", "trigger": "中继站主动使用" },
+        { "fact": "刘霜右手腕内侧有某种需要检查的东西（第二次观察，不同场合）", "confidence": "noted", "trigger": "夜营目击" }
+      ],
+      "psychology": { "sanity": 83, "mood": "疲惫·均衡·有一点新的不适（对'运气'这个字）", "notes": "说'运气'时感到厌倦的那一秒被记下了，但没有被追究。这是一个新的内部信号：他开始对自己的解释机制产生轻微的抵触，尽管还未形成意识。" },
+      "abilities_delta": [],
+      "notes": "ch_004：中继站任务完成。图纸芯片取得。六人撤退准备中。"
+    },
+    {
+      "story_time": 3,
+      "chapter_id": "ch_003",
+      "location": "elem_origin_theta（外围矿带）",
+      "inventory_delta": [
+        { "action": "gained", "item": "白卡·稳定射击×3", "note": "从精英异种残骸拾取" },
+        { "action": "consumed_synthesis", "item": "白卡·稳定射击×3", "note": "合成蓝卡消耗" },
+        { "action": "gained", "item": "蓝卡·预知闪避×1", "note": "首次蓝卡合成产出；效果：被攻击前0.5秒进入半透相位约0.3秒" }
+      ],
+      "status": [
+        { "type": "sensory_event", "desc": "Θ区高源质浓度导致源质感知被动全激活（非主动召唤）；合成蓝卡时胸口短暂源质共鸣烫感（约0.8秒，随即被主动压制）", "severity": "negligible" }
+      ],
+      "knowledge_gained": [
+        { "fact": "fact_ke_yan_potential", "confidence": "suspected_then_repressed", "trigger": "蓝卡合成瞬间'我做的'念头一闪而出，立刻被压回'运气好'框架" },
+        { "fact": "刘霜可以从右手腕内侧发出源质攻击性能量，不是标准医疗兵技能", "confidence": "observed_not_analyzed", "trigger": "看见刘霜击退第三只异种后快速收回手腕" }
+      ],
+      "psychology": { "sanity": 83, "mood": "战后疲惫·表面平静·胸口有一秒没有完全消化的烫", "notes": "the_lie持续运行：'运气好'框架重新套上，但这次不像前两次那样完全套得住。那个'我做的'念头被推开了，但推开的动作本身留下了印记。" },
+      "abilities_delta": [],
+      "notes": "ch_003：Θ区精英伏击。持有：白卡·闪避感知×2 + 白卡·稳定射击×1（第四张，未合成）+ 蓝卡·预知闪避×1。"
+    },
+    {
+      "story_time": 2,
+      "chapter_id": "ch_002",
+      "location": "elem_stardust_fortress",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "周恒已对胜利失去信心（认命），但仍在做他认为该做的事", "confidence": "suspected", "trigger": "'回来'那一眼的结构 → 触发父亲进矿前的记忆联结" },
+        { "fact": "刘霜在藏某种非标准医疗器材（细长金属管注射器）", "confidence": "observed", "trigger": "装备区目击，未质疑" },
+        { "fact": "周恒看刘霜的那一眼有某种特殊语法，但柯炎尚无解码上下文", "confidence": "noted", "trigger": "简报室点名停顿" }
+      ],
+      "psychology": { "sanity": 84, "mood": "疲惫·清醒·轻微同情涌入（对周恒）", "notes": "同情周恒是一种新的不舒服感——他不允许自己同情上级；这个感情被压制但未消除。对刘霜的问号存入长期记忆，标记为'暂不追究'。" },
+      "abilities_delta": [],
+      "notes": "ch_002：突围简报。出发前夜。三张白卡已放入胸口口袋。"
+    },
+    {
+      "story_time": 1,
+      "chapter_id": "ch_001",
+      "location": "elem_stardust_fortress",
+      "inventory_delta": [],
+      "status": [
+        { "type": "minor_injury", "desc": "左臂外侧轻微划伤（碎石，已自行包扎）", "severity": "negligible" }
+      ],
+      "knowledge_gained": [],
+      "psychology": { "sanity": 85, "mood": "疲惫·清醒", "notes": "源质感知又一次被归类为'运气好'；空感在某件刚刚发生的事之后再次出现，未被追究。" },
+      "abilities_delta": [],
+      "notes": "ch_001：北墙岗哨。一次试探性攻击被化解。班长夸了；偏开了头。"
+    },
+    {
       "story_time": 0,
       "chapter_id": null,
       "baseline": true,

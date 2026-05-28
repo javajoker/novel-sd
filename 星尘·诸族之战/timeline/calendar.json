@@ -1,5 +1,13 @@
 {
   "story_time_unit": "chapter",
+  "current_story_time": 4,
+  "current_chapter": 4,
+  "chapter_to_story_time": {
+    "ch_001": 1,
+    "ch_002": 2,
+    "ch_003": 3,
+    "ch_004": 4
+  },
   "world_calendar": {
     "era": "源质纪元 (Origin Era)",
     "year": 47,
@@ -7,25 +15,101 @@
     "notes": "故事时间以星尘要塞围困日为主时钟。卷一从围困第43日开始（ch_001），到围困第115日左右收束（ch_080）。多POV并发时，同一日可对应多章（如 ch_005 与 ch_006 是同一日的不同视角）。"
   },
   "chapter_to_world_day": {
-    "ch_001": { "story_time": 1, "siege_day": 43, "note": "黎明，城墙" },
-    "ch_002": { "story_time": 2, "siege_day": 44, "note": "突围简报" },
-    "ch_003": { "story_time": 3, "siege_day": 45, "note": "第一战 + 合成蓝卡" },
-    "ch_005": { "story_time": 5, "siege_day": 47, "note": "撤退途中" },
-    "ch_006": { "story_time": 6, "siege_day": 47, "note": "Ω站；与 ch_005 同日，虚影POV" },
-    "ch_008": { "story_time": 8, "siege_day": 49, "note": "Θ区，濒死突破前兆" },
-    "ch_010": { "story_time": 10, "siege_day": 50, "note": "断裂要塞，先驱首现" },
-    "ch_012": { "story_time": 12, "siege_day": 51, "note": "要塞深夜，周恒真话" },
-    "ch_015": { "story_time": 15, "siege_day": 53, "note": "Θ区遗迹，残图入手" },
-    "ch_019": { "story_time": 19, "siege_day": 55, "note": "断裂要塞外，第一段选择" },
-    "ch_020": { "story_time": 19, "siege_day": 55, "note": "同日，sub-arc A 收束" },
-    "ch_025": { "story_time": 25, "siege_day": 60, "note": "Θ区上空，艾薇儿降临" },
-    "ch_035": { "story_time": 35, "siege_day": 70, "note": "断裂要塞，刘霜揭身" },
-    "ch_050": { "story_time": 50, "siege_day": 85, "note": "断裂要塞外围，虚影首次直接接触" },
-    "ch_055": { "story_time": 55, "siege_day": 90, "note": "Θ区，先驱诱敌" },
-    "ch_058": { "story_time": 58, "siege_day": 93, "note": "断裂要塞，与艾薇儿背靠背" },
-    "ch_070": { "story_time": 70, "siege_day": 105, "note": "星尘要塞陷落之夜" },
-    "ch_078": { "story_time": 78, "siege_day": 113, "note": "Θ区边缘，三方阴影" },
-    "ch_080": { "story_time": 80, "siege_day": 115, "note": "Θ区内层，卷末突破" }
+    "ch_001": {
+      "story_time": 1,
+      "siege_day": 43,
+      "note": "黎明，城墙"
+    },
+    "ch_002": {
+      "story_time": 2,
+      "siege_day": 44,
+      "note": "突围简报"
+    },
+    "ch_003": {
+      "story_time": 3,
+      "siege_day": 45,
+      "note": "第一战 + 合成蓝卡"
+    },
+    "ch_005": {
+      "story_time": 5,
+      "siege_day": 47,
+      "note": "撤退途中"
+    },
+    "ch_006": {
+      "story_time": 6,
+      "siege_day": 47,
+      "note": "Ω站；与 ch_005 同日，虚影POV"
+    },
+    "ch_008": {
+      "story_time": 8,
+      "siege_day": 49,
+      "note": "Θ区，濒死突破前兆"
+    },
+    "ch_010": {
+      "story_time": 10,
+      "siege_day": 50,
+      "note": "断裂要塞，先驱首现"
+    },
+    "ch_012": {
+      "story_time": 12,
+      "siege_day": 51,
+      "note": "要塞深夜，周恒真话"
+    },
+    "ch_015": {
+      "story_time": 15,
+      "siege_day": 53,
+      "note": "Θ区遗迹，残图入手"
+    },
+    "ch_019": {
+      "story_time": 19,
+      "siege_day": 55,
+      "note": "断裂要塞外，第一段选择"
+    },
+    "ch_020": {
+      "story_time": 19,
+      "siege_day": 55,
+      "note": "同日，sub-arc A 收束"
+    },
+    "ch_025": {
+      "story_time": 25,
+      "siege_day": 60,
+      "note": "Θ区上空，艾薇儿降临"
+    },
+    "ch_035": {
+      "story_time": 35,
+      "siege_day": 70,
+      "note": "断裂要塞，刘霜揭身"
+    },
+    "ch_050": {
+      "story_time": 50,
+      "siege_day": 85,
+      "note": "断裂要塞外围，虚影首次直接接触"
+    },
+    "ch_055": {
+      "story_time": 55,
+      "siege_day": 90,
+      "note": "Θ区，先驱诱敌"
+    },
+    "ch_058": {
+      "story_time": 58,
+      "siege_day": 93,
+      "note": "断裂要塞，与艾薇儿背靠背"
+    },
+    "ch_070": {
+      "story_time": 70,
+      "siege_day": 105,
+      "note": "星尘要塞陷落之夜"
+    },
+    "ch_078": {
+      "story_time": 78,
+      "siege_day": 113,
+      "note": "Θ区边缘，三方阴影"
+    },
+    "ch_080": {
+      "story_time": 80,
+      "siege_day": 115,
+      "note": "Θ区内层，卷末突破"
+    }
   },
   "travel_rules": [
     {

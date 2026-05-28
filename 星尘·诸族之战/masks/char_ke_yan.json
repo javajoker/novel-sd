@@ -2,6 +2,66 @@
   "character_id": "char_ke_yan",
   "knowledge_at": [
     {
+      "story_time": 3,
+      "chapter_id": "ch_003",
+      "facts_known": [
+        "fact_federation_losing"
+      ],
+      "facts_suspected": [
+        { "fact": "周恒对胜利已无信心，但仍在执行职责", "basis": "'回来'那一眼" },
+        { "fact": "刘霜持有并使用非标准医疗器材（可能是某种攻击性源质能力）", "basis": "ch_002装备区目击 + ch_003战场出手" },
+        { "fact": "fact_ke_yan_potential", "stage": "suspected_then_repressed", "basis": "蓝卡合成时胸口烫感 + '我做的'念头出现后立刻压制——运气框架重新套上，但这次套得吃力" }
+      ],
+      "facts_rumored": [
+        "fact_theta_secret"
+      ],
+      "facts_unknown": [
+        "fact_void_echo_identity",
+        "fact_herald_evolving",
+        "刘霜的秘密项目身份",
+        "周恒密令的具体内容"
+      ],
+      "beliefs_held": [
+        { "belief": "自己只是战争机器里的一颗螺丝钉", "is_true": false, "status": "the_lie：外壳完好，但内部出现了第一道压力缝" },
+        { "belief": "刘霜只是普通医疗兵", "is_true": false, "status": "开始崩裂：战场上看到了无法用'医疗兵'解释的动作" },
+        { "belief": "蓝卡合成是运气+卡好+刘霜及时，与自己无关", "is_true": false, "status": "新增：主动防御性信念，取代了'我做的'那一秒" }
+      ],
+      "projected_facts_to_learn": [
+        { "fact": "fact_ke_yan_potential", "stage": "forced_acknowledgment", "trigger": "ch_008 evt_perception_edge：濒死突破时身体完全超出他能用'运气'解释的范围" }
+      ]
+    },
+    {
+      "story_time": 2,
+      "chapter_id": "ch_002",
+      "facts_known": [
+        "fact_federation_losing"
+      ],
+      "facts_suspected": [
+        { "fact": "周恒对胜利已无信心（认命），但仍在执行职责", "basis": "'回来'那一眼 + 童年记忆联结" },
+        { "fact": "刘霜持有非标准医疗器材（具体不明）", "basis": "目击装备区藏针剂动作" },
+        { "fact": "周恒与刘霜之间存在某种信息上的默契，来源不明", "basis": "简报室那一眼的停顿" }
+      ],
+      "facts_rumored": [
+        "fact_theta_secret"
+      ],
+      "facts_unknown": [
+        "fact_void_echo_identity",
+        "fact_herald_evolving",
+        "fact_ke_yan_potential",
+        "刘霜的秘密项目身份",
+        "周恒密令的具体内容"
+      ],
+      "beliefs_held": [
+        { "belief": "自己只是战争机器里的一颗螺丝钉", "is_true": false, "status": "the_lie：继续运行，本章未动摇" },
+        { "belief": "刘霜只是普通医疗兵", "is_true": false, "status": "开始出现裂缝——看见了非标准器材，但主动不追究" },
+        { "belief": "周恒还在坚守是因为职责，不是因为绝望", "is_true": "partial", "status": "升级：现在感觉是'两者都有，绝望在里面，职责是外壳'" },
+        { "belief": "自己的源质感知只是老兵直觉", "is_true": false, "status": "未受触动" }
+      ],
+      "projected_facts_to_learn": [
+        { "fact": "fact_ke_yan_potential", "stage": "suspected", "trigger": "ch_003：第一次合成蓝卡时感到胸口的灼热——'这不是运气了，运气不会烫'" }
+      ]
+    },
+    {
       "story_time": 0,
       "chapter_id": null,
       "facts_known": [

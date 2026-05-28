@@ -1,0 +1,49 @@
+{
+  "character_id": "char_major_zhou",
+  "knowledge_at": [
+    {
+      "story_time": 0,
+      "chapter_id": null,
+      "facts_known": [
+        "fact_federation_losing"
+      ],
+      "facts_partial": [],
+      "facts_unknown": [
+        "fact_ke_yan_potential",
+        "fact_void_echo_identity",
+        "fact_herald_evolving",
+        "fact_theta_secret",
+        "刘霜的隐藏融合者身份与联邦秘密项目关联"
+      ],
+      "beliefs_held": [
+        { "belief": "援军不会来，但发申请是对下属的责任", "is_true": "partial", "status": "持续自我消耗" },
+        { "belief": "用对的人比教导对的人更有效率", "is_true": "partial", "status": "指挥风格核心" }
+      ],
+      "projected_facts_to_learn": []
+    },
+    {
+      "story_time": 1,
+      "chapter_id": "ch_001",
+      "facts_known": [
+        "fact_federation_losing"
+      ],
+      "facts_suspected": [
+        { "fact": "fact_ke_yan_potential", "stage": "suspected", "trigger": "第三次在战场上观察到柯炎的反应速度不符合正常老兵逻辑——半秒差距，在警报响前已动" }
+      ],
+      "facts_unknown": [
+        "fact_void_echo_identity",
+        "fact_herald_evolving",
+        "fact_theta_secret",
+        "刘霜的隐藏融合者身份与联邦秘密项目关联"
+      ],
+      "beliefs_held": [
+        { "belief": "援军不会来，但发申请是对下属的责任", "is_true": "partial", "status": "持续自我消耗" },
+        { "belief": "用对的人比教导对的人更有效率", "is_true": "partial", "status": "指挥风格核心" },
+        { "belief": "柯炎的反应速度不是普通老兵直觉，但他不打算在明白之前问", "is_true": true, "status": "新增；行动策略是'先用'而非'先研究'" }
+      ],
+      "projected_facts_to_learn": [
+        { "fact": "fact_ke_yan_potential", "stage": "confirm", "trigger": "ch_008 或 ch_010：在更高风险的战场环境下亲眼见到柯炎的感知能力超过物理可能" }
+      ]
+    }
+  ]
+}
