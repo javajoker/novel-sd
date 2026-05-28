@@ -2,6 +2,23 @@
   "character_id": "char_ke_yan",
   "states": [
     {
+      "story_time": 14,
+      "chapter_id": "ch_014",
+      "location": "elem_origin_theta（Θ区外围→遗迹入口外）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "蓝卡·全向感知矿带参数实测：半径13m，持续约20秒，冷却约25秒，比要塞底噪好将近一倍", "confidence": "self_tested", "trigger": "Θ区入境后主动测试" },
+        { "fact": "柯炎感知范围在Θ区比上次记录多3-4米（约18m），可能来自最近极端使用后的提升，也可能是今日状态偏高——两个假说并排，无结论", "confidence": "self_observed_uncertain", "trigger": "进入Θ区感知扩展" },
+        { "fact": "遗迹区域存在：地质不同（更古老，暗光泽），岩面有工具刻痕（非风蚀/爆炸/机械族风格），建筑残骸风格完全未知（不是联邦/机械族/异种），源质浓度比外围高约三成", "confidence": "direct_perception_and_observation", "trigger": "抵达遗迹外围" },
+        { "fact": "遗迹建筑残骸内部有源质结晶，不是随机散布，是集中的、有结构的排布——具体形状感知到了但描述不出来，'不是随机的'是他能说出的唯一确定性", "confidence": "perceived_via_sense", "trigger": "感知展开，保障陈路和刘霜时探入建筑残骸" },
+        { "fact": "刘霜在进入遗迹区域时停了半步看掌机——她的设备读到了什么", "confidence": "observed_indirect", "trigger": "柯炎的感知和注意力捕捉到步伐节奏变化" }
+      ],
+      "psychology": { "sanity": 71, "mood": "任务模式·平稳·一个悬挂中的'待确认'", "notes": "今天是功能性任务日——测试，侦察，保障，归档。遗迹内部那个'结构性排布'被他打了一个待确认的标签，等授权批下来之后的下一阶段任务。刘霜的半步停顿也是一个标签，存入格子，不追。Θ区感知的'顺'让他有一点警戒，但他没有关小感知——顺不等于安全，他让边界确认清楚。" },
+      "abilities_delta": [],
+      "notes": "ch_014：三人侦察，两个蓝卡都带，陈路负责地质数据，刘霜负责源质扫描，柯炎保障。任务目标完成，未进入遗迹内部（需要额外授权）。陈路建议申请下一阶段内部探查授权。"
+    },
+    {
       "story_time": 13,
       "chapter_id": "ch_013",
       "location": "elem_stardust_fortress（北墙外围 → 宿舍）",

@@ -263,6 +263,19 @@
           "beat_sheet_ref": "outline/beats/ch_013.json"
         },
         {
+          "id": "ch_014",
+          "number": 14,
+          "title": "遗迹方向",
+          "sub_arc": "A·围困",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 14,
+          "planned_events": [],
+          "one_line": "三人Θ区侦察，测试蓝卡·全向感知，抵达遗迹外围，感知到内部结构性源质结晶排布。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_014.json"
+        },
+        {
           "id": "ch_015",
           "number": 15,
           "title": "残图",
