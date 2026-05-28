@@ -2,6 +2,23 @@
   "character_id": "char_ke_yan",
   "states": [
     {
+      "story_time": 15,
+      "chapter_id": "ch_015",
+      "location": "elem_origin_theta（Θ区遗迹内部 → 回程途中）",
+      "inventory_delta": [
+        { "item": "Θ区遗迹残图板材（碎片）", "change": "+1", "note": "在遗迹走廊右侧角落发现，内嵌活性源质结晶，图为更大地图的一小块，字符系统未知；放进任务包准备上交工程部" }
+      ],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "Θ区遗迹走廊内有源质结晶嵌入的几何符号刻痕，非已知任何语言/文字体系", "confidence": "direct_observation", "trigger": "走廊内目击" },
+        { "fact": "遗迹走廊发现一块板材，内含活性源质结晶，图上有方位标记、深度标示和未知字符系统——不完整，是更大地图的一部分", "confidence": "direct_observation", "trigger": "拾取板材" },
+        { "fact": "板材在握持瞬间触发了他源质感知的某个频率层的'共鸣'——不是威胁信号，是频率对应产生的微小震动，'它叫了我一下'", "confidence": "self_perceived_clear", "trigger": "握住板材的瞬间" }
+      ],
+      "psychology": { "sanity": 70, "mood": "任务完成·稳·格子再加一件事", "notes": "板材的共鸣是真实的，他没有否认，但他也没有追究它的意思——它进了格子，和感知炸开、先驱对视、刘霜的手、一千两百个人一起待在那里。格子的盖子用力才能扣上。刘霜的眼神变化他记了下来，也没有追，存进了'待确认'区。这件事他不知道它的意义，他也不想现在知道。" },
+      "abilities_delta": [],
+      "notes": "ch_015：遗迹内部搜索，发现残图板材，感知共鸣发生，刘霜眼神变化，任务完成，格子又加了一件事。evt_theta_map_fragment发生。"
+    },
+    {
       "story_time": 14,
       "chapter_id": "ch_014",
       "location": "elem_origin_theta（Θ区外围→遗迹入口外）",

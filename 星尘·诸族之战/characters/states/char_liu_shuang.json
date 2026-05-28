@@ -2,6 +2,20 @@
   "character_id": "char_liu_shuang",
   "states": [
     {
+      "story_time": 15,
+      "chapter_id": "ch_015",
+      "location": "elem_origin_theta（Θ区遗迹内部 → 遗迹出口外）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "柯炎在接触遗迹板材（残图碎片）的瞬间，其源质感知层产生了一个她感应到的共鸣反应——频率对应，不是威胁触发，是主动共鸣", "confidence": "confirmed_sensor_data", "trigger": "掌机感应记录 + 对柯炎方向的主动扫描" },
+        { "fact": "柯炎与Θ区遗迹之间存在某种源质频率对应关系——不只是感知者的普通浓度适应，是具体到'那块板材'的频率匹配", "confidence": "suspected_high_confidence", "trigger": "共鸣反应数据 + 遗迹内感知表现 + 累积数据集" }
+      ],
+      "psychology": { "sanity": 79, "mood": "数据升级·分裂加深·任务和情感判断再次冲突", "notes": "她的掌机今天换了更大型号，因为她预判到遗迹内会有高质量数据——这个预判是对的。共鸣反应数据让她的评估再次需要修订：柯炎和这处遗迹之间的关系比她此前设想的更具体，不只是'高浓度区域的感知者表现好'，是'他和某件具体的东西频率匹配了'。她在出遗迹时看了他，那个眼神她知道他注意到了，她没有解释。" },
+      "abilities_delta": [],
+      "notes": "ch_015：遗迹内搜索任务，感应到柯炎接触残图板材时的共鸣数据，掌机记录更长的注释，出遗迹时看了他。"
+    },
+    {
       "story_time": 8,
       "chapter_id": "ch_008",
       "location": "elem_origin_theta（Θ区矿道崩塌段外部）",

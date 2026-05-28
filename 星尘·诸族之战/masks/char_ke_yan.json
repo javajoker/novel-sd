@@ -2,6 +2,40 @@
   "character_id": "char_ke_yan",
   "knowledge_at": [
     {
+      "story_time": 15,
+      "chapter_id": "ch_015",
+      "facts_known": [
+        "fact_federation_losing",
+        "周恒已对胜利失去信心（'我们守的不是要塞，是上面用来拖时间的数字'——直接确认）",
+        "Θ区遗迹存在：古代建筑残骸，非联邦/机械族/异种工艺，内有源质结晶嵌入的几何符号，发光说明仍有活性源质",
+        "遗迹内发现残图板材（碎片），含活性源质结晶，图有方位/深度标示但字符系统未知，残片是更大图的一块"
+      ],
+      "facts_suspected": [
+        { "fact": "刘霜持有并使用非标准医疗器材（可能是某种攻击性源质能力）", "basis": "ch_002+ch_003" },
+        { "fact": "刘霜的源质感应能力超出普通医疗兵范畴", "basis": "ch_008停顿；ch_015她感应到他接触板材时的反应，改变了看他的方式" },
+        { "fact": "fact_ke_yan_potential", "stage": "acknowledged_but_still_deflecting", "basis": "格子已装入：感知炸开、先驱对视、五个名字、一千两百个人、'运气好'磨损、残图共鸣——他把这些都归档但不画线" },
+        { "fact": "fact_herald_evolving", "stage": "suspected_unnamed", "basis": "'那东西不一样'" },
+        { "fact": "周恒密令的大致性质：拖延棋子而非守住", "stage": "partial_suspected", "basis": "'上面用来拖时间的数字'" },
+        { "fact": "fact_theta_secret", "stage": "physical_evidence", "basis": "手持残图时感知共鸣——'它叫了我一下'；但他只知道存在共鸣，不知道共鸣意味着什么" }
+      ],
+      "facts_rumored": [],
+      "facts_unknown": [
+        "fact_void_echo_identity",
+        "刘霜的秘密项目身份",
+        "周恒密令的具体内容",
+        "残图板材的来源、意义，以及它和他的源质感知之间共鸣的原因"
+      ],
+      "beliefs_held": [
+        { "belief": "自己只是战争机器里的一颗螺丝钉", "is_true": false, "status": "the_lie：外壳完好，但格子现在装着：感知炸开+先驱对视+五个名字+一千两百个人+运气好磨损+残图共鸣——这些是点，他知道有点，不画线" },
+        { "belief": "蓝卡合成是运气，与自身无关", "is_true": false, "status": "'运气好'磨损加剧，但框架尚在；残图共鸣与他的'运气好'框架开始产生干涉" },
+        { "belief": "刘霜只是普通医疗兵", "is_true": false, "status": "继续主动不追，但她在ch_015的眼神变化被记录进'待确认'区" }
+      ],
+      "projected_facts_to_learn": [
+        { "fact": "fact_herald_evolving", "stage": "named_and_acknowledged", "trigger": "ch_055先驱战略行动" },
+        { "fact": "fact_ke_yan_potential", "stage": "acknowledged_undecoded", "trigger": "ch_019-020'运气好'框架完全失效" }
+      ]
+    },
+    {
       "story_time": 13,
       "chapter_id": "ch_013",
       "facts_known": [
