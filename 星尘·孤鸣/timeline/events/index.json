@@ -1,6 +1,6 @@
 {
   "last_story_time": 33,
-  "last_chapter": "ch_068",
+  "last_chapter": "ch_069",
   "by_chapter": {
     "ch_001": [
       "evt_novel_opening"
@@ -205,6 +205,9 @@
     ],
     "ch_068": [
       "evt_ch068_void_operation"
+    ],
+    "ch_069": [
+      "evt_ch069_theta_adjustment"
     ]
   },
   "by_story_time": {
@@ -341,7 +344,8 @@
       "evt_ch067_signal_found"
     ],
     "33": [
-      "evt_ch068_void_operation"
+      "evt_ch068_void_operation",
+      "evt_ch069_theta_adjustment"
     ]
   },
   "by_thread": {
@@ -411,7 +415,8 @@
       "evt_ch046_null01_trajectory",
       "evt_ch052_qixing_contact",
       "evt_ch058_null01_stationary",
-      "evt_ch065_termination_order"
+      "evt_ch065_termination_order",
+      "evt_ch069_theta_adjustment"
     ],
     "thr_ulos": [
       "evt_ch008_ulos_watching",

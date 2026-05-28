@@ -881,7 +881,8 @@
           "story_time": 33,
           "one_line": "Θ-7检测到虚空波动，归类为「新型异常事件」，私人日志第六条：「什么在开始？」",
           "scene_arc": "检测→分析（归类失败）→记录（第六条，它第一次用了「什么」）",
-          "status": "outlined"
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_069.json"
         },
         {
           "id": "ch_070",
