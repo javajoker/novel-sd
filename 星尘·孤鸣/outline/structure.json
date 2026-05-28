@@ -845,7 +845,8 @@
           "story_time": 32,
           "one_line": "艾昂离开前哨站继续走，但走法不一样了——他偶尔会抬头看，不只是看方向。",
           "scene_arc": "离开→行走（不同的）→某个小动作（抬头）",
-          "status": "outlined"
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_066.json"
         },
         {
           "id": "ch_067",
