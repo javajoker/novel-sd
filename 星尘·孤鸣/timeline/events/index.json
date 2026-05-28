@@ -1,6 +1,6 @@
 {
-  "last_story_time": 34,
-  "last_chapter": "ch_073",
+  "last_story_time": 35,
+  "last_chapter": "ch_074",
   "by_chapter": {
     "ch_001": [
       "evt_novel_opening"
@@ -220,6 +220,9 @@
     ],
     "ch_073": [
       "evt_ch073_plan_final"
+    ],
+    "ch_074": [
+      "evt_ch074_qixing_node_contact"
     ]
   },
   "by_story_time": {
@@ -364,6 +367,9 @@
       "evt_ch071_sixteenth",
       "evt_ch072_null01_terminated",
       "evt_ch073_plan_final"
+    ],
+    "35": [
+      "evt_ch074_qixing_node_contact"
     ]
   },
   "by_thread": {
@@ -388,7 +394,8 @@
       "evt_ch031_unit_remains",
       "evt_ch043_survival_map",
       "evt_ch051_qixing_signal",
-      "evt_ch067_signal_found"
+      "evt_ch067_signal_found",
+      "evt_ch074_qixing_node_contact"
     ],
     "thr_aeon": [
       "evt_ch004_first_encounter",

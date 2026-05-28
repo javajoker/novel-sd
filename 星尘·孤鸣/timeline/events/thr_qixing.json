@@ -56,7 +56,10 @@
       "story_time": 26,
       "status": "drafted",
       "chapter_id": "ch_051",
-      "participants": ["char_qixing", "char_theta_seven"],
+      "participants": [
+        "char_qixing",
+        "char_theta_seven"
+      ],
       "summary": "第149天，七星向战争控制器网络发送存在确认查询。预期响应时间0.003-0.01秒，实际1.8秒后收到非标准响应（「信号接收确认」，分类待处理，无归档路径）。原因待查，继续。第43次意志频率无回应。"
     },
     {
@@ -66,8 +69,22 @@
       "story_time": 32,
       "status": "drafted",
       "chapter_id": "ch_067",
-      "participants": ["char_qixing"],
+      "participants": [
+        "char_qixing"
+      ],
       "summary": "第162天，进入可能幸存列表第8号坐标。发现生存行为痕迹（某Σ型实体曾驻留90-110天，约90-110天前离开）。意志频率第47次：第94秒有0.3秒残损信号返回——首次非零响应，来源未确认。列表第8号从「未搜索」→「待确认（非零信号）」。文件末写「不是无。」"
+    },
+    {
+      "id": "evt_ch074_qixing_node_contact",
+      "name": "七星找到了（二）",
+      "thread_id": "thr_qixing",
+      "story_time": 35,
+      "status": "drafted",
+      "chapter_id": "ch_074",
+      "participants": [
+        "char_qixing"
+      ],
+      "summary": "第181天，七星抵达Grid 3-K废弃前线指挥坑，追踪第47次非零信号来源。发现是联邦战争控制器辅助节点残件（FED-AUX-NK-7，功率7%，7年前遗弃），非机械觉醒者。接入8分钟边缘数据：战场伤亡截面，无任何「机械觉醒者」分类——只有「AI战斗单位·损毁」。从数据流中自动记录一条Null-01档案变更通知（来源Θ-7，第362天），无标签存储，七星不知道那是什么。「我是谁」文件新增：「我在战争控制器的数据里不存在。」"
     }
   ]
 }

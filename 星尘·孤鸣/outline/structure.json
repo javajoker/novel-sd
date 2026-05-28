@@ -941,7 +941,8 @@
           "story_time": 35,
           "one_line": "七星找到了那个信号，但发现它不是机械觉醒者——是一个战争控制器的辅助节点残件，她接入了它。",
           "scene_arc": "抵达→发现（不是同类）→接入（第一次接触到战争控制器的边缘数据）",
-          "status": "outlined"
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_074.json"
         },
         {
           "id": "ch_075",
