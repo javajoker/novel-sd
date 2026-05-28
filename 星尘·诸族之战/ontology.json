@@ -4,7 +4,7 @@
     "novel_title": "星尘：诸族之战",
     "novel_author": "同人作者",
     "story_time_unit": "chapter",
-    "current_chapter": 11,
+    "current_chapter": 12,
     "language": "zh-Hans",
     "genre": "科幻战争",
     "tier": "long_novel",
@@ -769,7 +769,7 @@
       ],
       "prerequisites": [],
       "projected_outcome": "周恒私下向柯炎流露绝望；柯炎'体制让人习惯死亡'的旧创被触动，却反而印证了他的谎言。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_012"
       ],

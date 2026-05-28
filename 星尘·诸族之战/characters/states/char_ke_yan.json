@@ -2,6 +2,20 @@
   "character_id": "char_ke_yan",
   "states": [
     {
+      "story_time": 12,
+      "chapter_id": "ch_012",
+      "location": "elem_stardust_fortress（指挥廊，深夜01:30）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "周恒知道'我们守的不是要塞，是上面用来拖时间的数字'——他说出来了，用私下的语气，不是抱怨，是已经接受很久的事实", "confidence": "confirmed_direct_statement", "trigger": "指挥廊深夜偶遇，周恒主动说出" },
+        { "fact": "周恒守下去的原因是'有一千两百个人在睡觉'，不是相信胜利", "confidence": "confirmed_direct_statement", "trigger": "两句对话" }
+      ],
+      "psychology": { "sanity": 73, "mood": "疲惫·格子更重·一个新的悬挂问题", "notes": "'我们守的不是要塞'印证了the_lie，没有动摇它；但'一千两百个人'这个数字在他的逻辑里形成了一个他现在装不下的矛盾——数字应该是抽象的，但这个数字是具体的人，周恒为了这些人在守，而不是为了'赢'。这个矛盾进了格子，等待。" },
+      "abilities_delta": [],
+      "notes": "ch_012：失眠，指挥廊，周恒的两句话，睡着了。格子的重量压下了大脑，但没有解开任何东西。"
+    },
+    {
       "story_time": 11,
       "chapter_id": "ch_011",
       "location": "elem_shattered_bastion → elem_stardust_fortress",

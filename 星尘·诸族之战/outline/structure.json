@@ -237,7 +237,7 @@
         {
           "id": "ch_012",
           "number": 12,
-          "title": "少校的真话",
+          "title": "周恒的真话",
           "sub_arc": "A·围困",
           "thread_id": "thr_protagonist",
           "pov_character": "char_ke_yan",
@@ -246,7 +246,7 @@
             "evt_zhou_despair"
           ],
           "one_line": "周恒说：我们守的不是要塞，是上面用来拖时间的数字。",
-          "status": "beats_ready",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_012.json"
         },
         {

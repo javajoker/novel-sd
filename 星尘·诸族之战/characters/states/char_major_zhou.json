@@ -2,6 +2,21 @@
   "character_id": "char_major_zhou",
   "states": [
     {
+      "story_time": 12,
+      "chapter_id": "ch_012",
+      "location": "elem_stardust_fortress（指挥廊 → 简报室）",
+      "inventory_delta": [],
+      "status": [
+        { "type": "psychological_event", "desc": "将'我们守的不是要塞，是上面用来拖时间的数字'说出口——这句话在他脑子里放了很久；说出来让重量轻了一点，不是因为问题解决了，是因为有一个人听见了这件事", "severity": "minor" }
+      ],
+      "knowledge_gained": [
+        { "fact": "柯炎在这种场合里不会乱传，也不会追问——他是那种说了就是说了的人", "confidence": "observed", "trigger": "柯炎的反应：陈述'那还在守'，没有评判，没有追问，没有表演理解" }
+      ],
+      "psychology": { "sanity": 71, "mood": "疲惫·轻了一点·仍在守", "notes": "他在深夜说出那句话不是因为柯炎，是因为那句话已经太重，需要一个出口。选择柯炎是因为直觉：那个人不会把这件事变成问题。说完之后'一千两百个人在睡觉'这句话让他回到了他每晚让自己回到的那个地方：守的原因不是信任联邦，是那些人。他回去工作了。" },
+      "abilities_delta": [],
+      "notes": "ch_012：深夜指挥廊偶遇，两句话，返回简报室。他还没有做出关于密令的任何决定。"
+    },
+    {
       "story_time": 0,
       "chapter_id": null,
       "baseline": true,

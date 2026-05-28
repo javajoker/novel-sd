@@ -2,6 +2,38 @@
   "character_id": "char_ke_yan",
   "knowledge_at": [
     {
+      "story_time": 12,
+      "chapter_id": "ch_012",
+      "facts_known": [
+        "fact_federation_losing",
+        "周恒已对胜利失去信心（'我们守的不是要塞，是上面用来拖时间的数字'——直接确认）"
+      ],
+      "facts_suspected": [
+        { "fact": "刘霜持有并使用非标准医疗器材（可能是某种攻击性源质能力）", "basis": "ch_002+ch_003" },
+        { "fact": "刘霜的源质感应能力超出普通医疗兵范畴", "basis": "ch_008停顿" },
+        { "fact": "fact_ke_yan_potential", "stage": "forced_partial_filed", "basis": "矿道事件+先驱对视，均存入格子" },
+        { "fact": "fact_herald_evolving", "stage": "suspected_unnamed", "basis": "'那东西不一样'" },
+        { "fact": "周恒密令的大致性质：上面希望要塞充当拖延棋子而非守住", "stage": "partial_suspected", "basis": "'上面用来拖时间的数字'这句话的语气——这不是抱怨，是见过密令内容的人说的话" }
+      ],
+      "facts_rumored": [
+        "fact_theta_secret"
+      ],
+      "facts_unknown": [
+        "fact_void_echo_identity",
+        "刘霜的秘密项目身份",
+        "周恒密令的具体内容"
+      ],
+      "beliefs_held": [
+        { "belief": "自己只是战争机器里的一颗螺丝钉", "is_true": false, "status": "the_lie：外壳完好，但格子里有矿道、先驱、五个名字、'一千两百个人'这个矛盾——格子比他承认的重" },
+        { "belief": "刘霜只是普通医疗兵", "is_true": false, "status": "进一步崩裂——主动不追" },
+        { "belief": "'一千两百个人'是抽象数字，和'拖时间的数字'是同一个层级的东西", "is_true": false, "status": "开始裂缝：这个数字是食堂里的声音，不是报告里的数字，他感觉到了这个差别但还没有理清楚" }
+      ],
+      "projected_facts_to_learn": [
+        { "fact": "fact_herald_evolving", "stage": "named_and_acknowledged", "trigger": "ch_055先驱战略行动" },
+        { "fact": "fact_ke_yan_potential", "stage": "acknowledged_undecoded", "trigger": "ch_019-020'运气好'框架完全失效" }
+      ]
+    },
+    {
       "story_time": 10,
       "chapter_id": "ch_010",
       "facts_known": [
