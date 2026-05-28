@@ -4,7 +4,7 @@
     "novel_title": "星尘：诸族之战",
     "novel_author": "同人作者",
     "story_time_unit": "chapter",
-    "current_chapter": 9,
+    "current_chapter": 10,
     "language": "zh-Hans",
     "genre": "科幻战争",
     "tier": "long_novel",
@@ -738,7 +738,7 @@
       ],
       "prerequisites": [],
       "projected_outcome": "异种先驱在虫潮中现身，行为带有非蜂巢的'意图'——它在观察、在选择目标，而非纯数量洪流；柯炎活着撤回。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_010"
       ],

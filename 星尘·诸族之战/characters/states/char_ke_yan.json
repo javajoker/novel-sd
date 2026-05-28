@@ -2,6 +2,23 @@
   "character_id": "char_ke_yan",
   "states": [
     {
+      "story_time": 10,
+      "chapter_id": "ch_010",
+      "location": "elem_shattered_bastion（断裂要塞外围 → 第二防线）",
+      "inventory_delta": [],
+      "status": [
+        { "type": "combat_stress", "desc": "大规模虫潮正面冲击，乱战约90分钟；蓝卡连续使用3次（热度升高，已冷却）；无新伤", "severity": "minor" }
+      ],
+      "knowledge_gained": [
+        { "fact": "fact_herald_evolving", "confidence": "suspected_unnamed", "trigger": "对视一秒——感知到其源质信号结构具有'想法'层级的复杂度；行为（停留、环视、选择性锁定）与任何已知异种类型不符。标签：'那东西不一样'" }
+      ],
+      "psychology": { "sanity": 77, "mood": "战后疲惫·清醒·格子里又多了一件东西", "notes": "他把那一秒的对视存进格子，标签'那东西不一样'，没有进一步处理。蓝卡三次连续使用是新的负荷测试数据——他注意到了卡的热度上升，但没有引发不适，只是记录。格子越来越满，但他今天不打算打开它。" },
+      "abilities_delta": [
+        { "ability": "蓝卡·预知闪避使用频率", "delta": "首次连续使用3次，卡热度上升——上限未知，但3次有效" }
+      ],
+      "notes": "ch_010：断裂要塞外围虫潮，5000+规模。先驱首次出现在感知/视觉中。成功撤退，无新伤。"
+    },
+    {
       "story_time": 8,
       "chapter_id": "ch_008",
       "location": "elem_origin_theta（Θ区矿道崩塌段 → 矿道外部）",

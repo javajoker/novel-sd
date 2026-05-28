@@ -209,7 +209,7 @@
         {
           "id": "ch_010",
           "number": 10,
-          "title": "蜂巢里的停顿",
+          "title": "先驱",
           "sub_arc": "A·围困",
           "thread_id": "thr_protagonist",
           "pov_character": "char_ke_yan",
@@ -218,7 +218,7 @@
             "evt_herald_first_sighting"
           ],
           "one_line": "虫潮中那只异种没有扑向最近的猎物，而是看了他一眼——那一眼里有计算。",
-          "status": "beats_ready",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_010.json"
         },
         {

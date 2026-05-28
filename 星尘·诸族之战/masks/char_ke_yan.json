@@ -2,6 +2,36 @@
   "character_id": "char_ke_yan",
   "knowledge_at": [
     {
+      "story_time": 10,
+      "chapter_id": "ch_010",
+      "facts_known": [
+        "fact_federation_losing"
+      ],
+      "facts_suspected": [
+        { "fact": "周恒对胜利已无信心，但仍在执行职责", "basis": "'回来'那一眼" },
+        { "fact": "刘霜持有并使用非标准医疗器材（可能是某种攻击性源质能力）", "basis": "ch_002+ch_003" },
+        { "fact": "刘霜的源质感应能力超出普通医疗兵范畴", "basis": "ch_008停顿" },
+        { "fact": "fact_ke_yan_potential", "stage": "forced_partial_filed", "basis": "矿道事件存入格子，主动不分析" },
+        { "fact": "fact_herald_evolving", "stage": "suspected_unnamed", "basis": "那一秒对视——'那东西不一样'，有'想法'层级的感知结构，选择性行动，无现有分类能覆盖" }
+      ],
+      "facts_rumored": [
+        "fact_theta_secret"
+      ],
+      "facts_unknown": [
+        "fact_void_echo_identity",
+        "刘霜的秘密项目身份",
+        "周恒密令的具体内容"
+      ],
+      "beliefs_held": [
+        { "belief": "自己只是战争机器里的一颗螺丝钉", "is_true": false, "status": "the_lie：外壳完好，但格子里已有两件明确的事他知道螺丝钉做不到（矿道、先驱对视）" },
+        { "belief": "刘霜只是普通医疗兵", "is_true": false, "status": "进一步崩裂——但柯炎目前不主动追究" },
+        { "belief": "异种没有'想法'，只有蜂巢本能", "is_true": "partial", "status": "新裂缝：那东西不一样，他的分类体系装不下它" }
+      ],
+      "projected_facts_to_learn": [
+        { "fact": "fact_herald_evolving", "stage": "named_and_acknowledged", "trigger": "ch_055先驱的真正战略行动，以柯炎为目标，届时他必须给那东西命名" }
+      ]
+    },
+    {
       "story_time": 8,
       "chapter_id": "ch_008",
       "facts_known": [
