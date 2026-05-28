@@ -1,6 +1,6 @@
 {
-  "last_story_time": 22,
-  "last_chapter": "ch_044",
+  "last_story_time": 35,
+  "last_chapter": "ch_080",
   "by_chapter": {
     "ch_001": [
       "evt_novel_opening"
@@ -133,6 +133,114 @@
     ],
     "ch_044": [
       "evt_ch044_first_recruit_dies"
+    ],
+    "ch_045": [
+      "evt_ch045_origin_song"
+    ],
+    "ch_046": [
+      "evt_ch046_null01_trajectory"
+    ],
+    "ch_047": [
+      "evt_ch047_first_perceived"
+    ],
+    "ch_048": [
+      "evt_ch048_void_expansion"
+    ],
+    "ch_049": [
+      "evt_ch049_headquarters_visit"
+    ],
+    "ch_050": [
+      "evt_ch050_enough"
+    ],
+    "ch_051": [
+      "evt_ch051_qixing_signal"
+    ],
+    "ch_052": [
+      "evt_ch052_qixing_contact"
+    ],
+    "ch_053": [
+      "evt_ch053_liang_worsening"
+    ],
+    "ch_054": [
+      "evt_ch054_ulos_movement"
+    ],
+    "ch_055": [
+      "evt_ch055_second_contact"
+    ],
+    "ch_056": [
+      "evt_ch056_partial_truth"
+    ],
+    "ch_057": [
+      "evt_ch057_heavy_casualties"
+    ],
+    "ch_058": [
+      "evt_ch058_null01_stationary"
+    ],
+    "ch_059": [
+      "evt_ch059_liang_decision"
+    ],
+    "ch_060": [
+      "evt_ch060_aeon_no_right"
+    ],
+    "ch_061": [
+      "evt_ch061_last_night"
+    ],
+    "ch_062": [
+      "evt_ch062_liang_leaves"
+    ],
+    "ch_063": [
+      "evt_ch063_emptiness"
+    ],
+    "ch_064": [
+      "evt_ch064_hq_second"
+    ],
+    "ch_065": [
+      "evt_ch065_termination_order"
+    ],
+    "ch_066": [
+      "evt_ch066_aeon_walks_again"
+    ],
+    "ch_067": [
+      "evt_ch067_signal_found"
+    ],
+    "ch_068": [
+      "evt_ch068_void_operation"
+    ],
+    "ch_069": [
+      "evt_ch069_theta_adjustment"
+    ],
+    "ch_070": [
+      "evt_ch070_liang_epilogue"
+    ],
+    "ch_071": [
+      "evt_ch071_sixteenth"
+    ],
+    "ch_072": [
+      "evt_ch072_null01_terminated"
+    ],
+    "ch_073": [
+      "evt_ch073_plan_final"
+    ],
+    "ch_074": [
+      "evt_ch074_qixing_node_contact"
+    ],
+    "ch_075": [
+      "evt_ch075_aeon_east_pull"
+    ],
+    "ch_076": [
+      "evt_ch076_aeon_crystal"
+    ],
+    "ch_077": [
+      "evt_ch077_theta_blank_weight"
+    ],
+    "ch_078": [
+      "evt_ch078_ulos_vantage"
+    ],
+    "ch_079": [
+      "evt_ch079_ulos_memory"
+    ],
+    "ch_080": [
+      "evt_ch080_aeon_vol01_close"
     ]
   },
   "by_story_time": {
@@ -226,6 +334,66 @@
     "22": [
       "evt_ch043_survival_map",
       "evt_ch044_first_recruit_dies"
+    ],
+    "23": [
+      "evt_ch045_origin_song",
+      "evt_ch046_null01_trajectory"
+    ],
+    "24": [
+      "evt_ch047_first_perceived",
+      "evt_ch048_void_expansion"
+    ],
+    "25": [
+      "evt_ch049_headquarters_visit",
+      "evt_ch050_enough"
+    ],
+    "26": [
+      "evt_ch051_qixing_signal",
+      "evt_ch052_qixing_contact"
+    ],
+    "27": [
+      "evt_ch053_liang_worsening",
+      "evt_ch054_ulos_movement"
+    ],
+    "28": [
+      "evt_ch055_second_contact",
+      "evt_ch056_partial_truth"
+    ],
+    "29": [
+      "evt_ch057_heavy_casualties",
+      "evt_ch058_null01_stationary"
+    ],
+    "30": [
+      "evt_ch061_last_night"
+    ],
+    "31": [
+      "evt_ch062_liang_leaves",
+      "evt_ch063_emptiness",
+      "evt_ch064_hq_second"
+    ],
+    "32": [
+      "evt_ch065_termination_order",
+      "evt_ch066_aeon_walks_again",
+      "evt_ch067_signal_found"
+    ],
+    "33": [
+      "evt_ch068_void_operation",
+      "evt_ch069_theta_adjustment"
+    ],
+    "34": [
+      "evt_ch070_liang_epilogue",
+      "evt_ch071_sixteenth",
+      "evt_ch072_null01_terminated",
+      "evt_ch073_plan_final"
+    ],
+    "35": [
+      "evt_ch074_qixing_node_contact",
+      "evt_ch075_aeon_east_pull",
+      "evt_ch076_aeon_crystal",
+      "evt_ch077_theta_blank_weight",
+      "evt_ch078_ulos_vantage",
+      "evt_ch079_ulos_memory",
+      "evt_ch080_aeon_vol01_close"
     ]
   },
   "by_thread": {
@@ -238,13 +406,20 @@
       "evt_ch024_choice_north",
       "evt_ch032_forty_eight_hours",
       "evt_ch038_new_recruits",
-      "evt_ch044_first_recruit_dies"
+      "evt_ch044_first_recruit_dies",
+      "evt_ch049_headquarters_visit",
+      "evt_ch057_heavy_casualties",
+      "evt_ch064_hq_second",
+      "evt_ch071_sixteenth"
     ],
     "thr_qixing": [
       "evt_ch012_who_am_i",
       "evt_ch022_signal_37",
       "evt_ch031_unit_remains",
-      "evt_ch043_survival_map"
+      "evt_ch043_survival_map",
+      "evt_ch051_qixing_signal",
+      "evt_ch067_signal_found",
+      "evt_ch074_qixing_node_contact"
     ],
     "thr_aeon": [
       "evt_ch004_first_encounter",
@@ -262,8 +437,24 @@
       "evt_ch037_first_memory_exchange",
       "evt_ch041_night_conversation",
       "evt_ch042_frequency_suppressor",
+      "evt_ch045_origin_song",
+      "evt_ch047_first_perceived",
+      "evt_ch050_enough",
       "evt_ghost_resonance_event",
-      "evt_novel_opening"
+      "evt_novel_opening",
+      "evt_ch053_liang_worsening",
+      "evt_ch055_second_contact",
+      "evt_ch056_partial_truth",
+      "evt_ch059_liang_decision",
+      "evt_ch060_aeon_no_right",
+      "evt_ch061_last_night",
+      "evt_ch062_liang_leaves",
+      "evt_ch063_emptiness",
+      "evt_ch066_aeon_walks_again",
+      "evt_ch070_liang_epilogue",
+      "evt_ch075_aeon_east_pull",
+      "evt_ch076_aeon_crystal",
+      "evt_ch080_aeon_vol01_close"
     ],
     "thr_theta": [
       "evt_ch003_theta_first_question",
@@ -274,7 +465,14 @@
       "evt_ch025_null01_stationary",
       "evt_ch029_void_seed_anomaly",
       "evt_ch035_theta_first_metaphor",
-      "evt_ch040_theta_first_intervention"
+      "evt_ch040_theta_first_intervention",
+      "evt_ch046_null01_trajectory",
+      "evt_ch052_qixing_contact",
+      "evt_ch058_null01_stationary",
+      "evt_ch065_termination_order",
+      "evt_ch069_theta_adjustment",
+      "evt_ch072_null01_terminated",
+      "evt_ch077_theta_blank_weight"
     ],
     "thr_ulos": [
       "evt_ch008_ulos_watching",
@@ -282,7 +480,13 @@
       "evt_ch020_void_parliament",
       "evt_ch027_void_seed_planted",
       "evt_ch033_ulos_monitors_anomaly",
-      "evt_ch039_void_seed_growth"
+      "evt_ch039_void_seed_growth",
+      "evt_ch048_void_expansion",
+      "evt_ch054_ulos_movement",
+      "evt_ch068_void_operation",
+      "evt_ch073_plan_final",
+      "evt_ch078_ulos_vantage",
+      "evt_ch079_ulos_memory"
     ]
   }
 }

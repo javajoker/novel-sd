@@ -1,0 +1,22 @@
+{
+  "chapter_id": "ch_050",
+  "title": "足够了",
+  "thread_id": "thr_aeon",
+  "pov_character": "char_aeon",
+  "story_time": 25,
+  "events_covered": ["evt_ch050_enough"],
+  "working_set": {
+    "char_state_ref": "char_aeon @ story_time=24 (isolation=70, 被感知4秒后没有退开)",
+    "last_summaries": ["ch_047 被感知", "ch_045 源质歌"],
+    "hooks_targeted": ["hook_resonance_crystal_stone"]
+  },
+  "scene_arc": "一句话→三天的沉默→第四天（艾昂开口说了什么）",
+  "beats": [
+    {"beat": 1, "label": "梁的话", "desc": "某天梁说：「共鸣不是被感知的唯一方式。」没有前言，不是回应任何事，只是说了。"},
+    {"beat": 2, "label": "三天沉默", "desc": "三天，那句话在艾昂脑子里。他没有说任何话去回应它。日常继续，那句话在日常里。他不分析它，但它在那里。"},
+    {"beat": 3, "label": "第四天", "desc": "第四天早上，艾昂开口：「前几天，」然后停顿，「我感知到了什么。」不是「你做了什么」，是「我感知到了」——是他说出了ch_047那件事，从他这边。"},
+    {"beat": 4, "label": "「足够了」", "desc": "梁听了。然后说：「足够了。」就那三个字，不解释，像是一个确认：你感知到了，这就够了，不需要更多。"}
+  ],
+  "key_moment": "「足够了。」——梁确认了艾昂感知到的事，不问为什么，不解释，就三个字。",
+  "pov_constraint": "艾昂从他那边说：他感知到了什么，不说梁是否意识到他在做。"
+}

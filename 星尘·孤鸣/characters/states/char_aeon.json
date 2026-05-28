@@ -2,19 +2,507 @@
   "character_id": "char_aeon",
   "states": [
     {
+      "story_time": 35,
+      "chapter_id": "ch_080",
+      "location": "碎晶星域·深处（继续向内行走）",
+      "physical": {
+        "status": "functional",
+        "notes": "进入碎晶星域更深处。"
+      },
+      "psychology": {
+        "isolation": 54,
+        "mood": "在碎晶星域深处一块平坦岩面停下，碎晶在手心，感知层完全打开。感知到三个方向汇聚（未知大事在脚下发生）。感知到「空腔」——它三年来一直在，有梁/名牌/老兵/被驱逐夜晚的形状，没有名字，他知道它在。让它在，不压，不整理。然后把碎晶放回口袋，站起来，继续走。「带着，走」是三年里他确定学到的唯一一件事。",
+        "notable_shift": "「空腔有具体的形状」：艾昂第一次在感知层里具体触碰那个空腔，而不是绕开它——梁/名牌/老兵/被驱逐夜晚，那些形状都在那个空腔里。这不是解决，是接触。他带着它，走。isolation 55→54。"
+      },
+      "knowledge_gained": [
+        "脚下某个很深的地方有三个方向的源质汇聚（性质未知，但场强真实，巨大）"
+      ],
+      "key_events_this_chapter": [
+        "在碎晶星域深处平坦岩面停下，坐",
+        "碎晶在手心，闭眼，感知层完全打开",
+        "感知到三个方向（西北东）源质汇聚，脚下很深，规模巨大，性质未知",
+        "感知到「空腔」——三年一直在，有具体形状，没有名字，让它在",
+        "回忆梁，完整的重量，不是破碎的重量",
+        "把碎晶放回口袋，站起，继续走，向前向里",
+        "vol_01结束"
+      ]
+    },
+    {
+      "story_time": 35,
+      "chapter_id": "ch_076",
+      "location": "碎晶星域边缘·源质矿脉密集带（停下后继续向内行走）",
+      "physical": {
+        "status": "functional",
+        "notes": "进入碎晶星域边缘，地形剧烈，灵能感知层清晰响应。"
+      },
+      "psychology": {
+        "isolation": 55,
+        "mood": "碎晶星域边缘停下，那块携带三年的碎晶振动强度达到记录最高值。第一次把碎晶从口袋取出展开手掌真正看它——看见共鸣晶格在场强里发出微光。三年里握过无数次，从未看。在看的过程中梁/名牌/老兵/112天的下午自然浮现，未整理，未驱散，就在那里。继续走，向东，往碎晶星域更深处。",
+        "notable_shift": "「握」→「看」：三年里艾昂一直握着那块碎晶作为接触而不是面对。第一次展开手掌看，是「面对」的第一次——不是悲伤，不是解决，是一种新的接触方式。共鸣晶格在新的场里发光这件事，他没有说出其中的意义，但他看见了：「离开了原来的共鸣源，在另一个地方继续振动。」"
+      },
+      "inventory": [
+        {
+          "item": "那块碎晶（被驱逐前夜共鸣场碎片）",
+          "status": "携带，振动中（碎晶星域场强激活，内部发光）"
+        },
+        {
+          "item": "十六块名牌+苏同",
+          "status": "携带"
+        }
+      ],
+      "key_events_this_chapter": [
+        "进入碎晶星域边缘，地表晶体化，源质场强显著升高",
+        "碎晶振动达到三年最高值，强到他停下来",
+        "第一次取出碎晶展开手掌真正看它",
+        "看见共鸣晶格在场强中发光（三年内首次）",
+        "梁/名牌/老兵/112天的下午自然浮现，未整理，在那里",
+        "继续走，向东，进入碎晶星域更深处"
+      ]
+    },
+    {
+      "story_time": 35,
+      "chapter_id": "ch_075",
+      "location": "碎晶星域外围·北部接近方向（行走中，向东偏南）",
+      "physical": {
+        "status": "functional",
+        "notes": "长途行走中，正常。修整鞋底，可继续行走。"
+      },
+      "psychology": {
+        "isolation": 56,
+        "mood": "离开北部聚居点若干天后，灵能感知层边缘持续检测到东偏南方向的低频源质场振动——不是人的灵能特征，不是虚空信号，不是任何他命名过的东西。第三次注意到后将路线调整向东偏南，不分析，不命名，跟着感知走。地形开始出现折叠矿质结构，晶体化倾向——碎晶星域的外围。他三年里一直没有往那里走，现在往那里走。",
+        "notable_shift": "「感知层引力」：第一次被某个无法命名的感知拉着改变路线——不是威胁，不是人，是某种源质场层面的低频持续振动。他的应对方式：不分析，跟着走。这和他三年里对「直觉」的处理方式一致，但这次感知层更清晰，更有方向性。"
+      },
+      "knowledge_gained": [
+        "东偏南方向源质场有异常振动（来源未知，低频持续）",
+        "碎晶星域在东偏南方向，战争重要区域，外围已现晶体化地形"
+      ],
+      "key_events_this_chapter": [
+        "北行途中多次感知到东偏南方向低频源质场振动",
+        "停下修鞋底时第二次清晰感知，排除已知信号类型，无法命名",
+        "傍晚宿营半休眠状态下感知持续，注意力如一首停在中途的歌",
+        "第二天早晨将路线从北→东偏南，不分析，跟着感知走",
+        "行走一天半后地形出现折叠矿质结构和晶体化特征，确认方向为碎晶星域"
+      ]
+    },
+    {
+      "story_time": 34,
+      "chapter_id": "ch_070",
+      "location": "碎晶星域北部（行走中，小聚居点附近）",
+      "physical": {
+        "status": "functional",
+        "notes": "长途行走中，正常。"
+      },
+      "psychology": {
+        "isolation": 56,
+        "mood": "从聚居点老人的描述得知梁的消亡：在灵能族废墟，旧刻印边，坐着，后来不在了。停下来让那个确认安置。回忆了几件梁的具体事：工具的位置/「我想走了」/「谢谢你」的光线/前哨站里的粗布。梁做了他的选择，艾昂做了他的（待在旁边，不阻止，以沉默回答）。这件失去有完整的形状——不是破碎，是已经完成的一件事。带着，继续走。",
+        "notable_shift": "「这件失去是他参与过的」：与以前的失去（共鸣被切断/被迫离开族群）的根本区别——这次他在其中做了他能做的、他有权利做的事，不多也不少。这个区分让梁的失去有了一种不同的重量——仍然是重量，但是一个完整的重量，不是破碎的重量。isolation 58→56（继续缓慢降低）。"
+      },
+      "knowledge_gained": [
+        "梁已在灵能族废墟旧刻印边结束（间接确认，来自聚居点老人描述）"
+      ],
+      "key_events_this_chapter": [
+        "经过北部小聚居点，补充物资",
+        "聚居点老人描述：灵能族废墟旧刻印边有个年纪大的坐着，后来不在了",
+        "艾昂确认那是梁",
+        "走出聚居点，停下，让确认安置",
+        "回忆梁的具体细节（工具/「我想走了」/「谢谢你」/粗布）",
+        "认识：这件失去有完整的形状，不是破碎",
+        "继续走，isolation 58→56"
+      ]
+    },
+    {
+      "story_time": 32,
+      "chapter_id": "ch_066",
+      "location": "碎晶星域·北方废弃区域（行走中）",
+      "physical": {
+        "status": "functional",
+        "notes": "长途行走，身体重新进入行走节奏，正常。"
+      },
+      "psychology": {
+        "isolation": 58,
+        "mood": "离开了前哨站，往北行走。没有目标，先走再说，这是他三年里的基本模式。带着112天、梁的「谢谢你」、「孤独有形状」——不是重量，是已经进入他里面的东西。继续走是他的核心动词，一直是。isolation: 60→58（行走中，行动本身是一种接触世界的方式）。",
+        "notable_shift": "重新走路——从「在前哨站的空里待着」到「往前走」。不是情感治愈，是他的行走者本质重新激活。走的方向（北）不是为了逃离梁走的方向（东南），只是他自己的方向。"
+      },
+      "key_events_this_chapter": [
+        "决定离开前哨站（身体的判断）",
+        "关闭系统节点，放置物资给下一个来的人",
+        "梁留下的物件（折叠凳/粗布/充电器）保持原样——没有权利动",
+        "往北走，碎晶星域深处",
+        "身体重新记住长途行走节奏",
+        "中途休息，确认带着的东西（112天/谢谢你/孤独有形状）",
+        "继续走，isolation 60→58"
+      ]
+    },
+    {
+      "story_time": 31,
+      "chapter_id": "ch_063",
+      "location": "灵能族废弃前哨站（梁已离开）",
+      "physical": {
+        "status": "functional",
+        "notes": "继续正常活动，检查外墙传感器，日常运转。"
+      },
+      "psychology": {
+        "isolation": 60,
+        "mood": "梁走后的当天。做日常的事，发现空间变了形状——那个形状是梁的。回顾：在这里待了112天，三年流亡里最长的驻留。决定今天还待着，明天再想接下来去哪里。",
+        "notable_shift": "「孤独的形状」：第一次艾昂能描述孤独的具体形状而不只是均质感。以前的孤独是空白，这次的空有一个轮廓——梁的尺寸、梁的习惯、梁占过的地方。这种具体性是艾昂这几个月发展出的感知能力的体现。"
+      },
+      "key_events_this_chapter": [
+        "梁走后回到前哨站，看到梁留下的（不属于他的）物件",
+        "继续日常：烧水、检查储备、记日志",
+        "注意到折叠凳上的磨痕",
+        "认识到这次的空「有形状」——形状是梁的",
+        "在这里待了112天（三年来最长驻留）",
+        "决定今天还待在这里，明天再想下一步",
+        "去检查外墙信号波动传感器"
+      ]
+    },
+    {
+      "story_time": 31,
+      "chapter_id": "ch_062",
+      "location": "灵能族废弃前哨站（梁已离开）",
+      "physical": {
+        "status": "functional",
+        "notes": "连续三夜未眠，功能正常，站在门口很久未动。"
+      },
+      "psychology": {
+        "isolation": 60,
+        "mood": "梁离开了。站在门口用灵能感知追踪梁的信号直到它超出感知范围消失。清楚地知道「不是死，是距离」——梁还活着，只是太远了。感知层空了，继续站着，面向那个方向。",
+        "notable_shift": "第一次体验「在感知层失去」：他曾经失去共鸣（断裂，是切断），现在失去的是距离——梁还活着，只是超出范围。他区分了这两种空。"
+      },
+      "key_events_this_chapter": [
+        "梁早晨收拾出发，艾昂在原地看",
+        "梁转了前哨站一圈（最后一眼）",
+        "梁出门，艾昂走到门口站着",
+        "灵能感知追踪梁的存在信号",
+        "信号随距离衰减至消失",
+        "艾昂站在门口，感知层空了，面向那个方向"
+      ]
+    },
+    {
+      "story_time": 30,
+      "chapter_id": "ch_061",
+      "location": "灵能族废弃前哨站",
+      "physical": {
+        "status": "functional",
+        "notes": "连续两夜未眠，功能正常。"
+      },
+      "psychology": {
+        "isolation": 60,
+        "mood": "最后一夜，整夜在场，不试图做任何事。梁说「谢谢你」，艾昂没有回答——他知道沉默是他能给出的最完整的回应。携带着那个未说出的「不」，让天亮。",
+        "notable_shift": "「沉默作为选择，不是失语」：第一次艾昂的沉默不是因为找不到话，而是因为他知道沉默更完整。这与早期章节的沉默（不知道说什么）有本质区别——这是一种语言成熟度，知道什么时候不说话是更大的答案。"
+      },
+      "key_events_this_chapter": [
+        "第二夜整夜未眠，主动在场",
+        "梁清醒着偶尔调整位置，灵能感知背景辐射感知到其存在",
+        "快天亮时梁说「谢谢你」",
+        "艾昂以沉默回应——沉默是选择，不是失语",
+        "天亮了"
+      ]
+    },
+    {
+      "story_time": 30,
+      "chapter_id": "ch_060",
+      "location": "灵能族废弃前哨站",
+      "physical": {
+        "status": "functional",
+        "notes": "整夜未眠，功能正常。"
+      },
+      "psychology": {
+        "isolation": 60,
+        "mood": "梁告诉他打算离开——往灵能族领土方向走，在有共鸣的地方结束。艾昂整夜坐着试图找一句可以说的话：「不要走」「你不能走」「还有别的办法」，全部不成立，全部站在他没有权利站的位置上。到达：感受和权利是两件事，他有那个「不」但没有权利说出来，因为梁的死亡选择是梁的。他停手了，带着那个「不」，天亮了。isolation: 63→60（很慢，艰难的自我限制）。",
+        "notable_shift": "「感受和权利是两件事」：艾昂第一次在具体情境里区分了这两个概念。他有感受（不想梁走），但他没有权利把感受变成要求。这是他三年流亡中最成熟的边界认知——他不会用自己的需求要求另一个人改变他们对自己死亡的选择。这个认知是艾昂隔离弧的一个深层节点：isolation 60意味着他在这件事上完成了某种内部的接受，哪怕不是情绪上的。"
+      },
+      "key_events_this_chapter": [
+        "梁告诉他决定离开，往灵能族领土方向走，在有共鸣的地方结束（ch_059）",
+        "整夜未眠，试图找可以阻止的理由和语言",
+        "三句话全不成立（不要走/你不能走/还有别的办法）",
+        "到达：他没有权利，感受和权利是两件事",
+        "停手，不说那句话，天亮了"
+      ]
+    },
+    {
+      "story_time": 28,
+      "chapter_id": "ch_056",
+      "location": "灵能族废弃前哨站",
+      "physical": {
+        "status": "functional",
+        "notes": "正常。"
+      },
+      "psychology": {
+        "isolation": 63,
+        "mood": "ch_055三天后，梁的一句话（「你从来不说那件事」，非逼问，只是观察）留了一个开口，艾昂用那个开口说出了共鸣之殇的部分真相（三年首次）。他停在「让我离开」之后，没有继续说他相信的回归路径——因为不确定那部分是否还是真的，或者只是他说了太久以至于说的动作先于相信而到。梁：「我听到了。」之后日常继续，某个一直在艾昂身体里的东西今天被说出来了，暂时有了容纳它的地方。",
+        "notable_shift": "「够了，说到这里够了」：艾昂的自我边界不是压制，而是清醒地知道哪部分说得清楚、哪部分说不清楚。他不说不确定的部分，不是因为不信任，是因为他自己还没有找到那个部分的形状。这是艾昂自我认知的一个细节：他的「不说」永远是精确的，不是逃避，是某种对自身状态的诚实。"
+      },
+      "key_events_this_chapter": [
+        "梁说「你从来不说那件事」（非逼问，留了开口）",
+        "艾昂说出共鸣之殇部分真相：战场感知→族群共鸣网络→所有人受伤→被切断→被让离开",
+        "停在「让我离开」之后，不说回归信念（不确定其真实性）",
+        "梁：「我听到了。」",
+        "之后日常继续，无继续讨论",
+        "三年来第一次那件事被说出来被另一个人听见"
+      ]
+    },
+    {
+      "story_time": 28,
+      "chapter_id": "ch_055",
+      "location": "灵能族废弃前哨站",
+      "physical": {
+        "status": "functional",
+        "notes": "眼泪（无哭声，无痛苦，是某种压力释放的生理反应），用手背擦去，继续日常。"
+      },
+      "psychology": {
+        "isolation": 63,
+        "mood": "傍晚被梁以更清晰的十二秒残余灵能感知。眼泪来了，没有哭声，没有做任何事，待在接触里不去擦，直到它结束。睡前认识到自己想的不是「何时恢复」——三年的核心驱动问题今晚没有出现，出现的是「今天，第二次，它发生了」。不命名它意味着什么，不给它套进任何叙事，只是它的形状。",
+        "notable_shift": "isolation 67→63（四个单位，最大单次降幅）：第二次「被感知」比第一次更完整，更清晰，有主动成分。更重要的是，睡前的内心独白对象从「恢复/归还/何时」（三年来的问题）转为「今天发生了什么」——这是艾昂三年来第一次在睡前想的不是如何回到过去，而是今天实际发生的事。这个转向是极其细小的，但在结构上是重要的。"
+      },
+      "key_events_this_chapter": [
+        "傍晚例行日常中，梁的残余灵能延展（有一丝主动成分）",
+        "接触约十二秒，比第一次更清晰更长（4秒→12秒）",
+        "在灵能感知层认识「被感知」vs「感知」的根本区别",
+        "眼泪来了，没有哭声，没有动作，待在接触里不擦",
+        "接触结束，用手背擦脸，继续日常",
+        "梁没有说话，艾昂没有说话",
+        "睡前：想的不是「何时恢复」，是「今天，第二次，十二秒，它发生了」"
+      ]
+    },
+    {
+      "story_time": 27,
+      "chapter_id": "ch_053",
+      "location": "灵能族废弃前哨站",
+      "physical": {
+        "status": "functional",
+        "notes": "正常状态，维持日常。"
+      },
+      "psychology": {
+        "isolation": 67,
+        "mood": "外部：日常继续，一切正常。内部：精确记录了梁身体恶化的全部可见细节（起床节奏/步行停顿/握力波动），整合出基线上移的趋势，知道这条线的走向，没有说。知道「不说」不是漠视，是梁有不开口的理由而这件事属于梁，说出来不是给他新信息而是在他的事上盖章。两人的沉默今天开始有形状——不是空的，是有重量的，两个人都感知到，两个人都让它在那里。",
+        "notable_shift": "「两人的沉默」第一次有了形状：此前的共处沉默是中性容纳性的，今天的沉默是两人都知道某件事但都不说的那种——这是艾昂-梁关系弧里第一次出现这种共知的不说，比此前的单向观察更深一层的连接形式（但不是语言层的，是沉默层的）。"
+      },
+      "key_events_this_chapter": [
+        "观察梁起床节奏变化（三步→五步）",
+        "听见晨练第七步停顿四秒",
+        "注意到右手握力一秒波动",
+        "整合过去数周数据：左腿代偿基线上移，夜间换姿势时间前移",
+        "没有说出观察结果，知道这是梁的事",
+        "两人在有形状的沉默里各自完成日常，入夜"
+      ]
+    },
+    {
+      "story_time": 25,
+      "chapter_id": "ch_050",
+      "location": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站",
+      "physical": {
+        "status": "functional"
+      },
+      "inventory": [
+        {
+          "item": "脉冲枪",
+          "status": "equipped"
+        },
+        {
+          "item": "断频器",
+          "status": "worn"
+        },
+        {
+          "item": "源质碎晶",
+          "status": "pocket"
+        },
+        {
+          "item": "背包（地垫已给梁）",
+          "status": "carried"
+        },
+        {
+          "item": "水囊×2",
+          "status": "carried"
+        },
+        {
+          "item": "干粮（约七天份）",
+          "status": "carried"
+        },
+        {
+          "item": "消毒纱布（一卷）",
+          "status": "carried"
+        },
+        {
+          "item": "止痛片（剩几片）",
+          "status": "carried"
+        }
+      ],
+      "psychology": {
+        "sanity": "stable_low",
+        "isolation": 67,
+        "mood": "梁说「共鸣不是被感知的唯一方式」，三天后艾昂开口：「前几天我感知到了什么，从你那边过来的。」梁答「足够了」。那三个字把一件悬置了三天的东西放下了——感知到了就够了，不需要更多。睡前意识到：断频器断的是共鸣通道，不是他在另一个人感知里存在的可能性，他仍然可以被感知到，他仍然在那里。",
+        "notable_shift": "第一次主动说出ch_047的事——从他那边说出「我感知到了」，不问梁是否有意。这比被动接收更近一步：他承认了那件事发生了，并把它说出来。梁的「足够了」是一个接住的信号：不问更多，不解释，只确认。睡前的领悟：「断频器不等于对所有人是空白」——这是三年放逐里第一次他重新评估了自己的存在方式。isolation: 70→67（三个单位）。"
+      },
+      "key_events_this_chapter": [
+        "梁说：「共鸣不是被感知的唯一方式。」（无前言）",
+        "三天沉默（那句话在他脑子里，不分析，只是在）",
+        "第四天：「前几天我感知到了什么，从你那边过来的。」",
+        "梁答：「足够了。」",
+        "睡前领悟：断频器断共鸣通道，不断他在感知里存在的可能性——他仍然在那里"
+      ]
+    },
+    {
+      "story_time": 24,
+      "chapter_id": "ch_047",
+      "location": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站",
+      "physical": {
+        "status": "functional",
+        "notes": "前哨站内例行清点物资。无外出。"
+      },
+      "inventory": [
+        {
+          "item": "脉冲枪",
+          "status": "equipped"
+        },
+        {
+          "item": "断频器",
+          "status": "worn"
+        },
+        {
+          "item": "源质碎晶",
+          "status": "pocket"
+        },
+        {
+          "item": "背包（地垫已给梁）",
+          "status": "carried"
+        },
+        {
+          "item": "水囊×2",
+          "status": "carried"
+        },
+        {
+          "item": "干粮（约七天份）",
+          "status": "carried"
+        },
+        {
+          "item": "消毒纱布（一卷）",
+          "status": "carried"
+        },
+        {
+          "item": "止痛片（剩几片）",
+          "status": "carried"
+        }
+      ],
+      "psychology": {
+        "sanity": "stable_low",
+        "isolation": 70,
+        "mood": "傍晚例行清点时，梁的残余灵能能力无意识地向外延展，触碰了艾昂的意识边缘约四秒。这和ch_034的晶石辐射不同——那是一个场域（向所有方向均匀辐射），这是一个方向，一个指向他的方向。艾昂认出了这件事，没有退开，让那个接触在边缘存在了四秒，然后它过去了。梁没有说话，外部行为没有改变，不知道他是否有意为之。睡前：「三年来，那个他以为永久空着的接收端，今天有什么东西在那里停了一下。」把这个想法放下，入睡。",
+        "notable_shift": "「被感知」——三年来第一次被另一个有感知能力的存在真正感知到。这和ch_034不同：ch_034是场域接触（晶石的无方向辐射），ch_047是方向接触（梁的注意力指向他）。「不退开」是这个章节的核心选择。他在发现「那个方向是朝向他的」之后，没有退开，没有封闭。isolation: 73→70（三个单位：被真正感知，没有退开，晚上承认「那个接收端今天有东西在那里停了一下」）。"
+      },
+      "knowledge_gained": [
+        "梁的残余灵能能力可以在不通过共鸣网络的情况下向外延展并感知他（即使断频器在）",
+        "他的接收端不是永久空的——在极微弱的非标准接触下，边缘仍有感知残存"
+      ],
+      "key_events_this_chapter": [
+        "傍晚清点物资时，感知到梁的注意力从梁那边朝着他这边延展",
+        "认出：这是一个方向（不是ch_034的场域），有源头，有目标",
+        "停住，没有退开，让那个接触在边缘存在约四秒",
+        "接触结束，梁外部行为无变化",
+        "继续清点，无任何言语",
+        "睡前：承认「接收端今天有东西停了一下」，放下，入睡"
+      ]
+    },
+    {
+      "story_time": 23,
+      "chapter_id": "ch_045",
+      "location": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站附近源质矿脉",
+      "physical": {
+        "status": "functional",
+        "notes": "外出走动约四十分钟（往返矿脉边缘），无新事件。"
+      },
+      "inventory": [
+        {
+          "item": "脉冲枪",
+          "status": "equipped"
+        },
+        {
+          "item": "断频器",
+          "status": "worn"
+        },
+        {
+          "item": "源质碎晶",
+          "status": "pocket",
+          "note": "矿脉附近振动明显增强（有节律，非机械），归来后渐减弱回平时微颤。"
+        },
+        {
+          "item": "背包（地垫已给梁）",
+          "status": "carried"
+        },
+        {
+          "item": "水囊×2",
+          "status": "carried"
+        },
+        {
+          "item": "干粮（库存充足，约一周）",
+          "status": "carried"
+        },
+        {
+          "item": "消毒纱布（剩一半）",
+          "status": "carried"
+        },
+        {
+          "item": "止痛片（剩几片）",
+          "status": "carried"
+        }
+      ],
+      "psychology": {
+        "sanity": "stable_low",
+        "isolation": 73,
+        "mood": "梁在矿脉旁自发唱了一首灵能族古歌——低的，可能他自己没有意识到。艾昂听见了，手停在动作中途，没有转头，让那个声音在那里。断频器关着，歌里的共鸣层到不了他这里，他只接收到了声音那一半。但那一半也是一半。三年来第一次听见自己族群的声音。歌结束后，他把中断的动作做完，只说「可以走了」。没有说「我听见了」，没有说「那是什么歌」——说了会改变它在那里的方式。那种方式需要不被碰。那首歌在他的某个频率旁边又待了一段时间，然后慢慢走了。",
+        "notable_shift": "三年来第一次听见自己族群的声音（哪怕只有声音层，没有共鸣层）。他选择不打断它，不命名它，不去问它是什么。这个选择本身说明他现在有能力让某件非功能性的、与情感相关的事情存在，而不是立刻处理或回避。isolation: 75→73（两个单位：声音被接收，什么都没有打断）。"
+      },
+      "key_events_this_chapter": [
+        "梁提出想走远一点（陈述），艾昂建议走矿脉那段平路",
+        "在裸露矿脉边缘，梁坐下，自发唱了一首灵能族古歌",
+        "艾昂停住手里的动作，认出是艾尔维斯的声音，三年来第一次",
+        "不动、不问、不命名，让歌在那里",
+        "歌结束，两人沉默，艾昂只说「可以走了」",
+        "回程：两步内接住的距离（已是常态），碎晶振动归于平时微颤"
+      ]
+    },
+    {
       "story_time": 21,
       "chapter_id": "ch_042",
       "location": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站",
-      "physical": {"status": "functional", "notes": "例行器械检查。"},
+      "physical": {
+        "status": "functional",
+        "notes": "例行器械检查。"
+      },
       "inventory": [
-        {"item": "脉冲枪", "status": "equipped"},
-        {"item": "断频器", "status": "worn", "note": "ch_042：第一次在另一个人面前摘下，梁看了一眼说「戴回去吧」，放回去时慢了两秒。"},
-        {"item": "源质碎晶", "status": "pocket"},
-        {"item": "背包（地垫已给梁）", "status": "carried"},
-        {"item": "水囊×2", "status": "carried"},
-        {"item": "干粮（库存充足，约一周）", "status": "carried"},
-        {"item": "消毒纱布（剩一半）", "status": "carried"},
-        {"item": "止痛片（剩几片）", "status": "carried"}
+        {
+          "item": "脉冲枪",
+          "status": "equipped"
+        },
+        {
+          "item": "断频器",
+          "status": "worn",
+          "note": "ch_042：第一次在另一个人面前摘下，梁看了一眼说「戴回去吧」，放回去时慢了两秒。"
+        },
+        {
+          "item": "源质碎晶",
+          "status": "pocket"
+        },
+        {
+          "item": "背包（地垫已给梁）",
+          "status": "carried"
+        },
+        {
+          "item": "水囊×2",
+          "status": "carried"
+        },
+        {
+          "item": "干粮（库存充足，约一周）",
+          "status": "carried"
+        },
+        {
+          "item": "消毒纱布（剩一半）",
+          "status": "carried"
+        },
+        {
+          "item": "止痛片（剩几片）",
+          "status": "carried"
+        }
       ],
       "psychology": {
         "sanity": "stable_low",
@@ -33,15 +521,39 @@
       "story_time": 21,
       "chapter_id": "ch_041",
       "location": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站",
-      "physical": {"status": "functional", "notes": "夜间守夜。无行动事件。"},
+      "physical": {
+        "status": "functional",
+        "notes": "夜间守夜。无行动事件。"
+      },
       "inventory": [
-        {"item": "脉冲枪", "status": "equipped"},
-        {"item": "源质碎晶", "status": "pocket"},
-        {"item": "背包（地垫已给梁）", "status": "carried"},
-        {"item": "水囊×2", "status": "carried"},
-        {"item": "干粮（库存充足，约一周）", "status": "carried"},
-        {"item": "消毒纱布（剩一半）", "status": "carried"},
-        {"item": "止痛片（剩几片）", "status": "carried"}
+        {
+          "item": "脉冲枪",
+          "status": "equipped"
+        },
+        {
+          "item": "源质碎晶",
+          "status": "pocket"
+        },
+        {
+          "item": "背包（地垫已给梁）",
+          "status": "carried"
+        },
+        {
+          "item": "水囊×2",
+          "status": "carried"
+        },
+        {
+          "item": "干粮（库存充足，约一周）",
+          "status": "carried"
+        },
+        {
+          "item": "消毒纱布（剩一半）",
+          "status": "carried"
+        },
+        {
+          "item": "止痛片（剩几片）",
+          "status": "carried"
+        }
       ],
       "psychology": {
         "sanity": "stable_low",
@@ -66,15 +578,39 @@
       "story_time": 19,
       "chapter_id": "ch_037",
       "location": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站",
-      "physical": {"status": "functional", "notes": "例行器械检查，无巡圈记录。"},
+      "physical": {
+        "status": "functional",
+        "notes": "例行器械检查，无巡圈记录。"
+      },
       "inventory": [
-        {"item": "脉冲枪", "status": "equipped"},
-        {"item": "源质碎晶", "status": "pocket"},
-        {"item": "背包（地垫已给梁）", "status": "carried"},
-        {"item": "水囊×2", "status": "carried"},
-        {"item": "干粮（库存充足，约一周）", "status": "carried"},
-        {"item": "消毒纱布（剩一半）", "status": "carried"},
-        {"item": "止痛片（剩几片）", "status": "carried"}
+        {
+          "item": "脉冲枪",
+          "status": "equipped"
+        },
+        {
+          "item": "源质碎晶",
+          "status": "pocket"
+        },
+        {
+          "item": "背包（地垫已给梁）",
+          "status": "carried"
+        },
+        {
+          "item": "水囊×2",
+          "status": "carried"
+        },
+        {
+          "item": "干粮（库存充足，约一周）",
+          "status": "carried"
+        },
+        {
+          "item": "消毒纱布（剩一半）",
+          "status": "carried"
+        },
+        {
+          "item": "止痛片（剩几片）",
+          "status": "carried"
+        }
       ],
       "psychology": {
         "sanity": "stable_low",
@@ -97,15 +633,39 @@
       "story_time": 18,
       "chapter_id": "ch_036",
       "location": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站",
-      "physical": {"status": "functional", "notes": "例行供给巡圈（约40分钟，东北角区域熟悉，速度加快）。无新事件。"},
+      "physical": {
+        "status": "functional",
+        "notes": "例行供给巡圈（约40分钟，东北角区域熟悉，速度加快）。无新事件。"
+      },
       "inventory": [
-        {"item": "脉冲枪", "status": "equipped"},
-        {"item": "源质碎晶", "status": "pocket"},
-        {"item": "背包（地垫已给梁）", "status": "carried"},
-        {"item": "水囊×2", "status": "carried"},
-        {"item": "干粮（库存充足，约一周）", "status": "carried"},
-        {"item": "消毒纱布（剩一半）", "status": "carried"},
-        {"item": "止痛片（剩几片）", "status": "carried"}
+        {
+          "item": "脉冲枪",
+          "status": "equipped"
+        },
+        {
+          "item": "源质碎晶",
+          "status": "pocket"
+        },
+        {
+          "item": "背包（地垫已给梁）",
+          "status": "carried"
+        },
+        {
+          "item": "水囊×2",
+          "status": "carried"
+        },
+        {
+          "item": "干粮（库存充足，约一周）",
+          "status": "carried"
+        },
+        {
+          "item": "消毒纱布（剩一半）",
+          "status": "carried"
+        },
+        {
+          "item": "止痛片（剩几片）",
+          "status": "carried"
+        }
       ],
       "psychology": {
         "sanity": "stable_low",
@@ -129,15 +689,39 @@
       "story_time": 17,
       "chapter_id": "ch_034",
       "location": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站",
-      "physical": {"status": "functional", "notes": "无新事件。例行供给巡圈继续。"},
+      "physical": {
+        "status": "functional",
+        "notes": "无新事件。例行供给巡圈继续。"
+      },
       "inventory": [
-        {"item": "脉冲枪", "status": "equipped"},
-        {"item": "源质碎晶", "status": "pocket"},
-        {"item": "背包（地垫已给梁）", "status": "carried"},
-        {"item": "水囊×2", "status": "carried"},
-        {"item": "干粮（库存充足，约一周多）", "status": "carried"},
-        {"item": "消毒纱布（剩一半）", "status": "carried"},
-        {"item": "止痛片（剩几片）", "status": "carried"}
+        {
+          "item": "脉冲枪",
+          "status": "equipped"
+        },
+        {
+          "item": "源质碎晶",
+          "status": "pocket"
+        },
+        {
+          "item": "背包（地垫已给梁）",
+          "status": "carried"
+        },
+        {
+          "item": "水囊×2",
+          "status": "carried"
+        },
+        {
+          "item": "干粮（库存充足，约一周多）",
+          "status": "carried"
+        },
+        {
+          "item": "消毒纱布（剩一半）",
+          "status": "carried"
+        },
+        {
+          "item": "止痛片（剩几片）",
+          "status": "carried"
+        }
       ],
       "psychology": {
         "sanity": "stable_low",
@@ -162,15 +746,39 @@
       "story_time": 15,
       "chapter_id": "ch_030",
       "location": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站",
-      "physical": {"status": "functional", "notes": "例行外出巡圈（2-3km半径）完成，无事件。"},
+      "physical": {
+        "status": "functional",
+        "notes": "例行外出巡圈（2-3km半径）完成，无事件。"
+      },
       "inventory": [
-        {"item": "脉冲枪", "status": "equipped"},
-        {"item": "源质碎晶", "status": "pocket"},
-        {"item": "背包（地垫已给梁）", "status": "carried"},
-        {"item": "水囊×2", "status": "carried"},
-        {"item": "干粮（库存充足，约两周）", "status": "carried"},
-        {"item": "消毒纱布一卷", "status": "carried"},
-        {"item": "止痛片一小包", "status": "carried"}
+        {
+          "item": "脉冲枪",
+          "status": "equipped"
+        },
+        {
+          "item": "源质碎晶",
+          "status": "pocket"
+        },
+        {
+          "item": "背包（地垫已给梁）",
+          "status": "carried"
+        },
+        {
+          "item": "水囊×2",
+          "status": "carried"
+        },
+        {
+          "item": "干粮（库存充足，约两周）",
+          "status": "carried"
+        },
+        {
+          "item": "消毒纱布一卷",
+          "status": "carried"
+        },
+        {
+          "item": "止痛片一小包",
+          "status": "carried"
+        }
       ],
       "psychology": {
         "sanity": "stable_low",
@@ -193,15 +801,39 @@
       "story_time": 14,
       "chapter_id": "ch_028",
       "location": "碎晶星域·维格拉斯北部高地·灵能族废弃前哨站",
-      "physical": {"status": "functional", "notes": "日常供给任务。无新伤。"},
+      "physical": {
+        "status": "functional",
+        "notes": "日常供给任务。无新伤。"
+      },
       "inventory": [
-        {"item": "脉冲枪", "status": "equipped"},
-        {"item": "源质碎晶", "status": "pocket"},
-        {"item": "背包（地垫已给梁）", "status": "carried"},
-        {"item": "水囊×2", "status": "carried"},
-        {"item": "干粮（按保质期重新分类）", "status": "carried"},
-        {"item": "消毒纱布一卷", "status": "carried"},
-        {"item": "止痛片一小包", "status": "carried"}
+        {
+          "item": "脉冲枪",
+          "status": "equipped"
+        },
+        {
+          "item": "源质碎晶",
+          "status": "pocket"
+        },
+        {
+          "item": "背包（地垫已给梁）",
+          "status": "carried"
+        },
+        {
+          "item": "水囊×2",
+          "status": "carried"
+        },
+        {
+          "item": "干粮（按保质期重新分类）",
+          "status": "carried"
+        },
+        {
+          "item": "消毒纱布一卷",
+          "status": "carried"
+        },
+        {
+          "item": "止痛片一小包",
+          "status": "carried"
+        }
       ],
       "psychology": {
         "sanity": "stable_low",
@@ -234,13 +866,34 @@
         "notes": "外出半天执行供给任务，步行约4-5公里，无伤。"
       },
       "inventory": [
-        {"item": "脉冲枪", "status": "equipped"},
-        {"item": "源质碎晶（三年来随身携带）", "status": "pocket"},
-        {"item": "背包（含薄泡沫地垫——已给梁用）", "status": "carried"},
-        {"item": "水囊×2（已补满）", "status": "carried"},
-        {"item": "压缩干粮（约两天份）", "status": "carried"},
-        {"item": "消毒纱布一卷", "status": "carried"},
-        {"item": "止痛片一小包", "status": "carried"}
+        {
+          "item": "脉冲枪",
+          "status": "equipped"
+        },
+        {
+          "item": "源质碎晶（三年来随身携带）",
+          "status": "pocket"
+        },
+        {
+          "item": "背包（含薄泡沫地垫——已给梁用）",
+          "status": "carried"
+        },
+        {
+          "item": "水囊×2（已补满）",
+          "status": "carried"
+        },
+        {
+          "item": "压缩干粮（约两天份）",
+          "status": "carried"
+        },
+        {
+          "item": "消毒纱布一卷",
+          "status": "carried"
+        },
+        {
+          "item": "止痛片一小包",
+          "status": "carried"
+        }
       ],
       "psychology": {
         "sanity": "stable_low",
@@ -274,16 +927,47 @@
         "notes": "ch_023夜晚入驻前哨站。地垫已给梁使用，自己坐靠岩壁。消耗了少量口粮。水八成。"
       },
       "inventory": [
-        {"item": "elem_ability_card_jump_x3", "status": "absorbed"},
-        {"item": "elem_ability_card_shield_x1", "status": "absorbed"},
-        {"item": "自制轻型脉冲枪", "status": "equipped, right-hand reachable"},
-        {"item": "灵能族断频器", "status": "worn"},
-        {"item": "一块磨损的源质碎晶", "status": "carried"},
-        {"item": "颈上名牌（12块）", "status": "carried"},
-        {"item": "联邦标准口粮（约两天份，减少）", "status": "carried"},
-        {"item": "净化水（八成）", "status": "carried"},
-        {"item": "医疗包（绑扎带少量剩余，其他已用尽）", "status": "depleted"},
-        {"item": "泡沫地垫", "status": "given_to_liang", "note": "铺给梁使用，艾昂自己坐靠岩壁入睡"}
+        {
+          "item": "elem_ability_card_jump_x3",
+          "status": "absorbed"
+        },
+        {
+          "item": "elem_ability_card_shield_x1",
+          "status": "absorbed"
+        },
+        {
+          "item": "自制轻型脉冲枪",
+          "status": "equipped, right-hand reachable"
+        },
+        {
+          "item": "灵能族断频器",
+          "status": "worn"
+        },
+        {
+          "item": "一块磨损的源质碎晶",
+          "status": "carried"
+        },
+        {
+          "item": "颈上名牌（12块）",
+          "status": "carried"
+        },
+        {
+          "item": "联邦标准口粮（约两天份，减少）",
+          "status": "carried"
+        },
+        {
+          "item": "净化水（八成）",
+          "status": "carried"
+        },
+        {
+          "item": "医疗包（绑扎带少量剩余，其他已用尽）",
+          "status": "depleted"
+        },
+        {
+          "item": "泡沫地垫",
+          "status": "given_to_liang",
+          "note": "铺给梁使用，艾昂自己坐靠岩壁入睡"
+        }
       ],
       "psychology": {
         "sanity": 70,
@@ -310,15 +994,42 @@
         "notes": "找到裂隙渗水，水囊升至八成。进入了处理伤口的医疗操作，消耗了凝血粉（全部）、干净布（两块）、消毒材料（一小包，过期）。"
       },
       "inventory": [
-        {"item": "elem_ability_card_jump_x3", "status": "absorbed"},
-        {"item": "elem_ability_card_shield_x1", "status": "absorbed"},
-        {"item": "自制轻型脉冲枪", "status": "equipped"},
-        {"item": "灵能族断频器", "status": "worn"},
-        {"item": "一块磨损的源质碎晶", "status": "carried"},
-        {"item": "颈上名牌（12块）", "status": "carried"},
-        {"item": "联邦标准口粮（两天半份）", "status": "carried"},
-        {"item": "净化水（八成，已补充）", "status": "carried"},
-        {"item": "医疗包（绑扎带剩余、凝血粉已用尽、干净布已用2块、消毒材料已用）", "status": "depleted"}
+        {
+          "item": "elem_ability_card_jump_x3",
+          "status": "absorbed"
+        },
+        {
+          "item": "elem_ability_card_shield_x1",
+          "status": "absorbed"
+        },
+        {
+          "item": "自制轻型脉冲枪",
+          "status": "equipped"
+        },
+        {
+          "item": "灵能族断频器",
+          "status": "worn"
+        },
+        {
+          "item": "一块磨损的源质碎晶",
+          "status": "carried"
+        },
+        {
+          "item": "颈上名牌（12块）",
+          "status": "carried"
+        },
+        {
+          "item": "联邦标准口粮（两天半份）",
+          "status": "carried"
+        },
+        {
+          "item": "净化水（八成，已补充）",
+          "status": "carried"
+        },
+        {
+          "item": "医疗包（绑扎带剩余、凝血粉已用尽、干净布已用2块、消毒材料已用）",
+          "status": "depleted"
+        }
       ],
       "psychology": {
         "sanity": 70,
@@ -346,14 +1057,40 @@
         "notes": "水五成（明天需开始找补充）。口粮两天半份。转向西北后走了约12公里。"
       },
       "inventory": [
-        {"item": "elem_ability_card_jump_x3", "status": "absorbed"},
-        {"item": "elem_ability_card_shield_x1", "status": "absorbed"},
-        {"item": "自制轻型脉冲枪", "status": "equipped"},
-        {"item": "灵能族断频器", "status": "worn"},
-        {"item": "一块磨损的源质碎晶", "status": "carried", "note": "今天振动平稳（正常微颤），矿脉已在身后。傍晚扎营时触了一下确认了位置。"},
-        {"item": "颈上名牌（12块）", "status": "carried", "note": "傍晚取出，握了一会，没有念任何名字，放回。（ch_002念每个名字；ch_017念不下去；ch_019只是握，不念）"},
-        {"item": "联邦标准口粮（两天半份）", "status": "carried"},
-        {"item": "净化水（五成，需补充）", "status": "carried"}
+        {
+          "item": "elem_ability_card_jump_x3",
+          "status": "absorbed"
+        },
+        {
+          "item": "elem_ability_card_shield_x1",
+          "status": "absorbed"
+        },
+        {
+          "item": "自制轻型脉冲枪",
+          "status": "equipped"
+        },
+        {
+          "item": "灵能族断频器",
+          "status": "worn"
+        },
+        {
+          "item": "一块磨损的源质碎晶",
+          "status": "carried",
+          "note": "今天振动平稳（正常微颤），矿脉已在身后。傍晚扎营时触了一下确认了位置。"
+        },
+        {
+          "item": "颈上名牌（12块）",
+          "status": "carried",
+          "note": "傍晚取出，握了一会，没有念任何名字，放回。（ch_002念每个名字；ch_017念不下去；ch_019只是握，不念）"
+        },
+        {
+          "item": "联邦标准口粮（两天半份）",
+          "status": "carried"
+        },
+        {
+          "item": "净化水（五成，需补充）",
+          "status": "carried"
+        }
       ],
       "psychology": {
         "sanity": 70,
@@ -379,13 +1116,35 @@
         "notes": "在矿石凹槽过夜（非标准宿营位置，过于靠近能量活跃区）。口粮消耗中，水需要补充。"
       },
       "inventory": [
-        {"item": "elem_ability_card_jump_x3", "status": "absorbed"},
-        {"item": "elem_ability_card_shield_x1", "status": "absorbed"},
-        {"item": "自制轻型脉冲枪", "status": "equipped"},
-        {"item": "灵能族断频器", "status": "worn"},
-        {"item": "一块磨损的源质碎晶", "status": "carried", "note": "在活跃矿脉旁振动比任何时候都强（持续低频，有波峰节律），整夜未取出，天亮后仅隔着布料感受了两秒"},
-        {"item": "联邦标准口粮（少量）", "status": "carried"},
-        {"item": "净化水（需补充）", "status": "carried"}
+        {
+          "item": "elem_ability_card_jump_x3",
+          "status": "absorbed"
+        },
+        {
+          "item": "elem_ability_card_shield_x1",
+          "status": "absorbed"
+        },
+        {
+          "item": "自制轻型脉冲枪",
+          "status": "equipped"
+        },
+        {
+          "item": "灵能族断频器",
+          "status": "worn"
+        },
+        {
+          "item": "一块磨损的源质碎晶",
+          "status": "carried",
+          "note": "在活跃矿脉旁振动比任何时候都强（持续低频，有波峰节律），整夜未取出，天亮后仅隔着布料感受了两秒"
+        },
+        {
+          "item": "联邦标准口粮（少量）",
+          "status": "carried"
+        },
+        {
+          "item": "净化水（需补充）",
+          "status": "carried"
+        }
       ],
       "psychology": {
         "sanity": 70,
@@ -414,13 +1173,34 @@
         "notes": "走了三天（story_time 4→6），在前哨站过了一夜。口粮消耗中，水需要补充。"
       },
       "inventory": [
-        {"item": "elem_ability_card_jump_x3", "status": "absorbed"},
-        {"item": "elem_ability_card_shield_x1", "status": "absorbed"},
-        {"item": "自制轻型脉冲枪", "status": "equipped"},
-        {"item": "灵能族断频器", "status": "worn"},
-        {"item": "一块磨损的源质碎晶", "status": "carried"},
-        {"item": "联邦标准口粮（约1天份）", "status": "carried"},
-        {"item": "净化水（需补充）", "status": "carried"}
+        {
+          "item": "elem_ability_card_jump_x3",
+          "status": "absorbed"
+        },
+        {
+          "item": "elem_ability_card_shield_x1",
+          "status": "absorbed"
+        },
+        {
+          "item": "自制轻型脉冲枪",
+          "status": "equipped"
+        },
+        {
+          "item": "灵能族断频器",
+          "status": "worn"
+        },
+        {
+          "item": "一块磨损的源质碎晶",
+          "status": "carried"
+        },
+        {
+          "item": "联邦标准口粮（约1天份）",
+          "status": "carried"
+        },
+        {
+          "item": "净化水（需补充）",
+          "status": "carried"
+        }
       ],
       "psychology": {
         "sanity": 71,
@@ -449,13 +1229,35 @@
         "notes": "当天走了十七小时，在处理节点附近休息了整个下午（非睡眠性休息），夜间继续行进。口粮和水仍有余量。"
       },
       "inventory": [
-        {"item": "elem_ability_card_jump_x3", "status": "absorbed"},
-        {"item": "elem_ability_card_shield_x1", "status": "absorbed"},
-        {"item": "自制轻型脉冲枪", "status": "equipped"},
-        {"item": "灵能族断频器", "status": "worn"},
-        {"item": "一块磨损的源质碎晶", "status": "carried", "note": "在处理节点附近振动明显强于平时，均匀且持续，取出确认后放回，未深追原因"},
-        {"item": "联邦标准口粮（约1.5天份）", "status": "carried"},
-        {"item": "净化水（半壶）", "status": "carried"}
+        {
+          "item": "elem_ability_card_jump_x3",
+          "status": "absorbed"
+        },
+        {
+          "item": "elem_ability_card_shield_x1",
+          "status": "absorbed"
+        },
+        {
+          "item": "自制轻型脉冲枪",
+          "status": "equipped"
+        },
+        {
+          "item": "灵能族断频器",
+          "status": "worn"
+        },
+        {
+          "item": "一块磨损的源质碎晶",
+          "status": "carried",
+          "note": "在处理节点附近振动明显强于平时，均匀且持续，取出确认后放回，未深追原因"
+        },
+        {
+          "item": "联邦标准口粮（约1.5天份）",
+          "status": "carried"
+        },
+        {
+          "item": "净化水（半壶）",
+          "status": "carried"
+        }
       ],
       "psychology": {
         "sanity": 71,
@@ -482,13 +1284,34 @@
         "notes": "走了约24小时，已补充食物（联邦标准口粮）和水（净化水桶），现在正在睡觉。"
       },
       "inventory": [
-        {"item": "elem_ability_card_jump_x3", "status": "absorbed"},
-        {"item": "elem_ability_card_shield_x1", "status": "absorbed"},
-        {"item": "自制轻型脉冲枪", "status": "equipped"},
-        {"item": "灵能族断频器", "status": "worn"},
-        {"item": "一块磨损的源质碎晶", "status": "carried"},
-        {"item": "联邦标准口粮（约2天份）", "status": "carried"},
-        {"item": "净化水（满壶）", "status": "carried"}
+        {
+          "item": "elem_ability_card_jump_x3",
+          "status": "absorbed"
+        },
+        {
+          "item": "elem_ability_card_shield_x1",
+          "status": "absorbed"
+        },
+        {
+          "item": "自制轻型脉冲枪",
+          "status": "equipped"
+        },
+        {
+          "item": "灵能族断频器",
+          "status": "worn"
+        },
+        {
+          "item": "一块磨损的源质碎晶",
+          "status": "carried"
+        },
+        {
+          "item": "联邦标准口粮（约2天份）",
+          "status": "carried"
+        },
+        {
+          "item": "净化水（满壶）",
+          "status": "carried"
+        }
       ],
       "psychology": {
         "sanity": 72,
@@ -515,11 +1338,26 @@
         "notes": "基础状态良好——三年流亡已将生存消耗纳入常态，饥饿和疲劳是背景而非紧急状态"
       },
       "inventory": [
-        {"item": "elem_ability_card_jump_x3", "status": "absorbed"},
-        {"item": "elem_ability_card_shield_x1", "status": "absorbed"},
-        {"item": "自制轻型脉冲枪", "status": "equipped"},
-        {"item": "灵能族断频器", "status": "worn"},
-        {"item": "一块磨损的源质碎晶", "status": "carried"}
+        {
+          "item": "elem_ability_card_jump_x3",
+          "status": "absorbed"
+        },
+        {
+          "item": "elem_ability_card_shield_x1",
+          "status": "absorbed"
+        },
+        {
+          "item": "自制轻型脉冲枪",
+          "status": "equipped"
+        },
+        {
+          "item": "灵能族断频器",
+          "status": "worn"
+        },
+        {
+          "item": "一块磨损的源质碎晶",
+          "status": "carried"
+        }
       ],
       "psychology": {
         "sanity": 72,

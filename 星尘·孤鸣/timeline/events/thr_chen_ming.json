@@ -110,6 +110,48 @@
         "char_chen_ming"
       ],
       "summary": "苏同死亡（七新兵第一个）。细节先到（微抖）。阻力消失后无缓冲，名字直接进内部。不想记=已经记了。更深处存档，带细节。七个里的一个了。"
+    },
+    {
+      "id": "evt_ch049_headquarters_visit",
+      "name": "联邦总部（一）",
+      "thread_id": "thr_chen_ming",
+      "story_time": 25,
+      "status": "drafted",
+      "chapter_id": "ch_049",
+      "participants": [
+        "char_chen_ming"
+      ],
+      "summary": "临时调派联邦前线总部两天。看见干净的手、屏幕、百分比。一小时会议零次人名，全部「损耗率」「容许范围」。「你们营损耗比在可接受范围低端，表现不错」——答「谢谢」，确认名牌，回程，地形重新变回认识的样子。"
+    },
+    {
+      "id": "evt_ch057_heavy_casualties",
+      "name": "新兵（续）",
+      "thread_id": "thr_chen_ming",
+      "story_time": 29,
+      "status": "drafted",
+      "chapter_id": "ch_057",
+      "participants": ["char_chen_ming"],
+      "summary": "Grid 9-E推进，凹槽地形，陈铭预判危险、上面不改。进入后13分钟AI三向压制，陈铭带出大部分人但三人未出：方浩（17岁，每次吃完口粮还说不够），刘宁（三个月兵，老把弹药夹插错），郑师傅（42岁最老步兵，手指关节会响，有三个孩子）。陈铭自己背部撞岩壁，骨膜伤，两周好，继续执行。收三块名牌，口袋里现在十一块（加苏同）。"
+    },
+    {
+      "id": "evt_ch064_hq_second",
+      "name": "联邦总部（二）",
+      "thread_id": "thr_chen_ming",
+      "story_time": 31,
+      "status": "drafted",
+      "chapter_id": "ch_064",
+      "participants": ["char_chen_ming"],
+      "summary": "骨膜伤愈合，被召去总部参加Grid 9-E复盘。损耗4.7%「可接受」，无人提他的预判报告。他回答了被问的战术问题，不提那三块名牌，不提未被采纳的预判。会后确认口袋（十二块）。回程私人日志写等式：4.7%=方浩+刘宁+郑师傅。他是两种语言（百分比/名字）之间唯一知道等式的人，不打算做翻译。"
+    },
+    {
+      "id": "evt_ch071_sixteenth",
+      "name": "第十六",
+      "thread_id": "thr_chen_ming",
+      "story_time": 34,
+      "status": "drafted",
+      "chapter_id": "ch_071",
+      "participants": ["char_chen_ming"],
+      "summary": "Grid 11-B推进，四人战斗减员。回收名牌：王强/林春/陈平/赵磊。赵磊是第十六，留下的具体的事是那半首他说忘了后半段的歌。总计十六块（+苏同单独另计）。写日志，两份记录平行。「这场战争在我这里是这个大小：十六个人和苏同。」"
     }
   ]
 }
