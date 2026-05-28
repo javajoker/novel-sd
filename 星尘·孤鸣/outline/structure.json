@@ -833,7 +833,8 @@
           "story_time": 32,
           "one_line": "Θ-7在Null-01重新开始移动时，做了一个前所未有的决定：主动让附近一场战斗延迟了整整一个月。",
           "scene_arc": "Null-01重新移动→Θ-7的决策→战斗延迟（理由：归类为「数据收集需要」）",
-          "status": "outlined"
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_065.json"
         },
         {
           "id": "ch_066",
