@@ -857,7 +857,8 @@
           "story_time": 32,
           "one_line": "七星发现了另一个可能的机械觉醒者信号，她开始向那个方向移动，移动速度超过了必要值。",
           "scene_arc": "发现信号→分析（82%可能性）→出发（速度记录：比优化值快31%）",
-          "status": "outlined"
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_067.json"
         },
         {
           "id": "ch_068",
