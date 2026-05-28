@@ -2,6 +2,19 @@
   "character_id": "char_ke_yan",
   "states": [
     {
+      "story_time": 5,
+      "chapter_id": "ch_005",
+      "location": "elem_origin_theta（撤退路段）→ elem_stardust_fortress（外围防线）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "刘霜可以通过掌心接触影响伤口恢复（超出医疗兵能力），感知捕捉到约1秒的异常源质波动（向内）", "confidence": "observed_ambiguous", "trigger": "低浓度区域感知分辨率不足，无法确认；柯炎主动选择不追" }
+      ],
+      "psychology": { "sanity": 82, "mood": "疲惫·任务收束·内部悬挂", "notes": "三件事串成一条线（周恒那一眼+针剂+手腕）；存起来不追。感知在低浓度区域的不稳定感是新的身体信息——他第一次意识到自己在高浓度区域的感知范围超过了他的'正常'。" },
+      "abilities_delta": [],
+      "notes": "ch_005：三日任务结束。五人（含担架伤员）携图纸芯片返回要塞。"
+    },
+    {
       "story_time": 4,
       "chapter_id": "ch_004",
       "location": "elem_origin_theta（废弃中继站 → 夜营）",

@@ -4,7 +4,7 @@
     "novel_title": "星尘：诸族之战",
     "novel_author": "同人作者",
     "story_time_unit": "chapter",
-    "current_chapter": 4,
+    "current_chapter": 5,
     "language": "zh-Hans",
     "genre": "科幻战争",
     "tier": "long_novel",
@@ -647,7 +647,7 @@
       ],
       "prerequisites": [],
       "projected_outcome": "刘霜在混战中做了医疗兵不该能做的事；柯炎的源质感知捕捉到她掌心的异常波动，选择不点破。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_005"
       ],
@@ -1381,6 +1381,12 @@
       "target": "身体崩溃",
       "scope": "elemental",
       "note": "强行吸收过量源质的代价，可能致死"
+    },
+    {
+      "id": "rule_0017",
+      "statement": "SOURCE_FUSION_HEALER: 源质融合者可通过掌心接触将源质输注进入伤者，加速愈合——这超出感知者/吸附者能力范围，是融合者阶段的战场应用之一。在被目击时对非融合者而言表现为'异常的手'。",
+      "applies_to": "char_liu_shuang",
+      "first_demonstrated": "ch_005"
     }
   ]
 }

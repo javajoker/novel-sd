@@ -41,6 +41,16 @@
       "active_entities": ["char_ke_yan", "char_liu_shuang", "elem_origin_theta", "elem_blue_card_precognitive_dodge"],
       "events_covered": ["evt_relay_station"],
       "tags": ["蓝卡首次主动使用", "'运气'的厌倦", "刘霜检查手腕", "中继站图纸", "战后低气压"]
+    },
+    {
+      "chapter_id": "ch_005",
+      "story_time": 5,
+      "title": "医疗兵的手",
+      "logline": "撤退途中，伤员腹部贯穿——刘霜脱右手手套按住伤口，柯炎的感知捕捉到掌心的源质波动，然后他把视线移开了。",
+      "synopsis": "围困第47天撤退。源质浓度降低，柯炎感知缩回六米（不适应低范围）。第二小时遭普通异种伏击（11只，3方向）；柯炎用蓝卡闪避+感知协同打掉4只，并下意识提前打掉威胁刘霜的那只。受伤队友在混战中再中弹（腹部贯穿）。刘霜脱右手手套，掌心按住伤口——柯炎感知到约1秒的异常源质波动（向内），随即精度不足，波动消失。他眨眼，没有追问。20分钟后伤员稳定（超出急救包范围）。刘霜站起重新戴手套，'走'。柯炎看着，把周恒那一眼+针剂+手腕三件事在心里串成一条线，存起来不拽。带着图纸芯片天黑前返回要塞。",
+      "active_entities": ["char_ke_yan", "char_liu_shuang", "elem_origin_theta", "elem_stardust_fortress"],
+      "events_covered": ["evt_liushuang_anomaly"],
+      "tags": ["刘霜的手", "源质融合疗愈", "柯炎看见了但没问", "'不问列表'成型", "撤退伏击", "任务完成"]
     }
   ],
   "scene_chunks": []
