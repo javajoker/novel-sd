@@ -1,0 +1,38 @@
+{
+  "_note": "Thread shard for thr_war_strategy. Stubs only — full truth in ontology.json#events.",
+  "thread_id": "thr_war_strategy",
+  "events": [
+    {
+      "id": "evt_psi_elder_enters",
+      "name": "艾薇儿降临",
+      "story_time": 25,
+      "chapter": "ch_025",
+      "status": "drafted",
+      "participants": [
+        "char_psi_elder"
+      ]
+    },
+    {
+      "id": "evt_herald_strategy",
+      "name": "先驱诱敌",
+      "story_time": 55,
+      "chapter": "ch_055",
+      "status": "drafted",
+      "participants": [
+        "char_swarm_herald"
+      ]
+    },
+    {
+      "id": "evt_fortress_crisis",
+      "name": "要塞危机",
+      "story_time": 70,
+      "chapter": "ch_070",
+      "status": "planned",
+      "participants": [
+        "char_ke_yan",
+        "char_major_zhou",
+        "char_liu_shuang"
+      ]
+    }
+  ]
+}

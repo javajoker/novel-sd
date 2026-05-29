@@ -955,7 +955,7 @@
       ],
       "prerequisites": [],
       "projected_outcome": "异种先驱展现战略级智能，做出'诱敌'调度，改变战局；战争控制器的模型第一次失准，各方意识到异种变了。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_055"
       ],
@@ -986,7 +986,7 @@
       ],
       "prerequisites": [],
       "projected_outcome": "柯炎与艾薇儿在绝境中被迫结盟；灵能与源质感知第一次配合，双方都修正了对彼此的偏见。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_058"
       ],
@@ -1175,6 +1175,7 @@
         "evt_siege_day43",
         "evt_breakout_briefing",
         "evt_first_synthesis",
+        "evt_relay_station",
         "evt_liushuang_anomaly",
         "evt_perception_edge",
         "evt_herald_first_sighting",
@@ -1208,7 +1209,8 @@
           "location": "elem_stardust_fortress",
           "knowledge_exchanged": "宏观战局崩盘与个人命运交汇：要塞陷落，周恒以让出活路的方式收束，柯炎被推向Θ区。"
         }
-      ]
+      ],
+      "current_time": 65
     },
     {
       "id": "thr_void_echo",
@@ -1229,7 +1231,8 @@
           "location": "elem_shattered_bastion",
           "knowledge_exchanged": "虚影确认柯炎的源质感知特征与第零团旧人同源；以一句问话在柯炎心里种下怀疑联邦的种子。"
         }
-      ]
+      ],
+      "current_time": 65
     },
     {
       "id": "thr_war_strategy",
@@ -1251,7 +1254,8 @@
           "location": "elem_stardust_fortress",
           "knowledge_exchanged": "战略层的要塞陷落直接决定了主线残部的去向——向Θ区突围。"
         }
-      ]
+      ],
+      "current_time": 65
     }
   ],
   "world_rules": [

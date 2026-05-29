@@ -62,7 +62,7 @@
       "chapter_ids": [
         "ch_008"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_herald_first_sighting",
@@ -71,7 +71,7 @@
       "chapter_ids": [
         "ch_010"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_zhou_despair",
@@ -80,7 +80,7 @@
       "chapter_ids": [
         "ch_012"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_theta_map_fragment",
@@ -89,7 +89,7 @@
       "chapter_ids": [
         "ch_015"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_subarc_a_climax",
@@ -99,7 +99,7 @@
         "ch_019",
         "ch_020"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_psi_elder_enters",
@@ -108,7 +108,7 @@
       "chapter_ids": [
         "ch_025"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_liushuang_revealed",
@@ -117,7 +117,7 @@
       "chapter_ids": [
         "ch_035"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_void_echo_contact",
@@ -126,7 +126,7 @@
       "chapter_ids": [
         "ch_050"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_herald_strategy",
@@ -135,7 +135,7 @@
       "chapter_ids": [
         "ch_055"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_uneasy_alliance",
@@ -144,7 +144,7 @@
       "chapter_ids": [
         "ch_058"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_fortress_crisis",

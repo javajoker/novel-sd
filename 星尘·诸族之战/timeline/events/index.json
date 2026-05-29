@@ -1,0 +1,150 @@
+{
+  "_note": "Index of all timeline events. Authoritative source is ontology.json#events; shards are mirrors.",
+  "last_story_time": 65,
+  "last_chapter": "ch_065",
+  "by_chapter": {
+    "ch_001": [
+      "evt_siege_day43"
+    ],
+    "ch_002": [
+      "evt_breakout_briefing"
+    ],
+    "ch_003": [
+      "evt_first_synthesis"
+    ],
+    "ch_004": [
+      "evt_relay_station"
+    ],
+    "ch_005": [
+      "evt_liushuang_anomaly"
+    ],
+    "ch_006": [
+      "evt_void_echo_observes"
+    ],
+    "ch_008": [
+      "evt_perception_edge"
+    ],
+    "ch_010": [
+      "evt_herald_first_sighting"
+    ],
+    "ch_012": [
+      "evt_zhou_despair"
+    ],
+    "ch_015": [
+      "evt_theta_map_fragment"
+    ],
+    "ch_019": [
+      "evt_subarc_a_climax"
+    ],
+    "ch_025": [
+      "evt_psi_elder_enters"
+    ],
+    "ch_035": [
+      "evt_liushuang_revealed"
+    ],
+    "ch_050": [
+      "evt_void_echo_contact"
+    ],
+    "ch_055": [
+      "evt_herald_strategy"
+    ],
+    "ch_058": [
+      "evt_uneasy_alliance"
+    ],
+    "ch_070": [
+      "evt_fortress_crisis"
+    ],
+    "ch_078": [
+      "evt_breakout_to_theta"
+    ],
+    "ch_080": [
+      "evt_keyan_breakthrough"
+    ]
+  },
+  "by_story_time": {
+    "1": [
+      "evt_siege_day43"
+    ],
+    "2": [
+      "evt_breakout_briefing"
+    ],
+    "3": [
+      "evt_first_synthesis"
+    ],
+    "4": [
+      "evt_relay_station"
+    ],
+    "5": [
+      "evt_liushuang_anomaly"
+    ],
+    "6": [
+      "evt_void_echo_observes"
+    ],
+    "8": [
+      "evt_perception_edge"
+    ],
+    "10": [
+      "evt_herald_first_sighting"
+    ],
+    "12": [
+      "evt_zhou_despair"
+    ],
+    "15": [
+      "evt_theta_map_fragment"
+    ],
+    "19": [
+      "evt_subarc_a_climax"
+    ],
+    "25": [
+      "evt_psi_elder_enters"
+    ],
+    "35": [
+      "evt_liushuang_revealed"
+    ],
+    "50": [
+      "evt_void_echo_contact"
+    ],
+    "55": [
+      "evt_herald_strategy"
+    ],
+    "58": [
+      "evt_uneasy_alliance"
+    ],
+    "70": [
+      "evt_fortress_crisis"
+    ],
+    "78": [
+      "evt_breakout_to_theta"
+    ],
+    "80": [
+      "evt_keyan_breakthrough"
+    ]
+  },
+  "by_thread": {
+    "thr_protagonist": [
+      "evt_siege_day43",
+      "evt_breakout_briefing",
+      "evt_first_synthesis",
+      "evt_relay_station",
+      "evt_liushuang_anomaly",
+      "evt_perception_edge",
+      "evt_herald_first_sighting",
+      "evt_zhou_despair",
+      "evt_theta_map_fragment",
+      "evt_subarc_a_climax",
+      "evt_liushuang_revealed",
+      "evt_uneasy_alliance",
+      "evt_breakout_to_theta",
+      "evt_keyan_breakthrough"
+    ],
+    "thr_void_echo": [
+      "evt_void_echo_observes",
+      "evt_void_echo_contact"
+    ],
+    "thr_war_strategy": [
+      "evt_psi_elder_enters",
+      "evt_herald_strategy",
+      "evt_fortress_crisis"
+    ]
+  }
+}
