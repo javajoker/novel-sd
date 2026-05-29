@@ -33,6 +33,68 @@
       ],
       "psychology": { "sanity": 72, "mood": "平静、工作、自己找方法；威胁边界更清楚了，不因此崩溃，在找能做的事", "erosion_load": 5 },
       "abilities_delta": []
+    },
+    {
+      "story_time": 16,
+      "chapter_id": "ch_018–ch_019",
+      "location": "elem_huipo_wasteland_east（第二天）",
+      "inventory_delta": [],
+      "status": [
+        { "type": "milestone", "desc": "ch_018：在第35分钟前收窄至a'子频段等待脉冲扫过再展开——开始系统测试a'假设；伊岚注意到但不问", "severity": "n/a" },
+        { "type": "milestone", "desc": "ch_019（POV）：独立完成a'假设测试——行进中第七次观测出现统计显著性（峰值偏差20-25度），守夜时完成第五次静止有效观测，偏差22度；五次有效观测，假设成立；决定明天告诉队伍", "severity": "n/a" }
+      ],
+      "knowledge_gained": [
+        { "fact": "fact_lingyin_a_prime_hypothesis", "source": "ch_019：自主测试确认——A频率内层子频段a'可使蚕母定位偏差约20度（中位22度，偏差区间18-27度），代价是感知覆盖缩至六成、失去精确远程定向" }
+      ],
+      "psychology": { "sanity": 73, "mood": "专注、自主——她找到了一件她能做的事，方法是她自己的；准备好了再告诉他们", "erosion_load": 3 },
+      "abilities_delta": [
+        { "ability": "子频段a'（隐蔽感知）", "change": "ch_019末：假设确认成立；尚未向队伍公布" }
+      ],
+      "derived_inventory": []
+    },
+    {
+      "story_time": 18,
+      "chapter_id": "ch_022–ch_023",
+      "location": "elem_huipo_wasteland_east（第四天）",
+      "inventory_delta": [],
+      "status": [
+        { "type": "milestone", "desc": "ch_022（POV）：完成十次测试（七次有效），向队伍公布a'技术——中位偏差22度，代价感知覆盖六成；昭整合为战术（开阔地持续维持a'，需要精确感知时临时切回A）", "severity": "n/a" },
+        { "type": "milestone", "desc": "ch_023：a'战术首次实战——虫群探查单元遭遇中，昭决策聆音临时切回A发出短促干扰脉冲驱离；代价是短暂完整暴露A频率（蚕母精准定位短暂升高后再次模糊）", "severity": "n/a" }
+      ],
+      "knowledge_gained": [],
+      "psychology": { "sanity": 73, "mood": "方法已公布，战术已整合，已有实战验证——工作在进行，她在她的位置上", "erosion_load": 3 },
+      "abilities_delta": [
+        { "ability": "子频段a'（隐蔽感知）", "change": "ch_022：向队伍公布，正式成为战术资产；ch_023：首次实战使用（临时切回A后回到a'）" }
+      ],
+      "derived_inventory": []
+    },
+    {
+      "story_time": 19,
+      "chapter_id": "ch_025",
+      "location": "elem_huipo_wasteland_east（第五天傍晚）",
+      "inventory_delta": [],
+      "status": [
+        { "type": "milestone", "desc": "主动询问伊岚薇瑟的基础频率特征，将其记入感知记忆——以便在a'的低功率状态下识别东侧偏南方向是否有匹配信号", "severity": "n/a" }
+      ],
+      "knowledge_gained": [
+        { "fact": "fact_wei_se_freq_signature", "source": "ch_025：向伊岚询问后记入感知记忆——低沉稳定、接近灵渊底色、比一般战术频率厚重久远、更慢更宽、像长音而非短促振动" }
+      ],
+      "psychology": { "sanity": 73, "mood": "平静、在自己的位置上——知道自己能做什么，在做能做的事；Sub-arc B以a'+薇瑟频率识别能力开始", "erosion_load": 3 },
+      "abilities_delta": []
+    },
+    {
+      "story_time": 20,
+      "chapter_id": "ch_026",
+      "location": "elem_deep_wasteland_east",
+      "inventory_delta": [],
+      "status": [
+        { "type": "milestone", "desc": "在深荒地形察觉窄频脉冲相位漂移（约0.3秒，约15度方向分离）；向昭报告两个解释（地质反射 or 第二节点）；启动系统记录工作——需要更多窗口的观测数据才能判断", "severity": "n/a" }
+      ],
+      "knowledge_gained": [
+        { "fact": "fact_shimu_signal_phase_anomaly", "source": "ch_026自身感知：第二次降频窗口后，察觉窄频脉冲出现相位偏移，方向分离约15度；两个解释，需多次系统观测确认" }
+      ],
+      "psychology": { "sanity": 73, "mood": "观察到异常，报告昭，开始系统记录——科学方法论一贯：数据不够不下结论；等更多窗口", "erosion_load": 3 },
+      "abilities_delta": []
     }
   ]
 }

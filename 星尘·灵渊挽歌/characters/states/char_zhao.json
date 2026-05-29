@@ -47,6 +47,52 @@
       ],
       "psychology": { "sanity": 66, "mood": "战术地图在积累信息，指向一个还没完整轮廓的结论；继续走，等合适的时候问", "erosion_load": 12 },
       "abilities_delta": []
+    },
+    {
+      "story_time": 17,
+      "chapter_id": "ch_020",
+      "location": "elem_huipo_wasteland_east（第三天）",
+      "inventory_delta": [],
+      "status": [
+        { "type": "milestone", "desc": "直接问伊岚'那个方向有什么'（不是问方向，是问目标）；伊岚回答'我不确定'；昭辨别这是真话但不完整的真话——她有猜测但不说；记为战术地图第四条线（伊岚有猜测），暂不追问，确定某个时候会再问、更直接", "severity": "n/a" }
+      ],
+      "knowledge_gained": [
+        { "fact": "fact_yi_lan_has_more_info", "source": "ch_020：伊岚的回答'我不确定'是不完整的真话——昭判断她有猜测但未说出完整内容" }
+      ],
+      "psychology": { "sanity": 66, "mood": "战术地图有四条线，目标轮廓已经成型但尚不完整；等，在合适的时候问，那一次更直接", "erosion_load": 12 },
+      "abilities_delta": []
+    },
+    {
+      "story_time": 19,
+      "chapter_id": "ch_024–ch_025",
+      "location": "elem_huipo_wasteland_east（第五天）",
+      "inventory_delta": [],
+      "status": [
+        { "type": "milestone", "desc": "ch_024：再次直接追问'你知道的比你告诉我们的多多少'；伊岚叫来全队，说出完整真相；昭把信息归位（有信标+东侧偏南+薇瑟频率+为何选东），确认伊岚不触遗核的技术逻辑，总结：比ch_014多了一个'为什么'，信标信息量不变，只是更近了", "severity": "n/a" },
+        { "type": "milestone", "desc": "ch_025：以目标优先级重构战术框架，对伊岚明确说出——现在是在向一个信标行进，目标有优先级，某些风险值得承担，某些捷径不值得用；战术地图完整", "severity": "n/a" }
+      ],
+      "knowledge_gained": [
+        { "fact": "fact_yihe_response_signal_confirmed", "source": "ch_024：伊岚告知——ch_014战后以渡蚀触遗核收到东侧偏南单次脉冲回应，频率对应薇瑟，这是选东的原因" },
+        { "fact": "fact_wei_se_freq_signature", "source": "ch_024–025：全队知情；薇瑟基础频率——低沉稳定、久远、像从很深处发出" }
+      ],
+      "psychology": { "sanity": 66, "mood": "战术地图完整——不只是方向，有目标，有优先级，有判断依据；工作变完整了，继续往东", "erosion_load": 12 },
+      "abilities_delta": []
+    },
+    {
+      "story_time": 20,
+      "chapter_id": "ch_026",
+      "location": "elem_deep_wasteland_east（地质分界线→深荒腹地·第一晚营地）",
+      "inventory_delta": [],
+      "status": [
+        { "type": "milestone", "desc": "进入深荒（ch_026 POV）：踏过地质分界线，完成深荒地形战术参数重建——裂缝走廊两面性评估，换位风险上升，破表点密度估算上升，视野改善。选定东侧宽裂缝营地，首晚驻扎深荒。", "severity": "n/a" },
+        { "type": "psychology", "desc": "通过伊岚的'手压口袋'间接读到遗核升温——不再只是知道方向，而是能读接近进度条；战术地图补入深荒地形格子（大量问号，等数据）", "severity": "n/a" }
+      ],
+      "knowledge_gained": [
+        { "fact": "fact_terrain_deep_east_characteristics", "source": "ch_026自身POV：踏过地质分界线后目视+触觉评估；矿石颜色暗绿，地面裂缝纵横，砾石层消失，岩床裸露，换位风险上升" },
+        { "fact": "fact_shimu_signal_phase_anomaly", "source": "ch_026聆音报告：窄频脉冲出现约0.3秒相位偏移、约15度方向分离，两个解释（地质反射 or 第二节点），需更多观测数据" }
+      ],
+      "psychology": { "sanity": 66, "mood": "新地形，新参数，问号在积累，等聆音数据——不焦虑，在学习；战术地图的深荒页正在建设中", "erosion_load": 12 },
+      "abilities_delta": []
     }
   ]
 }

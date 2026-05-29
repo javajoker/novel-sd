@@ -2,7 +2,7 @@
   "story_time_unit": "chapter",
   "world_calendar": {
     "epoch": "源质觉醒后·收缩纪",
-    "current": "收缩纪 第七年，灰珀守备第 2,203 日"
+    "current": "收缩纪 第七年，灰珀守备第 2,207 日"
   },
   "chapter_to_world_day": {
     "ch_001": 2190,
@@ -18,8 +18,31 @@
     "ch_011": 2198,
     "ch_012": 2199,
     "ch_013": 2200,
-    "ch_014": 2201
+    "ch_014": 2201,
+    "ch_015": 2202,
+    "ch_016": 2202,
+    "ch_017": 2202,
+    "ch_018": 2203,
+    "ch_019": 2203,
+    "ch_020": 2204,
+    "ch_021": 2204,
+    "ch_022": 2205,
+    "ch_023": 2205,
+    "ch_024": 2206,
+    "ch_025": 2206,
+    "ch_026": 2207
   },
+  "chapter_to_story_time": {
+    "ch_001": 1, "ch_002": 2, "ch_003": 3, "ch_004": 3,
+    "ch_005": 5, "ch_006": 6, "ch_007": 7, "ch_008": 8,
+    "ch_009": 9, "ch_010": 10, "ch_011": 11, "ch_012": 12,
+    "ch_013": 13, "ch_014": 14, "ch_015": 15, "ch_016": 15,
+    "ch_017": 15, "ch_018": 16, "ch_019": 16, "ch_020": 17,
+    "ch_021": 17, "ch_022": 18, "ch_023": 18, "ch_024": 19,
+    "ch_025": 19, "ch_026": 20
+  },
+  "current_story_time": 20,
+  "current_chapter": 26,
   "chapter_locations": {
     "ch_001": "elem_seventh_garrison",
     "ch_002": "elem_seventh_garrison",
@@ -34,7 +57,19 @@
     "ch_011": "elem_rally_point",
     "ch_012": "elem_rally_point",
     "ch_013": "elem_huipo_wasteland",
-    "ch_014": "elem_huipo_wasteland"
+    "ch_014": "elem_huipo_wasteland",
+    "ch_015": "elem_huipo_wasteland_east",
+    "ch_016": "elem_huipo_wasteland_east",
+    "ch_017": "elem_huipo_wasteland_east",
+    "ch_018": "elem_huipo_wasteland_east",
+    "ch_019": "elem_huipo_wasteland_east",
+    "ch_020": "elem_huipo_wasteland_east",
+    "ch_021": "elem_huipo_wasteland_east",
+    "ch_022": "elem_huipo_wasteland_east",
+    "ch_023": "elem_huipo_wasteland_east",
+    "ch_024": "elem_huipo_wasteland_east",
+    "ch_025": "elem_huipo_wasteland_east",
+    "ch_026": "elem_deep_wasteland_east"
   },
   "travel_rules": [
     {
@@ -67,6 +102,13 @@
       "distance_km": "未测定",
       "terrain": "灰珀荒原·东侧矿石平原",
       "note": "遗核信标指向东侧偏南；跟踪型探兵来向东南。两方向扇形区域内为vol_03潜在目标区域。"
+    },
+    {
+      "from": "elem_huipo_wasteland_east",
+      "to": "elem_deep_wasteland_east",
+      "distance_km": "约80-100km（ch_015-025约5天行进）",
+      "terrain": "灰珀深荒·古老地质层，岩床裸露，裂缝纵横",
+      "note": "ch_026首次进入。地质分界线明显（矿石颜色灰白→暗绿），地面砾石消失，裸露岩床上宽窄不一的裂缝走廊纵横延伸。移动速度因裂缝地形降低约15%；夜间换位风险大幅上升。"
     }
   ],
   "movement_speeds": {

@@ -4,7 +4,7 @@
     "novel_title": "星尘·灵渊挽歌",
     "novel_author": "javajoker",
     "story_time_unit": "chapter",
-    "current_chapter": 17,
+    "current_chapter": 26,
     "tier": "long_novel",
     "language": "zh-Hans",
     "genre": "星际科幻",
@@ -376,6 +376,18 @@
       ],
       "description": "薇瑟灵蚀化前留给伊岚的灵枢聚焦核。能稳定渡蚀回路。ch_012确认为固定方向信标（东侧偏南），以旧频率持续发送；渡蚀频率触碰可产生共振，渡蚀过载时曾自发脉动辅助。ch_014在渡蚀共振后收到东侧偏南方向的单次脉冲回应。",
       "salience": 0.7
+    },
+    {
+      "id": "elem_deep_wasteland_east",
+      "canonical_name": "灰珀深荒东区",
+      "type": "Place",
+      "subtype": "location",
+      "aliases": [
+        "深荒",
+        "深荒东侧"
+      ],
+      "description": "灰珀荒原向东延伸越过某条地质分界线后进入的更古老地层区域。矿石颜色深沉，表面光泽消失，地面有宽于一步的裂缝走廊纵横；灵能信号在此地传播方式与外围荒原有差异（可能因更高密度的深层矿脉结构导致反射效应）。Vol_03 Sub-arc B的主要行进区域（ch_026起）。",
+      "salience": 0.65
     },
     {
       "id": "elem_puppet_soldiers",
@@ -1837,7 +1849,7 @@
       "chapter_ids": [
         "ch_018"
       ],
-      "status": "planned",
+      "status": "drafted",
       "dependencies": [
         {
           "event": "evt_shimu_learning_rhythm",
@@ -1873,7 +1885,7 @@
     },
     {
       "id": "evt_lingyin_subband_test",
-      "name": "聆音的子频段假设与验证",
+      "name": "聆音的子频段假设与测试过程",
       "description": "聆音假设蚀母的窄频脉冲是根据她的完整A频率签名校准的；她测试一个比A更窄的子波段a'——如果假设成立，a'下蚀母的方向估算会出现偏差。在多次脉冲窗口下测试，第七次后获得统计显著性：7次中5次方向模糊。聆音尚未告知队伍。",
       "thread_id": "thr_hive",
       "story_time": 16,
@@ -1887,7 +1899,7 @@
         "ch_018",
         "ch_019"
       ],
-      "status": "planned",
+      "status": "drafted",
       "dependencies": [
         {
           "event": "evt_lingyin_reports_frequency_exposed",
@@ -1919,7 +1931,7 @@
     },
     {
       "id": "evt_zhao_asks_target",
-      "name": "昭问出口·从方向到目标",
+      "name": "昭第一次追问·从方向到目标",
       "description": "第三天行进中段，昭走到伊岚身边，直接问：'那个遗核指的方向有什么。'这是第一次有人直接问目标而非方向。伊岚说：'我不确定。'——真话也是回避。昭决定不追问，但在战术地图里加上第四条线（伊岚有猜测但不说）。",
       "thread_id": "thr_garrison",
       "story_time": 17,
@@ -1932,7 +1944,7 @@
       "chapter_ids": [
         "ch_020"
       ],
-      "status": "planned",
+      "status": "drafted",
       "dependencies": [
         {
           "event": "evt_yi_lan_decides_east",
@@ -1983,7 +1995,7 @@
       "chapter_ids": [
         "ch_021"
       ],
-      "status": "planned",
+      "status": "drafted",
       "dependencies": [
         {
           "event": "evt_yihe_response_signal",
@@ -2017,6 +2029,239 @@
         "scene_arc": "补水停驻 → 守岩的陈述 → 被击穿 → 第一次说出一点",
         "key_moment": "伊岚说：'我想我知道大概的方向。不是目标，是方向。'——守岩没追问，把这话接住放好",
         "pov_constraint": "这是她能说的最大量；不是脉冲，不是薇瑟，但是真的"
+      }
+    },
+    {
+      "id": "evt_lingyin_subband_confirmed",
+      "name": "聆音公布a'子频段技术",
+      "description": "聆音完成十次测试（七次有效观测），向全队公布：A的子频段a'可使蚕母定位偏差约20度（中位22度），代价是感知覆盖缩至六成、失去精确远程定向。昭立即整合进战术框架。伊岚在听的同时看见镜子：聆音等的是数据，她自己在等什么。",
+      "thread_id": "thr_hive",
+      "story_time": 18,
+      "duration": 1,
+      "location": "elem_huipo_wasteland_east",
+      "participants": [
+        "char_ling_yin",
+        "char_zhao",
+        "char_yi_lan",
+        "char_shou_yan"
+      ],
+      "chapter_ids": ["ch_022"],
+      "status": "drafted",
+      "dependencies": [
+        { "event": "evt_lingyin_subband_test", "relation": "CAUSES" }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          { "entity": "char_ling_yin", "kind": "capability_confirmed", "desc": "a'子频段技术向队伍公布，成为战术资产" },
+          { "entity": "char_yi_lan", "kind": "psychology", "desc": "看见镜子——聆音有测试逻辑，她自己在等什么？" }
+        ]
+      },
+      "beat_design": {
+        "pov": "char_ling_yin",
+        "technique": "parallel",
+        "scene_arc": "第四天早晨 → 公布 → 昭整合战术 → 伊岚看见镜子",
+        "key_moment": "聆音以科学方法公布a'技术；伊岚意识到她自己没有'准备好了'的标准",
+        "pov_constraint": "聆音不知道她的方法论正在成为伊岚的镜子"
+      }
+    },
+    {
+      "id": "evt_hive_scout_encounter",
+      "name": "开阔地虫群探查单元遭遇",
+      "description": "第四天下午进入开阔区，聆音在a'状态下探知地下三四只虫群探查单元。昭决策：聆音临时切回A发出短促干扰脉冲驱离探查虫，全队同时快速换位。执行成功，代价是短暂暴露完整A频率。",
+      "thread_id": "thr_garrison",
+      "story_time": 18,
+      "duration": 1,
+      "location": "elem_huipo_wasteland_east",
+      "participants": [
+        "char_yi_lan",
+        "char_ling_yin",
+        "char_zhao",
+        "char_shou_yan"
+      ],
+      "chapter_ids": ["ch_023"],
+      "status": "drafted",
+      "dependencies": [
+        { "event": "evt_lingyin_subband_confirmed", "relation": "ENABLES" }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          { "entity": "char_ling_yin", "kind": "ability_used", "desc": "a'战术首次实战；临时切回A暴露频率" },
+          { "entity": "char_shi_mu", "kind": "knowledge_gained", "desc": "短暂精准定位后再次模糊——蚕母确认聆音仍在东行方向" }
+        ]
+      },
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "开阔区 → 探查单元信号 → 昭决策 → 快速换位驱离",
+        "key_moment": "a'战术首次在实战中被使用并成功；代价是短暂A频率暴露",
+        "pov_constraint": "伊岚在战后检查遗核发现升温，把这件事和勇气放在一起"
+      }
+    },
+    {
+      "id": "evt_yihe_warming",
+      "name": "遗核基础温度上升——确认接近中",
+      "description": "ch_023战后伊岚检查遗核，发现恒定基础温度比昨天更高——不是共振时的暂时升温，是持续的基础热度上升，确认整体在接近中。傍晚伊岚第一次对自己诚实：她在等的是勇气，不是确认。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 18,
+      "duration": 1,
+      "location": "elem_huipo_wasteland_east",
+      "participants": [
+        "char_yi_lan"
+      ],
+      "chapter_ids": ["ch_023"],
+      "status": "drafted",
+      "dependencies": [
+        { "event": "evt_yihe_beacon_revealed", "relation": "PRECEDES" }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          { "entity": "elem_wei_se_core", "kind": "signal_strengthening", "desc": "基础热度上升，确认距信标来源持续接近" },
+          { "entity": "char_yi_lan", "kind": "psychology", "desc": "对自己诚实：在等的是勇气而非确认；昭将再次问，那时候要告诉他" }
+        ]
+      },
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "战后 → 检查遗核 → 升温确认 → 傍晚内省",
+        "key_moment": "伊岚第一次对自己明确说出：她在等的是勇气，不是确认；那种感觉不会自己来",
+        "pov_constraint": "她不知道昭下一次追问就在明天"
+      }
+    },
+    {
+      "id": "evt_yilan_full_confession",
+      "name": "伊岚向全队说出完整真相",
+      "description": "第五天第二次降频后，昭直接追问'你知道的比你告诉我们的多多少'。伊岚叫来所有人，说出完整真相：ch_014战后以渡蚀触遗核收到东侧偏南单次脉冲回应，频率对应薇瑟，这是选择东的原因。守岩命名'她留的东西在你手里，往那里走'；聆音感知确认旧频率。那件事在四个人之间了。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 19,
+      "duration": 1,
+      "location": "elem_huipo_wasteland_east",
+      "participants": [
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_ling_yin"
+      ],
+      "chapter_ids": ["ch_024"],
+      "status": "drafted",
+      "dependencies": [
+        { "event": "evt_yihe_warming", "relation": "CAUSES" },
+        { "event": "evt_zhao_asks_target", "relation": "ENABLES" }
+      ],
+      "projected_outcome": {
+        "relation_shifts": [
+          { "subject": "char_yi_lan", "object": "char_zhao", "predicate_change": "full_disclosure", "delta": "随行节律里的松动节点消失；完整共担建立" }
+        ],
+        "state_changes": [
+          { "entity": "char_yi_lan", "kind": "milestone", "desc": "Sub-arc A最重要的单一事件完成：随行共担从情感到事实" },
+          { "entity": "char_zhao", "kind": "knowledge_gained", "desc": "目标信息完整：信标+方向+薇瑟频率；战术地图可以用目标做判断" }
+        ]
+      },
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "昭追问 → 叫来所有人 → 说出完整真相 → 守岩命名",
+        "key_moment": "伊岚叫来守岩和聆音，说出ch_014的回应脉冲和薇瑟频率——这件事在四个人之间了",
+        "pov_constraint": "伊岚不知道说出来之后会是什么感觉"
+      }
+    },
+    {
+      "id": "evt_subarc_a_closure",
+      "name": "Sub-arc A收束·各自以各自的方式",
+      "description": "说完之后四人重新出发。昭以目标优先级重构战术框架并对伊岚明言；聆音询问薇瑟频率特征并记入感知记忆；守岩静听并记入活档案。夜里伊岚拿着遗核（比前天更热），感知到随行的真正含义：不是你带着他们，是你们各自在各自位置，往同一方向，带着各自能带的东西，走。Sub-arc A正式收束，Sub-arc B开始。",
+      "thread_id": "thr_garrison",
+      "story_time": 19,
+      "duration": 1,
+      "location": "elem_huipo_wasteland_east",
+      "participants": [
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_ling_yin"
+      ],
+      "chapter_ids": ["ch_025"],
+      "status": "drafted",
+      "dependencies": [
+        { "event": "evt_yilan_full_confession", "relation": "CAUSES" }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          { "entity": "char_ling_yin", "kind": "knowledge_gained", "desc": "薇瑟基础频率特征记入感知记忆——Sub-arc B的远程感知依据" },
+          { "entity": "char_shou_yan", "kind": "archive_updated", "desc": "薇瑟频率特征记入活档案" },
+          { "entity": "char_zhao", "kind": "tactical_framework", "desc": "以目标优先级重构战术地图，对伊岚明言" },
+          { "entity": "char_yi_lan", "kind": "milestone", "desc": "随行真义内化：不是带着三人，是四人各自以各自方式往同一方向走" }
+        ]
+      },
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "沉默消化 → 重新出发 → 昭整合目标 → 聆音记频率 → 守岩存档 → 夜里独处",
+        "key_moment": "夜里伊岚把遗核放回口袋，感知到随行的真义——四个人各自以各自能做的事往那里走",
+        "pov_constraint": "Sub-arc A结束；她不知道Sub-arc B会带来什么"
+      }
+    },
+    {
+      "id": "evt_terrain_shift_deep",
+      "name": "进入深荒——地形骤变",
+      "description": "Sub-arc B首日（story_time 20），四人的行进带领他们越过一条明显的地质分界线：矿石颜色变深，表面光泽消失，地面出现宽于一步的裂缝走廊，深荒的特征与之前的荒原截然不同。遗核比昨天更热。这是一片更古老的地质层，蚀母信号在这片区域的传播方式与荒原西侧有所差异——聆音注意到窄频脉冲的信号强度有轻微的相位漂移，尚无法判断原因。",
+      "thread_id": "thr_garrison",
+      "story_time": 20,
+      "duration": 1,
+      "location": "elem_deep_wasteland_east",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ],
+      "chapter_ids": ["ch_026"],
+      "status": "drafted",
+      "dependencies": [
+        { "event": "evt_subarc_a_closure", "relation": "PRECEDES" }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          { "entity": "char_zhao", "kind": "tactical_knowledge", "desc": "深荒地形特征建立新的战术参数——裂缝走廊可用于遮蔽但也限制机动" },
+          { "entity": "elem_wei_se_core", "kind": "signal_strengthening", "desc": "遗核持续升温，Sub-arc B的接近进度明显" }
+        ]
+      },
+      "beat_design": {
+        "pov": "char_zhao",
+        "technique": "direct",
+        "scene_arc": "行进 → 地质分界 → 新地形评估 → 聆音报告信号相位漂移",
+        "key_moment": "昭踏过地质分界线，用战术眼光扫视深荒地形，意识到荒原的规则在这里部分失效——旧的评估参数需要修正",
+        "pov_constraint": "昭不知道地形变化和遗核信标的相关性；他从纯战术角度处理新环境"
+      }
+    },
+    {
+      "id": "evt_shimu_signal_anomaly",
+      "name": "蚕母信号出现相位漂移——疑似第二节点",
+      "description": "聆音在深荒地形中观察蚕母窄频脉冲时，注意到40分钟信号中出现约0.3秒的相位偏移，仿佛信号有两个微弱叠加的来源。若蚕母在东侧偏南另一位置增设了第二感知节点，则三角定位距离估算将成为可能——聆音把这个观察压住，等更多数据再说。",
+      "thread_id": "thr_hive",
+      "story_time": 20,
+      "duration": 1,
+      "location": "elem_deep_wasteland_east",
+      "participants": [
+        "char_ling_yin",
+        "char_shi_mu"
+      ],
+      "chapter_ids": ["ch_026"],
+      "status": "drafted",
+      "dependencies": [
+        { "event": "evt_hive_scout_encounter", "relation": "CAUSES" },
+        { "event": "evt_terrain_shift_deep", "relation": "ENABLES" }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          { "entity": "char_shi_mu", "kind": "tactic_upgrade_suspected", "desc": "疑似部署第二感知节点——距离三角定位能力正在建立中" },
+          { "entity": "char_ling_yin", "kind": "psychology", "desc": "观察到相位漂移，压住不说，等数据——方法论一贯：准备好了再说" }
+        ]
+      },
+      "beat_design": {
+        "pov": "char_ling_yin",
+        "technique": "foreshadowing",
+        "scene_arc": "降频等待 → 信号细微异常 → 内部验证 → 暂时压住",
+        "key_moment": "聆音感知到蚕母窄频脉冲中有约0.3秒的相位偏移——可能意味着信号来自不止一个节点",
+        "pov_constraint": "聆音不知道蚕母是否真的在增设节点，还是深荒地质结构导致的反射效应；她需要更多观测才能判断"
       }
     }
   ],
@@ -2114,7 +2359,10 @@
         "evt_yihe_beacon_revealed",
         "evt_yihe_response_signal",
         "evt_yi_lan_decides_east",
-        "evt_yilan_first_half_confession"
+        "evt_yilan_first_half_confession",
+        "evt_yihe_warming",
+        "evt_yilan_full_confession",
+        "evt_subarc_a_closure"
       ],
       "convergences": [
         {
@@ -2175,7 +2423,11 @@
         "evt_shou_yan_names_suixing",
         "evt_zhao_discovers_arrow_carving",
         "evt_team_rhythm",
-        "evt_zhao_asks_target"
+        "evt_zhao_asks_target",
+        "evt_hive_scout_encounter",
+        "evt_yilan_full_confession",
+        "evt_subarc_a_closure",
+        "evt_terrain_shift_deep"
       ],
       "convergences": [
         {
@@ -2210,7 +2462,10 @@
         "evt_shimu_learning_rhythm",
         "evt_lingyin_active_pulse",
         "evt_lingyin_reports_frequency_exposed",
-        "evt_lingyin_subband_test"
+        "evt_lingyin_subband_test",
+        "evt_lingyin_subband_confirmed",
+        "evt_hive_scout_encounter",
+        "evt_shimu_signal_anomaly"
       ],
       "convergences": [
         {
@@ -2434,6 +2689,14 @@
       "target": "聆音灵渊频率",
       "scope": "faction",
       "note": "蚕母在掌握目标完整灵渊频率签名后，可发送针对性窄频脉冲定位目标——约40分钟间隔，单向方向定位，精度高；距离估算需多节点三角定位，目前蚕母可能只有单一发送节点。ch_016聆音确认。"
+    },
+    {
+      "id": "rule_0026",
+      "source": "深荒地质层",
+      "relation": "AFFECTS",
+      "target": "灵能信号传播",
+      "scope": "geography",
+      "note": "灰珀深荒东区的更古老、更致密矿脉地层会对灵能信号产生轻微的反射叠加效应，可能造成信号相位漂移。蚕母窄频定位脉冲在此区域可能出现约0.3秒相位偏移，难以区分是地质反射还是第二发送节点所致。ch_026聆音首次注意到此现象。"
     },
     {
       "id": "rule_0025",

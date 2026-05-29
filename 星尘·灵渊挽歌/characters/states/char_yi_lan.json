@@ -168,6 +168,64 @@
       "psychology": { "sanity": 63, "mood": "携带三条未说出的信息往东走——遗核回应、箭头标记、方向感；随行与隐瞒之间的张力开始积压", "erosion_load": 40 },
       "abilities_delta": [],
       "derived_inventory": ["elem_wei_se_core", "源质结晶 x1", "灵能制式短刃"]
+    },
+    {
+      "story_time": 16,
+      "chapter_id": "ch_018–ch_019",
+      "location": "elem_huipo_wasteland_east（第二天行进中）",
+      "inventory_delta": [],
+      "status": [
+        { "type": "psychology", "desc": "40分钟窗口节律内化，队伍无需发令自然运转；第一次清楚意识到不触遗核是主动管理——触碰产生渡蚀共振可能向东侧偏南泄露位置，解释这个决定意味着必须解释回应脉冲", "severity": "n/a" },
+        { "type": "psychology", "desc": "守岩说'这件事有节律了'，伊岚听出：随行节律里有一个她的节点是松的，松动的节点早晚会打乱拍子", "severity": "n/a" }
+      ],
+      "knowledge_gained": [],
+      "psychology": { "sanity": 62, "mood": "节律稳定但内部积压——外表跟上了队伍的节律，内心的松动节点在加重；技术风险与隐瞒心理已经叠加为同一件事", "erosion_load": 40 },
+      "abilities_delta": [],
+      "derived_inventory": ["elem_wei_se_core", "源质结晶 x1", "灵能制式短刃"]
+    },
+    {
+      "story_time": 17,
+      "chapter_id": "ch_020–ch_021",
+      "location": "elem_huipo_wasteland_east（第三天）",
+      "inventory_delta": [],
+      "status": [
+        { "type": "psychology", "desc": "ch_020：昭直接问'那个方向有什么'；她说'我不确定'——真话但不完整，她有猜测但不说未经充分确认的事；意识到昭接受了但记住了", "severity": "n/a" },
+        { "type": "psychology", "desc": "ch_021：第二处渗水点，守岩陈述'你知道我们要去哪里'（非质问，是镜子）；被击中后第一次主动说出'我想我知道大概的方向，不是目标，是方向'——半开口完成；那个一直占着位置的重量轻了一点点", "severity": "n/a" }
+      ],
+      "knowledge_gained": [],
+      "psychology": { "sanity": 62, "mood": "半开口之后稍轻——说出了方向但没说脉冲；守岩接住了不追问；随行节律里的松动节点还在，但轮廓变得更清楚了", "erosion_load": 40 },
+      "abilities_delta": [],
+      "derived_inventory": ["elem_wei_se_core", "源质结晶 x1", "灵能制式短刃"]
+    },
+    {
+      "story_time": 18,
+      "chapter_id": "ch_022–ch_023",
+      "location": "elem_huipo_wasteland_east（第四天）",
+      "inventory_delta": [],
+      "status": [
+        { "type": "psychology", "desc": "ch_022：聆音公布a'测试——伊岚在听的同时看见镜子：聆音等的是数据，她等的是什么？那件事已经是事实，她在等的不是确认", "severity": "n/a" },
+        { "type": "psychology", "desc": "ch_023：遭遇虫群探查单元，a'战术首次实战成功；检查遗核比昨天更热（恒定基础温度上升，确认靠近中）；傍晚第一次对自己诚实：她在等的是勇气，不是确认，那种感觉不会自己来", "severity": "n/a" }
+      ],
+      "knowledge_gained": [
+        { "fact": "fact_yihe_baseline_temp_rising", "source": "ch_023：遗核恒定基础温度比昨天更高，确认持续接近中" }
+      ],
+      "psychology": { "sanity": 62, "mood": "内心转折临界——已经对自己说出'在等勇气'；昭说他会再问一次，更直接，那一次来的时候她要告诉他", "erosion_load": 40 },
+      "abilities_delta": [],
+      "derived_inventory": ["elem_wei_se_core", "源质结晶 x1", "灵能制式短刃"]
+    },
+    {
+      "story_time": 19,
+      "chapter_id": "ch_024–ch_025",
+      "location": "elem_huipo_wasteland_east（第五天）",
+      "inventory_delta": [],
+      "status": [
+        { "type": "milestone", "desc": "ch_024：向全队说出完整真相——ch_014的单次回应脉冲、薇瑟的旧频率特征、选择东的完整原因；随行共担完成，那件事不再在一个人口袋里", "severity": "n/a" },
+        { "type": "milestone", "desc": "ch_025：Sub-arc A收束；昭以目标优先级重构战术框架并对伊岚明确说出；聆音记住薇瑟频率；守岩记入活档案；四人各自以各自的方式携带同一件事往东走", "severity": "n/a" }
+      ],
+      "knowledge_gained": [],
+      "psychology": { "sanity": 64, "mood": "完整——那件事说出来了，随行节律里没有松动节点了；不是到达，是完整地继续走；Sub-arc B开始", "erosion_load": 40 },
+      "abilities_delta": [],
+      "derived_inventory": ["elem_wei_se_core", "源质结晶 x1", "灵能制式短刃"]
     }
   ]
 }

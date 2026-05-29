@@ -77,6 +77,35 @@
       ],
       "psychology": { "sanity": 30, "mood": "知道该说什么时就说，不该说时静默；步伐稳，不领路，在自己的位置上", "erosion_load": 85 },
       "abilities_delta": []
+    },
+    {
+      "story_time": 17,
+      "chapter_id": "ch_021",
+      "location": "elem_huipo_wasteland_east（第二处渗水点）",
+      "inventory_delta": [],
+      "status": [
+        { "type": "milestone", "desc": "第二处渗水点，独自坐到伊岚旁边，说'你知道我们要去哪里'——不是质问，是陈述，是把他看见的东西放进能被看见的地方；伊岚半开口后守岩接住，说'知道方向，往那里走'，不追问更多", "severity": "n/a" }
+      ],
+      "knowledge_gained": [
+        { "fact": "fact_yi_lan_knows_direction", "source": "ch_021：伊岚对守岩说'我想我知道大概的方向，不是目标，是方向'——第一次正面说出，守岩接住" }
+      ],
+      "psychology": { "sanity": 30, "mood": "平静，在场——他做的事是把他看见的东西给人看见，不多不少；步伐稳，记忆守卫功能运转", "erosion_load": 85 },
+      "abilities_delta": []
+    },
+    {
+      "story_time": 19,
+      "chapter_id": "ch_024–ch_025",
+      "location": "elem_huipo_wasteland_east（第五天）",
+      "inventory_delta": [],
+      "status": [
+        { "type": "milestone", "desc": "ch_024：伊岚向全队说出完整真相后，守岩最后说话：'你一直拿着这件事。'随后命名：'薇瑟——她把东西留给了你。不管那个方向有什么，她留的东西在你手里。往那里走。'——记忆守卫功能在情感上完成了它的最重要输出", "severity": "n/a" },
+        { "type": "milestone", "desc": "ch_025：在聆音询问薇瑟基础频率特征时，守岩在旁边静听并记入活档案——薇瑟频率特征现已进入活档案，可在未来某个需要时陈述出来", "severity": "n/a" }
+      ],
+      "knowledge_gained": [
+        { "fact": "fact_wei_se_freq_signature", "source": "ch_025：聆音询问、伊岚描述、守岩聆听并记入活档案：薇瑟灵渊基础频率——低沉、稳定、接近灵渊底色、比普通感知频率更厚重久远、像从很深处发出" }
+      ],
+      "psychology": { "sanity": 30, "mood": "平静——他的话说出去了，被接住了；档案更新了；步伐稳，继续走", "erosion_load": 85 },
+      "abilities_delta": []
     }
   ]
 }

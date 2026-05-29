@@ -113,6 +113,59 @@
         "level": "high",
         "notes": "ch_018-019 跨章节：在ch_018是Yi Lan POV下她的测试以背景出现；ch_019进入她自己的POV，进行系统化的7次测试。她和伊岚都在'暂不说出某件事'，但原因和性质不同。"
       }
+    },
+    {
+      "story_time": 18,
+      "chapter_id": "ch_022–ch_023",
+      "facts_known": [
+        "fact_dushi_ability", "fact_sanctuary_retreating", "fact_huipo_vein",
+        "fact_wei_se_hollowed", "fact_shimu_mobile_signal", "fact_shimu_learning_rhythm",
+        "fact_lingyin_frequency_exposed", "fact_yihe_response_signal",
+        "fact_lingyin_probe_interval", "fact_shi_mu_hunts_lingyin",
+        "fact_lingyin_subband_a_prime"
+      ],
+      "facts_unknown": [
+        "fact_dushi_true_cost",
+        "fact_yilan_response_pulse_secret（已解密——ch_022后伊岚公开）",
+        "fact_wasteland_arrow_marking"
+      ],
+      "beliefs_held": [
+        { "belief": "a'技术现在是战术资产，已向队伍公布", "is_true": true, "status": "ch_022 公布完成" },
+        { "belief": "在a'里行进时如需精确定向可临时切回A——这是可接受的代价", "is_true": true, "status": "ch_023实战验证" }
+      ],
+      "projected_facts_to_learn": [],
+      "perception": {
+        "level": "high",
+        "notes": "ch_022（POV）：公布a'数据；ch_023：首次实战使用（临时切回A驱离探查虫）。她在战术中找到了自己能做的事的形状。"
+      }
+    },
+    {
+      "story_time": 19,
+      "chapter_id": "ch_025",
+      "facts_known": [
+        "fact_dushi_ability", "fact_sanctuary_retreating", "fact_huipo_vein",
+        "fact_wei_se_hollowed", "fact_shimu_mobile_signal", "fact_shimu_learning_rhythm",
+        "fact_lingyin_frequency_exposed", "fact_yihe_response_signal",
+        "fact_lingyin_probe_interval", "fact_shi_mu_hunts_lingyin",
+        "fact_lingyin_subband_a_prime",
+        "fact_yihe_response_signal_confirmed",
+        "fact_wei_se_freq_signature"
+      ],
+      "facts_unknown": [
+        "fact_dushi_true_cost",
+        "fact_wasteland_arrow_marking（昭没有专门对她说）"
+      ],
+      "beliefs_held": [
+        { "belief": "薇瑟的频率特征我记住了——低沉、稳定、久远、不是战斗频率、更慢更宽", "is_true": true, "status": "ch_025感知记忆存档" },
+        { "belief": "我在a'的低功率状态下也许能识别东侧偏南方向的薇瑟频率", "is_true": "to_be_tested" }
+      ],
+      "projected_facts_to_learn": [
+        { "fact": "fact_shimu_signal_phase_anomaly", "stage": "to_discover", "trigger": "ch_026 深荒地形中察觉窄频脉冲相位漂移——地质反射还是第二节点？" }
+      ],
+      "perception": {
+        "level": "high",
+        "notes": "ch_025：薇瑟频率特征记入感知记忆，成为Sub-arc B的远程识别依据。Sub-arc B开始，深荒地形对信号传播的影响将是她下一个关键观察任务。"
+      }
     }
   ]
 }
