@@ -148,6 +148,21 @@
         "char_zhao",
         "char_ling_yin"
       ]
+    },
+    {
+      "id": "evt_seventh_beacon_arrival",
+      "name": "抵达第七号信标——薇瑟的余烬",
+      "story_time": 26,
+      "chapter": "ch_035",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin",
+        "char_wei_se",
+        "elem_seventh_beacon"
+      ]
     }
   ]
 }

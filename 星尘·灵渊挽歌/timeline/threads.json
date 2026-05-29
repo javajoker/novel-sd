@@ -18,7 +18,8 @@
         "evt_yilan_first_half_confession",
         "evt_yihe_warming",
         "evt_yilan_full_confession",
-        "evt_shouyan_beacon_memory"
+        "evt_shouyan_beacon_memory",
+        "evt_seventh_beacon_arrival"
       ],
       "convergences_with": [
         "thr_hive@ch_001",
@@ -54,7 +55,9 @@
         "evt_terrain_shift_deep",
         "evt_tactical_crisis_dual_node",
         "evt_wasteland_crack_scatter",
-        "evt_deep_wasteland_combat"
+        "evt_deep_wasteland_combat",
+        "evt_south_node_crack_found",
+        "evt_shimu_convergence_strike"
       ],
       "convergences_with": [
         "thr_hive@ch_011",

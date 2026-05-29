@@ -574,6 +574,36 @@
         "erosion_load": 41
       },
       "abilities_delta": []
+    },
+    {
+      "story_time": 25,
+      "chapter_id": "ch_034–ch_035",
+      "location": "elem_seventh_beacon",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "debuff",
+          "desc": "ch_034：渡蚀分散满载覆盖全队，灵渊热至过载边界+，遗核最强脉动（明显的辅助，推开过载边界一段），erosion_load 41→43；战后灵渊热度台阶式上升，基础温度永久性提高",
+          "severity": "medium"
+        },
+        {
+          "type": "milestone",
+          "desc": "ch_034战中感知到信标方向的频率呼应先于遗核脉动而来——近距离（约10km）的信标信号开始被渡蚀感知直接接收。ch_035抵达第七号信标遗址，渡蚀触碰聚焦器，确认薇瑟灵渊印记——和薇瑟频率完全一致，连续稳定，非脉冲，是有意留下的。Sub-arc B完结。",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_seventh_beacon_wei_se_imprint",
+          "source": "ch_035渡蚀触碰聚焦器：薇瑟将灵渊频率印记存入聚焦器，与遗核同频共振，持续低功率发送——是遗核信标信号来源；薇瑟本人位置未知，这是路上一个点不是终点"
+        }
+      ],
+      "psychology": {
+        "sanity": 62,
+        "mood": "到了——印记在，薇瑟不在，但她留着路；Sub-arc C开始，路还在往下走",
+        "erosion_load": 43
+      },
+      "abilities_delta": []
     }
   ]
 }

@@ -292,6 +292,35 @@
         "erosion_load": 12
       },
       "abilities_delta": []
+    },
+    {
+      "story_time": 24,
+      "chapter_id": "ch_033",
+      "location": "elem_deep_wasteland_east",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "完成双节点散射方案：南侧节点对应裂缝（东北偏东55度矿物壁，散射系数约2.5）确认；双节点索引完整。遗核今天明显更热——约20km。",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_south_node_crack_found",
+          "source": "ch_033自身测试：东北偏东55度走向裂缝，南侧节点散射系数2.5，北侧节点散射微弱"
+        },
+        {
+          "fact": "fact_lingyin_a_prime_vs_triangulation",
+          "source": "ch_033聆音分析：a'对三角定位保护效果随机（约一半概率有效，一半无效）；与裂缝散射叠加为最优方案"
+        }
+      ],
+      "psychology": {
+        "sanity": 65,
+        "mood": "双节点方案完整，战术工具就位；目标约20km；准备收束阶段",
+        "erosion_load": 12
+      },
+      "abilities_delta": []
     }
   ]
 }

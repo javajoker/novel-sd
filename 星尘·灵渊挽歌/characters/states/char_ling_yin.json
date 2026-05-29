@@ -288,6 +288,40 @@
         "erosion_load": 3
       },
       "abilities_delta": []
+    },
+    {
+      "story_time": 25,
+      "chapter_id": "ch_034–ch_035",
+      "location": "elem_seventh_beacon",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "debuff",
+          "desc": "ch_034：全频干扰脉冲+持续感知双向消耗，灵能大量透支，战后需要恢复时间",
+          "severity": "medium"
+        },
+        {
+          "type": "milestone",
+          "desc": "ch_034战后精度最高一次计算：第二节点约10-12km（误差5km）。ch_035确认聚焦器内薇瑟频率印记与感知记忆中的薇瑟特征完全匹配——印记是真实的，不是矿石灵息，不是虫群频率",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_seventh_beacon_wei_se_imprint",
+          "source": "ch_035感知聚焦器：确认内部有结构性印记，频率与薇瑟特征完全一致"
+        },
+        {
+          "fact": "fact_second_node_precision",
+          "source": "ch_034高密度数据：第二节点约10-12km，误差5km"
+        }
+      ],
+      "psychology": {
+        "sanity": 73,
+        "mood": "目标找到了，但目标是印记不是实体；Sub-arc C需要从印记里找下一条路",
+        "erosion_load": 5
+      },
+      "abilities_delta": []
     }
   ]
 }

@@ -553,6 +553,48 @@
           "one_line": "守岩POV：聆音再次说起东偏南40km触发旧记忆——第七号信标，旧灵能接力点，薇瑟知道那里；目标第一次有了一个旧时代的名字。",
           "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_032.json"
+        },
+        {
+          "id": "ch_033",
+          "number": 33,
+          "title": "索引完整",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_zhao",
+          "story_time": 24,
+          "planned_events": [
+            "evt_south_node_crack_found"
+          ],
+          "one_line": "昭POV：系统测试找到南侧节点对应遮蔽裂缝——双节点散射方案完整；遗核今天明显更热，约20km；Sub-arc B战术工具全部就位。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_033.json"
+        },
+        {
+          "id": "ch_034",
+          "number": 34,
+          "title": "收束点",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 25,
+          "planned_events": [
+            "evt_shimu_convergence_strike"
+          ],
+          "one_line": "伊岚POV：蚕母在收束点发动最大规模拦截（双节点三角包围，约十只异种）；双节点散射方案首次完整启用；遗核最强脉动；信标方向的呼应先于脉动而来——约10km。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_034.json"
+        },
+        {
+          "id": "ch_035",
+          "number": 35,
+          "title": "印记",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_shou_yan",
+          "story_time": 26,
+          "planned_events": [
+            "evt_seventh_beacon_arrival"
+          ],
+          "one_line": "守岩POV：踏入第七号信标遗址；伊岚渡蚀触碰接力点核心，遗核共振——聚焦器保存了薇瑟的灵渊印记（旧频率，完全匹配）；印记在，但她在哪里。Sub-arc B完结。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_035.json"
         }
       ],
       "status": "in_progress"

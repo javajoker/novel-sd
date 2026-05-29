@@ -249,6 +249,31 @@
         "erosion_load": 85
       },
       "abilities_delta": []
+    },
+    {
+      "story_time": 26,
+      "chapter_id": "ch_035",
+      "location": "elem_seventh_beacon",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "ch_035（POV）：踏入第七号信标遗址，从地基结构认出这里（接力点地基的圆弧收束特征）；回忆起薇瑟在这里工作的样子（轮廓和专注的姿势）；站在伊岚和聚焦器旁边，见证渡蚀触碰确认印记；陈述：'那不是路的终点'；档案更新：薇瑟留了路，路还在往下走",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_seventh_beacon_wei_se_imprint",
+          "source": "ch_035旁观伊岚触碰聚焦器+聆音确认；守岩自身识别接力点地基结构"
+        }
+      ],
+      "psychology": {
+        "sanity": 30,
+        "mood": "认出了这里，也认出了薇瑟做事的方式；档案完整，继续走",
+        "erosion_load": 85
+      },
+      "abilities_delta": []
     }
   ]
 }

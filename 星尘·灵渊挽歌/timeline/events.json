@@ -415,6 +415,33 @@
         "ch_032"
       ],
       "status": "drafted"
+    },
+    {
+      "id": "evt_south_node_crack_found",
+      "story_time": 24,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_033"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_shimu_convergence_strike",
+      "story_time": 25,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_034"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_seventh_beacon_arrival",
+      "story_time": 26,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_035"
+      ],
+      "status": "drafted"
     }
   ]
 }

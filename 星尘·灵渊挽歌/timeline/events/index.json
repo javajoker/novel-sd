@@ -1,7 +1,7 @@
 {
   "_note": "Index of all timeline events. Authoritative source is ontology.json#events; shards are mirrors.",
-  "last_story_time": 32,
-  "last_chapter": "ch_032",
+  "last_story_time": 35,
+  "last_chapter": "ch_035",
   "by_chapter": {
     "ch_001": [
       "evt_huipo_assault",
@@ -110,6 +110,15 @@
     ],
     "ch_032": [
       "evt_shouyan_beacon_memory"
+    ],
+    "ch_033": [
+      "evt_south_node_crack_found"
+    ],
+    "ch_034": [
+      "evt_shimu_convergence_strike"
+    ],
+    "ch_035": [
+      "evt_seventh_beacon_arrival"
     ]
   },
   "by_story_time": {
@@ -203,7 +212,14 @@
       "evt_lingyin_second_node_location"
     ],
     "24": [
-      "evt_shouyan_beacon_memory"
+      "evt_shouyan_beacon_memory",
+      "evt_south_node_crack_found"
+    ],
+    "25": [
+      "evt_shimu_convergence_strike"
+    ],
+    "26": [
+      "evt_seventh_beacon_arrival"
     ]
   },
   "by_thread": {
@@ -220,7 +236,8 @@
       "evt_yilan_first_half_confession",
       "evt_yihe_warming",
       "evt_yilan_full_confession",
-      "evt_shouyan_beacon_memory"
+      "evt_shouyan_beacon_memory",
+      "evt_seventh_beacon_arrival"
     ],
     "thr_garrison": [
       "evt_huipo_assault",
@@ -244,7 +261,9 @@
       "evt_terrain_shift_deep",
       "evt_tactical_crisis_dual_node",
       "evt_wasteland_crack_scatter",
-      "evt_deep_wasteland_combat"
+      "evt_deep_wasteland_combat",
+      "evt_south_node_crack_found",
+      "evt_shimu_convergence_strike"
     ],
     "thr_hive": [
       "evt_wei_se_appears",

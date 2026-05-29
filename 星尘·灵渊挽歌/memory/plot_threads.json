@@ -3,9 +3,9 @@
     {
       "id": "hook_wei_se_ember",
       "concept": "空壳薇瑟灵渊深处残留的'自我余烬'",
-      "status": "open",
+      "status": "major_resolved",
       "introduced_chapter": "ch_001",
-      "last_mention_chapter": "ch_032",
+      "last_mention_chapter": "ch_035",
       "occurrences": [
         {
           "chapter_id": "ch_001",
@@ -89,6 +89,16 @@
         {
           "chapter_id": "ch_032",
           "note": "PAYOFF：守岩记忆浮现，第七号信标命名——遗核信标=第七号信标=薇瑟曾在那里。四线收束于同一名字。约38公里。"
+        }
+      ],
+      "occurrences_continued_4": [
+        {
+          "chapter_id": "ch_034",
+          "note": "信标方向的频率呼应在渡蚀过载时先于遗核脉动而至——近距离（约10km）下信标信号被渡蚀感知直接激活，确认为独立于遗核的信号来源。"
+        },
+        {
+          "chapter_id": "ch_035",
+          "note": "MAJOR PAYOFF：抵达第七号信标，伊岚渡蚀触碰聚焦器，确认薇瑟灵渊印记——连续稳定，与遗核和聆音的感知记忆特征完全一致，是有意留下的。印记在，薇瑟本人位置未知，这是路上的一个点。Sub-arc B完结。Sub-arc C：从印记里找下一条路。"
         }
       ]
     },
@@ -306,7 +316,7 @@
       "concept": "聆音从被动信息来源升格为主动干预者——全频脉冲能力首次使用",
       "status": "open",
       "introduced_chapter": "ch_014",
-      "last_mention_chapter": "ch_029",
+      "last_mention_chapter": "ch_035",
       "occurrences": [
         {
           "chapter_id": "ch_014",
@@ -354,6 +364,16 @@
         {
           "chapter_id": "ch_029",
           "note": "a'技术与双节点三角定位的兼容性问题：聆音分析a'对三角定位的实际保护效果不确定（最差情况近无效），需测试。同时聆音测试裂缝内壁矿物散射，开辟了另一种反制路径。"
+        }
+      ],
+      "occurrences_continued_4": [
+        {
+          "chapter_id": "ch_034",
+          "note": "全频干扰脉冲在收束点激战中瓦解一侧集结信号（再次使用）；代价：灵能大量消耗。双节点散射方案与a'技术综合使用确认为最优反制组合。"
+        },
+        {
+          "chapter_id": "ch_035",
+          "note": "聆音确认聚焦器内薇瑟频率印记——感知记忆中的薇瑟特征与聚焦器发出的频率完全匹配。Sub-arc C：聆音的感知将在遗址为起点，往外延伸寻找下一条路。"
         }
       ]
     },
@@ -454,6 +474,21 @@
           "note": "第二节点位置计算完成：东偏南约40km，行进方向前方。与遗核方向高度吻合。可能含义：蚕母主动拦截（知道目标方向），或节点本来就在那里（独立原因）。尚无法区分。"
         }
       ]
+    },
+    {
+      "id": "hook_wei_se_next_step",
+      "concept": "薇瑟灵渊印记留下的路——从第七号信标出发的下一段",
+      "status": "open",
+      "introduced_chapter": "ch_035",
+      "last_mention_chapter": "ch_035",
+      "occurrences": [
+        {
+          "chapter_id": "ch_035",
+          "note": "第七号信标聚焦器保存了薇瑟的灵渊印记，但印记不含方向信息，只有频率本身。路的下一段需要：聆音从聚焦器频率延伸感知；昭重新画战术地图；守岩往旧时档案里再找；伊岚从这段印记里学习薇瑟的频率方向。Sub-arc C·信标渐近从这里开始。"
+        }
+      ],
+      "payoff_planned_chapter": "vol_03_C",
+      "risk": "Sub-arc C的核心：从印记里找薇瑟实体或下一个锚点。蚕母已在此区域有存在（第二节点的位置和遗址近乎重合），Sub-arc C的威胁将是蚕母和薇瑟在同一区域的复杂交织。"
     }
   ]
 }

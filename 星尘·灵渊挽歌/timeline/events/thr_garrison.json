@@ -270,6 +270,34 @@
         "char_ling_yin",
         "char_shi_mu"
       ]
+    },
+    {
+      "id": "evt_south_node_crack_found",
+      "name": "南侧节点遮蔽裂缝方向确认——双节点散射方案完整",
+      "story_time": 24,
+      "chapter": "ch_033",
+      "status": "drafted",
+      "participants": [
+        "char_zhao",
+        "char_ling_yin",
+        "char_yi_lan",
+        "char_shou_yan"
+      ]
+    },
+    {
+      "id": "evt_shimu_convergence_strike",
+      "name": "蚕母在收束点发动大规模拦截——最激烈一战",
+      "story_time": 25,
+      "chapter": "ch_034",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin",
+        "char_shi_mu",
+        "elem_seventh_beacon"
+      ]
     }
   ]
 }

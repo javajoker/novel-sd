@@ -4,7 +4,7 @@
     "novel_title": "星尘·灵渊挽歌",
     "novel_author": "javajoker",
     "story_time_unit": "chapter",
-    "current_chapter": 32,
+    "current_chapter": 35,
     "tier": "long_novel",
     "language": "zh-Hans",
     "genre": "星际科幻",
@@ -701,6 +701,18 @@
         "inference": "遗核信标方向与第七号信标位置高度吻合（ch_032三线收束）"
       },
       "confidence": 0.85
+    },
+    {
+      "id": "rel_0024",
+      "subject": "char_wei_se",
+      "predicate": "imprinted_in",
+      "object": "elem_seventh_beacon",
+      "valid_from_chapter": 35,
+      "valid_to_chapter": null,
+      "properties": {
+        "reason": "ch_035发现：薇瑟在灵蚀化前将灵渊频率印记存入第七号信标聚焦器；伊岚渡蚀触碰确认"
+      },
+      "confidence": 1.0
     }
   ],
   "events": [
@@ -2707,6 +2719,165 @@
         "key_moment": "守岩说：'七号信标。那里有一个旧灵能接力点。薇瑟知道那里。'——目标第一次有了一个旧时代的名字",
         "pov_constraint": "守岩记得接力点存在，但不记得它现在的状态（被放弃后的情况）；他只知道薇瑟知道那里"
       }
+    },
+    {
+      "id": "evt_south_node_crack_found",
+      "name": "南侧节点遮蔽裂缝方向确认——双节点散射方案完整",
+      "description": "深荒第五天下午（st=24），昭在行进中系统测试不同走向裂缝的南侧节点散射效果。第三次测试时，在一条走向约东北偏东55度（矿物壁法线指向南偏西）的裂缝内测得南侧节点相位偏移从0.31s增至0.79s，方向分离从16度扩至35度——散射有效。北侧节点在同一位置散射效果减弱（因矿物壁朝向不对应）。裂缝方向索引现在同时覆盖两个节点的遮蔽方向，双节点散射方案完整。昭更新行进策略：在降频等待时根据来袭脉冲方向选择对应裂缝。",
+      "thread_id": "thr_garrison",
+      "story_time": 24,
+      "duration": 1,
+      "location": "elem_deep_wasteland_east",
+      "participants": [
+        "char_zhao",
+        "char_ling_yin",
+        "char_yi_lan",
+        "char_shou_yan"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_wasteland_crack_scatter",
+          "relation": "CAUSES"
+        },
+        {
+          "event": "evt_deep_wasteland_combat",
+          "relation": "ENABLES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_zhao",
+            "kind": "tactical_asset",
+            "desc": "裂缝方向索引完整：北侧节点（北偏东35度矿物壁）和南侧节点（东北偏东55度矿物壁）各有对应遮蔽裂缝方向——双节点散射方案完整"
+          },
+          {
+            "entity": "elem_wei_se_core",
+            "kind": "signal_strengthening",
+            "desc": "遗核今天明显更热——约20km范围内"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_033"
+      ],
+      "beat_design": {
+        "pov": "char_zhao",
+        "technique": "direct",
+        "scene_arc": "系统测试 → 第三次命中 → 数据确认 → 双节点方案完整 → 遗核读数",
+        "key_moment": "昭在第三条裂缝里确认南侧节点散射有效——裂缝方向索引的最后一格填上，双节点方案完整",
+        "pov_constraint": "昭不知道他们离第七号信标已经只有约20km了"
+      }
+    },
+    {
+      "id": "evt_shimu_convergence_strike",
+      "name": "蚕母在收束点发动大规模拦截——最激烈一战",
+      "description": "深荒第六天（st=25）。蚕母意识到队伍正在向她的第二节点所在方向收束，发动迄今为止最大规模的拦截行动：两支集结组（东南方向和正南方向，共约十只异种），同时来袭，利用双节点精确定位进行三角包围。昭启用双节点散射方案（同时在两条遮蔽裂缝之间机动），聆音发出全频干扰脉冲瓦解一侧集结信号，守岩在裂缝走廊发动增益震波，伊岚渡蚀满载覆盖全队。遗核在渡蚀过载时发出最强脉动——比之前任何一次都强，伊岚感到那个方向传来的呼应比遗核的脉动更先到。激战结束，队伍守住，代价：伊岚erosion_load达到43，聆音灵能大量消耗。",
+      "thread_id": "thr_garrison",
+      "story_time": 25,
+      "duration": 1,
+      "location": "elem_deep_wasteland_east",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin",
+        "char_shi_mu",
+        "elem_seventh_beacon"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_south_node_crack_found",
+          "relation": "ENABLES"
+        },
+        {
+          "event": "evt_lingyin_second_node_location",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "debuff",
+            "desc": "渡蚀满载覆盖全队，erosion_load 41→43，灵渊热至阈值边缘"
+          },
+          {
+            "entity": "elem_wei_se_core",
+            "kind": "signal_peak",
+            "desc": "遗核在渡蚀过载时发出最强脉动；伊岚感到信标方向传来的呼应先于遗核——第七号信标的信号在近距离（约10km）变得可以直接感知"
+          },
+          {
+            "entity": "char_ling_yin",
+            "kind": "debuff",
+            "desc": "全频脉冲+持续感知消耗，灵能大量透支，短时需要恢复"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_034"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "包围袭来 → 双节点散射方案启用 → 激战 → 遗核最强脉动 → 呼应先到",
+        "key_moment": "渡蚀过载时伊岚感到从东侧偏南方向传来一个呼应——比遗核的脉动更早到，是信标本身的信号在近距离被渡蚀感知激活",
+        "pov_constraint": "伊岚不知道那个呼应意味着她们离第七号信标已经不到10km"
+      }
+    },
+    {
+      "id": "evt_seventh_beacon_arrival",
+      "name": "抵达第七号信标——薇瑟的余烬",
+      "description": "深荒第七天（st=26），四人踏入第七号信标的遗址区域。接力点的灵能建筑已经倒塌，矿物压碎，只剩下地面上的灵能轨迹和一处中央核心——接力点的灵渊聚焦器，被压碎了大半，但核心仍有极微弱的灵能残留。伊岚把渡蚀感知频率触向那个核心，遗核自动共振增强——那个方向传来的不是脉冲，是一段连续的、极微弱的灵渊频率，和薇瑟的频率特征完全一致。不是空壳的感知，是另一个地方的薇瑟在某个时间留下来的灵渊印记。接力点的灵渊聚焦器把那个印记固定住了，像一封信被放在一个永远开着的匣子里。信还在，但写信的人——她在哪里。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 26,
+      "duration": 1,
+      "location": "elem_seventh_beacon",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin",
+        "char_wei_se",
+        "elem_seventh_beacon"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_shimu_convergence_strike",
+          "relation": "PRECEDES"
+        },
+        {
+          "event": "evt_yihe_response_signal",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "milestone",
+            "desc": "到达第七号信标——遗核共振确认：接力点灵渊聚焦器保存了薇瑟的灵渊印记（旧频率，与薇瑟特征完全一致）。Sub-arc B完结，Sub-arc C开始"
+          },
+          {
+            "entity": "char_ling_yin",
+            "kind": "knowledge_confirmed",
+            "desc": "感知到接力点内的灵渊印记与薇瑟频率特征完全匹配——印记在，但不是薇瑟本人的实体；她的位置仍未知"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_035"
+      ],
+      "beat_design": {
+        "pov": "char_shou_yan",
+        "technique": "reverse",
+        "scene_arc": "踏入遗址 → 废墟的形状 → 核心残留 → 伊岚触碰 → 印记在 → 但她在哪里",
+        "key_moment": "伊岚的渡蚀触到接力点核心，遗核共振增强——那个连续的薇瑟频率印记从聚焦器里传出来；守岩站在旁边，认出了这里",
+        "pov_constraint": "守岩记得这里的样子——它以前不是这样的；他知道这里曾是什么，他不知道这意味着薇瑟在哪里"
+      }
     }
   ],
   "themes": [
@@ -2806,7 +2977,8 @@
         "evt_yilan_first_half_confession",
         "evt_yihe_warming",
         "evt_yilan_full_confession",
-        "evt_shouyan_beacon_memory"
+        "evt_shouyan_beacon_memory",
+        "evt_seventh_beacon_arrival"
       ],
       "convergences": [
         {
@@ -2873,7 +3045,9 @@
         "evt_terrain_shift_deep",
         "evt_tactical_crisis_dual_node",
         "evt_wasteland_crack_scatter",
-        "evt_deep_wasteland_combat"
+        "evt_deep_wasteland_combat",
+        "evt_south_node_crack_found",
+        "evt_shimu_convergence_strike"
       ],
       "convergences": [
         {
@@ -3176,6 +3350,22 @@
       "target": "东偏南约40公里",
       "scope": "lore",
       "note": "灰珀外围第七号灵能通信接力点，位于深荒地质分界线东偏南约40公里处。第一波大虫潮前运作，第二年因地表变化放弃。薇瑟曾多次前往维护和校准，是接力点运作期间的主责人员之一。ch_032守岩记忆浮现并告知队伍。目前该地点状态未知（被放弃约N年后的情况）。"
+    },
+    {
+      "id": "rule_0030",
+      "source": "双节点散射方案",
+      "relation": "SUPPRESSES",
+      "target": "蚕母双节点三角定位精度",
+      "scope": "lore",
+      "note": "在深荒裂缝走廊中，通过选择北侧节点方向和南侧节点方向各自对应的遮蔽裂缝，可使两个节点的方向定位精度同时大幅下降（散射系数约2.5-2.7）。ch_033昭完成索引，双节点散射方案完整；ch_034首次完整使用。综合加上a'技术，位置暴露概率大幅降低，但不能完全消除（a'对三角定位的保护效果是随机的）。"
+    },
+    {
+      "id": "rule_0031",
+      "source": "薇瑟灵渊印记",
+      "relation": "STORED_IN",
+      "target": "第七号信标聚焦器",
+      "scope": "lore",
+      "note": "薇瑟在灵蚀化之前将自身灵渊基础频率作为印记存入第七号信标的灵渊聚焦器，利用聚焦结晶体的时间稳定性使印记得以长期保存并持续低功率发送。这是遗核信标方向信号的来源（遗核与聚焦器在同一频率上共振）。ch_035伊岚渡蚀触碰确认。印记不含方向信息，只有薇瑟的频率本身——薇瑟本人位置未知，印记是路上的一个点，不是终点。"
     }
   ]
 }
