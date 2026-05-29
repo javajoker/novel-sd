@@ -1082,7 +1082,7 @@
           "story_time": 76,
           "planned_events": [],
           "one_line": "进入Θ区——地表矿脉肉眼可见，像血管一样分布，搏动的频率和他身体里的蓝卡形成某种他不理解的共鸣。",
-          "status": "planned"
+          "status": "drafted"
         },
         {
           "id": "ch_077",
@@ -1094,7 +1094,7 @@
           "story_time": 77,
           "planned_events": [],
           "one_line": "源质开始主动向他涌动——不是吸附，是接触；他压制它，但他第一次感知到它是在靠近他，不是他在靠近它。",
-          "status": "planned"
+          "status": "drafted"
         },
         {
           "id": "ch_078",
@@ -1108,7 +1108,7 @@
             "evt_breakout_to_theta"
           ],
           "one_line": "整片矿脉像心跳一样搏动；他知道自己在靠近某个会改变一切的东西。",
-          "status": "planned"
+          "status": "drafted"
         },
         {
           "id": "ch_079",
@@ -1120,7 +1120,7 @@
           "story_time": 79,
           "planned_events": [],
           "one_line": "三方阴影在Θ区原点附近收束；他必须带着仅剩的人穿越；他的感知正在超过他能控制的范围。",
-          "status": "planned"
+          "status": "drafted"
         },
         {
           "id": "ch_080",
@@ -1134,7 +1134,7 @@
             "evt_keyan_breakthrough"
           ],
           "one_line": "他第一次主动伸手抓住源质——剧痛中他承认了那件逃避一生的事。",
-          "status": "planned"
+          "status": "drafted"
         }
       ],
       "unanchored_chapters_note": "卷一共 80 章，达 long_novel 80/卷下限。以上 19 章为timeline锚定章节（含events），其余 61 章为各 sub_arc 内的爽点 / 小冲突 / 角色侧写章节，将在执行阶段沿事件驱动循环（A→B→C→D，每事件）逐次定义并合成 beat sheet，无需在 Phase II 一次性枚举。"

@@ -1154,6 +1154,90 @@
         "plot"
       ],
       "_autogen": true
+    },
+    {
+      "chapter_id": "ch_076",
+      "story_time": 76,
+      "title": "矿脉",
+      "logline": "进入Θ区——地表矿脉肉眼可见，像血管一样分布，搏动的频率和他身体里的蓝卡形成某种他不理解的共鸣。",
+      "synopsis": "siege_day 142：进入Θ区，地表变化；矿脉在搏动；蓝卡的反应；这里是那个地方",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [
+        "psychology",
+        "plot"
+      ],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_077",
+      "story_time": 77,
+      "title": "涌动",
+      "logline": "源质开始主动向他涌动——不是吸附，是接触；他压制它，但他第一次感知到它是在靠近他，不是他在靠近它。",
+      "synopsis": "siege_day 143：源质开始动；他压制了它；它在靠近他，不是他靠近它；格子的裂缝和这个有关",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [
+        "psychology",
+        "plot"
+      ],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_078",
+      "story_time": 78,
+      "title": "Θ区的边缘",
+      "logline": "整片矿脉像心跳一样搏动；他知道自己在靠近某个会改变一切的东西。",
+      "synopsis": "siege_day 144：到了；三方阴影；他知道他在靠近某个会改变一切的东西；继续走",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [
+        "evt_breakout_to_theta"
+      ],
+      "tags": [
+        "psychology",
+        "plot"
+      ],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_079",
+      "story_time": 79,
+      "title": "原点方向",
+      "logline": "三方阴影在Θ区原点附近收束；他必须带着仅剩的人穿越；他的感知正在超过他能控制的范围。",
+      "synopsis": "siege_day 145：三公里，源质的压力；先驱，它们知道他在这里；感知开始失控的边缘；到了原点，什么在那里",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [
+        "psychology",
+        "plot"
+      ],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_080",
+      "story_time": 80,
+      "title": "卷末·我能改变结果",
+      "logline": "他第一次主动伸手抓住源质——剧痛中他承认了那件逃避一生的事。",
+      "synopsis": "siege_day 145：三方同时，绝境；他的感知在溢出；他可以不动；他主动伸手，第一次",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [
+        "evt_keyan_breakthrough"
+      ],
+      "tags": [
+        "psychology",
+        "plot"
+      ],
+      "_autogen": true
     }
   ],
   "scene_chunks": []

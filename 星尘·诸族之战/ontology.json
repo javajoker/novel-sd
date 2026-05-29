@@ -4,7 +4,7 @@
     "novel_title": "星尘：诸族之战",
     "novel_author": "同人作者",
     "story_time_unit": "chapter",
-    "current_chapter": 75,
+    "current_chapter": 80,
     "language": "zh-Hans",
     "genre": "科幻战争",
     "tier": "long_novel",
@@ -1054,7 +1054,7 @@
       ],
       "prerequisites": [],
       "projected_outcome": "残部向Θ区突进；虚影、先驱、灵能族三条线开始向Θ区原点收束。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_078"
       ],
@@ -1088,7 +1088,7 @@
       ],
       "prerequisites": [],
       "projected_outcome": "卷一高潮：柯炎在生死关头突破源质吸附者→融合者，第一次主动操控源质改变战局；'我只是螺丝钉'的谎言彻底破碎。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_080"
       ],

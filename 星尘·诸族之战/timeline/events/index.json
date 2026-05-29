@@ -1,7 +1,7 @@
 {
   "_note": "Index of all timeline events. Authoritative source is ontology.json#events; shards are mirrors.",
-  "last_story_time": 75,
-  "last_chapter": "ch_075",
+  "last_story_time": 80,
+  "last_chapter": "ch_080",
   "by_chapter": {
     "ch_001": [
       "evt_siege_day43"
