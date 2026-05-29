@@ -1,5 +1,5 @@
 {
-  "_note": "Mirror of ontology.json#events — thin stubs (id, story_time, thread, status, chapter_ids). Authoritative source is ontology.json.events[].",
+  "_note": "Flat mirror of ontology.json#events — {id, story_time, thread_id, chapter_ids, status}. Authoritative source is ontology.json#events.",
   "events": [
     {
       "id": "evt_siege_day43",
@@ -116,6 +116,15 @@
       "thread_id": "thr_protagonist",
       "chapter_ids": [
         "ch_035"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_corridor_attempt_fail",
+      "story_time": 49,
+      "thread_id": "thr_protagonist",
+      "chapter_ids": [
+        "ch_049"
       ],
       "status": "drafted"
     },

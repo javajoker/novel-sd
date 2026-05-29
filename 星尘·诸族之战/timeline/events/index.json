@@ -42,6 +42,9 @@
     "ch_035": [
       "evt_liushuang_revealed"
     ],
+    "ch_049": [
+      "evt_corridor_attempt_fail"
+    ],
     "ch_050": [
       "evt_void_echo_contact"
     ],
@@ -101,6 +104,9 @@
     "35": [
       "evt_liushuang_revealed"
     ],
+    "49": [
+      "evt_corridor_attempt_fail"
+    ],
     "50": [
       "evt_void_echo_contact"
     ],
@@ -133,6 +139,7 @@
       "evt_theta_map_fragment",
       "evt_subarc_a_climax",
       "evt_liushuang_revealed",
+      "evt_corridor_attempt_fail",
       "evt_uneasy_alliance",
       "evt_breakout_to_theta",
       "evt_keyan_breakthrough"

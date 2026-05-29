@@ -412,6 +412,21 @@
           "beat_sheet_ref": "outline/beats/ch_024.json"
         },
         {
+          "id": "ch_025",
+          "number": 25,
+          "title": "灵能特使",
+          "sub_arc": "B·裂痕",
+          "thread_id": "thr_war_strategy",
+          "pov_character": "char_psi_elder",
+          "story_time": 25,
+          "planned_events": [
+            "evt_psi_elder_enters"
+          ],
+          "one_line": "她俯视这片人类的废墟战场——却在Θ区方向感到一丝皱眉的源质共鸣。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_025.json"
+        },
+        {
           "id": "ch_026",
           "number": 26,
           "title": "参数",
@@ -544,6 +559,20 @@
           "beat_sheet_ref": "outline/beats/ch_035.json"
         },
         {
+          "id": "ch_035",
+          "number": 35,
+          "title": "医生",
+          "sub_arc": "B·裂痕",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 35,
+          "planned_events": [
+            "evt_liushuang_revealed"
+          ],
+          "one_line": "刘霜不再隐藏全力出手——他终于明白她一直在'压着'自己，和他一样害怕被看见。",
+          "status": "drafted"
+        },
+        {
           "id": "ch_036",
           "number": 36,
           "title": "余震",
@@ -674,35 +703,6 @@
           "beat_sheet_ref": "outline/beats/ch_045.json"
         },
         {
-          "id": "ch_025",
-          "number": 25,
-          "title": "灵能特使",
-          "sub_arc": "B·裂痕",
-          "thread_id": "thr_war_strategy",
-          "pov_character": "char_psi_elder",
-          "story_time": 25,
-          "planned_events": [
-            "evt_psi_elder_enters"
-          ],
-          "one_line": "她俯视这片人类的废墟战场——却在Θ区方向感到一丝皱眉的源质共鸣。",
-          "status": "drafted",
-          "beat_sheet_ref": "outline/beats/ch_025.json"
-        },
-        {
-          "id": "ch_035",
-          "number": 35,
-          "title": "医生",
-          "sub_arc": "B·裂痕",
-          "thread_id": "thr_protagonist",
-          "pov_character": "char_ke_yan",
-          "story_time": 35,
-          "planned_events": [
-            "evt_liushuang_revealed"
-          ],
-          "one_line": "刘霜不再隐藏全力出手——他终于明白她一直在'压着'自己，和他一样害怕被看见。",
-          "status": "drafted"
-        },
-        {
           "id": "ch_046",
           "number": 46,
           "title": "频率",
@@ -829,20 +829,6 @@
           "status": "drafted"
         },
         {
-          "id": "ch_058",
-          "number": 58,
-          "title": "背靠背",
-          "sub_arc": "C·暗影",
-          "thread_id": "thr_protagonist",
-          "pov_character": "char_ke_yan",
-          "story_time": 58,
-          "planned_events": [
-            "evt_uneasy_alliance"
-          ],
-          "one_line": "灵能的幻觉与源质感知第一次咬合；他们都意识到对方不是低等，也不是工具。",
-          "status": "drafted"
-        },
-        {
           "id": "ch_056",
           "number": 56,
           "title": "陷阱",
@@ -864,6 +850,20 @@
           "story_time": 57,
           "planned_events": [],
           "one_line": "第四次通信空白3.2s（精确翻倍），解密：θ-07=父母工作的研究站，遗址在要塞以南三公里；格子重量突然增加。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_058",
+          "number": 58,
+          "title": "背靠背",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 58,
+          "planned_events": [
+            "evt_uneasy_alliance"
+          ],
+          "one_line": "灵能的幻觉与源质感知第一次咬合；他们都意识到对方不是低等，也不是工具。",
           "status": "drafted"
         },
         {
@@ -891,17 +891,209 @@
           "status": "drafted"
         },
         {
+          "id": "ch_061",
+          "number": 61,
+          "title": "计划",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 61,
+          "planned_events": [],
+          "one_line": "突围方案，十八公里路线最终确认，三个关键地形点划定。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_062",
+          "number": 62,
+          "title": "准备",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 62,
+          "planned_events": [],
+          "one_line": "突围前两天，他和刘霜对齐感知协调方案，确认各自在编队里的位置。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_063",
+          "number": 63,
+          "title": "南方",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 63,
+          "planned_events": [],
+          "one_line": "siege_day 136，他用远程预警对准正南方向，感知到θ-07遗址的古遗共鸣频率余音。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_064",
+          "number": 64,
+          "title": "话",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 64,
+          "planned_events": [],
+          "one_line": "他主动找刘霜说了一件私人的事，然后第一次对她说了'我信任你'。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_065",
+          "number": 65,
+          "title": "领路人",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 65,
+          "planned_events": [],
+          "one_line": "周恒把那段Θ区边缘地带的决策权完全交给他——'你在那段路上是领路人，不是工具'。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_066",
+          "number": 66,
+          "title": "启程",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 66,
+          "planned_events": [],
+          "one_line": "siege_day 138黎明，突围开始，他走在最前面，十八公里，第一步。",
+          "status": "planned"
+        },
+        {
+          "id": "ch_067",
+          "number": 67,
+          "title": "重定向",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 67,
+          "planned_events": [],
+          "one_line": "他感知到计划路线前方的频率异常，下令改线——第一次真正行使领路人的决策权，队伍无条件跟着他走。",
+          "status": "planned"
+        },
+        {
+          "id": "ch_068",
+          "number": 68,
+          "title": "两公里",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 68,
+          "planned_events": [],
+          "one_line": "进入Θ区边缘地带那两公里——先驱密度是正常区域三倍以上，弹药已经有限，他开始在缝隙里寻路。",
+          "status": "planned"
+        },
+        {
+          "id": "ch_069",
+          "number": 69,
+          "title": "通过",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 69,
+          "planned_events": [],
+          "one_line": "两公里最危险的一段，他动用了一张蓝卡，把二十三个人完整地带了过去。",
+          "status": "planned"
+        },
+        {
           "id": "ch_070",
           "number": 70,
           "title": "要塞之夜",
           "sub_arc": "D·突围",
-          "thread_id": "thr_war_strategy",
+          "thread_id": "thr_protagonist",
           "pov_character": "char_ke_yan",
           "story_time": 70,
           "planned_events": [
             "evt_fortress_crisis"
           ],
           "one_line": "周恒最后一次下令——这一次眼里不是认命，是把活路让出去的决意。",
+          "status": "planned"
+        },
+        {
+          "id": "ch_071",
+          "number": 71,
+          "title": "继续走",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 71,
+          "planned_events": [],
+          "one_line": "通讯断了，要塞沉默，他继续导航——不能停，不能回头，悲伤是他现在负担不起的频率。",
+          "status": "planned"
+        },
+        {
+          "id": "ch_072",
+          "number": 72,
+          "title": "先驱的变化",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 72,
+          "planned_events": [],
+          "one_line": "越靠近Θ区先驱的行为越反常：它们不攻击，它们看——它们也在朝同一个方向走。",
+          "status": "planned"
+        },
+        {
+          "id": "ch_073",
+          "number": 73,
+          "title": "θ-07",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 73,
+          "planned_events": [],
+          "one_line": "刘霜感知到她的频率里有一个他读不懂的层次在做出反应；他感知到θ-07遗址的余音已经足够近了。",
+          "status": "planned"
+        },
+        {
+          "id": "ch_074",
+          "number": 74,
+          "title": "代价",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 74,
+          "planned_events": [],
+          "one_line": "第一次真实的减员——他的一个判断，让一个人活了，另一个人没有；他是领路人，责任是他的。",
+          "status": "planned"
+        },
+        {
+          "id": "ch_075",
+          "number": 75,
+          "title": "三个方向",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 75,
+          "planned_events": [],
+          "one_line": "他感知到三种不同来源的源质频率正在向同一个点收束——他不知道那意味着什么，但他知道他也在往那里走。",
+          "status": "planned"
+        },
+        {
+          "id": "ch_076",
+          "number": 76,
+          "title": "矿脉",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 76,
+          "planned_events": [],
+          "one_line": "进入Θ区——地表矿脉肉眼可见，像血管一样分布，搏动的频率和他身体里的蓝卡形成某种他不理解的共鸣。",
+          "status": "planned"
+        },
+        {
+          "id": "ch_077",
+          "number": 77,
+          "title": "涌动",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 77,
+          "planned_events": [],
+          "one_line": "源质开始主动向他涌动——不是吸附，是接触；他压制它，但他第一次感知到它是在靠近他，不是他在靠近它。",
           "status": "planned"
         },
         {
@@ -916,6 +1108,18 @@
             "evt_breakout_to_theta"
           ],
           "one_line": "整片矿脉像心跳一样搏动；他知道自己在靠近某个会改变一切的东西。",
+          "status": "planned"
+        },
+        {
+          "id": "ch_079",
+          "number": 79,
+          "title": "原点方向",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 79,
+          "planned_events": [],
+          "one_line": "三方阴影在Θ区原点附近收束；他必须带着仅剩的人穿越；他的感知正在超过他能控制的范围。",
           "status": "planned"
         },
         {

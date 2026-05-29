@@ -1100,6 +1100,26 @@
         "pov_constraint": "突破带来源质排斥/暴走的风险，柯炎还不知如何稳定新生的源质核心。"
       },
       "name": "柯炎突破"
+    },
+    {
+      "id": "evt_corridor_attempt_fail",
+      "name": "通道",
+      "story_time": 49,
+      "duration": 1,
+      "location": null,
+      "participants": [
+        "char_ke_yan"
+      ],
+      "thread_id": "thr_protagonist",
+      "dependencies": [],
+      "prerequisites": [],
+      "projected_outcome": "他用了全部四张蓝卡；西北通道打通失败；先驱战略协调级别确认。",
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_049"
+      ],
+      "beat_design": {},
+      "_stub": true
     }
   ],
   "themes": [
@@ -1183,6 +1203,7 @@
         "evt_theta_map_fragment",
         "evt_subarc_a_climax",
         "evt_liushuang_revealed",
+        "evt_corridor_attempt_fail",
         "evt_uneasy_alliance",
         "evt_breakout_to_theta",
         "evt_keyan_breakthrough"
