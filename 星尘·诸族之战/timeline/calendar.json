@@ -1,14 +1,73 @@
 {
   "story_time_unit": "chapter",
-  "current_story_time": 6,
-  "current_chapter": 6,
+  "current_story_time": 65,
+  "current_chapter": 65,
   "chapter_to_story_time": {
     "ch_001": 1,
     "ch_002": 2,
     "ch_003": 3,
     "ch_004": 4,
     "ch_005": 5,
-    "ch_006": 6
+    "ch_006": 6,
+    "ch_007": 7,
+    "ch_008": 8,
+    "ch_009": 9,
+    "ch_010": 10,
+    "ch_011": 11,
+    "ch_012": 12,
+    "ch_013": 13,
+    "ch_014": 14,
+    "ch_015": 15,
+    "ch_016": 16,
+    "ch_017": 17,
+    "ch_018": 18,
+    "ch_019": 19,
+    "ch_020": 20,
+    "ch_021": 21,
+    "ch_022": 22,
+    "ch_023": 23,
+    "ch_024": 24,
+    "ch_025": 25,
+    "ch_026": 26,
+    "ch_027": 27,
+    "ch_028": 28,
+    "ch_029": 29,
+    "ch_030": 30,
+    "ch_031": 31,
+    "ch_032": 32,
+    "ch_033": 33,
+    "ch_034": 34,
+    "ch_035": 35,
+    "ch_036": 36,
+    "ch_037": 37,
+    "ch_038": 38,
+    "ch_039": 39,
+    "ch_040": 40,
+    "ch_041": 41,
+    "ch_042": 42,
+    "ch_043": 43,
+    "ch_044": 44,
+    "ch_045": 45,
+    "ch_046": 46,
+    "ch_047": 47,
+    "ch_048": 48,
+    "ch_049": 49,
+    "ch_050": 50,
+    "ch_051": 51,
+    "ch_052": 52,
+    "ch_053": 53,
+    "ch_054": 54,
+    "ch_055": 55,
+    "ch_056": 56,
+    "ch_057": 57,
+    "ch_058": 58,
+    "ch_059": 59,
+    "ch_060": 60,
+    "ch_061": 61,
+    "ch_062": 62,
+    "ch_063": 63,
+    "ch_064": 64,
+    "ch_065": 65
   },
   "world_calendar": {
     "era": "源质纪元 (Origin Era)",
@@ -79,22 +138,22 @@
     },
     "ch_035": {
       "story_time": 35,
-      "siege_day": 70,
+      "siege_day": 85,
       "note": "断裂要塞，刘霜揭身"
     },
     "ch_050": {
       "story_time": 50,
-      "siege_day": 85,
+      "siege_day": 114,
       "note": "断裂要塞外围，虚影首次直接接触"
     },
     "ch_055": {
       "story_time": 55,
-      "siege_day": 90,
+      "siege_day": 123,
       "note": "Θ区，先驱诱敌"
     },
     "ch_058": {
       "story_time": 58,
-      "siege_day": 93,
+      "siege_day": 129,
       "note": "断裂要塞，与艾薇儿背靠背"
     },
     "ch_070": {
@@ -111,6 +170,216 @@
       "story_time": 80,
       "siege_day": 115,
       "note": "Θ区内层，卷末突破"
+    },
+    "ch_016": {
+      "story_time": 16,
+      "siege_day": 55,
+      "note": "提交"
+    },
+    "ch_017": {
+      "story_time": 17,
+      "siege_day": 54,
+      "note": "部署"
+    },
+    "ch_021": {
+      "story_time": 21,
+      "siege_day": 56,
+      "note": "重整"
+    },
+    "ch_022": {
+      "story_time": 22,
+      "siege_day": 58,
+      "note": "夜哨"
+    },
+    "ch_023": {
+      "story_time": 23,
+      "siege_day": 61,
+      "note": "配合"
+    },
+    "ch_024": {
+      "story_time": 24,
+      "siege_day": 63,
+      "note": "问询"
+    },
+    "ch_026": {
+      "story_time": 26,
+      "siege_day": 65,
+      "note": "参数"
+    },
+    "ch_027": {
+      "story_time": 27,
+      "siege_day": 67,
+      "note": "档案"
+    },
+    "ch_028": {
+      "story_time": 28,
+      "siege_day": 69,
+      "note": "判断"
+    },
+    "ch_029": {
+      "story_time": 29,
+      "siege_day": 72,
+      "note": "位移"
+    },
+    "ch_030": {
+      "story_time": 30,
+      "siege_day": 74,
+      "note": "战局"
+    },
+    "ch_031": {
+      "story_time": 31,
+      "siege_day": 77,
+      "note": "遗址"
+    },
+    "ch_032": {
+      "story_time": 32,
+      "siege_day": 79,
+      "note": "预警"
+    },
+    "ch_033": {
+      "story_time": 33,
+      "siege_day": 81,
+      "note": "问"
+    },
+    "ch_034": {
+      "story_time": 34,
+      "siege_day": 83,
+      "note": "待"
+    },
+    "ch_036": {
+      "story_time": 36,
+      "siege_day": 87,
+      "note": "余震"
+    },
+    "ch_037": {
+      "story_time": 37,
+      "siege_day": 89,
+      "note": "提案"
+    },
+    "ch_038": {
+      "story_time": 38,
+      "siege_day": 91,
+      "note": "默认"
+    },
+    "ch_039": {
+      "story_time": 39,
+      "siege_day": 93,
+      "note": "信号"
+    },
+    "ch_040": {
+      "story_time": 40,
+      "siege_day": 95,
+      "note": "底线"
+    },
+    "ch_041": {
+      "story_time": 41,
+      "siege_day": 97,
+      "note": "指令"
+    },
+    "ch_042": {
+      "story_time": 42,
+      "siege_day": 99,
+      "note": "矛盾"
+    },
+    "ch_043": {
+      "story_time": 43,
+      "siege_day": 101,
+      "note": "先驱变了"
+    },
+    "ch_044": {
+      "story_time": 44,
+      "siege_day": 103,
+      "note": "清单"
+    },
+    "ch_045": {
+      "story_time": 45,
+      "siege_day": 105,
+      "note": "第三次"
+    },
+    "ch_046": {
+      "story_time": 46,
+      "siege_day": 107,
+      "note": "频率"
+    },
+    "ch_047": {
+      "story_time": 47,
+      "siege_day": 109,
+      "note": "第二次空白"
+    },
+    "ch_048": {
+      "story_time": 48,
+      "siege_day": 111,
+      "note": "低于五天"
+    },
+    "ch_049": {
+      "story_time": 49,
+      "siege_day": 113,
+      "note": "通道"
+    },
+    "ch_051": {
+      "story_time": 51,
+      "siege_day": 115,
+      "note": "后续"
+    },
+    "ch_052": {
+      "story_time": 52,
+      "siege_day": 117,
+      "note": "等待"
+    },
+    "ch_053": {
+      "story_time": 53,
+      "siege_day": 119,
+      "note": "档案"
+    },
+    "ch_054": {
+      "story_time": 54,
+      "siege_day": 121,
+      "note": "方向"
+    },
+    "ch_056": {
+      "story_time": 56,
+      "siege_day": 125,
+      "note": "陷阱"
+    },
+    "ch_057": {
+      "story_time": 57,
+      "siege_day": 127,
+      "note": "第四次空白"
+    },
+    "ch_059": {
+      "story_time": 59,
+      "siege_day": 130,
+      "note": "重量"
+    },
+    "ch_060": {
+      "story_time": 60,
+      "siege_day": 131,
+      "note": "最后阶段"
+    },
+    "ch_061": {
+      "story_time": 61,
+      "siege_day": 133,
+      "note": "计划"
+    },
+    "ch_062": {
+      "story_time": 62,
+      "siege_day": 135,
+      "note": "准备"
+    },
+    "ch_063": {
+      "story_time": 63,
+      "siege_day": 136,
+      "note": "南方"
+    },
+    "ch_064": {
+      "story_time": 64,
+      "siege_day": 136,
+      "note": "话"
+    },
+    "ch_065": {
+      "story_time": 65,
+      "siege_day": 137,
+      "note": "领路人"
     }
   },
   "travel_rules": [

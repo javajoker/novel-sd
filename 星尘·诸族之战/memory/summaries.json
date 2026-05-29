@@ -8,9 +8,21 @@
       "title": "第四十三日",
       "logline": "围困第43天黎明，北墙一次试探性攻击——柯炎在警报之前已经侧身，把救下新兵这件事归功于运气；周恒在观察孔后第三次标记了他的名字。",
       "synopsis": "围困第43天黎明，北墙气压不对。柯炎站岗，观察东北林带的异常静默；老兵们的应激反射与稀缺物资共同制造一种压抑的日常。试探性攻击突然来临——柯炎在警报响之前半秒已经侧移并将新兵按入掩体，依靠源质感知（他不自知）避开狙击。短暂交火：15秒，2个异种被清除，3个撤退。班长夸了一句'反应不错'，柯炎把头微微偏开——the_lie第一次显形，内部解释为运气。周恒少校站在指挥廊观察孔后，看完了这一幕；这是他第三次标记柯炎的名字，写入了明天突围任务名单。章末：太阳升起，柯炎把视线还给地平线，异种试探队留下的鸟群重现，威胁转移至未知方向。",
-      "active_entities": ["char_ke_yan", "char_major_zhou", "elem_stardust_fortress"],
-      "events_covered": ["evt_siege_day43"],
-      "tags": ["围城日常", "源质感知初显", "螺丝钉信念", "周恒标记", "试探性攻击"]
+      "active_entities": [
+        "char_ke_yan",
+        "char_major_zhou",
+        "elem_stardust_fortress"
+      ],
+      "events_covered": [
+        "evt_siege_day43"
+      ],
+      "tags": [
+        "围城日常",
+        "源质感知初显",
+        "螺丝钉信念",
+        "周恒标记",
+        "试探性攻击"
+      ]
     },
     {
       "chapter_id": "ch_002",
@@ -18,9 +30,23 @@
       "title": "突围简报",
       "logline": "50%死亡率，周恒看了刘霜一眼；'回来'两个字触发了柯炎十二岁的记忆——那个眼神的结构他认识。",
       "synopsis": "围困第44天，突围前夜简报。周恒交代三日任务：Θ区第七矿脉结晶+机械族遗留图纸，两组行动，50%估计死亡率。点名时停顿一秒看刘霜——柯炎注意到，读不出语法，记下不问。简报后周恒对每人单独说一句话；对柯炎只说了'回来'。这两个字的眼神触发柯炎童年记忆——父亲进矿前那一眼的结构，认命与无奈并存。柯炎产生对周恒的不情愿的同情，主动压制。装备区：柯炎按习惯收拾武器和三张白卡；目击刘霜将非标准针剂藏入包底，两人相互点头，无言出门。",
-      "active_entities": ["char_ke_yan", "char_major_zhou", "char_liu_shuang", "elem_stardust_fortress"],
-      "events_covered": ["evt_breakout_briefing"],
-      "tags": ["突围简报", "死亡率50%", "'回来'", "父亲记忆", "刘霜藏针剂", "周恒看刘霜那一眼"]
+      "active_entities": [
+        "char_ke_yan",
+        "char_major_zhou",
+        "char_liu_shuang",
+        "elem_stardust_fortress"
+      ],
+      "events_covered": [
+        "evt_breakout_briefing"
+      ],
+      "tags": [
+        "突围简报",
+        "死亡率50%",
+        "'回来'",
+        "父亲记忆",
+        "刘霜藏针剂",
+        "周恒看刘霜那一眼"
+      ]
     },
     {
       "chapter_id": "ch_003",
@@ -28,9 +54,23 @@
       "title": "第一张蓝卡",
       "logline": "Θ区矿带，精英异种伏击——柯炎第一次主动'看见'源质流动并用它杀人；战后合成蓝卡·预知闪避，胸口烫了一秒，立刻把它归还给运气。",
       "synopsis": "围困第45天，突击队进入Θ区外围矿带。源质浓度高，柯炎的感知被动全激活（他注意到了但不深想）。三只精英长甲虎型异种从裂隙伏击：一名队友当场阵亡，另一名受伤。柯炎第一次主动'看见'源质结晶跳动——用白卡·闪避感知×2叠加，在闪避途中开枪，连杀两只。第三只犹豫时（异种行为异常）被刘霜以源质能量击退（部分暴露蓝卡能力）。战后，柯炎从残骸拾取白卡·稳定射击×3，手持4张，合成3张→蓝卡·预知闪避（被攻击前0.5秒进入半透相位）。合成时胸口烫了一秒，'我做的'念头一闪——立刻压回'运气好'框架。刘霜通过源质感应记录了这一数据，但看着柯炎把口袋扣好时停下来，不确定她在做什么。",
-      "active_entities": ["char_ke_yan", "char_liu_shuang", "elem_origin_theta", "elem_blue_card_precognitive_dodge"],
-      "events_covered": ["evt_first_synthesis"],
-      "tags": ["第一张蓝卡", "精英伏击", "源质感知主动使用", "'我做的'被压制", "刘霜部分暴露", "异种犹豫（先驱伏笔）"]
+      "active_entities": [
+        "char_ke_yan",
+        "char_liu_shuang",
+        "elem_origin_theta",
+        "elem_blue_card_precognitive_dodge"
+      ],
+      "events_covered": [
+        "evt_first_synthesis"
+      ],
+      "tags": [
+        "第一张蓝卡",
+        "精英伏击",
+        "源质感知主动使用",
+        "'我做的'被压制",
+        "刘霜部分暴露",
+        "异种犹豫（先驱伏笔）"
+      ]
     },
     {
       "chapter_id": "ch_004",
@@ -38,9 +78,22 @@
       "title": "中继站",
       "logline": "废弃中继站，蓝卡·预知闪避第一次被主动取出使用；刘霜问'你怎么做到的'，柯炎说'运气'——说出来的那一刻感到一点厌倦。",
       "synopsis": "围困第46天，任务第二天。六个人（少了老陈）向中继站推进。刘霜换药，柯炎观察（不问她多停的那两秒）。中继站有5台旧联邦自动无人机；柯炎主动取出蓝卡·预知闪避攥在手心，感受到热，在扫描触发前半秒穿过。任务成功，图纸芯片取得。刘霜在撤退时问'你之前怎么做到的'，柯炎说'运气'，拿起装备不再看她。夜营：柯炎站岗展开感知，看见刘霜在检查右手腕内侧，两人对视，无言。柯炎把视线还给矿带，注意到说'运气'时胸口有一秒的厌倦——没有追。",
-      "active_entities": ["char_ke_yan", "char_liu_shuang", "elem_origin_theta", "elem_blue_card_precognitive_dodge"],
-      "events_covered": ["evt_relay_station"],
-      "tags": ["蓝卡首次主动使用", "'运气'的厌倦", "刘霜检查手腕", "中继站图纸", "战后低气压"]
+      "active_entities": [
+        "char_ke_yan",
+        "char_liu_shuang",
+        "elem_origin_theta",
+        "elem_blue_card_precognitive_dodge"
+      ],
+      "events_covered": [
+        "evt_relay_station"
+      ],
+      "tags": [
+        "蓝卡首次主动使用",
+        "'运气'的厌倦",
+        "刘霜检查手腕",
+        "中继站图纸",
+        "战后低气压"
+      ]
     },
     {
       "chapter_id": "ch_005",
@@ -48,9 +101,23 @@
       "title": "医疗兵的手",
       "logline": "撤退途中，伤员腹部贯穿——刘霜脱右手手套按住伤口，柯炎的感知捕捉到掌心的源质波动，然后他把视线移开了。",
       "synopsis": "围困第47天撤退。源质浓度降低，柯炎感知缩回六米（不适应低范围）。第二小时遭普通异种伏击（11只，3方向）；柯炎用蓝卡闪避+感知协同打掉4只，并下意识提前打掉威胁刘霜的那只。受伤队友在混战中再中弹（腹部贯穿）。刘霜脱右手手套，掌心按住伤口——柯炎感知到约1秒的异常源质波动（向内），随即精度不足，波动消失。他眨眼，没有追问。20分钟后伤员稳定（超出急救包范围）。刘霜站起重新戴手套，'走'。柯炎看着，把周恒那一眼+针剂+手腕三件事在心里串成一条线，存起来不拽。带着图纸芯片天黑前返回要塞。",
-      "active_entities": ["char_ke_yan", "char_liu_shuang", "elem_origin_theta", "elem_stardust_fortress"],
-      "events_covered": ["evt_liushuang_anomaly"],
-      "tags": ["刘霜的手", "源质融合疗愈", "柯炎看见了但没问", "'不问列表'成型", "撤退伏击", "任务完成"]
+      "active_entities": [
+        "char_ke_yan",
+        "char_liu_shuang",
+        "elem_origin_theta",
+        "elem_stardust_fortress"
+      ],
+      "events_covered": [
+        "evt_liushuang_anomaly"
+      ],
+      "tags": [
+        "刘霜的手",
+        "源质融合疗愈",
+        "柯炎看见了但没问",
+        "'不问列表'成型",
+        "撤退伏击",
+        "任务完成"
+      ]
     },
     {
       "chapter_id": "ch_006",
@@ -58,9 +125,873 @@
       "title": "虚影的眼",
       "logline": "同一天，Ω站——虚影在矿带战场录像里看见了那种移动方式，微微偏了头，建了一个文件夹，写上'柯炎'。",
       "synopsis": "siege_day 47，与ch_005并行。虚影在Ω站处理情报（联邦矿带增兵分析）；例行筛查时看到精英异种伏击录像，注意到柯炎的移动方式：在威胁实体化之前就已离位，没有思考间隙——源质感知，且精度超出感知者正常上限。虚影微微偏头（唯一的人性外显）。重新调出该人物所有录像片段，确认特征一致。查兵籍档案：柯炎，26岁，赤焰星域，父亲矿难死亡，母亲黑色星期四阵亡——在那两行字上停了不到一秒，合上档案。建立文件夹，标签：柯炎。内心独白：不打算接触（不到时候），只是想看一个'年轻版的自己'会不会走上不同的路。",
-      "active_entities": ["char_void_echo", "char_ke_yan", "elem_omega_station"],
-      "events_covered": ["evt_void_echo_observes"],
-      "tags": ["虚影POV首次", "柯炎被标记", "微微偏头", "Ω站", "沈毅幽灵", "感知特征识别"]
+      "active_entities": [
+        "char_void_echo",
+        "char_ke_yan",
+        "elem_omega_station"
+      ],
+      "events_covered": [
+        "evt_void_echo_observes"
+      ],
+      "tags": [
+        "虚影POV首次",
+        "柯炎被标记",
+        "微微偏头",
+        "Ω站",
+        "沈毅幽灵",
+        "感知特征识别"
+      ]
+    },
+    {
+      "chapter_id": "ch_007",
+      "story_time": 7,
+      "title": "归营",
+      "logline": "归营第一天；他清点卡牌，填写报告，看着食堂里的一千多人，关灯入睡——明天是Θ区矿道，地层震动风险。",
+      "synopsis": "归营第一天；他清点卡牌，填写报告，看着食堂里的一千多人，关灯入睡——明天是Θ区矿道，地层震动风险。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_008",
+      "story_time": 8,
+      "title": "感知边界",
+      "logline": "缺氧失血的边缘，他第一次'看见'源质的流动本身；他下意识吸入一缕，胸口一烫。",
+      "synopsis": "缺氧失血的边缘，他第一次'看见'源质的流动本身；他下意识吸入一缕，胸口一烫。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [
+        "evt_perception_edge"
+      ],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_009",
+      "story_time": 9,
+      "title": "前沿",
+      "logline": "脱险次日轻差；接调令前往断裂要塞；深夜夜哨感知到远处积累的大规模虫潮——明天来。",
+      "synopsis": "脱险次日轻差；接调令前往断裂要塞；深夜夜哨感知到远处积累的大规模虫潮——明天来。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_010",
+      "story_time": 10,
+      "title": "先驱",
+      "logline": "虫潮中那只异种没有扑向最近的猎物，而是看了他一眼——那一眼里有计算。",
+      "synopsis": "虫潮中那只异种没有扑向最近的猎物，而是看了他一眼——那一眼里有计算。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [
+        "evt_herald_first_sighting"
+      ],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_011",
+      "story_time": 11,
+      "title": "撤回",
+      "logline": "五个名字记进格子；报告语言装不下那一秒的先驱；归程途中格子的重量比以前费力地压回去；失眠，往指挥廊走。",
+      "synopsis": "五个名字记进格子；报告语言装不下那一秒的先驱；归程途中格子的重量比以前费力地压回去；失眠，往指挥廊走。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_012",
+      "story_time": 12,
+      "title": "周恒的真话",
+      "logline": "周恒说：我们守的不是要塞，是上面用来拖时间的数字。",
+      "synopsis": "周恒说：我们守的不是要塞，是上面用来拖时间的数字。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [
+        "evt_zhou_despair"
+      ],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_013",
+      "story_time": 13,
+      "title": "第二张蓝卡",
+      "logline": "白卡·闪避感知×3合成蓝卡·全向感知；'我这次知道我在做什么'比以前更难压进格子。",
+      "synopsis": "白卡·闪避感知×3合成蓝卡·全向感知；'我这次知道我在做什么'比以前更难压进格子。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_014",
+      "story_time": 14,
+      "title": "遗迹方向",
+      "logline": "三人Θ区侦察，测试蓝卡·全向感知，抵达遗迹外围，感知到内部结构性源质结晶排布。",
+      "synopsis": "三人Θ区侦察，测试蓝卡·全向感知，抵达遗迹外围，感知到内部结构性源质结晶排布。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_015",
+      "story_time": 15,
+      "title": "残图",
+      "logline": "残图上的符号让他的源质感知本能地共鸣了一下，像被叫了名字。",
+      "synopsis": "残图上的符号让他的源质感知本能地共鸣了一下，像被叫了名字。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [
+        "evt_theta_map_fragment"
+      ],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_016",
+      "story_time": 16,
+      "title": "提交",
+      "logline": "将遗迹板材提交情报站，注意到异常快速的标记级别；联合突袭任务公告出现。",
+      "synopsis": "siege_day 55：将遗迹板材提交情报站，注意到异常快速的标记级别；联合突袭任务公告出现。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_017",
+      "story_time": 17,
+      "title": "部署",
+      "logline": "任务简报，小队名单确认，前出侦察右侧破碎地形，感知到一个弱信号但无法确认。",
+      "synopsis": "siege_day 54：任务简报，小队名单确认，前出侦察右侧破碎地形，感知到一个弱信号但无法确认。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_018",
+      "story_time": 18,
+      "title": "出发前",
+      "logline": "凌晨夜行，走廊偶遇刘霜，她说'多注意右侧'；右侧弱信号和她的告知并排放入操作性记忆。",
+      "synopsis": "凌晨夜行，走廊偶遇刘霜，她说'多注意右侧'；右侧弱信号和她的告知并排放入操作性记忆。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_019",
+      "story_time": 19,
+      "title": "选择",
+      "logline": "两条撤退路线之间，他选了对的那条；活下来的人因他而活。",
+      "synopsis": "两条撤退路线之间，他选了对的那条；活下来的人因他而活。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [
+        "evt_subarc_a_climax"
+      ],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_020",
+      "story_time": 20,
+      "title": "幸存的代价",
+      "logline": "他第一次说不出'这与我无关'这五个字。",
+      "synopsis": "他第一次说不出'这与我无关'这五个字。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [
+        "evt_subarc_a_climax"
+      ],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_021",
+      "story_time": 21,
+      "title": "重整",
+      "logline": "siege_day 56，战损评估；格子扣不上，重量开始透出来。",
+      "synopsis": "siege_day 56：siege_day 56，战损评估；格子扣不上，重量开始透出来。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_022",
+      "story_time": 22,
+      "title": "夜哨",
+      "logline": "siege_day 58，感知边界九到十米；感知从工具变成了默认运行的系统。",
+      "synopsis": "siege_day 58：siege_day 58，感知边界九到十米；感知从工具变成了默认运行的系统。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_023",
+      "story_time": 23,
+      "title": "配合",
+      "logline": "siege_day 61，柯炎注意到他与刘霜的感知配合结构；她用了源质工程学词汇。",
+      "synopsis": "siege_day 61：siege_day 61，柯炎注意到他与刘霜的感知配合结构；她用了源质工程学词汇。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_024",
+      "story_time": 24,
+      "title": "问询",
+      "logline": "siege_day 63，战术复盘问询；第三张蓝卡合成：蓝卡·瞬位。",
+      "synopsis": "siege_day 63：siege_day 63，战术复盘问询；第三张蓝卡合成：蓝卡·瞬位。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_025",
+      "story_time": 25,
+      "title": "降临",
+      "logline": "她俯视这片人类的废墟战场——却在Θ区方向感到一丝皱眉的源质共鸣。",
+      "synopsis": "她俯视这片人类的废墟战场——却在Θ区方向感到一丝皱眉的源质共鸣。",
+      "active_entities": [
+        "char_psi_elder"
+      ],
+      "events_covered": [
+        "evt_psi_elder_enters"
+      ],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_026",
+      "story_time": 26,
+      "title": "参数",
+      "logline": "siege_day 65，宿舍测试瞬位参数；巡逻里感知切换速度加快；战斗里识别瞬位安全窗口；白卡·闪避感知×3合成暂缓。",
+      "synopsis": "siege_day 65：siege_day 65，宿舍测试瞬位参数；巡逻里感知切换速度加快；战斗里识别瞬位安全窗口；白卡·闪避感知×3合成暂缓。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_027",
+      "story_time": 27,
+      "title": "档案",
+      "logline": "siege_day 67，战术组正式能力评估：第97百分位；三张蓝卡超要塞平均；战术档案建立。",
+      "synopsis": "siege_day 67：siege_day 67，战术组正式能力评估：第97百分位；三张蓝卡超要塞平均；战术档案建立。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_028",
+      "story_time": 28,
+      "title": "判断",
+      "logline": "siege_day 69，刘霜anomaly #6：她的反应时序早于柯炎感知确认1.5秒，感知来源不明。",
+      "synopsis": "siege_day 69：siege_day 69，刘霜anomaly #6：她的反应时序早于柯炎感知确认1.5秒，感知来源不明。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_029",
+      "story_time": 29,
+      "title": "位移",
+      "logline": "siege_day 72，虫潮+先驱，蓝卡·瞬位首次实战激活；冷却期脆弱窗口暴露；先驱第三次主动撤退。",
+      "synopsis": "siege_day 72：siege_day 72，虫潮+先驱，蓝卡·瞬位首次实战激活；冷却期脆弱窗口暴露；先驱第三次主动撤退。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_030",
+      "story_time": 30,
+      "title": "战局",
+      "logline": "siege_day 74，全要塞战情简报；柯炎读出周恒的'清算状态'；第四张蓝卡：蓝卡·远程预警。",
+      "synopsis": "siege_day 74：siege_day 74，全要塞战情简报；柯炎读出周恒的'清算状态'；第四张蓝卡：蓝卡·远程预警。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_031",
+      "story_time": 31,
+      "title": "遗址",
+      "logline": "siege_day 77，艾薇儿在Θ区遗址内工作；活体古遗共鸣频率第二次出现，7秒，主动激活特征。",
+      "synopsis": "siege_day 77：siege_day 77，艾薇儿在Θ区遗址内工作；活体古遗共鸣频率第二次出现，7秒，主动激活特征。",
+      "active_entities": [
+        "char_psi_elder"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_032",
+      "story_time": 32,
+      "title": "预警",
+      "logline": "siege_day 79，蓝卡·远程预警首次实战：三公里外虫潮预警，减少一半伤亡；因果关系清晰。",
+      "synopsis": "siege_day 79：siege_day 79，蓝卡·远程预警首次实战：三公里外虫潮预警，减少一半伤亡；因果关系清晰。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_033",
+      "story_time": 33,
+      "title": "问",
+      "logline": "siege_day 81，刘霜anomaly #7：银白源质爆发击退异种；'我想问你一件事'；她说'不是现在'。",
+      "synopsis": "siege_day 81：siege_day 81，刘霜anomaly #7：银白源质爆发击退异种；'我想问你一件事'；她说'不是现在'。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_034",
+      "story_time": 34,
+      "title": "待",
+      "logline": "siege_day 83，同班夜哨；三小时工作中那个问题稳定地在那里；她说'明天'。",
+      "synopsis": "siege_day 83：siege_day 83，同班夜哨；三小时工作中那个问题稳定地在那里；她说'明天'。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_035",
+      "story_time": 35,
+      "title": "医生",
+      "logline": "刘霜不再隐藏全力出手——他终于明白她一直在'压着'自己，和他一样害怕被看见。",
+      "synopsis": "siege_day 85：刘霜不再隐藏全力出手——他终于明白她一直在'压着'自己，和他一样害怕被看见。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [
+        "evt_liushuang_revealed"
+      ],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_036",
+      "story_time": 36,
+      "title": "余震",
+      "logline": "siege_day 87，揭身后的第一天；异常变成认知；走廊两句话；格子第一次轻开又关。",
+      "synopsis": "siege_day 87：siege_day 87，揭身后的第一天；异常变成认知；走廊两句话；格子第一次轻开又关。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_037",
+      "story_time": 37,
+      "title": "提案",
+      "logline": "siege_day 89，联邦正式申报柯炎为'非标准战场感知资产'；工具与资产是同一批数据，重量不同。",
+      "synopsis": "siege_day 89：siege_day 89，联邦正式申报柯炎为'非标准战场感知资产'；工具与资产是同一批数据，重量不同。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_038",
+      "story_time": 38,
+      "title": "默认",
+      "logline": "siege_day 91，刘霜直接开口问感知数据；她的能力使用从'数据点'变成'战术事件'；档案：待确认→确认。",
+      "synopsis": "siege_day 91：siege_day 91，刘霜直接开口问感知数据；她的能力使用从'数据点'变成'战术事件'；档案：待确认→确认。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_039",
+      "story_time": 39,
+      "title": "信号",
+      "logline": "siege_day 93，通信日志里的0.4秒空白——无法解释，存进待分析；虚影的第一道影子。",
+      "synopsis": "siege_day 93：siege_day 93，通信日志里的0.4秒空白——无法解释，存进待分析；虚影的第一道影子。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_040",
+      "story_time": 40,
+      "title": "底线",
+      "logline": "siege_day 95，最大规模攻势，守住，资源触底；周恒提到联邦新指令，暂不公布；格子角度变了。Sub-arc B终。",
+      "synopsis": "siege_day 95：siege_day 95，最大规模攻势，守住，资源触底；周恒提到联邦新指令，暂不公布；格子角度变了。Sub-arc B终。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_041",
+      "story_time": 41,
+      "title": "指令",
+      "logline": "siege_day 97，周恒公布Category-A优先撤离令；他是名单上的人，弹药五天触发，西北路线。",
+      "synopsis": "siege_day 97：siege_day 97，周恒公布Category-A优先撤离令；他是名单上的人，弹药五天触发，西北路线。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_042",
+      "story_time": 42,
+      "title": "矛盾",
+      "logline": "siege_day 99，他算出撤离后感知覆盖损失三分之二；效用曲线被命令截断；格子与分析层的界面变薄。",
+      "synopsis": "siege_day 99：siege_day 99，他算出撤离后感知覆盖损失三分之二；效用曲线被命令截断；格子与分析层的界面变薄。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_043",
+      "story_time": 43,
+      "title": "先驱变了",
+      "logline": "siege_day 101，先驱战后停留3分钟；郑暮的独立观察一致；先驱行为模式开始单调变化。",
+      "synopsis": "siege_day 101：siege_day 101，先驱战后停留3分钟；郑暮的独立观察一致；先驱行为模式开始单调变化。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_044",
+      "story_time": 44,
+      "title": "清单",
+      "logline": "siege_day 103，刘霜转述外部'关注对象清单'——他在上面，每项参数都对；有人一直在看。",
+      "synopsis": "siege_day 103：siege_day 103，刘霜转述外部'关注对象清单'——他在上面，每项参数都对；有人一直在看。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_045",
+      "story_time": 45,
+      "title": "第三次",
+      "logline": "siege_day 105，艾薇儿感知古遗信号第三次（12秒，220%强度）；追踪方向：人类要塞；偏见首次无法压制。",
+      "synopsis": "siege_day 105：siege_day 105，艾薇儿感知古遗信号第三次（12秒，220%强度）；追踪方向：人类要塞；偏见首次无法压制。",
+      "active_entities": [
+        "char_psi_elder"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_046",
+      "story_time": 46,
+      "title": "频率",
+      "logline": "防守轮值里他感知到了两个信号的频率不同——这是他的感知系统出现的第三个新维度。",
+      "synopsis": "siege_day 107：防守轮值里他感知到了两个信号的频率不同——这是他的感知系统出现的第三个新维度。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_047",
+      "story_time": 47,
+      "title": "第二次空白",
+      "logline": "0.4秒，0.8秒——精确翻倍；序列号间断150字节，加密，关联他的士兵编号。",
+      "synopsis": "siege_day 109：0.4秒，0.8秒——精确翻倍；序列号间断150字节，加密，关联他的士兵编号。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_048",
+      "story_time": 48,
+      "title": "低于五天",
+      "logline": "弹药4.3天，通道5-7天，两个数字交叉——周恒宣布撤离协议正式进入启动状态。",
+      "synopsis": "siege_day 111：弹药4.3天，通道5-7天，两个数字交叉——周恒宣布撤离协议正式进入启动状态。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_049",
+      "story_time": 49,
+      "title": "通道",
+      "logline": "他用了全部四张蓝卡；西北通道打通失败；先驱战略协调级别确认。",
+      "synopsis": "siege_day 113：他用了全部四张蓝卡；西北通道打通失败；先驱战略协调级别确认。",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [
+        "evt_corridor_attempt_fail"
+      ],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_050",
+      "story_time": 50,
+      "title": "问话",
+      "logline": "虚影没有杀他，只问：你父母的死，你真以为是意外吗？",
+      "synopsis": "siege_day 114：虚影没有杀他，只问：你父母的死，你真以为是意外吗？",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [
+        "evt_void_echo_contact"
+      ],
+      "tags": [],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_051",
+      "story_time": 51,
+      "title": "后续",
+      "logline": "他尝试建立父母之死的事实层——发现那个层几乎是空的，他持有的是一个从未检验过的叙述。",
+      "synopsis": "siege_day 115：正常轮值，背景运行；调取事实层；事实层比想象中薄；他注意到那个薄；情报文件更新：事实层稀薄；晚上：格子外壁有了一个轮廓",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [
+        "knowledge",
+        "psychology",
+        "behavior"
+      ],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_052",
+      "story_time": 52,
+      "title": "等待",
+      "logline": "连续三天每天早上第一件事是查通信日志找第四次信号；弹药5.7天；他写好了一句备用回复，放在掌机里等着。",
+      "synopsis": "siege_day 117：每天早上查通信日志；今天没有新信号；弹药状况更新；他在等什么；他准备那个回复；晚上：等待作为一种状态",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [
+        "knowledge",
+        "psychology",
+        "behavior"
+      ],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_053",
+      "story_time": 53,
+      "title": "档案",
+      "logline": "档案查阅：记录只有几行，印章编号锁后，事实层=空；记录有一次修改时间戳，内容无权查阅。",
+      "synopsis": "siege_day 119：查公开档案；档案的稀薄；他看着那几行；他试图查那个印章编号的单位；三类清单；晚上：格子有了一个边缘",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [
+        "knowledge",
+        "psychology",
+        "behavior"
+      ],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_054",
+      "story_time": 54,
+      "title": "方向",
+      "logline": "艾薇儿第四次信号，三角定位确认：信号在人类要塞内部；活体假设成立，优先级升高。",
+      "synopsis": "siege_day 121：艾薇儿：第四次信号；三角定位启动；在要塞里面；活体假设成立；优先级升级：高；她感知到了一件她认识的事",
+      "active_entities": [
+        "char_psi_elder"
+      ],
+      "events_covered": [],
+      "tags": [
+        "knowledge",
+        "psychology",
+        "action"
+      ],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_055",
+      "story_time": 55,
+      "title": "诱敌",
+      "logline": "先驱指挥虫潮做出一次诱敌——蜂巢从不诱敌。",
+      "synopsis": "siege_day 123：蜂巢的感知语法（宏观视角建立）；先驱感知到的要塞变化；那个频率异常；蜂巢从不诱敌，直到今天；诱敌的设计；指令下达，蜂巢响应",
+      "active_entities": [
+        "char_swarm_herald"
+      ],
+      "events_covered": [
+        "evt_herald_strategy"
+      ],
+      "tags": [
+        "knowledge",
+        "pov_voice",
+        "plot"
+      ],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_056",
+      "story_time": 56,
+      "title": "陷阱",
+      "logline": "先驱诱敌成功——定向能量束精确对准他，预知闪避+瞬位规避；先驱已把他标注为高优先级消除目标。",
+      "synopsis": "siege_day 125：部署命令：西侧感知支援；他注意到模式不对；他汇报了这个异常，但战术室无法撤回；虫潮移动改变：开始向他靠近；他用了瞬位脱离，激活蓝卡全组；战后：它在找他",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [
+        "knowledge",
+        "psychology",
+        "combat"
+      ],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_057",
+      "story_time": 57,
+      "title": "第四次空白",
+      "logline": "第四次通信空白3.2s（精确翻倍），解密：θ-07=父母工作的研究站，遗址在要塞以南三公里；格子重量突然增加。",
+      "synopsis": "siege_day 127：早上查日志：第四次空白；序列号间断：约280字节；解密：两个信息；他在那两行前停了比上次更长的时间；分析层试图处理，但穿过了；他存档，查地图，确认，记录",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [
+        "knowledge",
+        "psychology",
+        "pattern"
+      ],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_058",
+      "story_time": 58,
+      "title": "背靠背",
+      "logline": "灵能的幻觉与源质感知第一次咬合；他们都意识到对方不是低等，也不是工具。",
+      "synopsis": "siege_day 129：战术室通报：灵能族长老要求接触；他走出去，在中间地带见到了她；艾薇儿先说话：我在找你；互相扫描，频率咬合的瞬间；她的结论，他的结论；初步共识，不是信任",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [
+        "evt_uneasy_alliance"
+      ],
+      "tags": [
+        "knowledge",
+        "relationship",
+        "psychology"
+      ],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_059",
+      "story_time": 59,
+      "title": "重量",
+      "logline": "三件事合并为'起源'命题；格子出现第一条裂缝；他做了关于格子的第一个具体主动决定：如果活着出去，打开格子。",
+      "synopsis": "siege_day 130：三件事同时在分析层里；他做了一件他以前从来没有做过的事；格子出现了一条裂缝；他在那条裂缝前停了；他做了一个决定；晚上：格子不再是安静的",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [
+        "psychology",
+        "decision",
+        "格子状态"
+      ],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_060",
+      "story_time": 60,
+      "title": "最后阶段",
+      "logline": "弹药3.8天；周恒宣布突围选项；柯炎/刘霜定为突围最高优先感知资产；Sub-arc C收束，他有了朝向的方向。",
+      "synopsis": "siege_day 131：全体简报：弹药3.8天；周恒说了一句他以前没有说过的话；周恒单独找他：感知支援优先等级；他和刘霜在走廊里；他今天做的事：整理情报文件；Sub-arc C收束：他知道了他要做什么",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [
+        "plot",
+        "psychology",
+        "资源"
+      ],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_061",
+      "story_time": 61,
+      "title": "计划",
+      "logline": "突围战术会议",
+      "synopsis": "siege_day 133：突围战术会议；路线：东南方向；他的角色：前锋感知；他问了θ-07的位置；周恒说的最后一件事；五天",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [
+        "plot",
+        "knowledge",
+        "psychology"
+      ],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_062",
+      "story_time": 62,
+      "title": "准备",
+      "logline": "弹药2.3天",
+      "synopsis": "siege_day 135：弹药2.3天；四张蓝卡状态检查；路线地形研究；他试图通过通信渠道回复；他标记了θ-07的位置；晚上：格子的状态",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [
+        "knowledge",
+        "psychology",
+        "ability_check"
+      ],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_063",
+      "story_time": 63,
+      "title": "南方",
+      "logline": "最后一次常规轮值",
+      "synopsis": "siege_day 136：最后一次常规轮值；他把远程预警对准了南方；他感知到了什么；他在那个感知里停留了更长时间；他在日志里记录了那次感知；晚上：他知道了那件事确实存在",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [
+        "knowledge",
+        "psychology",
+        "ability"
+      ],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_064",
+      "story_time": 64,
+      "title": "话",
+      "logline": "他去找了刘霜",
+      "synopsis": "siege_day 136：他去找了刘霜；他告诉了她θ-07；刘霜说的话；他对她说：我信任你；明天；他离开之后在走廊里",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [
+        "relationship",
+        "psychology",
+        "behavior"
+      ],
+      "_autogen": true
+    },
+    {
+      "chapter_id": "ch_065",
+      "story_time": 65,
+      "title": "领路人",
+      "logline": "突围前夜，周恒单独找他",
+      "synopsis": "siege_day 137：突围前夜，周恒单独找他；周恒告诉他Θ区边缘地带那一段；周恒说了一件他从来没有说过的事；他在那句话前停了；周恒说的最后一件事；突围前夜，格子",
+      "active_entities": [
+        "char_ke_yan"
+      ],
+      "events_covered": [],
+      "tags": [
+        "psychology",
+        "plot",
+        "格子"
+      ],
+      "_autogen": true
     }
   ],
   "scene_chunks": []

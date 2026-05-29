@@ -4,7 +4,7 @@
     "novel_title": "星尘：诸族之战",
     "novel_author": "同人作者",
     "story_time_unit": "chapter",
-    "current_chapter": 60,
+    "current_chapter": 65,
     "language": "zh-Hans",
     "genre": "科幻战争",
     "tier": "long_novel",
@@ -801,7 +801,7 @@
       ],
       "prerequisites": [],
       "projected_outcome": "队伍在遗迹拾得Θ区遗迹地图残片；'最初源质觉醒原点'的传说变得具体，且与虚影持有的残图同源。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_015"
       ],
@@ -863,7 +863,7 @@
       "dependencies": [],
       "prerequisites": [],
       "projected_outcome": "艾薇儿奉命潜入边界星域执行灵能族关于Θ区的秘密任务；引入第三方视角，宏观战局多一条线。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_025"
       ],
@@ -925,7 +925,7 @@
       ],
       "prerequisites": [],
       "projected_outcome": "虚影首次直接接触/试探柯炎，抛出关于联邦与Θ区、以及柯炎父母之死的碎片真相，随即消失。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_050"
       ],
