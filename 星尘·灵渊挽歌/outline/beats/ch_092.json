@@ -1,0 +1,21 @@
+{
+  "chapter_id": "ch_092",
+  "title": "深荒再见",
+  "volume": "vol_04",
+  "status": "planned",
+  "pov_character": "char_zhao",
+  "story_time": 51,
+  "thread_id": "thr_garrison",
+  "events_covered": [
+    "evt_return_through_deep"
+  ],
+  "_stub": true,
+  "beats": [
+    {
+      "beat": 1,
+      "action": "待写",
+      "psychology": "",
+      "internal_monologue": ""
+    }
+  ]
+}

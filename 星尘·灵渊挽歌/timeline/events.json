@@ -442,6 +442,582 @@
         "ch_035"
       ],
       "status": "drafted"
+    },
+    {
+      "id": "evt_imprint_direction_decoded",
+      "story_time": 27,
+      "thread_id": "thr_hive",
+      "chapter_ids": [
+        "ch_037"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_imprint_gradient_sensed",
+      "story_time": 27,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_036"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_core_network_revealed",
+      "story_time": 28,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_039"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_northwest_route_assessment",
+      "story_time": 28,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_038"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_northwest_direction_set",
+      "story_time": 29,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_040"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_shimu_territory_entered",
+      "story_time": 29,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_041"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_shimu_territory_density",
+      "story_time": 30,
+      "thread_id": "thr_hive",
+      "chapter_ids": [
+        "ch_042"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_territory_combat_first",
+      "story_time": 30,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_043"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_deep_vein_memory",
+      "story_time": 31,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_044"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_wei_se_shell_pulled",
+      "story_time": 31,
+      "thread_id": "thr_hive",
+      "chapter_ids": [
+        "ch_045"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_territory_combat_second",
+      "story_time": 32,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_047"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_territory_combat_third",
+      "story_time": 32,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_048"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_time_pressure_escalation",
+      "story_time": 32,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_046"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_territory_combat_aftermath",
+      "story_time": 33,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_049"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_yi_lan_erosion_48",
+      "story_time": 33,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_050"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_dushi_new_dimension",
+      "story_time": 34,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_052"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_wei_se_training_fragment",
+      "story_time": 34,
+      "thread_id": "thr_wei_se",
+      "chapter_ids": [
+        "ch_051"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_wei_se_shell_sighted",
+      "story_time": 35,
+      "thread_id": "thr_hive",
+      "chapter_ids": [
+        "ch_053"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_yi_lan_reaches_for_wei_se",
+      "story_time": 35,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_054"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_approach_cover_formation",
+      "story_time": 36,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_055"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_wei_se_first_touch",
+      "story_time": 36,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_056"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_shouyan_witnesses",
+      "story_time": 37,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_057"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_time_window_closing",
+      "story_time": 37,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_058"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_subarc_c_closure",
+      "story_time": 38,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_060"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_wei_se_inner_contact",
+      "story_time": 38,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_059"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_core_network_arrival",
+      "story_time": 39,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_061"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_deep_vein_sensed",
+      "story_time": 39,
+      "thread_id": "thr_hive",
+      "chapter_ids": [
+        "ch_062"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_approach_wei_se_shell",
+      "story_time": 40,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_063"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_dushi_full_attempt_1",
+      "story_time": 40,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_064"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_zhao_guards_perimeter",
+      "story_time": 40,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_065"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_dushi_attempt_1_aftermath",
+      "story_time": 41,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_066"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_lingyin_senses_ember_structure",
+      "story_time": 41,
+      "thread_id": "thr_hive",
+      "chapter_ids": [
+        "ch_067"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_core_network_outer_battle",
+      "story_time": 42,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_070"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_dushi_full_attempt_2",
+      "story_time": 42,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_069"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_shouyan_speaks_truth",
+      "story_time": 42,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_068"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_ember_content_touched",
+      "story_time": 43,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_071"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_lingyin_battle_support",
+      "story_time": 43,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_072"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_dushi_full_attempt_3",
+      "story_time": 44,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_074"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_shouyan_takes_position",
+      "story_time": 44,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_073"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_wei_se_technique_revealed",
+      "story_time": 44,
+      "thread_id": "thr_wei_se",
+      "chapter_ids": [
+        "ch_075"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_dushi_transmission_peak",
+      "story_time": 45,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_076"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_lingyin_at_limit",
+      "story_time": 45,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_078"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_shimu_peak_assault",
+      "story_time": 45,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_077"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_shouyan_final_shockwave",
+      "story_time": 46,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_079"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_wei_se_ember_fades",
+      "story_time": 46,
+      "thread_id": "thr_wei_se",
+      "chapter_ids": [
+        "ch_080"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_core_battle_ends",
+      "story_time": 47,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_081"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_return_direction_set",
+      "story_time": 47,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_083"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_yi_lan_holds_technique",
+      "story_time": 47,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_082"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_core_network_changes",
+      "story_time": 48,
+      "thread_id": "thr_hive",
+      "chapter_ids": [
+        "ch_084"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_shouyan_carves_weise",
+      "story_time": 48,
+      "thread_id": "thr_wei_se",
+      "chapter_ids": [
+        "ch_085"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_core_network_last_night",
+      "story_time": 49,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_086"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_return_begins",
+      "story_time": 49,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_087"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_new_signal_from_core",
+      "story_time": 50,
+      "thread_id": "thr_hive",
+      "chapter_ids": [
+        "ch_088"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_shouyan_farewell_core",
+      "story_time": 50,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_089"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_vol3_close",
+      "story_time": 50,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_090"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_return_first_step",
+      "story_time": 51,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_091"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_return_through_deep",
+      "story_time": 51,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_092"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_dushi_network_first_test",
+      "story_time": 52,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_093"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_lingyin_new_research",
+      "story_time": 52,
+      "thread_id": "thr_hive",
+      "chapter_ids": [
+        "ch_094"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_seventh_beacon_revisit",
+      "story_time": 53,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_095"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_kai_er_reappears",
+      "story_time": 70,
+      "thread_id": "thr_qiongshu_reentry",
+      "chapter_ids": [
+        "ch_151"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_shouyan_erosion_final",
+      "story_time": 80,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_140"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_dushi_network_scale",
+      "story_time": 110,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_220"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "evt_novel_close",
+      "story_time": 138,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_260"
+      ],
+      "status": "planned"
     }
   ]
 }

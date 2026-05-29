@@ -298,6 +298,218 @@
         "char_shi_mu",
         "elem_seventh_beacon"
       ]
+    },
+    {
+      "id": "evt_northwest_route_assessment",
+      "name": "西北",
+      "story_time": 28,
+      "chapter": "ch_038",
+      "status": "planned",
+      "participants": [
+        "char_zhao"
+      ]
+    },
+    {
+      "id": "evt_shimu_territory_entered",
+      "name": "进入蚕母领土——领土防御而非追击",
+      "story_time": 29,
+      "chapter": "ch_041",
+      "status": "planned",
+      "participants": [
+        "char_zhao",
+        "char_ling_yin",
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_territory_combat_first",
+      "name": "领土战",
+      "story_time": 30,
+      "chapter": "ch_043",
+      "status": "planned",
+      "participants": [
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_territory_combat_second",
+      "name": "领土战（二）",
+      "story_time": 32,
+      "chapter": "ch_047",
+      "status": "planned",
+      "participants": [
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_territory_combat_third",
+      "name": "领土战（三）",
+      "story_time": 32,
+      "chapter": "ch_048",
+      "status": "planned",
+      "participants": [
+        "char_zhao"
+      ]
+    },
+    {
+      "id": "evt_time_pressure_escalation",
+      "name": "时间",
+      "story_time": 32,
+      "chapter": "ch_046",
+      "status": "planned",
+      "participants": [
+        "char_zhao"
+      ]
+    },
+    {
+      "id": "evt_territory_combat_aftermath",
+      "name": "战后·信号近了",
+      "story_time": 33,
+      "chapter": "ch_049",
+      "status": "planned",
+      "participants": [
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_approach_cover_formation",
+      "name": "掩护",
+      "story_time": 36,
+      "chapter": "ch_055",
+      "status": "planned",
+      "participants": [
+        "char_zhao"
+      ]
+    },
+    {
+      "id": "evt_time_window_closing",
+      "name": "窗口",
+      "story_time": 37,
+      "chapter": "ch_058",
+      "status": "planned",
+      "participants": [
+        "char_zhao"
+      ]
+    },
+    {
+      "id": "evt_zhao_guards_perimeter",
+      "name": "外围",
+      "story_time": 40,
+      "chapter": "ch_065",
+      "status": "planned",
+      "participants": [
+        "char_zhao"
+      ]
+    },
+    {
+      "id": "evt_core_network_outer_battle",
+      "name": "外围战",
+      "story_time": 42,
+      "chapter": "ch_070",
+      "status": "planned",
+      "participants": [
+        "char_zhao"
+      ]
+    },
+    {
+      "id": "evt_lingyin_battle_support",
+      "name": "聆音在战场",
+      "story_time": 43,
+      "chapter": "ch_072",
+      "status": "planned",
+      "participants": [
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_shouyan_takes_position",
+      "name": "守岩接替",
+      "story_time": 44,
+      "chapter": "ch_073",
+      "status": "planned",
+      "participants": [
+        "char_shou_yan"
+      ]
+    },
+    {
+      "id": "evt_lingyin_at_limit",
+      "name": "聆音的极限",
+      "story_time": 45,
+      "chapter": "ch_078",
+      "status": "planned",
+      "participants": [
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_shimu_peak_assault",
+      "name": "最激烈的外围",
+      "story_time": 45,
+      "chapter": "ch_077",
+      "status": "planned",
+      "participants": [
+        "char_zhao"
+      ]
+    },
+    {
+      "id": "evt_shouyan_final_shockwave",
+      "name": "守岩的最后震波",
+      "story_time": 46,
+      "chapter": "ch_079",
+      "status": "planned",
+      "participants": [
+        "char_shou_yan"
+      ]
+    },
+    {
+      "id": "evt_core_battle_ends",
+      "name": "战斗结束",
+      "story_time": 47,
+      "chapter": "ch_081",
+      "status": "planned",
+      "participants": [
+        "char_zhao"
+      ]
+    },
+    {
+      "id": "evt_return_direction_set",
+      "name": "接下来",
+      "story_time": 47,
+      "chapter": "ch_083",
+      "status": "planned",
+      "participants": [
+        "char_zhao"
+      ]
+    },
+    {
+      "id": "evt_return_begins",
+      "name": "返程",
+      "story_time": 49,
+      "chapter": "ch_087",
+      "status": "planned",
+      "participants": [
+        "char_zhao"
+      ]
+    },
+    {
+      "id": "evt_return_first_step",
+      "name": "归路的第一步",
+      "story_time": 51,
+      "chapter": "ch_091",
+      "status": "planned",
+      "participants": [
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_return_through_deep",
+      "name": "深荒再见",
+      "story_time": 51,
+      "chapter": "ch_092",
+      "status": "planned",
+      "participants": [
+        "char_zhao"
+      ]
     }
   ]
 }

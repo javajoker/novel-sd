@@ -1,0 +1,50 @@
+{
+  "_note": "Per-thread mirror of ontology.json#events. Authoritative source is ontology.json#events; regenerate with sync_events.py --write.",
+  "thread_id": "thr_wei_se",
+  "events": [
+    {
+      "id": "evt_wei_se_training_fragment",
+      "name": "守岩记忆——薇瑟训练日志的距离渗透技术",
+      "story_time": 34,
+      "chapter": "ch_051",
+      "status": "planned",
+      "participants": [
+        "char_shou_yan",
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_wei_se_technique_revealed",
+      "name": "薇瑟的方法——渡蚀众人分担完整形态",
+      "story_time": 44,
+      "chapter": "ch_075",
+      "status": "planned",
+      "participants": [
+        "char_yi_lan",
+        "char_wei_se"
+      ]
+    },
+    {
+      "id": "evt_wei_se_ember_fades",
+      "name": "薇瑟的ember淡去——她真正消失了",
+      "story_time": 46,
+      "chapter": "ch_080",
+      "status": "planned",
+      "participants": [
+        "char_yi_lan",
+        "char_wei_se",
+        "char_shou_yan"
+      ]
+    },
+    {
+      "id": "evt_shouyan_carves_weise",
+      "name": "守岩在核心网刻薇瑟的名字",
+      "story_time": 48,
+      "chapter": "ch_085",
+      "status": "planned",
+      "participants": [
+        "char_shou_yan"
+      ]
+    }
+  ]
+}

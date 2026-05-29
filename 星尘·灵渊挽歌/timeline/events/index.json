@@ -119,6 +119,198 @@
     ],
     "ch_035": [
       "evt_seventh_beacon_arrival"
+    ],
+    "ch_037": [
+      "evt_imprint_direction_decoded"
+    ],
+    "ch_036": [
+      "evt_imprint_gradient_sensed"
+    ],
+    "ch_039": [
+      "evt_core_network_revealed"
+    ],
+    "ch_038": [
+      "evt_northwest_route_assessment"
+    ],
+    "ch_040": [
+      "evt_northwest_direction_set"
+    ],
+    "ch_041": [
+      "evt_shimu_territory_entered"
+    ],
+    "ch_042": [
+      "evt_shimu_territory_density"
+    ],
+    "ch_043": [
+      "evt_territory_combat_first"
+    ],
+    "ch_044": [
+      "evt_deep_vein_memory"
+    ],
+    "ch_045": [
+      "evt_wei_se_shell_pulled"
+    ],
+    "ch_047": [
+      "evt_territory_combat_second"
+    ],
+    "ch_048": [
+      "evt_territory_combat_third"
+    ],
+    "ch_046": [
+      "evt_time_pressure_escalation"
+    ],
+    "ch_049": [
+      "evt_territory_combat_aftermath"
+    ],
+    "ch_050": [
+      "evt_yi_lan_erosion_48"
+    ],
+    "ch_052": [
+      "evt_dushi_new_dimension"
+    ],
+    "ch_051": [
+      "evt_wei_se_training_fragment"
+    ],
+    "ch_053": [
+      "evt_wei_se_shell_sighted"
+    ],
+    "ch_054": [
+      "evt_yi_lan_reaches_for_wei_se"
+    ],
+    "ch_055": [
+      "evt_approach_cover_formation"
+    ],
+    "ch_056": [
+      "evt_wei_se_first_touch"
+    ],
+    "ch_057": [
+      "evt_shouyan_witnesses"
+    ],
+    "ch_058": [
+      "evt_time_window_closing"
+    ],
+    "ch_060": [
+      "evt_subarc_c_closure"
+    ],
+    "ch_059": [
+      "evt_wei_se_inner_contact"
+    ],
+    "ch_061": [
+      "evt_core_network_arrival"
+    ],
+    "ch_062": [
+      "evt_deep_vein_sensed"
+    ],
+    "ch_063": [
+      "evt_approach_wei_se_shell"
+    ],
+    "ch_064": [
+      "evt_dushi_full_attempt_1"
+    ],
+    "ch_065": [
+      "evt_zhao_guards_perimeter"
+    ],
+    "ch_066": [
+      "evt_dushi_attempt_1_aftermath"
+    ],
+    "ch_067": [
+      "evt_lingyin_senses_ember_structure"
+    ],
+    "ch_070": [
+      "evt_core_network_outer_battle"
+    ],
+    "ch_069": [
+      "evt_dushi_full_attempt_2"
+    ],
+    "ch_068": [
+      "evt_shouyan_speaks_truth"
+    ],
+    "ch_071": [
+      "evt_ember_content_touched"
+    ],
+    "ch_072": [
+      "evt_lingyin_battle_support"
+    ],
+    "ch_074": [
+      "evt_dushi_full_attempt_3"
+    ],
+    "ch_073": [
+      "evt_shouyan_takes_position"
+    ],
+    "ch_075": [
+      "evt_wei_se_technique_revealed"
+    ],
+    "ch_076": [
+      "evt_dushi_transmission_peak"
+    ],
+    "ch_078": [
+      "evt_lingyin_at_limit"
+    ],
+    "ch_077": [
+      "evt_shimu_peak_assault"
+    ],
+    "ch_079": [
+      "evt_shouyan_final_shockwave"
+    ],
+    "ch_080": [
+      "evt_wei_se_ember_fades"
+    ],
+    "ch_081": [
+      "evt_core_battle_ends"
+    ],
+    "ch_083": [
+      "evt_return_direction_set"
+    ],
+    "ch_082": [
+      "evt_yi_lan_holds_technique"
+    ],
+    "ch_084": [
+      "evt_core_network_changes"
+    ],
+    "ch_085": [
+      "evt_shouyan_carves_weise"
+    ],
+    "ch_086": [
+      "evt_core_network_last_night"
+    ],
+    "ch_087": [
+      "evt_return_begins"
+    ],
+    "ch_088": [
+      "evt_new_signal_from_core"
+    ],
+    "ch_089": [
+      "evt_shouyan_farewell_core"
+    ],
+    "ch_090": [
+      "evt_vol3_close"
+    ],
+    "ch_091": [
+      "evt_return_first_step"
+    ],
+    "ch_092": [
+      "evt_return_through_deep"
+    ],
+    "ch_093": [
+      "evt_dushi_network_first_test"
+    ],
+    "ch_094": [
+      "evt_lingyin_new_research"
+    ],
+    "ch_095": [
+      "evt_seventh_beacon_revisit"
+    ],
+    "ch_151": [
+      "evt_kai_er_reappears"
+    ],
+    "ch_140": [
+      "evt_shouyan_erosion_final"
+    ],
+    "ch_220": [
+      "evt_dushi_network_scale"
+    ],
+    "ch_260": [
+      "evt_novel_close"
     ]
   },
   "by_story_time": {
@@ -220,6 +412,132 @@
     ],
     "26": [
       "evt_seventh_beacon_arrival"
+    ],
+    "27": [
+      "evt_imprint_direction_decoded",
+      "evt_imprint_gradient_sensed"
+    ],
+    "28": [
+      "evt_core_network_revealed",
+      "evt_northwest_route_assessment"
+    ],
+    "29": [
+      "evt_northwest_direction_set",
+      "evt_shimu_territory_entered"
+    ],
+    "30": [
+      "evt_shimu_territory_density",
+      "evt_territory_combat_first"
+    ],
+    "31": [
+      "evt_deep_vein_memory",
+      "evt_wei_se_shell_pulled"
+    ],
+    "32": [
+      "evt_territory_combat_second",
+      "evt_territory_combat_third",
+      "evt_time_pressure_escalation"
+    ],
+    "33": [
+      "evt_territory_combat_aftermath",
+      "evt_yi_lan_erosion_48"
+    ],
+    "34": [
+      "evt_dushi_new_dimension",
+      "evt_wei_se_training_fragment"
+    ],
+    "35": [
+      "evt_wei_se_shell_sighted",
+      "evt_yi_lan_reaches_for_wei_se"
+    ],
+    "36": [
+      "evt_approach_cover_formation",
+      "evt_wei_se_first_touch"
+    ],
+    "37": [
+      "evt_shouyan_witnesses",
+      "evt_time_window_closing"
+    ],
+    "38": [
+      "evt_subarc_c_closure",
+      "evt_wei_se_inner_contact"
+    ],
+    "39": [
+      "evt_core_network_arrival",
+      "evt_deep_vein_sensed"
+    ],
+    "40": [
+      "evt_approach_wei_se_shell",
+      "evt_dushi_full_attempt_1",
+      "evt_zhao_guards_perimeter"
+    ],
+    "41": [
+      "evt_dushi_attempt_1_aftermath",
+      "evt_lingyin_senses_ember_structure"
+    ],
+    "42": [
+      "evt_core_network_outer_battle",
+      "evt_dushi_full_attempt_2",
+      "evt_shouyan_speaks_truth"
+    ],
+    "43": [
+      "evt_ember_content_touched",
+      "evt_lingyin_battle_support"
+    ],
+    "44": [
+      "evt_dushi_full_attempt_3",
+      "evt_shouyan_takes_position",
+      "evt_wei_se_technique_revealed"
+    ],
+    "45": [
+      "evt_dushi_transmission_peak",
+      "evt_lingyin_at_limit",
+      "evt_shimu_peak_assault"
+    ],
+    "46": [
+      "evt_shouyan_final_shockwave",
+      "evt_wei_se_ember_fades"
+    ],
+    "47": [
+      "evt_core_battle_ends",
+      "evt_return_direction_set",
+      "evt_yi_lan_holds_technique"
+    ],
+    "48": [
+      "evt_core_network_changes",
+      "evt_shouyan_carves_weise"
+    ],
+    "49": [
+      "evt_core_network_last_night",
+      "evt_return_begins"
+    ],
+    "50": [
+      "evt_new_signal_from_core",
+      "evt_shouyan_farewell_core",
+      "evt_vol3_close"
+    ],
+    "51": [
+      "evt_return_first_step",
+      "evt_return_through_deep"
+    ],
+    "52": [
+      "evt_dushi_network_first_test",
+      "evt_lingyin_new_research"
+    ],
+    "53": [
+      "evt_seventh_beacon_revisit"
+    ],
+    "70": [
+      "evt_kai_er_reappears"
+    ],
+    "80": [
+      "evt_shouyan_erosion_final"
+    ],
+    "110": [
+      "evt_dushi_network_scale"
+    ],
+    "138": [
+      "evt_novel_close"
     ]
   },
   "by_thread": {
@@ -229,27 +547,56 @@
       "evt_lingyin_challenges_yi_lan",
       "evt_yi_lan_forgets_wei_se_face",
       "evt_yi_lan_dushi_scattered",
-      "evt_yihe_resonance_discovered",
       "evt_yihe_beacon_revealed",
+      "evt_yihe_resonance_discovered",
       "evt_yihe_response_signal",
       "evt_yi_lan_decides_east",
       "evt_yilan_first_half_confession",
       "evt_yihe_warming",
       "evt_yilan_full_confession",
       "evt_shouyan_beacon_memory",
-      "evt_seventh_beacon_arrival"
+      "evt_seventh_beacon_arrival",
+      "evt_imprint_gradient_sensed",
+      "evt_core_network_revealed",
+      "evt_northwest_direction_set",
+      "evt_deep_vein_memory",
+      "evt_yi_lan_erosion_48",
+      "evt_dushi_new_dimension",
+      "evt_yi_lan_reaches_for_wei_se",
+      "evt_wei_se_first_touch",
+      "evt_shouyan_witnesses",
+      "evt_subarc_c_closure",
+      "evt_wei_se_inner_contact",
+      "evt_core_network_arrival",
+      "evt_approach_wei_se_shell",
+      "evt_dushi_full_attempt_1",
+      "evt_dushi_attempt_1_aftermath",
+      "evt_dushi_full_attempt_2",
+      "evt_shouyan_speaks_truth",
+      "evt_ember_content_touched",
+      "evt_dushi_full_attempt_3",
+      "evt_dushi_transmission_peak",
+      "evt_yi_lan_holds_technique",
+      "evt_core_network_last_night",
+      "evt_shouyan_farewell_core",
+      "evt_vol3_close",
+      "evt_dushi_network_first_test",
+      "evt_seventh_beacon_revisit",
+      "evt_shouyan_erosion_final",
+      "evt_dushi_network_scale",
+      "evt_novel_close"
     ],
     "thr_garrison": [
       "evt_huipo_assault",
-      "evt_kai_er_arrives",
       "evt_garrison_accepts_deal",
+      "evt_kai_er_arrives",
       "evt_qiongshu_retreat_order",
       "evt_garrison_breakout",
       "evt_garrison_abandons_huipo",
       "evt_shou_yan_carves_names",
-      "evt_puppets_fail",
       "evt_first_open_combat",
       "evt_hive_tracker_discovered",
+      "evt_puppets_fail",
       "evt_shouyan_memory_keeper",
       "evt_open_terrain_battle",
       "evt_shou_yan_names_suixing",
@@ -263,7 +610,28 @@
       "evt_wasteland_crack_scatter",
       "evt_deep_wasteland_combat",
       "evt_south_node_crack_found",
-      "evt_shimu_convergence_strike"
+      "evt_shimu_convergence_strike",
+      "evt_northwest_route_assessment",
+      "evt_shimu_territory_entered",
+      "evt_territory_combat_first",
+      "evt_territory_combat_second",
+      "evt_territory_combat_third",
+      "evt_time_pressure_escalation",
+      "evt_territory_combat_aftermath",
+      "evt_approach_cover_formation",
+      "evt_time_window_closing",
+      "evt_zhao_guards_perimeter",
+      "evt_core_network_outer_battle",
+      "evt_lingyin_battle_support",
+      "evt_shouyan_takes_position",
+      "evt_lingyin_at_limit",
+      "evt_shimu_peak_assault",
+      "evt_shouyan_final_shockwave",
+      "evt_core_battle_ends",
+      "evt_return_direction_set",
+      "evt_return_begins",
+      "evt_return_first_step",
+      "evt_return_through_deep"
     ],
     "thr_hive": [
       "evt_wei_se_appears",
@@ -276,7 +644,25 @@
       "evt_lingyin_subband_confirmed",
       "evt_shimu_signal_anomaly",
       "evt_shimu_second_node_confirmed",
-      "evt_lingyin_second_node_location"
+      "evt_lingyin_second_node_location",
+      "evt_imprint_direction_decoded",
+      "evt_shimu_territory_density",
+      "evt_wei_se_shell_pulled",
+      "evt_wei_se_shell_sighted",
+      "evt_deep_vein_sensed",
+      "evt_lingyin_senses_ember_structure",
+      "evt_core_network_changes",
+      "evt_new_signal_from_core",
+      "evt_lingyin_new_research"
+    ],
+    "thr_wei_se": [
+      "evt_wei_se_training_fragment",
+      "evt_wei_se_technique_revealed",
+      "evt_wei_se_ember_fades",
+      "evt_shouyan_carves_weise"
+    ],
+    "thr_qiongshu_reentry": [
+      "evt_kai_er_reappears"
     ]
   }
 }

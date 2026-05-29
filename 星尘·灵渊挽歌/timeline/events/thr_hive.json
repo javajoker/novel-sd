@@ -134,6 +134,101 @@
         "char_shou_yan",
         "char_shi_mu"
       ]
+    },
+    {
+      "id": "evt_imprint_direction_decoded",
+      "name": "聆音解析印记方向——西北约30km",
+      "story_time": 27,
+      "chapter": "ch_037",
+      "status": "planned",
+      "participants": [
+        "char_ling_yin",
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_shimu_territory_density",
+      "name": "密度",
+      "story_time": 30,
+      "chapter": "ch_042",
+      "status": "planned",
+      "participants": [
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_wei_se_shell_pulled",
+      "name": "空壳薇瑟被拉向核心网",
+      "story_time": 31,
+      "chapter": "ch_045",
+      "status": "planned",
+      "participants": [
+        "char_ling_yin",
+        "char_wei_se",
+        "char_shi_mu"
+      ]
+    },
+    {
+      "id": "evt_wei_se_shell_sighted",
+      "name": "目视距离内看见空壳薇瑟",
+      "story_time": 35,
+      "chapter": "ch_053",
+      "status": "planned",
+      "participants": [
+        "char_ling_yin",
+        "char_wei_se",
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_deep_vein_sensed",
+      "name": "深脉的呼吸",
+      "story_time": 39,
+      "chapter": "ch_062",
+      "status": "planned",
+      "participants": [
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_lingyin_senses_ember_structure",
+      "name": "聆音的感知",
+      "story_time": 41,
+      "chapter": "ch_067",
+      "status": "planned",
+      "participants": [
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_core_network_changes",
+      "name": "核心网在改变",
+      "story_time": 48,
+      "chapter": "ch_084",
+      "status": "planned",
+      "participants": [
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_new_signal_from_core",
+      "name": "新的信号",
+      "story_time": 50,
+      "chapter": "ch_088",
+      "status": "planned",
+      "participants": [
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_lingyin_new_research",
+      "name": "聆音的下一个问题",
+      "story_time": 52,
+      "chapter": "ch_094",
+      "status": "planned",
+      "participants": [
+        "char_ling_yin"
+      ]
     }
   ]
 }

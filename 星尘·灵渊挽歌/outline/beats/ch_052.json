@@ -1,0 +1,21 @@
+{
+  "chapter_id": "ch_052",
+  "title": "新维度",
+  "volume": "vol_03",
+  "status": "planned",
+  "pov_character": "char_yi_lan",
+  "story_time": 34,
+  "thread_id": "thr_yi_lan",
+  "events_covered": [
+    "evt_dushi_new_dimension"
+  ],
+  "_stub": true,
+  "beats": [
+    {
+      "beat": 1,
+      "action": "待写",
+      "psychology": "",
+      "internal_monologue": ""
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "_note": "Per-thread mirror of ontology.json#events. Authoritative source is ontology.json#events; regenerate with sync_events.py --write.",
+  "thread_id": "thr_qiongshu_reentry",
+  "events": [
+    {
+      "id": "evt_kai_er_reappears",
+      "name": "凯尔再现——联邦的追踪",
+      "story_time": 70,
+      "chapter": "ch_151",
+      "status": "planned",
+      "participants": [
+        "char_kai_er",
+        "char_yi_lan",
+        "char_zhao"
+      ]
+    }
+  ]
+}

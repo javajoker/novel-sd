@@ -1,0 +1,21 @@
+{
+  "chapter_id": "ch_083",
+  "title": "接下来",
+  "volume": "vol_03",
+  "status": "planned",
+  "pov_character": "char_zhao",
+  "story_time": 47,
+  "thread_id": "thr_garrison",
+  "events_covered": [
+    "evt_return_direction_set"
+  ],
+  "_stub": true,
+  "beats": [
+    {
+      "beat": 1,
+      "action": "待写",
+      "psychology": "",
+      "internal_monologue": ""
+    }
+  ]
+}

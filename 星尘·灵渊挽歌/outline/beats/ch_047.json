@@ -1,0 +1,21 @@
+{
+  "chapter_id": "ch_047",
+  "title": "领土战（二）",
+  "volume": "vol_03",
+  "status": "planned",
+  "pov_character": "char_yi_lan",
+  "story_time": 32,
+  "thread_id": "thr_garrison",
+  "events_covered": [
+    "evt_territory_combat_second"
+  ],
+  "_stub": true,
+  "beats": [
+    {
+      "beat": 1,
+      "action": "待写",
+      "psychology": "",
+      "internal_monologue": ""
+    }
+  ]
+}

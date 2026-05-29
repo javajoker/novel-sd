@@ -1,0 +1,21 @@
+{
+  "chapter_id": "ch_094",
+  "title": "聆音的下一个问题",
+  "volume": "vol_04",
+  "status": "planned",
+  "pov_character": "char_ling_yin",
+  "story_time": 52,
+  "thread_id": "thr_hive",
+  "events_covered": [
+    "evt_lingyin_new_research"
+  ],
+  "_stub": true,
+  "beats": [
+    {
+      "beat": 1,
+      "action": "待写",
+      "psychology": "",
+      "internal_monologue": ""
+    }
+  ]
+}
