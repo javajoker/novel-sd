@@ -2,6 +2,180 @@
   "character_id": "char_ke_yan",
   "states": [
     {
+      "story_time": 60,
+      "chapter_id": "ch_060",
+      "location": "elem_stardust_fortress（简报室→战术室→走廊→宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "弹药3.8天（官方公布）；东南通道8-12天；突围作为选项进入视野",
+          "confidence": "confirmed_briefing",
+          "trigger": "周恒全员简报"
+        },
+        {
+          "fact": "周恒：感知资产最高优先级，先撤，不殿后；突围序列已在规划",
+          "confidence": "verbatim_private",
+          "trigger": "战术室私下通知"
+        },
+        {
+          "fact": "刘霜今天状态：在张力里的稳定，准备好了",
+          "confidence": "感知确认",
+          "trigger": "走廊频率扫描"
+        }
+      ],
+      "psychology": {
+        "sanity": 57,
+        "mood": "稳定·Sub-arc C收束·有了朝向的方向",
+        "notes": "Sub-arc C结束时他的状态：知道了比围城开始时多很多的事，有比围城开始时多很多的问题，但有了一个朝向的方向。那个方向是清楚的，那个方向是他的。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_060：最后阶段，siege_day 131，弹药3.8天，突围选项确认，感知资产最优先，Sub-arc C收束。"
+    },
+    {
+      "story_time": 59,
+      "chapter_id": "ch_059",
+      "location": "elem_stardust_fortress（走廊→宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "三件事合并为同一命题：我的起源，以及我为什么在这里（先驱定向攻击+θ-07+艾薇儿的描述）",
+          "confidence": "self_synthesis",
+          "trigger": "走廊思考"
+        },
+        {
+          "fact": "格子出现一条裂缝（第一次非主动结构变化）；格子今晚第一次在不被主动关上的情况下不关",
+          "confidence": "self_observed",
+          "trigger": "走廊感知"
+        }
+      ],
+      "psychology": {
+        "sanity": 57,
+        "mood": "稳定·格子裂缝接受·做了第一个主动决定",
+        "notes": "他做了关于格子的第一个具体主动决定，写进状态日志：'如果活着出去，我要打开格子。'格子有裂缝，他接受那条裂缝，他没有试图修它，他第一次在格子不完全关着的状态里睡着。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_059：重量，siege_day 130，三件事合并为起源命题，格子裂缝，第一个主动决定。"
+    },
+    {
+      "story_time": 58,
+      "chapter_id": "ch_058",
+      "location": "elem_stardust_fortress外围→中间地带→要塞",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "艾薇儿确认：他有古遗的东西，持续被动泄漏（他自己不知道），正在改变他；她以前没有在人类身上见过那个频率位置",
+          "confidence": "灵能族长老直接确认",
+          "trigger": "evt_uneasy_alliance首次接触"
+        },
+        {
+          "fact": "他和艾薇儿的频率都在古遗共鸣区域的外边缘，从两个不同方向接近同一个位置",
+          "confidence": "双向频率感知确认",
+          "trigger": "同时互相感知"
+        },
+        {
+          "fact": "艾薇儿：'如果你感知到南边三公里有什么东西，那个东西和你有关，不要忽视它。'",
+          "confidence": "verbatim",
+          "trigger": "接触结束前她给的信息"
+        },
+        {
+          "fact": "初步共识建立：条件句关系——如果活着出来，再谈合作",
+          "confidence": "verbal_agreement",
+          "trigger": "接触结束"
+        }
+      ],
+      "psychology": {
+        "sanity": 58,
+        "mood": "稳定·首次被另一生命体从频率层面看见并描述",
+        "notes": "艾薇儿的描述'你有古遗的东西在你里面'是他以前对自己无法描述的事的外部命名，他接受那个描述。"
+      },
+      "abilities_delta": [
+        {
+          "ability": "频率感知",
+          "change": "在3米距离直接感知艾薇儿：感知到中层和内层，确认她的频率也在古遗共鸣区域外边缘（不同方向）"
+        }
+      ],
+      "notes": "ch_058：背靠背，siege_day 129，evt_uneasy_alliance，艾薇儿首次接触，双向感知，条件句关系建立。"
+    },
+    {
+      "story_time": 57,
+      "chapter_id": "ch_057",
+      "location": "elem_stardust_fortress（通信室→私密角落→走廊→宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "第四次通信空白：siege_day 127，03:11，3.2秒（1.6×2），280字节；间隔8天（不再缩短但模式仍成立）",
+          "confidence": "实测确认",
+          "trigger": "通信日志查阅"
+        },
+        {
+          "fact": "解密消息第一行：'研究站代号：SITE-θ-07，你父母工作过的地方。'",
+          "confidence": "confirmed_decrypted",
+          "trigger": "掌机解密"
+        },
+        {
+          "fact": "解密消息第二行：'θ-07的遗址位置，你今天站着的地方以南约三公里。'",
+          "confidence": "confirmed_decrypted",
+          "trigger": "掌机解密"
+        },
+        {
+          "fact": "Θ区基础地图核查：要塞以南三公里=Θ区古遗址禁区，历史档案，机密",
+          "confidence": "地图核查",
+          "trigger": "要塞数据库查询"
+        }
+      ],
+      "psychology": {
+        "sanity": 58,
+        "mood": "稳定外壳下格子重量突然增加·父母/Θ区/当前位置三者关联首次确认",
+        "notes": "他和Θ区的关系不再只是战场关系，那个关系在他来这里之前就存在。格子里那件事的重量在这个知道里突然增加，像是以为是小盒子的格子突然变得很沉。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_057：第四次空白，siege_day 127，θ-07确认，父母=Θ区研究者，遗址以南3公里，格子重量突然增加。"
+    },
+    {
+      "story_time": 56,
+      "chapter_id": "ch_056",
+      "location": "elem_stardust_fortress（西侧外围部署位置→宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "先驱诱敌计划执行：西侧集结约120只，行为异常（等待而非主动进攻），后向他位置发出先驱指挥层级定向能量束",
+          "confidence": "战斗实测",
+          "trigger": "siege_day 125西侧战斗"
+        },
+        {
+          "fact": "先驱已将他标注为高优先级消除目标，攻击精度：针对他的具体位置，非随机",
+          "confidence": "confirmed_analysis",
+          "trigger": "战后分析"
+        },
+        {
+          "fact": "先驱定向攻击频率特征：指挥层级，不在普通虫潮频率范围内",
+          "confidence": "频率感知实测",
+          "trigger": "攻击残留频率扫描"
+        }
+      ],
+      "psychology": {
+        "sanity": 59,
+        "mood": "稳定·资源分配调整（高价值目标自我保护模式激活）",
+        "notes": "他意识到自己已经是先驱的高价值目标，他的战场行为模式开始自动调整：增加近端感知频率，评估退路，减少不必要暴露。"
+      },
+      "abilities_delta": [
+        {
+          "ability": "蓝卡·预知闪避",
+          "change": "在先驱定向攻击前0.4秒触发，成功规避；这是第一次规避先驱指挥层级攻击"
+        },
+        {
+          "ability": "蓝卡·瞬位",
+          "change": "配合预知闪避使用，瞬移7米规避攻击残留能量"
+        }
+      ],
+      "notes": "ch_056：陷阱，siege_day 125，先驱定向攻击，他是目标，蓝卡组合规避成功。"
+    },
+    {
       "story_time": 53,
       "chapter_id": "ch_053",
       "location": "elem_stardust_fortress（通信室→走廊→宿舍）",

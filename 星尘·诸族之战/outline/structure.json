@@ -840,7 +840,55 @@
             "evt_uneasy_alliance"
           ],
           "one_line": "灵能的幻觉与源质感知第一次咬合；他们都意识到对方不是低等，也不是工具。",
-          "status": "planned"
+          "status": "written"
+        },
+        {
+          "id": "ch_056",
+          "number": 56,
+          "title": "陷阱",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 56,
+          "planned_events": [],
+          "one_line": "先驱诱敌成功——定向能量束精确对准他，预知闪避+瞬位规避；先驱已把他标注为高优先级消除目标。",
+          "status": "written"
+        },
+        {
+          "id": "ch_057",
+          "number": 57,
+          "title": "第四次空白",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 57,
+          "planned_events": [],
+          "one_line": "第四次通信空白3.2s（精确翻倍），解密：θ-07=父母工作的研究站，遗址在要塞以南三公里；格子重量突然增加。",
+          "status": "written"
+        },
+        {
+          "id": "ch_059",
+          "number": 59,
+          "title": "重量",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 59,
+          "planned_events": [],
+          "one_line": "三件事合并为'起源'命题；格子出现第一条裂缝；他做了关于格子的第一个具体主动决定：如果活着出去，打开格子。",
+          "status": "written"
+        },
+        {
+          "id": "ch_060",
+          "number": 60,
+          "title": "最后阶段",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 60,
+          "planned_events": [],
+          "one_line": "弹药3.8天；周恒宣布突围选项；柯炎/刘霜定为突围最高优先感知资产；Sub-arc C收束，他有了朝向的方向。",
+          "status": "written"
         },
         {
           "id": "ch_070",
