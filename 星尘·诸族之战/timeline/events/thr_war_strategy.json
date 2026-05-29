@@ -1,5 +1,5 @@
 {
-  "_note": "Thread shard for thr_war_strategy. Stubs only — full truth in ontology.json#events.",
+  "_note": "Per-thread mirror of ontology.json#events. Authoritative source is ontology.json#events; regenerate with sync_events.py --write.",
   "thread_id": "thr_war_strategy",
   "events": [
     {
@@ -27,7 +27,7 @@
       "name": "要塞危机",
       "story_time": 70,
       "chapter": "ch_070",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
         "char_ke_yan",
         "char_major_zhou",

@@ -960,7 +960,7 @@
           "story_time": 66,
           "planned_events": [],
           "one_line": "siege_day 138黎明，突围开始，他走在最前面，十八公里，第一步。",
-          "status": "planned"
+          "status": "drafted"
         },
         {
           "id": "ch_067",
@@ -972,7 +972,7 @@
           "story_time": 67,
           "planned_events": [],
           "one_line": "他感知到计划路线前方的频率异常，下令改线——第一次真正行使领路人的决策权，队伍无条件跟着他走。",
-          "status": "planned"
+          "status": "drafted"
         },
         {
           "id": "ch_068",
@@ -984,7 +984,7 @@
           "story_time": 68,
           "planned_events": [],
           "one_line": "进入Θ区边缘地带那两公里——先驱密度是正常区域三倍以上，弹药已经有限，他开始在缝隙里寻路。",
-          "status": "planned"
+          "status": "drafted"
         },
         {
           "id": "ch_069",
@@ -996,7 +996,7 @@
           "story_time": 69,
           "planned_events": [],
           "one_line": "两公里最危险的一段，他动用了一张蓝卡，把二十三个人完整地带了过去。",
-          "status": "planned"
+          "status": "drafted"
         },
         {
           "id": "ch_070",
@@ -1010,7 +1010,7 @@
             "evt_fortress_crisis"
           ],
           "one_line": "周恒最后一次下令——这一次眼里不是认命，是把活路让出去的决意。",
-          "status": "planned"
+          "status": "drafted"
         },
         {
           "id": "ch_071",
