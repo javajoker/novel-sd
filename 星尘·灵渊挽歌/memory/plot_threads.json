@@ -292,7 +292,7 @@
       "concept": "聆音从被动信息来源升格为主动干预者——全频脉冲能力首次使用",
       "status": "open",
       "introduced_chapter": "ch_014",
-      "last_mention_chapter": "ch_017",
+      "last_mention_chapter": "ch_029",
       "occurrences": [
         {
           "chapter_id": "ch_014",
@@ -335,6 +335,12 @@
         {
           "note": "hook_lingyin_active_ability Sub-arc B新张力：若蚕母确认增设第二节点，a'技术只能对抗方向定位，无法对抗方向+距离的组合——整套战术框架需要重评；聆音的感知能力将面对新的对手升级。"
         }
+      ],
+      "occurrences_continued_3": [
+        {
+          "chapter_id": "ch_029",
+          "note": "a'技术与双节点三角定位的兼容性问题：聆音分析a'对三角定位的实际保护效果不确定（最差情况近无效），需测试。同时聆音测试裂缝内壁矿物散射，开辟了另一种反制路径。"
+        }
       ]
     },
     {
@@ -342,7 +348,7 @@
       "concept": "遗核方向（东侧偏南）发回单次回应脉冲——薇瑟余烬或相关存在的位置信号",
       "status": "partial_resolved",
       "introduced_chapter": "ch_014",
-      "last_mention_chapter": "ch_017",
+      "last_mention_chapter": "ch_029",
       "occurrences": [
         {
           "chapter_id": "ch_014",
@@ -384,14 +390,24 @@
           "chapter_id": "ch_026",
           "note": "遗核基础温度继续升高（昭通过伊岚的间接手势读出）——Sub-arc B第一日，接近进度条继续推进；深荒地形对遗核信标本身无影响（昭确认伊岚的东行判断未改变）。"
         }
+      ],
+      "occurrences_continued_2": [
+        {
+          "chapter_id": "ch_027",
+          "note": "聆音在行进中感知到薇瑟频率底色在极远处——她认识这个频率，感觉比昨天更清楚一点，但不确定是真实接近还是感知校准。遗核升温继续。"
+        },
+        {
+          "chapter_id": "ch_028",
+          "note": "伊岚检查遗核——今天明显比昨天更热，不是微小差异，是跨越一个阶梯的上升。越近越危险的主题清晰化：接近信标和威胁升级同时在升高，两条线都是真的。"
+        }
       ]
     },
     {
       "id": "hook_shimu_second_node",
       "concept": "蚕母疑似增设第二感知节点——距离三角定位能力正在建立中",
-      "status": "open",
+      "status": "partial_resolved",
       "introduced_chapter": "ch_026",
-      "last_mention_chapter": "ch_026",
+      "last_mention_chapter": "ch_029",
       "occurrences": [
         {
           "chapter_id": "ch_026",
@@ -399,7 +415,21 @@
         }
       ],
       "payoff_planned_chapter": "vol_03_B（Sub-arc B中段）",
-      "risk": "Sub-arc B核心升级线：若蚕母真的获得距离三角定位能力，a'技术只能降低方向精度而无法对抗方向+距离的组合定位——聆音当前的核心反制手段将失效，需要新的对策。深荒地质结构可能使判断更加复杂（地质反射可能一直存在，使第二节点难以确认）。"
+      "risk": "Sub-arc B核心升级线：若蚕母真的获得距离三角定位能力，a'技术只能降低方向精度而无法对抗方向+距离的组合定位——聆音当前的核心反制手段将失效，需要新的对策。深荒地质结构可能使判断更加复杂（地质反射可能一直存在，使第二节点难以确认）。",
+      "occurrences_continued": [
+        {
+          "chapter_id": "ch_027",
+          "note": "PAYOFF：聆音三地七次观测，偏移量跨位置恒定（标准差0.02秒），排除地质反射，确认第二节点。蚕母现在同时具备方向+距离三角定位能力。聆音向全队宣告。partial_resolved：节点存在已确认；第二节点位置和a'对三角定位的实际保护效果两个子问题仍开放。"
+        },
+        {
+          "chapter_id": "ch_028",
+          "note": "战术含义消化：昭向伊岚说明40分钟窗口=已知暴露时间（非隐形期）；宣布打破节律应对。伊岚：越近越危险，两件真实的事握在手里。"
+        },
+        {
+          "chapter_id": "ch_029",
+          "note": "反制手段发现：深荒裂缝内壁层状散射矿物对北侧节点方向有显著散射效果（系数约2.7），对另一节点无效——方向性反制，不完整但真实。昭开始建立裂缝方向索引。"
+        }
+      ]
     }
   ]
 }

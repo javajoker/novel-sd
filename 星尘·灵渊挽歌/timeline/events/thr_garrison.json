@@ -230,6 +230,32 @@
         "char_zhao",
         "char_ling_yin"
       ]
+    },
+    {
+      "id": "evt_tactical_crisis_dual_node",
+      "name": "双节点威胁下的战术重评——打破节律",
+      "story_time": 21,
+      "chapter": "ch_028",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_wasteland_crack_scatter",
+      "name": "裂缝走廊信号散射——深荒的不完整遮蔽",
+      "story_time": 22,
+      "chapter": "ch_029",
+      "status": "drafted",
+      "participants": [
+        "char_zhao",
+        "char_ling_yin",
+        "char_yi_lan",
+        "char_shou_yan"
+      ]
     }
   ]
 }

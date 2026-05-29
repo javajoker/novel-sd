@@ -6,36 +6,82 @@
       "chapter_id": "ch_001",
       "location": "elem_seventh_garrison",
       "inventory_delta": [
-        { "item": "源质结晶", "action": "modify", "reason": "强袭中御灵屏障与渡蚀消耗，余量 6→约 3" }
+        {
+          "item": "源质结晶",
+          "action": "modify",
+          "reason": "强袭中御灵屏障与渡蚀消耗，余量 6→约 3"
+        }
       ],
       "status": [
-        { "type": "debuff", "desc": "灵渊崩蚀加深：承接昭的灵蚀，erosion_load 22→约 31", "severity": "medium" },
-        { "type": "psychology", "desc": "丢失一段无关旧记忆（灵蚀先吞噬'不重要'的）", "severity": "low" }
+        {
+          "type": "debuff",
+          "desc": "灵渊崩蚀加深：承接昭的灵蚀，erosion_load 22→约 31",
+          "severity": "medium"
+        },
+        {
+          "type": "psychology",
+          "desc": "丢失一段无关旧记忆（灵蚀先吞噬'不重要'的）",
+          "severity": "low"
+        }
       ],
       "knowledge_gained": [
-        { "fact": "fact_wei_se_returns", "source": "突破口目击空壳薇瑟现身，并以渡蚀余感触到其灵渊深处一丝悸动" }
+        {
+          "fact": "fact_wei_se_returns",
+          "source": "突破口目击空壳薇瑟现身，并以渡蚀余感触到其灵渊深处一丝悸动"
+        }
       ],
-      "psychology": { "sanity": 74, "mood": "旧伤撕裂、希望与恐惧并炸", "erosion_load": 31 },
+      "psychology": {
+        "sanity": 74,
+        "mood": "旧伤撕裂、希望与恐惧并炸",
+        "erosion_load": 31
+      },
       "abilities_delta": [],
-      "derived_inventory": ["elem_wei_se_core", "源质结晶 x3", "灵能制式短刃"]
+      "derived_inventory": [
+        "elem_wei_se_core",
+        "源质结晶 x3",
+        "灵能制式短刃"
+      ]
     },
     {
       "story_time": 2,
       "chapter_id": "ch_002",
       "location": "elem_seventh_garrison",
       "inventory_delta": [
-        { "item": "源质结晶", "action": "modify", "reason": "战斗消耗，余量 3→2（库存继续下降）" }
+        {
+          "item": "源质结晶",
+          "action": "modify",
+          "reason": "战斗消耗，余量 3→2（库存继续下降）"
+        }
       ],
       "status": [
-        { "type": "debuff", "desc": "灵渊崩蚀纹超过上次检查边界，底部出现缝状裂纹", "severity": "medium" },
-        { "type": "loss", "desc": "薇瑟教渡蚀时的声音记忆消失——仅剩口型轮廓，无音色", "severity": "medium" }
+        {
+          "type": "debuff",
+          "desc": "灵渊崩蚀纹超过上次检查边界，底部出现缝状裂纹",
+          "severity": "medium"
+        },
+        {
+          "type": "loss",
+          "desc": "薇瑟教渡蚀时的声音记忆消失——仅剩口型轮廓，无音色",
+          "severity": "medium"
+        }
       ],
       "knowledge_gained": [
-        { "fact": "fact_dushi_erases_memory", "source": "灵渊例行检查时发现薇瑟声音记忆被磨去，意识到渡蚀消化灵蚀时会带走自身记忆碎片" }
+        {
+          "fact": "fact_dushi_erases_memory",
+          "source": "灵渊例行检查时发现薇瑟声音记忆被磨去，意识到渡蚀消化灵蚀时会带走自身记忆碎片"
+        }
       ],
-      "psychology": { "sanity": 72, "mood": "恐惧第一次真正落在自身；执念尚未松动，但有了第一道裂缝", "erosion_load": 33 },
+      "psychology": {
+        "sanity": 72,
+        "mood": "恐惧第一次真正落在自身；执念尚未松动，但有了第一道裂缝",
+        "erosion_load": 33
+      },
       "abilities_delta": [],
-      "derived_inventory": ["elem_wei_se_core", "源质结晶 x2", "灵能制式短刃"]
+      "derived_inventory": [
+        "elem_wei_se_core",
+        "源质结晶 x2",
+        "灵能制式短刃"
+      ]
     },
     {
       "story_time": 6,
@@ -43,14 +89,30 @@
       "location": "elem_seventh_garrison",
       "inventory_delta": [],
       "status": [
-        { "type": "psychology", "desc": "执念被聆音正面拆穿——'你没有问我'；追溯到薇瑟模式的根源", "severity": "medium" }
+        {
+          "type": "psychology",
+          "desc": "执念被聆音正面拆穿——'你没有问我'；追溯到薇瑟模式的根源",
+          "severity": "medium"
+        }
       ],
       "knowledge_gained": [
-        { "fact": "fact_lingyin_knows_shim u", "source": "聆音主动告知：她感知到蚀母在等她，而非等戍垒垮掉" }
+        {
+          "fact": "fact_lingyin_knows_shim u",
+          "source": "聆音主动告知：她感知到蚀母在等她，而非等戍垒垮掉"
+        }
       ],
-      "psychology": { "sanity": 70, "mood": "执念松动但未破；第一次主动向昭开口寻求协作", "erosion_load": 33 },
+      "psychology": {
+        "sanity": 70,
+        "mood": "执念松动但未破；第一次主动向昭开口寻求协作",
+        "erosion_load": 33
+      },
       "abilities_delta": [],
-      "derived_inventory": ["elem_wei_se_core", "源质结晶 x2", "灵能制式短刃", "灰珀地形图"]
+      "derived_inventory": [
+        "elem_wei_se_core",
+        "源质结晶 x2",
+        "灵能制式短刃",
+        "灰珀地形图"
+      ]
     },
     {
       "story_time": 7,
@@ -58,15 +120,34 @@
       "location": "灰珀荒原→elem_seventh_garrison",
       "inventory_delta": [],
       "status": [
-        { "type": "critical", "desc": "渡蚀代价全面显形：薇瑟的脸的记忆消失（上次还有轮廓，此次连轮廓模糊）；灵能时延加剧", "severity": "high" },
-        { "type": "debuff", "desc": "灵渊崩蚀纹持续加深；灵能调用时延约半秒", "severity": "medium" }
+        {
+          "type": "critical",
+          "desc": "渡蚀代价全面显形：薇瑟的脸的记忆消失（上次还有轮廓，此次连轮廓模糊）；灵能时延加剧",
+          "severity": "high"
+        },
+        {
+          "type": "debuff",
+          "desc": "灵渊崩蚀纹持续加深；灵能调用时延约半秒",
+          "severity": "medium"
+        }
       ],
       "knowledge_gained": [
-        { "fact": "fact_dushi_true_cost_partial", "source": "站在空壳薇瑟面前发现无法回忆她的脸，意识到失忆速度超出预期；遗核在手心颤动（真实性存疑）" }
+        {
+          "fact": "fact_dushi_true_cost_partial",
+          "source": "站在空壳薇瑟面前发现无法回忆她的脸，意识到失忆速度超出预期；遗核在手心颤动（真实性存疑）"
+        }
       ],
-      "psychology": { "sanity": 65, "mood": "恐惧落底——失去薇瑟记忆比失去自我更不可接受；开始主动寻找另一条路", "erosion_load": 36 },
+      "psychology": {
+        "sanity": 65,
+        "mood": "恐惧落底——失去薇瑟记忆比失去自我更不可接受；开始主动寻找另一条路",
+        "erosion_load": 36
+      },
       "abilities_delta": [],
-      "derived_inventory": ["elem_wei_se_core", "源质结晶 x2", "灵能制式短刃"]
+      "derived_inventory": [
+        "elem_wei_se_core",
+        "源质结晶 x2",
+        "灵能制式短刃"
+      ]
     },
     {
       "story_time": 8,
@@ -74,15 +155,34 @@
       "location": "灰珀撤离通道→荒原",
       "inventory_delta": [],
       "status": [
-        { "type": "debuff", "desc": "渡蚀分散全队时灵渊过载（热），但撑住，未崩", "severity": "medium" },
-        { "type": "milestone", "desc": "第一次以分散方式使用渡蚀（向全队开放通道）；弧线关键行动完成", "severity": "n/a" }
+        {
+          "type": "debuff",
+          "desc": "渡蚀分散全队时灵渊过载（热），但撑住，未崩",
+          "severity": "medium"
+        },
+        {
+          "type": "milestone",
+          "desc": "第一次以分散方式使用渡蚀（向全队开放通道）；弧线关键行动完成",
+          "severity": "n/a"
+        }
       ],
       "knowledge_gained": [],
-      "psychology": { "sanity": 68, "mood": "沉重但走着——不再一个人，但代价仍在；遗核温热，薇瑟还在", "erosion_load": 38 },
+      "psychology": {
+        "sanity": 68,
+        "mood": "沉重但走着——不再一个人，但代价仍在；遗核温热，薇瑟还在",
+        "erosion_load": 38
+      },
       "abilities_delta": [
-        { "ability": "渡蚀·分散模式", "change": "首次实战使用；向多人同时开放渡蚀通道，分散灵蚀而非一对一承接" }
+        {
+          "ability": "渡蚀·分散模式",
+          "change": "首次实战使用；向多人同时开放渡蚀通道，分散灵蚀而非一对一承接"
+        }
       ],
-      "derived_inventory": ["elem_wei_se_core", "源质结晶 x1", "灵能制式短刃"]
+      "derived_inventory": [
+        "elem_wei_se_core",
+        "源质结晶 x1",
+        "灵能制式短刃"
+      ]
     },
     {
       "story_time": 9,
@@ -90,14 +190,29 @@
       "location": "灰珀荒原（撤离通道出口→集合点途中）",
       "inventory_delta": [],
       "status": [
-        { "type": "psychology", "desc": "第一次在地形决策中接手指路角色（守岩让她先说话）；以'检查旧伤'而非'确认希望'的方式触碰遗核；整合聆音的威胁升级（蚀母信号移动化）后继续走而未崩溃；意识到队伍形状变了但还是一支队伍", "severity": "n/a" }
+        {
+          "type": "psychology",
+          "desc": "第一次在地形决策中接手指路角色（守岩让她先说话）；以'检查旧伤'而非'确认希望'的方式触碰遗核；整合聆音的威胁升级（蚀母信号移动化）后继续走而未崩溃；意识到队伍形状变了但还是一支队伍",
+          "severity": "n/a"
+        }
       ],
       "knowledge_gained": [
-        { "fact": "fact_shimu_mobile_signal", "source": "聆音报告：蚀母感知信号在进撤离通道时开始改变方向，出通道后确认为跟随聆音移动的锁定信号，而非固定指向第七戍垒" }
+        {
+          "fact": "fact_shimu_mobile_signal",
+          "source": "聆音报告：蚀母感知信号在进撤离通道时开始改变方向，出通道后确认为跟随聆音移动的锁定信号，而非固定指向第七戍垒"
+        }
       ],
-      "psychology": { "sanity": 67, "mood": "在整合而非崩溃——守土已结束，新的未命名的事情开始了；没有名字但脚步还在", "erosion_load": 38 },
+      "psychology": {
+        "sanity": 67,
+        "mood": "在整合而非崩溃——守土已结束，新的未命名的事情开始了；没有名字但脚步还在",
+        "erosion_load": 38
+      },
       "abilities_delta": [],
-      "derived_inventory": ["elem_wei_se_core", "源质结晶 x1", "灵能制式短刃"]
+      "derived_inventory": [
+        "elem_wei_se_core",
+        "源质结晶 x1",
+        "灵能制式短刃"
+      ]
     },
     {
       "story_time": 10,
@@ -105,14 +220,29 @@
       "location": "灰珀荒原·集合点",
       "inventory_delta": [],
       "status": [
-        { "type": "psychology", "desc": "首夜无护盾露营：以灵能感知代替护盾做外围监控；以'检查旧伤'方式触碰遗核，遗核比任何一次更热但无异常反应；整合'蚀母信号开始学习节律'的威胁升级，继续工作而非崩溃", "severity": "n/a" }
+        {
+          "type": "psychology",
+          "desc": "首夜无护盾露营：以灵能感知代替护盾做外围监控；以'检查旧伤'方式触碰遗核，遗核比任何一次更热但无异常反应；整合'蚀母信号开始学习节律'的威胁升级，继续工作而非崩溃",
+          "severity": "n/a"
+        }
       ],
       "knowledge_gained": [
-        { "fact": "fact_shimu_learning_rhythm", "source": "聆音报告：蚀母信号不只是跟随，而是开始记住他们的移动速度与停驻时长，正在学习他们的节律" }
+        {
+          "fact": "fact_shimu_learning_rhythm",
+          "source": "聆音报告：蚀母信号不只是跟随，而是开始记住他们的移动速度与停驻时长，正在学习他们的节律"
+        }
       ],
-      "psychology": { "sanity": 66, "mood": "在荒原里守夜：把恐惧压在工作里，感知挂着，等待，不崩溃", "erosion_load": 38 },
+      "psychology": {
+        "sanity": 66,
+        "mood": "在荒原里守夜：把恐惧压在工作里，感知挂着，等待，不崩溃",
+        "erosion_load": 38
+      },
       "abilities_delta": [],
-      "derived_inventory": ["elem_wei_se_core", "源质结晶 x1", "灵能制式短刃"]
+      "derived_inventory": [
+        "elem_wei_se_core",
+        "源质结晶 x1",
+        "灵能制式短刃"
+      ]
     },
     {
       "story_time": 12,
@@ -120,17 +250,38 @@
       "location": "灰珀荒原·集合点（第二夜）",
       "inventory_delta": [],
       "status": [
-        { "type": "discovery", "desc": "首次对遗核使用渡蚀感知频率：发现轻微共振——遗核以灵渊碎片特征响应渡蚀，温度短暂上升后恢复", "severity": "n/a" }
+        {
+          "type": "discovery",
+          "desc": "首次对遗核使用渡蚀感知频率：发现轻微共振——遗核以灵渊碎片特征响应渡蚀，温度短暂上升后恢复",
+          "severity": "n/a"
+        }
       ],
       "knowledge_gained": [
-        { "fact": "fact_yihe_beacon_direction", "source": "聆音检查遗核频率后告知：遗核信号非蜂巢来源，为固定方向信标，持续指向东侧偏南，与聆音/队伍移动无关" },
-        { "fact": "fact_yihe_dushi_resonance", "source": "伊岚实验：渡蚀频率可与遗核发生轻微共振，遗核温度短暂升高" }
+        {
+          "fact": "fact_yihe_beacon_direction",
+          "source": "聆音检查遗核频率后告知：遗核信号非蜂巢来源，为固定方向信标，持续指向东侧偏南，与聆音/队伍移动无关"
+        },
+        {
+          "fact": "fact_yihe_dushi_resonance",
+          "source": "伊岚实验：渡蚀频率可与遗核发生轻微共振，遗核温度短暂升高"
+        }
       ],
-      "psychology": { "sanity": 65, "mood": "沉——把遗核方向与探兵撤退方向的交叠放在一起但不说出来；压着，等", "erosion_load": 38 },
+      "psychology": {
+        "sanity": 65,
+        "mood": "沉——把遗核方向与探兵撤退方向的交叠放在一起但不说出来；压着，等",
+        "erosion_load": 38
+      },
       "abilities_delta": [
-        { "ability": "渡蚀·感知延伸", "change": "发现渡蚀感知可触及灵渊碎片（遗核），产生共振——为能力边界的新发现" }
+        {
+          "ability": "渡蚀·感知延伸",
+          "change": "发现渡蚀感知可触及灵渊碎片（遗核），产生共振——为能力边界的新发现"
+        }
       ],
-      "derived_inventory": ["elem_wei_se_core", "源质结晶 x1", "灵能制式短刃"]
+      "derived_inventory": [
+        "elem_wei_se_core",
+        "源质结晶 x1",
+        "灵能制式短刃"
+      ]
     },
     {
       "story_time": 14,
@@ -138,16 +289,38 @@
       "location": "灰珀荒原·东侧矿石群",
       "inventory_delta": [],
       "status": [
-        { "type": "debuff", "desc": "渡蚀分散模式高强度使用：灵渊过载边界，战中遗核脉动分担极小量，未崩蚀", "severity": "medium" },
-        { "type": "milestone", "desc": "首次荒原集结组规模战斗：无护盾无防线守住；守岩命名'随行'，被接受", "severity": "n/a" }
+        {
+          "type": "debuff",
+          "desc": "渡蚀分散模式高强度使用：灵渊过载边界，战中遗核脉动分担极小量，未崩蚀",
+          "severity": "medium"
+        },
+        {
+          "type": "milestone",
+          "desc": "首次荒原集结组规模战斗：无护盾无防线守住；守岩命名'随行'，被接受",
+          "severity": "n/a"
+        }
       ],
       "knowledge_gained": [
-        { "fact": "fact_yihe_response_signal", "source": "战后用渡蚀触遗核时，从东侧偏南方向收到一次单次脉冲回应——旧频率，非蜂巢，非己方，遗核发送方向有活体或活频率在回应" },
-        { "fact": "fact_yihe_overload_assist", "source": "渡蚀满载时遗核自发脉动，灵渊热度降了一线——遗核可能对渡蚀过载有辅助响应" }
+        {
+          "fact": "fact_yihe_response_signal",
+          "source": "战后用渡蚀触遗核时，从东侧偏南方向收到一次单次脉冲回应——旧频率，非蜂巢，非己方，遗核发送方向有活体或活频率在回应"
+        },
+        {
+          "fact": "fact_yihe_overload_assist",
+          "source": "渡蚀满载时遗核自发脉动，灵渊热度降了一线——遗核可能对渡蚀过载有辅助响应"
+        }
       ],
-      "psychology": { "sanity": 64, "mood": "守住了，接受'随行'这个名字，遗核的回应脉冲握着不说——沉，但脚步还在", "erosion_load": 40 },
+      "psychology": {
+        "sanity": 64,
+        "mood": "守住了，接受'随行'这个名字，遗核的回应脉冲握着不说——沉，但脚步还在",
+        "erosion_load": 40
+      },
       "abilities_delta": [],
-      "derived_inventory": ["elem_wei_se_core", "源质结晶 x1", "灵能制式短刃"]
+      "derived_inventory": [
+        "elem_wei_se_core",
+        "源质结晶 x1",
+        "灵能制式短刃"
+      ]
     },
     {
       "story_time": 15,
@@ -155,19 +328,51 @@
       "location": "elem_huipo_wasteland_east（东行途中→渗水点）",
       "inventory_delta": [],
       "status": [
-        { "type": "psychology", "desc": "决定往东却未说出昨晚的回应脉冲；守岩告知遗核动了（被看见但未被逼问），感到安心与沉重并存", "severity": "n/a" },
-        { "type": "psychology", "desc": "整合聆音频率暴露威胁（40分钟窄频定位脉冲），继续走而未崩溃", "severity": "n/a" },
-        { "type": "psychology", "desc": "收到昭的渗水点箭头报告（东侧偏南，至少两年）；三条独立证据指向同一方向——遗核回应、箭头、遗核信标；压着，说'走'，不解释", "severity": "n/a" }
+        {
+          "type": "psychology",
+          "desc": "决定往东却未说出昨晚的回应脉冲；守岩告知遗核动了（被看见但未被逼问），感到安心与沉重并存",
+          "severity": "n/a"
+        },
+        {
+          "type": "psychology",
+          "desc": "整合聆音频率暴露威胁（40分钟窄频定位脉冲），继续走而未崩溃",
+          "severity": "n/a"
+        },
+        {
+          "type": "psychology",
+          "desc": "收到昭的渗水点箭头报告（东侧偏南，至少两年）；三条独立证据指向同一方向——遗核回应、箭头、遗核信标；压着，说'走'，不解释",
+          "severity": "n/a"
+        }
       ],
       "knowledge_gained": [
-        { "fact": "fact_shou_yan_noticed_yihe_moved", "source": "ch_015：守岩在出发前说'你手里那个东西昨晚动了'——他的旧时感知精度可靠，这不是猜测" },
-        { "fact": "fact_lingyin_frequency_exposed", "source": "ch_016：聆音报告——全频脉冲后蚀母已掌握其完整灵渊频率签名，每40分钟发送一次针对性窄频脉冲；方向定位精度高，距离估算尚不确定" },
-        { "fact": "fact_lingyin_capability_hidden", "source": "ch_016：守岩指出蚕母认识的是聆音的基础感知频率，不是她主动能力的全部——聆音昨晚做的那件事蚕母不曾见过" },
-        { "fact": "fact_wasteland_arrow_marking", "source": "ch_017：昭在渗水点西侧矿石底部发现工具刻痕，形状为箭头，指向东侧偏南；氧化程度分析显示至少两年前所刻——曾有人走过这里往那个方向，并标记了路" }
+        {
+          "fact": "fact_shou_yan_noticed_yihe_moved",
+          "source": "ch_015：守岩在出发前说'你手里那个东西昨晚动了'——他的旧时感知精度可靠，这不是猜测"
+        },
+        {
+          "fact": "fact_lingyin_frequency_exposed",
+          "source": "ch_016：聆音报告——全频脉冲后蚀母已掌握其完整灵渊频率签名，每40分钟发送一次针对性窄频脉冲；方向定位精度高，距离估算尚不确定"
+        },
+        {
+          "fact": "fact_lingyin_capability_hidden",
+          "source": "ch_016：守岩指出蚕母认识的是聆音的基础感知频率，不是她主动能力的全部——聆音昨晚做的那件事蚕母不曾见过"
+        },
+        {
+          "fact": "fact_wasteland_arrow_marking",
+          "source": "ch_017：昭在渗水点西侧矿石底部发现工具刻痕，形状为箭头，指向东侧偏南；氧化程度分析显示至少两年前所刻——曾有人走过这里往那个方向，并标记了路"
+        }
       ],
-      "psychology": { "sanity": 63, "mood": "携带三条未说出的信息往东走——遗核回应、箭头标记、方向感；随行与隐瞒之间的张力开始积压", "erosion_load": 40 },
+      "psychology": {
+        "sanity": 63,
+        "mood": "携带三条未说出的信息往东走——遗核回应、箭头标记、方向感；随行与隐瞒之间的张力开始积压",
+        "erosion_load": 40
+      },
       "abilities_delta": [],
-      "derived_inventory": ["elem_wei_se_core", "源质结晶 x1", "灵能制式短刃"]
+      "derived_inventory": [
+        "elem_wei_se_core",
+        "源质结晶 x1",
+        "灵能制式短刃"
+      ]
     },
     {
       "story_time": 16,
@@ -175,13 +380,29 @@
       "location": "elem_huipo_wasteland_east（第二天行进中）",
       "inventory_delta": [],
       "status": [
-        { "type": "psychology", "desc": "40分钟窗口节律内化，队伍无需发令自然运转；第一次清楚意识到不触遗核是主动管理——触碰产生渡蚀共振可能向东侧偏南泄露位置，解释这个决定意味着必须解释回应脉冲", "severity": "n/a" },
-        { "type": "psychology", "desc": "守岩说'这件事有节律了'，伊岚听出：随行节律里有一个她的节点是松的，松动的节点早晚会打乱拍子", "severity": "n/a" }
+        {
+          "type": "psychology",
+          "desc": "40分钟窗口节律内化，队伍无需发令自然运转；第一次清楚意识到不触遗核是主动管理——触碰产生渡蚀共振可能向东侧偏南泄露位置，解释这个决定意味着必须解释回应脉冲",
+          "severity": "n/a"
+        },
+        {
+          "type": "psychology",
+          "desc": "守岩说'这件事有节律了'，伊岚听出：随行节律里有一个她的节点是松的，松动的节点早晚会打乱拍子",
+          "severity": "n/a"
+        }
       ],
       "knowledge_gained": [],
-      "psychology": { "sanity": 62, "mood": "节律稳定但内部积压——外表跟上了队伍的节律，内心的松动节点在加重；技术风险与隐瞒心理已经叠加为同一件事", "erosion_load": 40 },
+      "psychology": {
+        "sanity": 62,
+        "mood": "节律稳定但内部积压——外表跟上了队伍的节律，内心的松动节点在加重；技术风险与隐瞒心理已经叠加为同一件事",
+        "erosion_load": 40
+      },
       "abilities_delta": [],
-      "derived_inventory": ["elem_wei_se_core", "源质结晶 x1", "灵能制式短刃"]
+      "derived_inventory": [
+        "elem_wei_se_core",
+        "源质结晶 x1",
+        "灵能制式短刃"
+      ]
     },
     {
       "story_time": 17,
@@ -189,13 +410,29 @@
       "location": "elem_huipo_wasteland_east（第三天）",
       "inventory_delta": [],
       "status": [
-        { "type": "psychology", "desc": "ch_020：昭直接问'那个方向有什么'；她说'我不确定'——真话但不完整，她有猜测但不说未经充分确认的事；意识到昭接受了但记住了", "severity": "n/a" },
-        { "type": "psychology", "desc": "ch_021：第二处渗水点，守岩陈述'你知道我们要去哪里'（非质问，是镜子）；被击中后第一次主动说出'我想我知道大概的方向，不是目标，是方向'——半开口完成；那个一直占着位置的重量轻了一点点", "severity": "n/a" }
+        {
+          "type": "psychology",
+          "desc": "ch_020：昭直接问'那个方向有什么'；她说'我不确定'——真话但不完整，她有猜测但不说未经充分确认的事；意识到昭接受了但记住了",
+          "severity": "n/a"
+        },
+        {
+          "type": "psychology",
+          "desc": "ch_021：第二处渗水点，守岩陈述'你知道我们要去哪里'（非质问，是镜子）；被击中后第一次主动说出'我想我知道大概的方向，不是目标，是方向'——半开口完成；那个一直占着位置的重量轻了一点点",
+          "severity": "n/a"
+        }
       ],
       "knowledge_gained": [],
-      "psychology": { "sanity": 62, "mood": "半开口之后稍轻——说出了方向但没说脉冲；守岩接住了不追问；随行节律里的松动节点还在，但轮廓变得更清楚了", "erosion_load": 40 },
+      "psychology": {
+        "sanity": 62,
+        "mood": "半开口之后稍轻——说出了方向但没说脉冲；守岩接住了不追问；随行节律里的松动节点还在，但轮廓变得更清楚了",
+        "erosion_load": 40
+      },
       "abilities_delta": [],
-      "derived_inventory": ["elem_wei_se_core", "源质结晶 x1", "灵能制式短刃"]
+      "derived_inventory": [
+        "elem_wei_se_core",
+        "源质结晶 x1",
+        "灵能制式短刃"
+      ]
     },
     {
       "story_time": 18,
@@ -203,15 +440,34 @@
       "location": "elem_huipo_wasteland_east（第四天）",
       "inventory_delta": [],
       "status": [
-        { "type": "psychology", "desc": "ch_022：聆音公布a'测试——伊岚在听的同时看见镜子：聆音等的是数据，她等的是什么？那件事已经是事实，她在等的不是确认", "severity": "n/a" },
-        { "type": "psychology", "desc": "ch_023：遭遇虫群探查单元，a'战术首次实战成功；检查遗核比昨天更热（恒定基础温度上升，确认靠近中）；傍晚第一次对自己诚实：她在等的是勇气，不是确认，那种感觉不会自己来", "severity": "n/a" }
+        {
+          "type": "psychology",
+          "desc": "ch_022：聆音公布a'测试——伊岚在听的同时看见镜子：聆音等的是数据，她等的是什么？那件事已经是事实，她在等的不是确认",
+          "severity": "n/a"
+        },
+        {
+          "type": "psychology",
+          "desc": "ch_023：遭遇虫群探查单元，a'战术首次实战成功；检查遗核比昨天更热（恒定基础温度上升，确认靠近中）；傍晚第一次对自己诚实：她在等的是勇气，不是确认，那种感觉不会自己来",
+          "severity": "n/a"
+        }
       ],
       "knowledge_gained": [
-        { "fact": "fact_yihe_baseline_temp_rising", "source": "ch_023：遗核恒定基础温度比昨天更高，确认持续接近中" }
+        {
+          "fact": "fact_yihe_baseline_temp_rising",
+          "source": "ch_023：遗核恒定基础温度比昨天更高，确认持续接近中"
+        }
       ],
-      "psychology": { "sanity": 62, "mood": "内心转折临界——已经对自己说出'在等勇气'；昭说他会再问一次，更直接，那一次来的时候她要告诉他", "erosion_load": 40 },
+      "psychology": {
+        "sanity": 62,
+        "mood": "内心转折临界——已经对自己说出'在等勇气'；昭说他会再问一次，更直接，那一次来的时候她要告诉他",
+        "erosion_load": 40
+      },
       "abilities_delta": [],
-      "derived_inventory": ["elem_wei_se_core", "源质结晶 x1", "灵能制式短刃"]
+      "derived_inventory": [
+        "elem_wei_se_core",
+        "源质结晶 x1",
+        "灵能制式短刃"
+      ]
     },
     {
       "story_time": 19,
@@ -219,13 +475,67 @@
       "location": "elem_huipo_wasteland_east（第五天）",
       "inventory_delta": [],
       "status": [
-        { "type": "milestone", "desc": "ch_024：向全队说出完整真相——ch_014的单次回应脉冲、薇瑟的旧频率特征、选择东的完整原因；随行共担完成，那件事不再在一个人口袋里", "severity": "n/a" },
-        { "type": "milestone", "desc": "ch_025：Sub-arc A收束；昭以目标优先级重构战术框架并对伊岚明确说出；聆音记住薇瑟频率；守岩记入活档案；四人各自以各自的方式携带同一件事往东走", "severity": "n/a" }
+        {
+          "type": "milestone",
+          "desc": "ch_024：向全队说出完整真相——ch_014的单次回应脉冲、薇瑟的旧频率特征、选择东的完整原因；随行共担完成，那件事不再在一个人口袋里",
+          "severity": "n/a"
+        },
+        {
+          "type": "milestone",
+          "desc": "ch_025：Sub-arc A收束；昭以目标优先级重构战术框架并对伊岚明确说出；聆音记住薇瑟频率；守岩记入活档案；四人各自以各自的方式携带同一件事往东走",
+          "severity": "n/a"
+        }
       ],
       "knowledge_gained": [],
-      "psychology": { "sanity": 64, "mood": "完整——那件事说出来了，随行节律里没有松动节点了；不是到达，是完整地继续走；Sub-arc B开始", "erosion_load": 40 },
+      "psychology": {
+        "sanity": 64,
+        "mood": "完整——那件事说出来了，随行节律里没有松动节点了；不是到达，是完整地继续走；Sub-arc B开始",
+        "erosion_load": 40
+      },
       "abilities_delta": [],
-      "derived_inventory": ["elem_wei_se_core", "源质结晶 x1", "灵能制式短刃"]
+      "derived_inventory": [
+        "elem_wei_se_core",
+        "源质结晶 x1",
+        "灵能制式短刃"
+      ]
+    },
+    {
+      "story_time": 21,
+      "chapter_id": "ch_027–ch_028",
+      "location": "elem_deep_wasteland_east",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "psychology",
+          "desc": "ch_027：接收聆音第二节点宣告，手放口袋——遗核今天比昨天明显更热，两件事同时握在手里：接近中，暴露升级中。ch_028：昭说明40分钟窗口是已知暴露时间，宣布打破节律；守岩说'变，但不要变得失去自己的节律'——这句话伊岚放进去了，放了很久",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_shimu_second_node_confirmed",
+          "source": "ch_027聆音宣告全队"
+        },
+        {
+          "fact": "fact_40min_window_is_exposure_not_cover",
+          "source": "ch_028昭明确说明"
+        },
+        {
+          "fact": "fact_yihe_baseline_temp_significant_rise",
+          "source": "ch_027-028：遗核今天明显比昨天更热，接近进度清晰跨越一个阶梯"
+        }
+      ],
+      "psychology": {
+        "sanity": 63,
+        "mood": "越近越危险——两件真实的事握在同一只手里；守岩的话在心里放着；继续往东",
+        "erosion_load": 40
+      },
+      "abilities_delta": [],
+      "derived_inventory": [
+        "elem_wei_se_core",
+        "源质结晶 x1",
+        "灵能制式短刃"
+      ]
     }
   ]
 }

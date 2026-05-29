@@ -2,7 +2,7 @@
   "story_time_unit": "chapter",
   "world_calendar": {
     "epoch": "源质觉醒后·收缩纪",
-    "current": "收缩纪 第七年，灰珀守备第 2,207 日"
+    "current": "收缩纪 第七年，灰珀守备第 2,209 日"
   },
   "chapter_to_world_day": {
     "ch_001": 2190,
@@ -30,7 +30,10 @@
     "ch_023": 2205,
     "ch_024": 2206,
     "ch_025": 2206,
-    "ch_026": 2207
+    "ch_026": 2207,
+    "ch_027": 2208,
+    "ch_028": 2208,
+    "ch_029": 2209
   },
   "chapter_to_story_time": {
     "ch_001": 1,
@@ -58,10 +61,13 @@
     "ch_023": 18,
     "ch_024": 19,
     "ch_025": 19,
-    "ch_026": 20
+    "ch_026": 20,
+    "ch_027": 21,
+    "ch_028": 21,
+    "ch_029": 22
   },
-  "current_story_time": 20,
-  "current_chapter": 26,
+  "current_story_time": 22,
+  "current_chapter": 29,
   "chapter_locations": {
     "ch_001": "elem_seventh_garrison",
     "ch_002": "elem_seventh_garrison",
@@ -88,7 +94,10 @@
     "ch_023": "elem_huipo_wasteland_east",
     "ch_024": "elem_huipo_wasteland_east",
     "ch_025": "elem_huipo_wasteland_east",
-    "ch_026": "elem_deep_wasteland_east"
+    "ch_026": "elem_deep_wasteland_east",
+    "ch_027": "elem_deep_wasteland_east",
+    "ch_028": "elem_deep_wasteland_east",
+    "ch_029": "elem_deep_wasteland_east"
   },
   "travel_rules": [
     {

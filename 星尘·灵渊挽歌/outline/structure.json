@@ -469,6 +469,48 @@
           "one_line": "昭POV：踏过地质分界线进入深荒；新地形需要新战术参数；遗核更热；聆音察觉窄频脉冲出现相位漂移——是地质反射还是蚕母第二节点？",
           "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_026.json"
+        },
+        {
+          "id": "ch_027",
+          "number": 27,
+          "title": "节点",
+          "thread_id": "thr_hive",
+          "pov_character": "char_ling_yin",
+          "story_time": 21,
+          "planned_events": [
+            "evt_shimu_second_node_confirmed"
+          ],
+          "one_line": "聆音POV：深荒第二天早晨，完成三地七次观测——相位偏移跨位置恒定，非地质，是第二节点；向全队宣告：蚕母现在可以三角定位我们的距离。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_027.json"
+        },
+        {
+          "id": "ch_028",
+          "number": 28,
+          "title": "打破节律",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 21,
+          "planned_events": [
+            "evt_tactical_crisis_dual_node"
+          ],
+          "one_line": "伊岚POV：听到第二节点消息后行进；昭宣布打破节律；遗核今天比昨天明显更热——越近越危险。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_028.json"
+        },
+        {
+          "id": "ch_029",
+          "number": 29,
+          "title": "深荒的矿物",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_zhao",
+          "story_time": 22,
+          "planned_events": [
+            "evt_wasteland_crack_scatter"
+          ],
+          "one_line": "昭POV：打破节律第一天，观察裂缝内壁矿物成分，假设其散射灵能信号；聆音测试确认一个节点方向散射显著——深荒裂缝提供方向性不完整遮蔽。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_029.json"
         }
       ],
       "status": "in_progress"

@@ -50,7 +50,9 @@
         "evt_zhao_asks_target",
         "evt_hive_scout_encounter",
         "evt_subarc_a_closure",
-        "evt_terrain_shift_deep"
+        "evt_terrain_shift_deep",
+        "evt_tactical_crisis_dual_node",
+        "evt_wasteland_crack_scatter"
       ],
       "convergences_with": [
         "thr_hive@ch_011",
@@ -71,7 +73,8 @@
         "evt_lingyin_reports_frequency_exposed",
         "evt_lingyin_subband_test",
         "evt_lingyin_subband_confirmed",
-        "evt_shimu_signal_anomaly"
+        "evt_shimu_signal_anomaly",
+        "evt_shimu_second_node_confirmed"
       ],
       "convergences_with": [
         "thr_yi_lan@ch_001",

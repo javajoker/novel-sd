@@ -7,10 +7,18 @@
       "location": "elem_seventh_garrison",
       "inventory_delta": [],
       "status": [
-        { "type": "debuff", "desc": "灵渊大量透支维持护盾，战后极度疲惫", "severity": "high" }
+        {
+          "type": "debuff",
+          "desc": "灵渊大量透支维持护盾，战后极度疲惫",
+          "severity": "high"
+        }
       ],
       "knowledge_gained": [],
-      "psychology": { "sanity": 55, "mood": "沉默的坚守；灵蚀特征：叫错活人名字（泠→伊岚），记得所有死者", "erosion_load": 62 },
+      "psychology": {
+        "sanity": 55,
+        "mood": "沉默的坚守；灵蚀特征：叫错活人名字（泠→伊岚），记得所有死者",
+        "erosion_load": 62
+      },
       "abilities_delta": []
     },
     {
@@ -19,10 +27,18 @@
       "location": "elem_seventh_garrison",
       "inventory_delta": [],
       "status": [
-        { "type": "debuff", "desc": "灵蚀继续：叫昭为'乘风'（三年前战死者）；昭默默承受不纠正", "severity": "medium" }
+        {
+          "type": "debuff",
+          "desc": "灵蚀继续：叫昭为'乘风'（三年前战死者）；昭默默承受不纠正",
+          "severity": "medium"
+        }
       ],
       "knowledge_gained": [],
-      "psychology": { "sanity": 52, "mood": "固执的战后肃穆；灵蚀吞噬活人细节，死者反而更清晰", "erosion_load": 64 },
+      "psychology": {
+        "sanity": 52,
+        "mood": "固执的战后肃穆；灵蚀吞噬活人细节，死者反而更清晰",
+        "erosion_load": 64
+      },
       "abilities_delta": []
     },
     {
@@ -31,11 +47,23 @@
       "location": "elem_seventh_garrison",
       "inventory_delta": [],
       "status": [
-        { "type": "critical", "desc": "宣布抗命穹枢撤退令；叫错伊岚名字（叫出一位两年前战死者的名字），当场察觉，自行校准", "severity": "high" },
-        { "type": "debuff", "desc": "开始忘记活人的当下细节：一小时前的伊岚表情已无法清晰回忆", "severity": "high" }
+        {
+          "type": "critical",
+          "desc": "宣布抗命穹枢撤退令；叫错伊岚名字（叫出一位两年前战死者的名字），当场察觉，自行校准",
+          "severity": "high"
+        },
+        {
+          "type": "debuff",
+          "desc": "开始忘记活人的当下细节：一小时前的伊岚表情已无法清晰回忆",
+          "severity": "high"
+        }
       ],
       "knowledge_gained": [],
-      "psychology": { "sanity": 44, "mood": "固执的抗命；灵蚀进入中晚期过渡——活人当下开始模糊，但判断力尚存", "erosion_load": 71 },
+      "psychology": {
+        "sanity": 44,
+        "mood": "固执的抗命；灵蚀进入中晚期过渡——活人当下开始模糊，但判断力尚存",
+        "erosion_load": 71
+      },
       "abilities_delta": []
     },
     {
@@ -44,11 +72,23 @@
       "location": "灰珀撤离通道→荒原",
       "inventory_delta": [],
       "status": [
-        { "type": "critical", "desc": "灵蚀在战斗压力下达到临界边缘：认知层瓦解一瞬（知道路但不知道自己是'戍长'）；被伊岚渡蚀分散救住，未空壳化", "severity": "critical" },
-        { "type": "loss", "desc": "戍长认同感燃尽：不再是发号施令的戍长，只是'知道路、跟着走'的人", "severity": "high" }
+        {
+          "type": "critical",
+          "desc": "灵蚀在战斗压力下达到临界边缘：认知层瓦解一瞬（知道路但不知道自己是'戍长'）；被伊岚渡蚀分散救住，未空壳化",
+          "severity": "critical"
+        },
+        {
+          "type": "loss",
+          "desc": "戍长认同感燃尽：不再是发号施令的戍长，只是'知道路、跟着走'的人",
+          "severity": "high"
+        }
       ],
       "knowledge_gained": [],
-      "psychology": { "sanity": 30, "mood": "活着，但戍长的自我已磨尽；跟着走，不领路", "erosion_load": 85 },
+      "psychology": {
+        "sanity": 30,
+        "mood": "活着，但戍长的自我已磨尽；跟着走，不领路",
+        "erosion_load": 85
+      },
       "abilities_delta": []
     },
     {
@@ -57,11 +97,23 @@
       "location": "灰珀荒原（集合点→中途遮蔽带）",
       "inventory_delta": [],
       "status": [
-        { "type": "milestone", "desc": "顿悟新功能：灵蚀吃当下细节而旧时记忆愈发清晰——他是队伍唯一完整的旧档案；确立'记忆守卫'角色", "severity": "n/a" },
-        { "type": "debuff", "desc": "灵蚀持续：当下细节继续模糊，但旧时记忆清晰度未变；叫错活人名字的频率稳定", "severity": "medium" }
+        {
+          "type": "milestone",
+          "desc": "顿悟新功能：灵蚀吃当下细节而旧时记忆愈发清晰——他是队伍唯一完整的旧档案；确立'记忆守卫'角色",
+          "severity": "n/a"
+        },
+        {
+          "type": "debuff",
+          "desc": "灵蚀持续：当下细节继续模糊，但旧时记忆清晰度未变；叫错活人名字的频率稳定",
+          "severity": "medium"
+        }
       ],
       "knowledge_gained": [],
-      "psychology": { "sanity": 30, "mood": "清楚，不沉，接受——新功能已命名，虽无头衔但有位置；以'记住'作为继续走的理由", "erosion_load": 85 },
+      "psychology": {
+        "sanity": 30,
+        "mood": "清楚，不沉，接受——新功能已命名，虽无头衔但有位置；以'记住'作为继续走的理由",
+        "erosion_load": 85
+      },
       "abilities_delta": []
     },
     {
@@ -70,12 +122,23 @@
       "location": "elem_huipo_wasteland_east",
       "inventory_delta": [],
       "status": [
-        { "type": "milestone", "desc": "活档案功能两次部署：ch_015告知伊岚遗核昨晚动了（旧时感知精度证明）；ch_016凭对聆音两年前感知模式的记忆指出蚕母认识的是她的基础频率而非主动能力全貌——旧档案价值输出", "severity": "n/a" }
+        {
+          "type": "milestone",
+          "desc": "活档案功能两次部署：ch_015告知伊岚遗核昨晚动了（旧时感知精度证明）；ch_016凭对聆音两年前感知模式的记忆指出蚕母认识的是她的基础频率而非主动能力全貌——旧档案价值输出",
+          "severity": "n/a"
+        }
       ],
       "knowledge_gained": [
-        { "fact": "fact_lingyin_frequency_exposed", "source": "ch_016全队通报获知" }
+        {
+          "fact": "fact_lingyin_frequency_exposed",
+          "source": "ch_016全队通报获知"
+        }
       ],
-      "psychology": { "sanity": 30, "mood": "知道该说什么时就说，不该说时静默；步伐稳，不领路，在自己的位置上", "erosion_load": 85 },
+      "psychology": {
+        "sanity": 30,
+        "mood": "知道该说什么时就说，不该说时静默；步伐稳，不领路，在自己的位置上",
+        "erosion_load": 85
+      },
       "abilities_delta": []
     },
     {
@@ -84,12 +147,23 @@
       "location": "elem_huipo_wasteland_east（第二处渗水点）",
       "inventory_delta": [],
       "status": [
-        { "type": "milestone", "desc": "第二处渗水点，独自坐到伊岚旁边，说'你知道我们要去哪里'——不是质问，是陈述，是把他看见的东西放进能被看见的地方；伊岚半开口后守岩接住，说'知道方向，往那里走'，不追问更多", "severity": "n/a" }
+        {
+          "type": "milestone",
+          "desc": "第二处渗水点，独自坐到伊岚旁边，说'你知道我们要去哪里'——不是质问，是陈述，是把他看见的东西放进能被看见的地方；伊岚半开口后守岩接住，说'知道方向，往那里走'，不追问更多",
+          "severity": "n/a"
+        }
       ],
       "knowledge_gained": [
-        { "fact": "fact_yi_lan_knows_direction", "source": "ch_021：伊岚对守岩说'我想我知道大概的方向，不是目标，是方向'——第一次正面说出，守岩接住" }
+        {
+          "fact": "fact_yi_lan_knows_direction",
+          "source": "ch_021：伊岚对守岩说'我想我知道大概的方向，不是目标，是方向'——第一次正面说出，守岩接住"
+        }
       ],
-      "psychology": { "sanity": 30, "mood": "平静，在场——他做的事是把他看见的东西给人看见，不多不少；步伐稳，记忆守卫功能运转", "erosion_load": 85 },
+      "psychology": {
+        "sanity": 30,
+        "mood": "平静，在场——他做的事是把他看见的东西给人看见，不多不少；步伐稳，记忆守卫功能运转",
+        "erosion_load": 85
+      },
       "abilities_delta": []
     },
     {
@@ -98,13 +172,57 @@
       "location": "elem_huipo_wasteland_east（第五天）",
       "inventory_delta": [],
       "status": [
-        { "type": "milestone", "desc": "ch_024：伊岚向全队说出完整真相后，守岩最后说话：'你一直拿着这件事。'随后命名：'薇瑟——她把东西留给了你。不管那个方向有什么，她留的东西在你手里。往那里走。'——记忆守卫功能在情感上完成了它的最重要输出", "severity": "n/a" },
-        { "type": "milestone", "desc": "ch_025：在聆音询问薇瑟基础频率特征时，守岩在旁边静听并记入活档案——薇瑟频率特征现已进入活档案，可在未来某个需要时陈述出来", "severity": "n/a" }
+        {
+          "type": "milestone",
+          "desc": "ch_024：伊岚向全队说出完整真相后，守岩最后说话：'你一直拿着这件事。'随后命名：'薇瑟——她把东西留给了你。不管那个方向有什么，她留的东西在你手里。往那里走。'——记忆守卫功能在情感上完成了它的最重要输出",
+          "severity": "n/a"
+        },
+        {
+          "type": "milestone",
+          "desc": "ch_025：在聆音询问薇瑟基础频率特征时，守岩在旁边静听并记入活档案——薇瑟频率特征现已进入活档案，可在未来某个需要时陈述出来",
+          "severity": "n/a"
+        }
       ],
       "knowledge_gained": [
-        { "fact": "fact_wei_se_freq_signature", "source": "ch_025：聆音询问、伊岚描述、守岩聆听并记入活档案：薇瑟灵渊基础频率——低沉、稳定、接近灵渊底色、比普通感知频率更厚重久远、像从很深处发出" }
+        {
+          "fact": "fact_wei_se_freq_signature",
+          "source": "ch_025：聆音询问、伊岚描述、守岩聆听并记入活档案：薇瑟灵渊基础频率——低沉、稳定、接近灵渊底色、比普通感知频率更厚重久远、像从很深处发出"
+        }
       ],
-      "psychology": { "sanity": 30, "mood": "平静——他的话说出去了，被接住了；档案更新了；步伐稳，继续走", "erosion_load": 85 },
+      "psychology": {
+        "sanity": 30,
+        "mood": "平静——他的话说出去了，被接住了；档案更新了；步伐稳，继续走",
+        "erosion_load": 85
+      },
+      "abilities_delta": []
+    },
+    {
+      "story_time": 21,
+      "chapter_id": "ch_027–ch_028",
+      "location": "elem_deep_wasteland_east",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "ch_027：听到聆音第二节点宣告，点头，进档案。ch_028：在打破节律宣布后对伊岚说'变，但不要变得失去自己的节律'——活档案功能输出：把战术层面的打破和内部锚点的保持区分开来",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_shimu_second_node_confirmed",
+          "source": "ch_027聆音宣告全队"
+        },
+        {
+          "fact": "fact_crack_mineral_scatter",
+          "source": "ch_029全队说明时听到并存档"
+        }
+      ],
+      "psychology": {
+        "sanity": 30,
+        "mood": "平静，在场，知道该说什么时就说；裂缝方向两套裂缝的压缩陈述已经进档案",
+        "erosion_load": 85
+      },
       "abilities_delta": []
     }
   ]

@@ -4,7 +4,7 @@
     "novel_title": "星尘·灵渊挽歌",
     "novel_author": "javajoker",
     "story_time_unit": "chapter",
-    "current_chapter": 26,
+    "current_chapter": 29,
     "tier": "long_novel",
     "language": "zh-Hans",
     "genre": "星际科幻",
@@ -2373,6 +2373,150 @@
         "key_moment": "聆音感知到蚕母窄频脉冲中有约0.3秒的相位偏移——可能意味着信号来自不止一个节点",
         "pov_constraint": "聆音不知道蚕母是否真的在增设节点，还是深荒地质结构导致的反射效应；她需要更多观测才能判断"
       }
+    },
+    {
+      "id": "evt_shimu_second_node_confirmed",
+      "name": "聆音确认蚕母第二感知节点",
+      "description": "深荒第二天早晨，聆音完成在三个不同位置的7次降频窗口系统观测。相位偏移量在各位置保持一致（0.27–0.33秒，方向分离14–16度），排除地质反射（反射效应随位置变化），确认为两个独立信号来源叠加——蚕母在另一处设有第二感知节点。向全队宣告：距离三角定位已经可行。",
+      "thread_id": "thr_hive",
+      "story_time": 21,
+      "duration": 1,
+      "location": "elem_deep_wasteland_east",
+      "participants": [
+        "char_ling_yin",
+        "char_zhao",
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_shi_mu"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_shimu_signal_anomaly",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_shi_mu",
+            "kind": "tactic_upgrade",
+            "desc": "第二节点确认：蚕母现已可通过两节点信号叠加三角定位队伍的距离+方向"
+          },
+          {
+            "entity": "char_ling_yin",
+            "kind": "knowledge_confirmed",
+            "desc": "a'技术只能模糊方向，无法对抗方向+距离的组合；需要新的对策"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_027"
+      ],
+      "beat_design": {
+        "pov": "char_ling_yin",
+        "technique": "direct",
+        "scene_arc": "方法论记录 → 数据模式 → 结论 → 告知",
+        "key_moment": "聆音向全队陈述：相位偏移在三个地点数据一致，非地质所致——蚕母有第二节点，距离三角定位已经可行",
+        "pov_constraint": "聆音只关注数据与结论；她不知道这个结论会给伊岚的内心带来多大的重量"
+      }
+    },
+    {
+      "id": "evt_tactical_crisis_dual_node",
+      "name": "双节点威胁下的战术重评——打破节律",
+      "description": "聆音宣告结论后，队伍在行进中消化这个事实。昭重新分析：40分钟窗口不再是隐形期，而是已知暴露时段，蚕母现在能拿到方向+距离。他宣布新战术原则：打破节律——变速变距，让蚕母无法建立稳定的三角定位基准。伊岚同时检查遗核，发现今天比昨天明显更热——越近越危险的张力清晰化。",
+      "thread_id": "thr_garrison",
+      "story_time": 21,
+      "duration": 1,
+      "location": "elem_deep_wasteland_east",
+      "participants": [
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_shimu_second_node_confirmed",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_zhao",
+            "kind": "tactical_framework",
+            "desc": "新战术原则：打破节律（变速变距，取消固定40分钟模式）"
+          },
+          {
+            "entity": "char_yi_lan",
+            "kind": "psychology",
+            "desc": "越近越危险的清醒认知：遗核升温（接近）与双节点威胁（暴露升级）同时发生"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_028"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "parallel",
+        "scene_arc": "消化消息 → 昭的战术分析 → 遗核检查 → 打破节律宣告",
+        "key_moment": "昭说「40分钟窗口是我们的已知暴露时间，不是隐形时间」；伊岚手放口袋——遗核比昨天明显更热",
+        "pov_constraint": "伊岚不知道深荒裂缝地形是否有可利用的信号散射特性"
+      }
+    },
+    {
+      "id": "evt_wasteland_crack_scatter",
+      "name": "裂缝走廊信号散射——深荒的不完整遮蔽",
+      "description": "深荒第三天（story_time 22），昭在实施打破节律的行进中，于降频等待时近距离观察裂缝内壁，发现与地表矿石不同的深层矿物质——色深、密度高、表面有结晶状颗粒。他假设其对灵能信号有散射效果。让聆音在下一个降频窗口时，在裂缝内侧而非地表测量信号。结果：朝一个节点方向的信号相位偏移从0.3秒增加至0.8秒以上，方向分离扩大到40度——裂缝内壁矿物对该节点方向有显著散射。另一个节点方向几乎不受影响。部分遮蔽，不完整，但真实存在。",
+      "thread_id": "thr_garrison",
+      "story_time": 22,
+      "duration": 1,
+      "location": "elem_deep_wasteland_east",
+      "participants": [
+        "char_zhao",
+        "char_ling_yin",
+        "char_yi_lan",
+        "char_shou_yan"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_tactical_crisis_dual_node",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "elem_deep_wasteland_east",
+            "kind": "terrain_asset_discovered",
+            "desc": "裂缝内壁深层矿物对特定方向灵能信号有散射效果——提供不完整但真实的方向性遮蔽"
+          },
+          {
+            "entity": "char_zhao",
+            "kind": "tactical_knowledge",
+            "desc": "裂缝走廊可用作信号遮蔽资产：在裂缝内侧降频可显著降低特定节点的定位精度"
+          },
+          {
+            "entity": "char_ling_yin",
+            "kind": "knowledge_gained",
+            "desc": "裂缝散射数据：一个节点方向散射显著，另一个节点方向几乎无效——遮蔽是方向性的"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_029"
+      ],
+      "beat_design": {
+        "pov": "char_zhao",
+        "technique": "direct",
+        "scene_arc": "打破节律行进 → 裂缝内壁矿物观察 → 散射假设 → 聆音测试 → 部分有效确认",
+        "key_moment": "聆音测试结果：裂缝内侧降频，朝北侧节点方向信号散射显著（偏移从0.3s→0.8s）；南侧节点几乎不受影响——遮蔽是方向性的，不是全方位的",
+        "pov_constraint": "昭不知道蚕母是否会识别散射效果并调整节点位置；他只知道这个发现是真实的，今天有效"
+      }
     }
   ],
   "themes": [
@@ -2535,7 +2679,9 @@
         "evt_zhao_asks_target",
         "evt_hive_scout_encounter",
         "evt_subarc_a_closure",
-        "evt_terrain_shift_deep"
+        "evt_terrain_shift_deep",
+        "evt_tactical_crisis_dual_node",
+        "evt_wasteland_crack_scatter"
       ],
       "convergences": [
         {
@@ -2572,7 +2718,8 @@
         "evt_lingyin_reports_frequency_exposed",
         "evt_lingyin_subband_test",
         "evt_lingyin_subband_confirmed",
-        "evt_shimu_signal_anomaly"
+        "evt_shimu_signal_anomaly",
+        "evt_shimu_second_node_confirmed"
       ],
       "convergences": [
         {
@@ -2812,6 +2959,14 @@
       "target": "行进方向",
       "scope": "lore",
       "note": "在灵能通讯不稳定的荒原环境中，灵裔有时用工具在矿石表面刻简单箭头作为方向标记，供后续人员跟踪路线。刻痕氧化磨损速度可粗略判断年龄（灰珀矿石每年约1-2毫米表面磨损）。ch_017发现的箭头刻痕深约3-4毫米、边缘圆滑，对应至少两年。"
+    },
+    {
+      "id": "rule_0027",
+      "source": "深荒裂缝内壁深层矿物",
+      "relation": "SCATTERS",
+      "target": "灵能信号（特定方向）",
+      "scope": "geography",
+      "note": "深荒裂缝内壁暴露的深层矿物（颜色暗绿近黑，层状高压结晶结构）对垂直其层面方向传来的灵能信号有显著散射效果。在裂缝内侧接收时，朝对应矿物壁方向的蚕母窄频脉冲相位偏移可增大至外侧读数的约2.7倍（0.30→0.83秒），方向分离扩大约2.6倍（15→39度）。散射是方向性的：取决于矿物壁朝向与信号来源方向的关系，对另一方向可能完全无效。ch_029首次发现并测试确认。"
     }
   ]
 }

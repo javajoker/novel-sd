@@ -106,6 +106,20 @@
         "char_ling_yin",
         "char_shi_mu"
       ]
+    },
+    {
+      "id": "evt_shimu_second_node_confirmed",
+      "name": "聆音确认蚕母第二感知节点",
+      "story_time": 21,
+      "chapter": "ch_027",
+      "status": "drafted",
+      "participants": [
+        "char_ling_yin",
+        "char_zhao",
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_shi_mu"
+      ]
     }
   ]
 }

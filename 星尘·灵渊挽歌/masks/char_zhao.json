@@ -104,7 +104,10 @@
         { "belief": "遗核升温（通过伊岚间接读数）——方向正确，在接近", "is_true": true }
       ],
       "projected_facts_to_learn": [
-        { "fact": "fact_shimu_second_node_confirmed_or_denied", "stage": "pending_data", "trigger": "ch_027+ 聆音完成多窗口系统观测后" }
+        { "fact": "fact_shimu_second_node_confirmed", "stage": "to_learn_ch_027", "trigger": "ch_027 聆音宣告：三地七次观测，偏移恒定，第二节点确认，距离三角定位可行" },
+        { "fact": "fact_40min_window_is_exposure_not_cover", "stage": "to_derive_ch_028", "trigger": "ch_028 昭自身推导并向伊岚说明：40分钟窗口是已知暴露时间" },
+        { "fact": "fact_crack_mineral_scatter", "stage": "to_discover_ch_029", "trigger": "ch_029 昭自身观察裂缝内壁矿物，提出散射假设，聆音测试确认" },
+        { "fact": "fact_scatter_is_directional", "stage": "to_learn_ch_029", "trigger": "ch_029 聆音测试数据：北侧节点显著散射，南侧节点无效" }
       ],
       "perception": { "level": "medium", "notes": "ch_026 POV：进入深荒，完成地形战术参数重建；通过伊岚的手势读出遗核升温进度；接收聆音的相位漂移报告，等待数据而非先下结论。战术地图深荒页正在建设中。" }
     }

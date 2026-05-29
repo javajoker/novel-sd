@@ -1,7 +1,7 @@
 {
   "_note": "Index of all timeline events. Authoritative source is ontology.json#events; shards are mirrors.",
-  "last_story_time": 26,
-  "last_chapter": "ch_026",
+  "last_story_time": 29,
+  "last_chapter": "ch_029",
   "by_chapter": {
     "ch_001": [
       "evt_huipo_assault",
@@ -92,6 +92,15 @@
     "ch_026": [
       "evt_shimu_signal_anomaly",
       "evt_terrain_shift_deep"
+    ],
+    "ch_027": [
+      "evt_shimu_second_node_confirmed"
+    ],
+    "ch_028": [
+      "evt_tactical_crisis_dual_node"
+    ],
+    "ch_029": [
+      "evt_wasteland_crack_scatter"
     ]
   },
   "by_story_time": {
@@ -172,6 +181,13 @@
     "20": [
       "evt_shimu_signal_anomaly",
       "evt_terrain_shift_deep"
+    ],
+    "21": [
+      "evt_shimu_second_node_confirmed",
+      "evt_tactical_crisis_dual_node"
+    ],
+    "22": [
+      "evt_wasteland_crack_scatter"
     ]
   },
   "by_thread": {
@@ -208,7 +224,9 @@
       "evt_zhao_asks_target",
       "evt_hive_scout_encounter",
       "evt_subarc_a_closure",
-      "evt_terrain_shift_deep"
+      "evt_terrain_shift_deep",
+      "evt_tactical_crisis_dual_node",
+      "evt_wasteland_crack_scatter"
     ],
     "thr_hive": [
       "evt_wei_se_appears",
@@ -219,7 +237,8 @@
       "evt_lingyin_reports_frequency_exposed",
       "evt_lingyin_subband_test",
       "evt_lingyin_subband_confirmed",
-      "evt_shimu_signal_anomaly"
+      "evt_shimu_signal_anomaly",
+      "evt_shimu_second_node_confirmed"
     ]
   }
 }

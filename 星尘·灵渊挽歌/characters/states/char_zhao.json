@@ -6,14 +6,30 @@
       "chapter_id": "ch_001",
       "location": "elem_seventh_garrison",
       "inventory_delta": [
-        { "item": "灵能制式长铳", "action": "modify", "reason": "硬接掘地异种时丢铳改以念墙封口" }
+        {
+          "item": "灵能制式长铳",
+          "action": "modify",
+          "reason": "硬接掘地异种时丢铳改以念墙封口"
+        }
       ],
       "status": [
-        { "type": "recovery", "desc": "经伊岚渡蚀脱离灵蚀边缘，灵渊回稳", "severity": "n/a" },
-        { "type": "debuff", "desc": "灵能透支后虚脱，短时无法战斗", "severity": "medium" }
+        {
+          "type": "recovery",
+          "desc": "经伊岚渡蚀脱离灵蚀边缘，灵渊回稳",
+          "severity": "n/a"
+        },
+        {
+          "type": "debuff",
+          "desc": "灵能透支后虚脱，短时无法战斗",
+          "severity": "medium"
+        }
       ],
       "knowledge_gained": [],
-      "psychology": { "sanity": 66, "mood": "劫后的羞愧与对伊岚自损的愤怒/愧疚", "erosion_load": 12 },
+      "psychology": {
+        "sanity": 66,
+        "mood": "劫后的羞愧与对伊岚自损的愤怒/愧疚",
+        "erosion_load": 12
+      },
       "abilities_delta": []
     },
     {
@@ -22,13 +38,28 @@
       "location": "灰珀荒原·集合点",
       "inventory_delta": [],
       "status": [
-        { "type": "milestone", "desc": "傀儡兵失效后自然接替战术指挥，发出行动分配指令；无需明示授权，无需头衔确认", "severity": "n/a" },
-        { "type": "psychology", "desc": "战后分析：发现第三个探兵为专职跟踪型，与集结型探兵行为模式不同；识别出'傀儡兵倒计时盲角'被利用", "severity": "n/a" }
+        {
+          "type": "milestone",
+          "desc": "傀儡兵失效后自然接替战术指挥，发出行动分配指令；无需明示授权，无需头衔确认",
+          "severity": "n/a"
+        },
+        {
+          "type": "psychology",
+          "desc": "战后分析：发现第三个探兵为专职跟踪型，与集结型探兵行为模式不同；识别出'傀儡兵倒计时盲角'被利用",
+          "severity": "n/a"
+        }
       ],
       "knowledge_gained": [
-        { "fact": "fact_hive_tracker_individual", "source": "战后检查第三个探兵：它在傀儡兵仍有感知能力时就已就位于盲角，表明其为长期跟踪型个体，而非集结信号驱动的普通探兵" }
+        {
+          "fact": "fact_hive_tracker_individual",
+          "source": "战后检查第三个探兵：它在傀儡兵仍有感知能力时就已就位于盲角，表明其为长期跟踪型个体，而非集结信号驱动的普通探兵"
+        }
       ],
-      "psychology": { "sanity": 66, "mood": "实用性的冷静；战术分析完整，报告完整，继续守", "erosion_load": 12 },
+      "psychology": {
+        "sanity": 66,
+        "mood": "实用性的冷静；战术分析完整，报告完整，继续守",
+        "erosion_load": 12
+      },
       "abilities_delta": []
     },
     {
@@ -37,15 +68,36 @@
       "location": "elem_huipo_wasteland_east（渗水点）",
       "inventory_delta": [],
       "status": [
-        { "type": "milestone", "desc": "首次亲历窄频探测脉冲全流程降频等待；以心率计数代替计时器，在感知收缩约束下完成外围矿石目视侦察", "severity": "n/a" },
-        { "type": "psychology", "desc": "发现渗水点箭头刻痕后完成独立分析（刻痕类型、氧化程度、年代估算），随即将多条信息整合：东侧偏南——箭头+遗核信标方向+伊岚说'东'——三件事不独立", "severity": "n/a" }
+        {
+          "type": "milestone",
+          "desc": "首次亲历窄频探测脉冲全流程降频等待；以心率计数代替计时器，在感知收缩约束下完成外围矿石目视侦察",
+          "severity": "n/a"
+        },
+        {
+          "type": "psychology",
+          "desc": "发现渗水点箭头刻痕后完成独立分析（刻痕类型、氧化程度、年代估算），随即将多条信息整合：东侧偏南——箭头+遗核信标方向+伊岚说'东'——三件事不独立",
+          "severity": "n/a"
+        }
       ],
       "knowledge_gained": [
-        { "fact": "fact_lingyin_probe_interval", "source": "ch_016全队通报：蚕母40分钟发送一次针对聆音的窄频定位脉冲；方向精度高，距离估算需多节点三角定位" },
-        { "fact": "fact_wasteland_arrow_marking", "source": "ch_017：在渗水点西侧矿石底部亲自发现并验证——工具刻成的箭头，圆滑边缘对应至少两年风化，指向东侧偏南" },
-        { "fact": "fact_connections_not_independent", "source": "ch_017：三条信息收束到同一方向——他把结论放进战术地图，暂不说出" }
+        {
+          "fact": "fact_lingyin_probe_interval",
+          "source": "ch_016全队通报：蚕母40分钟发送一次针对聆音的窄频定位脉冲；方向精度高，距离估算需多节点三角定位"
+        },
+        {
+          "fact": "fact_wasteland_arrow_marking",
+          "source": "ch_017：在渗水点西侧矿石底部亲自发现并验证——工具刻成的箭头，圆滑边缘对应至少两年风化，指向东侧偏南"
+        },
+        {
+          "fact": "fact_connections_not_independent",
+          "source": "ch_017：三条信息收束到同一方向——他把结论放进战术地图，暂不说出"
+        }
       ],
-      "psychology": { "sanity": 66, "mood": "战术地图在积累信息，指向一个还没完整轮廓的结论；继续走，等合适的时候问", "erosion_load": 12 },
+      "psychology": {
+        "sanity": 66,
+        "mood": "战术地图在积累信息，指向一个还没完整轮廓的结论；继续走，等合适的时候问",
+        "erosion_load": 12
+      },
       "abilities_delta": []
     },
     {
@@ -54,12 +106,23 @@
       "location": "elem_huipo_wasteland_east（第三天）",
       "inventory_delta": [],
       "status": [
-        { "type": "milestone", "desc": "直接问伊岚'那个方向有什么'（不是问方向，是问目标）；伊岚回答'我不确定'；昭辨别这是真话但不完整的真话——她有猜测但不说；记为战术地图第四条线（伊岚有猜测），暂不追问，确定某个时候会再问、更直接", "severity": "n/a" }
+        {
+          "type": "milestone",
+          "desc": "直接问伊岚'那个方向有什么'（不是问方向，是问目标）；伊岚回答'我不确定'；昭辨别这是真话但不完整的真话——她有猜测但不说；记为战术地图第四条线（伊岚有猜测），暂不追问，确定某个时候会再问、更直接",
+          "severity": "n/a"
+        }
       ],
       "knowledge_gained": [
-        { "fact": "fact_yi_lan_has_more_info", "source": "ch_020：伊岚的回答'我不确定'是不完整的真话——昭判断她有猜测但未说出完整内容" }
+        {
+          "fact": "fact_yi_lan_has_more_info",
+          "source": "ch_020：伊岚的回答'我不确定'是不完整的真话——昭判断她有猜测但未说出完整内容"
+        }
       ],
-      "psychology": { "sanity": 66, "mood": "战术地图有四条线，目标轮廓已经成型但尚不完整；等，在合适的时候问，那一次更直接", "erosion_load": 12 },
+      "psychology": {
+        "sanity": 66,
+        "mood": "战术地图有四条线，目标轮廓已经成型但尚不完整；等，在合适的时候问，那一次更直接",
+        "erosion_load": 12
+      },
       "abilities_delta": []
     },
     {
@@ -68,14 +131,32 @@
       "location": "elem_huipo_wasteland_east（第五天）",
       "inventory_delta": [],
       "status": [
-        { "type": "milestone", "desc": "ch_024：再次直接追问'你知道的比你告诉我们的多多少'；伊岚叫来全队，说出完整真相；昭把信息归位（有信标+东侧偏南+薇瑟频率+为何选东），确认伊岚不触遗核的技术逻辑，总结：比ch_014多了一个'为什么'，信标信息量不变，只是更近了", "severity": "n/a" },
-        { "type": "milestone", "desc": "ch_025：以目标优先级重构战术框架，对伊岚明确说出——现在是在向一个信标行进，目标有优先级，某些风险值得承担，某些捷径不值得用；战术地图完整", "severity": "n/a" }
+        {
+          "type": "milestone",
+          "desc": "ch_024：再次直接追问'你知道的比你告诉我们的多多少'；伊岚叫来全队，说出完整真相；昭把信息归位（有信标+东侧偏南+薇瑟频率+为何选东），确认伊岚不触遗核的技术逻辑，总结：比ch_014多了一个'为什么'，信标信息量不变，只是更近了",
+          "severity": "n/a"
+        },
+        {
+          "type": "milestone",
+          "desc": "ch_025：以目标优先级重构战术框架，对伊岚明确说出——现在是在向一个信标行进，目标有优先级，某些风险值得承担，某些捷径不值得用；战术地图完整",
+          "severity": "n/a"
+        }
       ],
       "knowledge_gained": [
-        { "fact": "fact_yihe_response_signal_confirmed", "source": "ch_024：伊岚告知——ch_014战后以渡蚀触遗核收到东侧偏南单次脉冲回应，频率对应薇瑟，这是选东的原因" },
-        { "fact": "fact_wei_se_freq_signature", "source": "ch_024–025：全队知情；薇瑟基础频率——低沉稳定、久远、像从很深处发出" }
+        {
+          "fact": "fact_yihe_response_signal_confirmed",
+          "source": "ch_024：伊岚告知——ch_014战后以渡蚀触遗核收到东侧偏南单次脉冲回应，频率对应薇瑟，这是选东的原因"
+        },
+        {
+          "fact": "fact_wei_se_freq_signature",
+          "source": "ch_024–025：全队知情；薇瑟基础频率——低沉稳定、久远、像从很深处发出"
+        }
       ],
-      "psychology": { "sanity": 66, "mood": "战术地图完整——不只是方向，有目标，有优先级，有判断依据；工作变完整了，继续往东", "erosion_load": 12 },
+      "psychology": {
+        "sanity": 66,
+        "mood": "战术地图完整——不只是方向，有目标，有优先级，有判断依据；工作变完整了，继续往东",
+        "erosion_load": 12
+      },
       "abilities_delta": []
     },
     {
@@ -84,14 +165,90 @@
       "location": "elem_deep_wasteland_east（地质分界线→深荒腹地·第一晚营地）",
       "inventory_delta": [],
       "status": [
-        { "type": "milestone", "desc": "进入深荒（ch_026 POV）：踏过地质分界线，完成深荒地形战术参数重建——裂缝走廊两面性评估，换位风险上升，破表点密度估算上升，视野改善。选定东侧宽裂缝营地，首晚驻扎深荒。", "severity": "n/a" },
-        { "type": "psychology", "desc": "通过伊岚的'手压口袋'间接读到遗核升温——不再只是知道方向，而是能读接近进度条；战术地图补入深荒地形格子（大量问号，等数据）", "severity": "n/a" }
+        {
+          "type": "milestone",
+          "desc": "进入深荒（ch_026 POV）：踏过地质分界线，完成深荒地形战术参数重建——裂缝走廊两面性评估，换位风险上升，破表点密度估算上升，视野改善。选定东侧宽裂缝营地，首晚驻扎深荒。",
+          "severity": "n/a"
+        },
+        {
+          "type": "psychology",
+          "desc": "通过伊岚的'手压口袋'间接读到遗核升温——不再只是知道方向，而是能读接近进度条；战术地图补入深荒地形格子（大量问号，等数据）",
+          "severity": "n/a"
+        }
       ],
       "knowledge_gained": [
-        { "fact": "fact_terrain_deep_east_characteristics", "source": "ch_026自身POV：踏过地质分界线后目视+触觉评估；矿石颜色暗绿，地面裂缝纵横，砾石层消失，岩床裸露，换位风险上升" },
-        { "fact": "fact_shimu_signal_phase_anomaly", "source": "ch_026聆音报告：窄频脉冲出现约0.3秒相位偏移、约15度方向分离，两个解释（地质反射 or 第二节点），需更多观测数据" }
+        {
+          "fact": "fact_terrain_deep_east_characteristics",
+          "source": "ch_026自身POV：踏过地质分界线后目视+触觉评估；矿石颜色暗绿，地面裂缝纵横，砾石层消失，岩床裸露，换位风险上升"
+        },
+        {
+          "fact": "fact_shimu_signal_phase_anomaly",
+          "source": "ch_026聆音报告：窄频脉冲出现约0.3秒相位偏移、约15度方向分离，两个解释（地质反射 or 第二节点），需更多观测数据"
+        }
       ],
-      "psychology": { "sanity": 66, "mood": "新地形，新参数，问号在积累，等聆音数据——不焦虑，在学习；战术地图的深荒页正在建设中", "erosion_load": 12 },
+      "psychology": {
+        "sanity": 66,
+        "mood": "新地形，新参数，问号在积累，等聆音数据——不焦虑，在学习；战术地图的深荒页正在建设中",
+        "erosion_load": 12
+      },
+      "abilities_delta": []
+    },
+    {
+      "story_time": 21,
+      "chapter_id": "ch_027–ch_028",
+      "location": "elem_deep_wasteland_east",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "ch_027：接收聆音第二节点确认，沉默5秒，更新战术地图。ch_028：向伊岚说明40分钟窗口=已知暴露时间，宣布打破节律（23-57分钟随机间隔），开始实施",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_shimu_second_node_confirmed",
+          "source": "ch_027聆音宣告"
+        },
+        {
+          "fact": "fact_40min_window_is_exposure_not_cover",
+          "source": "ch_028自身推导并向伊岚说明"
+        }
+      ],
+      "psychology": {
+        "sanity": 66,
+        "mood": "战术框架再次更新，打破节律开始实施；用两套内部系统维持随机计时和地形地图",
+        "erosion_load": 12
+      },
+      "abilities_delta": []
+    },
+    {
+      "story_time": 22,
+      "chapter_id": "ch_029",
+      "location": "elem_deep_wasteland_east",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "ch_029（POV）：打破节律第一天实施；观察裂缝内壁深层矿物成分，提出散射假设，指导聆音测试；测试确认北侧节点方向散射系数约2.7，另一节点方向无效；开始建立裂缝方向索引（第一格：北偏东35度矿物壁，对北侧节点有效，散射系数2.7）",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_crack_mineral_scatter",
+          "source": "ch_029自身发现矿物特征，提出假设，聆音测试确认"
+        },
+        {
+          "fact": "fact_scatter_is_directional",
+          "source": "ch_029聆音测试数据"
+        }
+      ],
+      "psychology": {
+        "sanity": 66,
+        "mood": "深荒裂缝走廊现在是战术资产；开始建立裂缝方向索引；南侧节点位置待确认",
+        "erosion_load": 12
+      },
       "abilities_delta": []
     }
   ]

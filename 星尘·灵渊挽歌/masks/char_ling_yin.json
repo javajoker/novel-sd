@@ -160,7 +160,10 @@
         { "belief": "我在a'的低功率状态下也许能识别东侧偏南方向的薇瑟频率", "is_true": "to_be_tested" }
       ],
       "projected_facts_to_learn": [
-        { "fact": "fact_shimu_signal_phase_anomaly", "stage": "to_discover", "trigger": "ch_026 深荒地形中察觉窄频脉冲相位漂移——地质反射还是第二节点？" }
+        { "fact": "fact_shimu_signal_phase_anomaly", "stage": "to_discover", "trigger": "ch_026 深荒地形中察觉窄频脉冲相位漂移——地质反射还是第二节点？" },
+        { "fact": "fact_shimu_second_node_confirmed", "stage": "to_confirm_ch_027", "trigger": "ch_027 完成三地七次观测，偏移恒定→非地质→第二节点确认" },
+        { "fact": "fact_crack_mineral_scatter", "stage": "to_test_ch_029", "trigger": "ch_029 昭提出假设，聆音测试裂缝内壁散射效果" },
+        { "fact": "fact_scatter_is_directional", "stage": "to_discover_ch_029", "trigger": "ch_029 测试数据：北侧节点显著散射，南侧节点无效" }
       ],
       "perception": {
         "level": "high",
