@@ -189,6 +189,37 @@ Phase C updates all KB files in the canonical sequence below — this order prev
 dependency conflicts (states before masks, masks before ontology relations, ontology
 before timeline mirrors, etc.).
 
+### C-0 — Automation + the sync gate (run this; do not hand-skip the mirrors)
+
+Several Phase-C steps are **deterministic mirrors** of canon (the prose + beat sheets)
+and carry no authorial judgement: the chapter cursor, `timeline/calendar.json`, outline
+chapter status, and the *existence* of a per-chapter summary entry. These are exactly the
+steps that get silently dropped under batch pressure — leaving the calendar and memory
+frozen dozens of chapters behind the prose. **Do not regenerate them by hand.** Run:
+
+```
+python .claude/skills/narrative-execution/scripts/sync_kb.py --write <novel-slug>/
+```
+
+It propagates only facts already in canon (it parses each chapter's `siege_day N` as the
+authoritative world clock), normalizes off-vocabulary statuses (`written` → `drafted`),
+advances `current_chapter`, rebuilds `chapter_to_story_time` / `chapter_to_world_day`, and
+appends **skeleton** summary entries (marked `"_autogen": true`) for any missing chapter.
+It deliberately does **not** fabricate authorial content: relation edges, plot-thread
+occurrences, convergences, and the *prose* of summaries still need the manual passes below
+(C-1, C-2, C-3 relations, C-7 plot_threads, enriching the `_autogen` summaries).
+
+**The gate (non-skippable):** a chapter/batch is not "done" until the freshness gate is
+green:
+
+```
+python .claude/skills/narrative-ontology/scripts/validate_narrative.py <novel-slug>/
+```
+
+This now **errors** (exit 1) if the cursor/calendar/summaries/status lag the written
+chapters — so a truncated Phase C can no longer hide behind a green "✓ valid". Do not
+commit a batch while this gate is red. (`--no-freshness` runs structural checks only.)
+
 ### C-1 — Character state snapshots
 
 For every character whose inventory, status, psychology, or knowledge changed in the
@@ -427,7 +458,11 @@ or just see it?
 - [ ] `memory/summaries.json` — new chapter entry; volume entry updated if arc shifted.
 - [ ] `memory/plot_threads.json` — occurrences updated; resolved/new hooks filed.
 - [ ] Ripple check (RIPPLE-02) run; conflicts flagged (or confirmed none).
-- [ ] `validate_narrative.py` passes; event `status` advanced to `final`.
+- [ ] `sync_kb.py --write` run so the deterministic mirrors (cursor, calendar,
+      outline status, summary skeletons) match the prose.
+- [ ] **Freshness gate green:** `validate_narrative.py` passes with NO `[freshness]`
+      errors (calendar/cursor/summaries/status all keep pace with written chapters);
+      event `status` advanced. Do not commit a batch while this gate is red.
 
 ---
 
@@ -457,7 +492,15 @@ or just see it?
 - **Leaving the calendar frozen (C-5 violation).** `timeline/calendar.json` is
   state-bearing, not static — advance `current_story_time`/`current_chapter` and append the
   `chapter_to_story_time` entry every chapter. A calendar stuck at ch_001 silently breaks
-  the time-of-story context the next chapter loads under CTX-01.
+  the time-of-story context the next chapter loads under CTX-01. **This is now enforced:**
+  `sync_kb.py` regenerates it from canon and `validate_narrative.py` errors if it lags.
+- **Truncating Phase C to "the files I remember" (the drift trap).** Updating only
+  states/masks/ontology and skipping the calendar + memory mirrors is how a KB silently
+  rots — it passes the *old* structural validator while the timeline and summaries freeze
+  chapters behind. Always finish with `sync_kb.py --write` + a green freshness gate.
+- **Inventing a status word.** Chapter status vocabulary is fixed: `planned → beats_ready →
+  drafted → final` (`partially_drafted` for in-progress multi-chapter events). Do not coin
+  synonyms like `written`; they pass nothing and the validator rejects them.
 - **Loading the full event graph to write one chapter (CTX-01 violation).** Use the
   `timeline/events/index.json` + the POV thread shard; pull other shards only when a beat
   names a cross-thread event. Never read `ontology.json.events` in full just to draft.

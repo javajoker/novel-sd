@@ -21,23 +21,35 @@ Checks performed:
     9. outline/structure.json: chapter.beat_sheet_ref files exist; planned_events
        resolve to declared events.
    10. Referenced *_ref files in entities exist on disk.
+   11. Phase-C freshness (sync gate): the deterministic mirrors keep pace with the
+       written prose — ontology.source.current_chapter, timeline/calendar.json
+       (current_chapter + chapter_to_story_time coverage), memory/summaries.json
+       (one entry per chapter), outline status, and narrated-event status. A frozen
+       calendar / stale cursor is an ERROR (it breaks the next chapter's CTX-01
+       context load). Open plot hooks with no occurrences are a WARNING (manual).
+       Repair with narrative-execution/scripts/sync_kb.py --write. Skip with
+       --no-freshness.
 
 Exit codes: 0 valid, 1 invalid, 2 usage error.
 
 Usage:
-  python validate_narrative.py <novel-slug>/            # validate whole KB
+  python validate_narrative.py <novel-slug>/            # validate whole KB (incl. freshness)
+  python validate_narrative.py --no-freshness <slug>/   # structural checks only
   python validate_narrative.py --graph <novel-slug>/ontology.json   # graph only
 """
 from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 
 BASE_ENTITY_TYPES = {"Person", "Place", "Organization", "Object", "Concept", "Work", "Other"}
 SCHEMA_VERSION = "1.0-narrative"
 DEP_RELATIONS = {"PRECEDES", "CAUSES", "ENABLES", "RETALIATION", "HAPPENED_AFTER"}
+CH_NUM_RE = re.compile(r"ch_0*(\d+)")
+DRAFTED_STATUSES = {"drafted", "final", "partially_drafted"}
 
 errors: list[str] = []
 warnings: list[str] = []
@@ -168,7 +180,90 @@ def validate_graph(path: Path) -> set[str]:
     return entity_ids
 
 
-def validate_kb(root: Path) -> None:
+def _ch_num(cid: str) -> int | None:
+    m = CH_NUM_RE.search(cid or "")
+    return int(m.group(1)) if m else None
+
+
+def validate_freshness(root: Path) -> None:
+    """Phase-C sync gate: the deterministic mirrors (cursors, calendar, summaries,
+    outline status) must keep pace with the written prose. A frozen calendar or a
+    stale current_chapter silently breaks the time-of-story context the NEXT chapter
+    loads under CTX-01 — so these count as ERRORS, not cosmetic warnings.
+
+    Run `narrative-execution/scripts/sync_kb.py --write <kb>` to repair the
+    deterministic mirrors; plot-thread occurrences still need a manual pass.
+    """
+    chapters = sorted(p.stem for p in (root / "chapters").glob("ch_*.md"))
+    nums = [n for n in (_ch_num(c) for c in chapters) if n is not None]
+    if not nums:
+        return  # nothing drafted yet
+    max_num = max(nums)
+    written_ids = set(chapters)
+
+    # current_chapter cursor (ontology.json.source.current_chapter)
+    onto = load(root / "ontology.json")
+    if isinstance(onto, dict):
+        cur = onto.get("source", {}).get("current_chapter")
+        if cur != max_num:
+            err(f"[freshness] ontology.source.current_chapter={cur} but latest written chapter is {max_num}")
+        # events that were narrated in a chapter must not still be 'planned'
+        beats_dir = root / "outline" / "beats"
+        covered: set[str] = set()
+        for cid in written_ids:
+            b = load(beats_dir / f"{cid}.json")
+            if isinstance(b, dict):
+                covered.update(b.get("events_covered") or [])
+        stale_events = [ev.get("id") for ev in onto.get("events", [])
+                        if ev.get("id") in covered and ev.get("status") in ("planned", None)]
+        if stale_events:
+            err(f"[freshness] {len(stale_events)} event(s) narrated in written chapters still "
+                f"status=planned: {', '.join(stale_events)}")
+
+    # calendar (state-bearing — must not be frozen)
+    cal = load(root / "timeline" / "calendar.json")
+    if isinstance(cal, dict):
+        if cal.get("current_chapter") != max_num:
+            err(f"[freshness] calendar.current_chapter={cal.get('current_chapter')} but latest "
+                f"written chapter is {max_num} (calendar is frozen)")
+        cts = cal.get("chapter_to_story_time") or {}
+        missing = sorted(written_ids - set(cts.keys()))
+        if missing:
+            err(f"[freshness] calendar.chapter_to_story_time missing {len(missing)} chapter(s): "
+                f"{missing[0]}..{missing[-1]}")
+
+    # memory summaries: one entry per written chapter
+    summ = load(root / "memory" / "summaries.json")
+    if isinstance(summ, dict):
+        have = {e.get("chapter_id") for e in summ.get("chapter_summaries", [])}
+        missing = sorted(written_ids - have)
+        if missing:
+            err(f"[freshness] memory/summaries.json missing {len(missing)} chapter summary/ies: "
+                f"{missing[0]}..{missing[-1]}")
+
+    # outline status: a written chapter should not still read planned/beats_ready
+    struct = load(root / "outline" / "structure.json")
+    if isinstance(struct, dict):
+        lagging = []
+        for vol in struct.get("volumes", []):
+            for ch in vol.get("chapters", []):
+                if ch.get("id") in written_ids and ch.get("status") not in DRAFTED_STATUSES:
+                    lagging.append(ch.get("id"))
+        if lagging:
+            err(f"[freshness] outline/structure.json: {len(lagging)} written chapter(s) still "
+                f"not marked drafted: {', '.join(sorted(lagging))}")
+
+    # plot threads: open hooks with no occurrences — manual judgement, so WARN only
+    pt = load(root / "memory" / "plot_threads.json")
+    if isinstance(pt, dict):
+        empty = [h.get("id") or h.get("hook_id") for h in pt.get("plot_hooks", [])
+                 if h.get("status") == "open" and not (h.get("occurrences") or [])]
+        if empty:
+            warn(f"[freshness] {len(empty)} open plot hook(s) have no recorded occurrences "
+                 f"(track manually as scenes touch them): {', '.join(str(x) for x in empty)}")
+
+
+def validate_kb(root: Path, check_freshness: bool = True) -> None:
     entity_ids = validate_graph(root / "ontology.json")
 
     # 7. character state timelines
@@ -219,11 +314,18 @@ def validate_kb(root: Path) -> None:
                 if ref and not (root / ref).exists():
                     warn(f"entity {e.get('id')}: {ref_key} {ref!r} does not exist yet")
 
+    # 11. Phase-C freshness: deterministic mirrors must keep pace with the prose
+    if check_freshness:
+        validate_freshness(root)
+
 
 def main():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("path", help="novel KB root directory, or a single ontology.json with --graph")
     p.add_argument("--graph", action="store_true", help="validate only the canonical graph file at <path>")
+    p.add_argument("--no-freshness", action="store_true",
+                   help="skip the Phase-C freshness gate (cursors/calendar/summaries/status "
+                        "vs. written chapters); structural checks only")
     args = p.parse_args()
 
     path = Path(args.path)
@@ -237,7 +339,7 @@ def main():
         if not path.is_dir():
             print(f"expected a KB directory (or use --graph for a single file): {path}", file=sys.stderr)
             sys.exit(2)
-        validate_kb(path)
+        validate_kb(path, check_freshness=not args.no_freshness)
 
     for w in warnings:
         print(f"  ⚠ {w}", file=sys.stderr)
