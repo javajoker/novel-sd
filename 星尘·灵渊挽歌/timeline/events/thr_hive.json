@@ -1,0 +1,111 @@
+{
+  "_note": "Per-thread mirror of ontology.json#events. Authoritative source is ontology.json#events; regenerate with sync_events.py --write.",
+  "thread_id": "thr_hive",
+  "events": [
+    {
+      "id": "evt_wei_se_appears",
+      "name": "空壳薇瑟现身突破口",
+      "story_time": 1,
+      "chapter": "ch_001",
+      "status": "drafted",
+      "participants": [
+        "char_wei_se",
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_shi_mu_marks_lingyin",
+      "name": "蚀母锁定聆音灵渊",
+      "story_time": 3,
+      "chapter": "ch_004",
+      "status": "drafted",
+      "participants": [
+        "char_shi_mu",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_shimu_signal_mobile",
+      "name": "蚀母信号确认为移动锁定",
+      "story_time": 9,
+      "chapter": "ch_009",
+      "status": "drafted",
+      "participants": [
+        "char_shi_mu",
+        "char_ling_yin",
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_shimu_learning_rhythm",
+      "name": "蚀母信号开始学习停驻节律",
+      "story_time": 10,
+      "chapter": "ch_010",
+      "status": "drafted",
+      "participants": [
+        "char_shi_mu",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_lingyin_active_pulse",
+      "name": "聆音主动全频脉冲击散集结",
+      "story_time": 14,
+      "chapter": "ch_014",
+      "status": "drafted",
+      "participants": [
+        "char_ling_yin",
+        "char_shi_mu"
+      ]
+    },
+    {
+      "id": "evt_lingyin_reports_frequency_exposed",
+      "name": "聆音报告频率暴露——窄频定位脉冲",
+      "story_time": 15,
+      "chapter": "ch_016",
+      "status": "drafted",
+      "participants": [
+        "char_ling_yin",
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_shi_mu"
+      ]
+    },
+    {
+      "id": "evt_lingyin_subband_test",
+      "name": "聆音的子频段假设与测试过程",
+      "story_time": 16,
+      "chapter": "ch_018",
+      "status": "drafted",
+      "participants": [
+        "char_ling_yin",
+        "char_shi_mu"
+      ]
+    },
+    {
+      "id": "evt_lingyin_subband_confirmed",
+      "name": "聆音公布a'子频段技术",
+      "story_time": 18,
+      "chapter": "ch_022",
+      "status": "drafted",
+      "participants": [
+        "char_ling_yin",
+        "char_zhao",
+        "char_yi_lan",
+        "char_shou_yan"
+      ]
+    },
+    {
+      "id": "evt_shimu_signal_anomaly",
+      "name": "蚕母信号出现相位漂移——疑似第二节点",
+      "story_time": 20,
+      "chapter": "ch_026",
+      "status": "drafted",
+      "participants": [
+        "char_ling_yin",
+        "char_shi_mu"
+      ]
+    }
+  ]
+}

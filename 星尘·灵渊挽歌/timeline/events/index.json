@@ -1,0 +1,225 @@
+{
+  "_note": "Index of all timeline events. Authoritative source is ontology.json#events; shards are mirrors.",
+  "last_story_time": 26,
+  "last_chapter": "ch_026",
+  "by_chapter": {
+    "ch_001": [
+      "evt_huipo_assault",
+      "evt_wei_se_appears",
+      "evt_yi_lan_dushi_zhao"
+    ],
+    "ch_002": [
+      "evt_yi_lan_discovers_memory_loss"
+    ],
+    "ch_003": [
+      "evt_garrison_accepts_deal",
+      "evt_kai_er_arrives"
+    ],
+    "ch_004": [
+      "evt_shi_mu_marks_lingyin"
+    ],
+    "ch_005": [
+      "evt_qiongshu_retreat_order"
+    ],
+    "ch_006": [
+      "evt_lingyin_challenges_yi_lan"
+    ],
+    "ch_007": [
+      "evt_yi_lan_forgets_wei_se_face"
+    ],
+    "ch_008": [
+      "evt_garrison_breakout",
+      "evt_yi_lan_dushi_scattered"
+    ],
+    "ch_009": [
+      "evt_garrison_abandons_huipo",
+      "evt_shimu_signal_mobile"
+    ],
+    "ch_010": [
+      "evt_shimu_learning_rhythm",
+      "evt_shou_yan_carves_names"
+    ],
+    "ch_011": [
+      "evt_first_open_combat",
+      "evt_hive_tracker_discovered",
+      "evt_puppets_fail"
+    ],
+    "ch_012": [
+      "evt_yihe_beacon_revealed",
+      "evt_yihe_resonance_discovered"
+    ],
+    "ch_013": [
+      "evt_shouyan_memory_keeper"
+    ],
+    "ch_014": [
+      "evt_lingyin_active_pulse",
+      "evt_open_terrain_battle",
+      "evt_shou_yan_names_suixing",
+      "evt_yihe_response_signal"
+    ],
+    "ch_016": [
+      "evt_lingyin_reports_frequency_exposed"
+    ],
+    "ch_015": [
+      "evt_yi_lan_decides_east"
+    ],
+    "ch_017": [
+      "evt_zhao_discovers_arrow_carving"
+    ],
+    "ch_018": [
+      "evt_lingyin_subband_test",
+      "evt_team_rhythm"
+    ],
+    "ch_021": [
+      "evt_yilan_first_half_confession"
+    ],
+    "ch_020": [
+      "evt_zhao_asks_target"
+    ],
+    "ch_023": [
+      "evt_hive_scout_encounter",
+      "evt_yihe_warming"
+    ],
+    "ch_022": [
+      "evt_lingyin_subband_confirmed"
+    ],
+    "ch_025": [
+      "evt_subarc_a_closure"
+    ],
+    "ch_024": [
+      "evt_yilan_full_confession"
+    ],
+    "ch_026": [
+      "evt_shimu_signal_anomaly",
+      "evt_terrain_shift_deep"
+    ]
+  },
+  "by_story_time": {
+    "1": [
+      "evt_huipo_assault",
+      "evt_wei_se_appears",
+      "evt_yi_lan_dushi_zhao"
+    ],
+    "2": [
+      "evt_yi_lan_discovers_memory_loss"
+    ],
+    "3": [
+      "evt_garrison_accepts_deal",
+      "evt_kai_er_arrives",
+      "evt_shi_mu_marks_lingyin"
+    ],
+    "5": [
+      "evt_qiongshu_retreat_order"
+    ],
+    "6": [
+      "evt_lingyin_challenges_yi_lan"
+    ],
+    "7": [
+      "evt_yi_lan_forgets_wei_se_face"
+    ],
+    "8": [
+      "evt_garrison_breakout",
+      "evt_yi_lan_dushi_scattered"
+    ],
+    "9": [
+      "evt_garrison_abandons_huipo",
+      "evt_shimu_signal_mobile"
+    ],
+    "10": [
+      "evt_shimu_learning_rhythm",
+      "evt_shou_yan_carves_names"
+    ],
+    "11": [
+      "evt_first_open_combat",
+      "evt_hive_tracker_discovered",
+      "evt_puppets_fail"
+    ],
+    "12": [
+      "evt_yihe_beacon_revealed",
+      "evt_yihe_resonance_discovered"
+    ],
+    "13": [
+      "evt_shouyan_memory_keeper"
+    ],
+    "14": [
+      "evt_lingyin_active_pulse",
+      "evt_open_terrain_battle",
+      "evt_shou_yan_names_suixing",
+      "evt_yihe_response_signal"
+    ],
+    "15": [
+      "evt_lingyin_reports_frequency_exposed",
+      "evt_yi_lan_decides_east",
+      "evt_zhao_discovers_arrow_carving"
+    ],
+    "16": [
+      "evt_lingyin_subband_test",
+      "evt_team_rhythm"
+    ],
+    "17": [
+      "evt_yilan_first_half_confession",
+      "evt_zhao_asks_target"
+    ],
+    "18": [
+      "evt_hive_scout_encounter",
+      "evt_lingyin_subband_confirmed",
+      "evt_yihe_warming"
+    ],
+    "19": [
+      "evt_subarc_a_closure",
+      "evt_yilan_full_confession"
+    ],
+    "20": [
+      "evt_shimu_signal_anomaly",
+      "evt_terrain_shift_deep"
+    ]
+  },
+  "by_thread": {
+    "thr_yi_lan": [
+      "evt_yi_lan_dushi_zhao",
+      "evt_yi_lan_discovers_memory_loss",
+      "evt_lingyin_challenges_yi_lan",
+      "evt_yi_lan_forgets_wei_se_face",
+      "evt_yi_lan_dushi_scattered",
+      "evt_yihe_resonance_discovered",
+      "evt_yihe_beacon_revealed",
+      "evt_yihe_response_signal",
+      "evt_yi_lan_decides_east",
+      "evt_yilan_first_half_confession",
+      "evt_yihe_warming",
+      "evt_yilan_full_confession"
+    ],
+    "thr_garrison": [
+      "evt_huipo_assault",
+      "evt_kai_er_arrives",
+      "evt_garrison_accepts_deal",
+      "evt_qiongshu_retreat_order",
+      "evt_garrison_breakout",
+      "evt_garrison_abandons_huipo",
+      "evt_shou_yan_carves_names",
+      "evt_puppets_fail",
+      "evt_first_open_combat",
+      "evt_hive_tracker_discovered",
+      "evt_shouyan_memory_keeper",
+      "evt_open_terrain_battle",
+      "evt_shou_yan_names_suixing",
+      "evt_zhao_discovers_arrow_carving",
+      "evt_team_rhythm",
+      "evt_zhao_asks_target",
+      "evt_hive_scout_encounter",
+      "evt_subarc_a_closure",
+      "evt_terrain_shift_deep"
+    ],
+    "thr_hive": [
+      "evt_wei_se_appears",
+      "evt_shi_mu_marks_lingyin",
+      "evt_shimu_signal_mobile",
+      "evt_shimu_learning_rhythm",
+      "evt_lingyin_active_pulse",
+      "evt_lingyin_reports_frequency_exposed",
+      "evt_lingyin_subband_test",
+      "evt_lingyin_subband_confirmed",
+      "evt_shimu_signal_anomaly"
+    ]
+  }
+}

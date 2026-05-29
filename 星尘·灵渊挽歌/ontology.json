@@ -2045,15 +2045,28 @@
         "char_yi_lan",
         "char_shou_yan"
       ],
-      "chapter_ids": ["ch_022"],
+      "chapter_ids": [
+        "ch_022"
+      ],
       "status": "drafted",
       "dependencies": [
-        { "event": "evt_lingyin_subband_test", "relation": "CAUSES" }
+        {
+          "event": "evt_lingyin_subband_test",
+          "relation": "CAUSES"
+        }
       ],
       "projected_outcome": {
         "state_changes": [
-          { "entity": "char_ling_yin", "kind": "capability_confirmed", "desc": "a'子频段技术向队伍公布，成为战术资产" },
-          { "entity": "char_yi_lan", "kind": "psychology", "desc": "看见镜子——聆音有测试逻辑，她自己在等什么？" }
+          {
+            "entity": "char_ling_yin",
+            "kind": "capability_confirmed",
+            "desc": "a'子频段技术向队伍公布，成为战术资产"
+          },
+          {
+            "entity": "char_yi_lan",
+            "kind": "psychology",
+            "desc": "看见镜子——聆音有测试逻辑，她自己在等什么？"
+          }
         ]
       },
       "beat_design": {
@@ -2078,15 +2091,28 @@
         "char_zhao",
         "char_shou_yan"
       ],
-      "chapter_ids": ["ch_023"],
+      "chapter_ids": [
+        "ch_023"
+      ],
       "status": "drafted",
       "dependencies": [
-        { "event": "evt_lingyin_subband_confirmed", "relation": "ENABLES" }
+        {
+          "event": "evt_lingyin_subband_confirmed",
+          "relation": "ENABLES"
+        }
       ],
       "projected_outcome": {
         "state_changes": [
-          { "entity": "char_ling_yin", "kind": "ability_used", "desc": "a'战术首次实战；临时切回A暴露频率" },
-          { "entity": "char_shi_mu", "kind": "knowledge_gained", "desc": "短暂精准定位后再次模糊——蚕母确认聆音仍在东行方向" }
+          {
+            "entity": "char_ling_yin",
+            "kind": "ability_used",
+            "desc": "a'战术首次实战；临时切回A暴露频率"
+          },
+          {
+            "entity": "char_shi_mu",
+            "kind": "knowledge_gained",
+            "desc": "短暂精准定位后再次模糊——蚕母确认聆音仍在东行方向"
+          }
         ]
       },
       "beat_design": {
@@ -2108,15 +2134,28 @@
       "participants": [
         "char_yi_lan"
       ],
-      "chapter_ids": ["ch_023"],
+      "chapter_ids": [
+        "ch_023"
+      ],
       "status": "drafted",
       "dependencies": [
-        { "event": "evt_yihe_beacon_revealed", "relation": "PRECEDES" }
+        {
+          "event": "evt_yihe_beacon_revealed",
+          "relation": "PRECEDES"
+        }
       ],
       "projected_outcome": {
         "state_changes": [
-          { "entity": "elem_wei_se_core", "kind": "signal_strengthening", "desc": "基础热度上升，确认距信标来源持续接近" },
-          { "entity": "char_yi_lan", "kind": "psychology", "desc": "对自己诚实：在等的是勇气而非确认；昭将再次问，那时候要告诉他" }
+          {
+            "entity": "elem_wei_se_core",
+            "kind": "signal_strengthening",
+            "desc": "基础热度上升，确认距信标来源持续接近"
+          },
+          {
+            "entity": "char_yi_lan",
+            "kind": "psychology",
+            "desc": "对自己诚实：在等的是勇气而非确认；昭将再次问，那时候要告诉他"
+          }
         ]
       },
       "beat_design": {
@@ -2141,19 +2180,40 @@
         "char_shou_yan",
         "char_ling_yin"
       ],
-      "chapter_ids": ["ch_024"],
+      "chapter_ids": [
+        "ch_024"
+      ],
       "status": "drafted",
       "dependencies": [
-        { "event": "evt_yihe_warming", "relation": "CAUSES" },
-        { "event": "evt_zhao_asks_target", "relation": "ENABLES" }
+        {
+          "event": "evt_yihe_warming",
+          "relation": "CAUSES"
+        },
+        {
+          "event": "evt_zhao_asks_target",
+          "relation": "ENABLES"
+        }
       ],
       "projected_outcome": {
         "relation_shifts": [
-          { "subject": "char_yi_lan", "object": "char_zhao", "predicate_change": "full_disclosure", "delta": "随行节律里的松动节点消失；完整共担建立" }
+          {
+            "subject": "char_yi_lan",
+            "object": "char_zhao",
+            "predicate_change": "full_disclosure",
+            "delta": "随行节律里的松动节点消失；完整共担建立"
+          }
         ],
         "state_changes": [
-          { "entity": "char_yi_lan", "kind": "milestone", "desc": "Sub-arc A最重要的单一事件完成：随行共担从情感到事实" },
-          { "entity": "char_zhao", "kind": "knowledge_gained", "desc": "目标信息完整：信标+方向+薇瑟频率；战术地图可以用目标做判断" }
+          {
+            "entity": "char_yi_lan",
+            "kind": "milestone",
+            "desc": "Sub-arc A最重要的单一事件完成：随行共担从情感到事实"
+          },
+          {
+            "entity": "char_zhao",
+            "kind": "knowledge_gained",
+            "desc": "目标信息完整：信标+方向+薇瑟频率；战术地图可以用目标做判断"
+          }
         ]
       },
       "beat_design": {
@@ -2178,17 +2238,38 @@
         "char_shou_yan",
         "char_ling_yin"
       ],
-      "chapter_ids": ["ch_025"],
+      "chapter_ids": [
+        "ch_025"
+      ],
       "status": "drafted",
       "dependencies": [
-        { "event": "evt_yilan_full_confession", "relation": "CAUSES" }
+        {
+          "event": "evt_yilan_full_confession",
+          "relation": "CAUSES"
+        }
       ],
       "projected_outcome": {
         "state_changes": [
-          { "entity": "char_ling_yin", "kind": "knowledge_gained", "desc": "薇瑟基础频率特征记入感知记忆——Sub-arc B的远程感知依据" },
-          { "entity": "char_shou_yan", "kind": "archive_updated", "desc": "薇瑟频率特征记入活档案" },
-          { "entity": "char_zhao", "kind": "tactical_framework", "desc": "以目标优先级重构战术地图，对伊岚明言" },
-          { "entity": "char_yi_lan", "kind": "milestone", "desc": "随行真义内化：不是带着三人，是四人各自以各自方式往同一方向走" }
+          {
+            "entity": "char_ling_yin",
+            "kind": "knowledge_gained",
+            "desc": "薇瑟基础频率特征记入感知记忆——Sub-arc B的远程感知依据"
+          },
+          {
+            "entity": "char_shou_yan",
+            "kind": "archive_updated",
+            "desc": "薇瑟频率特征记入活档案"
+          },
+          {
+            "entity": "char_zhao",
+            "kind": "tactical_framework",
+            "desc": "以目标优先级重构战术地图，对伊岚明言"
+          },
+          {
+            "entity": "char_yi_lan",
+            "kind": "milestone",
+            "desc": "随行真义内化：不是带着三人，是四人各自以各自方式往同一方向走"
+          }
         ]
       },
       "beat_design": {
@@ -2213,15 +2294,28 @@
         "char_zhao",
         "char_ling_yin"
       ],
-      "chapter_ids": ["ch_026"],
+      "chapter_ids": [
+        "ch_026"
+      ],
       "status": "drafted",
       "dependencies": [
-        { "event": "evt_subarc_a_closure", "relation": "PRECEDES" }
+        {
+          "event": "evt_subarc_a_closure",
+          "relation": "PRECEDES"
+        }
       ],
       "projected_outcome": {
         "state_changes": [
-          { "entity": "char_zhao", "kind": "tactical_knowledge", "desc": "深荒地形特征建立新的战术参数——裂缝走廊可用于遮蔽但也限制机动" },
-          { "entity": "elem_wei_se_core", "kind": "signal_strengthening", "desc": "遗核持续升温，Sub-arc B的接近进度明显" }
+          {
+            "entity": "char_zhao",
+            "kind": "tactical_knowledge",
+            "desc": "深荒地形特征建立新的战术参数——裂缝走廊可用于遮蔽但也限制机动"
+          },
+          {
+            "entity": "elem_wei_se_core",
+            "kind": "signal_strengthening",
+            "desc": "遗核持续升温，Sub-arc B的接近进度明显"
+          }
         ]
       },
       "beat_design": {
@@ -2244,16 +2338,32 @@
         "char_ling_yin",
         "char_shi_mu"
       ],
-      "chapter_ids": ["ch_026"],
+      "chapter_ids": [
+        "ch_026"
+      ],
       "status": "drafted",
       "dependencies": [
-        { "event": "evt_hive_scout_encounter", "relation": "CAUSES" },
-        { "event": "evt_terrain_shift_deep", "relation": "ENABLES" }
+        {
+          "event": "evt_hive_scout_encounter",
+          "relation": "CAUSES"
+        },
+        {
+          "event": "evt_terrain_shift_deep",
+          "relation": "ENABLES"
+        }
       ],
       "projected_outcome": {
         "state_changes": [
-          { "entity": "char_shi_mu", "kind": "tactic_upgrade_suspected", "desc": "疑似部署第二感知节点——距离三角定位能力正在建立中" },
-          { "entity": "char_ling_yin", "kind": "psychology", "desc": "观察到相位漂移，压住不说，等数据——方法论一贯：准备好了再说" }
+          {
+            "entity": "char_shi_mu",
+            "kind": "tactic_upgrade_suspected",
+            "desc": "疑似部署第二感知节点——距离三角定位能力正在建立中"
+          },
+          {
+            "entity": "char_ling_yin",
+            "kind": "psychology",
+            "desc": "观察到相位漂移，压住不说，等数据——方法论一贯：准备好了再说"
+          }
         ]
       },
       "beat_design": {
@@ -2361,8 +2471,7 @@
         "evt_yi_lan_decides_east",
         "evt_yilan_first_half_confession",
         "evt_yihe_warming",
-        "evt_yilan_full_confession",
-        "evt_subarc_a_closure"
+        "evt_yilan_full_confession"
       ],
       "convergences": [
         {
@@ -2425,7 +2534,6 @@
         "evt_team_rhythm",
         "evt_zhao_asks_target",
         "evt_hive_scout_encounter",
-        "evt_yilan_full_confession",
         "evt_subarc_a_closure",
         "evt_terrain_shift_deep"
       ],
@@ -2464,7 +2572,6 @@
         "evt_lingyin_reports_frequency_exposed",
         "evt_lingyin_subband_test",
         "evt_lingyin_subband_confirmed",
-        "evt_hive_scout_encounter",
         "evt_shimu_signal_anomaly"
       ],
       "convergences": [

@@ -1,0 +1,235 @@
+{
+  "_note": "Per-thread mirror of ontology.json#events. Authoritative source is ontology.json#events; regenerate with sync_events.py --write.",
+  "thread_id": "thr_garrison",
+  "events": [
+    {
+      "id": "evt_huipo_assault",
+      "name": "灰珀·第七戍垒强袭战",
+      "story_time": 1,
+      "chapter": "ch_001",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_garrison_accepts_deal",
+      "name": "戍队接受联邦协定",
+      "story_time": 3,
+      "chapter": "ch_003",
+      "status": "drafted",
+      "participants": [
+        "char_shou_yan",
+        "char_yi_lan",
+        "char_kai_er"
+      ]
+    },
+    {
+      "id": "evt_kai_er_arrives",
+      "name": "凯尔带来联邦协定",
+      "story_time": 3,
+      "chapter": "ch_003",
+      "status": "drafted",
+      "participants": [
+        "char_kai_er",
+        "char_shou_yan",
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_qiongshu_retreat_order",
+      "name": "穹枢撤退令",
+      "story_time": 5,
+      "chapter": "ch_005",
+      "status": "drafted",
+      "participants": [
+        "char_shou_yan",
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_garrison_breakout",
+      "name": "第七戍垒最后一战与撤离",
+      "story_time": 8,
+      "chapter": "ch_008",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_garrison_abandons_huipo",
+      "name": "四人踏入灰珀荒原",
+      "story_time": 9,
+      "chapter": "ch_009",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_shou_yan_carves_names",
+      "name": "守岩在矿石壁刻死者名字",
+      "story_time": 10,
+      "chapter": "ch_010",
+      "status": "drafted",
+      "participants": [
+        "char_shou_yan"
+      ]
+    },
+    {
+      "id": "evt_first_open_combat",
+      "name": "首次荒原开放地形战（地下突袭）",
+      "story_time": 11,
+      "chapter": "ch_011",
+      "status": "drafted",
+      "participants": [
+        "char_zhao",
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_hive_tracker_discovered",
+      "name": "昭发现跟踪型探兵",
+      "story_time": 11,
+      "chapter": "ch_011",
+      "status": "drafted",
+      "participants": [
+        "char_zhao",
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_puppets_fail",
+      "name": "傀儡兵核心组件失效",
+      "story_time": 11,
+      "chapter": "ch_011",
+      "status": "drafted",
+      "participants": [
+        "char_zhao"
+      ]
+    },
+    {
+      "id": "evt_shouyan_memory_keeper",
+      "name": "守岩顿悟记忆守卫功能",
+      "story_time": 13,
+      "chapter": "ch_013",
+      "status": "drafted",
+      "participants": [
+        "char_shou_yan",
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_open_terrain_battle",
+      "name": "首次荒原集结组规模战",
+      "story_time": 14,
+      "chapter": "ch_014",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_shou_yan_names_suixing",
+      "name": "守岩命名「随行」",
+      "story_time": 14,
+      "chapter": "ch_014",
+      "status": "drafted",
+      "participants": [
+        "char_shou_yan",
+        "char_yi_lan",
+        "char_zhao",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_zhao_discovers_arrow_carving",
+      "name": "昭发现渗水点箭头刻痕",
+      "story_time": 15,
+      "chapter": "ch_017",
+      "status": "drafted",
+      "participants": [
+        "char_zhao",
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_team_rhythm",
+      "name": "队伍找到'节律'",
+      "story_time": 16,
+      "chapter": "ch_018",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_zhao_asks_target",
+      "name": "昭第一次追问·从方向到目标",
+      "story_time": 17,
+      "chapter": "ch_020",
+      "status": "drafted",
+      "participants": [
+        "char_zhao",
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_hive_scout_encounter",
+      "name": "开阔地虫群探查单元遭遇",
+      "story_time": 18,
+      "chapter": "ch_023",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_ling_yin",
+        "char_zhao",
+        "char_shou_yan"
+      ]
+    },
+    {
+      "id": "evt_subarc_a_closure",
+      "name": "Sub-arc A收束·各自以各自的方式",
+      "story_time": 19,
+      "chapter": "ch_025",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_terrain_shift_deep",
+      "name": "进入深荒——地形骤变",
+      "story_time": 20,
+      "chapter": "ch_026",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ]
+    }
+  ]
+}

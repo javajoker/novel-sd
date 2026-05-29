@@ -1,40 +1,366 @@
 {
-  "_note": "权威事件图（节点+因果边）存于 ontology.json 的 events[]。此文件为镜像入口，编辑请以 ontology.json 为准。",
+  "_note": "Flat mirror of ontology.json#events — {id, story_time, thread_id, chapter_ids, status}. Authoritative source is ontology.json#events.",
   "events": [
-    { "id": "evt_huipo_assault",             "story_time": 1,  "thread_id": "thr_garrison", "chapter_id": "ch_001", "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_yi_lan_dushi_zhao",          "story_time": 1,  "thread_id": "thr_yi_lan",  "chapter_id": "ch_001", "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_wei_se_appears",             "story_time": 1,  "thread_id": "thr_hive",    "chapter_id": "ch_001", "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_yi_lan_discovers_memory_loss","story_time": 2, "thread_id": "thr_yi_lan",  "chapter_id": "ch_002", "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_kai_er_arrives",             "story_time": 3,  "thread_id": "thr_garrison","chapter_id": "ch_003", "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_garrison_accepts_deal",      "story_time": 3,  "thread_id": "thr_garrison","chapter_id": "ch_003", "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_shi_mu_marks_lingyin",       "story_time": 3,  "thread_id": "thr_hive",   "chapter_id": "ch_004", "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_qiongshu_retreat_order",     "story_time": 5,  "thread_id": "thr_garrison","chapter_id": "ch_005", "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_lingyin_challenges_yi_lan",  "story_time": 6,  "thread_id": "thr_yi_lan", "chapter_id": "ch_006", "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_yi_lan_forgets_wei_se_face", "story_time": 7,  "thread_id": "thr_yi_lan", "chapter_id": "ch_007", "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_garrison_breakout",          "story_time": 8,  "thread_id": "thr_garrison","chapter_id": "ch_008", "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_yi_lan_dushi_scattered",     "story_time": 8,  "thread_id": "thr_yi_lan", "chapter_id": "ch_008", "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_garrison_abandons_huipo",    "story_time": 9,  "thread_id": "thr_garrison","chapter_id": "ch_009", "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_shimu_signal_mobile",        "story_time": 9,  "thread_id": "thr_hive",   "chapter_id": "ch_009", "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_shou_yan_carves_names",      "story_time": 10, "thread_id": "thr_garrison","chapter_id": "ch_010", "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_shimu_learning_rhythm",      "story_time": 10, "thread_id": "thr_hive",   "chapter_id": "ch_010", "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_puppets_fail",               "story_time": 11, "thread_id": "thr_garrison","chapter_id": "ch_011", "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_first_open_combat",          "story_time": 11, "thread_id": "thr_garrison","chapter_id": "ch_011", "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_hive_tracker_discovered",    "story_time": 11, "thread_id": "thr_garrison","chapter_id": "ch_011", "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_yihe_resonance_discovered",  "story_time": 12, "thread_id": "thr_yi_lan", "chapter_id": "ch_012", "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_yihe_beacon_revealed",       "story_time": 12, "thread_id": "thr_yi_lan", "chapter_id": "ch_012", "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_shouyan_memory_keeper",      "story_time": 13, "thread_id": "thr_garrison","chapter_id": "ch_013", "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_open_terrain_battle",        "story_time": 14, "thread_id": "thr_garrison","chapter_id": "ch_014", "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_lingyin_active_pulse",       "story_time": 14, "thread_id": "thr_hive",   "chapter_id": "ch_014", "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_shou_yan_names_suixing",     "story_time": 14, "thread_id": "thr_garrison","chapter_id": "ch_014", "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_yihe_response_signal",       "story_time": 14, "thread_id": "thr_yi_lan", "chapter_id": "ch_014", "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_team_rhythm",                "story_time": 16, "thread_id": "thr_garrison","chapter_ids": ["ch_018"], "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_lingyin_subband_test",       "story_time": 16, "thread_id": "thr_hive",   "chapter_ids": ["ch_018","ch_019"], "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_zhao_asks_target",           "story_time": 17, "thread_id": "thr_garrison","chapter_ids": ["ch_020"], "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_yilan_first_half_confession","story_time": 17, "thread_id": "thr_yi_lan", "chapter_ids": ["ch_021"], "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_lingyin_subband_confirmed",  "story_time": 18, "thread_id": "thr_hive",   "chapter_ids": ["ch_022"], "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_hive_scout_encounter",       "story_time": 18, "thread_id": "thr_garrison","chapter_ids": ["ch_023"], "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_yihe_warming",               "story_time": 18, "thread_id": "thr_yi_lan", "chapter_ids": ["ch_023"], "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_yilan_full_confession",      "story_time": 19, "thread_id": "thr_yi_lan", "chapter_ids": ["ch_024"], "status": "drafted", "canonical": "ontology.json#events" },
-    { "id": "evt_subarc_a_closure",           "story_time": 19, "thread_id": "thr_garrison","chapter_ids": ["ch_025"], "status": "drafted", "canonical": "ontology.json#events" }
+    {
+      "id": "evt_huipo_assault",
+      "story_time": 1,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_001"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_wei_se_appears",
+      "story_time": 1,
+      "thread_id": "thr_hive",
+      "chapter_ids": [
+        "ch_001"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_yi_lan_dushi_zhao",
+      "story_time": 1,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_001"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_yi_lan_discovers_memory_loss",
+      "story_time": 2,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_002"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_garrison_accepts_deal",
+      "story_time": 3,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_003"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_kai_er_arrives",
+      "story_time": 3,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_003"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_shi_mu_marks_lingyin",
+      "story_time": 3,
+      "thread_id": "thr_hive",
+      "chapter_ids": [
+        "ch_004"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_qiongshu_retreat_order",
+      "story_time": 5,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_005"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_lingyin_challenges_yi_lan",
+      "story_time": 6,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_006"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_yi_lan_forgets_wei_se_face",
+      "story_time": 7,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_007"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_garrison_breakout",
+      "story_time": 8,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_008"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_yi_lan_dushi_scattered",
+      "story_time": 8,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_008"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_garrison_abandons_huipo",
+      "story_time": 9,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_009"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_shimu_signal_mobile",
+      "story_time": 9,
+      "thread_id": "thr_hive",
+      "chapter_ids": [
+        "ch_009"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_shimu_learning_rhythm",
+      "story_time": 10,
+      "thread_id": "thr_hive",
+      "chapter_ids": [
+        "ch_010"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_shou_yan_carves_names",
+      "story_time": 10,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_010"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_first_open_combat",
+      "story_time": 11,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_011"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_hive_tracker_discovered",
+      "story_time": 11,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_011"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_puppets_fail",
+      "story_time": 11,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_011"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_yihe_beacon_revealed",
+      "story_time": 12,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_012"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_yihe_resonance_discovered",
+      "story_time": 12,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_012"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_shouyan_memory_keeper",
+      "story_time": 13,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_013"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_lingyin_active_pulse",
+      "story_time": 14,
+      "thread_id": "thr_hive",
+      "chapter_ids": [
+        "ch_014"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_open_terrain_battle",
+      "story_time": 14,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_014"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_shou_yan_names_suixing",
+      "story_time": 14,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_014"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_yihe_response_signal",
+      "story_time": 14,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_014"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_lingyin_reports_frequency_exposed",
+      "story_time": 15,
+      "thread_id": "thr_hive",
+      "chapter_ids": [
+        "ch_016"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_yi_lan_decides_east",
+      "story_time": 15,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_015"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_zhao_discovers_arrow_carving",
+      "story_time": 15,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_017"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_lingyin_subband_test",
+      "story_time": 16,
+      "thread_id": "thr_hive",
+      "chapter_ids": [
+        "ch_018",
+        "ch_019"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_team_rhythm",
+      "story_time": 16,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_018"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_yilan_first_half_confession",
+      "story_time": 17,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_021"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_zhao_asks_target",
+      "story_time": 17,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_020"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_hive_scout_encounter",
+      "story_time": 18,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_023"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_lingyin_subband_confirmed",
+      "story_time": 18,
+      "thread_id": "thr_hive",
+      "chapter_ids": [
+        "ch_022"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_yihe_warming",
+      "story_time": 18,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_023"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_subarc_a_closure",
+      "story_time": 19,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_025"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_yilan_full_confession",
+      "story_time": 19,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_024"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_shimu_signal_anomaly",
+      "story_time": 20,
+      "thread_id": "thr_hive",
+      "chapter_ids": [
+        "ch_026"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_terrain_shift_deep",
+      "story_time": 20,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_026"
+      ],
+      "status": "drafted"
+    }
   ]
 }

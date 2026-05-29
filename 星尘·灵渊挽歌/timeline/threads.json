@@ -1,29 +1,84 @@
 {
-  "_note": "权威 NarrativeThread[] 存于 ontology.json 的 threads[]。此文件为镜像入口，编辑请以 ontology.json 为准。",
+  "_note": "Mirror of ontology.json#threads — thin stubs (id, name, pov, event_ids, convergences). Authoritative source is ontology.json.threads[].",
   "threads": [
     {
       "id": "thr_yi_lan",
       "name": "伊岚·渡蚀之路",
-      "description": "主角线：从独自承蚀的殉道执念，走向与众人分担守护的随行之路。",
       "pov_character": "char_yi_lan",
-      "active_volumes": ["vol_01", "vol_02"],
-      "canonical": "ontology.json#threads"
+      "event_ids": [
+        "evt_yi_lan_dushi_zhao",
+        "evt_yi_lan_discovers_memory_loss",
+        "evt_lingyin_challenges_yi_lan",
+        "evt_yi_lan_forgets_wei_se_face",
+        "evt_yi_lan_dushi_scattered",
+        "evt_yihe_resonance_discovered",
+        "evt_yihe_beacon_revealed",
+        "evt_yihe_response_signal",
+        "evt_yi_lan_decides_east",
+        "evt_yilan_first_half_confession",
+        "evt_yihe_warming",
+        "evt_yilan_full_confession"
+      ],
+      "convergences_with": [
+        "thr_hive@ch_001",
+        "thr_hive@ch_012",
+        "thr_garrison@ch_008",
+        "thr_garrison@ch_014"
+      ],
+      "current_time": null
     },
     {
       "id": "thr_garrison",
       "name": "戍队群像·随行",
-      "description": "集体线：守岩、昭、聆音与伊岚的共同线，从死守灰珀到放弃戍垒、荒原随行，各角色在新形态中确立位置。",
       "pov_character": "char_shou_yan",
-      "active_volumes": ["vol_01", "vol_02"],
-      "canonical": "ontology.json#threads"
+      "event_ids": [
+        "evt_huipo_assault",
+        "evt_kai_er_arrives",
+        "evt_garrison_accepts_deal",
+        "evt_qiongshu_retreat_order",
+        "evt_garrison_breakout",
+        "evt_garrison_abandons_huipo",
+        "evt_shou_yan_carves_names",
+        "evt_puppets_fail",
+        "evt_first_open_combat",
+        "evt_hive_tracker_discovered",
+        "evt_shouyan_memory_keeper",
+        "evt_open_terrain_battle",
+        "evt_shou_yan_names_suixing",
+        "evt_zhao_discovers_arrow_carving",
+        "evt_team_rhythm",
+        "evt_zhao_asks_target",
+        "evt_hive_scout_encounter",
+        "evt_subarc_a_closure",
+        "evt_terrain_shift_deep"
+      ],
+      "convergences_with": [
+        "thr_hive@ch_011",
+        "thr_yi_lan@ch_008"
+      ],
+      "current_time": null
     },
     {
       "id": "thr_hive",
       "name": "蚀母虫巢·追猎升级",
-      "description": "反派线：蚀母对聆音灵渊的追猎从固定靶攻势（vol_01）升级为移动跟踪+节律学习+跟踪型个体（vol_02）。",
       "pov_character": "char_shi_mu",
-      "active_volumes": ["vol_01", "vol_02"],
-      "canonical": "ontology.json#threads"
+      "event_ids": [
+        "evt_wei_se_appears",
+        "evt_shi_mu_marks_lingyin",
+        "evt_shimu_signal_mobile",
+        "evt_shimu_learning_rhythm",
+        "evt_lingyin_active_pulse",
+        "evt_lingyin_reports_frequency_exposed",
+        "evt_lingyin_subband_test",
+        "evt_lingyin_subband_confirmed",
+        "evt_shimu_signal_anomaly"
+      ],
+      "convergences_with": [
+        "thr_yi_lan@ch_001",
+        "thr_garrison@ch_014",
+        "thr_garrison@ch_015"
+      ],
+      "current_time": null
     }
   ]
 }

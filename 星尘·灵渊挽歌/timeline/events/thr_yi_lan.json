@@ -1,0 +1,140 @@
+{
+  "_note": "Per-thread mirror of ontology.json#events. Authoritative source is ontology.json#events; regenerate with sync_events.py --write.",
+  "thread_id": "thr_yi_lan",
+  "events": [
+    {
+      "id": "evt_yi_lan_dushi_zhao",
+      "name": "伊岚渡蚀救昭",
+      "story_time": 1,
+      "chapter": "ch_001",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_zhao"
+      ]
+    },
+    {
+      "id": "evt_yi_lan_discovers_memory_loss",
+      "name": "伊岚发现渡蚀消耗自身记忆",
+      "story_time": 2,
+      "chapter": "ch_002",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_lingyin_challenges_yi_lan",
+      "name": "聆音拆穿伊岚独自承担模式",
+      "story_time": 6,
+      "chapter": "ch_006",
+      "status": "drafted",
+      "participants": [
+        "char_ling_yin",
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_yi_lan_forgets_wei_se_face",
+      "name": "伊岚发现无法回忆薇瑟的脸",
+      "story_time": 7,
+      "chapter": "ch_007",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_wei_se"
+      ]
+    },
+    {
+      "id": "evt_yi_lan_dushi_scattered",
+      "name": "伊岚首次使用渡蚀分散模式",
+      "story_time": 8,
+      "chapter": "ch_008",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao"
+      ]
+    },
+    {
+      "id": "evt_yihe_beacon_revealed",
+      "name": "聆音揭示遗核为固定方向信标",
+      "story_time": 12,
+      "chapter": "ch_012",
+      "status": "drafted",
+      "participants": [
+        "char_ling_yin",
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_yihe_resonance_discovered",
+      "name": "伊岚发现渡蚀频率与遗核共振",
+      "story_time": 12,
+      "chapter": "ch_012",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_yihe_response_signal",
+      "name": "遗核收到东侧偏南单次脉冲回应",
+      "story_time": 14,
+      "chapter": "ch_014",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_wei_se"
+      ]
+    },
+    {
+      "id": "evt_yi_lan_decides_east",
+      "name": "伊岚决定往东——未说原因",
+      "story_time": 15,
+      "chapter": "ch_015",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_yilan_first_half_confession",
+      "name": "伊岚的第一次半开口",
+      "story_time": 17,
+      "chapter": "ch_021",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan"
+      ]
+    },
+    {
+      "id": "evt_yihe_warming",
+      "name": "遗核基础温度上升——确认接近中",
+      "story_time": 18,
+      "chapter": "ch_023",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_yilan_full_confession",
+      "name": "伊岚向全队说出完整真相",
+      "story_time": 19,
+      "chapter": "ch_024",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_ling_yin"
+      ]
+    }
+  ]
+}
