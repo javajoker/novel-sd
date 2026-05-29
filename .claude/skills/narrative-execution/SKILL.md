@@ -220,6 +220,29 @@ This now **errors** (exit 1) if the cursor/calendar/summaries/status lag the wri
 chapters — so a truncated Phase C can no longer hide behind a green "✓ valid". Do not
 commit a batch while this gate is red. (`--no-freshness` runs structural checks only.)
 
+**Event-graph consistency (second automation + gate).** `ontology.json#events` is the
+single source of truth for the event graph; three classes of file reference or mirror it
+and drift apart. The orphan trap: an event ID written into a chapter's `events_covered`
+(beats), `planned_events` (structure), or `events_covered` (summaries) that was *never
+declared* in `ontology.json#events` — the old structural validator skipped this (check #9
+ignores `planned_events` so early outlining isn't blocked), so a written chapter could
+reference a ghost event forever. Repair + regenerate the timeline mirrors with:
+
+```
+python .claude/skills/narrative-execution/scripts/sync_events.py --write <novel-slug>/
+```
+
+It (a) creates an ontology event **stub** (`"_stub": true`) for every orphan ref, deriving
+`story_time` / `thread_id` / `chapter_ids` / `status` / `name` from the referencing
+structure chapter + prose-on-disk; (b) adds each event to exactly one thread's `event_ids`
+(in story_time order); and (c) regenerates `timeline/events.json`, the `timeline/events/`
+shards + `index.json`, and `timeline/threads.json` wholesale as faithful projections of
+ontology. Like `_autogen` summaries, a stub is a placeholder — its `name`,
+`projected_outcome`, participants, and dependencies need a human pass. It will **not**
+auto-assign a thread when structure gives no `thread_id` (reported, never faked).
+`validate_narrative.py` **errors** (exit 1) on any orphan ref, any event not in exactly one
+thread, or any timeline-mirror coverage gap. (`--no-events` runs without this gate.)
+
 ### C-1 — Character state snapshots
 
 For every character whose inventory, status, psychology, or knowledge changed in the
@@ -260,9 +283,15 @@ Update `ontology.json` in four passes:
   projection.
 - Add any event improvised in prose (full fields: story_time, participants, thread_id,
   dependencies, projected_outcome, status: drafted).
+- **Invariant — declare before you reference.** Any event ID that appears in a chapter's
+  `events_covered` (beats), `planned_events` (structure), or `events_covered` (summaries)
+  **must** exist here in `ontology.json#events`. Referencing an undeclared event is the
+  orphan bug; `sync_events.py` will create a `_stub` for it and the event gate will error
+  until it exists. Declare the event here first; fill the stub's semantics by hand.
 
 **Threads:**
-- Append new event IDs to the relevant thread's `event_ids`.
+- Append new event IDs to the relevant thread's `event_ids` (each event belongs to
+  **exactly one** thread).
 - Record any new convergence (where threads met in this chapter) with story_time,
   location, and knowledge exchanged.
 
@@ -278,15 +307,21 @@ so they become canonical. Do not let improvised lore stay un-tracked.
 
 ### C-5 — Timeline mirrors + calendar (regenerate from canon)
 
-After `ontology.json` is updated, regenerate the cheap, query-scoped mirrors from it:
+After `ontology.json` is updated, regenerate the cheap, query-scoped mirrors from it. The
+three event-mirror files below are **deterministic projections of ontology** — do not
+hand-append them; run `sync_events.py --write` (C-0) and it regenerates all three
+wholesale, faithfully and idempotently. The bullets describe what it produces:
 
-- `timeline/events/<thread_id>.json` — for **each thread touched this chapter**, append the
-  new event stub(s) to that thread's shard (sorted by story_time). Stubs reference
-  `ontology.json#events`; do not author event truth here.
-- `timeline/events/index.json` — add the chapter's event IDs under `by_chapter[ch]`,
-  `by_story_time[t]`, and `by_thread[thr]`; advance `last_story_time` + `last_chapter`.
-- `timeline/threads.json` — thread stubs with updated `event_ids` and `current_time`.
-- **`timeline/calendar.json` (state-bearing — update every chapter, do NOT leave frozen):**
+- `timeline/events.json` (flat) — `{id, story_time, thread_id, chapter_ids, status}` per
+  event; and `timeline/events/<thread_id>.json` — per-thread shard, sorted by story_time.
+  Mirrors reference `ontology.json#events`; do not author event truth here.
+- `timeline/events/index.json` — chapter event IDs under `by_chapter[ch]` (keyed on the
+  event's primary/first chapter), `by_story_time[t]`, and `by_thread[thr]`; `last_story_time`
+  + `last_chapter` track the cursor (`source.current_chapter`).
+- `timeline/threads.json` — thread stubs with updated `event_ids`, `convergences_with`, and
+  `current_time`.
+- **`timeline/calendar.json` (state-bearing — update every chapter, do NOT leave frozen;
+  this one is `sync_kb.py`'s job, not `sync_events.py`'s):**
   - advance `current_story_time` and `current_chapter`;
   - append `chapter_to_story_time[<ch>] = <story_time>`;
   - **if** the prose advances an in-world date or moves a character between locations:
@@ -328,15 +363,14 @@ The sequence below resolves all inter-file dependencies:
 1.  characters/states/<id>.json       — state snapshots per affected character
 2.  masks/<id>.json                   — knowledge updates per affected POV
 3.  ontology.json                     — relations, events, threads, world_rules, current_chapter
-4.  timeline/events/<thr>.json        — append stub to each touched thread shard
-5.  timeline/events/index.json        — by_chapter/by_story_time/by_thread + last_*
-6.  timeline/threads.json             — thread stubs: event_ids + current_time
-7.  timeline/calendar.json            — current_story_time/current_chapter + chapter_to_story_time (+ world_day/travel if changed)
-8.  world/world_bible.json            — improvised lore writeback
-9.  outline/structure.json            — chapter status advance
-10. memory/summaries.json             — chapter + volume summaries
-11. memory/plot_threads.json          — hook occurrences + status updates
-12. [ripple check]                    — narrative-consistency scan
+4.  timeline/events.json + events/<thr>.json + events/index.json + threads.json
+                                      — event-graph mirrors; regenerate via sync_events.py --write (projects ontology)
+5.  timeline/calendar.json            — current_story_time/current_chapter + chapter_to_story_time (+ world_day/travel if changed); via sync_kb.py --write
+6.  world/world_bible.json            — improvised lore writeback
+7.  outline/structure.json            — chapter status advance
+8.  memory/summaries.json             — chapter + volume summaries
+9.  memory/plot_threads.json          — hook occurrences + status updates
+10. [ripple check]                    — narrative-consistency scan
 ```
 
 ---
@@ -460,9 +494,11 @@ or just see it?
 - [ ] Ripple check (RIPPLE-02) run; conflicts flagged (or confirmed none).
 - [ ] `sync_kb.py --write` run so the deterministic mirrors (cursor, calendar,
       outline status, summary skeletons) match the prose.
-- [ ] **Freshness gate green:** `validate_narrative.py` passes with NO `[freshness]`
-      errors (calendar/cursor/summaries/status all keep pace with written chapters);
-      event `status` advanced. Do not commit a batch while this gate is red.
+- [ ] `sync_events.py --write` run so the event graph is consistent (every referenced
+      event declared in ontology, one-thread membership, timeline mirrors regenerated).
+- [ ] **Both gates green:** `validate_narrative.py` passes with NO `[freshness]` errors
+      (calendar/cursor/summaries/status keep pace) and NO `[events]` errors (no orphan
+      refs, one-thread membership, mirror coverage). Do not commit a batch while red.
 
 ---
 
@@ -498,6 +534,16 @@ or just see it?
   states/masks/ontology and skipping the calendar + memory mirrors is how a KB silently
   rots — it passes the *old* structural validator while the timeline and summaries freeze
   chapters behind. Always finish with `sync_kb.py --write` + a green freshness gate.
+- **Referencing an event that was never declared (the orphan trap).** Putting an event ID
+  in a chapter's `events_covered` / `planned_events` without first creating it in
+  `ontology.json#events` leaves a ghost: the beat/summary/structure points at nothing, no
+  thread owns it, no timeline mirror lists it. **This is now enforced:** `sync_events.py`
+  stubs the orphan and `validate_narrative.py` errors (`[events]`) until it is a real,
+  single-thread, fully-mirrored ontology event. Declare events before you reference them.
+- **Hand-editing the timeline event mirrors.** `timeline/events.json`, the
+  `timeline/events/*.json` shards, and `index.json` are deterministic projections of
+  `ontology.json#events` — edit the ontology, then run `sync_events.py --write`. Hand-edits
+  drift from canon and get overwritten on the next sync anyway.
 - **Inventing a status word.** Chapter status vocabulary is fixed: `planned → beats_ready →
   drafted → final` (`partially_drafted` for in-progress multi-chapter events). Do not coin
   synonyms like `written`; they pass nothing and the validator rejects them.
