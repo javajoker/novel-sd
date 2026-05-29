@@ -256,6 +256,20 @@
         "char_yi_lan",
         "char_shou_yan"
       ]
+    },
+    {
+      "id": "evt_deep_wasteland_combat",
+      "name": "深荒首战——裂缝地形下的战术对抗",
+      "story_time": 23,
+      "chapter": "ch_030",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin",
+        "char_shi_mu"
+      ]
     }
   ]
 }

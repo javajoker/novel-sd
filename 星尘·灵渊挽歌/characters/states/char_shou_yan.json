@@ -224,6 +224,31 @@
         "erosion_load": 85
       },
       "abilities_delta": []
+    },
+    {
+      "story_time": 24,
+      "chapter_id": "ch_032",
+      "location": "elem_deep_wasteland_east",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "ch_032（POV）：聆音再次提及东偏南40km触发旧时记忆——第七号信标，灰珀外围旧灵能接力点，第一波大虫潮第二年放弃；薇瑟曾多次前往维护，是主责人员。向伊岚陈述三句话：'七号信标。那里有一个旧灵能接力点，那个方向。薇瑟知道那里。'",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_seventh_beacon_existence",
+          "source": "ch_032自身旧时记忆浮现：灰珀外围第七号灵能接力点，东偏南约40km，薇瑟曾多次前往维护和校准"
+        }
+      ],
+      "psychology": {
+        "sanity": 30,
+        "mood": "旧档案中的关键数据用出去了；陈述完成，工作做到了",
+        "erosion_load": 85
+      },
+      "abilities_delta": []
     }
   ]
 }

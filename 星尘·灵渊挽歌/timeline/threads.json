@@ -17,7 +17,8 @@
         "evt_yi_lan_decides_east",
         "evt_yilan_first_half_confession",
         "evt_yihe_warming",
-        "evt_yilan_full_confession"
+        "evt_yilan_full_confession",
+        "evt_shouyan_beacon_memory"
       ],
       "convergences_with": [
         "thr_hive@ch_001",
@@ -52,7 +53,8 @@
         "evt_subarc_a_closure",
         "evt_terrain_shift_deep",
         "evt_tactical_crisis_dual_node",
-        "evt_wasteland_crack_scatter"
+        "evt_wasteland_crack_scatter",
+        "evt_deep_wasteland_combat"
       ],
       "convergences_with": [
         "thr_hive@ch_011",
@@ -74,7 +76,8 @@
         "evt_lingyin_subband_test",
         "evt_lingyin_subband_confirmed",
         "evt_shimu_signal_anomaly",
-        "evt_shimu_second_node_confirmed"
+        "evt_shimu_second_node_confirmed",
+        "evt_lingyin_second_node_location"
       ],
       "convergences_with": [
         "thr_yi_lan@ch_001",

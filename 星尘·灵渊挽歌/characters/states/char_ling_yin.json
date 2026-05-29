@@ -250,6 +250,44 @@
         "erosion_load": 3
       },
       "abilities_delta": []
+    },
+    {
+      "story_time": 23,
+      "chapter_id": "ch_031",
+      "location": "elem_deep_wasteland_east",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "战后用战斗期间高密度信号数据计算第二节点位置（精度最高一次，强度误差8%，时差误差0.05s）：东偏南约40km，行进方向前方。向队伍宣告两种解释。",
+          "severity": "n/a"
+        },
+        {
+          "type": "discovery",
+          "desc": "在a'低功率感知中确认薇瑟频率底色比昨天更清楚——信号真实增强，非感知校准误差",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_second_node_position",
+          "source": "ch_031自身计算：东偏南约40km"
+        },
+        {
+          "fact": "fact_wei_se_freq_stronger",
+          "source": "ch_031自身感知：薇瑟频率底色比昨天更清楚，且随行进持续增强——真实接近"
+        },
+        {
+          "fact": "fact_seventh_beacon_existence",
+          "source": "ch_032守岩陈述"
+        }
+      ],
+      "psychology": {
+        "sanity": 74,
+        "mood": "数据工作完成；感知到目标越来越近；南侧节点遮蔽数据收集中",
+        "erosion_load": 3
+      },
+      "abilities_delta": []
     }
   ]
 }

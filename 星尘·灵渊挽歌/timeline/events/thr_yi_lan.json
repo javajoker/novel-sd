@@ -135,6 +135,19 @@
         "char_shou_yan",
         "char_ling_yin"
       ]
+    },
+    {
+      "id": "evt_shouyan_beacon_memory",
+      "name": "守岩记忆浮现——第七号信标",
+      "story_time": 24,
+      "chapter": "ch_032",
+      "status": "drafted",
+      "participants": [
+        "char_shou_yan",
+        "char_yi_lan",
+        "char_zhao",
+        "char_ling_yin"
+      ]
     }
   ]
 }

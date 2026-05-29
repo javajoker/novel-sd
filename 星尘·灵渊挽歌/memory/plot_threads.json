@@ -5,7 +5,7 @@
       "concept": "空壳薇瑟灵渊深处残留的'自我余烬'",
       "status": "open",
       "introduced_chapter": "ch_001",
-      "last_mention_chapter": "ch_014",
+      "last_mention_chapter": "ch_032",
       "occurrences": [
         {
           "chapter_id": "ch_001",
@@ -75,6 +75,20 @@
         {
           "chapter_id": "ch_025",
           "note": "Sub-arc A收束：聆音记住薇瑟频率特征为感知依据，守岩记入活档案，昭以目标优先级重构战术。遗核持续升温。Sub-arc B开始——远处的薇瑟余烬/信标是B线的核心。"
+        }
+      ],
+      "occurrences_continued_3": [
+        {
+          "chapter_id": "ch_030",
+          "note": "战中遗核在渡蚀过载时脉动辅助（重复ch_014模式，增益微小但真实）——信号随接近而更活跃。"
+        },
+        {
+          "chapter_id": "ch_031",
+          "note": "聆音在a'里感知到薇瑟频率底色比昨天更清楚，且下午比中午更清楚——真实信号增强，非感知校准误差。约38公里。"
+        },
+        {
+          "chapter_id": "ch_032",
+          "note": "PAYOFF：守岩记忆浮现，第七号信标命名——遗核信标=第七号信标=薇瑟曾在那里。四线收束于同一名字。约38公里。"
         }
       ]
     },
@@ -407,7 +421,7 @@
       "concept": "蚕母疑似增设第二感知节点——距离三角定位能力正在建立中",
       "status": "partial_resolved",
       "introduced_chapter": "ch_026",
-      "last_mention_chapter": "ch_029",
+      "last_mention_chapter": "ch_031",
       "occurrences": [
         {
           "chapter_id": "ch_026",
@@ -428,6 +442,16 @@
         {
           "chapter_id": "ch_029",
           "note": "反制手段发现：深荒裂缝内壁层状散射矿物对北侧节点方向有显著散射效果（系数约2.7），对另一节点无效——方向性反制，不完整但真实。昭开始建立裂缝方向索引。"
+        }
+      ],
+      "occurrences_continued_2": [
+        {
+          "chapter_id": "ch_030",
+          "note": "南侧节点弱窗口被实战利用：追击单元利用降频后3分钟的精确定位窗口进攻——裂缝散射对南侧节点无效的漏洞已从理论变为战术威胁。"
+        },
+        {
+          "chapter_id": "ch_031",
+          "note": "第二节点位置计算完成：东偏南约40km，行进方向前方。与遗核方向高度吻合。可能含义：蚕母主动拦截（知道目标方向），或节点本来就在那里（独立原因）。尚无法区分。"
         }
       ]
     }

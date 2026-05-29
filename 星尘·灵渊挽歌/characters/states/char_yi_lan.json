@@ -536,6 +536,44 @@
         "源质结晶 x1",
         "灵能制式短刃"
       ]
+    },
+    {
+      "story_time": 23,
+      "chapter_id": "ch_030–ch_031",
+      "location": "elem_deep_wasteland_east",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "debuff",
+          "desc": "ch_030渡蚀分散模式使用，灵渊热至过载边界但遗核脉动辅助稳住，战后降温中",
+          "severity": "low"
+        },
+        {
+          "type": "psychology",
+          "desc": "ch_031：遗核方向与第二节点位置重合——伊岚手放口袋，压住不说；越近越复杂，蚕母和薇瑟在同一方向",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_deep_combat_survived",
+          "source": "ch_030：深荒首战，四人守住"
+        },
+        {
+          "fact": "second_node_position",
+          "source": "ch_031聆音宣告"
+        },
+        {
+          "fact": "fact_seventh_beacon_existence",
+          "source": "ch_032守岩陈述：七号信标，薇瑟知道那里"
+        }
+      ],
+      "psychology": {
+        "sanity": 62,
+        "mood": "目标有了名字——第七号信标；遗核更热，越来越近；复杂，但路没有变",
+        "erosion_load": 41
+      },
+      "abilities_delta": []
     }
   ]
 }

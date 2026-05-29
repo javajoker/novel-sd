@@ -388,6 +388,33 @@
         "ch_029"
       ],
       "status": "drafted"
+    },
+    {
+      "id": "evt_deep_wasteland_combat",
+      "story_time": 23,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_030"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_lingyin_second_node_location",
+      "story_time": 23,
+      "thread_id": "thr_hive",
+      "chapter_ids": [
+        "ch_031"
+      ],
+      "status": "drafted"
+    },
+    {
+      "id": "evt_shouyan_beacon_memory",
+      "story_time": 24,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_032"
+      ],
+      "status": "drafted"
     }
   ]
 }

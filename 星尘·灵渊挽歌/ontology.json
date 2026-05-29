@@ -4,7 +4,7 @@
     "novel_title": "星尘·灵渊挽歌",
     "novel_author": "javajoker",
     "story_time_unit": "chapter",
-    "current_chapter": 29,
+    "current_chapter": 32,
     "tier": "long_novel",
     "language": "zh-Hans",
     "genre": "星际科幻",
@@ -399,6 +399,18 @@
       ],
       "description": "伊岚队伍携带的灵能构装战斗单位。无源质补给时核心组件约10小时失效，ch_011正式失效成为空壳。",
       "salience": 0.4
+    },
+    {
+      "id": "elem_seventh_beacon",
+      "canonical_name": "第七号信标",
+      "type": "Place",
+      "subtype": "location",
+      "aliases": [
+        "七号信标",
+        "旧灵能接力点"
+      ],
+      "description": "灰珀外围卫星区曾有的一处灵裔灵能通信接力点，编号第七。在灰珀第一波大规模虫潮之前是灵裔在此区域的重要通信节点，后随战局恶化被放弃。方向：东偏南，距深荒地质分界线约40km（即与遗核信标方向和蚕母第二感知节点位置高度吻合）。守岩在ch_032浮现记忆：薇瑟知道那里。",
+      "salience": 0.8
     }
   ],
   "relations": [
@@ -664,6 +676,31 @@
         "reason": "ch_001被伊岚渡蚀救下，脱离灵蚀边缘"
       },
       "confidence": 1.0
+    },
+    {
+      "id": "rel_0022",
+      "subject": "char_wei_se",
+      "predicate": "maintained",
+      "object": "elem_seventh_beacon",
+      "valid_from_chapter": 0,
+      "valid_to_chapter": null,
+      "properties": {
+        "reason": "ch_032守岩记忆：薇瑟曾多次前往第七号信标维护和校准接力设备，是主责人员之一"
+      },
+      "confidence": 0.9
+    },
+    {
+      "id": "rel_0023",
+      "subject": "elem_wei_se_core",
+      "predicate": "signals_toward",
+      "object": "elem_seventh_beacon",
+      "valid_from_chapter": 12,
+      "valid_to_chapter": null,
+      "properties": {
+        "direction": "东侧偏南",
+        "inference": "遗核信标方向与第七号信标位置高度吻合（ch_032三线收束）"
+      },
+      "confidence": 0.85
     }
   ],
   "events": [
@@ -2517,6 +2554,159 @@
         "key_moment": "聆音测试结果：裂缝内侧降频，朝北侧节点方向信号散射显著（偏移从0.3s→0.8s）；南侧节点几乎不受影响——遮蔽是方向性的，不是全方位的",
         "pov_constraint": "昭不知道蚕母是否会识别散射效果并调整节点位置；他只知道这个发现是真实的，今天有效"
       }
+    },
+    {
+      "id": "evt_deep_wasteland_combat",
+      "name": "深荒首战——裂缝地形下的战术对抗",
+      "description": "深荒第四天（story_time 23）。蚕母派出一支具备战斗能力的追击单元（三只追踪型+两只破甲型异种），利用双节点三角定位锁定队伍在变速停驻间隙中的弱窗口发动进攻。昭凭借裂缝方向索引临时选定一处北侧节点方向遮蔽裂缝作为降频位置，争取了额外的方向模糊；聆音a'压制开路；伊岚在昭负伤后动用渡蚀分散模式稳住局面；守岩震波在裂缝走廊中收到反射增益，清除最后两只追击异种。遗核在渡蚀过载时短暂脉动（重复ch_014模式）。战后：昭确认南侧节点的精确方向定位了他们，裂缝散射只对北侧节点有效，南侧节点方向仍是弱点。",
+      "thread_id": "thr_garrison",
+      "story_time": 23,
+      "duration": 1,
+      "location": "elem_deep_wasteland_east",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin",
+        "char_shi_mu"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_wasteland_crack_scatter",
+          "relation": "ENABLES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_zhao",
+            "kind": "debuff",
+            "desc": "战斗负伤，轻度，灵能余力消耗"
+          },
+          {
+            "entity": "char_yi_lan",
+            "kind": "debuff",
+            "desc": "渡蚀分散模式使用，erosion_load微增"
+          },
+          {
+            "entity": "elem_deep_wasteland_east",
+            "kind": "tactical_confirmation",
+            "desc": "裂缝走廊在实战中确认：限制异种展开速度有效；守岩震波在裂缝内有反射增益；南侧节点仍是暴露弱点"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_030"
+      ],
+      "beat_design": {
+        "pov": "char_zhao",
+        "technique": "direct",
+        "scene_arc": "预警 → 地形选择 → 接战 → 渡蚀稳局 → 战后评估",
+        "key_moment": "昭带伤在战后确认：南侧节点的精确定位让对方抓到了弱窗口——裂缝散射只解决了一个方向，另一个方向还是暴露的",
+        "pov_constraint": "昭不知道蚕母下一步会不会继续派更大的单元"
+      }
+    },
+    {
+      "id": "evt_lingyin_second_node_location",
+      "name": "聆音推算第二节点位置——它在我们前方",
+      "description": "战后，聆音用战斗中积累的脉冲数据（战斗单元释放了大量高频信号，两节点之间的时差更容易测量）计算第二节点的大致位置：约东偏南40公里处。这是队伍行进方向（东侧偏南）上的一点。两种解释：A）蚕母主动将第二节点移动到拦截位置（她知道队伍往哪里走）；B）第二节点本来就在那个方向（与某个更早的事物有关）。聆音把两个解释告诉队伍，她没有说出B的更深含义，但伊岚的手立刻放进口袋——遗核方向与第二节点位置几乎吻合。",
+      "thread_id": "thr_hive",
+      "story_time": 23,
+      "duration": 1,
+      "location": "elem_deep_wasteland_east",
+      "participants": [
+        "char_ling_yin",
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_shi_mu"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_deep_wasteland_combat",
+          "relation": "ENABLES"
+        },
+        {
+          "event": "evt_shimu_second_node_confirmed",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_ling_yin",
+            "kind": "knowledge_gained",
+            "desc": "第二节点位置：东偏南约40km，即队伍行进方向前方"
+          },
+          {
+            "entity": "char_yi_lan",
+            "kind": "psychology",
+            "desc": "遗核方向与第二节点位置几乎吻合——她先压下去不说，手放口袋"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_031"
+      ],
+      "beat_design": {
+        "pov": "char_ling_yin",
+        "technique": "foreshadowing",
+        "scene_arc": "数据整理 → 位置计算 → 两种解释 → 告知队伍 → 伊岚的手",
+        "key_moment": "聆音说出第二节点位置（东偏南约40km）；伊岚在她说完后把手放进口袋——那个方向和遗核方向几乎一致",
+        "pov_constraint": "聆音知道两种解释，但她没有说出B解释的更深含义（她不知道遗核信标和第二节点位置的关系）"
+      }
+    },
+    {
+      "id": "evt_shouyan_beacon_memory",
+      "name": "守岩记忆浮现——第七号信标",
+      "description": "深荒第五天（story_time 24）。守岩在行进中听见聆音再次提及第二节点的方向（东偏南约40km），触发了一个旧时记忆：灰珀外围卫星区曾有一处被命名为'第七号信标'的灵能接力点，在灰珀第一波大规模虫潮之前是灵裔在这片区域的重要通信节点，后来随着战局恶化被放弃，具体位置对应的方向……就是东偏南。薇瑟是接力点时代的老人，她知道那里。如果薇瑟在灵蚀化之前把遗核锁定在那个方向，或者她本人去过那里——那里可能是她最后的锚点。守岩用他一贯的方式陈述：'七号信标。那里有一个旧灵能接力点，那个方向。薇瑟知道那里。'",
+      "thread_id": "thr_yi_lan",
+      "story_time": 24,
+      "duration": 1,
+      "location": "elem_deep_wasteland_east",
+      "participants": [
+        "char_shou_yan",
+        "char_yi_lan",
+        "char_zhao",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_lingyin_second_node_location",
+          "relation": "ENABLES"
+        },
+        {
+          "event": "evt_shouyan_memory_keeper",
+          "relation": "PRECEDES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "psychology",
+            "desc": "目标有了名字：第七号信标；遗核方向、第二节点位置、守岩的旧档案三线收束于同一点"
+          },
+          {
+            "entity": "char_zhao",
+            "kind": "knowledge_gained",
+            "desc": "战术地图有了具体目标——第七号信标旧灵能接力点，东偏南约40km"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_032"
+      ],
+      "beat_design": {
+        "pov": "char_shou_yan",
+        "technique": "reverse",
+        "scene_arc": "行进中沉默 → 方向词触发旧记忆 → 记忆展开（接力点、薇瑟知道那里）→ 陈述",
+        "key_moment": "守岩说：'七号信标。那里有一个旧灵能接力点。薇瑟知道那里。'——目标第一次有了一个旧时代的名字",
+        "pov_constraint": "守岩记得接力点存在，但不记得它现在的状态（被放弃后的情况）；他只知道薇瑟知道那里"
+      }
     }
   ],
   "themes": [
@@ -2615,7 +2805,8 @@
         "evt_yi_lan_decides_east",
         "evt_yilan_first_half_confession",
         "evt_yihe_warming",
-        "evt_yilan_full_confession"
+        "evt_yilan_full_confession",
+        "evt_shouyan_beacon_memory"
       ],
       "convergences": [
         {
@@ -2681,7 +2872,8 @@
         "evt_subarc_a_closure",
         "evt_terrain_shift_deep",
         "evt_tactical_crisis_dual_node",
-        "evt_wasteland_crack_scatter"
+        "evt_wasteland_crack_scatter",
+        "evt_deep_wasteland_combat"
       ],
       "convergences": [
         {
@@ -2719,7 +2911,8 @@
         "evt_lingyin_subband_test",
         "evt_lingyin_subband_confirmed",
         "evt_shimu_signal_anomaly",
-        "evt_shimu_second_node_confirmed"
+        "evt_shimu_second_node_confirmed",
+        "evt_lingyin_second_node_location"
       ],
       "convergences": [
         {
@@ -2967,6 +3160,22 @@
       "target": "灵能信号（特定方向）",
       "scope": "geography",
       "note": "深荒裂缝内壁暴露的深层矿物（颜色暗绿近黑，层状高压结晶结构）对垂直其层面方向传来的灵能信号有显著散射效果。在裂缝内侧接收时，朝对应矿物壁方向的蚕母窄频脉冲相位偏移可增大至外侧读数的约2.7倍（0.30→0.83秒），方向分离扩大约2.6倍（15→39度）。散射是方向性的：取决于矿物壁朝向与信号来源方向的关系，对另一方向可能完全无效。ch_029首次发现并测试确认。"
+    },
+    {
+      "id": "rule_0028",
+      "source": "深荒裂缝走廊（守岩震波）",
+      "relation": "AMPLIFIES",
+      "target": "守岩震波",
+      "scope": "geography",
+      "note": "守岩的震波在深荒裂缝走廊内传播时，因裂缝两侧矿物壁密度高、反射清晰，产生显著的反射叠加增益效果——有效压强比荒原西侧开阔地形高一倍以上。ch_030首次实战确认。使深荒裂缝成为守岩能力的放大器。"
+    },
+    {
+      "id": "rule_0029",
+      "source": "第七号信标",
+      "relation": "LOCATED_AT",
+      "target": "东偏南约40公里",
+      "scope": "lore",
+      "note": "灰珀外围第七号灵能通信接力点，位于深荒地质分界线东偏南约40公里处。第一波大虫潮前运作，第二年因地表变化放弃。薇瑟曾多次前往维护和校准，是接力点运作期间的主责人员之一。ch_032守岩记忆浮现并告知队伍。目前该地点状态未知（被放弃约N年后的情况）。"
     }
   ]
 }

@@ -250,6 +250,48 @@
         "erosion_load": 12
       },
       "abilities_delta": []
+    },
+    {
+      "story_time": 23,
+      "chapter_id": "ch_030",
+      "location": "elem_deep_wasteland_east",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "debuff",
+          "desc": "左肩侧被追踪型异种蹭伤（皮肉撕开一道，不深），灵能护层破，战后包扎，功能正常",
+          "severity": "low"
+        },
+        {
+          "type": "milestone",
+          "desc": "深荒首战：裂缝内限制异种展开（有效），守岩震波在裂缝内反射叠加增益（有效，比预期好），南侧节点弱窗口被利用（已知漏洞确认）；裂缝方向索引待扩充南侧节点方向",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_crack_reflect_amplification",
+          "source": "ch_030实战：守岩震波在裂缝壁间反射叠加，压强约两倍以上，深荒裂缝是守岩能力放大器"
+        },
+        {
+          "fact": "fact_south_node_attack_window",
+          "source": "ch_030实战：南侧节点在降频后约3分钟内精确定位引导追击——裂缝散射无法遮蔽南侧节点"
+        },
+        {
+          "fact": "second_node_position",
+          "source": "ch_031聆音计算：第二节点位于东偏南约40km，行进方向前方"
+        },
+        {
+          "fact": "fact_seventh_beacon_existence",
+          "source": "ch_032守岩陈述：七号信标，旧灵能接力点，薇瑟知道那里"
+        }
+      ],
+      "psychology": {
+        "sanity": 65,
+        "mood": "带伤继续工作；南侧节点漏洞明确，索引扩充中；目标有了名字",
+        "erosion_load": 12
+      },
+      "abilities_delta": []
     }
   ]
 }

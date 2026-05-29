@@ -120,6 +120,20 @@
         "char_shou_yan",
         "char_shi_mu"
       ]
+    },
+    {
+      "id": "evt_lingyin_second_node_location",
+      "name": "聆音推算第二节点位置——它在我们前方",
+      "story_time": 23,
+      "chapter": "ch_031",
+      "status": "drafted",
+      "participants": [
+        "char_ling_yin",
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_shi_mu"
+      ]
     }
   ]
 }

@@ -511,6 +511,48 @@
           "one_line": "昭POV：打破节律第一天，观察裂缝内壁矿物成分，假设其散射灵能信号；聆音测试确认一个节点方向散射显著——深荒裂缝提供方向性不完整遮蔽。",
           "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_029.json"
+        },
+        {
+          "id": "ch_030",
+          "number": 30,
+          "title": "裂缝里的战",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_zhao",
+          "story_time": 23,
+          "planned_events": [
+            "evt_deep_wasteland_combat"
+          ],
+          "one_line": "昭POV：深荒首战，蚕母追击单元利用双节点锁定弱窗口进攻；裂缝地形限制异种展开；渡蚀稳局；战后昭确认南侧节点是仍未解决的方向暴露弱点。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_030.json"
+        },
+        {
+          "id": "ch_031",
+          "number": 31,
+          "title": "前方",
+          "thread_id": "thr_hive",
+          "pov_character": "char_ling_yin",
+          "story_time": 23,
+          "planned_events": [
+            "evt_lingyin_second_node_location"
+          ],
+          "one_line": "聆音POV：战后数据分析推算第二节点位置——东偏南约40km，即队伍行进方向前方；两种解释（蚕母主动拦截 or 节点本来就在那里）；伊岚的手放进口袋。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_031.json"
+        },
+        {
+          "id": "ch_032",
+          "number": 32,
+          "title": "七号信标",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_shou_yan",
+          "story_time": 24,
+          "planned_events": [
+            "evt_shouyan_beacon_memory"
+          ],
+          "one_line": "守岩POV：聆音再次说起东偏南40km触发旧记忆——第七号信标，旧灵能接力点，薇瑟知道那里；目标第一次有了一个旧时代的名字。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_032.json"
         }
       ],
       "status": "in_progress"
