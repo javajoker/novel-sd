@@ -11,13 +11,16 @@ classes of file relate to it, and all three drift:
     - outline/beats/ch_*.json    events_covered[]
 
   MIRRORS — deterministic projections of ontology#events (+ #threads), regenerated
-  wholesale, never hand-edited:
-    - timeline/events.json         flat {id, story_time, thread_id, chapter_ids, status}
+  wholesale, never hand-edited. The events/ shards + index.json are AUTHORITATIVE:
     - timeline/events/thr_*.json   per-thread shard {id, name, story_time, chapter,
                                                      status, participants}
     - timeline/events/index.json   by_chapter / by_story_time / by_thread + cursors
     - timeline/threads.json        thin thread mirror {id, name, pov_character,
                                                        event_ids, convergences}
+    - timeline/events.json         LEGACY flat {id, story_time, thread_id, chapter_ids,
+                                   status}. Optional: kept synced only while it exists,
+                                   never resurrected once dropped; remove it on a
+                                   migrated KB with --drop-legacy-flat.
 
 Invariants enforced:
   1. Every referenced event ID exists in ontology#events. (Orphan refs are the bug
@@ -51,10 +54,17 @@ Modes:
   --check  (default)  read-only; report inconsistency; exit 1 if any, else 0.
                       Use as a gate at the end of every write batch.
   --write             apply the deterministic fixes in place.
+  --drop-legacy-flat  remove the legacy flat timeline/events.json (deletes under --write).
+
+This pass is ALSO run automatically whenever sync_kb.py is invoked (sync_kb chains
+sync_events so a single command keeps both the chapter-level mirrors and the event
+graph in sync). Call sync_events.py directly only when you need --drop-legacy-flat
+or want the event graph alone.
 
 Usage:
-  python sync_events.py <novel-slug>/            # check (default)
-  python sync_events.py --write <novel-slug>/    # apply fixes
+  python sync_events.py <novel-slug>/                       # check (default)
+  python sync_events.py --write <novel-slug>/               # apply fixes
+  python sync_events.py --write --drop-legacy-flat <slug>/  # apply + remove flat events.json
 """
 from __future__ import annotations
 
@@ -243,15 +253,10 @@ def canon(obj):
     return json.dumps(obj, ensure_ascii=False, sort_keys=True)
 
 
-def main() -> int:
-    ap = argparse.ArgumentParser(description=__doc__,
-                                 formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("root", help="novel KB root directory")
-    ap.add_argument("--write", action="store_true",
-                    help="apply fixes in place (default is read-only --check)")
-    args = ap.parse_args()
-
-    root = Path(args.root)
+def sync(root: Path, write: bool = False, drop_legacy_flat: bool = False) -> int:
+    """Run the event-graph consistency pass. Returns 0 (consistent / fixed),
+    1 (drift, --check only), or 2 (usage). Importable so sync_kb.py can chain it."""
+    root = Path(root)
     if not root.is_dir():
         print(f"not a directory: {root}", file=sys.stderr)
         return 2
@@ -339,11 +344,22 @@ def main() -> int:
 
     mirror_changes: list[tuple[Path, dict]] = []
 
-    cur_flat = load_json(flat_path)
-    if not isinstance(cur_flat, dict) or canon({k: v for k, v in cur_flat.items() if k != "_note"}) \
-            != canon({k: v for k, v in want_flat.items() if k != "_note"}):
-        drift.append("timeline/events.json (flat) out of sync with ontology#events")
-        mirror_changes.append((flat_path, want_flat))
+    # The flat timeline/events.json is an OPTIONAL LEGACY mirror — the events/ shards
+    # + index.json are authoritative. Keep it synced only while it exists; never
+    # resurrect it once dropped (so a migrated KB stays migrated). --drop-legacy-flat
+    # removes it outright.
+    flat_exists = flat_path.exists()
+    flat_drop = drop_legacy_flat and flat_exists
+    if flat_drop:
+        drift.append("timeline/events.json (legacy flat mirror) present — removing "
+                     "(events/ shards + index.json are authoritative)")
+    elif flat_exists:
+        cur_flat = load_json(flat_path)
+        if not isinstance(cur_flat, dict) or canon({k: v for k, v in cur_flat.items() if k != "_note"}) \
+                != canon({k: v for k, v in want_flat.items() if k != "_note"}):
+            drift.append("timeline/events.json (legacy flat) out of sync with ontology#events "
+                         "(or drop it with --drop-legacy-flat)")
+            mirror_changes.append((flat_path, want_flat))
 
     for tid, want in want_shards.items():
         sp = shard_dir / f"{tid}.json"
@@ -373,11 +389,14 @@ def main() -> int:
         mirror_changes.append((threads_mirror_path, want_threads))
 
     # ---- apply / report ---------------------------------------------------
-    if args.write:
+    if write:
         fixed: list[str] = []
         if onto_changed:
             dump_json(onto_path, onto)
             fixed.append("ontology.json")
+        if flat_drop:
+            flat_path.unlink()
+            fixed.append("removed timeline/events.json (legacy flat)")
         for path, data in mirror_changes:
             dump_json(path, data)
             fixed.append(str(path.relative_to(root)))
@@ -409,6 +428,19 @@ def main() -> int:
     if manual:
         print("  some items still need a human pass (thread assignment / semantics).", file=sys.stderr)
     return 1
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser(description=__doc__,
+                                 formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("root", help="novel KB root directory")
+    ap.add_argument("--write", action="store_true",
+                    help="apply fixes in place (default is read-only --check)")
+    ap.add_argument("--drop-legacy-flat", action="store_true",
+                    help="remove the legacy flat timeline/events.json (the events/ shards "
+                         "+ index.json are authoritative); only deletes under --write")
+    args = ap.parse_args()
+    return sync(Path(args.root), write=args.write, drop_legacy_flat=args.drop_legacy_flat)
 
 
 if __name__ == "__main__":

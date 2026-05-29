@@ -21,11 +21,18 @@ What it syncs (the deterministic subset of Phase C C-3/C-5/C-6/C-7):
   4. memory/summaries.json  → SKELETON chapter_summaries for any chapter missing one
                               (marked "_autogen": true — enrich by hand later)
 
+It then CHAINS sync_events.py (the event-graph pass) so one command keeps both the
+chapter-level mirrors and the event graph in sync: orphan-event refs → ontology
+stubs, one-thread membership, and the timeline event mirrors (events/ shards +
+index.json + threads.json) regenerated from ontology. The combined exit code is
+non-zero if EITHER pass reports drift in --check mode.
+
 What it deliberately does NOT do (needs human/authorial judgement — left to the
 writer, never auto-faked):
   - memory/plot_threads.json occurrences (which hook a scene advances)
   - relation edges, world_rules, convergences, ripple resolution
   - rewriting existing hand-written summaries (only fills MISSING ones)
+  - event semantics behind a sync_events stub (name/outcome/participants)
 
 Modes:
   --check  (default)  read-only; report drift; exit 1 if anything is stale, else 0.
@@ -33,8 +40,8 @@ Modes:
   --write             apply the deterministic fixes in place.
 
 Usage:
-  python sync_kb.py <novel-slug>/            # check, report drift (default)
-  python sync_kb.py --write <novel-slug>/    # apply fixes
+  python sync_kb.py <novel-slug>/            # check kb + event graph (default)
+  python sync_kb.py --write <novel-slug>/    # apply fixes to both
 """
 from __future__ import annotations
 
@@ -43,6 +50,11 @@ import json
 import re
 import sys
 from pathlib import Path
+
+# sync_events.py lives beside this script; chain it so one command keeps both the
+# chapter-level mirrors (here) and the event graph (there) in sync.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import sync_events  # noqa: E402
 
 SIEGE_RE = re.compile(r"siege_day\s+(\d+)")
 CH_NUM_RE = re.compile(r"ch_0*(\d+)")
@@ -137,8 +149,9 @@ def main() -> int:
 
     chapters = discover_chapters(root)
     if not chapters:
-        print("no chapters found — nothing to sync", file=sys.stderr)
-        return 0
+        print("no chapters found — chapter-level mirrors skipped", file=sys.stderr)
+        print("\n— event-graph sync (sync_events) —", file=sys.stderr)
+        return sync_events.sync(root, write=args.write)
     max_num = chapters[-1][0]
     drift: list[str] = []
     fixed: list[str] = []
@@ -260,21 +273,30 @@ def main() -> int:
 
     if not drift:
         print(f"✓ {root} — KB mirrors in sync with {len(chapters)} chapters (latest ch_{max_num:03d})")
-        return 0
+        rc_kb = 0
+    else:
+        head = "FIXED" if args.write else "DRIFT DETECTED"
+        print(f"✗ {root} — {head} ({len(drift)} issue(s)):", file=sys.stderr)
+        for d in drift:
+            print(f"  - {d}", file=sys.stderr)
+        if args.write:
+            print(f"\n  wrote: {', '.join(fixed) if fixed else '(deterministic mirrors already current; '
+                  'remaining items need manual work)'}", file=sys.stderr)
+            print("  NOTE: auto-generated summaries carry \"_autogen\": true — enrich by hand.",
+                  file=sys.stderr)
+            rc_kb = 0
+        else:
+            print("\n  run with --write to apply the deterministic fixes "
+                  "(summaries/threads still need a human pass).", file=sys.stderr)
+            rc_kb = 1
 
-    head = "FIXED" if args.write else "DRIFT DETECTED"
-    print(f"✗ {root} — {head} ({len(drift)} issue(s)):", file=sys.stderr)
-    for d in drift:
-        print(f"  - {d}", file=sys.stderr)
-    if args.write:
-        print(f"\n  wrote: {', '.join(fixed) if fixed else '(deterministic mirrors already current; '
-              'remaining items need manual work)'}", file=sys.stderr)
-        print("  NOTE: auto-generated summaries carry \"_autogen\": true — enrich by hand.",
-              file=sys.stderr)
-        return 0
-    print("\n  run with --write to apply the deterministic fixes "
-          "(summaries/threads still need a human pass).", file=sys.stderr)
-    return 1
+    # ---- chain the event-graph sync (single entry point) ------------------
+    # sync_events re-reads ontology.json from disk, so in --write mode it sees the
+    # status/current_chapter advances we just wrote and regenerates the timeline
+    # event mirrors on top of them.
+    print("\n— event-graph sync (sync_events) —", file=sys.stderr)
+    rc_ev = sync_events.sync(root, write=args.write)
+    return rc_kb or rc_ev
 
 
 if __name__ == "__main__":

@@ -35,9 +35,10 @@ Checks performed:
        ontology#event (orphan refs are ERRORS — check #9 skips this during early
        outlining, so a written chapter can reference a never-declared event); every
        ontology event must be in EXACTLY ONE thread.event_ids; and the timeline
-       mirrors (flat events.json, thr_*.json shards, index.json) must cover exactly
-       the ontology event set. Repair with
-       narrative-execution/scripts/sync_events.py --write. Skip with --no-events.
+       mirrors (thr_*.json shards, index.json, and the optional legacy flat
+       events.json when present) must cover exactly the ontology event set. Repair
+       with narrative-execution/scripts/sync_events.py --write (also chained by
+       sync_kb.py). Skip with --no-events.
 
 Exit codes: 0 valid, 1 invalid, 2 usage error.
 
@@ -285,11 +286,13 @@ def validate_event_consistency(root: Path) -> None:
          reference an event that never made it into the graph — this catches it.)
       2. Every ontology event belongs to EXACTLY ONE thread (thread.event_ids), and
          no thread lists an event ID with no matching ontology#event.
-      3. The timeline mirrors cover exactly the ontology event set: timeline/events.json
-         (flat), timeline/events/thr_*.json (shards), timeline/events/index.json.
+      3. The timeline mirrors cover exactly the ontology event set: timeline/events/thr_*.json
+         (shards), timeline/events/index.json, and timeline/events.json (the optional
+         legacy flat mirror — checked only when present, so a migrated KB that dropped it
+         is fine).
 
-    Repair with narrative-execution/scripts/sync_events.py --write. Skip with
-    --no-events.
+    Repair with narrative-execution/scripts/sync_events.py --write (also run automatically
+    by sync_kb.py). Skip with --no-events.
     """
     onto = load(root / "ontology.json")
     if not isinstance(onto, dict):

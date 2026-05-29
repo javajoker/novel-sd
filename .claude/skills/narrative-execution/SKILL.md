@@ -226,7 +226,10 @@ and drift apart. The orphan trap: an event ID written into a chapter's `events_c
 (beats), `planned_events` (structure), or `events_covered` (summaries) that was *never
 declared* in `ontology.json#events` — the old structural validator skipped this (check #9
 ignores `planned_events` so early outlining isn't blocked), so a written chapter could
-reference a ghost event forever. Repair + regenerate the timeline mirrors with:
+reference a ghost event forever. **`sync_kb.py --write` already runs this pass for you**
+(it chains `sync_events.py`), so the single command above keeps both the chapter mirrors
+and the event graph in sync. Run `sync_events.py` directly only for the event graph alone
+or for `--drop-legacy-flat`:
 
 ```
 python .claude/skills/narrative-execution/scripts/sync_events.py --write <novel-slug>/
@@ -235,13 +238,16 @@ python .claude/skills/narrative-execution/scripts/sync_events.py --write <novel-
 It (a) creates an ontology event **stub** (`"_stub": true`) for every orphan ref, deriving
 `story_time` / `thread_id` / `chapter_ids` / `status` / `name` from the referencing
 structure chapter + prose-on-disk; (b) adds each event to exactly one thread's `event_ids`
-(in story_time order); and (c) regenerates `timeline/events.json`, the `timeline/events/`
-shards + `index.json`, and `timeline/threads.json` wholesale as faithful projections of
-ontology. Like `_autogen` summaries, a stub is a placeholder — its `name`,
-`projected_outcome`, participants, and dependencies need a human pass. It will **not**
-auto-assign a thread when structure gives no `thread_id` (reported, never faked).
-`validate_narrative.py` **errors** (exit 1) on any orphan ref, any event not in exactly one
-thread, or any timeline-mirror coverage gap. (`--no-events` runs without this gate.)
+(in story_time order); and (c) regenerates the `timeline/events/` shards + `index.json` and
+`timeline/threads.json` wholesale as faithful projections of ontology. The
+`timeline/events/` shards + `index.json` are **authoritative**; the flat
+`timeline/events.json` is an optional legacy mirror — kept synced only while it exists,
+never resurrected once dropped, removable with `sync_events.py --write --drop-legacy-flat`.
+Like `_autogen` summaries, a stub is a placeholder — its `name`, `projected_outcome`,
+participants, and dependencies need a human pass. It will **not** auto-assign a thread when
+structure gives no `thread_id` (reported, never faked). `validate_narrative.py` **errors**
+(exit 1) on any orphan ref, any event not in exactly one thread, or any timeline-mirror
+coverage gap. (`--no-events` runs without this gate.)
 
 ### C-1 — Character state snapshots
 
@@ -328,10 +334,11 @@ wholesale, faithfully and idempotently. The bullets describe what it produces:
     append `chapter_to_world_day[<ch>]` and refresh `world_calendar.current`; add any new
     `travel_rules` / `movement_speeds` the prose established (LORE-01-style).
 
-> Legacy KBs may still carry a flat `timeline/events.json`; new writes go to
-> `timeline/events/`. If a flat file is present, you may migrate it once (split by thread)
-> or leave it as a read-only fallback — but keep `timeline/events/` authoritative going
-> forward.
+> Legacy KBs may still carry a flat `timeline/events.json`; the `timeline/events/` shards
+> + `index.json` are authoritative. `sync_events.py` keeps the flat file synced only while
+> it exists and never recreates it once gone — once a KB is on the `events/` structure you
+> can drop the flat file for good with `sync_events.py --write --drop-legacy-flat`
+> (`validate_narrative.py` treats it as optional, so its absence is not an error).
 
 ### C-6 — Outline status
 
@@ -493,9 +500,10 @@ or just see it?
 - [ ] `memory/plot_threads.json` — occurrences updated; resolved/new hooks filed.
 - [ ] Ripple check (RIPPLE-02) run; conflicts flagged (or confirmed none).
 - [ ] `sync_kb.py --write` run so the deterministic mirrors (cursor, calendar,
-      outline status, summary skeletons) match the prose.
-- [ ] `sync_events.py --write` run so the event graph is consistent (every referenced
-      event declared in ontology, one-thread membership, timeline mirrors regenerated).
+      outline status, summary skeletons) match the prose. **This also chains
+      `sync_events.py`**, which makes the event graph consistent (every referenced event
+      declared in ontology, one-thread membership, timeline event mirrors regenerated) —
+      so one command covers both. (Run `sync_events.py` alone only for `--drop-legacy-flat`.)
 - [ ] **Both gates green:** `validate_narrative.py` passes with NO `[freshness]` errors
       (calendar/cursor/summaries/status keep pace) and NO `[events]` errors (no orphan
       refs, one-thread membership, mirror coverage). Do not commit a batch while red.
