@@ -1400,7 +1400,7 @@
       "dependencies": [
         {
           "event": "evt_first_open_combat",
-          "relation": "CAUSED_BY"
+          "relation": "HAPPENED_AFTER"
         }
       ],
       "projected_outcome": {
@@ -1638,7 +1638,7 @@
       "dependencies": [
         {
           "event": "evt_open_terrain_battle",
-          "relation": "HAPPENS_AFTER"
+          "relation": "HAPPENED_AFTER"
         }
       ],
       "projected_outcome": {
