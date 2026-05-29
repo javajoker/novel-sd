@@ -1,0 +1,27 @@
+{
+  "_note": "Thread shard for thr_void_echo. Stubs only — full truth in ontology.json#events.",
+  "thread_id": "thr_void_echo",
+  "events": [
+    {
+      "id": "evt_void_echo_observes",
+      "name": "虚影的观察",
+      "story_time": 6,
+      "chapter": "ch_006",
+      "status": "drafted",
+      "participants": [
+        "char_void_echo"
+      ]
+    },
+    {
+      "id": "evt_void_echo_contact",
+      "name": "虚影首次直接接触",
+      "story_time": 50,
+      "chapter": "ch_050",
+      "status": "drafted",
+      "participants": [
+        "char_ke_yan",
+        "char_void_echo"
+      ]
+    }
+  ]
+}

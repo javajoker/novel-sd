@@ -9,7 +9,10 @@
       "payoff_target_chapter": "ch_080",
       "severity": "primary",
       "status": "open",
-      "occurrences": []
+      "occurrences": [
+        { "chapter_id": "ch_001", "note": "首次显形：警报前半秒侧移 + 按倒新兵；班长夸了，柯炎归功运气——the_lie第一次显形。周恒第三次在心里标记名字（在外部POV层面首次确认潜力异常）。" },
+        { "chapter_id": "ch_003", "note": "首次主动使用：柯炎在精英伏击中主动'看见'源质结晶流动方向并用于战术——这是他第一次清醒地使用而非事后合理化。蓝卡合成时胸口烫感是the_lie第一次面临真正压力：'我做的'念头出现0.8秒，随即被压回'运气好'。刘霜的源质感应也记录了这次共鸣数据。" }
+      ]
     },
     {
       "id": "hook_void_echo_identity",
@@ -20,7 +23,9 @@
       "payoff_target_chapter": "vol_02-vol_03",
       "severity": "primary",
       "status": "open",
-      "occurrences": []
+      "occurrences": [
+        {"chapter_id": "ch_006", "note": "首次植入：虚影在Ω站出场，POV首次切换。据点建立，监视网络接入。在本章末尾对读者可见（对柯炎不可见）。"}
+      ]
     },
     {
       "id": "hook_theta_secret",
@@ -53,7 +58,12 @@
       "payoff_target_chapter": "ch_035",
       "severity": "secondary",
       "status": "open",
-      "occurrences": []
+      "occurrences": [
+        { "chapter_id": "ch_002", "note": "预埋：柯炎目击刘霜在装备区将非标准金属注射器藏入包底（非制式医疗器材）。两人相视点头，柯炎存档不问。周恒看刘霜那一眼亦为预埋。" },
+        {"chapter_id": "ch_006", "note": "虚影视角确认：通过战场录像分析，虚影确认柯炎的感知特征超出感知者正常上限。柯炎被标记（建立文件夹），fact_ke_yan_potential 升级为 confirmed（在虚影知识层）。"},
+        { "chapter_id": "ch_003", "note": "首次露出：刘霜在精英遭遇战中用蓝卡·快速愈合（攻击端）击退第三只异种，随即掩饰手腕。柯炎目击但不追问（存档）。刘霜在掌机记录柯炎数据后第一次停下来，感到任务/情感混淆。" },
+        { "chapter_id": "ch_005", "note": "核心显现：刘霜脱右手手套以掌心接触疗愈腹部贯穿伤（源质融合输注）。柯炎感知捕捉到约1秒的异常波动（向内），随即精度不足消失。他选择不追——主动建立'不问列表'（串联周恒/针剂/手腕三件事）。刘霜无法判断他是否真的感知到了。" }
+      ]
     },
     {
       "id": "hook_zhou_despair_directive",
@@ -64,7 +74,9 @@
       "payoff_target_chapter": "ch_070",
       "severity": "secondary",
       "status": "open",
-      "occurrences": []
+      "occurrences": [
+        { "chapter_id": "ch_002", "note": "首次植入：简报时说出'50%死亡率'的事实性陈述；柯炎读出周恒已失去对胜利的信心，但周恒仍在做该做的事。密令内容尚未出现。" }
+      ]
     },
     {
       "id": "hook_federation_losing",
@@ -75,7 +87,9 @@
       "payoff_target_chapter": "ch_070",
       "severity": "macro",
       "status": "open",
-      "occurrences": []
+      "occurrences": [
+        { "chapter_id": "ch_001", "note": "围困日常铺垫：物资只剩7-10天，援军信号已断11天，所有人默认援军不来但不说出口。异种以探针阵试探，战况持续恶化。" }
+      ]
     },
     {
       "id": "hook_psi_elder_mission",

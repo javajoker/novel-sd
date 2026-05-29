@@ -6,27 +6,55 @@
       "name": "柯炎主线",
       "pov_character": "char_ke_yan",
       "event_ids": [
-        "evt_siege_day43", "evt_breakout_briefing", "evt_first_synthesis",
-        "evt_liushuang_anomaly", "evt_perception_edge", "evt_herald_first_sighting",
-        "evt_zhou_despair", "evt_theta_map_fragment", "evt_subarc_a_climax",
-        "evt_liushuang_revealed", "evt_uneasy_alliance", "evt_breakout_to_theta",
+        "evt_siege_day43",
+        "evt_breakout_briefing",
+        "evt_first_synthesis",
+        "evt_relay_station",
+        "evt_liushuang_anomaly",
+        "evt_perception_edge",
+        "evt_herald_first_sighting",
+        "evt_zhou_despair",
+        "evt_theta_map_fragment",
+        "evt_subarc_a_climax",
+        "evt_liushuang_revealed",
+        "evt_corridor_attempt_fail",
+        "evt_uneasy_alliance",
+        "evt_breakout_to_theta",
         "evt_keyan_breakthrough"
       ],
-      "convergences_with": ["thr_void_echo@ch_050", "thr_war_strategy@ch_058", "thr_war_strategy@ch_070"]
+      "convergences_with": [
+        "thr_void_echo@ch_050",
+        "thr_war_strategy@ch_058",
+        "thr_war_strategy@ch_070"
+      ],
+      "current_time": 65
     },
     {
       "id": "thr_void_echo",
       "name": "虚影暗线",
       "pov_character": "char_void_echo",
-      "event_ids": ["evt_void_echo_observes", "evt_void_echo_contact"],
-      "convergences_with": ["thr_protagonist@ch_050"]
+      "event_ids": [
+        "evt_void_echo_observes",
+        "evt_void_echo_contact"
+      ],
+      "convergences_with": [
+        "thr_protagonist@ch_050"
+      ],
+      "current_time": 65
     },
     {
       "id": "thr_war_strategy",
       "name": "战略层线",
       "pov_character": null,
-      "event_ids": ["evt_psi_elder_enters", "evt_herald_strategy", "evt_fortress_crisis"],
-      "convergences_with": ["thr_protagonist@ch_070"]
+      "event_ids": [
+        "evt_psi_elder_enters",
+        "evt_herald_strategy",
+        "evt_fortress_crisis"
+      ],
+      "convergences_with": [
+        "thr_protagonist@ch_070"
+      ],
+      "current_time": 65
     }
   ]
 }

@@ -1,14 +1,13 @@
 # 星尘·诸族之战 — 工作清单 (Work Checklist)
 
-> **Status (after Phase II build):** Phase I + Phase II complete. World Bible + 27 entities
-> + 16 world rules; 6 character profiles + 6 T=0 states; 2 POV masks (柯炎 + 虚影);
-> 18 events with `beat_design` mapped to vol_01 chapters; 3 threads populated with
-> event_ids + convergences; outline structure with vol_01 (planned, 19 anchored ch over
-> 80-ch span, 4 sub-arcs) + 3 upcoming volumes sketched; 10 plot hooks seeded; calendar
-> with siege-day mapping + travel rules + movement speeds; 黄金三章 beat sheets
-> (ch_001–003) synthesized and write-ready.
+> **Status (after W1–W3 + W4 start):** Phase I + II + III partial. ch_001–003 drafted.
+> KB updated through ch_003 (events drafted, masks, states, summaries, plot_threads).
+> 蓝卡·预知闪避 added to ontology + world_bible. Validation: ✓ 0 errors, 2 pre-existing
+> warnings (未出场POV角色mask). W4+ in progress: beat sheets being designed for ch_004–
+> ch_006 + write loop. Anchored beat sheets for ch_008, ch_010, ch_012, ch_015,
+> ch_019–020 queued.
 >
-> Tier: `long_novel`, `target_word_count: 1,200,000`. `current_chapter: 0`.
+> Tier: `long_novel`, `target_word_count: 1,200,000`. `current_chapter: 3`.
 >
 > Workflow: event-driven NovelForge cycle. See `.claude/agents/novelist/AGENT.md`.
 > This novel is the source game/fandom for 星尘·灵渊挽歌.
@@ -58,17 +57,19 @@
 
 ## Phase III — Write (per-event A→B→C cycle) — NEXT
 
-- [ ] **W1.** Write prose `chapters/ch_001.md` from the synthesized beat sheet (黄金三章
-      opening). Then Phase C KB update.
-- [ ] **W2.** Write `chapters/ch_002.md`. Phase C KB update.
-- [ ] **W3.** Write `chapters/ch_003.md` (爽点：第一张蓝卡). Phase C KB update.
+- [x] **W1.** Write prose `chapters/ch_001.md` from the synthesized beat sheet (黄金三章
+      opening). Then Phase C KB update. ✓
+- [x] **W2.** Write `chapters/ch_002.md`. Phase C KB update. ✓
+- [x] **W3.** Write `chapters/ch_003.md` (爽点：第一张蓝卡). Phase C KB update. ✓
 - [ ] **W4+.** Continue chapter-by-chapter via the per-event design→write→update→adjust
-      loop. Next events to synthesize beat sheets for: ch_005 (evt_liushuang_anomaly),
-      ch_006 (evt_void_echo_observes — first POV switch to 虚影), ch_008, ch_010, ch_012,
-      ch_015, ch_019–020 (sub-arc A climax). Then sub-arcs B/C/D, and the un-anchored
-      chapters (61 of 80) defined per-event as the timeline grows.
+      loop. In progress:
+      - [x] Beat sheets synthesized + prose drafted: ch_004（中继站）, ch_005 (evt_liushuang_anomaly), ch_006 (evt_void_echo_observes, 虚影POV)
+      - [x] Beat sheets synthesized (write-ready): ch_008 (感知边界), ch_010 (先驱), ch_012 (周恒的真话), ch_015 (残图), ch_019 (选择), ch_020 (幸存的代价)
+      - [ ] Sub-arcs B/C/D + un-anchored chapters ch_007, ch_009, ch_011, ch_013–014, ch_016–018 etc. (defined per-event)
 
 ## Validation
 
-- [ ] **V1.** Run `narrative-ontology/scripts/validate_narrative.py`.
+- [x] **V1.** Run `narrative-ontology/scripts/validate_narrative.py`. Result: ✓ 0 errors,
+      2 pre-existing warnings (char_swarm_herald + char_psi_elder mask files not yet
+      created — those POV characters haven't appeared in prose).
 - [ ] **V2.** Run `narrative-consistency/scripts/check_consistency.py`.

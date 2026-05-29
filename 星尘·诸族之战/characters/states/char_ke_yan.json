@@ -2,16 +2,1645 @@
   "character_id": "char_ke_yan",
   "states": [
     {
+      "story_time": 60,
+      "chapter_id": "ch_060",
+      "location": "elem_stardust_fortress（简报室→战术室→走廊→宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "弹药3.8天（官方公布）；东南通道8-12天；突围作为选项进入视野",
+          "confidence": "confirmed_briefing",
+          "trigger": "周恒全员简报"
+        },
+        {
+          "fact": "周恒：感知资产最高优先级，先撤，不殿后；突围序列已在规划",
+          "confidence": "verbatim_private",
+          "trigger": "战术室私下通知"
+        },
+        {
+          "fact": "刘霜今天状态：在张力里的稳定，准备好了",
+          "confidence": "感知确认",
+          "trigger": "走廊频率扫描"
+        }
+      ],
+      "psychology": {
+        "sanity": 57,
+        "mood": "稳定·Sub-arc C收束·有了朝向的方向",
+        "notes": "Sub-arc C结束时他的状态：知道了比围城开始时多很多的事，有比围城开始时多很多的问题，但有了一个朝向的方向。那个方向是清楚的，那个方向是他的。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_060：最后阶段，siege_day 131，弹药3.8天，突围选项确认，感知资产最优先，Sub-arc C收束。"
+    },
+    {
+      "story_time": 59,
+      "chapter_id": "ch_059",
+      "location": "elem_stardust_fortress（走廊→宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "三件事合并为同一命题：我的起源，以及我为什么在这里（先驱定向攻击+θ-07+艾薇儿的描述）",
+          "confidence": "self_synthesis",
+          "trigger": "走廊思考"
+        },
+        {
+          "fact": "格子出现一条裂缝（第一次非主动结构变化）；格子今晚第一次在不被主动关上的情况下不关",
+          "confidence": "self_observed",
+          "trigger": "走廊感知"
+        }
+      ],
+      "psychology": {
+        "sanity": 57,
+        "mood": "稳定·格子裂缝接受·做了第一个主动决定",
+        "notes": "他做了关于格子的第一个具体主动决定，写进状态日志：'如果活着出去，我要打开格子。'格子有裂缝，他接受那条裂缝，他没有试图修它，他第一次在格子不完全关着的状态里睡着。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_059：重量，siege_day 130，三件事合并为起源命题，格子裂缝，第一个主动决定。"
+    },
+    {
+      "story_time": 58,
+      "chapter_id": "ch_058",
+      "location": "elem_stardust_fortress外围→中间地带→要塞",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "艾薇儿确认：他有古遗的东西，持续被动泄漏（他自己不知道），正在改变他；她以前没有在人类身上见过那个频率位置",
+          "confidence": "灵能族长老直接确认",
+          "trigger": "evt_uneasy_alliance首次接触"
+        },
+        {
+          "fact": "他和艾薇儿的频率都在古遗共鸣区域的外边缘，从两个不同方向接近同一个位置",
+          "confidence": "双向频率感知确认",
+          "trigger": "同时互相感知"
+        },
+        {
+          "fact": "艾薇儿：'如果你感知到南边三公里有什么东西，那个东西和你有关，不要忽视它。'",
+          "confidence": "verbatim",
+          "trigger": "接触结束前她给的信息"
+        },
+        {
+          "fact": "初步共识建立：条件句关系——如果活着出来，再谈合作",
+          "confidence": "verbal_agreement",
+          "trigger": "接触结束"
+        }
+      ],
+      "psychology": {
+        "sanity": 58,
+        "mood": "稳定·首次被另一生命体从频率层面看见并描述",
+        "notes": "艾薇儿的描述'你有古遗的东西在你里面'是他以前对自己无法描述的事的外部命名，他接受那个描述。"
+      },
+      "abilities_delta": [
+        {
+          "ability": "频率感知",
+          "change": "在3米距离直接感知艾薇儿：感知到中层和内层，确认她的频率也在古遗共鸣区域外边缘（不同方向）"
+        }
+      ],
+      "notes": "ch_058：背靠背，siege_day 129，evt_uneasy_alliance，艾薇儿首次接触，双向感知，条件句关系建立。"
+    },
+    {
+      "story_time": 57,
+      "chapter_id": "ch_057",
+      "location": "elem_stardust_fortress（通信室→私密角落→走廊→宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "第四次通信空白：siege_day 127，03:11，3.2秒（1.6×2），280字节；间隔8天（不再缩短但模式仍成立）",
+          "confidence": "实测确认",
+          "trigger": "通信日志查阅"
+        },
+        {
+          "fact": "解密消息第一行：'研究站代号：SITE-θ-07，你父母工作过的地方。'",
+          "confidence": "confirmed_decrypted",
+          "trigger": "掌机解密"
+        },
+        {
+          "fact": "解密消息第二行：'θ-07的遗址位置，你今天站着的地方以南约三公里。'",
+          "confidence": "confirmed_decrypted",
+          "trigger": "掌机解密"
+        },
+        {
+          "fact": "Θ区基础地图核查：要塞以南三公里=Θ区古遗址禁区，历史档案，机密",
+          "confidence": "地图核查",
+          "trigger": "要塞数据库查询"
+        }
+      ],
+      "psychology": {
+        "sanity": 58,
+        "mood": "稳定外壳下格子重量突然增加·父母/Θ区/当前位置三者关联首次确认",
+        "notes": "他和Θ区的关系不再只是战场关系，那个关系在他来这里之前就存在。格子里那件事的重量在这个知道里突然增加，像是以为是小盒子的格子突然变得很沉。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_057：第四次空白，siege_day 127，θ-07确认，父母=Θ区研究者，遗址以南3公里，格子重量突然增加。"
+    },
+    {
+      "story_time": 56,
+      "chapter_id": "ch_056",
+      "location": "elem_stardust_fortress（西侧外围部署位置→宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "先驱诱敌计划执行：西侧集结约120只，行为异常（等待而非主动进攻），后向他位置发出先驱指挥层级定向能量束",
+          "confidence": "战斗实测",
+          "trigger": "siege_day 125西侧战斗"
+        },
+        {
+          "fact": "先驱已将他标注为高优先级消除目标，攻击精度：针对他的具体位置，非随机",
+          "confidence": "confirmed_analysis",
+          "trigger": "战后分析"
+        },
+        {
+          "fact": "先驱定向攻击频率特征：指挥层级，不在普通虫潮频率范围内",
+          "confidence": "频率感知实测",
+          "trigger": "攻击残留频率扫描"
+        }
+      ],
+      "psychology": {
+        "sanity": 59,
+        "mood": "稳定·资源分配调整（高价值目标自我保护模式激活）",
+        "notes": "他意识到自己已经是先驱的高价值目标，他的战场行为模式开始自动调整：增加近端感知频率，评估退路，减少不必要暴露。"
+      },
+      "abilities_delta": [
+        {
+          "ability": "蓝卡·预知闪避",
+          "change": "在先驱定向攻击前0.4秒触发，成功规避；这是第一次规避先驱指挥层级攻击"
+        },
+        {
+          "ability": "蓝卡·瞬位",
+          "change": "配合预知闪避使用，瞬移7米规避攻击残留能量"
+        }
+      ],
+      "notes": "ch_056：陷阱，siege_day 125，先驱定向攻击，他是目标，蓝卡组合规避成功。"
+    },
+    {
+      "story_time": 53,
+      "chapter_id": "ch_053",
+      "location": "elem_stardust_fortress（通信室→走廊→宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "联邦民用档案记录：父母死亡，职业=技术研究员，类型=事故类，印章编号=机密归档B级权限；记录有一次后期修改，内容无权查阅",
+          "confidence": "档案截图确认",
+          "trigger": "C级权限查询"
+        },
+        {
+          "fact": "事实层总结：我亲眼见过=无；被告知=年份+设施+故障（口头，无法验证）；档案有的=登记框架（锁后）；结论：事实层等同于空",
+          "confidence": "self_assessed",
+          "trigger": "三列清单建立"
+        },
+        {
+          "fact": "认知更新：他以为格子里是那件事，但实际是那件事的一个叙述，从未被检验过",
+          "confidence": "confirmed_insight",
+          "trigger": "档案查阅后反思"
+        }
+      ],
+      "psychology": {
+        "sanity": 58,
+        "mood": "稳定·分析框架运行·格子外壁轮廓感继续增强",
+        "notes": "他今天发现格子里存的是一个叙述，不是事实。以前他以为格子里是那件事，完整的。今天他发现那件事从来就没有被他打开过检验，他存进格子的是一个别人告诉他的版本，他接受了，不看，不问。那句话质疑的是这整个结构，不只是那件事本身。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_053：档案，siege_day 119，父母死亡档案查阅，机密B级权限锁后，事实层空，格子里是叙述不是事实。"
+    },
+    {
+      "story_time": 52,
+      "chapter_id": "ch_052",
+      "location": "elem_stardust_fortress（通信室→简报室→Θ区外围→空置休息室→宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "行为改变确认：连续第三天早上第一件事是查通信日志，为找第四次信号，不是为战术信息",
+          "confidence": "self_observed",
+          "trigger": "早上例行查询"
+        },
+        {
+          "fact": "弹药管控第六天：5.7天（计划外消耗0.4天）；东南通道预计12天以上；差距结构未变",
+          "confidence": "confirmed_briefing",
+          "trigger": "周恒简报"
+        },
+        {
+          "fact": "信号时间窗口估算：第1→2次间隔16天，第2→3次5天，间隔缩短；下次可能3-5天内，但模式不确定",
+          "confidence": "low_extrapolation",
+          "trigger": "间隔序列分析"
+        }
+      ],
+      "psychology": {
+        "sanity": 59,
+        "mood": "稳定·等待中·被等待的认知",
+        "notes": "他第一次感知到自己在这件事里是被等待的那个人，不是主动方，那个位置和他以前的习惯位置不同。他在掌机里写好了一句回复草稿：'我知道的比你以为的少。'"
+      },
+      "abilities_delta": [],
+      "notes": "ch_052：等待，siege_day 117，行为改变（每日查日志），弹药5.7天，回复草稿写好存档。"
+    },
+    {
+      "story_time": 51,
+      "chapter_id": "ch_051",
+      "location": "elem_stardust_fortress（走廊→宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "父母之死事实层建立：时间=年份（月份不明），地点=联邦研究设施（名称不明），死因=设施故障+能源系统异常（口头转述，无法验证），当时在场=无（训练基地），见过直接证据=无",
+          "confidence": "self_reconstructed",
+          "trigger": "脑子里清点"
+        },
+        {
+          "fact": "认知：格子里存的是一个叙述，不是那件事本身；那个叙述从来没有被检验过",
+          "confidence": "confirmed_insight",
+          "trigger": "事实层建立过程中"
+        }
+      ],
+      "psychology": {
+        "sanity": 60,
+        "mood": "稳定·事实层建立中·格子外壁轮廓感出现",
+        "notes": "格子外壁今晚有了形状感，不是格子打开了，是格子里的那件事开始在外壁上有了轮廓，比他以前以为的大。那是他第一次感知到格子里那件事有形状。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_051：后续，siege_day 115，父母之死事实层建立，轮廓感第一次出现。"
+    },
+    {
+      "story_time": 50,
+      "chapter_id": "ch_050",
+      "location": "elem_stardust_fortress（通信室→私密角落→走廊→宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "通信空白第三次：siege_day 114，03:28，1.6秒，精确翻倍；0.4→0.8→1.6秒，时间间隔缩短（16天→5天）",
+          "confidence": "实测确认",
+          "trigger": "通信日志查阅"
+        },
+        {
+          "fact": "第三次空白含200字节加密数据包，关联他的士兵编号；解密内容：'你父母的死，你真以为是意外吗？'",
+          "confidence": "confirmed_decrypted",
+          "trigger": "个人掌机解密"
+        },
+        {
+          "fact": "三次数据点模式确认：时段同（凌晨03:xx）、持续时间翻倍、内容与他有关——模式状态升为结论级",
+          "confidence": "pattern_confirmed",
+          "trigger": "三点比对"
+        }
+      ],
+      "psychology": {
+        "sanity": 59,
+        "mood": "稳定外壳下格子受到外部触碰·首次在非战斗事件前停留三十秒",
+        "notes": "那句话穿过了分析层，落在格子旁边。他没有打开格子，但格子感知到了外部的碰触，他感知到了格子感知到那个碰触。三个含义建立了假设但没有产生闭合感。今晚格子没有关上；那句话和格子里的东西并排在格子外壁，他接受这件事，他最终睡着了。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_050：问话，siege_day 114，evt_void_echo_contact，'你父母的死，你真以为是意外吗？'，格子被外部触碰，格子今晚没有关上。"
+    },
+    {
+      "story_time": 49,
+      "chapter_id": "ch_049",
+      "location": "elem_stardust_fortress（西北外围→东侧防线→战术室→走廊→宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "siege_day 113：先驱战略协调确认——东侧大规模牵制+西北精确伏击，时间节点与联邦通道打通计划完全吻合",
+          "confidence": "confirmed_battle",
+          "trigger": "扫描感知+战后简报"
+        },
+        {
+          "fact": "西北通道打通第二次尝试失败；联邦前进基地推进队损失约三分之二；通道短期内不会再次尝试",
+          "confidence": "confirmed_briefing",
+          "trigger": "战后简报"
+        },
+        {
+          "fact": "先驱行为数据集优先级从'中高'升为'高，直接战术影响，需进入战术组讨论'",
+          "confidence": "self_assessed",
+          "trigger": "围城期间先驱行为累计分析"
+        },
+        {
+          "fact": "他在今天战斗中首次同时使用全部四张蓝卡（全向感知+远程预警+瞬位+预知闪避）",
+          "confidence": "confirmed_self",
+          "trigger": "战斗回顾"
+        }
+      ],
+      "psychology": {
+        "sanity": 60,
+        "mood": "稳定·疲惫·格子压力加重·接受通道失败的现实",
+        "notes": "今天用了全部四张蓝卡，那是他的全部。弹药消耗超出管控模式两倍，撤离时间窗口再次收窄。他在走廊里停了十秒，然后接受：今天他做了他能做的全部，今晚先睡。"
+      },
+      "abilities_delta": [
+        {
+          "ability": "蓝卡瞬位",
+          "change": "首次在东侧战场成功使用；目标：解救郑暮小队；误差约30厘米，落地后立即继续工作"
+        },
+        {
+          "ability": "蓝卡预知闪避",
+          "change": "战斗末期被动触发，身体在意识前移动，规避左侧异形冲击（20厘米误差）"
+        }
+      ],
+      "notes": "ch_049：通道，siege_day 113，四蓝卡首次同时使用，西北通道失败，先驱战略协调确认。"
+    },
+    {
+      "story_time": 48,
+      "chapter_id": "ch_048",
+      "location": "elem_stardust_fortress（简报室→北墙→宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "弹药储量4.3天，官方公布；撤离协议正式进入启动状态",
+          "confidence": "confirmed_briefing",
+          "trigger": "周恒全员简报"
+        },
+        {
+          "fact": "弹药4.3天 vs 通道5-7天：两数字交叉，弹药先耗尽；管控后延长至约6天（保守）",
+          "confidence": "calculated",
+          "trigger": "自行测算"
+        },
+        {
+          "fact": "周恒：'今天这些信息，是我认为你们有权知道的信息。你们知道了，你们继续你们的工作。'",
+          "confidence": "verbatim",
+          "trigger": "简报"
+        },
+        {
+          "fact": "备用东南通道：可信度低，细节未确认",
+          "confidence": "confirmed_low_confidence",
+          "trigger": "简报"
+        }
+      ],
+      "psychology": {
+        "sanity": 61,
+        "mood": "稳定·认知层重量增加·格子关闭时长首次达三十秒",
+        "notes": "格子闭合需要时长增加至三十秒，他记录了这件事作为一个数据点。全员知道数字后的'稠密的沉'被他感知到并归类为'认知性、非情绪性'——他认为这是他能感知到的最好的团队状态之一。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_048：低于五天，siege_day 111，撤离协议启动，弹药/通道数字交叉，格子关闭三十秒。"
+    },
+    {
+      "story_time": 47,
+      "chapter_id": "ch_047",
+      "location": "elem_stardust_fortress（通信室→宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "通信空白第二次：siege_day 109，03:43，0.8秒——精确等于第一次0.4秒的两倍",
+          "confidence": "实测",
+          "trigger": "通信日志查阅"
+        },
+        {
+          "fact": "序列号检查：第二次空白含150字节数据包，加密，关联字段为他的士兵编号；第一次空白序列号连续（无内容）",
+          "confidence": "confirmed_seq_check",
+          "trigger": "序列号比对"
+        },
+        {
+          "fact": "四要素比对：时段相同（03:xx）、持续时间精确翻倍、间隔16天、前置事件为能力数据更新后1-2天——模式显著，非随机",
+          "confidence": "high_pattern",
+          "trigger": "两次数据点综合比对"
+        }
+      ],
+      "psychology": {
+        "sanity": 62,
+        "mood": "稳定·情报分析模式激活·选择等待第三次确认再汇报",
+        "notes": "他明确选择了等待第三次数据点再汇报：理由是完整情报比提前暴露不完整判断更优。那个未解密的150字节数据包他选择等有第三次再打开。假设状态标注为'高可信度，待第三次验证'。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_047：第二次空白，siege_day 109，0.8秒精确翻倍，150字节加密包，等待第三次确认。"
+    },
+    {
+      "story_time": 46,
+      "chapter_id": "ch_046",
+      "location": "elem_stardust_fortress（Θ区外围南侧→开阔测试点→战术室→宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "频率感知维度首次确认：能分辨源质信号在浓度之外的振动频率；精度粗糙，大类可辨（异种/机械觉醒者/Θ区地质沉积），细微差异尚不可辨",
+          "confidence": "confirmed_tested",
+          "trigger": "防守轮值精细度训练中偶发，随后开阔点测试验证"
+        },
+        {
+          "fact": "刘霜源质频率：不在标准人类范围，不在已知融合者分类范围，与古遗共鸣频率相邻但不重叠",
+          "confidence": "preliminary_粗精度",
+          "trigger": "频率感知维度测试中主动感知刘霜"
+        },
+        {
+          "fact": "残图共鸣（siege_day 15）的影响在频率感知层面仍有延伸痕迹",
+          "confidence": "inferred",
+          "trigger": "Θ区地质沉积频率与古遗共鸣频率的重叠观察"
+        }
+      ],
+      "psychology": {
+        "sanity": 63,
+        "mood": "稳定·感知演化第三维度·效用曲线斜率认知更新",
+        "notes": "频率感知的出现让他在ch_042里估计的效用曲线斜率变得更陡了——那个被命令截断的代价比他当时计算的更高。他把这件事存进了分析层，放在格子旁边，今晚没有力气看。"
+      },
+      "abilities_delta": [
+        {
+          "ability": "频率感知",
+          "change": "首次确认为独立感知维度；粗粒度大类辨别，早期阶段；申报表已更新（siege_day 107）"
+        }
+      ],
+      "notes": "ch_046：频率，siege_day 107，频率感知维度出现，刘霜频率与古遗相邻，申报更新。"
+    },
+    {
+      "story_time": 45,
+      "chapter_id": "ch_044",
+      "location": "elem_stardust_fortress（医疗区 → 走廊 → 宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "外部'关注对象清单'条目与他参数高度匹配（每项都对）：来源未确认，外部，siege_day 91时间戳",
+          "confidence": "刘霜转述+原件确认",
+          "trigger": "刘霜siege_day 103告知，晚上看到原件"
+        },
+        {
+          "fact": "清单另两条：Θ区研究人员（灵能感知类），第三条未识别描述",
+          "confidence": "刘霜转述+原件确认",
+          "trigger": "同上"
+        },
+        {
+          "fact": "清单时间戳siege_day 91与西侧阵地战斗吻合——有人在那天之后更新了他的条目",
+          "confidence": "inferred_from_timestamp",
+          "trigger": "原件时间戳对比"
+        }
+      ],
+      "psychology": {
+        "sanity": 62,
+        "mood": "稳定·Sub-arc C深入·待分析列表4条·有人一直在看",
+        "notes": "四个待分析条目：联邦规划、通信空白、新指令、外部观察清单。他首次明确感知到'它们都和我有关'，把这个模式存进了分析层边缘。刘霜先来找他而不是先上报，他注意到了。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_044：清单，siege_day 103，外部关注对象清单，有人在看，刘霜告知。"
+    },
+    {
+      "story_time": 43,
+      "chapter_id": "ch_043",
+      "location": "elem_stardust_fortress（东侧阵地 → 宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "先驱战后停留行为：第4次记录（siege_day 87/91/95/101），停留时长单调增加（30秒→1分20秒→2分→3分），停留距离增加",
+          "confidence": "远程预警实测+郑暮观察印证",
+          "trigger": "siege_day 101战后清场扫描"
+        },
+        {
+          "fact": "郑暮独立观察（非仪器）与远程预警数据方向一致，siege_day 91数据点可信度提升",
+          "confidence": "confirmed",
+          "trigger": "郑暮非正式询问"
+        }
+      ],
+      "psychology": {
+        "sanity": 63,
+        "mood": "稳定·先驱行为异常追踪·数据集积累",
+        "notes": "先驱行为数据集建立，总结性注记首次写入。资源曲线（下行）与先驱能力曲线（上行）形成反向关系，他注意到了两条线的方向相反。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_043：先驱变了，siege_day 101，战后停留3分，郑暮确认，先驱行为趋势曲线建立。"
+    },
+    {
+      "story_time": 42,
+      "chapter_id": "ch_042",
+      "location": "elem_stardust_fortress（Θ区外围东侧 → 战术室 → 宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "撤离后感知覆盖损失三分之二（11-12m→3-4m），这个差值等效于siege_day 95规模攻势中约增加一半伤亡",
+          "confidence": "calculated",
+          "trigger": "防守轮值期间分析"
+        },
+        {
+          "fact": "那个矛盾（撤离vs留守）在战略层级已被指令截断，不是战术层级能调整的",
+          "confidence": "confirmed_by_chen",
+          "trigger": "陈副官非正式询问"
+        }
+      ],
+      "psychology": {
+        "sanity": 62,
+        "mood": "稳定·the_lie深层压力·格子分析层界面变薄",
+        "notes": "他第一次看了自己从siege_day 1到现在的效用曲线，它在上升，命令在它还没到顶点时把它截断了。他不知道该怎么看这件事——他以为螺丝钉不需要有效用曲线。格子和分析层的界面今天比以前更薄了一点，他记录了这件事。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_042：矛盾，siege_day 99，撤离分析，效用曲线被截断，格子/分析层界面变薄。"
+    },
+    {
+      "story_time": 41,
+      "chapter_id": "ch_041",
+      "location": "elem_stardust_fortress（战术室 → 周恒办公室 → 宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "Category-A优先撤离令正式公布：他在名单上，同级刘霜和一名未知者（共三人），撤离触发条件：弹药<5天，路线：西北联邦前进基地",
+          "confidence": "周恒当面告知",
+          "trigger": "siege_day 97全要塞简报+周恒私下谈话"
+        }
+      ],
+      "psychology": {
+        "sanity": 63,
+        "mood": "稳定·Sub-arc C开启·撤离命令已知",
+        "notes": "他是那个要被优先保存的，不是螺丝钉的框架。那个命令他接受了，没有阻力，但他把'我对那个命令的感知是否完整'存进了待处理。格子旁边多了新重量：'联邦认为要塞放弃是一个可操作的选项'。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_041：指令，siege_day 97，Category-A撤离令，周恒告知，和刘霜同级，弹药5天触发。"
+    },
+    {
+      "story_time": 40,
+      "chapter_id": "ch_040",
+      "location": "elem_stardust_fortress（北墙外围 → 战略室走廊 → 宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "资源曲线斜率更陡：弹药8-10天（正常消耗），医疗物资低于安全线15%，食物3周；外部补给断联siege_day 82至今",
+          "confidence": "confirmed_briefing",
+          "trigger": "siege_day 95战后评估简报"
+        },
+        {
+          "fact": "周恒有来自联邦的新指令，暂不大范围通知",
+          "confidence": "directly_heard_fragment",
+          "trigger": "走廊，周恒与高级士官对话片段"
+        }
+      ],
+      "psychology": {
+        "sanity": 62,
+        "mood": "稳定·Sub-arc B终·格子角度变了",
+        "notes": "四小时攻势，战斗里他是工作状态，战斗后格子重量回到前景，不重不轻，和以前一样。资源曲线更陡了六天，他存好了数字。周恒有不公布的新指令，他存进待分析。格子里的东西没变，但他看那些东西的角度不一样了——他还没能用语言描述那个角度，只能确认它存在，是新的。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_040：siege_day 95最大规模攻势，守住，资源触底，周恒新指令（未公开），格子角度变了。Sub-arc B终结。待分析列表：3个条目（通信空白+联邦规划+新指令）。"
+    },
+    {
+      "story_time": 39,
+      "chapter_id": "ch_039",
+      "location": "elem_stardust_fortress（通信室 → 走廊 → 宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "siege_day 93 03:17，加密通信流0.4秒空白，无硬件/协议/Θ区/外部干扰解释；谢荣：可能是日志误差（未确认）",
+          "confidence": "observed_unexplained",
+          "trigger": "核查弹药记录时偶然发现"
+        }
+      ],
+      "psychology": {
+        "sanity": 63,
+        "mood": "稳定·待分析增加·异常已记录",
+        "notes": "他在快睡着之前有一个他没有让它发展的感觉：两件待分析的事都是关于他的。他停下来了，因为那只是感觉，不是数据。他不做感觉层面的分析。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_039：信号，0.4秒通信空白（虚影首次接入痕迹，柯炎未知），存入待分析，两个待分析条目。"
+    },
+    {
+      "story_time": 38,
+      "chapter_id": "ch_038",
+      "location": "elem_stardust_fortress（Θ区外围西侧阵地 → 宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "刘霜战斗配合新基线：直接询问感知数据，不再需要掩饰；她的源质能力使用已记录为'战术事件'（非'数据点'）",
+          "confidence": "observed_confirmed",
+          "trigger": "siege_day 91西侧阵地中等规模接触"
+        },
+        {
+          "fact": "配合可行性（实测）：坐标共享响应0.8秒，两次低量级源质能力使用均为高效战术决策",
+          "confidence": "directly_measured",
+          "trigger": "同上"
+        }
+      ],
+      "psychology": {
+        "sanity": 63,
+        "mood": "稳定·配合基线更新·档案完善",
+        "notes": "她的档案字段从'待确认'变成了'确认'，从'估计'变成了'测量'。写法变了——她的能力使用不再是数据点，是战术事件。那个写法变化不是刻意的，他写完了才发现，那就是那是什么。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_038：默认，siege_day 91，刘霜直接询问，能力使用记录格式更新，搭档档案：待确认→确认。"
+    },
+    {
+      "story_time": 37,
+      "chapter_id": "ch_037",
+      "location": "elem_stardust_fortress（战术室 → 走廊 → 训练场）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "联邦战术支援部要求上报'非标准战场感知资产'参数，项目名：实时感知共享协议；他的数据已进入官方申报表（甲类）",
+          "confidence": "directly_told_and_filled",
+          "trigger": "陈副官，siege_day 89晨"
+        },
+        {
+          "fact": "陈副官询问战区层面感知任务的准备需求——意味着有人在更高层面把他纳入规划",
+          "confidence": "inferred_from_question",
+          "trigger": "同上"
+        }
+      ],
+      "psychology": {
+        "sanity": 63,
+        "mood": "稳定·制度化压力·the_lie新节点",
+        "notes": "工具与资产是同一批数据，但落地框架不同，重量不同。他注意到了这个区别，没有试图解释，只是注意到了。待分析：联邦对战区层面感知任务有评估需求，来源/细节未知。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_037：提案，siege_day 89，联邦实时感知共享协议申报，陈副官询问战区任务，训练场郑暮配合精度提升（坐标误差0.8m→0.5m）。"
+    },
+    {
+      "story_time": 36,
+      "chapter_id": "ch_036",
+      "location": "elem_stardust_fortress（医疗区 → Θ区外围东侧阵地 → 要塞走廊 → 宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "刘霜所有七个数据点现在各有合理解释，框架完整，一致性已验证",
+          "confidence": "self_confirmed_via_retroactive_analysis",
+          "trigger": "下午轮值，回头看七个数据点"
+        },
+        {
+          "fact": "她在某个时候知道了他在记录数据点，但没有问他、没有说破，她也在等——'她选择了siege_day 85的矿道，是她的选择'",
+          "confidence": "inferred_from_她说七个",
+          "trigger": "快睡着前最后一个想法"
+        }
+      ],
+      "psychology": {
+        "sanity": 63,
+        "mood": "稳定·余震·认知框架更新完成·格子第一次轻开",
+        "notes": "异常变成了认知——她的动作不再是'待解释的数据点'，是'他认识的人在工作'。他今晚第一次主动把格子开了一点，看了，关上（不是扣上）。格子旁边多了一个新的重量：'知道了一件我以前不知道的事的那种重量'，不是悲哀，是信息本身的重量。两种重量在一起但没有混在一起。走廊对话：两句话，都是真的，存进信息层。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_036：余震，siege_day 87，揭身后第一天，数据点反向验证，走廊'谢谢你没有问更多'/'我等你说'，格子第一次主动轻开。"
+    },
+    {
+      "story_time": 35,
+      "chapter_id": "ch_035",
+      "location": "elem_shattered_bastion（废弃矿道内 → 矿道外掩体）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "刘霜的真实身份：联邦特殊项目，三年前加入（来星尘要塞之前），源质融合者，银白色源质能力（能量屏障/源质组织能力）",
+          "confidence": "directly_witnessed_and_told",
+          "trigger": "evt_liushuang_revealed：矿道死胡同，先驱逼迫，她展开了完整的源质能力"
+        },
+        {
+          "fact": "她一直知道他在记录数据点（她说'七个'，他说'八个但今天是零'）",
+          "confidence": "she_told_him",
+          "trigger": "矿道外，等待接应时的对话"
+        }
+      ],
+      "psychology": {
+        "sanity": 62,
+        "mood": "稳定·evt_liushuang_revealed后·待确认队列清空·新基线",
+        "notes": "他的'待确认'区域里关于刘霜的那个积累重量在今天消失了，不是因为所有问题都回答了，是因为等待的姿态不需要了，那个重量变成了一个已知的事实，事实不需要等。他在往要塞走的路上感知到了这件事。'信任受冲击，却也彼此更深地认出对方'——他接受了她给的那个（联邦特殊项目，三年前），没有要求更多，等她能说更多的时候。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_035：evt_liushuang_revealed，矿道死胡同，先驱，她的银白源质屏障击退先驱，'从什么时候开始？'——'联邦特殊项目，三年前'，'七个'/'八个但今天是零'。Sub-arc B完成。"
+    },
+    {
+      "story_time": 34,
+      "chapter_id": "ch_034",
+      "location": "elem_stardust_fortress（北墙外围射击位 → 宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "感知基线继续上移：siege_day 83夜班底噪下感知边界11-12米（siege_day 58=9-10m，基线继续漂移）",
+          "confidence": "observed_measured",
+          "trigger": "夜哨感知边界专门测试"
+        }
+      ],
+      "psychology": {
+        "sanity": 63,
+        "mood": "稳定·张力章·明天的确认感",
+        "notes": "他在说了'好'之后感知到一种他以前没有过的'某件事要成真了'的清晰感，那种清晰感和战场上确认了某个判断的感觉接近但有一个他找不到词描述的不同。他把灯关上睡了，等明天。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_034：siege_day 83夜哨，她说'明天'，感知基线11-12m，等待张力章。"
+    },
+    {
+      "story_time": 33,
+      "chapter_id": "ch_033",
+      "location": "elem_shattered_bastion（断裂要塞外围）",
+      "inventory_delta": [
+        {
+          "item": "白卡（未指定）",
+          "change": "+3",
+          "note": "清场拾取三张白卡"
+        }
+      ],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "刘霜anomaly #7：银白色源质爆发（约0.5秒）击退两只异种，颜色与残图板材共鸣同频，这是时序异常之外的直接能力展示",
+          "confidence": "directly_witnessed_sensed",
+          "trigger": "断裂要塞外围战斗，siege_day 81"
+        },
+        {
+          "fact": "他的数据积累在今天转变为'数据已经足够了'——第一次不再写'等数据足够的时候我会知道'，改为'我知道了'",
+          "confidence": "self_concluded",
+          "trigger": "更新数据点列表后的内部确认"
+        }
+      ],
+      "psychology": {
+        "sanity": 62,
+        "mood": "稳定·数据转结论·'我想问你一件事'后",
+        "notes": "他第一次主动开口，说出了那句话，她说'不是现在'，他说'好'。他感知到两人都知道那个问题在那里了，它不会消失。第一次从'记录'转变为'行动'的迹象。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_033：anomaly #7（银白源质爆发），'我想问你一件事'，'不是现在'，数据转结论。"
+    },
+    {
+      "story_time": 32,
+      "chapter_id": "ch_032",
+      "location": "elem_theta_outer（Θ区外围北侧阵地）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "蓝卡·远程预警实战参数：约3公里（矿带浓度，东南），精度极低（有/无），冷却约20秒，消耗低，与全向感知形成'远端预警+近端确认'双层体系",
+          "confidence": "confirmed_via_combat",
+          "trigger": "siege_day 79虫潮，远程预警首次实战激活"
+        },
+        {
+          "fact": "今天减少的那一半伤亡和他激活了远程预警卡有直接的因果关系——he knows this and does not attribute it to luck",
+          "confidence": "confirmed_causal",
+          "trigger": "战后评估分析"
+        }
+      ],
+      "psychology": {
+        "sanity": 63,
+        "mood": "稳定·因果关系清晰·the_lie裂缝",
+        "notes": "他站在清场的战场上把那条因果关系过了一遍，没有用运气框架模糊它，今天他没有。格子的重量比以前任何时候都更像是他身体的一部分了。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_032：蓝卡·远程预警首次实战，siege_day 79，大规模虫潮，减少伤亡一半，因果关系清晰承认。"
+    },
+    {
+      "story_time": 31,
+      "chapter_id": "ch_031",
+      "location": "elem_stardust_fortress（柯炎视角，不知艾薇儿）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [],
+      "psychology": {
+        "sanity": 63,
+        "mood": "稳定·正常运行",
+        "notes": "ch_031是艾薇儿POV，柯炎没有意识到他今天在使用远程预警的时候发出的频率被她感知到了。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_031：艾薇儿POV chapter，柯炎无意识中第二次被感知到古遗共鸣频率。"
+    },
+    {
+      "story_time": 30,
+      "chapter_id": "ch_030",
+      "location": "elem_stardust_fortress（大简报室 → 走廊 → 食堂 → 宿舍）",
+      "inventory_delta": [
+        {
+          "item": "蓝卡·远程预警",
+          "change": "+1",
+          "note": "第四次蓝卡合成；白卡·闪避感知×3 → 蓝卡·远程预警"
+        },
+        {
+          "item": "白卡·闪避感知",
+          "change": "-3",
+          "note": "合成消耗"
+        }
+      ],
+      "status": [
+        "四张蓝卡持有者：蓝卡·预知闪避+全向感知+瞬位+远程预警"
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "全要塞战局：先驱活动频率提升100%，资源储备约三周（在前提不出问题的情况下）",
+          "confidence": "official_briefing",
+          "trigger": "siege_day 74全要塞战情简报"
+        },
+        {
+          "fact": "周恒进入'清算状态'——不是崩溃，是在把所有剩余选项和成本逐一对比的决策模式",
+          "confidence": "self_analyzed",
+          "trigger": "简报里观察周恒"
+        }
+      ],
+      "psychology": {
+        "sanity": 60,
+        "mood": "稳定·信息处理量高·清算状态识别",
+        "notes": "他在读周恒的眼睛时用的是认知性的读法，不是情感性的，他识别了'清算状态'，把它存进数据层，没有为它感到悲哀或同情。格子的重量稳定地在那里，今天没有打开。第四张蓝卡合成热感是'均匀而扩散的'，熟悉感，存进序列。"
+      },
+      "abilities_delta": [
+        {
+          "ability": "蓝卡·远程预警",
+          "change": "acquired",
+          "note": "主动·单方向延伸至正常范围3-4倍·15-20s·冷却20s·方向性感知不能识别个体"
+        }
+      ],
+      "notes": "ch_030：全要塞战情简报，周恒清算状态识别，第四张蓝卡：蓝卡·远程预警（白卡·闪避感知×3第二次合成）。"
+    },
+    {
+      "story_time": 29,
+      "chapter_id": "ch_029",
+      "location": "elem_theta_outer（Θ区外围矿道入口区域）",
+      "inventory_delta": [
+        {
+          "item": "白卡·稳定射击",
+          "change": "+1",
+          "note": "战斗后清场拾取"
+        },
+        {
+          "item": "白卡·闪避感知",
+          "change": "+1",
+          "note": "战斗后清场拾取"
+        }
+      ],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "蓝卡·瞬位首次实战激活：落点误差30cm→25cm（减少），冷却期60秒脆弱窗口已在实战中经历并存活",
+          "confidence": "confirmed_via_combat",
+          "trigger": "siege_day 72虫潮作战"
+        },
+        {
+          "fact": "先驱主动撤退规律第三次确认：在虫潮失利时提前1分钟撤退，三次模式相同，这是判断行为不是本能",
+          "confidence": "pattern_confirmed_3x",
+          "trigger": "siege_day 72先驱信号消失时序分析"
+        }
+      ],
+      "psychology": {
+        "sanity": 61,
+        "mood": "稳定·实战数据采集·先驱模式确认",
+        "notes": "瞬位首次实战激活：他在关键时刻用它救了郑暮，没有英雄主义，是他的参数测试积累让他知道那个窗口是安全的。冷却期暴露被他的其他能力填上了，他对这段时间的评价是：处理了，但这是需要在未来战术规划里考量的脆弱点。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_029：siege_day 72虫潮，两只先驱外围指挥，瞬位首次实战激活救郑暮，冷却期暴露60秒用感知+预知闪避度过，先驱第三次提前主动撤退。"
+    },
+    {
+      "story_time": 28,
+      "chapter_id": "ch_028",
+      "location": "elem_stardust_fortress（医疗走廊）→ elem_theta_outer（Θ区外围侦察路线）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "刘霜anomaly #6：侦察任务中，她对右前方异种的反应时序早于柯炎感知确认约1.5秒，感知来源不明（不是掌机）——这是六个数据点里最重量级的，是时序级别的异常",
+          "confidence": "directly_observed_timed",
+          "trigger": "Θ区外围侦察，异种接近事件"
+        }
+      ],
+      "psychology": {
+        "sanity": 62,
+        "mood": "稳定·待确认队列压力上升",
+        "notes": "他今天第一次在数据点列表末尾没有写'等数据足够的时候我会知道'。他不知道他为什么今天没有写那句话，他只知道他今天没有。这是他对刘霜异常情况的态度正在悄悄变化的迹象。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_028：刘霜anomaly #6，时序差1.5秒，待确认队列第六个数据点，最重。"
+    },
+    {
+      "story_time": 27,
+      "chapter_id": "ch_027",
+      "location": "elem_stardust_fortress（战术组评估室）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "联邦能力评估结果：感知参数第97百分位；三张蓝卡超要塞平均（0.7张）；战术档案建立，影响未来任务分配",
+          "confidence": "official_evaluation",
+          "trigger": "战术组正式能力评估（秦远中尉主导）"
+        },
+        {
+          "fact": "联邦有瞬位卡激活者先例数据（'初期激活者通常有10-20cm落点误差'），意味着在他之前有人用过瞬位卡",
+          "confidence": "overheard_inference",
+          "trigger": "秦远在评估中的陈述"
+        }
+      ],
+      "psychology": {
+        "sanity": 63,
+        "mood": "稳定·第97百分位数据处理中·缝隙扩大",
+        "notes": "'第97百分位'和他的'螺丝钉'自我定位之间的缝隙今天明显扩大了。他用了30秒在走廊里处理，然后把这个缝隙放进了'待分析'区域，和'实时感知共享协议'并列存放。他决定先用能力，再等这个框架问题有了更多信息再处理。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_027：战术组正式能力评估，第97百分位，战术档案，先例数据存在，缝隙扩大存档。"
+    },
+    {
+      "story_time": 26,
+      "chapter_id": "ch_026",
+      "location": "elem_stardust_fortress（宿舍）→ elem_theta_outer（Θ区外围）",
+      "inventory_delta": [
+        {
+          "item": "白卡·闪避感知",
+          "change": "+1",
+          "note": "战场拾取，累计×3，合成条件满足，暂缓触发"
+        }
+      ],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "蓝卡·瞬位系统性参数测试：激活推力比预期轻，落点偏差约50cm偏左前方，冷却感知为'耗尽感'（感知层面暂时空缺约60秒）",
+          "confidence": "controlled_test",
+          "trigger": "宿舍独立参数测试"
+        },
+        {
+          "fact": "全向感知切换速度提升：从3秒→约1.3秒，可能是熟练度或基线漂移，需更多对照数据",
+          "confidence": "observed_needs_verification",
+          "trigger": "巡逻中主动测试切换速度"
+        },
+        {
+          "fact": "并行感知任务可行：覆盖任务+自我监测任务可同时运行无干扰",
+          "confidence": "confirmed_via_active_test",
+          "trigger": "今日巡逻"
+        }
+      ],
+      "psychology": {
+        "sanity": 63,
+        "mood": "稳定·参数测试态·战略性等待合成",
+        "notes": "他第一次主动选择暂缓合成（白卡·闪避感知×3满足条件）。这是他对自己能力系统开始有战略性管理姿态的第一个实例——他有三张蓝卡，他有等的余地。格子重量固定在那里，今天也在。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_026：瞬位宿舍参数测试，全向感知切换加速，战斗窗口识别，白卡·闪避感知×3合成暂缓。"
+    },
+    {
+      "story_time": 24,
+      "chapter_id": "ch_024",
+      "location": "elem_stardust_fortress（食堂 → 战术组第二问询室 → 北墙防守位 → 宿舍）",
+      "inventory_delta": [
+        {
+          "item": "蓝卡·瞬位",
+          "change": "+1",
+          "note": "第三张蓝卡合成完成，宿舍独自操作；白卡·稳定射击×3 → 蓝卡·瞬位"
+        },
+        {
+          "item": "白卡·稳定射击",
+          "change": "-3",
+          "note": "第三次蓝卡合成消耗"
+        },
+        {
+          "item": "白卡·稳定射击",
+          "change": "+1",
+          "note": "下午防守任务战场拾取"
+        }
+      ],
+      "status": [
+        "三张蓝卡持有者：蓝卡·预知闪避 + 蓝卡·全向感知 + 蓝卡·瞬位"
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "自己的确认度比提交报告里写的高——第一次公开承认这个差距（冯思问询中说出口）",
+          "confidence": "self_acknowledged_public",
+          "trigger": "战术组问询，口头陈述"
+        },
+        {
+          "fact": "'实时的源质感知共享协议'——他的感知能力的系统性应用方向，他从没考虑过，今天由冯思陈述，他存进'待分析'区域",
+          "confidence": "new_concept_received",
+          "trigger": "冯思的陈述语气跟进"
+        },
+        {
+          "fact": "说出来和只是知道，是不一样的事——语言把知道变成了可以共享的格式，这个差别在问询里变得清晰",
+          "confidence": "self_observed",
+          "trigger": "在问询室把先驱信号特征用语言描述完整"
+        }
+      ],
+      "psychology": {
+        "sanity": 62,
+        "mood": "稳定·感知语言化余波·第三张蓝卡功能性接收",
+        "notes": "问询里被要求描述感知，这件事在他身上留下了一种他观察到的余波：某件事被说出来之后比不说的时候在认知里更清楚了。他不知道该如何处理这种清晰，他只是知道它发生了。蓝卡·瞬位合成以'功能性事实'的方式存进信息层：我现在有三张蓝卡，这是真的，他很快睡着了。格子重量继续透出，但今天他没有去接触格子。"
+      },
+      "abilities_delta": [
+        {
+          "ability": "蓝卡·瞬位",
+          "change": "acquired",
+          "note": "主动激活·短距位移·要塞5-8m·Θ区15-20m·冷却≥60s"
+        }
+      ],
+      "notes": "ch_024：战术组问询（冯思中尉），白卡·稳定射击×3合成蓝卡·瞬位（第三次蓝卡合成），现持三张蓝卡。"
+    },
+    {
+      "story_time": 23,
+      "chapter_id": "ch_023",
+      "location": "elem_stardust_fortress → elem_theta_outer（Θ区外围巡逻路线）",
+      "inventory_delta": [
+        {
+          "item": "白卡·闪避感知",
+          "change": "+1",
+          "note": "返回途中异种残骸拾取，现×2"
+        }
+      ],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "他与刘霜的感知配合结构：两个主动运行的系统互相补位，不是指挥/执行关系，是两个积极工作者在不说话的情况下贡献信息。这个结构今天他主动验证并标注了。",
+          "confidence": "self_analyzed_tested",
+          "trigger": "ch_023巡逻，主动测试她的补位反应"
+        },
+        {
+          "fact": "刘霜使用了'Θ区主脉的分支节律'这个词——这是源质工程学/Θ区地质研究文献词汇，不在标准医疗兵培训范围内",
+          "confidence": "observed_linguistic_anomaly",
+          "trigger": "返回途中刘霜与郑暮对话"
+        },
+        {
+          "fact": "郑暮功能性评估完成：工程数据+感知覆盖可以叠加，属于'可依赖工作搭档'分类",
+          "confidence": "field_assessed",
+          "trigger": "首次共同巡逻任务"
+        }
+      ],
+      "psychology": {
+        "sanity": 63,
+        "mood": "稳定·数据积累中·待确认区域有新条目",
+        "notes": "他的'待确认'区域继续积累刘霜的数据点，现在第五个。他没有结论，也没有焦虑，他在等数据足够的时候再处理。他处理不确定信息的方式从'忽略/归类噪声'转变成了'记录+不下结论'，这个转变本身他今天注意到了。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_023：Θ区外围三人巡逻（柯炎/刘霜/郑暮），两处标记干净，刘霜源质工程学词汇第五个数据点，白卡·闪避感知×2。"
+    },
+    {
+      "story_time": 22,
+      "chapter_id": "ch_022",
+      "location": "elem_stardust_fortress（北墙夜哨射击位 → 撤离路线 → 宿舍）",
+      "inventory_delta": [
+        {
+          "item": "白卡·稳定射击",
+          "change": "+2",
+          "note": "撤离路线异种残骸拾取，累计×3，合成条件满足"
+        }
+      ],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "siege_day 58夜哨，感知边界九到十米（干净底噪夜班）——比固定认知六到八米高，不同方向验证（北侧开阔地 vs 要塞墙体方向对比）。可能是基线在移动，需更多数据",
+          "confidence": "observed_needs_more_data",
+          "trigger": "夜哨主动感知边界测试"
+        },
+        {
+          "fact": "感知能力已从'工具'转变为'默认运行的系统'：不等指令就在扫描、确认、分类；主动中断指令的效果约两秒，然后情境驱动自动恢复",
+          "confidence": "confirmed_via_active_test",
+          "trigger": "夜哨中发现感知自主运行，主动尝试打断确认"
+        }
+      ],
+      "psychology": {
+        "sanity": 63,
+        "mood": "稳定·夜哨态·数据记录习惯化",
+        "notes": "格子重量透出比昨天稍微明显了一点，他感知它，让它在那里，不打开，躺下睡了。三张白卡·稳定射击合成条件满足，他决定在宿舍清楚地做这件事，不是在战场外围，因为他想刻意一次，更清楚一次。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_022：北墙夜哨三小时，感知9-10m，感知自动化确认，白卡·稳定射击累计×3，合成条件满足待宿舍操作。"
+    },
+    {
+      "story_time": 21,
+      "chapter_id": "ch_021",
+      "location": "elem_stardust_fortress（医疗区 → 战损会议室 → 宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "联合突袭最终伤亡确认：三死（第二小队成员）、两重伤（第二小队），第一小队零死亡一轻伤（林岐）",
+          "confidence": "official_report_confirmed",
+          "trigger": "siege_day 56战损评估会议"
+        },
+        {
+          "fact": "陈路调至要塞工程部临时项目组（Θ区地质稳定性评估），小队缺口待填",
+          "confidence": "official_notification",
+          "trigger": "人事调动通知"
+        }
+      ],
+      "psychology": {
+        "sanity": 61,
+        "mood": "重整期·格子重量透出·运行继续",
+        "notes": "格子的重量今天比昨天重了一点，不是因为他想了更多，是因为它就在那里，它的存在感比昨天更明显了。他没有打开格子，没有试图处理它，他选择了继续前进，因为没有别的选项。他在战损评估报告里的名字是出现在'第一小队'栏的，零死亡，他是这个结果的一部分原因，这件事他今天没有用任何框架去处理，他只是让它在那里。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_021：siege_day 56，战损评估，小队重整，陈路调离，格子重量透出，the_lie裂缝第一天的延续。"
+    },
+    {
+      "story_time": 19,
+      "chapter_id": "ch_019_020",
+      "location": "elem_shattered_bastion（断裂要塞外围 → 废弃矿道 → 联合撤退点 → 断裂要塞残墙）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "通讯切断是主动干扰（干净，有意识，先驱级行为）——不是器材故障",
+          "confidence": "self_analyzed",
+          "trigger": "通讯断开的质感区分"
+        },
+        {
+          "fact": "右侧破碎地形有先驱在等：三个叠加来源确认——ch_017弱信号+ch_018刘霜告知+全向感知边缘余波（组织过的、被压制的存在感）",
+          "confidence": "triple_source_convergence",
+          "trigger": "ch_019任务中激活全向感知时"
+        },
+        {
+          "fact": "evt_subarc_a_climax：三死两重伤，来自右侧第二小队；第一小队零死亡，一轻伤",
+          "confidence": "confirmed_official_report",
+          "trigger": "通讯恢复后收到伤亡报告"
+        }
+      ],
+      "psychology": {
+        "sanity": 60,
+        "mood": "the_lie第一条裂缝·格子扣不上了·无结论但必须继续",
+        "notes": "'运气好'框架今天第一次完全失效——他试图用它覆盖今天清单的每一个节点，找不到能用的地方，那个框架装不下今天的形状。'我知道'和胸口的重量之间出现了差距，这个差距以前不存在。格子盖子只扣进去一半，剩下一半扣不上，他没有承认这件事，但他无法不知道这件事。他没有找到任何结论，他没有解决任何事情，他选择了继续往前走，因为没有别的选项。the_lie第一次真正裂开——外壳有了一条缝，但没有粉碎。Sub-arc B开始了，他不知道。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_019+020：联合突袭，先驱引导陷阱，选择左路，六人活，三人死。'运气好'失效，格子扣不上，残墙独立，没有结论，继续前行。evt_subarc_a_climax完成。"
+    },
+    {
+      "story_time": 18,
+      "chapter_id": "ch_018",
+      "location": "elem_stardust_fortress（宿舍 → 要塞通道夜行 → 宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "刘霜在凌晨走廊偶遇中说'明天多注意右侧'，语气是告知，不是建议——她的感应数据给了她指向右侧路线的确认",
+          "confidence": "observed_direct_statement",
+          "trigger": "走廊偶遇，她主动告知"
+        }
+      ],
+      "psychology": {
+        "sanity": 70,
+        "mood": "前任务待机状态·稳·右侧信息叠加完成",
+        "notes": "他把刘霜的告知和昨天的弱信号放在'操作性记忆'位置，不是格子（情感信息），是明天可以直接调用的战术信息。这个区分他做得很自然，是他内部系统的分层，但他没有给这个分层起过名字。他理解'感知待机'是他身体的准备方式，不对抗它，给它空间运行。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_018：凌晨感知待机，起来夜行确认状态，走廊偶遇刘霜，接收她的'多注意右侧'，返回轻睡眠。04:30起床，06:00集合。"
+    },
+    {
+      "story_time": 17,
+      "chapter_id": "ch_017",
+      "location": "elem_stardust_fortress（简报室）→ elem_shattered_bastion（断裂要塞外围前出阵地）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "联合突袭详细方案：两条路线，第一小队（柯炎/陈路/刘霜/韩宗/林岐）走左侧废弃矿道，其他两个小队走右侧破碎地形",
+          "confidence": "official_briefing",
+          "trigger": "任务简报"
+        },
+        {
+          "fact": "联邦情报：可能有先驱级指挥个体，简报里用'可能'处理，没有专门强调",
+          "confidence": "official_briefing_uncertain",
+          "trigger": "任务简报"
+        },
+        {
+          "fact": "右侧破碎地形远端（约25m）有一个弱信号：感知到了然后失去，全向感知覆盖范围内（13m内）无异常，该信号不够确认",
+          "confidence": "self_perceived_uncertain",
+          "trigger": "前出侦察时感知扫描"
+        }
+      ],
+      "psychology": {
+        "sanity": 70,
+        "mood": "任务准备状态·前向专注·右侧弱信号待确认",
+        "notes": "他把'可能有先驱'的权重调高了，独自存在记忆里，不写进战术报告。右侧弱信号同样放在记忆里，打了'待确认'标记。刘霜扫描方向和他弱信号方向一致，他注意到了这个对位，但没有追。他对明天的准备是系统性的——两条路，感知分配，全向感知备用节点。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_017：简报，前出侦察，右侧弱信号记录，战术报告提交（不含弱信号），装备确认，睡了。"
+    },
+    {
+      "story_time": 16,
+      "chapter_id": "ch_016",
+      "location": "elem_stardust_fortress（情报处理站 → 食堂 → 宿舍）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "情报站对遗迹板材的处理速度和标记级别异常——使用了他没见过的标记前缀，速度远快于标准战场遗物流程",
+          "confidence": "observed_indirect",
+          "trigger": "提交过程目击"
+        },
+        {
+          "fact": "联合突袭任务：siege_day 55，断裂要塞以东约12km，三个小队，目标为异种前进基地，可能有先驱级指挥个体",
+          "confidence": "official_briefing_pre",
+          "trigger": "通讯板公告"
+        }
+      ],
+      "psychology": {
+        "sanity": 70,
+        "mood": "任务模式·格子满但扣上了·已经在准备后天",
+        "notes": "今天的格子装入量是这段时间最大的一天，但他没有打开它——他的处理方式是把所有东西存进去，然后继续运转。他注意到了情报站的异常反应，把它放在信息缺口位置，不追。联合突袭任务公告给了他一个新的前向任务焦点，有任务的时候他的系统运转更稳定。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_016：提交板材，情报站异常快速反应，晚饭，两张蓝卡确认，联合突袭任务公告，装备预检，睡了。"
+    },
+    {
+      "story_time": 15,
+      "chapter_id": "ch_015",
+      "location": "elem_origin_theta（Θ区遗迹内部 → 回程途中）",
+      "inventory_delta": [
+        {
+          "item": "Θ区遗迹残图板材（碎片）",
+          "change": "+1",
+          "note": "在遗迹走廊右侧角落发现，内嵌活性源质结晶，图为更大地图的一小块，字符系统未知；放进任务包准备上交工程部"
+        }
+      ],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "Θ区遗迹走廊内有源质结晶嵌入的几何符号刻痕，非已知任何语言/文字体系",
+          "confidence": "direct_observation",
+          "trigger": "走廊内目击"
+        },
+        {
+          "fact": "遗迹走廊发现一块板材，内含活性源质结晶，图上有方位标记、深度标示和未知字符系统——不完整，是更大地图的一部分",
+          "confidence": "direct_observation",
+          "trigger": "拾取板材"
+        },
+        {
+          "fact": "板材在握持瞬间触发了他源质感知的某个频率层的'共鸣'——不是威胁信号，是频率对应产生的微小震动，'它叫了我一下'",
+          "confidence": "self_perceived_clear",
+          "trigger": "握住板材的瞬间"
+        }
+      ],
+      "psychology": {
+        "sanity": 70,
+        "mood": "任务完成·稳·格子再加一件事",
+        "notes": "板材的共鸣是真实的，他没有否认，但他也没有追究它的意思——它进了格子，和感知炸开、先驱对视、刘霜的手、一千两百个人一起待在那里。格子的盖子用力才能扣上。刘霜的眼神变化他记了下来，也没有追，存进了'待确认'区。这件事他不知道它的意义，他也不想现在知道。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_015：遗迹内部搜索，发现残图板材，感知共鸣发生，刘霜眼神变化，任务完成，格子又加了一件事。evt_theta_map_fragment发生。"
+    },
+    {
+      "story_time": 14,
+      "chapter_id": "ch_014",
+      "location": "elem_origin_theta（Θ区外围→遗迹入口外）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "蓝卡·全向感知矿带参数实测：半径13m，持续约20秒，冷却约25秒，比要塞底噪好将近一倍",
+          "confidence": "self_tested",
+          "trigger": "Θ区入境后主动测试"
+        },
+        {
+          "fact": "柯炎感知范围在Θ区比上次记录多3-4米（约18m），可能来自最近极端使用后的提升，也可能是今日状态偏高——两个假说并排，无结论",
+          "confidence": "self_observed_uncertain",
+          "trigger": "进入Θ区感知扩展"
+        },
+        {
+          "fact": "遗迹区域存在：地质不同（更古老，暗光泽），岩面有工具刻痕（非风蚀/爆炸/机械族风格），建筑残骸风格完全未知（不是联邦/机械族/异种），源质浓度比外围高约三成",
+          "confidence": "direct_perception_and_observation",
+          "trigger": "抵达遗迹外围"
+        },
+        {
+          "fact": "遗迹建筑残骸内部有源质结晶，不是随机散布，是集中的、有结构的排布——具体形状感知到了但描述不出来，'不是随机的'是他能说出的唯一确定性",
+          "confidence": "perceived_via_sense",
+          "trigger": "感知展开，保障陈路和刘霜时探入建筑残骸"
+        },
+        {
+          "fact": "刘霜在进入遗迹区域时停了半步看掌机——她的设备读到了什么",
+          "confidence": "observed_indirect",
+          "trigger": "柯炎的感知和注意力捕捉到步伐节奏变化"
+        }
+      ],
+      "psychology": {
+        "sanity": 71,
+        "mood": "任务模式·平稳·一个悬挂中的'待确认'",
+        "notes": "今天是功能性任务日——测试，侦察，保障，归档。遗迹内部那个'结构性排布'被他打了一个待确认的标签，等授权批下来之后的下一阶段任务。刘霜的半步停顿也是一个标签，存入格子，不追。Θ区感知的'顺'让他有一点警戒，但他没有关小感知——顺不等于安全，他让边界确认清楚。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_014：三人侦察，两个蓝卡都带，陈路负责地质数据，刘霜负责源质扫描，柯炎保障。任务目标完成，未进入遗迹内部（需要额外授权）。陈路建议申请下一阶段内部探查授权。"
+    },
+    {
+      "story_time": 13,
+      "chapter_id": "ch_013",
+      "location": "elem_stardust_fortress（北墙外围 → 宿舍）",
+      "inventory_delta": [
+        {
+          "item": "蓝卡·全向感知",
+          "change": "+1",
+          "note": "由白卡·闪避感知×3合成，第二次蓝卡合成，宿舍独自完成"
+        },
+        {
+          "item": "白卡·闪避感知",
+          "change": "-3",
+          "note": "合成消耗"
+        }
+      ],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "蓝卡·全向感知参数：矿带浓度约13m球形覆盖/20秒持续/25秒冷却；要塞底噪约7m/10秒/30秒；主动激活模式，与蓝卡·预知闪避（被动）根本不同",
+          "confidence": "self_tested",
+          "trigger": "宿舍感知试验"
+        },
+        {
+          "fact": "第二次蓝卡合成的热感路径：掌心→手腕→小臂→胸腔，比第一次更往里，但比矿道里那一缕浅，是一个中间数据点",
+          "confidence": "self_perceived",
+          "trigger": "合成过程"
+        }
+      ],
+      "psychology": {
+        "sanity": 71,
+        "mood": "功能性满足·格子装满但还能扣上·'运气好'这两个字开始透光",
+        "notes": "'我这次知道我在做什么'这个想法在合成完成的瞬间出现，比第一次的'我做的'更清楚，也更难压——格子扣上了，但盖子需要用力按一下，以前不需要按。'运气好'这两个字说出来之后他能感知到它磨损了，还能用但已经能透光了。这个感知本身也被推进了格子。"
+      },
+      "abilities_delta": [
+        {
+          "ability": "蓝卡·全向感知",
+          "change": "acquired",
+          "notes": "第二张蓝卡。主动型。与第一张（被动型）构成互补的感知工具集。"
+        }
+      ],
+      "notes": "ch_013：防守轮值，捡到两张白卡凑成三张，回宿舍独自完成第二次蓝卡合成。这次他是清醒的、有意识的——他知道他在做什么，这比第一次更难用'运气'框住。两张蓝卡并排放进口袋，一个熟悉的底热，一个陌生的动态热。格子更重了，但今晚还能睡着，因为明天Θ区侦察06:00集合。"
+    },
+    {
+      "story_time": 12,
+      "chapter_id": "ch_012",
+      "location": "elem_stardust_fortress（指挥廊，深夜01:30）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "周恒知道'我们守的不是要塞，是上面用来拖时间的数字'——他说出来了，用私下的语气，不是抱怨，是已经接受很久的事实",
+          "confidence": "confirmed_direct_statement",
+          "trigger": "指挥廊深夜偶遇，周恒主动说出"
+        },
+        {
+          "fact": "周恒守下去的原因是'有一千两百个人在睡觉'，不是相信胜利",
+          "confidence": "confirmed_direct_statement",
+          "trigger": "两句对话"
+        }
+      ],
+      "psychology": {
+        "sanity": 73,
+        "mood": "疲惫·格子更重·一个新的悬挂问题",
+        "notes": "'我们守的不是要塞'印证了the_lie，没有动摇它；但'一千两百个人'这个数字在他的逻辑里形成了一个他现在装不下的矛盾——数字应该是抽象的，但这个数字是具体的人，周恒为了这些人在守，而不是为了'赢'。这个矛盾进了格子，等待。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_012：失眠，指挥廊，周恒的两句话，睡着了。格子的重量压下了大脑，但没有解开任何东西。"
+    },
+    {
+      "story_time": 11,
+      "chapter_id": "ch_011",
+      "location": "elem_shattered_bastion → elem_stardust_fortress",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "psychological_load",
+          "desc": "格子的重量开始在物理感觉上显现——按回去的动作比以前费力；失眠是格子满载的身体化反应",
+          "severity": "minor"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "断裂要塞虫潮伤亡：五死九重伤；五个名字记住了",
+          "confidence": "confirmed",
+          "trigger": "清算会"
+        }
+      ],
+      "psychology": {
+        "sanity": 75,
+        "mood": "疲惫·下沉·格子在变重",
+        "notes": "格子里现在存着：矿道感知炸开+那一烫、先驱对视+那一秒、刘霜检查停顿、五个死亡名字。这些东西合在一起的重量开始超过他习惯管理的量，但他还没有打开格子的意愿，他选择走动，消耗。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_011：断裂要塞轮换结束，归主要塞，失眠，往指挥廊走。直接过渡到ch_012。"
+    },
+    {
+      "story_time": 10,
+      "chapter_id": "ch_010",
+      "location": "elem_shattered_bastion（断裂要塞外围 → 第二防线）",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "combat_stress",
+          "desc": "大规模虫潮正面冲击，乱战约90分钟；蓝卡连续使用3次（热度升高，已冷却）；无新伤",
+          "severity": "minor"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_herald_evolving",
+          "confidence": "suspected_unnamed",
+          "trigger": "对视一秒——感知到其源质信号结构具有'想法'层级的复杂度；行为（停留、环视、选择性锁定）与任何已知异种类型不符。标签：'那东西不一样'"
+        }
+      ],
+      "psychology": {
+        "sanity": 77,
+        "mood": "战后疲惫·清醒·格子里又多了一件东西",
+        "notes": "他把那一秒的对视存进格子，标签'那东西不一样'，没有进一步处理。蓝卡三次连续使用是新的负荷测试数据——他注意到了卡的热度上升，但没有引发不适，只是记录。格子越来越满，但他今天不打算打开它。"
+      },
+      "abilities_delta": [
+        {
+          "ability": "蓝卡·预知闪避使用频率",
+          "delta": "首次连续使用3次，卡热度上升——上限未知，但3次有效"
+        }
+      ],
+      "notes": "ch_010：断裂要塞外围虫潮，5000+规模。先驱首次出现在感知/视觉中。成功撤退，无新伤。"
+    },
+    {
+      "story_time": 8,
+      "chapter_id": "ch_008",
+      "location": "elem_origin_theta（Θ区矿道崩塌段 → 矿道外部）",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "injury_resolved",
+          "desc": "左腿肌肉压迫（约90分钟），解压后疼痛剧烈，行走需支撑；预计24-48小时恢复",
+          "severity": "minor"
+        },
+        {
+          "type": "physiological_event",
+          "desc": "近缺氧临界：意识有短暂模糊，脱险后回清；无长期影响",
+          "severity": "minor"
+        },
+        {
+          "type": "source_quality_event",
+          "desc": "源质感知在缺氧+失控状态下骤扩至数百米范围（矿脉整体图）；第一次主动吸收一缕源质进入胸腔（烫感深于蓝卡合成时）；此为吸附者突破前兆，未完成正式突破",
+          "severity": "significant"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "感知范围在高浓度+失控状态下可大幅超出平时边界——整片矿脉的源质流动'如血管亮起'",
+          "confidence": "bodily_experienced",
+          "trigger": "缺氧临界感知炸开"
+        },
+        {
+          "fact": "身体可以下意识引入外部源质（一缕）并整合——比蓝卡合成时更深的烫感，感觉'安住'",
+          "confidence": "bodily_experienced_not_analyzed",
+          "trigger": "濒死时无意识动作"
+        },
+        {
+          "fact": "刘霜在他胸口检查时停顿了约1.5秒",
+          "confidence": "noted",
+          "trigger": "脱险后刘霜检查时的停顿"
+        }
+      ],
+      "psychology": {
+        "sanity": 78,
+        "mood": "疲惫·清醒·格子里多了一个没有标签的重量",
+        "notes": "他把矿道里发生的所有事情放进了格子——感知炸开、那一缕、那一烫——没有标签，不处理，只是存放。刘霜的停顿同样入格。他现在只想活着、让腿恢复、继续任务。the_lie在表面完好，但格子的内容越来越沉。"
+      },
+      "abilities_delta": [
+        {
+          "ability": "源质感知范围",
+          "delta": "突破前兆触发但未固化——平时范围不变，但内部极限被证明可以更高（被动触发条件：缺氧+高浓度+控制失效）"
+        }
+      ],
+      "notes": "ch_008：Θ区矿道崩塌，被困约2.5小时，脱险。这是吸附者突破前的第一次明确前兆事件。"
+    },
+    {
+      "story_time": 5,
+      "chapter_id": "ch_005",
+      "location": "elem_origin_theta（撤退路段）→ elem_stardust_fortress（外围防线）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "刘霜可以通过掌心接触影响伤口恢复（超出医疗兵能力），感知捕捉到约1秒的异常源质波动（向内）",
+          "confidence": "observed_ambiguous",
+          "trigger": "低浓度区域感知分辨率不足，无法确认；柯炎主动选择不追"
+        }
+      ],
+      "psychology": {
+        "sanity": 82,
+        "mood": "疲惫·任务收束·内部悬挂",
+        "notes": "三件事串成一条线（周恒那一眼+针剂+手腕）；存起来不追。感知在低浓度区域的不稳定感是新的身体信息——他第一次意识到自己在高浓度区域的感知范围超过了他的'正常'。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_005：三日任务结束。五人（含担架伤员）携图纸芯片返回要塞。"
+    },
+    {
+      "story_time": 4,
+      "chapter_id": "ch_004",
+      "location": "elem_origin_theta（废弃中继站 → 夜营）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "蓝卡·预知闪避可以主动持在手中触发——热感在接近威胁时增强，引导行动",
+          "confidence": "experienced",
+          "trigger": "中继站主动使用"
+        },
+        {
+          "fact": "刘霜右手腕内侧有某种需要检查的东西（第二次观察，不同场合）",
+          "confidence": "noted",
+          "trigger": "夜营目击"
+        }
+      ],
+      "psychology": {
+        "sanity": 83,
+        "mood": "疲惫·均衡·有一点新的不适（对'运气'这个字）",
+        "notes": "说'运气'时感到厌倦的那一秒被记下了，但没有被追究。这是一个新的内部信号：他开始对自己的解释机制产生轻微的抵触，尽管还未形成意识。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_004：中继站任务完成。图纸芯片取得。六人撤退准备中。"
+    },
+    {
+      "story_time": 3,
+      "chapter_id": "ch_003",
+      "location": "elem_origin_theta（外围矿带）",
+      "inventory_delta": [
+        {
+          "action": "gained",
+          "item": "白卡·稳定射击×3",
+          "note": "从精英异种残骸拾取"
+        },
+        {
+          "action": "consumed_synthesis",
+          "item": "白卡·稳定射击×3",
+          "note": "合成蓝卡消耗"
+        },
+        {
+          "action": "gained",
+          "item": "蓝卡·预知闪避×1",
+          "note": "首次蓝卡合成产出；效果：被攻击前0.5秒进入半透相位约0.3秒"
+        }
+      ],
+      "status": [
+        {
+          "type": "sensory_event",
+          "desc": "Θ区高源质浓度导致源质感知被动全激活（非主动召唤）；合成蓝卡时胸口短暂源质共鸣烫感（约0.8秒，随即被主动压制）",
+          "severity": "negligible"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_ke_yan_potential",
+          "confidence": "suspected_then_repressed",
+          "trigger": "蓝卡合成瞬间'我做的'念头一闪而出，立刻被压回'运气好'框架"
+        },
+        {
+          "fact": "刘霜可以从右手腕内侧发出源质攻击性能量，不是标准医疗兵技能",
+          "confidence": "observed_not_analyzed",
+          "trigger": "看见刘霜击退第三只异种后快速收回手腕"
+        }
+      ],
+      "psychology": {
+        "sanity": 83,
+        "mood": "战后疲惫·表面平静·胸口有一秒没有完全消化的烫",
+        "notes": "the_lie持续运行：'运气好'框架重新套上，但这次不像前两次那样完全套得住。那个'我做的'念头被推开了，但推开的动作本身留下了印记。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_003：Θ区精英伏击。持有：白卡·闪避感知×2 + 白卡·稳定射击×1（第四张，未合成）+ 蓝卡·预知闪避×1。"
+    },
+    {
+      "story_time": 2,
+      "chapter_id": "ch_002",
+      "location": "elem_stardust_fortress",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        {
+          "fact": "周恒已对胜利失去信心（认命），但仍在做他认为该做的事",
+          "confidence": "suspected",
+          "trigger": "'回来'那一眼的结构 → 触发父亲进矿前的记忆联结"
+        },
+        {
+          "fact": "刘霜在藏某种非标准医疗器材（细长金属管注射器）",
+          "confidence": "observed",
+          "trigger": "装备区目击，未质疑"
+        },
+        {
+          "fact": "周恒看刘霜的那一眼有某种特殊语法，但柯炎尚无解码上下文",
+          "confidence": "noted",
+          "trigger": "简报室点名停顿"
+        }
+      ],
+      "psychology": {
+        "sanity": 84,
+        "mood": "疲惫·清醒·轻微同情涌入（对周恒）",
+        "notes": "同情周恒是一种新的不舒服感——他不允许自己同情上级；这个感情被压制但未消除。对刘霜的问号存入长期记忆，标记为'暂不追究'。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_002：突围简报。出发前夜。三张白卡已放入胸口口袋。"
+    },
+    {
+      "story_time": 1,
+      "chapter_id": "ch_001",
+      "location": "elem_stardust_fortress",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "minor_injury",
+          "desc": "左臂外侧轻微划伤（碎石，已自行包扎）",
+          "severity": "negligible"
+        }
+      ],
+      "knowledge_gained": [],
+      "psychology": {
+        "sanity": 85,
+        "mood": "疲惫·清醒",
+        "notes": "源质感知又一次被归类为'运气好'；空感在某件刚刚发生的事之后再次出现，未被追究。"
+      },
+      "abilities_delta": [],
+      "notes": "ch_001：北墙岗哨。一次试探性攻击被化解。班长夸了；偏开了头。"
+    },
+    {
       "story_time": 0,
       "chapter_id": null,
       "baseline": true,
       "location": "elem_stardust_fortress",
       "inventory_delta": [],
       "status": [
-        { "type": "baseline", "desc": "围困第43天；健康·轻微疲劳；源质感知者边缘状态，逼近吸附者", "severity": "n/a" }
+        {
+          "type": "baseline",
+          "desc": "围困第43天；健康·轻微疲劳；源质感知者边缘状态，逼近吸附者",
+          "severity": "n/a"
+        }
       ],
       "knowledge_gained": [],
-      "psychology": { "sanity": 85, "mood": "疲惫·清醒", "core_desire": "活下去，搞清父母之死是否本可避免", "core_fear": "成为'一个选择改变了很多人命运'的人" },
+      "psychology": {
+        "sanity": 85,
+        "mood": "疲惫·清醒",
+        "core_desire": "活下去，搞清父母之死是否本可避免",
+        "core_fear": "成为'一个选择改变了很多人命运'的人"
+      },
       "abilities_delta": [],
       "notes": "T=0 锚点。完整初始状态见 characters/char_ke_yan.json.initial_state（inventory、知识、信念、能力清单）。"
     }

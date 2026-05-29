@@ -1,0 +1,92 @@
+{
+  "character_id": "char_liu_shuang",
+  "knowledge_at": [
+    {
+      "story_time": 0,
+      "chapter_id": null,
+      "facts_known": [
+        "fact_ke_yan_potential",
+        "fact_federation_losing"
+      ],
+      "facts_partial": [
+        "fact_theta_secret"
+      ],
+      "facts_unknown": [
+        "fact_void_echo_identity",
+        "fact_herald_evolving"
+      ],
+      "beliefs_held": [
+        { "belief": "沉默是保护别人的最好方式", "is_true": false, "status": "the_lie：贯穿全卷的核心谎言" },
+        { "belief": "她对柯炎的关注只是职业性的", "is_true": false, "status": "开始分裂" },
+        { "belief": "只要她不说，柯炎就不会受到联邦项目的直接伤害", "is_true": false, "status": "自我保护性信念" }
+      ],
+      "projected_facts_to_learn": [
+        { "fact": "fact_void_echo_identity", "stage": "rumored", "trigger": "ch_035前后通过联邦特殊项目档案接触相关信息" }
+      ]
+    },
+    {
+      "story_time": 35,
+      "chapter_id": "ch_035",
+      "facts_known": [
+        "fact_ke_yan_potential",
+        "fact_federation_losing",
+        "周恒大致知道她不只是医疗兵",
+        "柯炎已经知道她不是标准医疗兵（她今天告诉了他'联邦特殊项目，三年前'）",
+        "柯炎记录了七个数据点（她知道，她说了'七个'）"
+      ],
+      "facts_partial": [
+        "fact_theta_secret（她知道Θ区遗址的一部分，与她的特殊项目训练相关）"
+      ],
+      "facts_unknown": [
+        "fact_void_echo_identity",
+        "fact_herald_evolving",
+        "柯炎在今天之后会知道多少，知道得有多快"
+      ],
+      "beliefs_held": [
+        {
+          "belief": "沉默是保护别人的最好方式",
+          "is_true": false,
+          "status": "the_lie：今天她选择了不再沉默，但她只说了一个（联邦特殊项目，三年前），其他的她还没有说"
+        },
+        {
+          "belief": "她对柯炎的关注只是职业性的",
+          "is_true": false,
+          "status": "今天她说了'七个'——她知道他在记录，她一直知道，这说明她的关注不是职业性的，她在关注他是否在关注她"
+        },
+        {
+          "belief": "只要她不说，柯炎就不会受到联邦项目的直接伤害",
+          "is_true": false,
+          "status": "今天她选择了告诉他，这个信念的成立与否她还没有完整评估"
+        }
+      ],
+      "projected_facts_to_learn": [
+        {
+          "fact": "fact_void_echo_identity",
+          "stage": "rumored",
+          "trigger": "Sub-arc C里通过联邦特殊项目档案接触相关信息"
+        }
+      ]
+    },
+    {
+      "story_time": 3,
+      "chapter_id": "ch_003",
+      "facts_known": [
+        "fact_ke_yan_potential",
+        "fact_federation_losing",
+        "周恒大致知道她不只是医疗兵（ch_002确认）"
+      ],
+      "facts_partial": [
+        "fact_theta_secret"
+      ],
+      "facts_unknown": [
+        "fact_void_echo_identity",
+        "fact_herald_evolving"
+      ],
+      "beliefs_held": [
+        { "belief": "沉默是保护别人的最好方式", "is_true": false, "status": "the_lie：运行中，但ch_003出手后开始动摇" },
+        { "belief": "她对柯炎的关注只是职业性的", "is_true": false, "status": "ch_003：在记录他的数据后停下来了——第一次对这个信念产生真实的怀疑" }
+      ],
+      "projected_facts_to_learn": []
+    }
+  ]
+}

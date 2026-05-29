@@ -1,0 +1,171 @@
+{
+  "_note": "Per-thread mirror of ontology.json#events. Authoritative source is ontology.json#events; regenerate with sync_events.py --write.",
+  "thread_id": "thr_protagonist",
+  "events": [
+    {
+      "id": "evt_siege_day43",
+      "name": "围困第四十三日",
+      "story_time": 1,
+      "chapter": "ch_001",
+      "status": "drafted",
+      "participants": [
+        "char_ke_yan",
+        "char_major_zhou"
+      ]
+    },
+    {
+      "id": "evt_breakout_briefing",
+      "name": "突围简报",
+      "story_time": 2,
+      "chapter": "ch_002",
+      "status": "drafted",
+      "participants": [
+        "char_ke_yan",
+        "char_major_zhou",
+        "char_liu_shuang"
+      ]
+    },
+    {
+      "id": "evt_first_synthesis",
+      "name": "第一张蓝卡合成",
+      "story_time": 3,
+      "chapter": "ch_003",
+      "status": "drafted",
+      "participants": [
+        "char_ke_yan",
+        "char_liu_shuang"
+      ]
+    },
+    {
+      "id": "evt_relay_station",
+      "name": "中继站图纸",
+      "story_time": 4,
+      "chapter": "ch_004",
+      "status": "drafted",
+      "participants": [
+        "char_ke_yan",
+        "char_liu_shuang"
+      ]
+    },
+    {
+      "id": "evt_liushuang_anomaly",
+      "name": "刘霜的异常",
+      "story_time": 5,
+      "chapter": "ch_005",
+      "status": "drafted",
+      "participants": [
+        "char_ke_yan",
+        "char_liu_shuang"
+      ]
+    },
+    {
+      "id": "evt_perception_edge",
+      "name": "感知边界",
+      "story_time": 8,
+      "chapter": "ch_008",
+      "status": "drafted",
+      "participants": [
+        "char_ke_yan"
+      ]
+    },
+    {
+      "id": "evt_herald_first_sighting",
+      "name": "先驱首现",
+      "story_time": 10,
+      "chapter": "ch_010",
+      "status": "drafted",
+      "participants": [
+        "char_ke_yan",
+        "char_swarm_herald"
+      ]
+    },
+    {
+      "id": "evt_zhou_despair",
+      "name": "周恒的真话",
+      "story_time": 12,
+      "chapter": "ch_012",
+      "status": "drafted",
+      "participants": [
+        "char_ke_yan",
+        "char_major_zhou"
+      ]
+    },
+    {
+      "id": "evt_theta_map_fragment",
+      "name": "Θ区地图残片",
+      "story_time": 15,
+      "chapter": "ch_015",
+      "status": "drafted",
+      "participants": [
+        "char_ke_yan",
+        "char_liu_shuang"
+      ]
+    },
+    {
+      "id": "evt_subarc_a_climax",
+      "name": "Sub-arc A 高潮",
+      "story_time": 19,
+      "chapter": "ch_019",
+      "status": "drafted",
+      "participants": [
+        "char_ke_yan",
+        "char_liu_shuang",
+        "char_major_zhou"
+      ]
+    },
+    {
+      "id": "evt_liushuang_revealed",
+      "name": "刘霜揭身",
+      "story_time": 35,
+      "chapter": "ch_035",
+      "status": "drafted",
+      "participants": [
+        "char_ke_yan",
+        "char_liu_shuang"
+      ]
+    },
+    {
+      "id": "evt_corridor_attempt_fail",
+      "name": "通道",
+      "story_time": 49,
+      "chapter": "ch_049",
+      "status": "drafted",
+      "participants": [
+        "char_ke_yan"
+      ]
+    },
+    {
+      "id": "evt_uneasy_alliance",
+      "name": "不安的同盟",
+      "story_time": 58,
+      "chapter": "ch_058",
+      "status": "drafted",
+      "participants": [
+        "char_ke_yan",
+        "char_psi_elder"
+      ]
+    },
+    {
+      "id": "evt_breakout_to_theta",
+      "name": "突破至Θ区",
+      "story_time": 78,
+      "chapter": "ch_078",
+      "status": "drafted",
+      "participants": [
+        "char_ke_yan",
+        "char_liu_shuang",
+        "char_psi_elder"
+      ]
+    },
+    {
+      "id": "evt_keyan_breakthrough",
+      "name": "柯炎突破",
+      "story_time": 80,
+      "chapter": "ch_080",
+      "status": "drafted",
+      "participants": [
+        "char_ke_yan"
+      ]
+    }
+  ]
+}

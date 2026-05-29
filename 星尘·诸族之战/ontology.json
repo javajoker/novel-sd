@@ -4,13 +4,17 @@
     "novel_title": "星尘：诸族之战",
     "novel_author": "同人作者",
     "story_time_unit": "chapter",
-    "current_chapter": 0,
+    "current_chapter": 80,
     "language": "zh-Hans",
     "genre": "科幻战争",
     "tier": "long_novel",
     "target_word_count": 1200000,
     "logline": "源质纪元第47年，边界星域，星尘要塞被围困的第四十三天——一个坚信自己只是战争机器里一颗螺丝钉的联邦老兵，在能力卡与源质觉醒的混乱洪流里一路蜕变，被迫面对那个他逃避了一生的问题：当你真的能改变战争的走向，你还能假装自己只是旁观者吗？",
-    "pov_roster": ["char_ke_yan", "char_void_echo"],
+    "pov_roster": [
+      "char_ke_yan",
+      "char_void_echo",
+      "char_psi_elder"
+    ],
     "omniscient_thread": "thr_war_strategy"
   },
   "entities": [
@@ -19,9 +23,17 @@
       "canonical_name": "柯炎",
       "type": "Person",
       "subtype": "protagonist",
-      "aliases": ["炎哥", "野战狗"],
+      "aliases": [
+        "炎哥",
+        "野战狗"
+      ],
       "description": "星尘联邦第7突击营普通士兵，性格冷静务实，战斗中极具直觉，从不多说废话。源质感知者阶段的老兵。",
-      "attributes": { "age": "26", "pinyin": "Kē Yán", "faction": "星尘联邦", "rank": "上等兵" },
+      "attributes": {
+        "age": "26",
+        "pinyin": "Kē Yán",
+        "faction": "星尘联邦",
+        "rank": "上等兵"
+      },
       "salience": 1.0,
       "profile_ref": "characters/char_ke_yan.json",
       "state_ref": "characters/states/char_ke_yan.json",
@@ -32,9 +44,17 @@
       "canonical_name": "刘霜",
       "type": "Person",
       "subtype": "supporting",
-      "aliases": ["霜姐", "医疗兵刘"],
+      "aliases": [
+        "霜姐",
+        "医疗兵刘"
+      ],
       "description": "第7突击营医疗兵，沉默寡言，医术精湛。暗中是源质融合者，比所有人想象的都更危险。",
-      "attributes": { "age": "24", "pinyin": "Liú Shuāng", "faction": "星尘联邦", "rank": "医疗兵二级" },
+      "attributes": {
+        "age": "24",
+        "pinyin": "Liú Shuāng",
+        "faction": "星尘联邦",
+        "rank": "医疗兵二级"
+      },
       "salience": 0.85,
       "profile_ref": "characters/char_liu_shuang.json",
       "state_ref": "characters/states/char_liu_shuang.json",
@@ -45,9 +65,17 @@
       "canonical_name": "周恒",
       "type": "Person",
       "subtype": "supporting",
-      "aliases": ["周少校", "钢铁周"],
+      "aliases": [
+        "周少校",
+        "钢铁周"
+      ],
       "description": "星尘要塞驻防少校，表面上是钢铁意志的指挥官，内心深处已对战争胜利失去信心。",
-      "attributes": { "age": "42", "pinyin": "Zhōu Héng", "faction": "星尘联邦", "rank": "少校" },
+      "attributes": {
+        "age": "42",
+        "pinyin": "Zhōu Héng",
+        "faction": "星尘联邦",
+        "rank": "少校"
+      },
       "salience": 0.75,
       "profile_ref": "characters/char_major_zhou.json",
       "state_ref": "characters/states/char_major_zhou.json",
@@ -58,9 +86,17 @@
       "canonical_name": "虚影",
       "type": "Person",
       "subtype": "antagonist",
-      "aliases": ["虚空回声", "That Ghost"],
+      "aliases": [
+        "虚空回声",
+        "That Ghost"
+      ],
       "description": "虚空掠夺者中的高阶成员，实际上是曾经的人类源质觉醒者，因某个事件叛离了联邦。对柯炎有特殊的关注。",
-      "attributes": { "age": "unknown", "pinyin": "Xū Yǐng", "faction": "虚空掠夺者", "rank": "幽灵级" },
+      "attributes": {
+        "age": "unknown",
+        "pinyin": "Xū Yǐng",
+        "faction": "虚空掠夺者",
+        "rank": "幽灵级"
+      },
       "salience": 0.8,
       "profile_ref": "characters/char_void_echo.json",
       "state_ref": "characters/states/char_void_echo.json",
@@ -71,9 +107,16 @@
       "canonical_name": "异种先驱",
       "type": "Person",
       "subtype": "antagonist",
-      "aliases": ["先驱", "进化体"],
+      "aliases": [
+        "先驱",
+        "进化体"
+      ],
       "description": "异形异种中已进化出近似个体意识的特殊单位，吞噬了多个源质融合者后产生了超越蜂巢意识的独立思考能力。",
-      "attributes": { "age": "unknown", "faction": "异形异种", "rank": "先驱级" },
+      "attributes": {
+        "age": "unknown",
+        "faction": "异形异种",
+        "rank": "先驱级"
+      },
       "salience": 0.7,
       "profile_ref": "characters/char_swarm_herald.json",
       "state_ref": "characters/states/char_swarm_herald.json",
@@ -84,9 +127,17 @@
       "canonical_name": "艾薇儿",
       "type": "Person",
       "subtype": "supporting",
-      "aliases": ["灵能者艾薇儿", "银发女"],
+      "aliases": [
+        "灵能者艾薇儿",
+        "银发女"
+      ],
       "description": "艾尔维斯灵能族的特使，被派往边界星域执行秘密任务。实力强大，傲慢，但在绝境中与柯炎产生了微妙的同盟关系。",
-      "attributes": { "age": "unknown（外表20岁左右）", "pinyin": "Àiwéi'ěr", "faction": "艾尔维斯灵能族", "rank": "灵能特使" },
+      "attributes": {
+        "age": "unknown（外表20岁左右）",
+        "pinyin": "Àiwéi'ěr",
+        "faction": "艾尔维斯灵能族",
+        "rank": "灵能特使"
+      },
       "salience": 0.75,
       "profile_ref": "characters/char_psi_elder.json",
       "state_ref": "characters/states/char_psi_elder.json",
@@ -97,9 +148,15 @@
       "canonical_name": "星尘要塞",
       "type": "Place",
       "subtype": "location",
-      "aliases": ["要塞", "星尘基地"],
+      "aliases": [
+        "要塞",
+        "星尘基地"
+      ],
       "description": "人类联邦在边界星域最大的据点，三层防御圈，战争指挥部所在地。物资紧张，士气低落，但仍在坚守。",
-      "attributes": { "domain": "边界星域", "status": "被围困" },
+      "attributes": {
+        "domain": "边界星域",
+        "status": "被围困"
+      },
       "salience": 0.9
     },
     {
@@ -107,9 +164,15 @@
       "canonical_name": "源质矿脉群-Θ区",
       "type": "Place",
       "subtype": "location",
-      "aliases": ["Θ区", "矿脉区"],
+      "aliases": [
+        "Θ区",
+        "矿脉区"
+      ],
       "description": "边界星域最大的源质矿脉聚集区，所有势力的争夺核心。地形复杂，遍布废弃建筑。",
-      "attributes": { "domain": "边界星域", "resource": "源质矿脉·顶级" },
+      "attributes": {
+        "domain": "边界星域",
+        "resource": "源质矿脉·顶级"
+      },
       "salience": 0.85
     },
     {
@@ -117,9 +180,15 @@
       "canonical_name": "废弃太空站Ω",
       "type": "Place",
       "subtype": "location",
-      "aliases": ["Ω站", "废站"],
+      "aliases": [
+        "Ω站",
+        "废站"
+      ],
       "description": "曾经的多方贸易站，战争爆发后遭遗弃。内部暗中居住着幸存者和各势力的眼线。",
-      "attributes": { "domain": "边界星域", "status": "废弃·危险" },
+      "attributes": {
+        "domain": "边界星域",
+        "status": "废弃·危险"
+      },
       "salience": 0.7
     },
     {
@@ -127,9 +196,15 @@
       "canonical_name": "断裂要塞",
       "type": "Place",
       "subtype": "location",
-      "aliases": ["断裂基地", "废堡"],
+      "aliases": [
+        "断裂基地",
+        "废堡"
+      ],
       "description": "曾经属于人类的前沿基地，已沦陷半年。各种建筑被不同种族改造占用，是边界战争最激烈的地段。",
-      "attributes": { "domain": "边界星域", "status": "沦陷·争夺中" },
+      "attributes": {
+        "domain": "边界星域",
+        "status": "沦陷·争夺中"
+      },
       "salience": 0.75
     },
     {
@@ -137,7 +212,10 @@
       "canonical_name": "星尘联邦",
       "type": "Organization",
       "subtype": "faction",
-      "aliases": ["联邦", "人类联邦"],
+      "aliases": [
+        "联邦",
+        "人类联邦"
+      ],
       "description": "人类文明的集合体，科技驱动，依赖工业化军事体系。模块化兵营、舰队战术、远程火力是其核心优势。",
       "salience": 0.95
     },
@@ -146,7 +224,11 @@
       "canonical_name": "异形异种",
       "type": "Organization",
       "subtype": "faction",
-      "aliases": ["异种", "虫族", "蜂巢"],
+      "aliases": [
+        "异种",
+        "虫族",
+        "蜂巢"
+      ],
       "description": "生物进化驱动的蜂巢文明，由母巢节点统一指挥。数量压制，可吞噬其他种族进化。",
       "salience": 0.9
     },
@@ -155,7 +237,10 @@
       "canonical_name": "艾尔维斯灵能族",
       "type": "Organization",
       "subtype": "faction",
-      "aliases": ["灵能族", "艾尔维斯"],
+      "aliases": [
+        "灵能族",
+        "艾尔维斯"
+      ],
       "description": "古老种族，精英单位为主，善于控制、幻觉和范围压制。傲慢，但实力超群。",
       "salience": 0.8
     },
@@ -164,7 +249,11 @@
       "canonical_name": "机械觉醒者",
       "type": "Organization",
       "subtype": "faction",
-      "aliases": ["机械族", "AI文明", "觉醒体"],
+      "aliases": [
+        "机械族",
+        "AI文明",
+        "觉醒体"
+      ],
       "description": "从人类AI发展而来的机械文明，即时构建单位，可黑入敌方建筑网络，对EMP敏感。",
       "salience": 0.75
     },
@@ -173,7 +262,10 @@
       "canonical_name": "虚空掠夺者",
       "type": "Organization",
       "subtype": "faction",
-      "aliases": ["掠夺者", "虚空族"],
+      "aliases": [
+        "掠夺者",
+        "虚空族"
+      ],
       "description": "战争的混乱因子，游牧性质，突袭掠夺式出兵。成员来自各种族的叛逃者和流亡者。",
       "salience": 0.75
     },
@@ -182,7 +274,11 @@
       "canonical_name": "源质",
       "type": "Concept",
       "subtype": "concept",
-      "aliases": ["Origin Matter", "源质碎片", "源质矿"],
+      "aliases": [
+        "Origin Matter",
+        "源质碎片",
+        "源质矿"
+      ],
       "description": "能改写物理与生命形态的神秘物质，是整场战争的根源，也是力量的核心资源。",
       "salience": 1.0
     },
@@ -191,7 +287,10 @@
       "canonical_name": "战争资金",
       "type": "Concept",
       "subtype": "concept",
-      "aliases": ["War Credits", "战资"],
+      "aliases": [
+        "War Credits",
+        "战资"
+      ],
       "description": "源质经济的流通货币，驱动自动出兵系统。来源：击杀经济（脉冲式）+ 领地经济（持续式）。",
       "salience": 0.75
     },
@@ -200,7 +299,11 @@
       "canonical_name": "能力卡",
       "type": "Object",
       "subtype": "item",
-      "aliases": ["战斗卡", "技能卡", "卡牌"],
+      "aliases": [
+        "战斗卡",
+        "技能卡",
+        "卡牌"
+      ],
       "description": "源质结晶化的战斗技能载体，战场拾取获得。可无限叠加，也可合成升品。",
       "salience": 0.9
     },
@@ -209,7 +312,10 @@
       "canonical_name": "建筑图纸",
       "type": "Object",
       "subtype": "item",
-      "aliases": ["图纸", "建造图纸"],
+      "aliases": [
+        "图纸",
+        "建造图纸"
+      ],
       "description": "解锁建筑建造能力的必需品，通过击杀敌方NPC和Boss获得。品质越高，建筑越强。",
       "salience": 0.8
     },
@@ -218,7 +324,10 @@
       "canonical_name": "战争控制器",
       "type": "Concept",
       "subtype": "concept",
-      "aliases": ["War Director", "战争AI"],
+      "aliases": [
+        "War Director",
+        "战争AI"
+      ],
       "description": "管理每个星域战争状态的超级AI系统，自动模拟建筑建设、资源产出、自动出兵和AI突击行动。",
       "salience": 0.8
     },
@@ -227,7 +336,10 @@
       "canonical_name": "联邦标准步枪",
       "type": "Object",
       "subtype": "item",
-      "aliases": ["步枪", "联邦步枪"],
+      "aliases": [
+        "步枪",
+        "联邦步枪"
+      ],
       "description": "星尘联邦制式武器，可靠耐用，威力中等。",
       "salience": 0.5
     },
@@ -236,7 +348,10 @@
       "canonical_name": "联邦战术甲",
       "type": "Object",
       "subtype": "item",
-      "aliases": ["战甲", "战术甲"],
+      "aliases": [
+        "战甲",
+        "战术甲"
+      ],
       "description": "联邦士兵标准装甲，防护中等，内置基础生命监测。",
       "salience": 0.5
     },
@@ -279,6 +394,18 @@
       "subtype": "concept",
       "description": "源质矿脉群-Θ区深处存在源质浓度极高的古代遗迹，传说是宇宙中最初源质觉醒的原点。谁控制了它，谁就能获得扭转整场战争的力量。",
       "salience": 0.85
+    },
+    {
+      "id": "elem_blue_card_precognitive_dodge",
+      "canonical_name": "蓝卡·预知闪避",
+      "type": "Object",
+      "subtype": "ability_card",
+      "tier": "blue",
+      "effect": "被攻击前0.5秒进入半透相位约0.3秒",
+      "synthesis_source": "白卡·稳定射击×3",
+      "first_appearance": "ch_003",
+      "holder": "char_ke_yan",
+      "description": "三张白卡·稳定射击叠合升品的产物（跨卡合成特殊产物，非简单升级）。合成时有源质共鸣热感传入持有者胸腔。"
     }
   ],
   "relations": [
@@ -289,7 +416,10 @@
       "object": "elem_federation",
       "valid_from_chapter": 0,
       "valid_to_chapter": null,
-      "properties": { "trust": 60, "reason": "联邦士兵，效忠但对体制有怀疑" }
+      "properties": {
+        "trust": 60,
+        "reason": "联邦士兵，效忠但对体制有怀疑"
+      }
     },
     {
       "id": "rel_0002",
@@ -298,7 +428,11 @@
       "object": "char_liu_shuang",
       "valid_from_chapter": 0,
       "valid_to_chapter": null,
-      "properties": { "trust": 75, "romance": 5, "reason": "同在第7突击营，互相信任，有模糊情感" }
+      "properties": {
+        "trust": 75,
+        "romance": 5,
+        "reason": "同在第7突击营，互相信任，有模糊情感"
+      }
     },
     {
       "id": "rel_0003",
@@ -307,7 +441,10 @@
       "object": "char_major_zhou",
       "valid_from_chapter": 0,
       "valid_to_chapter": null,
-      "properties": { "trust": 50, "reason": "尊重但对周恒的悲观情绪有所察觉" }
+      "properties": {
+        "trust": 50,
+        "reason": "尊重但对周恒的悲观情绪有所察觉"
+      }
     },
     {
       "id": "rel_0004",
@@ -316,7 +453,11 @@
       "object": "elem_swarm",
       "valid_from_chapter": 0,
       "valid_to_chapter": null,
-      "properties": { "hate": 95, "intensity": 100, "reason": "异种全面入侵" }
+      "properties": {
+        "hate": 95,
+        "intensity": 100,
+        "reason": "异种全面入侵"
+      }
     },
     {
       "id": "rel_0005",
@@ -325,7 +466,11 @@
       "object": "elem_mechanica",
       "valid_from_chapter": 0,
       "valid_to_chapter": null,
-      "properties": { "hate": 85, "intensity": 80, "reason": "机械族叛离并袭击联邦设施" }
+      "properties": {
+        "hate": 85,
+        "intensity": 80,
+        "reason": "机械族叛离并袭击联邦设施"
+      }
     },
     {
       "id": "rel_0006",
@@ -334,7 +479,10 @@
       "object": "elem_stardust_fortress",
       "valid_from_chapter": 0,
       "valid_to_chapter": null,
-      "properties": { "trust": 70, "reason": "星尘要塞驻防指挥官" }
+      "properties": {
+        "trust": 70,
+        "reason": "星尘要塞驻防指挥官"
+      }
     },
     {
       "id": "rel_0007",
@@ -343,7 +491,10 @@
       "object": "elem_void_raiders",
       "valid_from_chapter": 0,
       "valid_to_chapter": null,
-      "properties": { "trust": 40, "reason": "高层成员，但内心仍有联邦时代的执念" }
+      "properties": {
+        "trust": 40,
+        "reason": "高层成员，但内心仍有联邦时代的执念"
+      }
     },
     {
       "id": "rel_0008",
@@ -352,7 +503,10 @@
       "object": "elem_elweiss",
       "valid_from_chapter": 0,
       "valid_to_chapter": null,
-      "properties": { "trust": 70, "reason": "灵能特使，对族群负有使命" }
+      "properties": {
+        "trust": 70,
+        "reason": "灵能特使，对族群负有使命"
+      }
     }
   ],
   "events": [
@@ -361,59 +515,119 @@
       "story_time": 1,
       "duration": 1,
       "location": "elem_stardust_fortress",
-      "participants": ["char_ke_yan", "char_major_zhou"],
+      "participants": [
+        "char_ke_yan",
+        "char_major_zhou"
+      ],
       "thread_id": "thr_protagonist",
       "dependencies": [],
       "prerequisites": [],
       "projected_outcome": "建立世界与柯炎的'螺丝钉'信念；围困第四十三天的压抑；引出突围抢源质任务的必要。",
-      "status": "planned",
-      "chapter_ids": ["ch_001"],
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_001"
+      ],
       "beat_design": {
         "pov": "char_ke_yan",
         "technique": "direct",
         "scene_arc": "压抑的围城日常 → 警报 → 第一次源质感知闪现",
         "key_moment": "柯炎在城墙上凭一瞬源质感知提前半秒侧身，避开了狙击、顺手把身边新兵按倒——他把这归功于老兵的运气，不是自己。",
         "pov_constraint": "柯炎不知道自己的源质感知远超常人，以为人人如此或只是经验。"
-      }
+      },
+      "name": "围困第四十三日"
     },
     {
       "id": "evt_breakout_briefing",
       "story_time": 2,
       "duration": 1,
       "location": "elem_stardust_fortress",
-      "participants": ["char_ke_yan", "char_major_zhou", "char_liu_shuang"],
+      "participants": [
+        "char_ke_yan",
+        "char_major_zhou",
+        "char_liu_shuang"
+      ],
       "thread_id": "thr_protagonist",
-      "dependencies": [{ "event": "evt_siege_day43", "relation": "PRECEDES" }],
+      "dependencies": [
+        {
+          "event": "evt_siege_day43",
+          "relation": "PRECEDES"
+        }
+      ],
       "prerequisites": [],
       "projected_outcome": "第7突击营受命前往Θ区边缘抢源质与建筑图纸；柯炎读出周恒眼中的认命；刘霜随队。",
-      "status": "planned",
-      "chapter_ids": ["ch_002"],
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_002"
+      ],
       "beat_design": {
         "pov": "char_ke_yan",
         "technique": "direct",
         "scene_arc": "受命 → 无声的质疑 → 沉默接受",
         "key_moment": "周恒下令时眼里的东西，和柯炎十二岁那年父亲进矿前回头的眼神一模一样——不是信心，是认命。",
         "pov_constraint": "柯炎不知道周恒已彻底失去对胜利的信心，只隐约觉得不对劲。"
-      }
+      },
+      "name": "突围简报"
     },
     {
       "id": "evt_first_synthesis",
       "story_time": 3,
       "duration": 1,
       "location": "elem_origin_theta",
-      "participants": ["char_ke_yan", "char_liu_shuang"],
+      "participants": [
+        "char_ke_yan",
+        "char_liu_shuang"
+      ],
       "thread_id": "thr_protagonist",
-      "dependencies": [{ "event": "evt_breakout_briefing", "relation": "CAUSES" }],
+      "dependencies": [
+        {
+          "event": "evt_breakout_briefing",
+          "relation": "CAUSES"
+        }
+      ],
       "prerequisites": [],
       "projected_outcome": "首战告捷——柯炎以源质感知预判叠加闪避卡完成不可能的机动，拾取并合成第一张蓝卡·预知闪避（黄金三章爽点）。",
-      "status": "planned",
-      "chapter_ids": ["ch_003"],
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_003"
+      ],
       "beat_design": {
         "pov": "char_ke_yan",
         "technique": "direct",
         "scene_arc": "遭遇 → 濒死 → 直觉爆发 → 反杀",
         "key_moment": "敌方精英开火的同一瞬间柯炎已不在原地；他捡起掉落的白卡，三张同名合成蓝卡——第一次尝到'我改变了结果'的滋味，随即把这个念头压下去。",
         "pov_constraint": "柯炎把这一切解释为卡牌和运气，不愿承认是自己的天赋。"
+      },
+      "name": "第一张蓝卡合成"
+    },
+    {
+      "id": "evt_relay_station",
+      "name": "中继站图纸",
+      "story_time": 4,
+      "duration": 1,
+      "location": "elem_origin_theta",
+      "participants": [
+        "char_ke_yan",
+        "char_liu_shuang"
+      ],
+      "thread_id": "thr_protagonist",
+      "dependencies": [
+        {
+          "type": "HAPPENED_AFTER",
+          "event_id": "evt_first_synthesis"
+        }
+      ],
+      "prerequisites": [],
+      "projected_outcome": "突击队渗透废弃中继站，取得机械族遗留建筑图纸；柯炎首次有意识地使用蓝卡·预知闪避；柯炎与刘霜的短暂问答设下刘霜真实身份的更深伏笔。",
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_004"
+      ],
+      "beat_design": {
+        "pov": "char_ke_yan",
+        "technique": "direct",
+        "scene_arc": "战后低气压推进 → 渗透清场 → 找到图纸 → 夜营短暂问答",
+        "key_moment": "刘霜问柯炎'你之前怎么做到的'，柯炎说'运气'——刘霜没有追问，但她不相信。",
+        "pov_constraint": "柯炎知道刘霜有秘密但主动不问；the_lie在'运气'那一句里继续运行。"
       }
     },
     {
@@ -421,309 +635,491 @@
       "story_time": 5,
       "duration": 1,
       "location": "elem_origin_theta",
-      "participants": ["char_ke_yan", "char_liu_shuang"],
+      "participants": [
+        "char_ke_yan",
+        "char_liu_shuang"
+      ],
       "thread_id": "thr_protagonist",
-      "dependencies": [{ "event": "evt_first_synthesis", "relation": "PRECEDES" }],
+      "dependencies": [
+        {
+          "event": "evt_first_synthesis",
+          "relation": "PRECEDES"
+        }
+      ],
       "prerequisites": [],
       "projected_outcome": "刘霜在混战中做了医疗兵不该能做的事；柯炎的源质感知捕捉到她掌心的异常波动，选择不点破。",
-      "status": "planned",
-      "chapter_ids": ["ch_005"],
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_005"
+      ],
       "beat_design": {
         "pov": "char_ke_yan",
         "technique": "foreshadowing",
         "scene_arc": "撤退 → 濒死的伤员 → 刘霜的手",
         "key_moment": "刘霜按住伤口的瞬间，柯炎的感知里有一缕本不该存在的源质从她掌心流出；他眨眼，波动消失，他没有问。",
         "pov_constraint": "柯炎不知道刘霜是隐藏的源质融合者；刘霜知道他可能察觉了。"
-      }
+      },
+      "name": "刘霜的异常"
     },
     {
       "id": "evt_void_echo_observes",
       "story_time": 6,
       "duration": 1,
       "location": "elem_omega_station",
-      "participants": ["char_void_echo"],
+      "participants": [
+        "char_void_echo"
+      ],
       "thread_id": "thr_void_echo",
-      "dependencies": [{ "event": "evt_first_synthesis", "relation": "ENABLES" }],
+      "dependencies": [
+        {
+          "event": "evt_first_synthesis",
+          "relation": "ENABLES"
+        }
+      ],
       "prerequisites": [],
       "projected_outcome": "虚影通过残存监视网络看到柯炎的战斗记录，认出那种源质感知特征——与当年第零团最强成员相似；开始关注。",
-      "status": "planned",
-      "chapter_ids": ["ch_006"],
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_006"
+      ],
       "beat_design": {
         "pov": "char_void_echo",
         "technique": "direct",
         "scene_arc": "情报筛查 → 停顿 → 微微偏头",
         "key_moment": "虚影在一段战场录像前停下，微微偏头——那个年轻士兵的移动方式，是源质在告诉他子弹会去哪。他认得。他标记了那个名字：柯炎。",
         "pov_constraint": "虚影还不打算接触；他只是想看一个'年轻版的自己'会做出什么不同的选择。"
-      }
+      },
+      "name": "虚影的观察"
     },
     {
       "id": "evt_perception_edge",
       "story_time": 8,
       "duration": 1,
       "location": "elem_origin_theta",
-      "participants": ["char_ke_yan"],
+      "participants": [
+        "char_ke_yan"
+      ],
       "thread_id": "thr_protagonist",
-      "dependencies": [{ "event": "evt_first_synthesis", "relation": "PRECEDES" }],
+      "dependencies": [
+        {
+          "event": "evt_first_synthesis",
+          "relation": "PRECEDES"
+        }
+      ],
       "prerequisites": [],
       "projected_outcome": "一次濒死中柯炎的源质感知范围骤然扩张，逼近吸附者边缘；身体出现第一次主动吸收反应（突破前兆）。",
-      "status": "planned",
-      "chapter_ids": ["ch_008"],
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_008"
+      ],
       "beat_design": {
         "pov": "char_ke_yan",
         "technique": "direct",
         "scene_arc": "被困 → 缺氧失血 → 感知炸开 → 活下来",
         "key_moment": "在生死边缘柯炎第一次'看见'源质的流动本身——整片矿脉像血管一样亮起；他下意识吸入一缕，胸口一烫。",
         "pov_constraint": "柯炎不知道这是突破前兆，他害怕这种'看得太清楚'的感觉。"
-      }
+      },
+      "name": "感知边界"
     },
     {
       "id": "evt_herald_first_sighting",
       "story_time": 10,
       "duration": 1,
       "location": "elem_shattered_bastion",
-      "participants": ["char_ke_yan", "char_swarm_herald"],
+      "participants": [
+        "char_ke_yan",
+        "char_swarm_herald"
+      ],
       "thread_id": "thr_protagonist",
-      "dependencies": [{ "event": "evt_perception_edge", "relation": "PRECEDES" }],
+      "dependencies": [
+        {
+          "event": "evt_perception_edge",
+          "relation": "PRECEDES"
+        }
+      ],
       "prerequisites": [],
       "projected_outcome": "异种先驱在虫潮中现身，行为带有非蜂巢的'意图'——它在观察、在选择目标，而非纯数量洪流；柯炎活着撤回。",
-      "status": "planned",
-      "chapter_ids": ["ch_010"],
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_010"
+      ],
       "beat_design": {
         "pov": "char_ke_yan",
         "technique": "direct",
         "scene_arc": "虫潮 → 异常的停顿 → 对视 → 撤退",
         "key_moment": "虫潮里一个高大的异种停下，没有扑向最近的猎物，而是'看'了柯炎一眼——那一眼里有计算。柯炎第一次对异种感到的不是恐惧，是被审视的寒意。",
         "pov_constraint": "柯炎不知道这是进化出独立意识的先驱，只知道'那东西不一样'。"
-      }
+      },
+      "name": "先驱首现"
     },
     {
       "id": "evt_zhou_despair",
       "story_time": 12,
       "duration": 1,
       "location": "elem_stardust_fortress",
-      "participants": ["char_ke_yan", "char_major_zhou"],
+      "participants": [
+        "char_ke_yan",
+        "char_major_zhou"
+      ],
       "thread_id": "thr_protagonist",
-      "dependencies": [{ "event": "evt_breakout_briefing", "relation": "CAUSES" }],
+      "dependencies": [
+        {
+          "event": "evt_breakout_briefing",
+          "relation": "CAUSES"
+        }
+      ],
       "prerequisites": [],
       "projected_outcome": "周恒私下向柯炎流露绝望；柯炎'体制让人习惯死亡'的旧创被触动，却反而印证了他的谎言。",
-      "status": "planned",
-      "chapter_ids": ["ch_012"],
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_012"
+      ],
       "beat_design": {
         "pov": "char_ke_yan",
         "technique": "direct",
         "scene_arc": "深夜 → 沉默 → 一句真话",
         "key_moment": "周恒说：'我们守的不是要塞，是上面用来拖时间的数字。'柯炎沉默——这正是他十二岁就懂的事，只是没想到从一个少校嘴里听见。",
         "pov_constraint": "周恒的话印证了柯炎'个人无法改变战争'的谎言，而非动摇它。"
-      }
+      },
+      "name": "周恒的真话"
     },
     {
       "id": "evt_theta_map_fragment",
       "story_time": 15,
       "duration": 1,
       "location": "elem_origin_theta",
-      "participants": ["char_ke_yan", "char_liu_shuang"],
+      "participants": [
+        "char_ke_yan",
+        "char_liu_shuang"
+      ],
       "thread_id": "thr_protagonist",
-      "dependencies": [{ "event": "evt_perception_edge", "relation": "PRECEDES" }],
+      "dependencies": [
+        {
+          "event": "evt_perception_edge",
+          "relation": "PRECEDES"
+        }
+      ],
       "prerequisites": [],
       "projected_outcome": "队伍在遗迹拾得Θ区遗迹地图残片；'最初源质觉醒原点'的传说变得具体，且与虚影持有的残图同源。",
-      "status": "planned",
-      "chapter_ids": ["ch_015"],
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_015"
+      ],
       "beat_design": {
         "pov": "char_ke_yan",
         "technique": "foreshadowing",
         "scene_arc": "搜索 → 遗迹 → 残图 → 不安",
         "key_moment": "残图上的符号让柯炎的源质感知本能地共鸣了一下，像被叫了名字；刘霜看他的眼神变了。",
         "pov_constraint": "柯炎不知道虚影持有同源残图，也不知道Θ区秘密的真正分量。"
-      }
+      },
+      "name": "Θ区地图残片"
     },
     {
       "id": "evt_subarc_a_climax",
       "story_time": 19,
       "duration": 1,
       "location": "elem_shattered_bastion",
-      "participants": ["char_ke_yan", "char_liu_shuang", "char_major_zhou"],
+      "participants": [
+        "char_ke_yan",
+        "char_liu_shuang",
+        "char_major_zhou"
+      ],
       "thread_id": "thr_protagonist",
       "dependencies": [
-        { "event": "evt_herald_first_sighting", "relation": "CAUSES" },
-        { "event": "evt_zhou_despair", "relation": "ENABLES" }
+        {
+          "event": "evt_herald_first_sighting",
+          "relation": "CAUSES"
+        },
+        {
+          "event": "evt_zhou_despair",
+          "relation": "ENABLES"
+        }
       ],
       "prerequisites": [],
       "projected_outcome": "一次任务惨烈收场，突击营减员；柯炎一个战术选择直接决定谁死谁活，他的'我只是螺丝钉'第一次裂开。",
-      "status": "planned",
-      "chapter_ids": ["ch_019", "ch_020"],
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_019",
+        "ch_020"
+      ],
       "beat_design": {
         "pov": "char_ke_yan",
         "technique": "direct",
         "scene_arc": "突袭 → 失控 → 必须选择 → 幸存的代价",
         "key_moment": "柯炎必须在两条撤退路线间选一条，他凭源质感知选了对的那条——活下来的人因他而活，另一条路上的人因他而死。他第一次无法对自己说'这与我无关'。",
         "pov_constraint": "柯炎开始怀疑自己的旁观者姿态，但还没有承认。"
-      }
+      },
+      "name": "Sub-arc A 高潮"
     },
     {
       "id": "evt_psi_elder_enters",
       "story_time": 25,
       "duration": 1,
       "location": "elem_origin_theta",
-      "participants": ["char_psi_elder"],
+      "participants": [
+        "char_psi_elder"
+      ],
       "thread_id": "thr_war_strategy",
       "dependencies": [],
       "prerequisites": [],
       "projected_outcome": "艾薇儿奉命潜入边界星域执行灵能族关于Θ区的秘密任务；引入第三方视角，宏观战局多一条线。",
-      "status": "planned",
-      "chapter_ids": ["ch_025"],
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_025"
+      ],
       "beat_design": {
         "pov": "char_psi_elder",
         "technique": "parallel",
         "scene_arc": "降临 → 蔑视 → 任务",
         "key_moment": "艾薇儿俯视这片人类的废墟战场，认定他们都是低等生物——却在Θ区方向感到一丝让她皱眉的源质共鸣。",
         "pov_constraint": "艾薇儿不知道那共鸣的源头与一个人类士兵有关。"
-      }
+      },
+      "name": "艾薇儿降临"
     },
     {
       "id": "evt_liushuang_revealed",
       "story_time": 35,
       "duration": 1,
       "location": "elem_shattered_bastion",
-      "participants": ["char_ke_yan", "char_liu_shuang"],
+      "participants": [
+        "char_ke_yan",
+        "char_liu_shuang"
+      ],
       "thread_id": "thr_protagonist",
-      "dependencies": [{ "event": "evt_liushuang_anomaly", "relation": "CAUSES" }],
+      "dependencies": [
+        {
+          "event": "evt_liushuang_anomaly",
+          "relation": "CAUSES"
+        }
+      ],
       "prerequisites": [],
       "projected_outcome": "刘霜的源质融合者身份对柯炎（及读者）正式揭晓；信任受冲击，却也彼此更深地认出对方。",
-      "status": "planned",
-      "chapter_ids": ["ch_035"],
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_035"
+      ],
       "beat_design": {
         "pov": "char_ke_yan",
         "technique": "reverse",
         "scene_arc": "危机 → 她全力出手 → 真相 → 重新认识",
         "key_moment": "刘霜不再隐藏，全力出手——柯炎终于明白，她一直在'压着'自己的力量，和他一样，害怕被看见。",
         "pov_constraint": "柯炎尚不知刘霜隐藏身份的真正原因（与联邦对融合者的处置有关）。"
-      }
+      },
+      "name": "刘霜揭身"
     },
     {
       "id": "evt_void_echo_contact",
       "story_time": 50,
       "duration": 1,
       "location": "elem_shattered_bastion",
-      "participants": ["char_ke_yan", "char_void_echo"],
+      "participants": [
+        "char_ke_yan",
+        "char_void_echo"
+      ],
       "thread_id": "thr_void_echo",
-      "dependencies": [{ "event": "evt_void_echo_observes", "relation": "CAUSES" }],
+      "dependencies": [
+        {
+          "event": "evt_void_echo_observes",
+          "relation": "CAUSES"
+        }
+      ],
       "prerequisites": [],
       "projected_outcome": "虚影首次直接接触/试探柯炎，抛出关于联邦与Θ区、以及柯炎父母之死的碎片真相，随即消失。",
-      "status": "planned",
-      "chapter_ids": ["ch_050"],
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_050"
+      ],
       "beat_design": {
         "pov": "char_ke_yan",
         "technique": "direct",
         "scene_arc": "伏击 → 不是杀意 → 一句问话 → 困惑",
         "key_moment": "虚影没有杀他，只问：'你父母的死，你真以为是意外吗？'然后融进虚空。",
         "pov_constraint": "柯炎不知道虚影的真实身份（陈霆/前第零团），也不知道这句话指向暗源计划。"
-      }
+      },
+      "name": "虚影首次直接接触"
     },
     {
       "id": "evt_herald_strategy",
       "story_time": 55,
       "duration": 1,
       "location": "elem_origin_theta",
-      "participants": ["char_swarm_herald"],
+      "participants": [
+        "char_swarm_herald"
+      ],
       "thread_id": "thr_war_strategy",
-      "dependencies": [{ "event": "evt_herald_first_sighting", "relation": "CAUSES" }],
+      "dependencies": [
+        {
+          "event": "evt_herald_first_sighting",
+          "relation": "CAUSES"
+        }
+      ],
       "prerequisites": [],
       "projected_outcome": "异种先驱展现战略级智能，做出'诱敌'调度，改变战局；战争控制器的模型第一次失准，各方意识到异种变了。",
-      "status": "planned",
-      "chapter_ids": ["ch_055"],
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_055"
+      ],
       "beat_design": {
         "pov": "char_swarm_herald",
         "technique": "parallel",
         "scene_arc": "常规防御 → 反常调度 → 溃败",
         "key_moment": "先驱指挥虫潮做出一次诱敌——蜂巢从不诱敌。战争控制器的预测第一次落空。",
         "pov_constraint": "先驱刚刚学会'我'这个概念，尚不能完全控制蜂巢的本能。"
-      }
+      },
+      "name": "先驱诱敌"
     },
     {
       "id": "evt_uneasy_alliance",
       "story_time": 58,
       "duration": 1,
       "location": "elem_shattered_bastion",
-      "participants": ["char_ke_yan", "char_psi_elder"],
+      "participants": [
+        "char_ke_yan",
+        "char_psi_elder"
+      ],
       "thread_id": "thr_protagonist",
-      "dependencies": [{ "event": "evt_psi_elder_enters", "relation": "ENABLES" }],
+      "dependencies": [
+        {
+          "event": "evt_psi_elder_enters",
+          "relation": "ENABLES"
+        }
+      ],
       "prerequisites": [],
       "projected_outcome": "柯炎与艾薇儿在绝境中被迫结盟；灵能与源质感知第一次配合，双方都修正了对彼此的偏见。",
-      "status": "planned",
-      "chapter_ids": ["ch_058"],
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_058"
+      ],
       "beat_design": {
         "pov": "char_ke_yan",
         "technique": "direct",
         "scene_arc": "对峙 → 共敌 → 背靠背 → 不情愿的默契",
         "key_moment": "艾薇儿的灵能幻觉与柯炎的源质感知第一次咬合，两人都意识到对方不是'低等'，也不是'工具'。",
         "pov_constraint": "柯炎不知道艾薇儿的真实任务与Θ区有关；艾薇儿低估了柯炎的潜力。"
-      }
+      },
+      "name": "不安的同盟"
     },
     {
       "id": "evt_fortress_crisis",
       "story_time": 70,
       "duration": 2,
       "location": "elem_stardust_fortress",
-      "participants": ["char_ke_yan", "char_major_zhou", "char_liu_shuang"],
+      "participants": [
+        "char_ke_yan",
+        "char_major_zhou",
+        "char_liu_shuang"
+      ],
       "thread_id": "thr_war_strategy",
       "dependencies": [
-        { "event": "evt_herald_strategy", "relation": "CAUSES" },
-        { "event": "evt_subarc_a_climax", "relation": "PRECEDES" }
+        {
+          "event": "evt_herald_strategy",
+          "relation": "CAUSES"
+        },
+        {
+          "event": "evt_subarc_a_climax",
+          "relation": "PRECEDES"
+        }
       ],
       "prerequisites": [],
       "projected_outcome": "星尘要塞陷落/濒陷；周恒的结局；幸存者被迫向Θ区方向突围。宏观战局与个人命运交汇。",
-      "status": "planned",
-      "chapter_ids": ["ch_070"],
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_070"
+      ],
       "beat_design": {
         "pov": "char_ke_yan",
         "technique": "direct",
         "scene_arc": "总攻 → 防线崩 → 周恒的选择 → 突围",
         "key_moment": "周恒最后一次下令——这一次眼里不是认命，是把活路让出去的决意。柯炎带人突围，要塞在身后沉默下去。",
         "pov_constraint": "柯炎此刻仍未完成突破，无法凭一己之力扭转要塞之围。"
-      }
+      },
+      "name": "要塞危机"
     },
     {
       "id": "evt_breakout_to_theta",
       "story_time": 78,
       "duration": 1,
       "location": "elem_origin_theta",
-      "participants": ["char_ke_yan", "char_liu_shuang", "char_psi_elder"],
+      "participants": [
+        "char_ke_yan",
+        "char_liu_shuang",
+        "char_psi_elder"
+      ],
       "thread_id": "thr_protagonist",
-      "dependencies": [{ "event": "evt_fortress_crisis", "relation": "CAUSES" }],
+      "dependencies": [
+        {
+          "event": "evt_fortress_crisis",
+          "relation": "CAUSES"
+        }
+      ],
       "prerequisites": [],
       "projected_outcome": "残部向Θ区突进；虚影、先驱、灵能族三条线开始向Θ区原点收束。",
-      "status": "planned",
-      "chapter_ids": ["ch_078"],
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_078"
+      ],
       "beat_design": {
         "pov": "char_ke_yan",
         "technique": "direct",
         "scene_arc": "荒原突进 → 三方阴影 → 逼近原点",
         "key_moment": "柯炎站在Θ区边缘，源质感知里整片矿脉像心跳一样搏动——他知道自己在靠近某个会改变一切的东西。",
         "pov_constraint": "柯炎尚不知Θ区遗迹的真相，也不知三方都在向同一点汇聚。"
-      }
+      },
+      "name": "突破至Θ区"
     },
     {
       "id": "evt_keyan_breakthrough",
       "story_time": 80,
       "duration": 1,
       "location": "elem_origin_theta",
-      "participants": ["char_ke_yan"],
+      "participants": [
+        "char_ke_yan"
+      ],
       "thread_id": "thr_protagonist",
       "dependencies": [
-        { "event": "evt_breakout_to_theta", "relation": "CAUSES" },
-        { "event": "evt_perception_edge", "relation": "ENABLES" }
+        {
+          "event": "evt_breakout_to_theta",
+          "relation": "CAUSES"
+        },
+        {
+          "event": "evt_perception_edge",
+          "relation": "ENABLES"
+        }
       ],
       "prerequisites": [],
       "projected_outcome": "卷一高潮：柯炎在生死关头突破源质吸附者→融合者，第一次主动操控源质改变战局；'我只是螺丝钉'的谎言彻底破碎。",
-      "status": "planned",
-      "chapter_ids": ["ch_080"],
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_080"
+      ],
       "beat_design": {
         "pov": "char_ke_yan",
         "technique": "direct",
         "scene_arc": "绝境 → 拒绝旁观 → 主动吸收 → 蜕变 → 代价",
         "key_moment": "柯炎第一次主动伸手抓住源质的流动，把它拉进身体——剧痛中他承认了那件逃避一生的事：他能改变结果，所以他必须负责。",
         "pov_constraint": "突破带来源质排斥/暴走的风险，柯炎还不知如何稳定新生的源质核心。"
-      }
+      },
+      "name": "柯炎突破"
+    },
+    {
+      "id": "evt_corridor_attempt_fail",
+      "name": "通道",
+      "story_time": 49,
+      "duration": 1,
+      "location": null,
+      "participants": [
+        "char_ke_yan"
+      ],
+      "thread_id": "thr_protagonist",
+      "dependencies": [],
+      "prerequisites": [],
+      "projected_outcome": "他用了全部四张蓝卡；西北通道打通失败；先驱战略协调级别确认。",
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_049"
+      ],
+      "beat_design": {},
+      "_stub": true
     }
   ],
   "themes": [
@@ -731,29 +1127,60 @@
       "id": "thm_war_as_constant",
       "name": "战争即常态",
       "description": "战争不是一个事件，而是这个宇宙的底色。个人在其中微不足道，却能改变走向。",
-      "related_entities": ["elem_war_director", "elem_federation"],
-      "related_events": ["evt_siege_day43", "evt_zhou_despair", "evt_fortress_crisis", "evt_herald_strategy"]
+      "related_entities": [
+        "elem_war_director",
+        "elem_federation"
+      ],
+      "related_events": [
+        "evt_siege_day43",
+        "evt_zhou_despair",
+        "evt_fortress_crisis",
+        "evt_herald_strategy"
+      ]
     },
     {
       "id": "thm_roguelite_fate",
       "name": "随机命运与意志",
       "description": "能力卡的随机性、战场的不确定性——命运是随机的，但选择是自己的。肉鸽式的成长哲学。",
-      "related_entities": ["char_ke_yan", "elem_ability_card"],
-      "related_events": ["evt_first_synthesis", "evt_perception_edge", "evt_keyan_breakthrough"]
+      "related_entities": [
+        "char_ke_yan",
+        "elem_ability_card"
+      ],
+      "related_events": [
+        "evt_first_synthesis",
+        "evt_perception_edge",
+        "evt_keyan_breakthrough"
+      ]
     },
     {
       "id": "thm_identity_and_betrayal",
       "name": "身份认同与背叛",
       "description": "虚影叛离联邦、机械族的觉醒、异种先驱的独立意识——谁是敌人，谁是同类，边界在消融。",
-      "related_entities": ["char_void_echo", "char_swarm_herald", "elem_mechanica"],
-      "related_events": ["evt_void_echo_observes", "evt_herald_first_sighting", "evt_void_echo_contact", "evt_herald_strategy", "evt_liushuang_revealed"]
+      "related_entities": [
+        "char_void_echo",
+        "char_swarm_herald",
+        "elem_mechanica"
+      ],
+      "related_events": [
+        "evt_void_echo_observes",
+        "evt_herald_first_sighting",
+        "evt_void_echo_contact",
+        "evt_herald_strategy",
+        "evt_liushuang_revealed"
+      ]
     },
     {
       "id": "thm_growth_through_chaos",
       "name": "混乱中的成长",
       "description": "主角从普通士兵到能左右战争走向的强干预变量，是个人意志在混乱宇宙中的胜利。",
-      "related_entities": ["char_ke_yan"],
-      "related_events": ["evt_subarc_a_climax", "evt_uneasy_alliance", "evt_keyan_breakthrough"]
+      "related_entities": [
+        "char_ke_yan"
+      ],
+      "related_events": [
+        "evt_subarc_a_climax",
+        "evt_uneasy_alliance",
+        "evt_keyan_breakthrough"
+      ]
     }
   ],
   "threads": [
@@ -765,10 +1192,20 @@
       "start_time": 0,
       "end_time": null,
       "event_ids": [
-        "evt_siege_day43", "evt_breakout_briefing", "evt_first_synthesis",
-        "evt_liushuang_anomaly", "evt_perception_edge", "evt_herald_first_sighting",
-        "evt_zhou_despair", "evt_theta_map_fragment", "evt_subarc_a_climax",
-        "evt_liushuang_revealed", "evt_uneasy_alliance", "evt_breakout_to_theta",
+        "evt_siege_day43",
+        "evt_breakout_briefing",
+        "evt_first_synthesis",
+        "evt_relay_station",
+        "evt_liushuang_anomaly",
+        "evt_perception_edge",
+        "evt_herald_first_sighting",
+        "evt_zhou_despair",
+        "evt_theta_map_fragment",
+        "evt_subarc_a_climax",
+        "evt_liushuang_revealed",
+        "evt_corridor_attempt_fail",
+        "evt_uneasy_alliance",
+        "evt_breakout_to_theta",
         "evt_keyan_breakthrough"
       ],
       "convergences": [
@@ -793,7 +1230,8 @@
           "location": "elem_stardust_fortress",
           "knowledge_exchanged": "宏观战局崩盘与个人命运交汇：要塞陷落，周恒以让出活路的方式收束，柯炎被推向Θ区。"
         }
-      ]
+      ],
+      "current_time": 65
     },
     {
       "id": "thr_void_echo",
@@ -802,7 +1240,10 @@
       "pov_character": "char_void_echo",
       "start_time": 0,
       "end_time": null,
-      "event_ids": ["evt_void_echo_observes", "evt_void_echo_contact"],
+      "event_ids": [
+        "evt_void_echo_observes",
+        "evt_void_echo_contact"
+      ],
       "convergences": [
         {
           "with_thread": "thr_protagonist",
@@ -811,7 +1252,8 @@
           "location": "elem_shattered_bastion",
           "knowledge_exchanged": "虚影确认柯炎的源质感知特征与第零团旧人同源；以一句问话在柯炎心里种下怀疑联邦的种子。"
         }
-      ]
+      ],
+      "current_time": 65
     },
     {
       "id": "thr_war_strategy",
@@ -820,7 +1262,11 @@
       "pov_character": null,
       "start_time": 0,
       "end_time": null,
-      "event_ids": ["evt_psi_elder_enters", "evt_herald_strategy", "evt_fortress_crisis"],
+      "event_ids": [
+        "evt_psi_elder_enters",
+        "evt_herald_strategy",
+        "evt_fortress_crisis"
+      ],
       "convergences": [
         {
           "with_thread": "thr_protagonist",
@@ -829,25 +1275,144 @@
           "location": "elem_stardust_fortress",
           "knowledge_exchanged": "战略层的要塞陷落直接决定了主线残部的去向——向Θ区突围。"
         }
-      ]
+      ],
+      "current_time": 65
     }
   ],
   "world_rules": [
-    { "id": "rule_0001", "source": "星尘联邦", "relation": "HOSTILE_TO", "target": "异形异种", "scope": "faction", "note": "全面战争状态，无停战协议" },
-    { "id": "rule_0002", "source": "星尘联邦", "relation": "HOSTILE_TO", "target": "机械觉醒者", "scope": "faction", "note": "机械族背刺事件后确立的敌对关系" },
-    { "id": "rule_0003", "source": "灵能波动", "relation": "CONFLICTS_WITH", "target": "机械电路", "scope": "elemental", "note": "灵能族与机械族在战场上天然相克，灵能技能会干扰机械单位" },
-    { "id": "rule_0004", "source": "EMP", "relation": "STRONG_AGAINST", "target": "机械觉醒者", "scope": "elemental", "note": "机械族对EMP武器极为敏感，是其主要弱点" },
-    { "id": "rule_0005", "source": "源质矿脉", "relation": "ATTRACTS", "target": "所有阵营", "scope": "geography", "note": "控制源质矿脉即控制长期战争潜力" },
-    { "id": "rule_0006", "source": "核心建筑摧毁", "relation": "CAUSES", "target": "区域控制权转移", "scope": "faction", "note": "战争控制器逻辑：摧毁指挥核心=丢失该区域" },
-    { "id": "rule_0007", "source": "天灾事件", "relation": "TARGETS", "target": "优势过大阵营", "scope": "faction", "note": "战争控制器平衡机制：优势过大时触发天灾削弱" },
-    { "id": "rule_0008", "source": "庇护效果", "relation": "COUNTERS", "target": "天灾事件", "scope": "faction", "note": "完成采集类任务获得庇护效果可免疫/减轻天灾" },
-    { "id": "rule_0009", "source": "建筑图纸", "relation": "REQUIRES", "target": "击杀掉落", "scope": "taboo", "note": "建筑不能无中生有，必须通过战斗获取图纸" },
-    { "id": "rule_0010", "source": "源质觉醒者", "relation": "RANKS_HIGHER_THAN", "target": "源质融合者", "scope": "hierarchy", "note": "源质融合体系：觉醒者>融合者>吸附者>感知者>普通士兵" },
-    { "id": "rule_0011", "source": "源质融合者", "relation": "RANKS_HIGHER_THAN", "target": "源质吸附者", "scope": "hierarchy", "note": "" },
-    { "id": "rule_0012", "source": "源质吸附者", "relation": "RANKS_HIGHER_THAN", "target": "源质感知者", "scope": "hierarchy", "note": "" },
-    { "id": "rule_0013", "source": "源质感知者", "relation": "RANKS_HIGHER_THAN", "target": "普通士兵", "scope": "hierarchy", "note": "" },
-    { "id": "rule_0014", "source": "异形异种", "relation": "STRONG_AGAINST", "target": "孤立据点", "scope": "elemental", "note": "数量洪流战术对孤立防守点有压倒性优势" },
-    { "id": "rule_0015", "source": "能力卡叠加", "relation": "REQUIRES", "target": "同类卡多张", "scope": "taboo", "note": "叠加效果需要多张同名卡，不能跨品质叠加" },
-    { "id": "rule_0016", "source": "源质暴走", "relation": "CAUSES", "target": "身体崩溃", "scope": "elemental", "note": "强行吸收过量源质的代价，可能致死" }
+    {
+      "id": "rule_0001",
+      "source": "星尘联邦",
+      "relation": "HOSTILE_TO",
+      "target": "异形异种",
+      "scope": "faction",
+      "note": "全面战争状态，无停战协议"
+    },
+    {
+      "id": "rule_0002",
+      "source": "星尘联邦",
+      "relation": "HOSTILE_TO",
+      "target": "机械觉醒者",
+      "scope": "faction",
+      "note": "机械族背刺事件后确立的敌对关系"
+    },
+    {
+      "id": "rule_0003",
+      "source": "灵能波动",
+      "relation": "CONFLICTS_WITH",
+      "target": "机械电路",
+      "scope": "elemental",
+      "note": "灵能族与机械族在战场上天然相克，灵能技能会干扰机械单位"
+    },
+    {
+      "id": "rule_0004",
+      "source": "EMP",
+      "relation": "STRONG_AGAINST",
+      "target": "机械觉醒者",
+      "scope": "elemental",
+      "note": "机械族对EMP武器极为敏感，是其主要弱点"
+    },
+    {
+      "id": "rule_0005",
+      "source": "源质矿脉",
+      "relation": "ATTRACTS",
+      "target": "所有阵营",
+      "scope": "geography",
+      "note": "控制源质矿脉即控制长期战争潜力"
+    },
+    {
+      "id": "rule_0006",
+      "source": "核心建筑摧毁",
+      "relation": "CAUSES",
+      "target": "区域控制权转移",
+      "scope": "faction",
+      "note": "战争控制器逻辑：摧毁指挥核心=丢失该区域"
+    },
+    {
+      "id": "rule_0007",
+      "source": "天灾事件",
+      "relation": "TARGETS",
+      "target": "优势过大阵营",
+      "scope": "faction",
+      "note": "战争控制器平衡机制：优势过大时触发天灾削弱"
+    },
+    {
+      "id": "rule_0008",
+      "source": "庇护效果",
+      "relation": "COUNTERS",
+      "target": "天灾事件",
+      "scope": "faction",
+      "note": "完成采集类任务获得庇护效果可免疫/减轻天灾"
+    },
+    {
+      "id": "rule_0009",
+      "source": "建筑图纸",
+      "relation": "REQUIRES",
+      "target": "击杀掉落",
+      "scope": "taboo",
+      "note": "建筑不能无中生有，必须通过战斗获取图纸"
+    },
+    {
+      "id": "rule_0010",
+      "source": "源质觉醒者",
+      "relation": "RANKS_HIGHER_THAN",
+      "target": "源质融合者",
+      "scope": "hierarchy",
+      "note": "源质融合体系：觉醒者>融合者>吸附者>感知者>普通士兵"
+    },
+    {
+      "id": "rule_0011",
+      "source": "源质融合者",
+      "relation": "RANKS_HIGHER_THAN",
+      "target": "源质吸附者",
+      "scope": "hierarchy",
+      "note": ""
+    },
+    {
+      "id": "rule_0012",
+      "source": "源质吸附者",
+      "relation": "RANKS_HIGHER_THAN",
+      "target": "源质感知者",
+      "scope": "hierarchy",
+      "note": ""
+    },
+    {
+      "id": "rule_0013",
+      "source": "源质感知者",
+      "relation": "RANKS_HIGHER_THAN",
+      "target": "普通士兵",
+      "scope": "hierarchy",
+      "note": ""
+    },
+    {
+      "id": "rule_0014",
+      "source": "异形异种",
+      "relation": "STRONG_AGAINST",
+      "target": "孤立据点",
+      "scope": "elemental",
+      "note": "数量洪流战术对孤立防守点有压倒性优势"
+    },
+    {
+      "id": "rule_0015",
+      "source": "能力卡叠加",
+      "relation": "REQUIRES",
+      "target": "同类卡多张",
+      "scope": "taboo",
+      "note": "叠加效果需要多张同名卡，不能跨品质叠加"
+    },
+    {
+      "id": "rule_0016",
+      "source": "源质暴走",
+      "relation": "CAUSES",
+      "target": "身体崩溃",
+      "scope": "elemental",
+      "note": "强行吸收过量源质的代价，可能致死"
+    },
+    {
+      "id": "rule_0017",
+      "statement": "SOURCE_FUSION_HEALER: 源质融合者可通过掌心接触将源质输注进入伤者，加速愈合——这超出感知者/吸附者能力范围，是融合者阶段的战场应用之一。在被目击时对非融合者而言表现为'异常的手'。",
+      "applies_to": "char_liu_shuang",
+      "first_demonstrated": "ch_005"
+    }
   ]
 }

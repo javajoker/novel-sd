@@ -2,6 +2,258 @@
   "character_id": "char_ke_yan",
   "knowledge_at": [
     {
+      "story_time": 19,
+      "chapter_id": "ch_019_020",
+      "facts_known": [
+        "fact_federation_losing",
+        "周恒已对胜利失去信心（'我们守的不是要塞，是上面用来拖时间的数字'——直接确认）",
+        "Θ区遗迹存在，内有古代残图，板材已上交情报处理站",
+        "联合突袭中三死两重伤（第二小队），第一小队零死亡——因他选了左路，右路有先驱引导的陷阱"
+      ],
+      "facts_suspected": [
+        { "fact": "刘霜持有并使用非标准医疗器材（可能是某种攻击性源质能力）", "basis": "ch_002+ch_003" },
+        { "fact": "刘霜的源质感应能力超出普通医疗兵范畴", "basis": "ch_008+ch_015+ch_018（她知道右侧危险）" },
+        { "fact": "fact_ke_yan_potential", "stage": "acknowledged_undecoded", "basis": "'运气好'框架今天完全失效——他试图用它覆盖今天的每个判断节点，找不到能用的地方；他无法不知道今天的选择是他的感知和他的判断，但他还没有命名这意味着什么" },
+        { "fact": "fact_herald_evolving", "stage": "suspected_named_partial", "basis": "先驱的战术引导（通讯切断、设伏、分散三个小队）是他在ch_010见过的先驱行为模式的升级版，他现在有了两次数据点" },
+        { "fact": "周恒密令的大致性质：拖延棋子", "stage": "partial_suspected", "basis": "'上面用来拖时间的数字'" },
+        { "fact": "fact_theta_secret", "stage": "physical_evidence", "basis": "残图板材共鸣，已上交" }
+      ],
+      "facts_rumored": [],
+      "facts_unknown": [
+        "fact_void_echo_identity",
+        "刘霜的秘密项目身份",
+        "周恒密令的具体内容",
+        "残图板材情报站处理结果"
+      ],
+      "beliefs_held": [
+        { "belief": "自己只是战争机器里的一颗螺丝钉", "is_true": false, "status": "the_lie：第一条裂缝——外壳开裂，但没有粉碎；他无法不知道今天的判断不是螺丝钉该做的事，但他还没有承认这意味着什么" },
+        { "belief": "蓝卡合成、感知判断是运气，与自身无关", "is_true": false, "status": "'运气好'框架今天第一次完全失效——他亲手试图用它，装不进去，框架失效了但他还没有找到新框架" },
+        { "belief": "刘霜只是普通医疗兵", "is_true": false, "status": "她知道右侧危险这件事是第三次让这个信念出现裂缝，但他还没有正式追究" }
+      ],
+      "projected_facts_to_learn": [
+        { "fact": "fact_herald_evolving", "stage": "named_and_acknowledged", "trigger": "ch_055先驱战略行动——届时先驱以他为目标，他必须给那东西命名" },
+        { "fact": "fact_ke_yan_potential", "stage": "named_and_accepted", "trigger": "ch_080濒死突破——'运气好'框架的最终崩塌" }
+      ]
+    },
+    {
+      "story_time": 15,
+      "chapter_id": "ch_015",
+      "facts_known": [
+        "fact_federation_losing",
+        "周恒已对胜利失去信心（'我们守的不是要塞，是上面用来拖时间的数字'——直接确认）",
+        "Θ区遗迹存在：古代建筑残骸，非联邦/机械族/异种工艺，内有源质结晶嵌入的几何符号，发光说明仍有活性源质",
+        "遗迹内发现残图板材（碎片），含活性源质结晶，图有方位/深度标示但字符系统未知，残片是更大图的一块"
+      ],
+      "facts_suspected": [
+        { "fact": "刘霜持有并使用非标准医疗器材（可能是某种攻击性源质能力）", "basis": "ch_002+ch_003" },
+        { "fact": "刘霜的源质感应能力超出普通医疗兵范畴", "basis": "ch_008停顿；ch_015她感应到他接触板材时的反应，改变了看他的方式" },
+        { "fact": "fact_ke_yan_potential", "stage": "acknowledged_but_still_deflecting", "basis": "格子已装入：感知炸开、先驱对视、五个名字、一千两百个人、'运气好'磨损、残图共鸣——他把这些都归档但不画线" },
+        { "fact": "fact_herald_evolving", "stage": "suspected_unnamed", "basis": "'那东西不一样'" },
+        { "fact": "周恒密令的大致性质：拖延棋子而非守住", "stage": "partial_suspected", "basis": "'上面用来拖时间的数字'" },
+        { "fact": "fact_theta_secret", "stage": "physical_evidence", "basis": "手持残图时感知共鸣——'它叫了我一下'；但他只知道存在共鸣，不知道共鸣意味着什么" }
+      ],
+      "facts_rumored": [],
+      "facts_unknown": [
+        "fact_void_echo_identity",
+        "刘霜的秘密项目身份",
+        "周恒密令的具体内容",
+        "残图板材的来源、意义，以及它和他的源质感知之间共鸣的原因"
+      ],
+      "beliefs_held": [
+        { "belief": "自己只是战争机器里的一颗螺丝钉", "is_true": false, "status": "the_lie：外壳完好，但格子现在装着：感知炸开+先驱对视+五个名字+一千两百个人+运气好磨损+残图共鸣——这些是点，他知道有点，不画线" },
+        { "belief": "蓝卡合成是运气，与自身无关", "is_true": false, "status": "'运气好'磨损加剧，但框架尚在；残图共鸣与他的'运气好'框架开始产生干涉" },
+        { "belief": "刘霜只是普通医疗兵", "is_true": false, "status": "继续主动不追，但她在ch_015的眼神变化被记录进'待确认'区" }
+      ],
+      "projected_facts_to_learn": [
+        { "fact": "fact_herald_evolving", "stage": "named_and_acknowledged", "trigger": "ch_055先驱战略行动" },
+        { "fact": "fact_ke_yan_potential", "stage": "acknowledged_undecoded", "trigger": "ch_019-020'运气好'框架完全失效" }
+      ]
+    },
+    {
+      "story_time": 13,
+      "chapter_id": "ch_013",
+      "facts_known": [
+        "fact_federation_losing",
+        "周恒已对胜利失去信心（'我们守的不是要塞，是上面用来拖时间的数字'——直接确认）"
+      ],
+      "facts_suspected": [
+        { "fact": "刘霜持有并使用非标准医疗器材（可能是某种攻击性源质能力）", "basis": "ch_002+ch_003" },
+        { "fact": "刘霜的源质感应能力超出普通医疗兵范畴", "basis": "ch_008停顿" },
+        { "fact": "fact_ke_yan_potential", "stage": "acknowledged_but_still_deflecting", "basis": "第二次蓝卡合成时'我这次知道我在做什么'出现且难以压下——'运气好'框架磨损加剧，但尚未放弃" },
+        { "fact": "fact_herald_evolving", "stage": "suspected_unnamed", "basis": "'那东西不一样'" },
+        { "fact": "周恒密令的大致性质：上面希望要塞充当拖延棋子而非守住", "stage": "partial_suspected", "basis": "'上面用来拖时间的数字'这句话的语气" }
+      ],
+      "facts_rumored": [
+        "fact_theta_secret"
+      ],
+      "facts_unknown": [
+        "fact_void_echo_identity",
+        "刘霜的秘密项目身份",
+        "周恒密令的具体内容"
+      ],
+      "beliefs_held": [
+        { "belief": "自己只是战争机器里的一颗螺丝钉", "is_true": false, "status": "the_lie：外壳完好，但格子盖子需要用力按才能扣上，以前不需要按" },
+        { "belief": "蓝卡合成是运气，与自身无关", "is_true": false, "status": "磨损加剧：'运气好'这两个字说出来之后他能感知到它磨损了——'还能用，但已经能透光了'" },
+        { "belief": "刘霜只是普通医疗兵", "is_true": false, "status": "继续主动不追" }
+      ],
+      "projected_facts_to_learn": [
+        { "fact": "fact_herald_evolving", "stage": "named_and_acknowledged", "trigger": "ch_055先驱战略行动" },
+        { "fact": "fact_ke_yan_potential", "stage": "acknowledged_undecoded", "trigger": "ch_019-020'运气好'框架完全失效" }
+      ]
+    },
+    {
+      "story_time": 12,
+      "chapter_id": "ch_012",
+      "facts_known": [
+        "fact_federation_losing",
+        "周恒已对胜利失去信心（'我们守的不是要塞，是上面用来拖时间的数字'——直接确认）"
+      ],
+      "facts_suspected": [
+        { "fact": "刘霜持有并使用非标准医疗器材（可能是某种攻击性源质能力）", "basis": "ch_002+ch_003" },
+        { "fact": "刘霜的源质感应能力超出普通医疗兵范畴", "basis": "ch_008停顿" },
+        { "fact": "fact_ke_yan_potential", "stage": "forced_partial_filed", "basis": "矿道事件+先驱对视，均存入格子" },
+        { "fact": "fact_herald_evolving", "stage": "suspected_unnamed", "basis": "'那东西不一样'" },
+        { "fact": "周恒密令的大致性质：上面希望要塞充当拖延棋子而非守住", "stage": "partial_suspected", "basis": "'上面用来拖时间的数字'这句话的语气——这不是抱怨，是见过密令内容的人说的话" }
+      ],
+      "facts_rumored": [
+        "fact_theta_secret"
+      ],
+      "facts_unknown": [
+        "fact_void_echo_identity",
+        "刘霜的秘密项目身份",
+        "周恒密令的具体内容"
+      ],
+      "beliefs_held": [
+        { "belief": "自己只是战争机器里的一颗螺丝钉", "is_true": false, "status": "the_lie：外壳完好，但格子里有矿道、先驱、五个名字、'一千两百个人'这个矛盾——格子比他承认的重" },
+        { "belief": "刘霜只是普通医疗兵", "is_true": false, "status": "进一步崩裂——主动不追" },
+        { "belief": "'一千两百个人'是抽象数字，和'拖时间的数字'是同一个层级的东西", "is_true": false, "status": "开始裂缝：这个数字是食堂里的声音，不是报告里的数字，他感觉到了这个差别但还没有理清楚" }
+      ],
+      "projected_facts_to_learn": [
+        { "fact": "fact_herald_evolving", "stage": "named_and_acknowledged", "trigger": "ch_055先驱战略行动" },
+        { "fact": "fact_ke_yan_potential", "stage": "acknowledged_undecoded", "trigger": "ch_019-020'运气好'框架完全失效" }
+      ]
+    },
+    {
+      "story_time": 10,
+      "chapter_id": "ch_010",
+      "facts_known": [
+        "fact_federation_losing"
+      ],
+      "facts_suspected": [
+        { "fact": "周恒对胜利已无信心，但仍在执行职责", "basis": "'回来'那一眼" },
+        { "fact": "刘霜持有并使用非标准医疗器材（可能是某种攻击性源质能力）", "basis": "ch_002+ch_003" },
+        { "fact": "刘霜的源质感应能力超出普通医疗兵范畴", "basis": "ch_008停顿" },
+        { "fact": "fact_ke_yan_potential", "stage": "forced_partial_filed", "basis": "矿道事件存入格子，主动不分析" },
+        { "fact": "fact_herald_evolving", "stage": "suspected_unnamed", "basis": "那一秒对视——'那东西不一样'，有'想法'层级的感知结构，选择性行动，无现有分类能覆盖" }
+      ],
+      "facts_rumored": [
+        "fact_theta_secret"
+      ],
+      "facts_unknown": [
+        "fact_void_echo_identity",
+        "刘霜的秘密项目身份",
+        "周恒密令的具体内容"
+      ],
+      "beliefs_held": [
+        { "belief": "自己只是战争机器里的一颗螺丝钉", "is_true": false, "status": "the_lie：外壳完好，但格子里已有两件明确的事他知道螺丝钉做不到（矿道、先驱对视）" },
+        { "belief": "刘霜只是普通医疗兵", "is_true": false, "status": "进一步崩裂——但柯炎目前不主动追究" },
+        { "belief": "异种没有'想法'，只有蜂巢本能", "is_true": "partial", "status": "新裂缝：那东西不一样，他的分类体系装不下它" }
+      ],
+      "projected_facts_to_learn": [
+        { "fact": "fact_herald_evolving", "stage": "named_and_acknowledged", "trigger": "ch_055先驱的真正战略行动，以柯炎为目标，届时他必须给那东西命名" }
+      ]
+    },
+    {
+      "story_time": 8,
+      "chapter_id": "ch_008",
+      "facts_known": [
+        "fact_federation_losing"
+      ],
+      "facts_suspected": [
+        { "fact": "周恒对胜利已无信心，但仍在执行职责", "basis": "'回来'那一眼" },
+        { "fact": "刘霜持有并使用非标准医疗器材（可能是某种攻击性源质能力）", "basis": "ch_002装备区目击 + ch_003战场出手" },
+        { "fact": "刘霜的源质感应能力超出普通医疗兵范畴（她在检查他时知道比她应该知道的更多）", "basis": "ch_008脱险检查时的1.5秒停顿" },
+        { "fact": "fact_ke_yan_potential", "stage": "forced_partial_acknowledged_then_filed", "basis": "矿道里发生的那件事（感知炸开、那一缕、那一烫）无法用'运气'完全框住——但他主动选择不分析，放进格子" }
+      ],
+      "facts_rumored": [
+        "fact_theta_secret"
+      ],
+      "facts_unknown": [
+        "fact_void_echo_identity",
+        "fact_herald_evolving",
+        "刘霜的秘密项目身份",
+        "周恒密令的具体内容"
+      ],
+      "beliefs_held": [
+        { "belief": "自己只是战争机器里的一颗螺丝钉", "is_true": false, "status": "the_lie：外壳完好，但格子里已经存着一件他知道螺丝钉做不到的事" },
+        { "belief": "刘霜只是普通医疗兵", "is_true": false, "status": "进一步崩裂：她的检查停顿证明她读到了他身体里的源质信息，这不是医疗兵技能" },
+        { "belief": "矿道里那件事是'缺氧幻觉+应激反应'", "is_true": false, "status": "新增防御性解释，不太好用，他没有完全信它" }
+      ],
+      "projected_facts_to_learn": [
+        { "fact": "fact_ke_yan_potential", "stage": "acknowledged_undecoded", "trigger": "ch_019-020：先驱引导战术导致三死，'运气好'框架第一次完全失效——他必须面对那个格子里的东西" }
+      ]
+    },
+    {
+      "story_time": 3,
+      "chapter_id": "ch_003",
+      "facts_known": [
+        "fact_federation_losing"
+      ],
+      "facts_suspected": [
+        { "fact": "周恒对胜利已无信心，但仍在执行职责", "basis": "'回来'那一眼" },
+        { "fact": "刘霜持有并使用非标准医疗器材（可能是某种攻击性源质能力）", "basis": "ch_002装备区目击 + ch_003战场出手" },
+        { "fact": "fact_ke_yan_potential", "stage": "suspected_then_repressed", "basis": "蓝卡合成时胸口烫感 + '我做的'念头出现后立刻压制——运气框架重新套上，但这次套得吃力" }
+      ],
+      "facts_rumored": [
+        "fact_theta_secret"
+      ],
+      "facts_unknown": [
+        "fact_void_echo_identity",
+        "fact_herald_evolving",
+        "刘霜的秘密项目身份",
+        "周恒密令的具体内容"
+      ],
+      "beliefs_held": [
+        { "belief": "自己只是战争机器里的一颗螺丝钉", "is_true": false, "status": "the_lie：外壳完好，但内部出现了第一道压力缝" },
+        { "belief": "刘霜只是普通医疗兵", "is_true": false, "status": "开始崩裂：战场上看到了无法用'医疗兵'解释的动作" },
+        { "belief": "蓝卡合成是运气+卡好+刘霜及时，与自己无关", "is_true": false, "status": "新增：主动防御性信念，取代了'我做的'那一秒" }
+      ],
+      "projected_facts_to_learn": [
+        { "fact": "fact_ke_yan_potential", "stage": "forced_acknowledgment", "trigger": "ch_008 evt_perception_edge：濒死突破时身体完全超出他能用'运气'解释的范围" }
+      ]
+    },
+    {
+      "story_time": 2,
+      "chapter_id": "ch_002",
+      "facts_known": [
+        "fact_federation_losing"
+      ],
+      "facts_suspected": [
+        { "fact": "周恒对胜利已无信心（认命），但仍在执行职责", "basis": "'回来'那一眼 + 童年记忆联结" },
+        { "fact": "刘霜持有非标准医疗器材（具体不明）", "basis": "目击装备区藏针剂动作" },
+        { "fact": "周恒与刘霜之间存在某种信息上的默契，来源不明", "basis": "简报室那一眼的停顿" }
+      ],
+      "facts_rumored": [
+        "fact_theta_secret"
+      ],
+      "facts_unknown": [
+        "fact_void_echo_identity",
+        "fact_herald_evolving",
+        "fact_ke_yan_potential",
+        "刘霜的秘密项目身份",
+        "周恒密令的具体内容"
+      ],
+      "beliefs_held": [
+        { "belief": "自己只是战争机器里的一颗螺丝钉", "is_true": false, "status": "the_lie：继续运行，本章未动摇" },
+        { "belief": "刘霜只是普通医疗兵", "is_true": false, "status": "开始出现裂缝——看见了非标准器材，但主动不追究" },
+        { "belief": "周恒还在坚守是因为职责，不是因为绝望", "is_true": "partial", "status": "升级：现在感觉是'两者都有，绝望在里面，职责是外壳'" },
+        { "belief": "自己的源质感知只是老兵直觉", "is_true": false, "status": "未受触动" }
+      ],
+      "projected_facts_to_learn": [
+        { "fact": "fact_ke_yan_potential", "stage": "suspected", "trigger": "ch_003：第一次合成蓝卡时感到胸口的灼热——'这不是运气了，运气不会烫'" }
+      ]
+    },
+    {
       "story_time": 0,
       "chapter_id": null,
       "facts_known": [

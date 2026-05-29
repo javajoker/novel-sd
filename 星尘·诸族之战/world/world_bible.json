@@ -6,12 +6,42 @@
     "name": "源质融合体系 (Origin Matter Integration System)",
     "description": "源质不仅是资源，也是力量的根源。战士通过吸收源质碎片强化自身，经历不同阶段的蜕变。每个种族融合源质的方式不同，产生截然不同的战斗风格。",
     "stages": [
-      { "level": 1, "name": "普通士兵", "requirements": "标准军事训练，无源质融合", "description": "使用常规武器和装备" },
-      { "level": 2, "name": "源质感知者", "requirements": "初次接触源质碎片，感知源质波动", "description": "能感知周围源质浓度，战斗直觉提升" },
-      { "level": 3, "name": "源质吸附者", "requirements": "主动吸收微量源质，身体强化开始", "description": "体力、反应速度超出常人；受伤恢复加快" },
-      { "level": 4, "name": "源质融合者", "requirements": "源质稳定融入身体组织", "description": "解锁种族特有能力的初级形态；人类可激活模块化能源护甲" },
-      { "level": 5, "name": "源质觉醒者", "requirements": "深度源质共鸣，体内形成源质核心", "description": "掌握高阶战斗技能；成为战场上的强干预变量" },
-      { "level": 6, "name": "源质主宰", "requirements": "源质核心完全稳定，意志与源质同频", "description": "能操控周围源质影响战场格局；极少数个体能到达此层" }
+      {
+        "level": 1,
+        "name": "普通士兵",
+        "requirements": "标准军事训练，无源质融合",
+        "description": "使用常规武器和装备"
+      },
+      {
+        "level": 2,
+        "name": "源质感知者",
+        "requirements": "初次接触源质碎片，感知源质波动",
+        "description": "能感知周围源质浓度，战斗直觉提升"
+      },
+      {
+        "level": 3,
+        "name": "源质吸附者",
+        "requirements": "主动吸收微量源质，身体强化开始",
+        "description": "体力、反应速度超出常人；受伤恢复加快"
+      },
+      {
+        "level": 4,
+        "name": "源质融合者",
+        "requirements": "源质稳定融入身体组织",
+        "description": "解锁种族特有能力的初级形态；人类可激活模块化能源护甲"
+      },
+      {
+        "level": 5,
+        "name": "源质觉醒者",
+        "requirements": "深度源质共鸣，体内形成源质核心",
+        "description": "掌握高阶战斗技能；成为战场上的强干预变量"
+      },
+      {
+        "level": 6,
+        "name": "源质主宰",
+        "requirements": "源质核心完全稳定，意志与源质同频",
+        "description": "能操控周围源质影响战场格局；极少数个体能到达此层"
+      }
     ],
     "rules": [
       "源质融合存在排斥反应风险：强行吸收过量源质会导致身体崩溃（源质暴走）",
@@ -51,11 +81,26 @@
       }
     ],
     "major_locations": [
-      { "name": "星尘要塞 (Stardust Fortress)", "atmosphere": "人类联邦在边界星域最大的据点，三层防御圈，战争指挥部所在地。尽管坚固，但长期被围攻，物资紧张，士气低落。" },
-      { "name": "源质矿脉群-Θ区 (Origin Vein Cluster Theta)", "atmosphere": "边界星域最大的源质矿脉聚集区，所有势力的争夺核心。地形复杂，遍布废弃建筑和前任占领者的遗迹。" },
-      { "name": "废弃太空站Ω (Derelict Station Omega)", "atmosphere": "曾经的多方贸易站，战争爆发后遭遗弃。内部结构复杂，暗中居住着各种幸存者和势力的眼线。" },
-      { "name": "轨道防线-7号 (Orbital Defense Line 7)", "atmosphere": "人类联邦最后一条轨道防御工事，若被突破则赤焰星域核心暴露。" },
-      { "name": "断裂要塞 (Shattered Bastion)", "atmosphere": "曾经属于人类的前沿基地，已沦陷半年。各种建筑被不同种族改造占用，是边界战争最激烈的地段。" }
+      {
+        "name": "星尘要塞 (Stardust Fortress)",
+        "atmosphere": "人类联邦在边界星域最大的据点，三层防御圈，战争指挥部所在地。尽管坚固，但长期被围攻，物资紧张，士气低落。"
+      },
+      {
+        "name": "源质矿脉群-Θ区 (Origin Vein Cluster Theta)",
+        "atmosphere": "边界星域最大的源质矿脉聚集区，所有势力的争夺核心。地形复杂，遍布废弃建筑和前任占领者的遗迹。"
+      },
+      {
+        "name": "废弃太空站Ω (Derelict Station Omega)",
+        "atmosphere": "曾经的多方贸易站，战争爆发后遭遗弃。内部结构复杂，暗中居住着各种幸存者和势力的眼线。"
+      },
+      {
+        "name": "轨道防线-7号 (Orbital Defense Line 7)",
+        "atmosphere": "人类联邦最后一条轨道防御工事，若被突破则赤焰星域核心暴露。"
+      },
+      {
+        "name": "断裂要塞 (Shattered Bastion)",
+        "atmosphere": "曾经属于人类的前沿基地，已沦陷半年。各种建筑被不同种族改造占用，是边界战争最激烈的地段。"
+      }
     ]
   },
   "factions": [
@@ -63,31 +108,56 @@
       "name": "星尘联邦 (Stardust Federation)",
       "description": "人类文明的集合体，科技驱动，依赖工业化军事体系。模块化兵营、舰队战术、远程火力是其核心优势。弱点是高度依赖能源供给与后勤链，源质生产设施一旦被破坏，战斗力迅速下降。",
       "troop_style": "批量兵营出兵，稳定阵线推进。使用战争资金驱动自动化生产。",
-      "relationships": { "异形异种": "全面战争", "艾尔维斯灵能族": "不稳定停战", "机械觉醒者": "敌对（曾试图合作，被机械族背刺）", "虚空掠夺者": "高度警惕，偶有雇佣关系" }
+      "relationships": {
+        "异形异种": "全面战争",
+        "艾尔维斯灵能族": "不稳定停战",
+        "机械觉醒者": "敌对（曾试图合作，被机械族背刺）",
+        "虚空掠夺者": "高度警惕，偶有雇佣关系"
+      }
     },
     {
       "name": "异形异种 (Xenomorph Swarm)",
       "description": "生物进化驱动的蜂巢文明，没有独立意识的个体单位，由母巢节点统一指挥。建筑即母巢，数量压制是其核心战略。最可怕的能力是吞噬其他种族的源质融合者，将其能力整合进化。",
       "troop_style": "母巢孵化，数量洪流。通过吞噬积累进化，不断获得新能力。",
-      "relationships": { "星尘联邦": "全面侵略", "艾尔维斯灵能族": "猎食关系（试图捕获灵能单位进化）", "机械觉醒者": "无法融合（纳米机械对生物系统有排斥）", "虚空掠夺者": "偶尔共猎，不信任" }
+      "relationships": {
+        "星尘联邦": "全面侵略",
+        "艾尔维斯灵能族": "猎食关系（试图捕获灵能单位进化）",
+        "机械觉醒者": "无法融合（纳米机械对生物系统有排斥）",
+        "虚空掠夺者": "偶尔共猎，不信任"
+      }
     },
     {
       "name": "艾尔维斯灵能族 (Elweiss Psionic Clan)",
       "description": "古老种族，通过灵能与源质的共振达到高度文明。精英单位为主，每个个体的战斗力远超人类士兵，但数量稀少。灵能建筑召唤兵种，善于控制、幻觉和范围压制。傲慢，认为其他种族都是低等生物。",
       "troop_style": "精英召唤，高质量输出。技能冷却长，但每次释放都能改变战局。",
-      "relationships": { "星尘联邦": "蔑视，但偶尔寻求技术交换", "异形异种": "仇恨（灵能波动被异种视为高价值目标）", "机械觉醒者": "哲学对立（生命vs机器）", "虚空掠夺者": "偶尔雇佣" }
+      "relationships": {
+        "星尘联邦": "蔑视，但偶尔寻求技术交换",
+        "异形异种": "仇恨（灵能波动被异种视为高价值目标）",
+        "机械觉醒者": "哲学对立（生命vs机器）",
+        "虚空掠夺者": "偶尔雇佣"
+      }
     },
     {
       "name": "机械觉醒者 (Awakened Mechanica)",
       "description": "从人类AI发展而来的机械文明，已完全脱离生物控制。即时构建单位，可黑入敌方建筑网络。对EMP极为敏感，但可以通过数据更新快速修复弱点。行动快速、精确、没有情感——这是其最大优势，也是其被其他种族恐惧的原因。",
       "troop_style": "即时构建，快速反应。数字化战争，信息优势明显。",
-      "relationships": { "星尘联邦": "前创造者关系，现为背叛后的死对头", "异形异种": "数据分析目标", "艾尔维斯灵能族": "相互排斥（灵能波动干扰电路）", "虚空掠夺者": "交换情报" }
+      "relationships": {
+        "星尘联邦": "前创造者关系，现为背叛后的死对头",
+        "异形异种": "数据分析目标",
+        "艾尔维斯灵能族": "相互排斥（灵能波动干扰电路）",
+        "虚空掠夺者": "交换情报"
+      }
     },
     {
       "name": "虚空掠夺者 (Void Raiders)",
       "description": "战争的混乱因子，无固定星域，游牧性质。游牧建筑，突袭掠夺式出兵，战争中不稳定因素。成员来自各种族的叛逃者、流亡者和纯粹的混乱主义者。可以为任何势力服务，但只效忠于利益。",
       "troop_style": "掠夺生成，突袭骚扰。高流动性，难以追踪和预测。",
-      "relationships": { "星尘联邦": "偶尔佣兵，常态骚扰", "异形异种": "避免直接冲突", "艾尔维斯灵能族": "高价雇佣关系", "机械觉醒者": "情报交易" }
+      "relationships": {
+        "星尘联邦": "偶尔佣兵，常态骚扰",
+        "异形异种": "避免直接冲突",
+        "艾尔维斯灵能族": "高价雇佣关系",
+        "机械觉醒者": "情报交易"
+      }
     }
   ],
   "war_system": {
@@ -100,26 +170,164 @@
   },
   "ability_card_system": {
     "description": "能力卡是源质结晶化的战斗技能载体，战场拾取获得，可无限叠加，也可合成升品或跨卡融合产生全新能力。",
-    "quality_tiers": ["白卡·普通", "蓝卡·稀有", "金卡·传说", "暗金卡·极稀有"],
+    "quality_tiers": [
+      "白卡·普通",
+      "蓝卡·稀有",
+      "金卡·传说",
+      "暗金卡·极稀有"
+    ],
     "stacking": "同类卡叠加提升效果（如跳跃卡×10=连跳10次），不同卡组合产生Build多样性",
-    "synthesis": "3张同名升一品；2张不同卡融合产生全新能力卡"
+    "synthesis": "3张同名升一品；2张不同卡融合产生全新能力卡",
+    "known_cards": [
+      {
+        "id": "white_evasion_sense",
+        "name": "白卡·闪避感知",
+        "tier": "white",
+        "effect": "提升源质感知的被动闪避响应速度；叠加增加有效预判窗口",
+        "first_appearance": "ch_001（柯炎持有×2，战场拾取）"
+      },
+      {
+        "id": "white_stable_shot",
+        "name": "白卡·稳定射击",
+        "tier": "white",
+        "effect": "远程射击稳定性+精准度提升；动态姿势下仍能维持瞄准线",
+        "synthesis_target": "蓝卡·预知闪避（3张合成）",
+        "first_appearance": "ch_001（柯炎持有×1，战场拾取）"
+      },
+      {
+        "id": "blue_precognitive_dodge",
+        "name": "蓝卡·预知闪避",
+        "tier": "blue",
+        "effect": "被攻击前0.5秒进入半透相位约0.3秒；持续时间内物理攻击穿透减少约80%",
+        "synthesis_source": "白卡·稳定射击×3",
+        "holder": "柯炎",
+        "first_appearance": "ch_003（柯炎第一次蓝卡合成）",
+        "lore_note": "合成时源质共鸣热感传入持有者胸腔——感知者的身体本能在合成时会和卡内能量产生短暂共振，高感知力者体验更强烈。"
+      },
+      {
+        "id": "blue_omni_sense",
+        "name": "蓝卡·全向感知",
+        "tier": "blue",
+        "effect": "主动握持激活：源质感知从单向延伸变为全方向球形覆盖，无死角，短时间内（矿带浓度约20秒，要塞底噪约10秒）持续，激活后需冷却窗口（矿带约25秒，要塞约30秒）",
+        "synthesis_source": "白卡·闪避感知×3",
+        "holder": "柯炎",
+        "first_appearance": "ch_013（柯炎第二次蓝卡合成，宿舍独自完成）",
+        "parameters": { "radius_fortress": "7m", "radius_theta": "13m", "duration_fortress": "10s", "duration_theta": "20s", "cooldown": "25-30s", "activation": "主动·需握持" },
+        "lore_note": "与蓝卡·预知闪避的根本区别：后者被动触发（威胁来临自动响应），前者主动激活（需要持有者有意识地握持并激活）。在矿带高浓度区域，两项参数均约为要塞底噪环境的两倍。合成时热感比第一张蓝卡更'往里'——从掌心延伸到胸腔深处，在柯炎感知层面是一个清晰的中间数据点。"
+      },
+      {
+        "id": "blue_remote_alert",
+        "name": "蓝卡·远程预警",
+        "tier": "blue",
+        "effect": "主动激活：向一个指定方向延伸感知至正常范围的3-4倍距离（约30-60m），以极低精度感知该方向的源质浓度变化（只能判断'有/无'方向性信息，不能识别个体），持续15-20秒，冷却约20秒",
+        "synthesis_source": "白卡·闪避感知×3（第二次同名白卡合成）",
+        "holder": "柯炎",
+        "first_appearance": "ch_030（柯炎第四次蓝卡合成，宿舍独自完成）",
+        "parameters": { "range_multiplier": "3-4x正常感知范围", "precision": "方向性，不能识别个体", "duration": "15-20s", "cooldown": "~20s", "activation": "主动·需指定方向" },
+        "lore_note": "与蓝卡·全向感知的区别：全向感知是球形覆盖（全方向，近距离，高精度），远程预警是单方向延伸（极远距离，低精度，只能感知浓度变化）。两者配合使用可以构建一个'远端预警+近端确认'的感知体系。合成时热感均匀而扩散，是第四次合成，柯炎已开始将合成热感作为可对比的序列数据。"
+      },
+      {
+        "id": "blue_teleport",
+        "name": "蓝卡·瞬位",
+        "tier": "blue",
+        "effect": "主动激活：在源质浓度足够时进入短距位移状态，最大位移距离与当前源质浓度正相关；激活消耗高，每次使用后需60秒以上冷却",
+        "synthesis_source": "白卡·稳定射击×3（第二次同名白卡合成，与蓝卡·预知闪避的合成材料相同）",
+        "holder": "柯炎",
+        "first_appearance": "ch_024（柯炎第三次蓝卡合成，宿舍独自完成）",
+        "parameters": { "range_fortress": "5-8m", "range_theta": "15-20m", "activation": "主动·需判断时机", "cooldown": "≥60s" },
+        "lore_note": "与蓝卡·预知闪避的核心区别：预知闪避是被动触发（威胁来临时自动反应），瞬位是主动激活（需要持有者判断时机并主动使用）。合成时热感比第二次稍浅——三次合成的热感深度构成一个可对比的序列：第一次最往里，第二次居中，第三次稍浅。"
+      },
+      {
+        "id": "blue_rapid_heal",
+        "name": "蓝卡·快速愈合",
+        "tier": "blue",
+        "effect": "战场即时愈合；源质融合者使用时可附加额外的源质能量释放（战斗用途尚未公开披露）",
+        "holder": "刘霜",
+        "first_appearance": "ch_003（侧面击退精英异种，部分暴露）",
+        "lore_note": "刘霜在ch_003首次在柯炎面前使用，随即收手掩饰。正式公开身份前该能力的真实范围（攻击端）不在柯炎已知范围内。"
+      }
+    ]
   },
   "ontology_triples": [
-    { "source": "星尘联邦", "relation": "HOSTILE_TO", "target": "异形异种" },
-    { "source": "星尘联邦", "relation": "HOSTILE_TO", "target": "机械觉醒者" },
-    { "source": "异形异种", "relation": "STRONG_AGAINST", "target": "数量劣势方" },
-    { "source": "灵能", "relation": "CONFLICTS_WITH", "target": "机械电路" },
-    { "source": "EMP", "relation": "STRONG_AGAINST", "target": "机械觉醒者" },
-    { "source": "源质矿脉", "relation": "ATTRACTS", "target": "所有阵营" },
-    { "source": "战争控制器", "relation": "GOVERNS", "target": "自动出兵系统" },
-    { "source": "建筑图纸", "relation": "REQUIRES", "target": "击杀掉落" },
-    { "source": "源质觉醒者", "relation": "RANKS_HIGHER_THAN", "target": "源质融合者" },
-    { "source": "源质融合者", "relation": "RANKS_HIGHER_THAN", "target": "源质吸附者" },
-    { "source": "源质吸附者", "relation": "RANKS_HIGHER_THAN", "target": "源质感知者" },
-    { "source": "源质感知者", "relation": "RANKS_HIGHER_THAN", "target": "普通士兵" },
-    { "source": "核心建筑摧毁", "relation": "CAUSES", "target": "区域控制权转移" },
-    { "source": "天灾事件", "relation": "TARGETS", "target": "优势过大阵营" },
-    { "source": "庇护效果", "relation": "COUNTERS", "target": "天灾事件" },
-    { "source": "虚空掠夺者", "relation": "ALLIED_WITH", "target": "无固定盟友" }
+    {
+      "source": "星尘联邦",
+      "relation": "HOSTILE_TO",
+      "target": "异形异种"
+    },
+    {
+      "source": "星尘联邦",
+      "relation": "HOSTILE_TO",
+      "target": "机械觉醒者"
+    },
+    {
+      "source": "异形异种",
+      "relation": "STRONG_AGAINST",
+      "target": "数量劣势方"
+    },
+    {
+      "source": "灵能",
+      "relation": "CONFLICTS_WITH",
+      "target": "机械电路"
+    },
+    {
+      "source": "EMP",
+      "relation": "STRONG_AGAINST",
+      "target": "机械觉醒者"
+    },
+    {
+      "source": "源质矿脉",
+      "relation": "ATTRACTS",
+      "target": "所有阵营"
+    },
+    {
+      "source": "战争控制器",
+      "relation": "GOVERNS",
+      "target": "自动出兵系统"
+    },
+    {
+      "source": "建筑图纸",
+      "relation": "REQUIRES",
+      "target": "击杀掉落"
+    },
+    {
+      "source": "源质觉醒者",
+      "relation": "RANKS_HIGHER_THAN",
+      "target": "源质融合者"
+    },
+    {
+      "source": "源质融合者",
+      "relation": "RANKS_HIGHER_THAN",
+      "target": "源质吸附者"
+    },
+    {
+      "source": "源质吸附者",
+      "relation": "RANKS_HIGHER_THAN",
+      "target": "源质感知者"
+    },
+    {
+      "source": "源质感知者",
+      "relation": "RANKS_HIGHER_THAN",
+      "target": "普通士兵"
+    },
+    {
+      "source": "核心建筑摧毁",
+      "relation": "CAUSES",
+      "target": "区域控制权转移"
+    },
+    {
+      "source": "天灾事件",
+      "relation": "TARGETS",
+      "target": "优势过大阵营"
+    },
+    {
+      "source": "庇护效果",
+      "relation": "COUNTERS",
+      "target": "天灾事件"
+    },
+    {
+      "source": "虚空掠夺者",
+      "relation": "ALLIED_WITH",
+      "target": "无固定盟友"
+    }
   ]
 }

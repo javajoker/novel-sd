@@ -16,54 +16,1126 @@
       "status": "planned",
       "summary": "星尘要塞被围困的第43天为起点，柯炎在反复的突围任务中从源质感知者一路逼近源质融合者，途中遇见非蜂巢的异种先驱、被虚影远距离观察、与刘霜的隐藏身份擦肩、目睹周恒指挥层的崩塌。卷一终结于他在Θ区边缘的第一次主动操控源质——他十二岁起就用来活下去的那个'我只是螺丝钉'的谎言彻底破碎。",
       "story_focus": "柯炎的源质感知 → 吸附者 → 融合者突破路径；周恒指挥心理崩盘与星尘要塞陷落的宏观战局；虚影对柯炎的远距离观察与第一次直接接触；异种先驱的非蜂巢迹象浮出水面；艾薇儿独立行动逼近Θ区。",
-      "time_span": { "from": 1, "to": 80 },
-      "primary_characters": ["char_ke_yan", "char_void_echo", "char_major_zhou", "char_liu_shuang", "char_swarm_herald", "char_psi_elder"],
+      "time_span": {
+        "from": 1,
+        "to": 80
+      },
+      "primary_characters": [
+        "char_ke_yan",
+        "char_void_echo",
+        "char_major_zhou",
+        "char_liu_shuang",
+        "char_swarm_herald",
+        "char_psi_elder"
+      ],
       "sub_arcs": [
         {
           "id": "A·围困",
           "chapters": "ch_001–ch_020",
           "summary": "第43天的星尘要塞；突围抢源质任务展开；黄金三章建立柯炎的'螺丝钉'信念并第一次暗示他的天赋；首次合成蓝卡；与刘霜的医疗兵幻象擦边；虚影远距离首次注意到他；异种先驱第一次在虫潮里停下；周恒的真话出口；Θ区残图入手；sub-arc 末以一次惨烈选择第一次裂开'与我无关'的旁观者姿态。",
-          "anchored_events": ["evt_siege_day43", "evt_breakout_briefing", "evt_first_synthesis", "evt_liushuang_anomaly", "evt_void_echo_observes", "evt_perception_edge", "evt_herald_first_sighting", "evt_zhou_despair", "evt_theta_map_fragment", "evt_subarc_a_climax"]
+          "anchored_events": [
+            "evt_siege_day43",
+            "evt_breakout_briefing",
+            "evt_first_synthesis",
+            "evt_liushuang_anomaly",
+            "evt_void_echo_observes",
+            "evt_perception_edge",
+            "evt_herald_first_sighting",
+            "evt_zhou_despair",
+            "evt_theta_map_fragment",
+            "evt_subarc_a_climax"
+          ]
         },
         {
           "id": "B·裂痕",
           "chapters": "ch_021–ch_040",
           "summary": "突击营减员后的重建期；艾薇儿独立进入边界星域；刘霜的隐藏身份逼近暴露；柯炎与队友信任开始松动；异种先驱进一步显出战略层迹象；要塞内部对密令的暗流。",
-          "anchored_events": ["evt_psi_elder_enters", "evt_liushuang_revealed"]
+          "anchored_events": [
+            "evt_psi_elder_enters",
+            "evt_liushuang_revealed"
+          ]
         },
         {
           "id": "C·暗影",
           "chapters": "ch_041–ch_060",
           "summary": "虚影第一次直接接触柯炎，抛出关于联邦背叛与父母之死的碎片真相；异种先驱完成战略级'诱敌'；柯炎与艾薇儿被绝境推到一起，灵能与源质感知第一次咬合。",
-          "anchored_events": ["evt_void_echo_contact", "evt_herald_strategy", "evt_uneasy_alliance"]
+          "anchored_events": [
+            "evt_void_echo_contact",
+            "evt_herald_strategy",
+            "evt_uneasy_alliance"
+          ]
         },
         {
           "id": "D·突围",
           "chapters": "ch_061–ch_080",
           "summary": "星尘要塞被总攻；周恒以让出活路的方式收束；残部向Θ区方向突围，与艾薇儿同行；柯炎在Θ区边缘绝境中第一次主动伸手抓住源质，突破吸附者→融合者，谎言碎裂。卷末。",
-          "anchored_events": ["evt_fortress_crisis", "evt_breakout_to_theta", "evt_keyan_breakthrough"]
+          "anchored_events": [
+            "evt_fortress_crisis",
+            "evt_breakout_to_theta",
+            "evt_keyan_breakthrough"
+          ]
         }
       ],
       "chapters": [
-        { "id": "ch_001", "number": 1, "title": "第四十三日", "sub_arc": "A·围困", "thread_id": "thr_protagonist", "pov_character": "char_ke_yan", "story_time": 1, "planned_events": ["evt_siege_day43"], "one_line": "围困第43天黎明，城墙上的源质感知一闪——柯炎把救下新兵这件事归功于运气。", "status": "planned", "beat_sheet_ref": "outline/beats/ch_001.json" },
-        { "id": "ch_002", "number": 2, "title": "突围简报", "sub_arc": "A·围困", "thread_id": "thr_protagonist", "pov_character": "char_ke_yan", "story_time": 2, "planned_events": ["evt_breakout_briefing"], "one_line": "周恒下令时眼里的东西，和父亲进矿前那一眼一样。", "status": "planned", "beat_sheet_ref": "outline/beats/ch_002.json" },
-        { "id": "ch_003", "number": 3, "title": "第一张蓝卡", "sub_arc": "A·围困", "thread_id": "thr_protagonist", "pov_character": "char_ke_yan", "story_time": 3, "planned_events": ["evt_first_synthesis"], "one_line": "敌方开火的同一瞬间他已不在原地；他捡起三张同名白卡合成了蓝卡·预知闪避。", "status": "planned", "beat_sheet_ref": "outline/beats/ch_003.json" },
-        { "id": "ch_005", "number": 5, "title": "医疗兵的手", "sub_arc": "A·围困", "thread_id": "thr_protagonist", "pov_character": "char_ke_yan", "story_time": 5, "planned_events": ["evt_liushuang_anomaly"], "one_line": "刘霜按住伤口的瞬间，他的源质感知里有一缕本不该存在的波动从她掌心流出。", "status": "planned" },
-        { "id": "ch_006", "number": 6, "title": "虚影的眼", "sub_arc": "A·围困", "thread_id": "thr_void_echo", "pov_character": "char_void_echo", "story_time": 6, "planned_events": ["evt_void_echo_observes"], "one_line": "虚影在战场录像前停下，微微偏头——他认得这种移动方式。", "status": "planned" },
-        { "id": "ch_008", "number": 8, "title": "看得太清楚", "sub_arc": "A·围困", "thread_id": "thr_protagonist", "pov_character": "char_ke_yan", "story_time": 8, "planned_events": ["evt_perception_edge"], "one_line": "缺氧失血的边缘，他第一次'看见'源质的流动本身；他下意识吸入一缕，胸口一烫。", "status": "planned" },
-        { "id": "ch_010", "number": 10, "title": "蜂巢里的停顿", "sub_arc": "A·围困", "thread_id": "thr_protagonist", "pov_character": "char_ke_yan", "story_time": 10, "planned_events": ["evt_herald_first_sighting"], "one_line": "虫潮中那只异种没有扑向最近的猎物，而是看了他一眼——那一眼里有计算。", "status": "planned" },
-        { "id": "ch_012", "number": 12, "title": "少校的真话", "sub_arc": "A·围困", "thread_id": "thr_protagonist", "pov_character": "char_ke_yan", "story_time": 12, "planned_events": ["evt_zhou_despair"], "one_line": "周恒说：我们守的不是要塞，是上面用来拖时间的数字。", "status": "planned" },
-        { "id": "ch_015", "number": 15, "title": "残图", "sub_arc": "A·围困", "thread_id": "thr_protagonist", "pov_character": "char_ke_yan", "story_time": 15, "planned_events": ["evt_theta_map_fragment"], "one_line": "残图上的符号让他的源质感知本能地共鸣了一下，像被叫了名字。", "status": "planned" },
-        { "id": "ch_019", "number": 19, "title": "选择", "sub_arc": "A·围困", "thread_id": "thr_protagonist", "pov_character": "char_ke_yan", "story_time": 19, "planned_events": ["evt_subarc_a_climax"], "one_line": "两条撤退路线之间，他选了对的那条；活下来的人因他而活。", "status": "planned" },
-        { "id": "ch_020", "number": 20, "title": "卷一小高潮·与我无关", "sub_arc": "A·围困", "thread_id": "thr_protagonist", "pov_character": "char_ke_yan", "story_time": 19, "planned_events": ["evt_subarc_a_climax"], "one_line": "他第一次说不出'这与我无关'这五个字。", "status": "planned" },
-        { "id": "ch_025", "number": 25, "title": "灵能特使", "sub_arc": "B·裂痕", "thread_id": "thr_war_strategy", "pov_character": "char_psi_elder", "story_time": 25, "planned_events": ["evt_psi_elder_enters"], "one_line": "她俯视这片人类的废墟战场——却在Θ区方向感到一丝皱眉的源质共鸣。", "status": "planned" },
-        { "id": "ch_035", "number": 35, "title": "医生", "sub_arc": "B·裂痕", "thread_id": "thr_protagonist", "pov_character": "char_ke_yan", "story_time": 35, "planned_events": ["evt_liushuang_revealed"], "one_line": "刘霜不再隐藏全力出手——他终于明白她一直在'压着'自己，和他一样害怕被看见。", "status": "planned" },
-        { "id": "ch_050", "number": 50, "title": "一句问话", "sub_arc": "C·暗影", "thread_id": "thr_void_echo", "pov_character": "char_ke_yan", "story_time": 50, "planned_events": ["evt_void_echo_contact"], "one_line": "虚影没有杀他，只问：你父母的死，你真以为是意外吗？", "status": "planned" },
-        { "id": "ch_055", "number": 55, "title": "蜂巢的诱敌", "sub_arc": "C·暗影", "thread_id": "thr_war_strategy", "pov_character": "char_swarm_herald", "story_time": 55, "planned_events": ["evt_herald_strategy"], "one_line": "先驱指挥虫潮做出一次诱敌——蜂巢从不诱敌。", "status": "planned" },
-        { "id": "ch_058", "number": 58, "title": "背靠背", "sub_arc": "C·暗影", "thread_id": "thr_protagonist", "pov_character": "char_ke_yan", "story_time": 58, "planned_events": ["evt_uneasy_alliance"], "one_line": "灵能的幻觉与源质感知第一次咬合；他们都意识到对方不是低等，也不是工具。", "status": "planned" },
-        { "id": "ch_070", "number": 70, "title": "要塞之夜", "sub_arc": "D·突围", "thread_id": "thr_war_strategy", "pov_character": "char_ke_yan", "story_time": 70, "planned_events": ["evt_fortress_crisis"], "one_line": "周恒最后一次下令——这一次眼里不是认命，是把活路让出去的决意。", "status": "planned" },
-        { "id": "ch_078", "number": 78, "title": "Θ区的边缘", "sub_arc": "D·突围", "thread_id": "thr_protagonist", "pov_character": "char_ke_yan", "story_time": 78, "planned_events": ["evt_breakout_to_theta"], "one_line": "整片矿脉像心跳一样搏动；他知道自己在靠近某个会改变一切的东西。", "status": "planned" },
-        { "id": "ch_080", "number": 80, "title": "卷末·我能改变结果", "sub_arc": "D·突围", "thread_id": "thr_protagonist", "pov_character": "char_ke_yan", "story_time": 80, "planned_events": ["evt_keyan_breakthrough"], "one_line": "他第一次主动伸手抓住源质——剧痛中他承认了那件逃避一生的事。", "status": "planned" }
+        {
+          "id": "ch_001",
+          "number": 1,
+          "title": "第四十三日",
+          "sub_arc": "A·围困",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 1,
+          "planned_events": [
+            "evt_siege_day43"
+          ],
+          "one_line": "围困第43天黎明，城墙上的源质感知一闪——柯炎把救下新兵这件事归功于运气。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_001.json"
+        },
+        {
+          "id": "ch_002",
+          "number": 2,
+          "title": "突围简报",
+          "sub_arc": "A·围困",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 2,
+          "planned_events": [
+            "evt_breakout_briefing"
+          ],
+          "one_line": "周恒下令时眼里的东西，和父亲进矿前那一眼一样。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_002.json"
+        },
+        {
+          "id": "ch_003",
+          "number": 3,
+          "title": "第一张蓝卡",
+          "sub_arc": "A·围困",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 3,
+          "planned_events": [
+            "evt_first_synthesis"
+          ],
+          "one_line": "敌方开火的同一瞬间他已不在原地；他捡起三张同名白卡合成了蓝卡·预知闪避。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_003.json"
+        },
+        {
+          "id": "ch_004",
+          "number": 4,
+          "title": "中继站",
+          "sub_arc": "A·围困",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 4,
+          "planned_events": [
+            "evt_relay_station"
+          ],
+          "one_line": "废弃中继站，蓝卡·预知闪避第一次被主动使用；'运气'这个字说出来时他听见了自己说它的方式，感到一点厌倦。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_004.json"
+        },
+        {
+          "id": "ch_005",
+          "number": 5,
+          "title": "医疗兵的手",
+          "sub_arc": "A·围困",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 5,
+          "planned_events": [
+            "evt_liushuang_anomaly"
+          ],
+          "one_line": "刘霜按住伤口的瞬间，他的源质感知里有一缕本不该存在的波动从她掌心流出。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_006",
+          "number": 6,
+          "title": "虚影的眼",
+          "sub_arc": "A·围困",
+          "thread_id": "thr_void_echo",
+          "pov_character": "char_void_echo",
+          "story_time": 6,
+          "planned_events": [
+            "evt_void_echo_observes"
+          ],
+          "one_line": "虚影在战场录像前停下，微微偏头——他认得这种移动方式。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_007",
+          "number": 7,
+          "title": "归营",
+          "sub_arc": "A·围困",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 7,
+          "planned_events": [],
+          "one_line": "归营第一天；他清点卡牌，填写报告，看着食堂里的一千多人，关灯入睡——明天是Θ区矿道，地层震动风险。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_007.json"
+        },
+        {
+          "id": "ch_008",
+          "number": 8,
+          "title": "感知边界",
+          "sub_arc": "A·围困",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 8,
+          "planned_events": [
+            "evt_perception_edge"
+          ],
+          "one_line": "缺氧失血的边缘，他第一次'看见'源质的流动本身；他下意识吸入一缕，胸口一烫。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_008.json"
+        },
+        {
+          "id": "ch_009",
+          "number": 9,
+          "title": "前沿",
+          "sub_arc": "A·围困",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 9,
+          "planned_events": [],
+          "one_line": "脱险次日轻差；接调令前往断裂要塞；深夜夜哨感知到远处积累的大规模虫潮——明天来。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_009.json"
+        },
+        {
+          "id": "ch_010",
+          "number": 10,
+          "title": "先驱",
+          "sub_arc": "A·围困",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 10,
+          "planned_events": [
+            "evt_herald_first_sighting"
+          ],
+          "one_line": "虫潮中那只异种没有扑向最近的猎物，而是看了他一眼——那一眼里有计算。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_010.json"
+        },
+        {
+          "id": "ch_011",
+          "number": 11,
+          "title": "撤回",
+          "sub_arc": "A·围困",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 11,
+          "planned_events": [],
+          "one_line": "五个名字记进格子；报告语言装不下那一秒的先驱；归程途中格子的重量比以前费力地压回去；失眠，往指挥廊走。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_011.json"
+        },
+        {
+          "id": "ch_012",
+          "number": 12,
+          "title": "周恒的真话",
+          "sub_arc": "A·围困",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 12,
+          "planned_events": [
+            "evt_zhou_despair"
+          ],
+          "one_line": "周恒说：我们守的不是要塞，是上面用来拖时间的数字。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_012.json"
+        },
+        {
+          "id": "ch_013",
+          "number": 13,
+          "title": "第二张蓝卡",
+          "sub_arc": "A·围困",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 13,
+          "planned_events": [],
+          "one_line": "白卡·闪避感知×3合成蓝卡·全向感知；'我这次知道我在做什么'比以前更难压进格子。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_013.json"
+        },
+        {
+          "id": "ch_014",
+          "number": 14,
+          "title": "遗迹方向",
+          "sub_arc": "A·围困",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 14,
+          "planned_events": [],
+          "one_line": "三人Θ区侦察，测试蓝卡·全向感知，抵达遗迹外围，感知到内部结构性源质结晶排布。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_014.json"
+        },
+        {
+          "id": "ch_015",
+          "number": 15,
+          "title": "残图",
+          "sub_arc": "A·围困",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 15,
+          "planned_events": [
+            "evt_theta_map_fragment"
+          ],
+          "one_line": "残图上的符号让他的源质感知本能地共鸣了一下，像被叫了名字。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_015.json"
+        },
+        {
+          "id": "ch_016",
+          "number": 16,
+          "title": "提交",
+          "sub_arc": "A·围困",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 16,
+          "planned_events": [],
+          "one_line": "将遗迹板材提交情报站，注意到异常快速的标记级别；联合突袭任务公告出现。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_016.json"
+        },
+        {
+          "id": "ch_017",
+          "number": 17,
+          "title": "部署",
+          "sub_arc": "A·围困",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 17,
+          "planned_events": [],
+          "one_line": "任务简报，小队名单确认，前出侦察右侧破碎地形，感知到一个弱信号但无法确认。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_017.json"
+        },
+        {
+          "id": "ch_018",
+          "number": 18,
+          "title": "出发前",
+          "sub_arc": "A·围困",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 18,
+          "planned_events": [],
+          "one_line": "凌晨夜行，走廊偶遇刘霜，她说'多注意右侧'；右侧弱信号和她的告知并排放入操作性记忆。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_018.json"
+        },
+        {
+          "id": "ch_019",
+          "number": 19,
+          "title": "选择",
+          "sub_arc": "A·围困",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 19,
+          "planned_events": [
+            "evt_subarc_a_climax"
+          ],
+          "one_line": "两条撤退路线之间，他选了对的那条；活下来的人因他而活。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_019.json"
+        },
+        {
+          "id": "ch_020",
+          "number": 20,
+          "title": "卷一小高潮·与我无关",
+          "sub_arc": "A·围困",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 19,
+          "planned_events": [
+            "evt_subarc_a_climax"
+          ],
+          "one_line": "他第一次说不出'这与我无关'这五个字。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_020.json"
+        },
+        {
+          "id": "ch_021",
+          "number": 21,
+          "title": "重整",
+          "sub_arc": "B·裂痕",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 21,
+          "planned_events": [],
+          "one_line": "siege_day 56，战损评估；格子扣不上，重量开始透出来。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_021.json"
+        },
+        {
+          "id": "ch_022",
+          "number": 22,
+          "title": "夜哨",
+          "sub_arc": "B·裂痕",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 22,
+          "planned_events": [],
+          "one_line": "siege_day 58，感知边界九到十米；感知从工具变成了默认运行的系统。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_022.json"
+        },
+        {
+          "id": "ch_023",
+          "number": 23,
+          "title": "配合",
+          "sub_arc": "B·裂痕",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 23,
+          "planned_events": [],
+          "one_line": "siege_day 61，柯炎注意到他与刘霜的感知配合结构；她用了源质工程学词汇。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_023.json"
+        },
+        {
+          "id": "ch_024",
+          "number": 24,
+          "title": "问询",
+          "sub_arc": "B·裂痕",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 24,
+          "planned_events": [],
+          "one_line": "siege_day 63，战术复盘问询；第三张蓝卡合成：蓝卡·瞬位。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_024.json"
+        },
+        {
+          "id": "ch_025",
+          "number": 25,
+          "title": "灵能特使",
+          "sub_arc": "B·裂痕",
+          "thread_id": "thr_war_strategy",
+          "pov_character": "char_psi_elder",
+          "story_time": 25,
+          "planned_events": [
+            "evt_psi_elder_enters"
+          ],
+          "one_line": "她俯视这片人类的废墟战场——却在Θ区方向感到一丝皱眉的源质共鸣。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_025.json"
+        },
+        {
+          "id": "ch_026",
+          "number": 26,
+          "title": "参数",
+          "sub_arc": "B·裂痕",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 26,
+          "planned_events": [],
+          "one_line": "siege_day 65，宿舍测试瞬位参数；巡逻里感知切换速度加快；战斗里识别瞬位安全窗口；白卡·闪避感知×3合成暂缓。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_026.json"
+        },
+        {
+          "id": "ch_027",
+          "number": 27,
+          "title": "档案",
+          "sub_arc": "B·裂痕",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 27,
+          "planned_events": [],
+          "one_line": "siege_day 67，战术组正式能力评估：第97百分位；三张蓝卡超要塞平均；战术档案建立。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_027.json"
+        },
+        {
+          "id": "ch_028",
+          "number": 28,
+          "title": "判断",
+          "sub_arc": "B·裂痕",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 28,
+          "planned_events": [],
+          "one_line": "siege_day 69，刘霜anomaly #6：她的反应时序早于柯炎感知确认1.5秒，感知来源不明。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_028.json"
+        },
+        {
+          "id": "ch_029",
+          "number": 29,
+          "title": "位移",
+          "sub_arc": "B·裂痕",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 29,
+          "planned_events": [],
+          "one_line": "siege_day 72，虫潮+先驱，蓝卡·瞬位首次实战激活；冷却期脆弱窗口暴露；先驱第三次主动撤退。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_029.json"
+        },
+        {
+          "id": "ch_030",
+          "number": 30,
+          "title": "战局",
+          "sub_arc": "B·裂痕",
+          "thread_id": "thr_war_strategy",
+          "pov_character": "char_ke_yan",
+          "story_time": 30,
+          "planned_events": [],
+          "one_line": "siege_day 74，全要塞战情简报；柯炎读出周恒的'清算状态'；第四张蓝卡：蓝卡·远程预警。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_030.json"
+        },
+        {
+          "id": "ch_031",
+          "number": 31,
+          "title": "遗址",
+          "sub_arc": "B·裂痕",
+          "thread_id": "thr_war_strategy",
+          "pov_character": "char_psi_elder",
+          "story_time": 31,
+          "planned_events": [],
+          "one_line": "siege_day 77，艾薇儿在Θ区遗址内工作；活体古遗共鸣频率第二次出现，7秒，主动激活特征。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_031.json"
+        },
+        {
+          "id": "ch_032",
+          "number": 32,
+          "title": "预警",
+          "sub_arc": "B·裂痕",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 32,
+          "planned_events": [],
+          "one_line": "siege_day 79，蓝卡·远程预警首次实战：三公里外虫潮预警，减少一半伤亡；因果关系清晰。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_032.json"
+        },
+        {
+          "id": "ch_033",
+          "number": 33,
+          "title": "问",
+          "sub_arc": "B·裂痕",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 33,
+          "planned_events": [],
+          "one_line": "siege_day 81，刘霜anomaly #7：银白源质爆发击退异种；'我想问你一件事'；她说'不是现在'。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_033.json"
+        },
+        {
+          "id": "ch_034",
+          "number": 34,
+          "title": "待",
+          "sub_arc": "B·裂痕",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 34,
+          "planned_events": [],
+          "one_line": "siege_day 83，同班夜哨；三小时工作中那个问题稳定地在那里；她说'明天'。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_034.json"
+        },
+        {
+          "id": "ch_035",
+          "number": 35,
+          "title": "医生",
+          "sub_arc": "B·裂痕",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 35,
+          "planned_events": [
+            "evt_liushuang_revealed"
+          ],
+          "one_line": "siege_day 85，矿道死胡同，先驱逼迫；刘霜展开银白源质能力；'从什么时候开始？'——联邦特殊项目三年前。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_035.json"
+        },
+        {
+          "id": "ch_035",
+          "number": 35,
+          "title": "医生",
+          "sub_arc": "B·裂痕",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 35,
+          "planned_events": [
+            "evt_liushuang_revealed"
+          ],
+          "one_line": "刘霜不再隐藏全力出手——他终于明白她一直在'压着'自己，和他一样害怕被看见。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_036",
+          "number": 36,
+          "title": "余震",
+          "sub_arc": "B·裂痕",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 36,
+          "planned_events": [],
+          "one_line": "siege_day 87，揭身后的第一天；异常变成认知；走廊两句话；格子第一次轻开又关。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_036.json"
+        },
+        {
+          "id": "ch_037",
+          "number": 37,
+          "title": "提案",
+          "sub_arc": "B·裂痕",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 37,
+          "planned_events": [],
+          "one_line": "siege_day 89，联邦正式申报柯炎为'非标准战场感知资产'；工具与资产是同一批数据，重量不同。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_037.json"
+        },
+        {
+          "id": "ch_038",
+          "number": 38,
+          "title": "默认",
+          "sub_arc": "B·裂痕",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 38,
+          "planned_events": [],
+          "one_line": "siege_day 91，刘霜直接开口问感知数据；她的能力使用从'数据点'变成'战术事件'；档案：待确认→确认。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_038.json"
+        },
+        {
+          "id": "ch_039",
+          "number": 39,
+          "title": "信号",
+          "sub_arc": "B·裂痕",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 39,
+          "planned_events": [],
+          "one_line": "siege_day 93，通信日志里的0.4秒空白——无法解释，存进待分析；虚影的第一道影子。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_039.json"
+        },
+        {
+          "id": "ch_040",
+          "number": 40,
+          "title": "底线",
+          "sub_arc": "B·裂痕",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 40,
+          "planned_events": [],
+          "one_line": "siege_day 95，最大规模攻势，守住，资源触底；周恒提到联邦新指令，暂不公布；格子角度变了。Sub-arc B终。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_040.json"
+        },
+        {
+          "id": "ch_041",
+          "number": 41,
+          "title": "指令",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 41,
+          "planned_events": [],
+          "one_line": "siege_day 97，周恒公布Category-A优先撤离令；他是名单上的人，弹药五天触发，西北路线。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_041.json"
+        },
+        {
+          "id": "ch_042",
+          "number": 42,
+          "title": "矛盾",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 42,
+          "planned_events": [],
+          "one_line": "siege_day 99，他算出撤离后感知覆盖损失三分之二；效用曲线被命令截断；格子与分析层的界面变薄。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_042.json"
+        },
+        {
+          "id": "ch_043",
+          "number": 43,
+          "title": "先驱变了",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 43,
+          "planned_events": [],
+          "one_line": "siege_day 101，先驱战后停留3分钟；郑暮的独立观察一致；先驱行为模式开始单调变化。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_043.json"
+        },
+        {
+          "id": "ch_044",
+          "number": 44,
+          "title": "清单",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 44,
+          "planned_events": [],
+          "one_line": "siege_day 103，刘霜转述外部'关注对象清单'——他在上面，每项参数都对；有人一直在看。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_044.json"
+        },
+        {
+          "id": "ch_045",
+          "number": 45,
+          "title": "第三次",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_war_strategy",
+          "pov_character": "char_psi_elder",
+          "story_time": 45,
+          "planned_events": [],
+          "one_line": "siege_day 105，艾薇儿感知古遗信号第三次（12秒，220%强度）；追踪方向：人类要塞；偏见首次无法压制。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_045.json"
+        },
+        {
+          "id": "ch_046",
+          "number": 46,
+          "title": "频率",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 46,
+          "planned_events": [],
+          "one_line": "防守轮值里他感知到了两个信号的频率不同——这是他的感知系统出现的第三个新维度。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_047",
+          "number": 47,
+          "title": "第二次空白",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 47,
+          "planned_events": [],
+          "one_line": "0.4秒，0.8秒——精确翻倍；序列号间断150字节，加密，关联他的士兵编号。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_048",
+          "number": 48,
+          "title": "低于五天",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 48,
+          "planned_events": [],
+          "one_line": "弹药4.3天，通道5-7天，两个数字交叉——周恒宣布撤离协议正式进入启动状态。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_049",
+          "number": 49,
+          "title": "通道",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 49,
+          "planned_events": [
+            "evt_corridor_attempt_fail"
+          ],
+          "one_line": "他用了全部四张蓝卡；西北通道打通失败；先驱战略协调级别确认。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_050",
+          "number": 50,
+          "title": "问话",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_void_echo",
+          "pov_character": "char_ke_yan",
+          "story_time": 50,
+          "planned_events": [
+            "evt_void_echo_contact"
+          ],
+          "one_line": "虚影没有杀他，只问：你父母的死，你真以为是意外吗？",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_051",
+          "number": 51,
+          "title": "后续",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 51,
+          "planned_events": [],
+          "one_line": "他尝试建立父母之死的事实层——发现那个层几乎是空的，他持有的是一个从未检验过的叙述。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_052",
+          "number": 52,
+          "title": "等待",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 52,
+          "planned_events": [],
+          "one_line": "连续三天每天早上第一件事是查通信日志找第四次信号；弹药5.7天；他写好了一句备用回复，放在掌机里等着。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_053",
+          "number": 53,
+          "title": "档案",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 53,
+          "planned_events": [],
+          "one_line": "档案查阅：记录只有几行，印章编号锁后，事实层=空；记录有一次修改时间戳，内容无权查阅。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_054",
+          "number": 54,
+          "title": "方向",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_psi_elder",
+          "story_time": 54,
+          "planned_events": [],
+          "one_line": "艾薇儿第四次信号，三角定位确认：信号在人类要塞内部；活体假设成立，优先级升高。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_055",
+          "number": 55,
+          "title": "诱饵",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_war_strategy",
+          "pov_character": "char_swarm_herald",
+          "story_time": 55,
+          "planned_events": [
+            "evt_herald_strategy"
+          ],
+          "one_line": "先驱指挥虫潮做出一次诱敌——蜂巢从不诱敌。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_056",
+          "number": 56,
+          "title": "陷阱",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 56,
+          "planned_events": [],
+          "one_line": "先驱诱敌成功——定向能量束精确对准他，预知闪避+瞬位规避；先驱已把他标注为高优先级消除目标。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_057",
+          "number": 57,
+          "title": "第四次空白",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 57,
+          "planned_events": [],
+          "one_line": "第四次通信空白3.2s（精确翻倍），解密：θ-07=父母工作的研究站，遗址在要塞以南三公里；格子重量突然增加。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_058",
+          "number": 58,
+          "title": "背靠背",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 58,
+          "planned_events": [
+            "evt_uneasy_alliance"
+          ],
+          "one_line": "灵能的幻觉与源质感知第一次咬合；他们都意识到对方不是低等，也不是工具。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_059",
+          "number": 59,
+          "title": "重量",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 59,
+          "planned_events": [],
+          "one_line": "三件事合并为'起源'命题；格子出现第一条裂缝；他做了关于格子的第一个具体主动决定：如果活着出去，打开格子。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_060",
+          "number": 60,
+          "title": "最后阶段",
+          "sub_arc": "C·暗影",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 60,
+          "planned_events": [],
+          "one_line": "弹药3.8天；周恒宣布突围选项；柯炎/刘霜定为突围最高优先感知资产；Sub-arc C收束，他有了朝向的方向。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_061",
+          "number": 61,
+          "title": "计划",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 61,
+          "planned_events": [],
+          "one_line": "突围方案，十八公里路线最终确认，三个关键地形点划定。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_062",
+          "number": 62,
+          "title": "准备",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 62,
+          "planned_events": [],
+          "one_line": "突围前两天，他和刘霜对齐感知协调方案，确认各自在编队里的位置。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_063",
+          "number": 63,
+          "title": "南方",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 63,
+          "planned_events": [],
+          "one_line": "siege_day 136，他用远程预警对准正南方向，感知到θ-07遗址的古遗共鸣频率余音。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_064",
+          "number": 64,
+          "title": "话",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 64,
+          "planned_events": [],
+          "one_line": "他主动找刘霜说了一件私人的事，然后第一次对她说了'我信任你'。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_065",
+          "number": 65,
+          "title": "领路人",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 65,
+          "planned_events": [],
+          "one_line": "周恒把那段Θ区边缘地带的决策权完全交给他——'你在那段路上是领路人，不是工具'。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_066",
+          "number": 66,
+          "title": "启程",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 66,
+          "planned_events": [],
+          "one_line": "siege_day 138黎明，突围开始，他走在最前面，十八公里，第一步。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_067",
+          "number": 67,
+          "title": "重定向",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 67,
+          "planned_events": [],
+          "one_line": "他感知到计划路线前方的频率异常，下令改线——第一次真正行使领路人的决策权，队伍无条件跟着他走。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_068",
+          "number": 68,
+          "title": "两公里",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 68,
+          "planned_events": [],
+          "one_line": "进入Θ区边缘地带那两公里——先驱密度是正常区域三倍以上，弹药已经有限，他开始在缝隙里寻路。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_069",
+          "number": 69,
+          "title": "通过",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 69,
+          "planned_events": [],
+          "one_line": "两公里最危险的一段，他动用了一张蓝卡，把二十三个人完整地带了过去。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_070",
+          "number": 70,
+          "title": "要塞之夜",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 70,
+          "planned_events": [
+            "evt_fortress_crisis"
+          ],
+          "one_line": "周恒最后一次下令——这一次眼里不是认命，是把活路让出去的决意。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_071",
+          "number": 71,
+          "title": "继续走",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 71,
+          "planned_events": [],
+          "one_line": "通讯断了，要塞沉默，他继续导航——不能停，不能回头，悲伤是他现在负担不起的频率。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_072",
+          "number": 72,
+          "title": "先驱的变化",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 72,
+          "planned_events": [],
+          "one_line": "越靠近Θ区先驱的行为越反常：它们不攻击，它们看——它们也在朝同一个方向走。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_073",
+          "number": 73,
+          "title": "θ-07",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 73,
+          "planned_events": [],
+          "one_line": "刘霜感知到她的频率里有一个他读不懂的层次在做出反应；他感知到θ-07遗址的余音已经足够近了。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_074",
+          "number": 74,
+          "title": "代价",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 74,
+          "planned_events": [],
+          "one_line": "第一次真实的减员——他的一个判断，让一个人活了，另一个人没有；他是领路人，责任是他的。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_075",
+          "number": 75,
+          "title": "三个方向",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 75,
+          "planned_events": [],
+          "one_line": "他感知到三种不同来源的源质频率正在向同一个点收束——他不知道那意味着什么，但他知道他也在往那里走。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_076",
+          "number": 76,
+          "title": "矿脉",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 76,
+          "planned_events": [],
+          "one_line": "进入Θ区——地表矿脉肉眼可见，像血管一样分布，搏动的频率和他身体里的蓝卡形成某种他不理解的共鸣。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_077",
+          "number": 77,
+          "title": "涌动",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 77,
+          "planned_events": [],
+          "one_line": "源质开始主动向他涌动——不是吸附，是接触；他压制它，但他第一次感知到它是在靠近他，不是他在靠近它。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_078",
+          "number": 78,
+          "title": "Θ区的边缘",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 78,
+          "planned_events": [
+            "evt_breakout_to_theta"
+          ],
+          "one_line": "整片矿脉像心跳一样搏动；他知道自己在靠近某个会改变一切的东西。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_079",
+          "number": 79,
+          "title": "原点方向",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 79,
+          "planned_events": [],
+          "one_line": "三方阴影在Θ区原点附近收束；他必须带着仅剩的人穿越；他的感知正在超过他能控制的范围。",
+          "status": "drafted"
+        },
+        {
+          "id": "ch_080",
+          "number": 80,
+          "title": "卷末·我能改变结果",
+          "sub_arc": "D·突围",
+          "thread_id": "thr_protagonist",
+          "pov_character": "char_ke_yan",
+          "story_time": 80,
+          "planned_events": [
+            "evt_keyan_breakthrough"
+          ],
+          "one_line": "他第一次主动伸手抓住源质——剧痛中他承认了那件逃避一生的事。",
+          "status": "drafted"
+        }
       ],
       "unanchored_chapters_note": "卷一共 80 章，达 long_novel 80/卷下限。以上 19 章为timeline锚定章节（含events），其余 61 章为各 sub_arc 内的爽点 / 小冲突 / 角色侧写章节，将在执行阶段沿事件驱动循环（A→B→C→D，每事件）逐次定义并合成 beat sheet，无需在 Phase II 一次性枚举。"
     }
@@ -75,8 +1147,17 @@
       "title": "源质之心",
       "summary": "Θ区争夺白热化。柯炎从融合者走向觉醒者；刘霜的全部任务背景被迫摊开，联邦秘密项目浮出；虚影的真实身份与暗源计划逐步揭晓；艾薇儿与族议会的真实关系开始崩塌；异种先驱第一次对蜂巢产生'拒绝'。",
       "story_focus": "源质觉醒者突破代价 / 联邦秘密项目 / 暗源计划 / 灵能族族议会真相 / 异种先驱的拒绝",
-      "time_span": { "from": 81, "to": 160 },
-      "primary_characters": ["char_ke_yan", "char_liu_shuang", "char_void_echo", "char_psi_elder", "char_swarm_herald"]
+      "time_span": {
+        "from": 81,
+        "to": 160
+      },
+      "primary_characters": [
+        "char_ke_yan",
+        "char_liu_shuang",
+        "char_void_echo",
+        "char_psi_elder",
+        "char_swarm_herald"
+      ]
     },
     {
       "id": "vol_03",
@@ -84,8 +1165,16 @@
       "title": "诸族",
       "summary": "机械觉醒者与多族卷入Θ区争夺；战争控制器系统因异种先驱与柯炎的存在出现根本性预测失误；柯炎走向源质觉醒者；天灾事件被各方利用与反利用。",
       "story_focus": "多族混战 / 机械族登场 / 战争控制器失准 / 天灾博弈 / 觉醒者层级突破",
-      "time_span": { "from": 161, "to": 240 },
-      "primary_characters": ["char_ke_yan", "char_void_echo", "char_psi_elder", "char_swarm_herald"]
+      "time_span": {
+        "from": 161,
+        "to": 240
+      },
+      "primary_characters": [
+        "char_ke_yan",
+        "char_void_echo",
+        "char_psi_elder",
+        "char_swarm_herald"
+      ]
     },
     {
       "id": "vol_04",
@@ -93,8 +1182,15 @@
       "title": "原点",
       "summary": "Θ区遗迹真相揭开，暗源计划的真正目的浮现，柯炎面对成为'源质主宰'的选择——也面对他十二岁起就在逃避的问题：当一个螺丝钉真的能改变战争走向，他要承担什么。系列收束。",
       "story_focus": "Θ区原点真相 / 暗源计划真目的 / 源质主宰的代价 / 螺丝钉之死 / 战争走向的归属",
-      "time_span": { "from": 241, "to": 320 },
-      "primary_characters": ["char_ke_yan", "char_void_echo", "char_psi_elder"]
+      "time_span": {
+        "from": 241,
+        "to": 320
+      },
+      "primary_characters": [
+        "char_ke_yan",
+        "char_void_echo",
+        "char_psi_elder"
+      ]
     }
   ]
 }

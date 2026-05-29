@@ -2,6 +2,76 @@
   "character_id": "char_liu_shuang",
   "states": [
     {
+      "story_time": 15,
+      "chapter_id": "ch_015",
+      "location": "elem_origin_theta（Θ区遗迹内部 → 遗迹出口外）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "柯炎在接触遗迹板材（残图碎片）的瞬间，其源质感知层产生了一个她感应到的共鸣反应——频率对应，不是威胁触发，是主动共鸣", "confidence": "confirmed_sensor_data", "trigger": "掌机感应记录 + 对柯炎方向的主动扫描" },
+        { "fact": "柯炎与Θ区遗迹之间存在某种源质频率对应关系——不只是感知者的普通浓度适应，是具体到'那块板材'的频率匹配", "confidence": "suspected_high_confidence", "trigger": "共鸣反应数据 + 遗迹内感知表现 + 累积数据集" }
+      ],
+      "psychology": { "sanity": 79, "mood": "数据升级·分裂加深·任务和情感判断再次冲突", "notes": "她的掌机今天换了更大型号，因为她预判到遗迹内会有高质量数据——这个预判是对的。共鸣反应数据让她的评估再次需要修订：柯炎和这处遗迹之间的关系比她此前设想的更具体，不只是'高浓度区域的感知者表现好'，是'他和某件具体的东西频率匹配了'。她在出遗迹时看了他，那个眼神她知道他注意到了，她没有解释。" },
+      "abilities_delta": [],
+      "notes": "ch_015：遗迹内搜索任务，感应到柯炎接触残图板材时的共鸣数据，掌机记录更长的注释，出遗迹时看了他。"
+    },
+    {
+      "story_time": 8,
+      "chapter_id": "ch_008",
+      "location": "elem_origin_theta（Θ区矿道崩塌段外部）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "柯炎内部已出现吸附者级别的源质特征（主动吸收痕迹，胸腔源质结构轻微变化），但未完成正式突破", "confidence": "confirmed_data", "trigger": "脱险检查时源质感应在其胸腔位置停顿读取" },
+        { "fact": "此次变化的触发条件：高浓度矿道+缺氧临界+感知控制机制失效——压力触发而非主动觉醒", "confidence": "inferred", "trigger": "结合任务参数（矿道高浓度、被困约2.5小时）与体征读取" }
+      ],
+      "psychology": { "sanity": 82, "mood": "专注·隐忧·数据点质量升级（需重新评估他的突破时间线）", "notes": "她曾一度确定他要死了；他活了，并且是以他自己的方式活了。这个结果让她的数据集需要修订：突破时间线比她估计的更近，触发条件也和她的预测不完全吻合。她在回程中对掌机做了较长的更新记录，然后锁上了。" },
+      "abilities_delta": [],
+      "notes": "ch_008：矿道崩塌搜救，参与脱险行动，对柯炎进行脱险后检查，读取到吸附者前兆特征，未言明。"
+    },
+    {
+      "story_time": 4,
+      "chapter_id": "ch_004",
+      "location": "elem_origin_theta（废弃中继站 → 夜营）",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "柯炎说'运气'时胸腔有微小波动（落差信号）——via 感应记录", "confidence": "confirmed_data", "trigger": "感应层读取 + 掌机记录" }
+      ],
+      "psychology": { "sanity": 85, "mood": "专注·隐忧·任务/情感分裂加深", "notes": "本章：第一次在记录数据后主动锁定掌机（ch_003是停下来，ch_004是锁上）。这个动作升级了她对自己任务的内部质疑：她已经不确定她在保护谁。" },
+      "abilities_delta": [],
+      "notes": "ch_004：中继站任务参与。夜营被柯炎看见检查手腕，无言。"
+    },
+    {
+      "story_time": 3,
+      "chapter_id": "ch_003",
+      "location": "elem_origin_theta（外围矿带）",
+      "inventory_delta": [],
+      "status": [
+        { "type": "partial_exposure", "desc": "在小规模遭遇战中使用源质能量击退第三只精英异种——超出医疗兵角色应有的能力范围。柯炎目击但未追问。", "severity": "low" }
+      ],
+      "knowledge_gained": [
+        { "fact": "柯炎合成蓝卡时的源质共鸣峰值（0.8秒）——via 源质感应记录", "confidence": "confirmed_data", "trigger": "掌机无声记录" },
+        { "fact": "柯炎在压制那一秒'我做的'念头——她感应到了压制本身", "confidence": "observed", "trigger": "在记录后抬头看了他很久" }
+      ],
+      "psychology": { "sanity": 86, "mood": "专注·隐忧·新增：一种角色混淆感", "notes": "本章新增心理状态：不确定记录柯炎数据是在帮联邦还是在伤害他。任务与情感开始分裂。" },
+      "abilities_delta": [],
+      "notes": "ch_003：首次在柯炎面前部分暴露源质融合攻击能力。任务/情感分裂初现。"
+    },
+    {
+      "story_time": 2,
+      "chapter_id": "ch_002",
+      "location": "elem_stardust_fortress",
+      "inventory_delta": [],
+      "status": [],
+      "knowledge_gained": [
+        { "fact": "周恒大致知道她不只是医疗兵（简报室目光交换确认）", "confidence": "confirmed", "trigger": "周恒点名时停顿一秒看她，她理解为'他默许她用，她也默许他用'" }
+      ],
+      "psychology": { "sanity": 88, "mood": "专注·隐忧", "notes": "简报后确认周恒知情的程度——这在可控范围内。注射器被柯炎看见但没有追问；她知道那个问题只是被推后了，不是消失了。" },
+      "abilities_delta": [],
+      "notes": "ch_002：突围前夜。注射器分拣完毕，放入包底层。"
+    },
+    {
       "story_time": 0,
       "chapter_id": null,
       "baseline": true,
