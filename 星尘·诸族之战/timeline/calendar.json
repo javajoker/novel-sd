@@ -1,7 +1,7 @@
 {
   "story_time_unit": "chapter",
-  "current_story_time": 70,
-  "current_chapter": 70,
+  "current_story_time": 75,
+  "current_chapter": 75,
   "chapter_to_story_time": {
     "ch_001": 1,
     "ch_002": 2,
@@ -72,7 +72,12 @@
     "ch_067": 67,
     "ch_068": 68,
     "ch_069": 69,
-    "ch_070": 70
+    "ch_070": 70,
+    "ch_071": 71,
+    "ch_072": 72,
+    "ch_073": 73,
+    "ch_074": 74,
+    "ch_075": 75
   },
   "world_calendar": {
     "era": "源质纪元 (Origin Era)",
@@ -405,6 +410,31 @@
       "story_time": 69,
       "siege_day": 138,
       "note": "通过"
+    },
+    "ch_071": {
+      "story_time": 71,
+      "siege_day": 139,
+      "note": "继续走"
+    },
+    "ch_072": {
+      "story_time": 72,
+      "siege_day": 140,
+      "note": "先驱的变化"
+    },
+    "ch_073": {
+      "story_time": 73,
+      "siege_day": 140,
+      "note": "θ-07"
+    },
+    "ch_074": {
+      "story_time": 74,
+      "siege_day": 141,
+      "note": "代价"
+    },
+    "ch_075": {
+      "story_time": 75,
+      "siege_day": 141,
+      "note": "三个方向"
     }
   },
   "travel_rules": [
