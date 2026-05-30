@@ -159,7 +159,7 @@
     {
       "id": "evt_wei_se_shell_pulled",
       "name": "空壳薇瑟被拉向核心网",
-      "story_time": 31,
+      "story_time": 32,
       "chapter": "ch_045",
       "status": "drafted",
       "participants": [
@@ -171,7 +171,7 @@
     {
       "id": "evt_wei_se_shell_sighted",
       "name": "目视距离内看见空壳薇瑟",
-      "story_time": 35,
+      "story_time": 36,
       "chapter": "ch_053",
       "status": "drafted",
       "participants": [
@@ -181,21 +181,9 @@
       ]
     },
     {
-      "id": "evt_relay_broadcast",
-      "name": "聆音中继广播·联系更远灵裔",
-      "story_time": 43,
-      "chapter": "ch_073",
-      "status": "drafted",
-      "participants": [
-        "char_ling_yin",
-        "char_xuan_xing",
-        "char_yi_lan"
-      ]
-    },
-    {
       "id": "evt_shimu_pursuit_redeploys",
       "name": "蚕母发现目标转移·重新部署搜索网络",
-      "story_time": 43,
+      "story_time": 45,
       "chapter": "ch_069",
       "status": "drafted",
       "participants": [
@@ -206,16 +194,15 @@
       ]
     },
     {
-      "id": "evt_shimu_strategic_assault",
-      "name": "蚕母战略攻势·八十只从南侧",
-      "story_time": 49,
-      "chapter": "ch_088",
+      "id": "evt_relay_broadcast",
+      "name": "聆音中继广播·联系更远灵裔",
+      "story_time": 46,
+      "chapter": "ch_073",
       "status": "drafted",
       "participants": [
-        "char_shi_mu",
         "char_ling_yin",
-        "char_zhao",
-        "char_shou_yan"
+        "char_xuan_xing",
+        "char_yi_lan"
       ]
     },
     {
@@ -226,6 +213,19 @@
       "status": "planned",
       "participants": [
         "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_shimu_strategic_assault",
+      "name": "蚕母战略攻势·八十只从南侧",
+      "story_time": 53,
+      "chapter": "ch_088",
+      "status": "drafted",
+      "participants": [
+        "char_shi_mu",
+        "char_ling_yin",
+        "char_zhao",
+        "char_shou_yan"
       ]
     }
   ]

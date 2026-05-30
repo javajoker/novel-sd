@@ -312,7 +312,7 @@
     {
       "id": "evt_shimu_territory_entered",
       "name": "进入蚕母领土——领土防御而非追击",
-      "story_time": 29,
+      "story_time": 30,
       "chapter": "ch_041",
       "status": "drafted",
       "participants": [
@@ -324,31 +324,11 @@
     {
       "id": "evt_territory_combat_first",
       "name": "领土战",
-      "story_time": 30,
+      "story_time": 31,
       "chapter": "ch_043",
       "status": "drafted",
       "participants": [
         "char_yi_lan"
-      ]
-    },
-    {
-      "id": "evt_territory_combat_second",
-      "name": "领土战（二）",
-      "story_time": 32,
-      "chapter": "ch_047",
-      "status": "drafted",
-      "participants": [
-        "char_yi_lan"
-      ]
-    },
-    {
-      "id": "evt_territory_combat_third",
-      "name": "领土战（三）",
-      "story_time": 32,
-      "chapter": "ch_048",
-      "status": "drafted",
-      "participants": [
-        "char_zhao"
       ]
     },
     {
@@ -362,9 +342,19 @@
       ]
     },
     {
+      "id": "evt_territory_combat_second",
+      "name": "领土战（二）",
+      "story_time": 33,
+      "chapter": "ch_047",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan"
+      ]
+    },
+    {
       "id": "evt_territory_combat_aftermath",
       "name": "战后·信号近了",
-      "story_time": 33,
+      "story_time": 34,
       "chapter": "ch_049",
       "status": "drafted",
       "participants": [
@@ -372,9 +362,19 @@
       ]
     },
     {
+      "id": "evt_territory_combat_third",
+      "name": "领土战（三）",
+      "story_time": 34,
+      "chapter": "ch_048",
+      "status": "drafted",
+      "participants": [
+        "char_zhao"
+      ]
+    },
+    {
       "id": "evt_approach_cover_formation",
       "name": "掩护",
-      "story_time": 36,
+      "story_time": 37,
       "chapter": "ch_055",
       "status": "drafted",
       "participants": [
@@ -384,7 +384,7 @@
     {
       "id": "evt_time_window_closing",
       "name": "窗口",
-      "story_time": 37,
+      "story_time": 39,
       "chapter": "ch_058",
       "status": "drafted",
       "participants": [
@@ -394,7 +394,7 @@
     {
       "id": "evt_breakout_core_network",
       "name": "打出核心网中心区域",
-      "story_time": 39,
+      "story_time": 40,
       "chapter": "ch_061",
       "status": "drafted",
       "participants": [
@@ -407,7 +407,7 @@
     {
       "id": "evt_meet_survivors",
       "name": "抵达通信中继站·遇灰珀残部三人",
-      "story_time": 43,
+      "story_time": 46,
       "chapter": "ch_070",
       "status": "drafted",
       "participants": [
@@ -423,7 +423,7 @@
     {
       "id": "evt_network_11person",
       "name": "砺锋残部汇合·十一人网络",
-      "story_time": 43,
+      "story_time": 47,
       "chapter": "ch_074",
       "status": "drafted",
       "participants": [
@@ -437,7 +437,7 @@
     {
       "id": "evt_network_first_combat",
       "name": "网状渡蚀首次实战·三十五人网络",
-      "story_time": 47,
+      "story_time": 51,
       "chapter": "ch_084",
       "status": "drafted",
       "participants": [
@@ -446,20 +446,6 @@
         "char_shou_yan",
         "char_ling_yin",
         "char_ning_hui"
-      ]
-    },
-    {
-      "id": "evt_network_92_battle",
-      "name": "南侧大战·九十二人网络·守岩最后震波",
-      "story_time": 50,
-      "chapter": "ch_089",
-      "status": "drafted",
-      "participants": [
-        "char_yi_lan",
-        "char_shou_yan",
-        "char_zhao",
-        "char_ling_yin",
-        "char_shi_mu"
       ]
     },
     {
@@ -480,6 +466,20 @@
       "status": "planned",
       "participants": [
         "char_zhao"
+      ]
+    },
+    {
+      "id": "evt_network_92_battle",
+      "name": "南侧大战·九十二人网络·守岩最后震波",
+      "story_time": 54,
+      "chapter": "ch_089",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin",
+        "char_shi_mu"
       ]
     }
   ]

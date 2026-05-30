@@ -3165,7 +3165,7 @@
       "name": "进入蚕母领土——领土防御而非追击",
       "description": "昭发现西北方向的蚕母信号密度不同于追击形态——这是有组织的领土防御，第二节点位置重合于核心网汇点。蚕母一直在这里。",
       "thread_id": "thr_garrison",
-      "story_time": 29,
+      "story_time": 30,
       "duration": 1,
       "location": "elem_core_network_region",
       "participants": [
@@ -3246,7 +3246,7 @@
       "name": "空壳薇瑟被拉向核心网",
       "description": "聆音感知到空壳薇瑟的信号——她在往核心网方向移动，蚕母正在引导（或拉拽）她，利用空壳薇瑟作为接触古灵渊深脉的媒介。",
       "thread_id": "thr_hive",
-      "story_time": 31,
+      "story_time": 32,
       "duration": 1,
       "location": "elem_core_network_region",
       "participants": [
@@ -3291,9 +3291,9 @@
       "name": "伊岚灵蚀危机——erosion_load 48",
       "description": "长期战斗和渡蚀使用使伊岚erosion_load达到48，记忆丢失加速；她第一次意识到可能无法在到达空壳之前维持清醒的自我。",
       "thread_id": "thr_yi_lan",
-      "story_time": 33,
+      "story_time": 35,
       "duration": 1,
-      "location": "elem_core_network_region",
+      "location": "elem_core_network",
       "participants": [
         "char_yi_lan",
         "char_shou_yan"
@@ -3330,9 +3330,9 @@
       "name": "守岩记忆——薇瑟训练日志的距离渗透技术",
       "description": "守岩旧档案中存有薇瑟的训练日志片段，其中记载了渡蚀距离渗透技术：不接触时的渡蚀延伸感知形态。这是薇瑟教给伊岚基础渡蚀之外的进阶技术，从未明确传授。守岩把这件事告诉伊岚。",
       "thread_id": "thr_wei_se",
-      "story_time": 34,
+      "story_time": 35,
       "duration": 1,
-      "location": "elem_core_network_region",
+      "location": "elem_core_network",
       "participants": [
         "char_shou_yan",
         "char_yi_lan"
@@ -3369,9 +3369,9 @@
       "name": "目视距离内看见空壳薇瑟",
       "description": "聆音在目视距离内感知到空壳薇瑟——她比灰珀时更空洞，被拉向核心网入口处停驻。第一次真正的视觉确认。",
       "thread_id": "thr_hive",
-      "story_time": 35,
+      "story_time": 36,
       "duration": 1,
-      "location": "elem_core_network_region",
+      "location": "elem_core_network",
       "participants": [
         "char_ling_yin",
         "char_wei_se",
@@ -3409,9 +3409,9 @@
       "name": "伊岚渡蚀接触空壳内层——发现ember结构",
       "description": "伊岚深渡蚀接触空壳内层，到达ember附近；发现ember不是残片，是有意保存的结构，像一个等着被读的容器，有层次，有意图。",
       "thread_id": "thr_yi_lan",
-      "story_time": 38,
+      "story_time": 39,
       "duration": 1,
-      "location": "elem_core_network_region",
+      "location": "elem_core_network",
       "participants": [
         "char_yi_lan",
         "char_wei_se"
@@ -3453,9 +3453,9 @@
       "name": "守岩在核心网刻薇瑟的名字",
       "description": "守岩在核心网的岩壁上刻薇瑟的名字——和在灰珀荒原上刻死者名字一样，她的名字要在他之外存在。这是他能做的最后一件事。",
       "thread_id": "thr_wei_se",
-      "story_time": 48,
+      "story_time": 52,
       "duration": 1,
-      "location": "elem_core_network",
+      "location": "elem_lingyin_frontier",
       "participants": [
         "char_shou_yan"
       ],
@@ -3491,9 +3491,9 @@
       "name": "卷三完结——往更多人的方向走",
       "description": "伊岚持有薇瑟的技术，遗核变冷了一点（印记消散），四人往回走，往有更多灵裔的地方走。随行的意思在这一刻变了，变成了更大的那个形状。",
       "thread_id": "thr_yi_lan",
-      "story_time": 50,
+      "story_time": 54,
       "duration": 1,
-      "location": "elem_core_network",
+      "location": "elem_lingyin_frontier",
       "participants": [
         "char_yi_lan",
         "char_shou_yan",
@@ -3537,7 +3537,7 @@
       "name": "渡蚀网状形态首次尝试",
       "description": "伊岚在返程途中第一次尝试薇瑟的渡蚀网状技术——把灵蚀分散到比以前更多的灵渊节点；erosion_load 61；确认这是可以做到的。",
       "thread_id": "thr_yi_lan",
-      "story_time": 52,
+      "story_time": 56,
       "duration": 1,
       "location": "elem_deep_wasteland_east",
       "participants": [
@@ -3578,7 +3578,7 @@
       "name": "凯尔再现——联邦的追踪",
       "description": "Vol 04 Sub-arc G：联邦凯尔带着不止一支队伍出现，跟踪了从灰珀到此的某条路径。他知道的比应该知道的多，而且他带来了一些灰珀后期的消息——矿脉已经被联邦完全接管。",
       "thread_id": "thr_qiongshu_reentry",
-      "story_time": 70,
+      "story_time": 85,
       "duration": 1,
       "location": "elem_lingyin_frontier",
       "participants": [
@@ -3618,7 +3618,7 @@
       "name": "守岩灵蚀最终章",
       "description": "Vol 04 Sub-arc F或G：守岩的erosion_load达到临界，他开始丢失旧时记忆（他的最后防线）。他做了一件事：把他记住的所有死者的名字、所有对队伍有价值的旧时知识，告诉了每一个能接收的人，在他彻底失去之前。",
       "thread_id": "thr_yi_lan",
-      "story_time": 80,
+      "story_time": 79,
       "duration": 3,
       "location": "elem_lingyin_frontier",
       "participants": [
@@ -3664,7 +3664,7 @@
       "name": "渡蚀网状技术大规模使用",
       "description": "Vol 05：伊岚在一场大规模战场上第一次将薇瑟的渡蚀网状技术用于超过100个灵裔灵渊的分担网络——把这场战斗的灵蚀代价均摊开，没有一个人独自燃尽。",
       "thread_id": "thr_yi_lan",
-      "story_time": 110,
+      "story_time": 119,
       "duration": 1,
       "location": "elem_lingyin_frontier",
       "participants": [
@@ -3702,7 +3702,7 @@
       "name": "尾声·随行",
       "description": "Vol 05最终章：战局不一定赢，但找到了走下去的方式。伊岚不再一个人扛；薇瑟的技术让守土变成了网；守岩的名字和所有死者的名字存在着；聆音成了她自己；昭知道自己在哪里。随行。",
       "thread_id": "thr_yi_lan",
-      "story_time": 138,
+      "story_time": 139,
       "duration": 1,
       "location": "elem_lingyin_frontier",
       "participants": [
@@ -3740,9 +3740,9 @@
     {
       "id": "evt_approach_cover_formation",
       "name": "掩护",
-      "story_time": 36,
+      "story_time": 37,
       "duration": 1,
-      "location": null,
+      "location": "elem_core_network",
       "participants": [
         "char_zhao"
       ],
@@ -3760,9 +3760,9 @@
     {
       "id": "evt_dushi_new_dimension",
       "name": "新维度",
-      "story_time": 34,
+      "story_time": 36,
       "duration": 1,
-      "location": null,
+      "location": "elem_core_network",
       "participants": [
         "char_yi_lan"
       ],
@@ -3802,7 +3802,7 @@
       "name": "西北",
       "story_time": 28,
       "duration": 1,
-      "location": null,
+      "location": "elem_seventh_beacon",
       "participants": [
         "char_zhao"
       ],
@@ -3882,7 +3882,7 @@
       "name": "密度",
       "story_time": 30,
       "duration": 1,
-      "location": null,
+      "location": "elem_core_network_region",
       "participants": [
         "char_ling_yin"
       ],
@@ -3900,9 +3900,9 @@
     {
       "id": "evt_shouyan_witnesses",
       "name": "守岩看着",
-      "story_time": 37,
+      "story_time": 38,
       "duration": 1,
-      "location": null,
+      "location": "elem_core_network",
       "participants": [
         "char_shou_yan"
       ],
@@ -3920,9 +3920,9 @@
     {
       "id": "evt_subarc_c_closure",
       "name": "Sub-arc C收束",
-      "story_time": 38,
+      "story_time": 40,
       "duration": 1,
-      "location": null,
+      "location": "elem_core_network",
       "participants": [
         "char_yi_lan"
       ],
@@ -3940,9 +3940,9 @@
     {
       "id": "evt_territory_combat_aftermath",
       "name": "战后·信号近了",
-      "story_time": 33,
+      "story_time": 34,
       "duration": 1,
-      "location": null,
+      "location": "elem_core_network",
       "participants": [
         "char_ling_yin"
       ],
@@ -3960,9 +3960,9 @@
     {
       "id": "evt_territory_combat_first",
       "name": "领土战",
-      "story_time": 30,
+      "story_time": 31,
       "duration": 1,
-      "location": null,
+      "location": "elem_core_network_region",
       "participants": [
         "char_yi_lan"
       ],
@@ -3980,9 +3980,9 @@
     {
       "id": "evt_territory_combat_second",
       "name": "领土战（二）",
-      "story_time": 32,
+      "story_time": 33,
       "duration": 1,
-      "location": null,
+      "location": "elem_core_network_region",
       "participants": [
         "char_yi_lan"
       ],
@@ -4000,9 +4000,9 @@
     {
       "id": "evt_territory_combat_third",
       "name": "领土战（三）",
-      "story_time": 32,
+      "story_time": 34,
       "duration": 1,
-      "location": null,
+      "location": "elem_core_network",
       "participants": [
         "char_zhao"
       ],
@@ -4022,7 +4022,7 @@
       "name": "时间",
       "story_time": 32,
       "duration": 1,
-      "location": null,
+      "location": "elem_core_network_region",
       "participants": [
         "char_zhao"
       ],
@@ -4040,9 +4040,9 @@
     {
       "id": "evt_time_window_closing",
       "name": "窗口",
-      "story_time": 37,
+      "story_time": 39,
       "duration": 1,
-      "location": null,
+      "location": "elem_core_network",
       "participants": [
         "char_zhao"
       ],
@@ -4060,9 +4060,9 @@
     {
       "id": "evt_wei_se_first_touch",
       "name": "第一次触碰",
-      "story_time": 36,
+      "story_time": 38,
       "duration": 1,
-      "location": null,
+      "location": "elem_core_network",
       "participants": [
         "char_yi_lan"
       ],
@@ -4080,9 +4080,9 @@
     {
       "id": "evt_yi_lan_reaches_for_wei_se",
       "name": "伸手",
-      "story_time": 35,
+      "story_time": 37,
       "duration": 1,
-      "location": null,
+      "location": "elem_core_network",
       "participants": [
         "char_yi_lan"
       ],
@@ -4102,9 +4102,9 @@
       "name": "伊岚学会被动接收形态——守岩传薇瑟旧训练笔记",
       "description": "ch_051：守岩回忆起薇瑟的训练日志——渡蚀在高灵蚀时可用被动接收形态（不往外推，往里收，让目标频率传来），比主动延伸省灵能精度更高。伊岚现场学会并成功使用。",
       "thread_id": "thr_wei_se",
-      "story_time": 34,
+      "story_time": 35,
       "duration": 1,
-      "location": "elem_core_network_region",
+      "location": "elem_core_network",
       "participants": [
         "char_yi_lan",
         "char_shou_yan"
@@ -4141,9 +4141,9 @@
       "name": "伊岚与ember建立共频——容器知道她在",
       "description": "ch_052-054：伊岚以被动接收+最低功率共频，与ember的容器建立双向识别；容器主动对准她的渡蚀频率——确认ember有某种有意识的存在在参与。",
       "thread_id": "thr_yi_lan",
-      "story_time": 35,
+      "story_time": 36,
       "duration": 2,
-      "location": "elem_core_network_region",
+      "location": "elem_core_network",
       "participants": [
         "char_yi_lan",
         "char_wei_se"
@@ -4187,7 +4187,7 @@
       "name": "四次渡蚀接触——容器层层打开",
       "description": "ch_056-059：伊岚四次渡蚀接触空壳薇瑟的ember容器。第一次到第一层（外壁让开）；第二次到第二层边界；第三次到第二层内侧（传输结构发现，erosion_load 54退出）；第四次到传输出口（传输准备完成，erosion_load跳至54→退出等状态恢复）。",
       "thread_id": "thr_yi_lan",
-      "story_time": 37,
+      "story_time": 38,
       "duration": 2,
       "location": "elem_core_network",
       "participants": [
@@ -4234,7 +4234,7 @@
       "name": "ember传输完成——薇瑟的方法进入伊岚灵渊",
       "description": "ch_060：传输57分钟，三层内容全部传入伊岚灵渊（网状渡蚀理论+实现结构+枢纽压力分担方案）。遗核辅助脉动维持过载边界。外围战斗同步进行。erosion_load 57。传输完成后容器关闭，ember传输结构消散。Sub-arc C收束。",
       "thread_id": "thr_yi_lan",
-      "story_time": 38,
+      "story_time": 40,
       "duration": 1,
       "location": "elem_core_network",
       "participants": [
@@ -4281,7 +4281,7 @@
       "name": "打出核心网中心区域",
       "description": "ch_061：传输完成后四人在15分钟内打穿两道蚕母防线（10只+14只），从核心网中心区域撤出到外围。伊岚erosion_load 57不使用渡蚀，改用短刃物理战斗。",
       "thread_id": "thr_garrison",
-      "story_time": 39,
+      "story_time": 40,
       "duration": 1,
       "location": "elem_core_network",
       "participants": [
@@ -4322,7 +4322,7 @@
       "name": "伊岚理解薇瑟的完整方法——网状渡蚀",
       "description": "ch_062-063：回程中伊岚展开三层传输内容。第一层：灵能频率网状分布理论（灵蚀在网络中自然扩散至均衡）。第二层：实现技术（渡蚀频率从定向变弥散，施术者成为枢纽节点）。第三层：枢纽压力分担（反馈频率叠加回枢纽，网络越大枢纽越安全——50个灵渊以上枢纽压力趋近于零）。这不是殉道，是众人分担。",
       "thread_id": "thr_yi_lan",
-      "story_time": 40,
+      "story_time": 41,
       "duration": 2,
       "location": "elem_deep_wasteland_east",
       "participants": [
@@ -4369,7 +4369,7 @@
       "name": "第七号信标印记消散——薇瑟彻底结束",
       "description": "ch_064：回程经过第七号信标遗址，聚焦器里的薇瑟印记已消散（传输把内容全部转移到伊岚灵渊）。聚焦器冷了。伊岚说'走了'。回程第四晚展开全部内容，理解了薇瑟一生的研究：让所有人的灵蚀代价均摊，倒计时变成所有人的而不是某一个人的。",
       "thread_id": "thr_wei_se",
-      "story_time": 41,
+      "story_time": 42,
       "duration": 1,
       "location": "elem_seventh_beacon",
       "participants": [
@@ -4412,7 +4412,7 @@
       "id": "evt_return_journey",
       "name": "回程·伊岚翻译技术为操作",
       "thread_id": "thr_yi_lan",
-      "story_time": 41,
+      "story_time": 43,
       "duration": 1,
       "location": "elem_deep_wasteland_east",
       "participants": [
@@ -4447,7 +4447,7 @@
       "id": "evt_shell_left_behind",
       "name": "空壳薇瑟留在核心网·蚕母将吞空壳",
       "thread_id": "thr_wei_se",
-      "story_time": 42,
+      "story_time": 43,
       "duration": 1,
       "location": "elem_deep_wasteland_east",
       "participants": [
@@ -4487,7 +4487,7 @@
       "id": "evt_dushi_dispersion_test",
       "name": "渡蚀弥散频率首次转换测试",
       "thread_id": "thr_yi_lan",
-      "story_time": 42,
+      "story_time": 44,
       "duration": 1,
       "location": "elem_deep_wasteland_east",
       "participants": [
@@ -4519,7 +4519,7 @@
       "id": "evt_network_4person",
       "name": "四人灵渊网络首次建立",
       "thread_id": "thr_yi_lan",
-      "story_time": 42,
+      "story_time": 44,
       "duration": 1,
       "location": "elem_deep_wasteland_east",
       "participants": [
@@ -4559,7 +4559,7 @@
       "id": "evt_shimu_pursuit_redeploys",
       "name": "蚕母发现目标转移·重新部署搜索网络",
       "thread_id": "thr_hive",
-      "story_time": 43,
+      "story_time": 45,
       "duration": 1,
       "location": "elem_huipo_wasteland_east",
       "participants": [
@@ -4594,7 +4594,7 @@
       "id": "evt_meet_survivors",
       "name": "抵达通信中继站·遇灰珀残部三人",
       "thread_id": "thr_garrison",
-      "story_time": 43,
+      "story_time": 46,
       "duration": 1,
       "location": "elem_relay_station",
       "participants": [
@@ -4633,7 +4633,7 @@
       "id": "evt_network_7person",
       "name": "七人网络·反馈回流首次出现",
       "thread_id": "thr_yi_lan",
-      "story_time": 43,
+      "story_time": 46,
       "duration": 1,
       "location": "elem_relay_station",
       "participants": [
@@ -4676,7 +4676,7 @@
       "id": "evt_relay_broadcast",
       "name": "聆音中继广播·联系更远灵裔",
       "thread_id": "thr_hive",
-      "story_time": 43,
+      "story_time": 46,
       "duration": 1,
       "location": "elem_relay_station",
       "participants": [
@@ -4715,7 +4715,7 @@
       "id": "evt_network_11person",
       "name": "砺锋残部汇合·十一人网络",
       "thread_id": "thr_garrison",
-      "story_time": 43,
+      "story_time": 47,
       "duration": 1,
       "location": "elem_relay_station",
       "participants": [
@@ -4751,7 +4751,7 @@
       "id": "evt_qiongshu_responds",
       "name": "穹枢回应·联络队凝辉抵达",
       "thread_id": "thr_qiongshu_reentry",
-      "story_time": 44,
+      "story_time": 47,
       "duration": 1,
       "location": "elem_relay_station",
       "participants": [
@@ -4784,7 +4784,7 @@
       "id": "evt_ninghui_evaluates",
       "name": "凝辉评估·要求穹枢正式评审",
       "thread_id": "thr_qiongshu_reentry",
-      "story_time": 44,
+      "story_time": 47,
       "duration": 1,
       "location": "elem_relay_station",
       "participants": [
@@ -4823,7 +4823,7 @@
       "id": "evt_depart_for_qiongshu",
       "name": "出发往穹枢·守岩授两种语言",
       "thread_id": "thr_qiongshu_reentry",
-      "story_time": 45,
+      "story_time": 48,
       "duration": 1,
       "location": "elem_lingyin_frontier",
       "participants": [
@@ -4859,7 +4859,7 @@
       "id": "evt_network_16_transmission",
       "name": "路上·十六人网络第二次灵蚀传输",
       "thread_id": "thr_yi_lan",
-      "story_time": 45,
+      "story_time": 48,
       "duration": 1,
       "location": "elem_lingyin_frontier",
       "participants": [
@@ -4895,7 +4895,7 @@
       "id": "evt_shouyan_erosion_late",
       "name": "守岩灵蚀晚期·开始传递旧档案",
       "thread_id": "thr_yi_lan",
-      "story_time": 45,
+      "story_time": 49,
       "duration": 1,
       "location": "elem_lingyin_frontier",
       "participants": [
@@ -4935,7 +4935,7 @@
       "id": "evt_arrive_qiongshu",
       "name": "抵达穹枢·灵能战术委员会",
       "thread_id": "thr_qiongshu_reentry",
-      "story_time": 46,
+      "story_time": 49,
       "duration": 1,
       "location": "elem_lingyin_frontier",
       "participants": [
@@ -4971,7 +4971,7 @@
       "id": "evt_committee_review",
       "name": "评审室·十二人网络委员会感知",
       "thread_id": "thr_qiongshu_reentry",
-      "story_time": 46,
+      "story_time": 50,
       "duration": 1,
       "location": "elem_lingyin_frontier",
       "participants": [
@@ -5005,7 +5005,7 @@
       "id": "evt_network_58_zero_hub",
       "name": "五十八人网络·枢纽压力归零",
       "thread_id": "thr_yi_lan",
-      "story_time": 46,
+      "story_time": 50,
       "duration": 1,
       "location": "elem_lingyin_frontier",
       "participants": [
@@ -5042,7 +5042,7 @@
       "id": "evt_qiongshu_deploys",
       "name": "穹枢部署网状渡蚀为S级资产·联邦矿脉伏笔",
       "thread_id": "thr_qiongshu_reentry",
-      "story_time": 46,
+      "story_time": 51,
       "duration": 1,
       "location": "elem_lingyin_frontier",
       "participants": [
@@ -5081,7 +5081,7 @@
       "id": "evt_network_first_combat",
       "name": "网状渡蚀首次实战·三十五人网络",
       "thread_id": "thr_garrison",
-      "story_time": 47,
+      "story_time": 51,
       "duration": 1,
       "location": "elem_lingyin_frontier",
       "participants": [
@@ -5122,7 +5122,7 @@
       "id": "evt_shouyan_transmits_archive",
       "name": "守岩系统传递全部旧档案",
       "thread_id": "thr_yi_lan",
-      "story_time": 48,
+      "story_time": 52,
       "duration": 1,
       "location": "elem_lingyin_frontier",
       "participants": [
@@ -5163,7 +5163,7 @@
       "id": "evt_network_120_superfreq",
       "name": "百二十人网络·超频谐振涌现",
       "thread_id": "thr_yi_lan",
-      "story_time": 48,
+      "story_time": 53,
       "duration": 1,
       "location": "elem_lingyin_frontier",
       "participants": [
@@ -5201,7 +5201,7 @@
       "id": "evt_shimu_strategic_assault",
       "name": "蚕母战略攻势·八十只从南侧",
       "thread_id": "thr_hive",
-      "story_time": 49,
+      "story_time": 53,
       "duration": 1,
       "location": "elem_lingyin_frontier",
       "participants": [
@@ -5241,7 +5241,7 @@
       "id": "evt_network_92_battle",
       "name": "南侧大战·九十二人网络·守岩最后震波",
       "thread_id": "thr_garrison",
-      "story_time": 50,
+      "story_time": 54,
       "duration": 1,
       "location": "elem_lingyin_frontier",
       "participants": [
