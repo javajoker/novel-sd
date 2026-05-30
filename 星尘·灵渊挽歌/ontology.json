@@ -4,7 +4,7 @@
     "novel_title": "星尘·灵渊挽歌",
     "novel_author": "javajoker",
     "story_time_unit": "chapter",
-    "current_chapter": 35,
+    "current_chapter": 64,
     "tier": "long_novel",
     "language": "zh-Hans",
     "genre": "星际科幻",
@@ -2927,7 +2927,7 @@
         "char_yi_lan",
         "char_wei_se"
       ],
-      "status": "planned",
+      "status": "drafted",
       "dependencies": [
         {
           "event": "evt_seventh_beacon_arrival",
@@ -2966,7 +2966,7 @@
         "char_ling_yin",
         "char_yi_lan"
       ],
-      "status": "planned",
+      "status": "drafted",
       "dependencies": [
         {
           "event": "evt_imprint_gradient_sensed",
@@ -3007,7 +3007,7 @@
         "char_zhao",
         "char_ling_yin"
       ],
-      "status": "planned",
+      "status": "drafted",
       "dependencies": [
         {
           "event": "evt_imprint_direction_decoded",
@@ -3053,7 +3053,7 @@
         "char_shou_yan",
         "char_ling_yin"
       ],
-      "status": "planned",
+      "status": "drafted",
       "dependencies": [
         {
           "event": "evt_core_network_revealed",
@@ -3093,7 +3093,7 @@
         "char_ling_yin",
         "char_yi_lan"
       ],
-      "status": "planned",
+      "status": "drafted",
       "dependencies": [
         {
           "event": "evt_northwest_direction_set",
@@ -3134,7 +3134,7 @@
         "char_zhao",
         "char_ling_yin"
       ],
-      "status": "planned",
+      "status": "drafted",
       "dependencies": [
         {
           "event": "evt_shimu_territory_entered",
@@ -3174,7 +3174,7 @@
         "char_wei_se",
         "char_shi_mu"
       ],
-      "status": "planned",
+      "status": "drafted",
       "dependencies": [
         {
           "event": "evt_deep_vein_memory",
@@ -3218,7 +3218,7 @@
         "char_yi_lan",
         "char_shou_yan"
       ],
-      "status": "planned",
+      "status": "drafted",
       "dependencies": [
         {
           "event": "evt_territory_combat_third",
@@ -3257,7 +3257,7 @@
         "char_shou_yan",
         "char_yi_lan"
       ],
-      "status": "planned",
+      "status": "drafted",
       "dependencies": [
         {
           "event": "evt_yi_lan_erosion_48",
@@ -3297,7 +3297,7 @@
         "char_wei_se",
         "char_yi_lan"
       ],
-      "status": "planned",
+      "status": "drafted",
       "dependencies": [
         {
           "event": "evt_dushi_new_dimension",
@@ -3336,7 +3336,7 @@
         "char_yi_lan",
         "char_wei_se"
       ],
-      "status": "planned",
+      "status": "drafted",
       "dependencies": [
         {
           "event": "evt_wei_se_first_touch",
@@ -3382,7 +3382,7 @@
         "char_zhao",
         "char_ling_yin"
       ],
-      "status": "planned",
+      "status": "drafted",
       "dependencies": [
         {
           "event": "evt_subarc_c_closure",
@@ -3421,7 +3421,7 @@
         "char_yi_lan",
         "char_wei_se"
       ],
-      "status": "planned",
+      "status": "drafted",
       "dependencies": [
         {
           "event": "evt_core_network_arrival",
@@ -3921,7 +3921,7 @@
       "dependencies": [],
       "prerequisites": [],
       "projected_outcome": "昭POV：为伊岚接近空壳提供掩护队形。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_055"
       ],
@@ -3941,7 +3941,7 @@
       "dependencies": [],
       "prerequisites": [],
       "projected_outcome": "伊岚POV：空壳薇瑟停在深脉聚焦点旁；伊岚走向她。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_063"
       ],
@@ -4041,7 +4041,7 @@
       "dependencies": [],
       "prerequisites": [],
       "projected_outcome": "聆音POV：感知核心网灵渊浓度——自然古老灵能聚焦点，蚕母要的是这个。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_062"
       ],
@@ -4061,7 +4061,7 @@
       "dependencies": [],
       "prerequisites": [],
       "projected_outcome": "伊岚POV：ember的感觉——不是残片，是有意保存的容器；erosion_load 50。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_066"
       ],
@@ -4081,7 +4081,7 @@
       "dependencies": [],
       "prerequisites": [],
       "projected_outcome": "伊岚POV：接收技术片段，尝试渡蚀距离渗透新形态——感知可在不接触时延伸更远。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_052"
       ],
@@ -4201,7 +4201,7 @@
       "dependencies": [],
       "prerequisites": [],
       "projected_outcome": "聆音POV：感知ember的层次结构——不是简单意识残片，需要多次尝试读完。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_067"
       ],
@@ -4241,7 +4241,7 @@
       "dependencies": [],
       "prerequisites": [],
       "projected_outcome": "昭POV：西北路线战术评估；请守岩查档案。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_038"
       ],
@@ -4381,7 +4381,7 @@
       "dependencies": [],
       "prerequisites": [],
       "projected_outcome": "聆音POV：蚕母信号密度评估——据点中心，有组织的防御层，不是前哨。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_042"
       ],
@@ -4441,7 +4441,7 @@
       "dependencies": [],
       "prerequisites": [],
       "projected_outcome": "守岩POV：对伊岚说：'她没有等条件变好，她就做了。'",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_068"
       ],
@@ -4481,7 +4481,7 @@
       "dependencies": [],
       "prerequisites": [],
       "projected_outcome": "守岩POV：站在伊岚和空壳之间，看着这一幕；把这件事放进档案。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_057"
       ],
@@ -4501,7 +4501,7 @@
       "dependencies": [],
       "prerequisites": [],
       "projected_outcome": "核心网前方3km；四人与空壳在此；Sub-arc C收束，Sub-arc D开始。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_060"
       ],
@@ -4521,7 +4521,7 @@
       "dependencies": [],
       "prerequisites": [],
       "projected_outcome": "聆音POV：战后恢复；空壳薇瑟信号约10km；蚕母在收拢防线。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_049"
       ],
@@ -4541,7 +4541,7 @@
       "dependencies": [],
       "prerequisites": [],
       "projected_outcome": "伊岚POV：进入蚕母领土第一次接触——有组织的防御需要新战术。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_043"
       ],
@@ -4561,7 +4561,7 @@
       "dependencies": [],
       "prerequisites": [],
       "projected_outcome": "伊岚POV：大规模领土战第一章；快速推进的战术代价。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_047"
       ],
@@ -4581,7 +4581,7 @@
       "dependencies": [],
       "prerequisites": [],
       "projected_outcome": "昭POV：战斗高峰；双节点散射+裂缝增益协同极限。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_048"
       ],
@@ -4601,7 +4601,7 @@
       "dependencies": [],
       "prerequisites": [],
       "projected_outcome": "昭POV：时间压力——蚕母先到则ember可能熄灭；必须更快。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_046"
       ],
@@ -4621,7 +4621,7 @@
       "dependencies": [],
       "prerequisites": [],
       "projected_outcome": "昭POV：蚕母集结信号升温——时间窗口在关闭；通知伊岚。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_058"
       ],
@@ -4641,7 +4641,7 @@
       "dependencies": [],
       "prerequisites": [],
       "projected_outcome": "伊岚POV：渡蚀接触空壳外层——比预期更深更复杂；无法进入，但感知到质量。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_056"
       ],
@@ -4681,7 +4681,7 @@
       "dependencies": [],
       "prerequisites": [],
       "projected_outcome": "伊岚POV：看见空壳薇瑟——不是ch_007的恐惧，是往前够的冲动；渡蚀距离延伸感知触到外层。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_054"
       ],
@@ -4701,12 +4701,323 @@
       "dependencies": [],
       "prerequisites": [],
       "projected_outcome": "昭POV：守外围；蚕母在靠近；时间窗口评估。",
-      "status": "planned",
+      "status": "drafted",
       "chapter_ids": [
         "ch_065"
       ],
       "beat_design": {},
       "_stub": true
+    },
+    {
+      "id": "evt_passive_reception_learned",
+      "name": "伊岚学会被动接收形态——守岩传薇瑟旧训练笔记",
+      "description": "ch_051：守岩回忆起薇瑟的训练日志——渡蚀在高灵蚀时可用被动接收形态（不往外推，往里收，让目标频率传来），比主动延伸省灵能精度更高。伊岚现场学会并成功使用。",
+      "thread_id": "thr_wei_se",
+      "story_time": 34,
+      "duration": 1,
+      "location": "elem_core_network_region",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_yi_lan_erosion_48",
+          "relation": "ENABLES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "ability_learned",
+            "desc": "渡蚀被动接收形态——不发出，只接收，在高erosion_load下精度更高"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_051"
+      ],
+      "beat_design": {
+        "pov": "char_shou_yan",
+        "technique": "direct",
+        "scene_arc": "观察伊岚退后→旧档案浮现→告诉她→伊岚学会",
+        "key_moment": "守岩转述薇瑟的训练笔记，伊岚现场学会被动接收形态",
+        "pov_constraint": "守岩知道笔记内容，不知道为什么薇瑟当时没教"
+      }
+    },
+    {
+      "id": "evt_ember_cofrequency",
+      "name": "伊岚与ember建立共频——容器知道她在",
+      "description": "ch_052-054：伊岚以被动接收+最低功率共频，与ember的容器建立双向识别；容器主动对准她的渡蚀频率——确认ember有某种有意识的存在在参与。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 35,
+      "duration": 2,
+      "location": "elem_core_network_region",
+      "participants": [
+        "char_yi_lan",
+        "char_wei_se"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_passive_reception_learned",
+          "relation": "ENABLES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "milestone",
+            "desc": "与ember建立共频通道，确认容器有主动应答——薇瑟在里面"
+          },
+          {
+            "entity": "char_wei_se",
+            "kind": "ember_responsive",
+            "desc": "ember的容器对渡蚀频率有主动应答——不是被动存放，是在等"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_052",
+        "ch_053",
+        "ch_054"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "被动接收→共频→容器应答→门打开一缝→退出等明天",
+        "key_moment": "伊岚说'它知道我在这里'——ember有意识地应答了",
+        "pov_constraint": "她不知道里面是什么内容"
+      }
+    },
+    {
+      "id": "evt_ember_four_contacts",
+      "name": "四次渡蚀接触——容器层层打开",
+      "description": "ch_056-059：伊岚四次渡蚀接触空壳薇瑟的ember容器。第一次到第一层（外壁让开）；第二次到第二层边界；第三次到第二层内侧（传输结构发现，erosion_load 54退出）；第四次到传输出口（传输准备完成，erosion_load跳至54→退出等状态恢复）。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 37,
+      "duration": 2,
+      "location": "elem_core_network",
+      "participants": [
+        "char_yi_lan",
+        "char_wei_se"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_ember_cofrequency",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "progress",
+            "desc": "四次接触，从第一层到传输出口；erosion_load 48→54"
+          },
+          {
+            "entity": "char_wei_se",
+            "kind": "ember_preparing",
+            "desc": "ember内部传输结构开始排布，准备主动传输"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_056",
+        "ch_057",
+        "ch_058",
+        "ch_059"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "四次渐进接触→每次更深→代价递增→传输结构发现",
+        "key_moment": "第四次接触发现ember是主动传输设计——薇瑟等到接收方来了会自动传",
+        "pov_constraint": "不知道传输需要多长时间"
+      }
+    },
+    {
+      "id": "evt_ember_transmission_complete",
+      "name": "ember传输完成——薇瑟的方法进入伊岚灵渊",
+      "description": "ch_060：传输57分钟，三层内容全部传入伊岚灵渊（网状渡蚀理论+实现结构+枢纽压力分担方案）。遗核辅助脉动维持过载边界。外围战斗同步进行。erosion_load 57。传输完成后容器关闭，ember传输结构消散。Sub-arc C收束。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 38,
+      "duration": 1,
+      "location": "elem_core_network",
+      "participants": [
+        "char_yi_lan",
+        "char_wei_se",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_ember_four_contacts",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "milestone",
+            "desc": "薇瑟的网状渡蚀技术全部传入灵渊；erosion_load 57；Sub-arc C完结"
+          },
+          {
+            "entity": "char_wei_se",
+            "kind": "ember_transmitted",
+            "desc": "ember传输结构消散——内容传完，那一部分结束了"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_060"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "传输开始→外围战斗同步→遗核辅助→57分钟完成→Sub-arc C收束",
+        "key_moment": "传输完成——容器关闭，伊岚说'完成了'",
+        "pov_constraint": "她还没整理内容，不知道薇瑟传了什么"
+      }
+    },
+    {
+      "id": "evt_breakout_core_network",
+      "name": "打出核心网中心区域",
+      "description": "ch_061：传输完成后四人在15分钟内打穿两道蚕母防线（10只+14只），从核心网中心区域撤出到外围。伊岚erosion_load 57不使用渡蚀，改用短刃物理战斗。",
+      "thread_id": "thr_garrison",
+      "story_time": 39,
+      "duration": 1,
+      "location": "elem_core_network",
+      "participants": [
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_ember_transmission_complete",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "thr_garrison",
+            "kind": "tactical",
+            "desc": "四人打出核心网中心区域，伊岚无渡蚀战斗模式"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_061"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "快速突破→两道防线→无渡蚀战斗→脱离",
+        "key_moment": "伊岚在erosion_load 57下不用渡蚀，以短刃格斗",
+        "pov_constraint": "不知道蚕母会不会追"
+      }
+    },
+    {
+      "id": "evt_technique_understood",
+      "name": "伊岚理解薇瑟的完整方法——网状渡蚀",
+      "description": "ch_062-063：回程中伊岚展开三层传输内容。第一层：灵能频率网状分布理论（灵蚀在网络中自然扩散至均衡）。第二层：实现技术（渡蚀频率从定向变弥散，施术者成为枢纽节点）。第三层：枢纽压力分担（反馈频率叠加回枢纽，网络越大枢纽越安全——50个灵渊以上枢纽压力趋近于零）。这不是殉道，是众人分担。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 40,
+      "duration": 2,
+      "location": "elem_deep_wasteland_east",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_ember_transmission_complete",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "knowledge_complete",
+            "desc": "完整理解薇瑟的网状渡蚀技术三层内容"
+          },
+          {
+            "entity": "elem_sui_xing",
+            "kind": "concept_expanded",
+            "desc": "随行的含义从四人小队扩展到灵裔战场规模的众人分担"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_062",
+        "ch_063"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "三层逐步展开→理解→告知队伍→决定回去",
+        "key_moment": "伊岚理解第三层：网络越大枢纽越安全——这不是殉道",
+        "pov_constraint": "她还没有实际使用过网状渡蚀"
+      }
+    },
+    {
+      "id": "evt_imprint_faded",
+      "name": "第七号信标印记消散——薇瑟彻底结束",
+      "description": "ch_064：回程经过第七号信标遗址，聚焦器里的薇瑟印记已消散（传输把内容全部转移到伊岚灵渊）。聚焦器冷了。伊岚说'走了'。回程第四晚展开全部内容，理解了薇瑟一生的研究：让所有人的灵蚀代价均摊，倒计时变成所有人的而不是某一个人的。",
+      "thread_id": "thr_wei_se",
+      "story_time": 41,
+      "duration": 1,
+      "location": "elem_seventh_beacon",
+      "participants": [
+        "char_yi_lan",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_technique_understood",
+          "relation": "PRECEDES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "elem_seventh_beacon",
+            "kind": "imprint_faded",
+            "desc": "聚焦器印记消散，不再发送薇瑟频率"
+          },
+          {
+            "entity": "char_yi_lan",
+            "kind": "psychology",
+            "desc": "不是悲伤，是完成——薇瑟让她等到了，全部等到了"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_064"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "ellipsis",
+        "scene_arc": "经过遗址→印记消散→走了→夜间完整理解",
+        "key_moment": "伊岚蹲在聚焦器旁触碰——冷的——说'走了'",
+        "pov_constraint": "她知道薇瑟结束了，接受了"
+      }
     }
   ],
   "themes": [
@@ -4836,7 +5147,11 @@
         "evt_seventh_beacon_revisit",
         "evt_shouyan_erosion_final",
         "evt_dushi_network_scale",
-        "evt_novel_close"
+        "evt_novel_close",
+        "evt_ember_cofrequency",
+        "evt_ember_four_contacts",
+        "evt_ember_transmission_complete",
+        "evt_technique_understood"
       ],
       "convergences": [
         {
@@ -4926,7 +5241,8 @@
         "evt_return_direction_set",
         "evt_return_begins",
         "evt_return_first_step",
-        "evt_return_through_deep"
+        "evt_return_through_deep",
+        "evt_breakout_core_network"
       ],
       "convergences": [
         {
@@ -5016,7 +5332,9 @@
         "evt_wei_se_training_fragment",
         "evt_wei_se_technique_revealed",
         "evt_wei_se_ember_fades",
-        "evt_shouyan_carves_weise"
+        "evt_shouyan_carves_weise",
+        "evt_passive_reception_learned",
+        "evt_imprint_faded"
       ],
       "convergences": [
         {
@@ -5299,6 +5617,30 @@
       "target": "第七号信标聚焦器",
       "scope": "lore",
       "note": "薇瑟在灵蚀化之前将自身灵渊基础频率作为印记存入第七号信标的灵渊聚焦器，利用聚焦结晶体的时间稳定性使印记得以长期保存并持续低功率发送。这是遗核信标方向信号的来源（遗核与聚焦器在同一频率上共振）。ch_035伊岚渡蚀触碰确认。印记不含方向信息，只有薇瑟的频率本身——薇瑟本人位置未知，印记是路上的一个点，不是终点。"
+    },
+    {
+      "id": "rule_0032",
+      "source": "深脉灵能干扰",
+      "relation": "SUPPRESSES",
+      "target": "蚕母协同通信",
+      "scope": "geography",
+      "note": "核心网中心区域的深脉灵能浓度极高，对蚕母单元的通信协同信号有吸收和干扰效果（响应延迟约15秒）。ch_049-061确认。效果随蚕母单元适应时间增加而递减。"
+    },
+    {
+      "id": "rule_0033",
+      "source": "渡蚀被动接收形态",
+      "relation": "ALTERNATIVE_TO",
+      "target": "渡蚀主动延伸",
+      "scope": "character_specific",
+      "note": "在erosion_load高时可切换：不发送，只接收，让目标频率传来。精度更高，代价更低，但只能感知而不能主动作用。ch_051守岩传薇瑟旧训练笔记，伊岚学会。"
+    },
+    {
+      "id": "rule_0034",
+      "source": "网状渡蚀",
+      "relation": "DISTRIBUTES",
+      "target": "全网灵蚀",
+      "scope": "taboo",
+      "note": "薇瑟一生研究的渡蚀完整形态：灵蚀在网状灵渊网络中自然扩散至均衡，枢纽节点的压力通过反馈频率叠加回流降低。网络≥50灵渊时枢纽压力趋近于零。ch_062-063伊岚理解完整技术。"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "story_time_unit": "chapter",
   "world_calendar": {
     "epoch": "源质觉醒后·收缩纪",
-    "current": "收缩纪 第七年，灰珀守备第 2,213 日"
+    "current": "收缩纪 第七年，灰珀守备第 2,225 日"
   },
   "chapter_to_world_day": {
     "ch_001": 2190,
@@ -528,8 +528,8 @@
     "ch_259": 138,
     "ch_260": 138
   },
-  "current_story_time": 26,
-  "current_chapter": 35,
+  "current_story_time": 41,
+  "current_chapter": 64,
   "chapter_locations": {
     "ch_001": "elem_seventh_garrison",
     "ch_002": "elem_seventh_garrison",
@@ -591,10 +591,10 @@
     "ch_058": "elem_core_network_region",
     "ch_059": "elem_core_network_region",
     "ch_060": "elem_core_network_region",
-    "ch_061": "elem_core_network",
-    "ch_062": "elem_core_network",
-    "ch_063": "elem_core_network",
-    "ch_064": "elem_core_network",
+    "ch_061": "elem_deep_wasteland_east",
+    "ch_062": "elem_deep_wasteland_east",
+    "ch_063": "elem_deep_wasteland_east",
+    "ch_064": "elem_deep_wasteland_east",
     "ch_065": "elem_core_network",
     "ch_066": "elem_core_network",
     "ch_067": "elem_core_network",

@@ -274,6 +274,71 @@
         "erosion_load": 85
       },
       "abilities_delta": []
+    },
+    {
+      "story_time": 28,
+      "chapter_id": "ch_039",
+      "location": "elem_seventh_beacon",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "ch_039旧档案浮现：灵渊核心网——七处接力点的汇聚核心，西北约30km，薇瑟主责维护。古灵渊深脉在核心网下面，比灵裔建设早。",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_core_network_and_deep_vein",
+          "source": "ch_039+044：核心网汇点+古灵渊深脉，薇瑟主责维护"
+        }
+      ],
+      "psychology": {
+        "sanity": 30,
+        "mood": "旧档案里的关键信息用出去了——核心网和深脉",
+        "erosion_load": 85
+      },
+      "abilities_delta": []
+    },
+    {
+      "story_time": 34,
+      "chapter_id": "ch_051",
+      "location": "elem_core_network",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "ch_051：看到伊岚渡蚀感知退后的动作，触发旧档案——薇瑟训练日志的被动接收形态笔记，传给伊岚。ch_057：站在伊岚和空壳之间看着，把这件事放进档案。",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [],
+      "psychology": {
+        "sanity": 30,
+        "mood": "把薇瑟没来得及教的最后一件事传到了——他的活档案功能在关键时刻输出",
+        "erosion_load": 85
+      },
+      "abilities_delta": []
+    },
+    {
+      "story_time": 39,
+      "chapter_id": "ch_061",
+      "location": "elem_core_network → elem_deep_wasteland_east",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "ch_061：从核心网打出来，震波余力消耗到极低——在无裂缝地形里的震波效果回到荒原水平。他接受了，站在他该站的地方。",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [],
+      "psychology": {
+        "sanity": 29,
+        "mood": "打出来了，震波快用完了，但他做了该做的事",
+        "erosion_load": 86
+      },
+      "abilities_delta": []
     }
   ]
 }

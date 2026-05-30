@@ -607,7 +607,7 @@
             "evt_imprint_gradient_sensed"
           ],
           "one_line": "夜守信标遗址：遗核共振与印记长连，印记在西北方向信号更强；渡蚀感知捕捉到方向性梯度。",
-          "status": "planned",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_036.json"
         },
         {
@@ -621,7 +621,7 @@
             "evt_imprint_direction_decoded"
           ],
           "one_line": "聆音POV：频率梯度分析——西北方向衰减最慢，推算西北约30km处有更强灵能节点，是印记的源头方向。",
-          "status": "planned",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_037.json"
         },
         {
@@ -635,7 +635,7 @@
             "evt_northwest_route_assessment"
           ],
           "one_line": "昭POV：西北路线战术评估；请守岩查档案。",
-          "status": "planned",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_038.json"
         },
         {
@@ -649,7 +649,7 @@
             "evt_core_network_revealed"
           ],
           "one_line": "守岩POV：旧档案——七处接力点连接的灵渊核心网汇点，西北约30km；薇瑟曾负责核心网维护。",
-          "status": "planned",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_039.json"
         },
         {
@@ -663,7 +663,7 @@
             "evt_northwest_direction_set"
           ],
           "one_line": "伊岚POV：决定往西北，往灵渊核心网；遗核西北方向共振更强。",
-          "status": "planned",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_040.json"
         },
         {
@@ -677,7 +677,7 @@
             "evt_shimu_territory_entered"
           ],
           "one_line": "昭POV：西北方向是蚕母地盘——领土防御而非追击；第二节点位置重合于核心网汇点。",
-          "status": "planned",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_041.json"
         },
         {
@@ -691,7 +691,7 @@
             "evt_shimu_territory_density"
           ],
           "one_line": "聆音POV：蚕母信号密度评估——据点中心，有组织的防御层，不是前哨。",
-          "status": "planned",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_042.json"
         },
         {
@@ -705,7 +705,7 @@
             "evt_territory_combat_first"
           ],
           "one_line": "伊岚POV：进入蚕母领土第一次接触——有组织的防御需要新战术。",
-          "status": "planned",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_043.json"
         },
         {
@@ -719,7 +719,7 @@
             "evt_deep_vein_memory"
           ],
           "one_line": "守岩POV：旧记忆——核心网汇点下有古灵渊深脉，比灵裔建设早；蚕母要吞噬的是深脉本身。",
-          "status": "planned",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_044.json"
         },
         {
@@ -733,7 +733,7 @@
             "evt_wei_se_shell_pulled"
           ],
           "one_line": "聆音POV：感知到空壳薇瑟信号——她被拉向核心网方向。",
-          "status": "planned",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_045.json"
         },
         {
@@ -747,7 +747,7 @@
             "evt_time_pressure_escalation"
           ],
           "one_line": "昭POV：时间压力——蚕母先到则ember可能熄灭；必须更快。",
-          "status": "planned",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_046.json"
         },
         {
@@ -761,7 +761,7 @@
             "evt_territory_combat_second"
           ],
           "one_line": "伊岚POV：大规模领土战第一章；快速推进的战术代价。",
-          "status": "planned",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_047.json"
         },
         {
@@ -775,7 +775,7 @@
             "evt_territory_combat_third"
           ],
           "one_line": "昭POV：战斗高峰；双节点散射+裂缝增益协同极限。",
-          "status": "planned",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_048.json"
         },
         {
@@ -789,7 +789,7 @@
             "evt_territory_combat_aftermath"
           ],
           "one_line": "聆音POV：战后恢复；空壳薇瑟信号约10km；蚕母在收拢防线。",
-          "status": "planned",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_049.json"
         },
         {
@@ -803,7 +803,7 @@
             "evt_yi_lan_erosion_48"
           ],
           "one_line": "伊岚POV：erosion_load触达48——记忆丢失加速；意识到可能无法在到达空壳前维持清醒。",
-          "status": "planned",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_050.json"
         },
         {
@@ -817,7 +817,7 @@
             "evt_wei_se_training_fragment"
           ],
           "one_line": "守岩POV：旧档案浮现薇瑟的训练日志——渡蚀距离渗透技术笔记；把这件事告诉伊岚。",
-          "status": "planned",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_051.json"
         },
         {
@@ -831,7 +831,7 @@
             "evt_dushi_new_dimension"
           ],
           "one_line": "伊岚POV：接收技术片段，尝试渡蚀距离渗透新形态——感知可在不接触时延伸更远。",
-          "status": "planned",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_052.json"
         },
         {
@@ -845,7 +845,7 @@
             "evt_wei_se_shell_sighted"
           ],
           "one_line": "聆音POV：目视距离内看到空壳薇瑟——比灰珀时更空洞。",
-          "status": "planned",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_053.json"
         },
         {
@@ -859,7 +859,7 @@
             "evt_yi_lan_reaches_for_wei_se"
           ],
           "one_line": "伊岚POV：看见空壳薇瑟——不是ch_007的恐惧，是往前够的冲动；渡蚀距离延伸感知触到外层。",
-          "status": "planned",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_054.json"
         },
         {
@@ -873,7 +873,7 @@
             "evt_approach_cover_formation"
           ],
           "one_line": "昭POV：为伊岚接近空壳提供掩护队形。",
-          "status": "planned",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_055.json"
         },
         {
@@ -887,7 +887,7 @@
             "evt_wei_se_first_touch"
           ],
           "one_line": "伊岚POV：渡蚀接触空壳外层——比预期更深更复杂；无法进入，但感知到质量。",
-          "status": "planned",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_056.json"
         },
         {
@@ -901,7 +901,7 @@
             "evt_shouyan_witnesses"
           ],
           "one_line": "守岩POV：站在伊岚和空壳之间，看着这一幕；把这件事放进档案。",
-          "status": "planned",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_057.json"
         },
         {
@@ -915,7 +915,7 @@
             "evt_time_window_closing"
           ],
           "one_line": "昭POV：蚕母集结信号升温——时间窗口在关闭；通知伊岚。",
-          "status": "planned",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_058.json"
         },
         {
@@ -929,7 +929,7 @@
             "evt_wei_se_inner_contact"
           ],
           "one_line": "伊岚POV：深渡蚀接触空壳内层——到达ember附近；ember不是残片，是有意保存的结构。",
-          "status": "planned",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_059.json"
         },
         {
@@ -943,7 +943,7 @@
             "evt_subarc_c_closure"
           ],
           "one_line": "核心网前方3km；四人与空壳在此；Sub-arc C收束，Sub-arc D开始。",
-          "status": "planned",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_060.json"
         },
         {
@@ -957,7 +957,7 @@
             "evt_core_network_arrival"
           ],
           "one_line": "守岩POV：踏入灵渊核心网遗址——更古老，更深；守岩认出这里的形状。",
-          "status": "planned",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_061.json"
         },
         {
@@ -971,7 +971,7 @@
             "evt_deep_vein_sensed"
           ],
           "one_line": "聆音POV：感知核心网灵渊浓度——自然古老灵能聚焦点，蚕母要的是这个。",
-          "status": "planned",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_062.json"
         },
         {
@@ -985,7 +985,7 @@
             "evt_approach_wei_se_shell"
           ],
           "one_line": "伊岚POV：空壳薇瑟停在深脉聚焦点旁；伊岚走向她。",
-          "status": "planned",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_063.json"
         },
         {
@@ -999,7 +999,7 @@
             "evt_dushi_full_attempt_1"
           ],
           "one_line": "伊岚POV：第一次完整渡蚀尝试，进入空壳比任何一次都深；感知到ember存在，无法接触。erosion_load 50。",
-          "status": "planned",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_064.json"
         },
         {

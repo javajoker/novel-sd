@@ -48,7 +48,11 @@
         "evt_seventh_beacon_revisit",
         "evt_shouyan_erosion_final",
         "evt_dushi_network_scale",
-        "evt_novel_close"
+        "evt_novel_close",
+        "evt_ember_cofrequency",
+        "evt_ember_four_contacts",
+        "evt_ember_transmission_complete",
+        "evt_technique_understood"
       ],
       "convergences_with": [
         "thr_hive@ch_001",
@@ -107,7 +111,8 @@
         "evt_return_direction_set",
         "evt_return_begins",
         "evt_return_first_step",
-        "evt_return_through_deep"
+        "evt_return_through_deep",
+        "evt_breakout_core_network"
       ],
       "convergences_with": [
         "thr_hive@ch_011",
@@ -156,7 +161,9 @@
         "evt_wei_se_training_fragment",
         "evt_wei_se_technique_revealed",
         "evt_wei_se_ember_fades",
-        "evt_shouyan_carves_weise"
+        "evt_shouyan_carves_weise",
+        "evt_passive_reception_learned",
+        "evt_imprint_faded"
       ],
       "convergences_with": [
         "thr_yi_lan@ch_038",

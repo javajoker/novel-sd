@@ -304,7 +304,7 @@
       "name": "西北",
       "story_time": 28,
       "chapter": "ch_038",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
         "char_zhao"
       ]
@@ -314,7 +314,7 @@
       "name": "进入蚕母领土——领土防御而非追击",
       "story_time": 29,
       "chapter": "ch_041",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
         "char_zhao",
         "char_ling_yin",
@@ -326,7 +326,7 @@
       "name": "领土战",
       "story_time": 30,
       "chapter": "ch_043",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
         "char_yi_lan"
       ]
@@ -336,7 +336,7 @@
       "name": "领土战（二）",
       "story_time": 32,
       "chapter": "ch_047",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
         "char_yi_lan"
       ]
@@ -346,7 +346,7 @@
       "name": "领土战（三）",
       "story_time": 32,
       "chapter": "ch_048",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
         "char_zhao"
       ]
@@ -356,7 +356,7 @@
       "name": "时间",
       "story_time": 32,
       "chapter": "ch_046",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
         "char_zhao"
       ]
@@ -366,7 +366,7 @@
       "name": "战后·信号近了",
       "story_time": 33,
       "chapter": "ch_049",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
         "char_ling_yin"
       ]
@@ -376,7 +376,7 @@
       "name": "掩护",
       "story_time": 36,
       "chapter": "ch_055",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
         "char_zhao"
       ]
@@ -386,9 +386,22 @@
       "name": "窗口",
       "story_time": 37,
       "chapter": "ch_058",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
         "char_zhao"
+      ]
+    },
+    {
+      "id": "evt_breakout_core_network",
+      "name": "打出核心网中心区域",
+      "story_time": 39,
+      "chapter": "ch_061",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_ling_yin"
       ]
     },
     {
@@ -396,7 +409,7 @@
       "name": "外围",
       "story_time": 40,
       "chapter": "ch_065",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
         "char_zhao"
       ]

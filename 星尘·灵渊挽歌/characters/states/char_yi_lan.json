@@ -604,6 +604,209 @@
         "erosion_load": 43
       },
       "abilities_delta": []
+    },
+    {
+      "story_time": 27,
+      "chapter_id": "ch_036–ch_040",
+      "location": "elem_seventh_beacon → elem_core_network_region",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "discovery",
+          "desc": "ch_036：遗核在西北方向频率传播阻力最低——印记有方向性梯度；ch_037聆音推算西北约30km有大型灵能节点；ch_039守岩确认灵渊核心网汇点；ch_040决定往西北走",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_imprint_gradient_northwest",
+          "source": "ch_036-037：遗核+聆音确认印记频率梯度指向西北约30km"
+        },
+        {
+          "fact": "fact_core_network_existence",
+          "source": "ch_039：守岩旧档案——灵渊核心网汇点，七处接力点的核心，薇瑟曾主责维护"
+        },
+        {
+          "fact": "fact_shimu_at_core_network",
+          "source": "ch_037/041：蚕母第二节点位于核心网，她选择那里因为深脉灵能浓度最高"
+        }
+      ],
+      "psychology": {
+        "sanity": 62,
+        "mood": "方向明确——往西北，往核心网，往薇瑟更深的印记所在",
+        "erosion_load": 43
+      },
+      "abilities_delta": [],
+      "derived_inventory": [
+        "elem_wei_se_core",
+        "源质结晶 x1",
+        "灵能制式短刃"
+      ]
+    },
+    {
+      "story_time": 33,
+      "chapter_id": "ch_049–ch_050",
+      "location": "elem_core_network",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "debuff",
+          "desc": "erosion_load触达48→进入代价边界；近期记忆开始加速消散（昨晚说了什么想不起来）；渡蚀感知精度开始受影响（约15%误差率）",
+          "severity": "high"
+        },
+        {
+          "type": "milestone",
+          "desc": "遗核共振感知到空壳薇瑟ember在约80米外——近距离ember应答，伊岚决定现在接触",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_ember_nearby",
+          "source": "ch_049：遗核远距离共振，ember在东北约80米外应答"
+        },
+        {
+          "fact": "fact_erosion_48_threshold",
+          "source": "ch_050：erosion_load 48，渡蚀精度下降约15%，近期记忆消散加速"
+        }
+      ],
+      "psychology": {
+        "sanity": 58,
+        "mood": "代价在逼近边界，但方向更清楚——现在接触，利用深脉环境",
+        "erosion_load": 48
+      },
+      "abilities_delta": [],
+      "derived_inventory": [
+        "elem_wei_se_core",
+        "源质结晶 x1",
+        "灵能制式短刃"
+      ]
+    },
+    {
+      "story_time": 35,
+      "chapter_id": "ch_051–ch_054",
+      "location": "elem_core_network",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "ch_051：守岩传薇瑟旧训练笔记，学会渡蚀被动接收形态（不发出只接收）；ch_052-053：与ember建立共频，容器主动应答——薇瑟在里面；ch_054：第一次渡蚀接触容器外壁，容器让开一缝，感知到ember的内容是技术结构，不是记忆",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_passive_reception",
+          "source": "ch_051：守岩转述薇瑟笔记——渡蚀被动接收形态"
+        },
+        {
+          "fact": "fact_ember_is_conscious",
+          "source": "ch_052-053：ember容器对渡蚀有主动应答——有意识的存在在参与"
+        },
+        {
+          "fact": "fact_ember_is_technique",
+          "source": "ch_054-056：ember第一层内容是技术结构，不是情感残留"
+        }
+      ],
+      "psychology": {
+        "sanity": 56,
+        "mood": "找到了——薇瑟在那里面等着传东西给她；被动接收是新能力",
+        "erosion_load": 49
+      },
+      "abilities_delta": [
+        {
+          "ability": "渡蚀·被动接收形态",
+          "change": "ch_051学会：不发出只接收，erosion高时精度更好"
+        }
+      ],
+      "derived_inventory": [
+        "elem_wei_se_core",
+        "源质结晶 x1",
+        "灵能制式短刃"
+      ]
+    },
+    {
+      "story_time": 38,
+      "chapter_id": "ch_059–ch_060",
+      "location": "elem_core_network",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "ch_059：第四次接触到传输出口，发现ember是主动传输设计；ch_060：传输57分钟完成，三层内容全部进入灵渊，遗核辅助脉动维持过载边界。Sub-arc C收束。",
+          "severity": "n/a"
+        },
+        {
+          "type": "debuff",
+          "desc": "erosion_load从52跳至57（传输代价）；灵渊高热但遗核辅助稳住",
+          "severity": "high"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_ember_auto_transmit",
+          "source": "ch_059：ember内部设计为主动传输——等到正确接触后往外传"
+        },
+        {
+          "fact": "fact_transmission_complete",
+          "source": "ch_060：三层内容57分钟全部传入灵渊，容器传输结构消散"
+        }
+      ],
+      "psychology": {
+        "sanity": 54,
+        "mood": "传输完了，还不知道里面是什么；Sub-arc C结束",
+        "erosion_load": 57
+      },
+      "abilities_delta": [],
+      "derived_inventory": [
+        "elem_wei_se_core",
+        "源质结晶 x1",
+        "灵能制式短刃"
+      ]
+    },
+    {
+      "story_time": 41,
+      "chapter_id": "ch_062–ch_064",
+      "location": "elem_deep_wasteland_east → elem_seventh_beacon",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "ch_062-063：展开三层传输内容——第一层网状渡蚀理论（灵蚀均衡扩散）、第二层实现技术（弥散频率+枢纽节点）、第三层枢纽分担（反馈叠加回流，≥50灵渊枢纽趋零）。完整理解薇瑟的毕生研究：众人分担不是殉道。",
+          "severity": "n/a"
+        },
+        {
+          "type": "psychology",
+          "desc": "ch_064：第七号信标印记消散——薇瑟彻底结束。不是悲伤，是完成。决定带着技术回到有灵裔的地方。",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_network_dushi_complete",
+          "source": "ch_062-063：理解薇瑟网状渡蚀完整技术——灵蚀均摊，枢纽压力反馈回流，≥50灵渊枢纽趋零"
+        },
+        {
+          "fact": "fact_wei_se_imprint_faded",
+          "source": "ch_064：第七号信标聚焦器印记消散，薇瑟频率不再发送"
+        }
+      ],
+      "psychology": {
+        "sanity": 54,
+        "mood": "薇瑟的方法在灵渊里了——带着它往回走，往有人的地方走",
+        "erosion_load": 57
+      },
+      "abilities_delta": [
+        {
+          "ability": "网状渡蚀（理论持有）",
+          "change": "ch_063：理论完整持有，尚未实践使用"
+        }
+      ],
+      "derived_inventory": [
+        "elem_wei_se_core",
+        "源质结晶 x1",
+        "灵能制式短刃"
+      ]
     }
   ]
 }

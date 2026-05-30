@@ -450,7 +450,7 @@
       "chapter_ids": [
         "ch_037"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_imprint_gradient_sensed",
@@ -459,7 +459,7 @@
       "chapter_ids": [
         "ch_036"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_core_network_revealed",
@@ -468,7 +468,7 @@
       "chapter_ids": [
         "ch_039"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_northwest_route_assessment",
@@ -477,7 +477,7 @@
       "chapter_ids": [
         "ch_038"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_northwest_direction_set",
@@ -486,7 +486,7 @@
       "chapter_ids": [
         "ch_040"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_shimu_territory_entered",
@@ -495,7 +495,7 @@
       "chapter_ids": [
         "ch_041"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_shimu_territory_density",
@@ -504,7 +504,7 @@
       "chapter_ids": [
         "ch_042"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_territory_combat_first",
@@ -513,7 +513,7 @@
       "chapter_ids": [
         "ch_043"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_deep_vein_memory",
@@ -522,7 +522,7 @@
       "chapter_ids": [
         "ch_044"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_wei_se_shell_pulled",
@@ -531,7 +531,7 @@
       "chapter_ids": [
         "ch_045"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_territory_combat_second",
@@ -540,7 +540,7 @@
       "chapter_ids": [
         "ch_047"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_territory_combat_third",
@@ -549,7 +549,7 @@
       "chapter_ids": [
         "ch_048"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_time_pressure_escalation",
@@ -558,7 +558,7 @@
       "chapter_ids": [
         "ch_046"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_territory_combat_aftermath",
@@ -567,7 +567,7 @@
       "chapter_ids": [
         "ch_049"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_yi_lan_erosion_48",
@@ -576,7 +576,7 @@
       "chapter_ids": [
         "ch_050"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_dushi_new_dimension",
@@ -585,7 +585,16 @@
       "chapter_ids": [
         "ch_052"
       ],
-      "status": "planned"
+      "status": "drafted"
+    },
+    {
+      "id": "evt_passive_reception_learned",
+      "story_time": 34,
+      "thread_id": "thr_wei_se",
+      "chapter_ids": [
+        "ch_051"
+      ],
+      "status": "drafted"
     },
     {
       "id": "evt_wei_se_training_fragment",
@@ -594,7 +603,18 @@
       "chapter_ids": [
         "ch_051"
       ],
-      "status": "planned"
+      "status": "drafted"
+    },
+    {
+      "id": "evt_ember_cofrequency",
+      "story_time": 35,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_052",
+        "ch_053",
+        "ch_054"
+      ],
+      "status": "drafted"
     },
     {
       "id": "evt_wei_se_shell_sighted",
@@ -603,7 +623,7 @@
       "chapter_ids": [
         "ch_053"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_yi_lan_reaches_for_wei_se",
@@ -612,7 +632,7 @@
       "chapter_ids": [
         "ch_054"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_approach_cover_formation",
@@ -621,7 +641,7 @@
       "chapter_ids": [
         "ch_055"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_wei_se_first_touch",
@@ -630,7 +650,19 @@
       "chapter_ids": [
         "ch_056"
       ],
-      "status": "planned"
+      "status": "drafted"
+    },
+    {
+      "id": "evt_ember_four_contacts",
+      "story_time": 37,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_056",
+        "ch_057",
+        "ch_058",
+        "ch_059"
+      ],
+      "status": "drafted"
     },
     {
       "id": "evt_shouyan_witnesses",
@@ -639,7 +671,7 @@
       "chapter_ids": [
         "ch_057"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_time_window_closing",
@@ -648,7 +680,16 @@
       "chapter_ids": [
         "ch_058"
       ],
-      "status": "planned"
+      "status": "drafted"
+    },
+    {
+      "id": "evt_ember_transmission_complete",
+      "story_time": 38,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_060"
+      ],
+      "status": "drafted"
     },
     {
       "id": "evt_subarc_c_closure",
@@ -657,7 +698,7 @@
       "chapter_ids": [
         "ch_060"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_wei_se_inner_contact",
@@ -666,7 +707,16 @@
       "chapter_ids": [
         "ch_059"
       ],
-      "status": "planned"
+      "status": "drafted"
+    },
+    {
+      "id": "evt_breakout_core_network",
+      "story_time": 39,
+      "thread_id": "thr_garrison",
+      "chapter_ids": [
+        "ch_061"
+      ],
+      "status": "drafted"
     },
     {
       "id": "evt_core_network_arrival",
@@ -675,7 +725,7 @@
       "chapter_ids": [
         "ch_061"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_deep_vein_sensed",
@@ -684,7 +734,7 @@
       "chapter_ids": [
         "ch_062"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_approach_wei_se_shell",
@@ -693,7 +743,7 @@
       "chapter_ids": [
         "ch_063"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_dushi_full_attempt_1",
@@ -702,7 +752,17 @@
       "chapter_ids": [
         "ch_064"
       ],
-      "status": "planned"
+      "status": "drafted"
+    },
+    {
+      "id": "evt_technique_understood",
+      "story_time": 40,
+      "thread_id": "thr_yi_lan",
+      "chapter_ids": [
+        "ch_062",
+        "ch_063"
+      ],
+      "status": "drafted"
     },
     {
       "id": "evt_zhao_guards_perimeter",
@@ -711,7 +771,7 @@
       "chapter_ids": [
         "ch_065"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_dushi_attempt_1_aftermath",
@@ -720,7 +780,16 @@
       "chapter_ids": [
         "ch_066"
       ],
-      "status": "planned"
+      "status": "drafted"
+    },
+    {
+      "id": "evt_imprint_faded",
+      "story_time": 41,
+      "thread_id": "thr_wei_se",
+      "chapter_ids": [
+        "ch_064"
+      ],
+      "status": "drafted"
     },
     {
       "id": "evt_lingyin_senses_ember_structure",
@@ -729,7 +798,7 @@
       "chapter_ids": [
         "ch_067"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_core_network_outer_battle",
@@ -756,7 +825,7 @@
       "chapter_ids": [
         "ch_068"
       ],
-      "status": "planned"
+      "status": "drafted"
     },
     {
       "id": "evt_ember_content_touched",

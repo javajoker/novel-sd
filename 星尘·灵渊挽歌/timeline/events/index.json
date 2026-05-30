@@ -1,7 +1,7 @@
 {
   "_note": "Index of all timeline events. Authoritative source is ontology.json#events; shards are mirrors.",
-  "last_story_time": 35,
-  "last_chapter": "ch_035",
+  "last_story_time": 64,
+  "last_chapter": "ch_064",
   "by_chapter": {
     "ch_001": [
       "evt_huipo_assault",
@@ -166,9 +166,11 @@
       "evt_yi_lan_erosion_48"
     ],
     "ch_052": [
-      "evt_dushi_new_dimension"
+      "evt_dushi_new_dimension",
+      "evt_ember_cofrequency"
     ],
     "ch_051": [
+      "evt_passive_reception_learned",
       "evt_wei_se_training_fragment"
     ],
     "ch_053": [
@@ -181,7 +183,8 @@
       "evt_approach_cover_formation"
     ],
     "ch_056": [
-      "evt_wei_se_first_touch"
+      "evt_wei_se_first_touch",
+      "evt_ember_four_contacts"
     ],
     "ch_057": [
       "evt_shouyan_witnesses"
@@ -190,22 +193,26 @@
       "evt_time_window_closing"
     ],
     "ch_060": [
+      "evt_ember_transmission_complete",
       "evt_subarc_c_closure"
     ],
     "ch_059": [
       "evt_wei_se_inner_contact"
     ],
     "ch_061": [
+      "evt_breakout_core_network",
       "evt_core_network_arrival"
     ],
     "ch_062": [
-      "evt_deep_vein_sensed"
+      "evt_deep_vein_sensed",
+      "evt_technique_understood"
     ],
     "ch_063": [
       "evt_approach_wei_se_shell"
     ],
     "ch_064": [
-      "evt_dushi_full_attempt_1"
+      "evt_dushi_full_attempt_1",
+      "evt_imprint_faded"
     ],
     "ch_065": [
       "evt_zhao_guards_perimeter"
@@ -444,9 +451,11 @@
     ],
     "34": [
       "evt_dushi_new_dimension",
+      "evt_passive_reception_learned",
       "evt_wei_se_training_fragment"
     ],
     "35": [
+      "evt_ember_cofrequency",
       "evt_wei_se_shell_sighted",
       "evt_yi_lan_reaches_for_wei_se"
     ],
@@ -455,24 +464,29 @@
       "evt_wei_se_first_touch"
     ],
     "37": [
+      "evt_ember_four_contacts",
       "evt_shouyan_witnesses",
       "evt_time_window_closing"
     ],
     "38": [
+      "evt_ember_transmission_complete",
       "evt_subarc_c_closure",
       "evt_wei_se_inner_contact"
     ],
     "39": [
+      "evt_breakout_core_network",
       "evt_core_network_arrival",
       "evt_deep_vein_sensed"
     ],
     "40": [
       "evt_approach_wei_se_shell",
       "evt_dushi_full_attempt_1",
+      "evt_technique_understood",
       "evt_zhao_guards_perimeter"
     ],
     "41": [
       "evt_dushi_attempt_1_aftermath",
+      "evt_imprint_faded",
       "evt_lingyin_senses_ember_structure"
     ],
     "42": [
@@ -584,7 +598,11 @@
       "evt_seventh_beacon_revisit",
       "evt_shouyan_erosion_final",
       "evt_dushi_network_scale",
-      "evt_novel_close"
+      "evt_novel_close",
+      "evt_ember_cofrequency",
+      "evt_ember_four_contacts",
+      "evt_ember_transmission_complete",
+      "evt_technique_understood"
     ],
     "thr_garrison": [
       "evt_huipo_assault",
@@ -631,7 +649,8 @@
       "evt_return_direction_set",
       "evt_return_begins",
       "evt_return_first_step",
-      "evt_return_through_deep"
+      "evt_return_through_deep",
+      "evt_breakout_core_network"
     ],
     "thr_hive": [
       "evt_wei_se_appears",
@@ -659,7 +678,9 @@
       "evt_wei_se_training_fragment",
       "evt_wei_se_technique_revealed",
       "evt_wei_se_ember_fades",
-      "evt_shouyan_carves_weise"
+      "evt_shouyan_carves_weise",
+      "evt_passive_reception_learned",
+      "evt_imprint_faded"
     ],
     "thr_qiongshu_reentry": [
       "evt_kai_er_reappears"

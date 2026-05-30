@@ -322,6 +322,69 @@
         "erosion_load": 5
       },
       "abilities_delta": []
+    },
+    {
+      "story_time": 30,
+      "chapter_id": "ch_042–ch_049",
+      "location": "elem_core_network_region → elem_core_network",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "ch_042：蚕母领土信号密度评估——11组常驻防御，据点中心。ch_045：感知到空壳薇瑟信号在往核心网方向移动，被深脉环境吸引。ch_049：进入核心网中心后感知空壳在约80米外——ember频率比以前更清楚。",
+          "severity": "n/a"
+        },
+        {
+          "type": "debuff",
+          "desc": "多次全频干扰+持续感知，灵能降至18-22%多次",
+          "severity": "medium"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_shimu_territory_density",
+          "source": "ch_042：11组常驻单元，有协同通信网络"
+        },
+        {
+          "fact": "fact_wei_se_shell_pulled_by_vein",
+          "source": "ch_045：空壳薇瑟被深脉灵能梯度吸引往核心网方向移动"
+        },
+        {
+          "fact": "fact_deep_vein_suppresses_swarm",
+          "source": "ch_049：核心网中心深脉干扰蚕母协同"
+        }
+      ],
+      "psychology": {
+        "sanity": 71,
+        "mood": "工作在进行——感知预警、数据分析、战斗支援三个优先级维持",
+        "erosion_load": 5
+      },
+      "abilities_delta": []
+    },
+    {
+      "story_time": 38,
+      "chapter_id": "ch_060",
+      "location": "elem_core_network",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "ch_060传输期间：全频干扰+a'双重压制蚕母集结信号，灵能降至极低。最后保护伊岚渡蚀通道不被干扰。",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_ember_transmitted",
+          "source": "ch_060：在战斗中感知到伊岚渡蚀通道的传输完成——ember频率形态变化确认"
+        }
+      ],
+      "psychology": {
+        "sanity": 71,
+        "mood": "传输完了，打出去了；灵能需要恢复",
+        "erosion_load": 5
+      },
+      "abilities_delta": []
     }
   ]
 }

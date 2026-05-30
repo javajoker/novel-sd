@@ -169,7 +169,7 @@
       "name": "印记频率梯度感知——方向性浮现",
       "story_time": 27,
       "chapter": "ch_036",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
         "char_yi_lan",
         "char_wei_se"
@@ -180,7 +180,7 @@
       "name": "守岩记忆——灵渊核心网",
       "story_time": 28,
       "chapter": "ch_039",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
         "char_shou_yan",
         "char_yi_lan",
@@ -193,7 +193,7 @@
       "name": "决定往西北——往核心网",
       "story_time": 29,
       "chapter": "ch_040",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
         "char_yi_lan",
         "char_zhao",
@@ -206,7 +206,7 @@
       "name": "守岩记忆——古灵渊深脉",
       "story_time": 31,
       "chapter": "ch_044",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
         "char_shou_yan",
         "char_yi_lan",
@@ -219,7 +219,7 @@
       "name": "伊岚灵蚀危机——erosion_load 48",
       "story_time": 33,
       "chapter": "ch_050",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
         "char_yi_lan",
         "char_shou_yan"
@@ -230,9 +230,20 @@
       "name": "新维度",
       "story_time": 34,
       "chapter": "ch_052",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
         "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_ember_cofrequency",
+      "name": "伊岚与ember建立共频——容器知道她在",
+      "story_time": 35,
+      "chapter": "ch_052",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_wei_se"
       ]
     },
     {
@@ -240,7 +251,7 @@
       "name": "伸手",
       "story_time": 35,
       "chapter": "ch_054",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
         "char_yi_lan"
       ]
@@ -250,9 +261,20 @@
       "name": "第一次触碰",
       "story_time": 36,
       "chapter": "ch_056",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
         "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_ember_four_contacts",
+      "name": "四次渡蚀接触——容器层层打开",
+      "story_time": 37,
+      "chapter": "ch_056",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_wei_se"
       ]
     },
     {
@@ -260,9 +282,23 @@
       "name": "守岩看着",
       "story_time": 37,
       "chapter": "ch_057",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
         "char_shou_yan"
+      ]
+    },
+    {
+      "id": "evt_ember_transmission_complete",
+      "name": "ember传输完成——薇瑟的方法进入伊岚灵渊",
+      "story_time": 38,
+      "chapter": "ch_060",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_wei_se",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
       ]
     },
     {
@@ -270,7 +306,7 @@
       "name": "Sub-arc C收束",
       "story_time": 38,
       "chapter": "ch_060",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
         "char_yi_lan"
       ]
@@ -280,7 +316,7 @@
       "name": "伊岚渡蚀接触空壳内层——发现ember结构",
       "story_time": 38,
       "chapter": "ch_059",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
         "char_yi_lan",
         "char_wei_se"
@@ -291,7 +327,7 @@
       "name": "踏入灵渊核心网遗址",
       "story_time": 39,
       "chapter": "ch_061",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
         "char_yi_lan",
         "char_shou_yan",
@@ -304,7 +340,7 @@
       "name": "走向她",
       "story_time": 40,
       "chapter": "ch_063",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
         "char_yi_lan"
       ]
@@ -314,10 +350,23 @@
       "name": "第一次完整渡蚀尝试——进入空壳深层",
       "story_time": 40,
       "chapter": "ch_064",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
         "char_yi_lan",
         "char_wei_se"
+      ]
+    },
+    {
+      "id": "evt_technique_understood",
+      "name": "伊岚理解薇瑟的完整方法——网状渡蚀",
+      "story_time": 40,
+      "chapter": "ch_062",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
       ]
     },
     {
@@ -325,7 +374,7 @@
       "name": "第一次之后",
       "story_time": 41,
       "chapter": "ch_066",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
         "char_yi_lan"
       ]
@@ -346,7 +395,7 @@
       "name": "守岩的话",
       "story_time": 42,
       "chapter": "ch_068",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
         "char_shou_yan"
       ]

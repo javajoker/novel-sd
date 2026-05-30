@@ -3,14 +3,36 @@
   "thread_id": "thr_wei_se",
   "events": [
     {
+      "id": "evt_passive_reception_learned",
+      "name": "伊岚学会被动接收形态——守岩传薇瑟旧训练笔记",
+      "story_time": 34,
+      "chapter": "ch_051",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan"
+      ]
+    },
+    {
       "id": "evt_wei_se_training_fragment",
       "name": "守岩记忆——薇瑟训练日志的距离渗透技术",
       "story_time": 34,
       "chapter": "ch_051",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
         "char_shou_yan",
         "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_imprint_faded",
+      "name": "第七号信标印记消散——薇瑟彻底结束",
+      "story_time": 41,
+      "chapter": "ch_064",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_ling_yin"
       ]
     },
     {

@@ -3,9 +3,9 @@
     {
       "id": "hook_wei_se_ember",
       "concept": "空壳薇瑟灵渊深处残留的'自我余烬'",
-      "status": "major_resolved",
+      "status": "resolved",
       "introduced_chapter": "ch_001",
-      "last_mention_chapter": "ch_035",
+      "last_mention_chapter": "ch_064",
       "occurrences": [
         {
           "chapter_id": "ch_001",
@@ -100,6 +100,24 @@
           "chapter_id": "ch_035",
           "note": "MAJOR PAYOFF：抵达第七号信标，伊岚渡蚀触碰聚焦器，确认薇瑟灵渊印记——连续稳定，与遗核和聆音的感知记忆特征完全一致，是有意留下的。印记在，薇瑟本人位置未知，这是路上的一个点。Sub-arc B完结。Sub-arc C：从印记里找下一条路。"
         }
+      ],
+      "occurrences_continued_5": [
+        {
+          "chapter_id": "ch_036-040",
+          "note": "印记梯度解码→西北方向→核心网确认→往那里走。遗核方向和核心网/蚕母据点重合。"
+        },
+        {
+          "chapter_id": "ch_049-054",
+          "note": "进入核心网中心区域，ember在80米外应答→伊岚学会被动接收→共频建立→第一次接触容器→容器主动识别→内容是技术结构。"
+        },
+        {
+          "chapter_id": "ch_056-060",
+          "note": "四次渡蚀接触→传输结构发现→57分钟传输完成三层内容→erosion_load 57→Sub-arc C收束。"
+        },
+        {
+          "chapter_id": "ch_062-064",
+          "note": "FINAL RESOLUTION：三层内容展开——网状渡蚀理论+实现技术+枢纽分担方案。第七号信标印记消散。薇瑟ember彻底结束，技术在伊岚灵渊里。"
+        }
       ]
     },
     {
@@ -160,7 +178,7 @@
       "concept": "渡蚀真正的最终代价（伊岚尚不自知→逐步揭示）",
       "status": "partial_resolved",
       "introduced_chapter": "ch_001",
-      "last_mention_chapter": "ch_015",
+      "last_mention_chapter": "ch_063",
       "occurrences": [
         {
           "chapter_id": "ch_001",
@@ -198,7 +216,21 @@
         }
       ],
       "payoff_planned_chapter": "vol_03",
-      "risk": "渡蚀代价完整弧线：卷一恐惧落地+行动改变，卷二压力峰值与外部援助出现（遗核），卷三：随行与隐瞒的张力作为新的心理代价形式；erosion_load稳定在40，但随行要求诚实而她正在隐瞒——矛盾将在某个时刻爆发。"
+      "risk": "渡蚀代价完整弧线：卷一恐惧落地+行动改变，卷二压力峰值与外部援助出现（遗核），卷三：随行与隐瞒的张力作为新的心理代价形式；erosion_load稳定在40，但随行要求诚实而她正在隐瞒——矛盾将在某个时刻爆发。",
+      "occurrences_continued_2": [
+        {
+          "chapter_id": "ch_050",
+          "note": "erosion_load 48代价边界：近期记忆消散加速，渡蚀精度-15%。"
+        },
+        {
+          "chapter_id": "ch_060",
+          "note": "传输代价：erosion_load 52→57，灵渊高热但遗核辅助稳住。"
+        },
+        {
+          "chapter_id": "ch_063",
+          "note": "PARTIAL RESOLUTION：薇瑟的网状渡蚀第三层=枢纽分担方案——如果网络≥50灵渊，枢纽趋零。伊岚的代价理论上有解了，但还没有实践验证。"
+        }
+      ]
     },
     {
       "id": "hook_huipo_vein_pact",
@@ -478,13 +510,17 @@
     {
       "id": "hook_wei_se_next_step",
       "concept": "薇瑟灵渊印记留下的路——从第七号信标出发的下一段",
-      "status": "open",
+      "status": "resolved",
       "introduced_chapter": "ch_035",
-      "last_mention_chapter": "ch_035",
+      "last_mention_chapter": "ch_064",
       "occurrences": [
         {
           "chapter_id": "ch_035",
           "note": "第七号信标聚焦器保存了薇瑟的灵渊印记，但印记不含方向信息，只有频率本身。路的下一段需要：聆音从聚焦器频率延伸感知；昭重新画战术地图；守岩往旧时档案里再找；伊岚从这段印记里学习薇瑟的频率方向。Sub-arc C·信标渐近从这里开始。"
+        },
+        {
+          "chapter_id": "ch_064",
+          "note": "RESOLVED：薇瑟的路走完了——从第七号信标印记出发→核心网→ember传输→三层技术内容→伊岚完整持有。路的下一段是带着技术回去。"
         }
       ],
       "payoff_planned_chapter": "vol_03_C",

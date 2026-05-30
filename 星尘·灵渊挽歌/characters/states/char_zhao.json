@@ -321,6 +321,60 @@
         "erosion_load": 12
       },
       "abilities_delta": []
+    },
+    {
+      "story_time": 30,
+      "chapter_id": "ch_041–ch_048",
+      "location": "elem_core_network_region → elem_core_network",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "ch_041-048：领土战（三次大规模+多次小规模）；进入蚕母领土防御区→核心网中心区域。战术判断：不正面打17只+干扰型单元，西侧绕行；最后500米全力突破8只清除4只穿过。右侧磕伤+碰伤。",
+          "severity": "n/a"
+        },
+        {
+          "type": "debuff",
+          "desc": "右臂绑带+右侧碰伤，功能在但精度微降",
+          "severity": "low"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_shimu_territory_defense",
+          "source": "ch_041-042：领土防御形态确认——11组3-8只常驻防御，有协同通信"
+        },
+        {
+          "fact": "fact_deep_vein_suppresses_swarm",
+          "source": "ch_049：核心网中心区域深脉干扰蚕母协同通信，响应延迟约15秒"
+        }
+      ],
+      "psychology": {
+        "sanity": 63,
+        "mood": "打过去了——所有的战术都用到了极限；右臂有伤，继续",
+        "erosion_load": 12
+      },
+      "abilities_delta": []
+    },
+    {
+      "story_time": 39,
+      "chapter_id": "ch_061",
+      "location": "elem_core_network → elem_deep_wasteland_east",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "ch_061：从核心网中心区域打出（两道防线，10+14只），在伊岚无渡蚀状态下完成——昭和守岩分摊了原本渡蚀分散的压力。脱离领土防御主力追踪。",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [],
+      "psychology": {
+        "sanity": 62,
+        "mood": "打出来了；回程开始；战术地图重建中——带着技术回去",
+        "erosion_load": 12
+      },
+      "abilities_delta": []
     }
   ]
 }
