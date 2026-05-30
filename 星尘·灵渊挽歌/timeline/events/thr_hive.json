@@ -181,43 +181,41 @@
       ]
     },
     {
-      "id": "evt_deep_vein_sensed",
-      "name": "深脉的呼吸",
-      "story_time": 39,
-      "chapter": "ch_062",
+      "id": "evt_relay_broadcast",
+      "name": "聆音中继广播·联系更远灵裔",
+      "story_time": 43,
+      "chapter": "ch_073",
       "status": "drafted",
       "participants": [
-        "char_ling_yin"
+        "char_ling_yin",
+        "char_xuan_xing",
+        "char_yi_lan"
       ]
     },
     {
-      "id": "evt_lingyin_senses_ember_structure",
-      "name": "聆音的感知",
-      "story_time": 41,
-      "chapter": "ch_067",
+      "id": "evt_shimu_pursuit_redeploys",
+      "name": "蚕母发现目标转移·重新部署搜索网络",
+      "story_time": 43,
+      "chapter": "ch_069",
       "status": "drafted",
       "participants": [
-        "char_ling_yin"
+        "char_shi_mu",
+        "char_ling_yin",
+        "char_zhao",
+        "char_yi_lan"
       ]
     },
     {
-      "id": "evt_core_network_changes",
-      "name": "核心网在改变",
-      "story_time": 48,
-      "chapter": "ch_084",
-      "status": "planned",
-      "participants": [
-        "char_ling_yin"
-      ]
-    },
-    {
-      "id": "evt_new_signal_from_core",
-      "name": "新的信号",
-      "story_time": 50,
+      "id": "evt_shimu_strategic_assault",
+      "name": "蚕母战略攻势·八十只从南侧",
+      "story_time": 49,
       "chapter": "ch_088",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
-        "char_ling_yin"
+        "char_shi_mu",
+        "char_ling_yin",
+        "char_zhao",
+        "char_shou_yan"
       ]
     },
     {

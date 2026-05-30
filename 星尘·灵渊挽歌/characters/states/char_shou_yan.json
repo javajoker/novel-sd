@@ -339,6 +339,76 @@
         "erosion_load": 86
       },
       "abilities_delta": []
+    },
+    {
+      "story_time": 45,
+      "chapter_id": "ch_077–ch_079",
+      "location": "elem_lingyin_frontier",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "counsel",
+          "desc": "ch_077教伊岚'两种真都是真'的穹枢展示策略；用旧档案数据支撑技术评审",
+          "severity": "n/a"
+        },
+        {
+          "type": "critical",
+          "desc": "灵蚀晚期：步伐变慢，叫错名字频率增加，旧时记忆保护层开始趋势性受侵蚀；网状渡蚀削平峰值但不逆转基础进程",
+          "severity": "high"
+        },
+        {
+          "type": "milestone",
+          "desc": "开始系统传递旧档案——在彻底失去前让记忆在他之外存在",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [],
+      "psychology": {
+        "sanity": 29,
+        "mood": "知道时间在减少，把记得的都传出去；步伐慢但踩得实",
+        "erosion_load": 86
+      },
+      "abilities_delta": []
+    },
+    {
+      "story_time": 48,
+      "chapter_id": "ch_085–ch_086",
+      "location": "elem_lingyin_frontier",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "ch_085在穹枢岩壁刻所有死者名字含薇瑟；ch_086系统把旧档案(战术/感知/薇瑟时间线/前线真相)传给各人——'感觉留不住但跟着我走'",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [],
+      "psychology": {
+        "sanity": 29,
+        "mood": "该说的都说了该刻的都刻了——记忆守卫功能在灵蚀晚期完成传递",
+        "erosion_load": 86
+      },
+      "abilities_delta": []
+    },
+    {
+      "story_time": 50,
+      "chapter_id": "ch_088–ch_089",
+      "location": "elem_lingyin_frontier",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "sacrifice_partial",
+          "desc": "南侧大战发出三道震波(网络谐振增益)，最后一道命中信使型核心瓦解集结，灵能近用尽但站住；战后灵渊频率又弱一层",
+          "severity": "critical"
+        }
+      ],
+      "knowledge_gained": [],
+      "psychology": {
+        "sanity": 28,
+        "mood": "在网络里感知到92灵渊同时变轻——那就是薇瑟想做到的事；他做了该做的",
+        "erosion_load": 87
+      },
+      "abilities_delta": []
     }
   ]
 }

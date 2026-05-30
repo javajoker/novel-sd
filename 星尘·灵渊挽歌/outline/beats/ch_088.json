@@ -1,19 +1,19 @@
 {
   "chapter_id": "ch_088",
-  "title": "新的信号",
+  "title": "战前",
   "volume": "vol_03",
-  "status": "planned",
+  "status": "drafted",
   "pov_character": "char_ling_yin",
   "story_time": 50,
   "thread_id": "thr_hive",
   "events_covered": [
-    "evt_new_signal_from_core"
+    "evt_shimu_strategic_assault"
   ],
   "_stub": true,
   "beats": [
     {
       "beat": 1,
-      "action": "待写",
+      "action": "聆音POV：蚕母战略攻势80只(含5干扰型)从南侧来路；守岩战前灵渊频率又弱一层。",
       "psychology": "",
       "internal_monologue": ""
     }

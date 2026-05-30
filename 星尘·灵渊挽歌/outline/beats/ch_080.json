@@ -1,19 +1,19 @@
 {
   "chapter_id": "ch_080",
-  "title": "传输完成",
+  "title": "穹枢",
   "volume": "vol_03",
-  "status": "planned",
+  "status": "drafted",
   "pov_character": "char_yi_lan",
   "story_time": 46,
-  "thread_id": "thr_yi_lan",
+  "thread_id": "thr_qiongshu_reentry",
   "events_covered": [
-    "evt_wei_se_ember_fades"
+    "evt_arrive_qiongshu"
   ],
   "_stub": true,
   "beats": [
     {
       "beat": 1,
-      "action": "待写",
+      "action": "抵达穹枢外围前线；向7名灵枢阶委员会从薇瑟讲起并展示弥散频率；委员会要求现场展示。",
       "psychology": "",
       "internal_monologue": ""
     }

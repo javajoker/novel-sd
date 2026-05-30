@@ -1,19 +1,19 @@
 {
   "chapter_id": "ch_076",
-  "title": "传输中",
+  "title": "展示",
   "volume": "vol_03",
-  "status": "planned",
+  "status": "drafted",
   "pov_character": "char_yi_lan",
   "story_time": 45,
-  "thread_id": "thr_yi_lan",
+  "thread_id": "thr_qiongshu_reentry",
   "events_covered": [
-    "evt_dushi_transmission_peak"
+    "evt_ninghui_evaluates"
   ],
   "_stub": true,
   "beats": [
     {
       "beat": 1,
-      "action": "待写",
+      "action": "凝辉入网亲身感知后判定技术改变灵裔存在方式，要求到穹枢评审；守岩'往那里走'。",
       "psychology": "",
       "internal_monologue": ""
     }

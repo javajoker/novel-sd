@@ -1,19 +1,19 @@
 {
   "chapter_id": "ch_087",
-  "title": "返程",
+  "title": "更大的网",
   "volume": "vol_03",
-  "status": "planned",
-  "pov_character": "char_zhao",
+  "status": "drafted",
+  "pov_character": "char_yi_lan",
   "story_time": 49,
-  "thread_id": "thr_garrison",
+  "thread_id": "thr_yi_lan",
   "events_covered": [
-    "evt_return_begins"
+    "evt_network_120_superfreq"
   ],
   "_stub": true,
   "beats": [
     {
       "beat": 1,
-      "action": "待写",
+      "action": "穹枢决定全面部署；120人网络演练涌现超频谐振——网络成为战场级感知系统。",
       "psychology": "",
       "internal_monologue": ""
     }

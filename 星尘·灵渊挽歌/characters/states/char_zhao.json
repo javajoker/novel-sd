@@ -375,6 +375,76 @@
         "erosion_load": 12
       },
       "abilities_delta": []
+    },
+    {
+      "story_time": 43,
+      "chapter_id": "ch_067–ch_074",
+      "location": "elem_deep_wasteland_east → elem_relay_station",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "右臂伤好转；蚕母预置拦截绕行(ch_069)；抵达中继站；战术地图首次接入穹枢已知路线(不再独自摸索)",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_shimu_search_network",
+          "source": "ch_069：蚕母从核心网抽力量铺大范围搜索网络"
+        }
+      ],
+      "psychology": {
+        "sanity": 63,
+        "mood": "不再独自画地图；带着技术往有灵裔的地方走",
+        "erosion_load": 12
+      },
+      "abilities_delta": []
+    },
+    {
+      "story_time": 47,
+      "chapter_id": "ch_083–ch_084",
+      "location": "elem_lingyin_frontier",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "与穹枢参谋部对接战场情报；35人网络实战中战术角色从指挥官变为网络意图提供者，全域实时态势感知",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_huipo_vein_federation",
+          "source": "ch_083：灰珀矿脉已被星尘联邦完全接管——卷四伏笔"
+        }
+      ],
+      "psychology": {
+        "sanity": 64,
+        "mood": "战术从语言指令变成灵渊层意图传递；记下联邦矿脉这件事",
+        "erosion_load": 12
+      },
+      "abilities_delta": []
+    },
+    {
+      "story_time": 50,
+      "chapter_id": "ch_089",
+      "location": "elem_lingyin_frontier",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "92人网络主防线战术协同——92人在同一意图里各自做对的事，不是一人指挥91人",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [],
+      "psychology": {
+        "sanity": 64,
+        "mood": "全域态势感知下的战术达到新形态",
+        "erosion_load": 12
+      },
+      "abilities_delta": []
     }
   ]
 }

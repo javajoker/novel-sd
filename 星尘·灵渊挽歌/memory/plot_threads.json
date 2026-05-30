@@ -125,7 +125,7 @@
       "concept": "蚀母觊觎聆音纯净深邃的灵渊",
       "status": "active",
       "introduced_chapter": "ch_001",
-      "last_mention_chapter": "ch_014",
+      "last_mention_chapter": "ch_089",
       "occurrences": [
         {
           "chapter_id": "ch_001",
@@ -171,7 +171,17 @@
         }
       ],
       "payoff_planned_chapter": "vol_03",
-      "risk": "反派主线。蚀母卷二完成节律学习+跟踪型个体+三方合围升级链。卷三蚀母已升级为窄频定位追踪。卷三需要蚀母对聆音主动对策（频率调制探索）的响应，以及蚀母追猎与遗核信标方向的交叉风险。"
+      "risk": "反派主线。蚀母卷二完成节律学习+跟踪型个体+三方合围升级链。卷三蚀母已升级为窄频定位追踪。卷三需要蚀母对聆音主动对策（频率调制探索）的响应，以及蚀母追猎与遗核信标方向的交叉风险。",
+      "occurrences_continued_3": [
+        {
+          "chapter_id": "ch_066-069",
+          "note": "蚕母吞噬空壳后(ember已不在)目标转向伊岚；预置拦截被绕过后转铺大范围搜索网络"
+        },
+        {
+          "chapter_id": "ch_088-089",
+          "note": "核心网事件后战略攻势——80只从南侧(队伍来路)，被92人网状渡蚀网络击溃"
+        }
+      ]
     },
     {
       "id": "hook_dushi_true_cost",
@@ -525,6 +535,79 @@
       ],
       "payoff_planned_chapter": "vol_03_C",
       "risk": "Sub-arc C的核心：从印记里找薇瑟实体或下一个锚点。蚕母已在此区域有存在（第二节点的位置和遗址近乎重合），Sub-arc C的威胁将是蚕母和薇瑟在同一区域的复杂交织。"
+    },
+    {
+      "id": "hook_network_dushi_scaling",
+      "concept": "网状渡蚀的规模化——从四人到全军",
+      "status": "active",
+      "introduced_chapter": "ch_067",
+      "last_mention_chapter": "ch_090",
+      "occurrences": [
+        {
+          "chapter_id": "ch_067-068",
+          "note": "弥散频率转换+四人网络验证(枢纽压力降30%)"
+        },
+        {
+          "chapter_id": "ch_072-074",
+          "note": "7人(反馈回流15%)→11人网络；中继广播联系更远灵裔"
+        },
+        {
+          "chapter_id": "ch_078-082",
+          "note": "16人传输→穹枢→58人网络跨50阈值枢纽压力归零，薇瑟理论完全验证"
+        },
+        {
+          "chapter_id": "ch_084",
+          "note": "35人网络首次实战，每人灵蚀增量0.5(vs正常3-5)"
+        },
+        {
+          "chapter_id": "ch_087",
+          "note": "120人网络涌现超频谐振，网络成战场级感知系统"
+        },
+        {
+          "chapter_id": "ch_089",
+          "note": "92人网络南侧大战，80只清除无人燃尽——薇瑟技术的实战终极形态"
+        }
+      ],
+      "payoff_planned_chapter": "vol_04/05",
+      "risk": "卷四五核心：网状渡蚀全军规模化；枢纽唯一性(只伊岚能做)是潜在脆弱点；超频谐振的更多用途未探索"
+    },
+    {
+      "id": "hook_shouyan_final_arc",
+      "concept": "守岩灵蚀终章——旧时记忆保护层的侵蚀",
+      "status": "active",
+      "introduced_chapter": "ch_079",
+      "last_mention_chapter": "ch_090",
+      "occurrences": [
+        {
+          "chapter_id": "ch_079",
+          "note": "守岩步伐变慢，叫错名字频率增加，旧时记忆保护层开始趋势性受侵蚀"
+        },
+        {
+          "chapter_id": "ch_085-086",
+          "note": "刻名字(含薇瑟)+系统传递全部旧档案——在彻底失去前让记忆在他之外存在"
+        },
+        {
+          "chapter_id": "ch_089-090",
+          "note": "南侧大战三道震波后灵渊频率又弱一层；卷末旧时记忆保护层开始松动，灵蚀进入下一阶段"
+        }
+      ],
+      "payoff_planned_chapter": "vol_04",
+      "risk": "卷四守岩弧线终章——网状渡蚀削平峰值但不逆转灵蚀基础进程；守岩的旧时记忆(队伍活档案)终将消散"
+    },
+    {
+      "id": "hook_federation_huipo_vein",
+      "concept": "星尘联邦接管灰珀矿脉——凯尔线重启",
+      "status": "open",
+      "introduced_chapter": "ch_083",
+      "last_mention_chapter": "ch_083",
+      "occurrences": [
+        {
+          "chapter_id": "ch_083",
+          "note": "昭从穹枢参谋部获知灰珀矿脉已被星尘联邦完全接管"
+        }
+      ],
+      "payoff_planned_chapter": "vol_04 Sub-arc G",
+      "risk": "卷四凯尔/联邦再介入；矿脉协定(hook_huipo_vein_pact)的对象现在在联邦手里"
     }
   ]
 }

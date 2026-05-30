@@ -1,19 +1,19 @@
 {
   "chapter_id": "ch_074",
-  "title": "第三次尝试",
+  "title": "汇合",
   "volume": "vol_03",
-  "status": "planned",
+  "status": "drafted",
   "pov_character": "char_yi_lan",
   "story_time": 44,
-  "thread_id": "thr_yi_lan",
+  "thread_id": "thr_garrison",
   "events_covered": [
-    "evt_dushi_full_attempt_3"
+    "evt_network_11person"
   ],
   "_stub": true,
   "beats": [
     {
       "beat": 1,
-      "action": "待写",
+      "action": "砺锋(御灵阶)四人残部汇合，11人网络；砺锋从质疑到信服。",
       "psychology": "",
       "internal_monologue": ""
     }

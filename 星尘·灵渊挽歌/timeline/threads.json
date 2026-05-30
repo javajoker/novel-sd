@@ -31,18 +31,6 @@
         "evt_shouyan_witnesses",
         "evt_subarc_c_closure",
         "evt_wei_se_inner_contact",
-        "evt_core_network_arrival",
-        "evt_approach_wei_se_shell",
-        "evt_dushi_full_attempt_1",
-        "evt_dushi_attempt_1_aftermath",
-        "evt_dushi_full_attempt_2",
-        "evt_shouyan_speaks_truth",
-        "evt_ember_content_touched",
-        "evt_dushi_full_attempt_3",
-        "evt_dushi_transmission_peak",
-        "evt_yi_lan_holds_technique",
-        "evt_core_network_last_night",
-        "evt_shouyan_farewell_core",
         "evt_vol3_close",
         "evt_dushi_network_first_test",
         "evt_seventh_beacon_revisit",
@@ -52,7 +40,16 @@
         "evt_ember_cofrequency",
         "evt_ember_four_contacts",
         "evt_ember_transmission_complete",
-        "evt_technique_understood"
+        "evt_technique_understood",
+        "evt_return_journey",
+        "evt_dushi_dispersion_test",
+        "evt_network_4person",
+        "evt_network_7person",
+        "evt_network_16_transmission",
+        "evt_shouyan_erosion_late",
+        "evt_network_58_zero_hub",
+        "evt_shouyan_transmits_archive",
+        "evt_network_120_superfreq"
       ],
       "convergences_with": [
         "thr_hive@ch_001",
@@ -100,19 +97,13 @@
         "evt_territory_combat_aftermath",
         "evt_approach_cover_formation",
         "evt_time_window_closing",
-        "evt_zhao_guards_perimeter",
-        "evt_core_network_outer_battle",
-        "evt_lingyin_battle_support",
-        "evt_shouyan_takes_position",
-        "evt_lingyin_at_limit",
-        "evt_shimu_peak_assault",
-        "evt_shouyan_final_shockwave",
-        "evt_core_battle_ends",
-        "evt_return_direction_set",
-        "evt_return_begins",
         "evt_return_first_step",
         "evt_return_through_deep",
-        "evt_breakout_core_network"
+        "evt_breakout_core_network",
+        "evt_meet_survivors",
+        "evt_network_11person",
+        "evt_network_first_combat",
+        "evt_network_92_battle"
       ],
       "convergences_with": [
         "thr_hive@ch_011",
@@ -140,11 +131,10 @@
         "evt_shimu_territory_density",
         "evt_wei_se_shell_pulled",
         "evt_wei_se_shell_sighted",
-        "evt_deep_vein_sensed",
-        "evt_lingyin_senses_ember_structure",
-        "evt_core_network_changes",
-        "evt_new_signal_from_core",
-        "evt_lingyin_new_research"
+        "evt_lingyin_new_research",
+        "evt_shimu_pursuit_redeploys",
+        "evt_relay_broadcast",
+        "evt_shimu_strategic_assault"
       ],
       "convergences_with": [
         "thr_yi_lan@ch_001",
@@ -159,11 +149,10 @@
       "pov_character": "char_wei_se",
       "event_ids": [
         "evt_wei_se_training_fragment",
-        "evt_wei_se_technique_revealed",
-        "evt_wei_se_ember_fades",
         "evt_shouyan_carves_weise",
         "evt_passive_reception_learned",
-        "evt_imprint_faded"
+        "evt_imprint_faded",
+        "evt_shell_left_behind"
       ],
       "convergences_with": [
         "thr_yi_lan@ch_038",
@@ -176,7 +165,13 @@
       "name": "穹枢·联邦再介入",
       "pov_character": "char_kai_er",
       "event_ids": [
-        "evt_kai_er_reappears"
+        "evt_kai_er_reappears",
+        "evt_qiongshu_responds",
+        "evt_ninghui_evaluates",
+        "evt_depart_for_qiongshu",
+        "evt_arrive_qiongshu",
+        "evt_committee_review",
+        "evt_qiongshu_deploys"
       ],
       "convergences_with": [],
       "current_time": null

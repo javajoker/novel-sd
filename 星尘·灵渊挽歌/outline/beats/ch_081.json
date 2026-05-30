@@ -1,19 +1,19 @@
 {
   "chapter_id": "ch_081",
-  "title": "战斗结束",
+  "title": "评审室",
   "volume": "vol_03",
-  "status": "planned",
-  "pov_character": "char_zhao",
+  "status": "drafted",
+  "pov_character": "char_yi_lan",
   "story_time": 47,
-  "thread_id": "thr_garrison",
+  "thread_id": "thr_qiongshu_reentry",
   "events_covered": [
-    "evt_core_battle_ends"
+    "evt_committee_review"
   ],
   "_stub": true,
   "beats": [
     {
       "beat": 1,
-      "action": "待写",
+      "action": "12人网络委员会亲身感知；守岩补充薇瑟维护报告数据使技术落地；三小时评审通过到全面展示。",
       "psychology": "",
       "internal_monologue": ""
     }

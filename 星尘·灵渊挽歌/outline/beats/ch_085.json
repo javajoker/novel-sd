@@ -2,10 +2,10 @@
   "chapter_id": "ch_085",
   "title": "名字",
   "volume": "vol_03",
-  "status": "planned",
+  "status": "drafted",
   "pov_character": "char_shou_yan",
   "story_time": 48,
-  "thread_id": "thr_yi_lan",
+  "thread_id": "thr_wei_se",
   "events_covered": [
     "evt_shouyan_carves_weise"
   ],
@@ -13,7 +13,7 @@
   "beats": [
     {
       "beat": 1,
-      "action": "待写",
+      "action": "守岩POV：在穹枢岩壁刻所有死者名字，包括薇瑟——让她在他之外存在。",
       "psychology": "",
       "internal_monologue": ""
     }

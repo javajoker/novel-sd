@@ -36,26 +36,16 @@
       ]
     },
     {
-      "id": "evt_wei_se_technique_revealed",
-      "name": "薇瑟的方法——渡蚀众人分担完整形态",
-      "story_time": 44,
-      "chapter": "ch_075",
-      "status": "planned",
+      "id": "evt_shell_left_behind",
+      "name": "空壳薇瑟留在核心网·蚕母将吞空壳",
+      "story_time": 42,
+      "chapter": "ch_066",
+      "status": "drafted",
       "participants": [
-        "char_yi_lan",
-        "char_wei_se"
-      ]
-    },
-    {
-      "id": "evt_wei_se_ember_fades",
-      "name": "薇瑟的ember淡去——她真正消失了",
-      "story_time": 46,
-      "chapter": "ch_080",
-      "status": "planned",
-      "participants": [
+        "char_shou_yan",
         "char_yi_lan",
         "char_wei_se",
-        "char_shou_yan"
+        "char_shi_mu"
       ]
     },
     {
@@ -63,7 +53,7 @@
       "name": "守岩在核心网刻薇瑟的名字",
       "story_time": 48,
       "chapter": "ch_085",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
         "char_shou_yan"
       ]

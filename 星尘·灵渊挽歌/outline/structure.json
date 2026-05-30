@@ -949,407 +949,407 @@
         {
           "id": "ch_061",
           "number": 61,
-          "title": "灵渊核心网",
-          "thread_id": "thr_yi_lan",
-          "pov_character": "char_shou_yan",
+          "title": "打出核心网",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
           "story_time": 39,
           "planned_events": [
-            "evt_core_network_arrival"
+            "evt_breakout_core_network"
           ],
-          "one_line": "守岩POV：踏入灵渊核心网遗址——更古老，更深；守岩认出这里的形状。",
+          "one_line": "传输完成后四人在15分钟内打穿两道蚕母防线，从核心网中心区域撤出；伊岚erosion57不用渡蚀以短刃战斗。",
           "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_061.json"
         },
         {
           "id": "ch_062",
           "number": 62,
-          "title": "深脉的呼吸",
-          "thread_id": "thr_hive",
-          "pov_character": "char_ling_yin",
+          "title": "传输之后",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_yi_lan",
           "story_time": 39,
           "planned_events": [
-            "evt_deep_vein_sensed"
+            "evt_technique_understood"
           ],
-          "one_line": "聆音POV：感知核心网灵渊浓度——自然古老灵能聚焦点，蚕母要的是这个。",
+          "one_line": "回程消化三层传输内容前两层：网状渡蚀理论+弥散频率实现；守岩确认薇瑟在接力设备上做过实验。",
           "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_062.json"
         },
         {
           "id": "ch_063",
           "number": 63,
-          "title": "走向她",
+          "title": "第三层",
           "thread_id": "thr_yi_lan",
           "pov_character": "char_yi_lan",
           "story_time": 40,
           "planned_events": [
-            "evt_approach_wei_se_shell"
+            "evt_technique_understood"
           ],
-          "one_line": "伊岚POV：空壳薇瑟停在深脉聚焦点旁；伊岚走向她。",
+          "one_line": "展开第三层枢纽压力分担方案——反馈回流，≥50灵渊枢纽趋零；这不是殉道，是所有人都不需要殉道。",
           "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_063.json"
         },
         {
           "id": "ch_064",
           "number": 64,
-          "title": "第一次完整尝试",
-          "thread_id": "thr_yi_lan",
+          "title": "回望",
+          "thread_id": "thr_wei_se",
           "pov_character": "char_yi_lan",
           "story_time": 40,
           "planned_events": [
-            "evt_dushi_full_attempt_1"
+            "evt_imprint_faded"
           ],
-          "one_line": "伊岚POV：第一次完整渡蚀尝试，进入空壳比任何一次都深；感知到ember存在，无法接触。erosion_load 50。",
+          "one_line": "回程经第七号信标，聚焦器印记消散薇瑟彻底结束；完整理解薇瑟的终极答案——灵蚀均摊不让任何人成为最强的。",
           "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_064.json"
         },
         {
           "id": "ch_065",
           "number": 65,
-          "title": "外围",
-          "thread_id": "thr_garrison",
-          "pov_character": "char_zhao",
+          "title": "回程的路",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_yi_lan",
           "story_time": 40,
           "planned_events": [
-            "evt_zhao_guards_perimeter"
+            "evt_return_journey"
           ],
-          "one_line": "昭POV：守外围；蚕母在靠近；时间窗口评估。",
-          "status": "planned",
+          "one_line": "回程；伊岚把网状渡蚀理论翻译成可执行的渡蚀操作手册；四人各自的代价与恢复。",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_065.json"
         },
         {
           "id": "ch_066",
           "number": 66,
-          "title": "第一次之后",
-          "thread_id": "thr_yi_lan",
-          "pov_character": "char_yi_lan",
+          "title": "空壳",
+          "thread_id": "thr_wei_se",
+          "pov_character": "char_shou_yan",
           "story_time": 41,
           "planned_events": [
-            "evt_dushi_attempt_1_aftermath"
+            "evt_shell_left_behind"
           ],
-          "one_line": "伊岚POV：ember的感觉——不是残片，是有意保存的容器；erosion_load 50。",
-          "status": "planned",
+          "one_line": "守岩推断蚕母会吞噬留在核心网的空壳(ember已不在)，迟早发现目标转向伊岚——可能形成追击；加速回程。",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_066.json"
         },
         {
           "id": "ch_067",
           "number": 67,
-          "title": "聆音的感知",
-          "thread_id": "thr_hive",
-          "pov_character": "char_ling_yin",
+          "title": "地质分界线",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_zhao",
           "story_time": 41,
           "planned_events": [
-            "evt_lingyin_senses_ember_structure"
+            "evt_dushi_dispersion_test"
           ],
-          "one_line": "聆音POV：感知ember的层次结构——不是简单意识残片，需要多次尝试读完。",
-          "status": "planned",
+          "one_line": "出深荒过地质分界线；伊岚首次测试渡蚀弥散频率转换成功，触及三个灵渊。",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_067.json"
         },
         {
           "id": "ch_068",
           "number": 68,
-          "title": "守岩的话",
+          "title": "三个人的网",
           "thread_id": "thr_yi_lan",
-          "pov_character": "char_shou_yan",
+          "pov_character": "char_yi_lan",
           "story_time": 42,
           "planned_events": [
-            "evt_shouyan_speaks_truth"
+            "evt_network_4person"
           ],
-          "one_line": "守岩POV：对伊岚说：'她没有等条件变好，她就做了。'",
-          "status": "planned",
+          "one_line": "伊岚建四人灵渊网络——频率自动均衡，连接零消耗；网络太小需更多节点。",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_068.json"
         },
         {
           "id": "ch_069",
           "number": 69,
-          "title": "第二次尝试",
-          "thread_id": "thr_yi_lan",
-          "pov_character": "char_yi_lan",
+          "title": "追击",
+          "thread_id": "thr_hive",
+          "pov_character": "char_zhao",
           "story_time": 42,
           "planned_events": [
-            "evt_dushi_full_attempt_2"
+            "evt_shimu_pursuit_redeploys"
           ],
-          "one_line": "伊岚POV：第二次渡蚀尝试，到达ember外层内侧；感知到薇瑟有意保存内容的形状。erosion_load 53。",
-          "status": "planned",
+          "one_line": "昭POV：蚕母预置13只拦截被绕过；蚕母转铺大范围搜索网络；改道通信中继站(120km)。",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_069.json"
         },
         {
           "id": "ch_070",
           "number": 70,
-          "title": "外围战",
+          "title": "三天",
           "thread_id": "thr_garrison",
-          "pov_character": "char_zhao",
+          "pov_character": "char_yi_lan",
           "story_time": 42,
           "planned_events": [
-            "evt_core_network_outer_battle"
+            "evt_meet_survivors"
           ],
-          "one_line": "昭POV：蚕母开始进攻核心网外围；在伊岚渡蚀时打最难的一场。",
-          "status": "planned",
+          "one_line": "三天行进抵达通信中继站，遇灰珀残部三人(沉渡/微澜/旋星)——不再是孤军。",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_070.json"
         },
         {
           "id": "ch_071",
           "number": 71,
-          "title": "接触",
-          "thread_id": "thr_yi_lan",
+          "title": "中继站",
+          "thread_id": "thr_garrison",
           "pov_character": "char_yi_lan",
           "story_time": 43,
           "planned_events": [
-            "evt_ember_content_touched"
+            "evt_meet_survivors"
           ],
-          "one_line": "伊岚POV：第二次尝试高潮——接触到ember内容第一层；是技术结构，不是记忆。erosion_load 55。",
-          "status": "planned",
+          "one_line": "中继站；伊岚向沉渡解释网状渡蚀；沉渡邀请渡蚀感知其灵渊后同意加入。",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_071.json"
         },
         {
           "id": "ch_072",
           "number": 72,
-          "title": "聆音在战场",
-          "thread_id": "thr_garrison",
-          "pov_character": "char_ling_yin",
+          "title": "七个人的网",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_yi_lan",
           "story_time": 43,
           "planned_events": [
-            "evt_lingyin_battle_support"
+            "evt_network_7person"
           ],
-          "one_line": "聆音POV：战斗支援中感知伊岚状态；遗核在辅助；蚕母集结信号越来越强。",
-          "status": "planned",
+          "one_line": "七人网络——反馈回流首次出现，枢纽压力降至15%；网络内灵渊互感=无语言战术通信；旋星聆音共鸣。",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_072.json"
         },
         {
           "id": "ch_073",
           "number": 73,
-          "title": "守岩接替",
-          "thread_id": "thr_garrison",
-          "pov_character": "char_shou_yan",
+          "title": "中继广播",
+          "thread_id": "thr_hive",
+          "pov_character": "char_ling_yin",
           "story_time": 44,
           "planned_events": [
-            "evt_shouyan_takes_position"
+            "evt_relay_broadcast"
           ],
-          "one_line": "守岩POV：昭被击中失去一侧输出；守岩接替那个战术位置——他知道应该站在哪里。",
-          "status": "planned",
+          "one_line": "聆音POV：用全频脉冲(a'调制)激活中继站广播约200km；收到4人残部和穹枢通信节点两个应答。",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_073.json"
         },
         {
           "id": "ch_074",
           "number": 74,
-          "title": "第三次尝试",
-          "thread_id": "thr_yi_lan",
+          "title": "汇合",
+          "thread_id": "thr_garrison",
           "pov_character": "char_yi_lan",
           "story_time": 44,
           "planned_events": [
-            "evt_dushi_full_attempt_3"
+            "evt_network_11person"
           ],
-          "one_line": "伊岚POV：第三次渡蚀——ember内容开始主动传输；薇瑟也在传给伊岚。erosion_load 57。",
-          "status": "planned",
+          "one_line": "砺锋(御灵阶)四人残部汇合，11人网络；砺锋从质疑到信服。",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_074.json"
         },
         {
           "id": "ch_075",
           "number": 75,
-          "title": "什么是薇瑟的方法",
-          "thread_id": "thr_yi_lan",
+          "title": "穹枢的回应",
+          "thread_id": "thr_qiongshu_reentry",
           "pov_character": "char_yi_lan",
           "story_time": 44,
           "planned_events": [
-            "evt_wei_se_technique_revealed"
+            "evt_qiongshu_responds"
           ],
-          "one_line": "伊岚POV：ember传输的是渡蚀网状众人分担完整形态——把灵蚀分散到所有灵裔灵渊中；这是薇瑟一生的研究。",
-          "status": "planned",
+          "one_line": "穹枢回应，凝辉(灵枢阶)率5人联络队抵达(16灵渊)；伊岚展示弥散频率。",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_075.json"
         },
         {
           "id": "ch_076",
           "number": 76,
-          "title": "传输中",
-          "thread_id": "thr_yi_lan",
+          "title": "展示",
+          "thread_id": "thr_qiongshu_reentry",
           "pov_character": "char_yi_lan",
           "story_time": 45,
           "planned_events": [
-            "evt_dushi_transmission_peak"
+            "evt_ninghui_evaluates"
           ],
-          "one_line": "伊岚POV：传输进行中；erosion_load 58；遗核最强辅助脉动。",
-          "status": "planned",
+          "one_line": "凝辉入网亲身感知后判定技术改变灵裔存在方式，要求到穹枢评审；守岩'往那里走'。",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_076.json"
         },
         {
           "id": "ch_077",
           "number": 77,
-          "title": "最激烈的外围",
-          "thread_id": "thr_garrison",
-          "pov_character": "char_zhao",
+          "title": "出发",
+          "thread_id": "thr_qiongshu_reentry",
+          "pov_character": "char_shou_yan",
           "story_time": 45,
           "planned_events": [
-            "evt_shimu_peak_assault"
+            "evt_depart_for_qiongshu"
           ],
-          "one_line": "昭POV：蚕母最大规模进攻——要在传输完成前截断；昭带伤临界。",
-          "status": "planned",
+          "one_line": "守岩POV：出发往穹枢；守岩教伊岚'两种真都是真'的展示策略。",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_077.json"
         },
         {
           "id": "ch_078",
           "number": 78,
-          "title": "聆音的极限",
-          "thread_id": "thr_garrison",
-          "pov_character": "char_ling_yin",
+          "title": "路上",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_yi_lan",
           "story_time": 45,
           "planned_events": [
-            "evt_lingyin_at_limit"
+            "evt_network_16_transmission"
           ],
-          "one_line": "聆音POV：全频脉冲+a'双重干扰，灵能耗尽；最后保护伊岚渡蚀通道不被干扰。",
-          "status": "planned",
+          "one_line": "五天行进；16人网络第二次灵蚀传输erosion降2点；穹枢约500灵裔远超50。",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_078.json"
         },
         {
           "id": "ch_079",
           "number": 79,
-          "title": "守岩的最后震波",
-          "thread_id": "thr_garrison",
-          "pov_character": "char_shou_yan",
+          "title": "守岩的步伐",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_zhao",
           "story_time": 46,
           "planned_events": [
-            "evt_shouyan_final_shockwave"
+            "evt_shouyan_erosion_late"
           ],
-          "one_line": "守岩POV：灵渊临界，最后的震波精确命中最危险个体；战斗结束；他做了该做的事。",
-          "status": "planned",
+          "one_line": "昭POV：守岩步伐变慢灵蚀晚期；旧时记忆保护层趋势性受侵蚀；守岩开始系统传递旧档案。",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_079.json"
         },
         {
           "id": "ch_080",
           "number": 80,
-          "title": "传输完成",
-          "thread_id": "thr_yi_lan",
+          "title": "穹枢",
+          "thread_id": "thr_qiongshu_reentry",
           "pov_character": "char_yi_lan",
           "story_time": 46,
           "planned_events": [
-            "evt_wei_se_ember_fades"
+            "evt_arrive_qiongshu"
           ],
-          "one_line": "伊岚POV：薇瑟方法传输完成；ember淡去——她用尽了自己传完这件事；薇瑟真正消失了。erosion_load 59。",
-          "status": "planned",
+          "one_line": "抵达穹枢外围前线；向7名灵枢阶委员会从薇瑟讲起并展示弥散频率；委员会要求现场展示。",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_080.json"
         },
         {
           "id": "ch_081",
           "number": 81,
-          "title": "战斗结束",
-          "thread_id": "thr_garrison",
-          "pov_character": "char_zhao",
+          "title": "评审室",
+          "thread_id": "thr_qiongshu_reentry",
+          "pov_character": "char_yi_lan",
           "story_time": 47,
           "planned_events": [
-            "evt_core_battle_ends"
+            "evt_committee_review"
           ],
-          "one_line": "昭POV：战斗结束；各自代价清点；核心网内蚕母溃散；胜利是疲惫和安静。",
-          "status": "planned",
+          "one_line": "12人网络委员会亲身感知；守岩补充薇瑟维护报告数据使技术落地；三小时评审通过到全面展示。",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_081.json"
         },
         {
           "id": "ch_082",
           "number": 82,
-          "title": "持有",
+          "title": "五十个灵渊",
           "thread_id": "thr_yi_lan",
           "pov_character": "char_yi_lan",
           "story_time": 47,
           "planned_events": [
-            "evt_yi_lan_holds_technique"
+            "evt_network_58_zero_hub"
           ],
-          "one_line": "伊岚POV：她持有薇瑟的技术；erosion_load 59；她能用这个做什么。",
-          "status": "planned",
+          "one_line": "58灵渊网络跨过50阈值——枢纽压力归零(不是趋近，是没有了)；erosion降2点；'通过'。",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_082.json"
         },
         {
           "id": "ch_083",
           "number": 83,
-          "title": "接下来",
-          "thread_id": "thr_garrison",
+          "title": "部署",
+          "thread_id": "thr_qiongshu_reentry",
           "pov_character": "char_zhao",
           "story_time": 47,
           "planned_events": [
-            "evt_return_direction_set"
+            "evt_qiongshu_deploys"
           ],
-          "one_line": "昭POV：战术地图重建——核心网是转折点；返程路线，把技术带回去。",
-          "status": "planned",
+          "one_line": "昭POV：穹枢列网状渡蚀为S级资产，凝辉任协调官，组建部署队；昭获知灰珀矿脉已被联邦接管(卷四伏笔)。",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_083.json"
         },
         {
           "id": "ch_084",
           "number": 84,
-          "title": "核心网在改变",
-          "thread_id": "thr_hive",
-          "pov_character": "char_ling_yin",
+          "title": "第一次实战",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
           "story_time": 48,
           "planned_events": [
-            "evt_core_network_changes"
+            "evt_network_first_combat"
           ],
-          "one_line": "聆音POV：核心网灵渊浓度在扩散——ember淡去后聚焦器松开，灵渊源脉向外扩散。",
-          "status": "planned",
+          "one_line": "35人网络首次实战——灵蚀分担1/35，全域态势感知，聆音预警5km；25只清除每人增量0.5(vs正常3-5)。",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_084.json"
         },
         {
           "id": "ch_085",
           "number": 85,
           "title": "名字",
-          "thread_id": "thr_yi_lan",
+          "thread_id": "thr_wei_se",
           "pov_character": "char_shou_yan",
           "story_time": 48,
           "planned_events": [
             "evt_shouyan_carves_weise"
           ],
-          "one_line": "守岩POV：在核心网岩壁上刻薇瑟的名字——她的名字要在他之外存在。",
-          "status": "planned",
+          "one_line": "守岩POV：在穹枢岩壁刻所有死者名字，包括薇瑟——让她在他之外存在。",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_085.json"
         },
         {
           "id": "ch_086",
           "number": 86,
-          "title": "最后一夜",
+          "title": "守岩的传递",
           "thread_id": "thr_yi_lan",
-          "pov_character": "char_yi_lan",
+          "pov_character": "char_shou_yan",
           "story_time": 49,
           "planned_events": [
-            "evt_core_network_last_night"
+            "evt_shouyan_transmits_archive"
           ],
-          "one_line": "伊岚POV：核心网最后一夜；遗核不同了——还在发送，但没有了那个呼应。",
-          "status": "planned",
+          "one_line": "守岩POV：系统把旧档案(战术/感知/薇瑟时间线/前线真相)传给各人；'感觉留不住但跟着我走'。",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_086.json"
         },
         {
           "id": "ch_087",
           "number": 87,
-          "title": "返程",
-          "thread_id": "thr_garrison",
-          "pov_character": "char_zhao",
+          "title": "更大的网",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_yi_lan",
           "story_time": 49,
           "planned_events": [
-            "evt_return_begins"
+            "evt_network_120_superfreq"
           ],
-          "one_line": "昭POV：返程开始；带着薇瑟的技术往灵裔集结点走。",
-          "status": "planned",
+          "one_line": "穹枢决定全面部署；120人网络演练涌现超频谐振——网络成为战场级感知系统。",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_087.json"
         },
         {
           "id": "ch_088",
           "number": 88,
-          "title": "新的信号",
+          "title": "战前",
           "thread_id": "thr_hive",
           "pov_character": "char_ling_yin",
           "story_time": 50,
           "planned_events": [
-            "evt_new_signal_from_core"
+            "evt_shimu_strategic_assault"
           ],
-          "one_line": "聆音POV：核心网灵渊频率变了——古老的深脉向外扩散的信号；往更远的地方传播。",
-          "status": "planned",
+          "one_line": "聆音POV：蚕母战略攻势80只(含5干扰型)从南侧来路；守岩战前灵渊频率又弱一层。",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_088.json"
         },
         {
           "id": "ch_089",
           "number": 89,
-          "title": "守岩·告别",
-          "thread_id": "thr_yi_lan",
-          "pov_character": "char_shou_yan",
+          "title": "南侧",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
           "story_time": 50,
           "planned_events": [
-            "evt_shouyan_farewell_core"
+            "evt_network_92_battle"
           ],
-          "one_line": "守岩POV：离开核心网——带着所有死者的名字、带着薇瑟的名字，往有活人的地方走。",
-          "status": "planned",
+          "one_line": "南侧大战92人网络——超频谐振；80只清除每人增量0.8无人燃尽；守岩三道震波最后一道瓦解信使型集结核心。",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_089.json"
         },
         {
@@ -1362,8 +1362,8 @@
           "planned_events": [
             "evt_vol3_close"
           ],
-          "one_line": "伊岚POV：卷三完结——薇瑟的技术在灵渊里，遗核变冷了一点；四人往回走，往更多人的方向走。",
-          "status": "planned",
+          "one_line": "卷末·烬：伊岚反思随行的扩展——从四人到所有网络灵裔；守岩旧时记忆保护层开始受侵蚀；火变成光。",
+          "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_090.json"
         }
       ],

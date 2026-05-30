@@ -323,40 +323,6 @@
       ]
     },
     {
-      "id": "evt_core_network_arrival",
-      "name": "踏入灵渊核心网遗址",
-      "story_time": 39,
-      "chapter": "ch_061",
-      "status": "drafted",
-      "participants": [
-        "char_yi_lan",
-        "char_shou_yan",
-        "char_zhao",
-        "char_ling_yin"
-      ]
-    },
-    {
-      "id": "evt_approach_wei_se_shell",
-      "name": "走向她",
-      "story_time": 40,
-      "chapter": "ch_063",
-      "status": "drafted",
-      "participants": [
-        "char_yi_lan"
-      ]
-    },
-    {
-      "id": "evt_dushi_full_attempt_1",
-      "name": "第一次完整渡蚀尝试——进入空壳深层",
-      "story_time": 40,
-      "chapter": "ch_064",
-      "status": "drafted",
-      "participants": [
-        "char_yi_lan",
-        "char_wei_se"
-      ]
-    },
-    {
       "id": "evt_technique_understood",
       "name": "伊岚理解薇瑟的完整方法——网状渡蚀",
       "story_time": 40,
@@ -370,95 +336,117 @@
       ]
     },
     {
-      "id": "evt_dushi_attempt_1_aftermath",
-      "name": "第一次之后",
+      "id": "evt_return_journey",
+      "name": "回程·伊岚翻译技术为操作",
       "story_time": 41,
-      "chapter": "ch_066",
+      "chapter": "ch_065",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_dushi_dispersion_test",
+      "name": "渡蚀弥散频率首次转换测试",
+      "story_time": 42,
+      "chapter": "ch_067",
       "status": "drafted",
       "participants": [
         "char_yi_lan"
       ]
     },
     {
-      "id": "evt_dushi_full_attempt_2",
-      "name": "第二次渡蚀尝试——接触ember外层内侧",
-      "story_time": 42,
-      "chapter": "ch_069",
-      "status": "planned",
-      "participants": [
-        "char_yi_lan",
-        "char_wei_se"
-      ]
-    },
-    {
-      "id": "evt_shouyan_speaks_truth",
-      "name": "守岩的话",
+      "id": "evt_network_4person",
+      "name": "四人灵渊网络首次建立",
       "story_time": 42,
       "chapter": "ch_068",
       "status": "drafted",
       "participants": [
-        "char_shou_yan"
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_ling_yin"
       ]
     },
     {
-      "id": "evt_ember_content_touched",
-      "name": "接触",
+      "id": "evt_network_7person",
+      "name": "七人网络·反馈回流首次出现",
       "story_time": 43,
-      "chapter": "ch_071",
-      "status": "planned",
-      "participants": [
-        "char_yi_lan"
-      ]
-    },
-    {
-      "id": "evt_dushi_full_attempt_3",
-      "name": "第三次渡蚀尝试——ember主动传输",
-      "story_time": 44,
-      "chapter": "ch_074",
-      "status": "planned",
+      "chapter": "ch_072",
+      "status": "drafted",
       "participants": [
         "char_yi_lan",
-        "char_wei_se"
+        "char_zhao",
+        "char_shou_yan",
+        "char_ling_yin",
+        "char_chen_du",
+        "char_wei_lan",
+        "char_xuan_xing"
       ]
     },
     {
-      "id": "evt_dushi_transmission_peak",
-      "name": "传输中",
+      "id": "evt_network_16_transmission",
+      "name": "路上·十六人网络第二次灵蚀传输",
       "story_time": 45,
-      "chapter": "ch_076",
-      "status": "planned",
+      "chapter": "ch_078",
+      "status": "drafted",
       "participants": [
-        "char_yi_lan"
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin",
+        "char_ning_hui"
       ]
     },
     {
-      "id": "evt_yi_lan_holds_technique",
-      "name": "持有",
-      "story_time": 47,
+      "id": "evt_shouyan_erosion_late",
+      "name": "守岩灵蚀晚期·开始传递旧档案",
+      "story_time": 45,
+      "chapter": "ch_079",
+      "status": "drafted",
+      "participants": [
+        "char_shou_yan",
+        "char_yi_lan",
+        "char_zhao",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_network_58_zero_hub",
+      "name": "五十八人网络·枢纽压力归零",
+      "story_time": 46,
       "chapter": "ch_082",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
         "char_yi_lan"
       ]
     },
     {
-      "id": "evt_core_network_last_night",
-      "name": "最后一夜",
-      "story_time": 49,
+      "id": "evt_network_120_superfreq",
+      "name": "百二十人网络·超频谐振涌现",
+      "story_time": 48,
+      "chapter": "ch_087",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_shouyan_transmits_archive",
+      "name": "守岩系统传递全部旧档案",
+      "story_time": 48,
       "chapter": "ch_086",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
-        "char_yi_lan"
-      ]
-    },
-    {
-      "id": "evt_shouyan_farewell_core",
-      "name": "守岩·告别",
-      "story_time": 50,
-      "chapter": "ch_089",
-      "status": "planned",
-      "participants": [
-        "char_shou_yan"
+        "char_shou_yan",
+        "char_yi_lan",
+        "char_zhao",
+        "char_ling_yin",
+        "char_ning_hui"
       ]
     },
     {
@@ -466,7 +454,7 @@
       "name": "卷三完结——往更多人的方向走",
       "story_time": 50,
       "chapter": "ch_090",
-      "status": "planned",
+      "status": "drafted",
       "participants": [
         "char_yi_lan",
         "char_shou_yan",

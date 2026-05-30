@@ -1,19 +1,19 @@
 {
   "chapter_id": "ch_084",
-  "title": "核心网在改变",
+  "title": "第一次实战",
   "volume": "vol_03",
-  "status": "planned",
-  "pov_character": "char_ling_yin",
+  "status": "drafted",
+  "pov_character": "char_yi_lan",
   "story_time": 48,
-  "thread_id": "thr_hive",
+  "thread_id": "thr_garrison",
   "events_covered": [
-    "evt_core_network_changes"
+    "evt_network_first_combat"
   ],
   "_stub": true,
   "beats": [
     {
       "beat": 1,
-      "action": "待写",
+      "action": "35人网络首次实战——灵蚀分担1/35，全域态势感知，聆音预警5km；25只清除每人增量0.5(vs正常3-5)。",
       "psychology": "",
       "internal_monologue": ""
     }

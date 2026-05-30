@@ -405,103 +405,61 @@
       ]
     },
     {
-      "id": "evt_zhao_guards_perimeter",
-      "name": "外围",
-      "story_time": 40,
-      "chapter": "ch_065",
+      "id": "evt_meet_survivors",
+      "name": "抵达通信中继站·遇灰珀残部三人",
+      "story_time": 43,
+      "chapter": "ch_070",
       "status": "drafted",
       "participants": [
-        "char_zhao"
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_ling_yin",
+        "char_chen_du",
+        "char_wei_lan",
+        "char_xuan_xing"
       ]
     },
     {
-      "id": "evt_core_network_outer_battle",
-      "name": "外围战",
-      "story_time": 42,
-      "chapter": "ch_070",
-      "status": "planned",
-      "participants": [
-        "char_zhao"
-      ]
-    },
-    {
-      "id": "evt_lingyin_battle_support",
-      "name": "聆音在战场",
+      "id": "evt_network_11person",
+      "name": "砺锋残部汇合·十一人网络",
       "story_time": 43,
-      "chapter": "ch_072",
-      "status": "planned",
+      "chapter": "ch_074",
+      "status": "drafted",
       "participants": [
+        "char_yi_lan",
+        "char_li_feng_z",
+        "char_zhao",
+        "char_shou_yan",
         "char_ling_yin"
       ]
     },
     {
-      "id": "evt_shouyan_takes_position",
-      "name": "守岩接替",
-      "story_time": 44,
-      "chapter": "ch_073",
-      "status": "planned",
-      "participants": [
-        "char_shou_yan"
-      ]
-    },
-    {
-      "id": "evt_lingyin_at_limit",
-      "name": "聆音的极限",
-      "story_time": 45,
-      "chapter": "ch_078",
-      "status": "planned",
-      "participants": [
-        "char_ling_yin"
-      ]
-    },
-    {
-      "id": "evt_shimu_peak_assault",
-      "name": "最激烈的外围",
-      "story_time": 45,
-      "chapter": "ch_077",
-      "status": "planned",
-      "participants": [
-        "char_zhao"
-      ]
-    },
-    {
-      "id": "evt_shouyan_final_shockwave",
-      "name": "守岩的最后震波",
-      "story_time": 46,
-      "chapter": "ch_079",
-      "status": "planned",
-      "participants": [
-        "char_shou_yan"
-      ]
-    },
-    {
-      "id": "evt_core_battle_ends",
-      "name": "战斗结束",
+      "id": "evt_network_first_combat",
+      "name": "网状渡蚀首次实战·三十五人网络",
       "story_time": 47,
-      "chapter": "ch_081",
-      "status": "planned",
+      "chapter": "ch_084",
+      "status": "drafted",
       "participants": [
-        "char_zhao"
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_ling_yin",
+        "char_ning_hui"
       ]
     },
     {
-      "id": "evt_return_direction_set",
-      "name": "接下来",
-      "story_time": 47,
-      "chapter": "ch_083",
-      "status": "planned",
+      "id": "evt_network_92_battle",
+      "name": "南侧大战·九十二人网络·守岩最后震波",
+      "story_time": 50,
+      "chapter": "ch_089",
+      "status": "drafted",
       "participants": [
-        "char_zhao"
-      ]
-    },
-    {
-      "id": "evt_return_begins",
-      "name": "返程",
-      "story_time": 49,
-      "chapter": "ch_087",
-      "status": "planned",
-      "participants": [
-        "char_zhao"
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin",
+        "char_shi_mu"
       ]
     },
     {

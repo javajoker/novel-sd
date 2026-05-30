@@ -1,19 +1,19 @@
 {
   "chapter_id": "ch_077",
-  "title": "最激烈的外围",
+  "title": "出发",
   "volume": "vol_03",
-  "status": "planned",
-  "pov_character": "char_zhao",
+  "status": "drafted",
+  "pov_character": "char_shou_yan",
   "story_time": 45,
-  "thread_id": "thr_garrison",
+  "thread_id": "thr_qiongshu_reentry",
   "events_covered": [
-    "evt_shimu_peak_assault"
+    "evt_depart_for_qiongshu"
   ],
   "_stub": true,
   "beats": [
     {
       "beat": 1,
-      "action": "待写",
+      "action": "守岩POV：出发往穹枢；守岩教伊岚'两种真都是真'的展示策略。",
       "psychology": "",
       "internal_monologue": ""
     }

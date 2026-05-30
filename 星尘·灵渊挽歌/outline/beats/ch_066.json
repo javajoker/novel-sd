@@ -1,19 +1,19 @@
 {
   "chapter_id": "ch_066",
-  "title": "第一次之后",
+  "title": "空壳",
   "volume": "vol_03",
-  "status": "planned",
-  "pov_character": "char_yi_lan",
+  "status": "drafted",
+  "pov_character": "char_shou_yan",
   "story_time": 41,
-  "thread_id": "thr_yi_lan",
+  "thread_id": "thr_wei_se",
   "events_covered": [
-    "evt_dushi_attempt_1_aftermath"
+    "evt_shell_left_behind"
   ],
   "_stub": true,
   "beats": [
     {
       "beat": 1,
-      "action": "待写",
+      "action": "守岩推断蚕母会吞噬留在核心网的空壳(ember已不在)，迟早发现目标转向伊岚——可能形成追击；加速回程。",
       "psychology": "",
       "internal_monologue": ""
     }

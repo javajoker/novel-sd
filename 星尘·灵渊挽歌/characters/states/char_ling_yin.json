@@ -385,6 +385,91 @@
         "erosion_load": 5
       },
       "abilities_delta": []
+    },
+    {
+      "story_time": 43,
+      "chapter_id": "ch_072–ch_073",
+      "location": "elem_relay_station",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "七人网络感知层放大(旋星共鸣)；用全频脉冲a'调制激活中继广播约200km联系更远灵裔，灵能降至12%",
+          "severity": "medium"
+        },
+        {
+          "type": "milestone",
+          "desc": "教旋星a'技术——网络有了第二个感知节点",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_relay_amplification",
+          "source": "ch_073：中继设备可放大聆音脉冲至200km广播"
+        }
+      ],
+      "psychology": {
+        "sanity": 72,
+        "mood": "感知能力被网络和中继设备放大；不再是唯一的感知者",
+        "erosion_load": 5
+      },
+      "abilities_delta": [
+        {
+          "ability": "中继广播",
+          "change": "ch_073：通过中继设备放大全频脉冲至200km"
+        }
+      ]
+    },
+    {
+      "story_time": 48,
+      "chapter_id": "ch_087",
+      "location": "elem_lingyin_frontier",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "discovery",
+          "desc": "120人网络演练感知到超频谐振——网络成为覆盖超出单人最远感知的战场级感知系统",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_superfrequency",
+          "source": "ch_087：网络超频谐振，集体频率叠加"
+        }
+      ],
+      "psychology": {
+        "sanity": 73,
+        "mood": "网络成了一个比任何个体都大的感知器",
+        "erosion_load": 5
+      },
+      "abilities_delta": []
+    },
+    {
+      "story_time": 50,
+      "chapter_id": "ch_088–ch_089",
+      "location": "elem_lingyin_frontier",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "穹枢通信网络放大下6小时前预警蚕母80只战略攻势；92人网络中超频感知覆盖整个战场",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_shimu_strategic_response",
+          "source": "ch_088：蚕母核心网事件后调集80只从南侧战略攻势"
+        }
+      ],
+      "psychology": {
+        "sanity": 73,
+        "mood": "感知者+通信网络+超频=战场级实时监控",
+        "erosion_load": 5
+      },
+      "abilities_delta": []
     }
   ]
 }

@@ -807,6 +807,144 @@
         "源质结晶 x1",
         "灵能制式短刃"
       ]
+    },
+    {
+      "story_time": 43,
+      "chapter_id": "ch_065–ch_074",
+      "location": "elem_deep_wasteland_east → elem_relay_station",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "回程把网状渡蚀理论翻译为操作手册(ch_065)；弥散频率转换成功(ch_067)；四人网络(ch_068)→七人网络反馈回流出现枢纽压力15%(ch_072)→十一人网络(ch_074)。遇灰珀残部三人，随行扩展到队伍之外。",
+          "severity": "n/a"
+        },
+        {
+          "type": "discovery",
+          "desc": "网络内灵渊互感=无语言战术通信；旋星与聆音感知共鸣放大网络感知层",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_network_operational",
+          "source": "ch_067-074：弥散频率转换+多人网络验证，反馈回流随节点数非线性增强"
+        },
+        {
+          "fact": "fact_other_survivors_exist",
+          "source": "ch_070-074：通信中继站遇沉渡/微澜/旋星，砺锋四人残部汇合"
+        }
+      ],
+      "psychology": {
+        "sanity": 58,
+        "mood": "不再是孤军——薇瑟的技术开始往更多人那里去",
+        "erosion_load": 57
+      },
+      "abilities_delta": [
+        {
+          "ability": "网状渡蚀(实践)",
+          "change": "ch_067-074：弥散频率转换+建立维持多人网络，从理论到实践"
+        }
+      ],
+      "derived_inventory": [
+        "elem_wei_se_core",
+        "源质结晶 x1",
+        "灵能制式短刃"
+      ]
+    },
+    {
+      "story_time": 46,
+      "chapter_id": "ch_075–ch_082",
+      "location": "elem_relay_station → elem_lingyin_frontier",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "凝辉率穹枢联络队抵达→往穹枢→16人灵蚀传输erosion 53→51→委员会评审→58灵渊网络跨50阈值枢纽压力归零，erosion 51→49。薇瑟理论完全验证。",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_hub_pressure_zero",
+          "source": "ch_082：58节点网络枢纽压力归零(不是趋近，是感知不到)"
+        },
+        {
+          "fact": "fact_qiongshu_500_lingyi",
+          "source": "ch_078：穹枢约500灵裔战斗序列，远超50节点阈值"
+        }
+      ],
+      "psychology": {
+        "sanity": 60,
+        "mood": "枢纽压力归零——这不是殉道了，薇瑟想做的事在更大的网络里实现",
+        "erosion_load": 49
+      },
+      "abilities_delta": [],
+      "derived_inventory": [
+        "elem_wei_se_core",
+        "源质结晶 x1",
+        "灵能制式短刃"
+      ]
+    },
+    {
+      "story_time": 47,
+      "chapter_id": "ch_084",
+      "location": "elem_lingyin_frontier",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "网状渡蚀首次实战(35人网络)：灵蚀分担1/35，全域态势感知，聆音预警5km；25只清除每人灵蚀增量0.5(vs正常3-5)。战斗代价第一次没落在任何一个人身上。",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [],
+      "psychology": {
+        "sanity": 61,
+        "mood": "没有人独自承受，没有人燃尽——薇瑟技术的实战形态",
+        "erosion_load": 49
+      },
+      "abilities_delta": [],
+      "derived_inventory": [
+        "elem_wei_se_core",
+        "源质结晶 x1",
+        "灵能制式短刃"
+      ]
+    },
+    {
+      "story_time": 50,
+      "chapter_id": "ch_087–ch_090",
+      "location": "elem_lingyin_frontier",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "120人网络涌现超频谐振(网络成战场级感知系统,ch_087)；南侧大战92人网络击溃蚕母80只战略攻势，每人增量0.8无人燃尽(ch_089)。卷三完结：随行从四人扩展到所有网络灵裔。",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_superfrequency",
+          "source": "ch_087：120灵渊网络涌现超频谐振，覆盖超出单人最远感知"
+        }
+      ],
+      "psychology": {
+        "sanity": 62,
+        "mood": "随行变成了所有共同承受灵蚀的灵裔；薇瑟的火传完了，变成光",
+        "erosion_load": 49
+      },
+      "abilities_delta": [
+        {
+          "ability": "网状渡蚀(规模化)",
+          "change": "ch_082/087/089：50节点枢纽归零，120节点超频谐振，92节点实战"
+        }
+      ],
+      "derived_inventory": [
+        "elem_wei_se_core",
+        "源质结晶 x1",
+        "灵能制式短刃"
+      ]
     }
   ]
 }
