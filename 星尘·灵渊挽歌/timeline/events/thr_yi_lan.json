@@ -1,0 +1,524 @@
+{
+  "_note": "Per-thread mirror of ontology.json#events. Authoritative source is ontology.json#events; regenerate with sync_events.py --write.",
+  "thread_id": "thr_yi_lan",
+  "events": [
+    {
+      "id": "evt_yi_lan_dushi_zhao",
+      "name": "伊岚渡蚀救昭",
+      "story_time": 1,
+      "chapter": "ch_001",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_zhao"
+      ]
+    },
+    {
+      "id": "evt_yi_lan_discovers_memory_loss",
+      "name": "伊岚发现渡蚀消耗自身记忆",
+      "story_time": 2,
+      "chapter": "ch_002",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_lingyin_challenges_yi_lan",
+      "name": "聆音拆穿伊岚独自承担模式",
+      "story_time": 6,
+      "chapter": "ch_006",
+      "status": "drafted",
+      "participants": [
+        "char_ling_yin",
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_yi_lan_forgets_wei_se_face",
+      "name": "伊岚发现无法回忆薇瑟的脸",
+      "story_time": 7,
+      "chapter": "ch_007",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_wei_se"
+      ]
+    },
+    {
+      "id": "evt_yi_lan_dushi_scattered",
+      "name": "伊岚首次使用渡蚀分散模式",
+      "story_time": 8,
+      "chapter": "ch_008",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao"
+      ]
+    },
+    {
+      "id": "evt_yihe_beacon_revealed",
+      "name": "聆音揭示遗核为固定方向信标",
+      "story_time": 12,
+      "chapter": "ch_012",
+      "status": "drafted",
+      "participants": [
+        "char_ling_yin",
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_yihe_resonance_discovered",
+      "name": "伊岚发现渡蚀频率与遗核共振",
+      "story_time": 12,
+      "chapter": "ch_012",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_yihe_response_signal",
+      "name": "遗核收到东侧偏南单次脉冲回应",
+      "story_time": 14,
+      "chapter": "ch_014",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_wei_se"
+      ]
+    },
+    {
+      "id": "evt_yi_lan_decides_east",
+      "name": "伊岚决定往东——未说原因",
+      "story_time": 15,
+      "chapter": "ch_015",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_yilan_first_half_confession",
+      "name": "伊岚的第一次半开口",
+      "story_time": 17,
+      "chapter": "ch_021",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan"
+      ]
+    },
+    {
+      "id": "evt_yihe_warming",
+      "name": "遗核基础温度上升——确认接近中",
+      "story_time": 18,
+      "chapter": "ch_023",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_yilan_full_confession",
+      "name": "伊岚向全队说出完整真相",
+      "story_time": 19,
+      "chapter": "ch_024",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_shouyan_beacon_memory",
+      "name": "守岩记忆浮现——第七号信标",
+      "story_time": 24,
+      "chapter": "ch_032",
+      "status": "drafted",
+      "participants": [
+        "char_shou_yan",
+        "char_yi_lan",
+        "char_zhao",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_seventh_beacon_arrival",
+      "name": "抵达第七号信标——薇瑟的余烬",
+      "story_time": 26,
+      "chapter": "ch_035",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin",
+        "char_wei_se",
+        "elem_seventh_beacon"
+      ]
+    },
+    {
+      "id": "evt_imprint_gradient_sensed",
+      "name": "印记频率梯度感知——方向性浮现",
+      "story_time": 27,
+      "chapter": "ch_036",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_wei_se"
+      ]
+    },
+    {
+      "id": "evt_core_network_revealed",
+      "name": "守岩记忆——灵渊核心网",
+      "story_time": 28,
+      "chapter": "ch_039",
+      "status": "drafted",
+      "participants": [
+        "char_shou_yan",
+        "char_yi_lan",
+        "char_zhao",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_northwest_direction_set",
+      "name": "决定往西北——往核心网",
+      "story_time": 29,
+      "chapter": "ch_040",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_deep_vein_memory",
+      "name": "守岩记忆——古灵渊深脉",
+      "story_time": 31,
+      "chapter": "ch_044",
+      "status": "drafted",
+      "participants": [
+        "char_shou_yan",
+        "char_yi_lan",
+        "char_zhao",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_yi_lan_erosion_48",
+      "name": "伊岚灵蚀危机——erosion_load 48",
+      "story_time": 35,
+      "chapter": "ch_050",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan"
+      ]
+    },
+    {
+      "id": "evt_dushi_new_dimension",
+      "name": "新维度",
+      "story_time": 36,
+      "chapter": "ch_052",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_ember_cofrequency",
+      "name": "伊岚与ember建立共频——容器知道她在",
+      "story_time": 36,
+      "chapter": "ch_052",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_wei_se"
+      ]
+    },
+    {
+      "id": "evt_yi_lan_reaches_for_wei_se",
+      "name": "伸手",
+      "story_time": 37,
+      "chapter": "ch_054",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_ember_four_contacts",
+      "name": "四次渡蚀接触——容器层层打开",
+      "story_time": 38,
+      "chapter": "ch_056",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_wei_se"
+      ]
+    },
+    {
+      "id": "evt_shouyan_witnesses",
+      "name": "守岩看着",
+      "story_time": 38,
+      "chapter": "ch_057",
+      "status": "drafted",
+      "participants": [
+        "char_shou_yan"
+      ]
+    },
+    {
+      "id": "evt_wei_se_first_touch",
+      "name": "第一次触碰",
+      "story_time": 38,
+      "chapter": "ch_056",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_wei_se_inner_contact",
+      "name": "伊岚渡蚀接触空壳内层——发现ember结构",
+      "story_time": 39,
+      "chapter": "ch_059",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_wei_se"
+      ]
+    },
+    {
+      "id": "evt_ember_transmission_complete",
+      "name": "ember传输完成——薇瑟的方法进入伊岚灵渊",
+      "story_time": 40,
+      "chapter": "ch_060",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_wei_se",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_subarc_c_closure",
+      "name": "Sub-arc C收束",
+      "story_time": 40,
+      "chapter": "ch_060",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_technique_understood",
+      "name": "伊岚理解薇瑟的完整方法——网状渡蚀",
+      "story_time": 41,
+      "chapter": "ch_062",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_return_journey",
+      "name": "回程·伊岚翻译技术为操作",
+      "story_time": 43,
+      "chapter": "ch_065",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_dushi_dispersion_test",
+      "name": "渡蚀弥散频率首次转换测试",
+      "story_time": 44,
+      "chapter": "ch_067",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_network_4person",
+      "name": "四人灵渊网络首次建立",
+      "story_time": 44,
+      "chapter": "ch_068",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_network_7person",
+      "name": "七人网络·反馈回流首次出现",
+      "story_time": 46,
+      "chapter": "ch_072",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_ling_yin",
+        "char_chen_du",
+        "char_wei_lan",
+        "char_xuan_xing"
+      ]
+    },
+    {
+      "id": "evt_network_16_transmission",
+      "name": "路上·十六人网络第二次灵蚀传输",
+      "story_time": 48,
+      "chapter": "ch_078",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin",
+        "char_ning_hui"
+      ]
+    },
+    {
+      "id": "evt_shouyan_erosion_late",
+      "name": "守岩灵蚀晚期·开始传递旧档案",
+      "story_time": 49,
+      "chapter": "ch_079",
+      "status": "drafted",
+      "participants": [
+        "char_shou_yan",
+        "char_yi_lan",
+        "char_zhao",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_network_58_zero_hub",
+      "name": "五十八人网络·枢纽压力归零",
+      "story_time": 50,
+      "chapter": "ch_082",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_shouyan_transmits_archive",
+      "name": "守岩系统传递全部旧档案",
+      "story_time": 52,
+      "chapter": "ch_086",
+      "status": "drafted",
+      "participants": [
+        "char_shou_yan",
+        "char_yi_lan",
+        "char_zhao",
+        "char_ling_yin",
+        "char_ning_hui"
+      ]
+    },
+    {
+      "id": "evt_network_120_superfreq",
+      "name": "百二十人网络·超频谐振涌现",
+      "story_time": 53,
+      "chapter": "ch_087",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_seventh_beacon_revisit",
+      "name": "第七号信标·再访",
+      "story_time": 53,
+      "chapter": "ch_095",
+      "status": "planned",
+      "participants": [
+        "char_shou_yan"
+      ]
+    },
+    {
+      "id": "evt_vol3_close",
+      "name": "卷三完结——往更多人的方向走",
+      "story_time": 54,
+      "chapter": "ch_090",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_dushi_network_first_test",
+      "name": "渡蚀网状形态首次尝试",
+      "story_time": 56,
+      "chapter": "ch_093",
+      "status": "planned",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_shouyan_erosion_final",
+      "name": "守岩灵蚀最终章",
+      "story_time": 79,
+      "chapter": "ch_140",
+      "status": "planned",
+      "participants": [
+        "char_shou_yan",
+        "char_yi_lan",
+        "char_zhao",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_dushi_network_scale",
+      "name": "渡蚀网状技术大规模使用",
+      "story_time": 119,
+      "chapter": "ch_220",
+      "status": "planned",
+      "participants": [
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_novel_close",
+      "name": "尾声·随行",
+      "story_time": 139,
+      "chapter": "ch_260",
+      "status": "planned",
+      "participants": [
+        "char_yi_lan",
+        "char_zhao",
+        "char_ling_yin"
+      ]
+    }
+  ]
+}

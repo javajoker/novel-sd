@@ -108,6 +108,14 @@
       ],
       "projected_facts_to_learn": [],
       "perception": { "level": "high", "notes": "ch_015-017：决定往东，守岩告知遗核动了，聆音报告频率暴露（窄频定位脉冲每40分钟），昭发现渗水点箭头刻痕（至少两年，指东侧偏南）。三条来自不同方向的证据收束到同一方向，伊岚选择不解释只说'走'。" }
+    },
+    {
+      "story_time": 21,
+      "projected_facts_to_learn": [
+        { "fact": "fact_shimu_second_node_confirmed", "stage": "to_learn_ch_027", "trigger": "ch_027 聆音向全队宣告" },
+        { "fact": "fact_40min_window_is_exposure_not_cover", "stage": "to_learn_ch_028", "trigger": "ch_028 昭向伊岚说明新战术框架" },
+        { "fact": "fact_yihe_baseline_temp_significant_rise", "stage": "to_observe_ch_028", "trigger": "ch_028 伊岚隔布感知遗核——今天明显比昨天更热" }
+      ]
     }
   ]
 }

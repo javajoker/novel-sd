@@ -1,0 +1,21 @@
+{
+  "chapter_id": "ch_091",
+  "title": "归路的第一步",
+  "volume": "vol_04",
+  "status": "planned",
+  "pov_character": "char_yi_lan",
+  "story_time": 51,
+  "thread_id": "thr_yi_lan",
+  "events_covered": [
+    "evt_return_first_step"
+  ],
+  "_stub": true,
+  "beats": [
+    {
+      "beat": 1,
+      "action": "待写",
+      "psychology": "",
+      "internal_monologue": ""
+    }
+  ]
+}

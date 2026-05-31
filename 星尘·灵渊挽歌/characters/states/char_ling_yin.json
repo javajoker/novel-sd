@@ -7,13 +7,28 @@
       "location": "elem_huipo_wasteland（东侧矿石群）",
       "inventory_delta": [],
       "status": [
-        { "type": "milestone", "desc": "首次主动使用全频灵能脉冲干扰蚕母集结信号——将自身频率与蚕母集结接收端重合，北侧集结组失去方向散开撤退", "severity": "n/a" },
-        { "type": "critical", "desc": "全频脉冲后灵能储量大量消耗；灵能频率完整签名向所有方向广播——蚕母已可识别聆音的完整基础频率特征", "severity": "high" }
+        {
+          "type": "milestone",
+          "desc": "首次主动使用全频灵能脉冲干扰蚕母集结信号——将自身频率与蚕母集结接收端重合，北侧集结组失去方向散开撤退",
+          "severity": "n/a"
+        },
+        {
+          "type": "critical",
+          "desc": "全频脉冲后灵能储量大量消耗；灵能频率完整签名向所有方向广播——蚕母已可识别聆音的完整基础频率特征",
+          "severity": "high"
+        }
       ],
       "knowledge_gained": [],
-      "psychology": { "sanity": 72, "mood": "主动出击之后的沉静——她做了昨晚能做的事，代价她知道，暂时不说出来", "erosion_load": 5 },
+      "psychology": {
+        "sanity": 72,
+        "mood": "主动出击之后的沉静——她做了昨晚能做的事，代价她知道，暂时不说出来",
+        "erosion_load": 5
+      },
       "abilities_delta": [
-        { "ability": "全频灵能脉冲（主动干扰）", "change": "首次将感知能力用作主动干扰手段；向外广播频率可覆盖蚕母集结信号接收端——代价是频率特征完全暴露" }
+        {
+          "ability": "全频灵能脉冲（主动干扰）",
+          "change": "首次将感知能力用作主动干扰手段；向外广播频率可覆盖蚕母集结信号接收端——代价是频率特征完全暴露"
+        }
       ],
       "derived_inventory": []
     },
@@ -23,15 +38,437 @@
       "location": "elem_huipo_wasteland_east（东行途中）",
       "inventory_delta": [],
       "status": [
-        { "type": "debuff", "desc": "ch_014全频脉冲后灵能恢复中：感知范围缩至约平时六成，主动感知力度克制，维持基础覆盖", "severity": "medium" },
-        { "type": "psychology", "desc": "ch_016：将频率暴露事实主动汇报给队伍（等到确认完才说出）；接受守岩关于'蚕母认识基础频率而非全部'的信息，威胁边界变清晰了", "severity": "n/a" },
-        { "type": "psychology", "desc": "ch_015–016：在行进中持续测试频率边界——展开感知再收缩，测量能往外推多远而不触发蚕母探测脉冲；主动寻找对策", "severity": "n/a" }
+        {
+          "type": "debuff",
+          "desc": "ch_014全频脉冲后灵能恢复中：感知范围缩至约平时六成，主动感知力度克制，维持基础覆盖",
+          "severity": "medium"
+        },
+        {
+          "type": "psychology",
+          "desc": "ch_016：将频率暴露事实主动汇报给队伍（等到确认完才说出）；接受守岩关于'蚕母认识基础频率而非全部'的信息，威胁边界变清晰了",
+          "severity": "n/a"
+        },
+        {
+          "type": "psychology",
+          "desc": "ch_015–016：在行进中持续测试频率边界——展开感知再收缩，测量能往外推多远而不触发蚕母探测脉冲；主动寻找对策",
+          "severity": "n/a"
+        }
       ],
       "knowledge_gained": [
-        { "fact": "fact_lingyin_frequency_exposed", "source": "自身感知：全频脉冲后发现蚕母信号变从宽频扫描变为针对性窄频定位脉冲，约40分钟间隔，方向精度高" },
-        { "fact": "fact_lingyin_capability_hidden", "source": "ch_016：守岩的提示——蚕母见过她的基础感知频率，但没见过她用同一频率做别的事" }
+        {
+          "fact": "fact_lingyin_frequency_exposed",
+          "source": "自身感知：全频脉冲后发现蚕母信号变从宽频扫描变为针对性窄频定位脉冲，约40分钟间隔，方向精度高"
+        },
+        {
+          "fact": "fact_lingyin_capability_hidden",
+          "source": "ch_016：守岩的提示——蚕母见过她的基础感知频率，但没见过她用同一频率做别的事"
+        }
       ],
-      "psychology": { "sanity": 72, "mood": "平静、工作、自己找方法；威胁边界更清楚了，不因此崩溃，在找能做的事", "erosion_load": 5 },
+      "psychology": {
+        "sanity": 72,
+        "mood": "平静、工作、自己找方法；威胁边界更清楚了，不因此崩溃，在找能做的事",
+        "erosion_load": 5
+      },
+      "abilities_delta": []
+    },
+    {
+      "story_time": 16,
+      "chapter_id": "ch_018–ch_019",
+      "location": "elem_huipo_wasteland_east（第二天）",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "ch_018：在第35分钟前收窄至a'子频段等待脉冲扫过再展开——开始系统测试a'假设；伊岚注意到但不问",
+          "severity": "n/a"
+        },
+        {
+          "type": "milestone",
+          "desc": "ch_019（POV）：独立完成a'假设测试——行进中第七次观测出现统计显著性（峰值偏差20-25度），守夜时完成第五次静止有效观测，偏差22度；五次有效观测，假设成立；决定明天告诉队伍",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_lingyin_a_prime_hypothesis",
+          "source": "ch_019：自主测试确认——A频率内层子频段a'可使蚕母定位偏差约20度（中位22度，偏差区间18-27度），代价是感知覆盖缩至六成、失去精确远程定向"
+        }
+      ],
+      "psychology": {
+        "sanity": 73,
+        "mood": "专注、自主——她找到了一件她能做的事，方法是她自己的；准备好了再告诉他们",
+        "erosion_load": 3
+      },
+      "abilities_delta": [
+        {
+          "ability": "子频段a'（隐蔽感知）",
+          "change": "ch_019末：假设确认成立；尚未向队伍公布"
+        }
+      ],
+      "derived_inventory": []
+    },
+    {
+      "story_time": 18,
+      "chapter_id": "ch_022–ch_023",
+      "location": "elem_huipo_wasteland_east（第四天）",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "ch_022（POV）：完成十次测试（七次有效），向队伍公布a'技术——中位偏差22度，代价感知覆盖六成；昭整合为战术（开阔地持续维持a'，需要精确感知时临时切回A）",
+          "severity": "n/a"
+        },
+        {
+          "type": "milestone",
+          "desc": "ch_023：a'战术首次实战——虫群探查单元遭遇中，昭决策聆音临时切回A发出短促干扰脉冲驱离；代价是短暂完整暴露A频率（蚕母精准定位短暂升高后再次模糊）",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [],
+      "psychology": {
+        "sanity": 73,
+        "mood": "方法已公布，战术已整合，已有实战验证——工作在进行，她在她的位置上",
+        "erosion_load": 3
+      },
+      "abilities_delta": [
+        {
+          "ability": "子频段a'（隐蔽感知）",
+          "change": "ch_022：向队伍公布，正式成为战术资产；ch_023：首次实战使用（临时切回A后回到a'）"
+        }
+      ],
+      "derived_inventory": []
+    },
+    {
+      "story_time": 19,
+      "chapter_id": "ch_025",
+      "location": "elem_huipo_wasteland_east（第五天傍晚）",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "主动询问伊岚薇瑟的基础频率特征，将其记入感知记忆——以便在a'的低功率状态下识别东侧偏南方向是否有匹配信号",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_wei_se_freq_signature",
+          "source": "ch_025：向伊岚询问后记入感知记忆——低沉稳定、接近灵渊底色、比一般战术频率厚重久远、更慢更宽、像长音而非短促振动"
+        }
+      ],
+      "psychology": {
+        "sanity": 73,
+        "mood": "平静、在自己的位置上——知道自己能做什么，在做能做的事；Sub-arc B以a'+薇瑟频率识别能力开始",
+        "erosion_load": 3
+      },
+      "abilities_delta": []
+    },
+    {
+      "story_time": 20,
+      "chapter_id": "ch_026",
+      "location": "elem_deep_wasteland_east",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "在深荒地形察觉窄频脉冲相位漂移（约0.3秒，约15度方向分离）；向昭报告两个解释（地质反射 or 第二节点）；启动系统记录工作——需要更多窗口的观测数据才能判断",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_shimu_signal_phase_anomaly",
+          "source": "ch_026自身感知：第二次降频窗口后，察觉窄频脉冲出现相位偏移，方向分离约15度；两个解释，需多次系统观测确认"
+        }
+      ],
+      "psychology": {
+        "sanity": 73,
+        "mood": "观察到异常，报告昭，开始系统记录——科学方法论一贯：数据不够不下结论；等更多窗口",
+        "erosion_load": 3
+      },
+      "abilities_delta": []
+    },
+    {
+      "story_time": 21,
+      "chapter_id": "ch_027",
+      "location": "elem_deep_wasteland_east",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "完成三地七次观测，统计确认相位偏移与位置无关（方差0.02秒）——第二节点确认，向全队宣告；同时识别两脉冲到达顺序（北偏东35度先到），开始积累第二节点位置定位数据",
+          "severity": "n/a"
+        },
+        {
+          "type": "psychology",
+          "desc": "科学结论确定，交付给队伍；已经开始思考下一个可测试的假设：两节点时差→逆推第二节点位置，以及a'对三角定位的实际保护效果",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_shimu_second_node_confirmed",
+          "source": "ch_027自身发现并向全队宣告：三地七次观测，偏移恒定，排除地质，确认第二节点；距离三角定位已经可行"
+        },
+        {
+          "fact": "fact_40min_window_is_exposure_not_cover",
+          "source": "ch_028从昭处知晓：40分钟窗口是已知暴露时间，不是隐形期"
+        }
+      ],
+      "psychology": {
+        "sanity": 73,
+        "mood": "科学工作完成，结论交付；已经在下一个问题里——第二节点位置、a'对三角定位的保护效果测试",
+        "erosion_load": 3
+      },
+      "abilities_delta": []
+    },
+    {
+      "story_time": 22,
+      "chapter_id": "ch_029",
+      "location": "elem_deep_wasteland_east",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "测试裂缝内壁矿物散射假设：在对应矿物壁朝向的裂缝内侧降频，北侧节点方向相位偏移0.30→0.83秒（×2.7），方向分离15→39度；另一节点方向0.31→0.31秒（无效）。确认散射是方向性的。",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_crack_mineral_scatter",
+          "source": "ch_029昭提出假设，聆音测试确认：裂缝内壁深层矿物对北侧节点方向有显著信号散射"
+        },
+        {
+          "fact": "fact_scatter_is_directional",
+          "source": "ch_029自身测试数据：北侧节点方向散射系数约2.7，另一节点方向无效"
+        }
+      ],
+      "psychology": {
+        "sanity": 74,
+        "mood": "新战术工具确认；现在有了两个待解问题：第二节点位置的逆推测试，以及a'对三角定位实际保护效果的测试",
+        "erosion_load": 3
+      },
+      "abilities_delta": []
+    },
+    {
+      "story_time": 23,
+      "chapter_id": "ch_031",
+      "location": "elem_deep_wasteland_east",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "战后用战斗期间高密度信号数据计算第二节点位置（精度最高一次，强度误差8%，时差误差0.05s）：东偏南约40km，行进方向前方。向队伍宣告两种解释。",
+          "severity": "n/a"
+        },
+        {
+          "type": "discovery",
+          "desc": "在a'低功率感知中确认薇瑟频率底色比昨天更清楚——信号真实增强，非感知校准误差",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_second_node_position",
+          "source": "ch_031自身计算：东偏南约40km"
+        },
+        {
+          "fact": "fact_wei_se_freq_stronger",
+          "source": "ch_031自身感知：薇瑟频率底色比昨天更清楚，且随行进持续增强——真实接近"
+        },
+        {
+          "fact": "fact_seventh_beacon_existence",
+          "source": "ch_032守岩陈述"
+        }
+      ],
+      "psychology": {
+        "sanity": 74,
+        "mood": "数据工作完成；感知到目标越来越近；南侧节点遮蔽数据收集中",
+        "erosion_load": 3
+      },
+      "abilities_delta": []
+    },
+    {
+      "story_time": 25,
+      "chapter_id": "ch_034–ch_035",
+      "location": "elem_seventh_beacon",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "debuff",
+          "desc": "ch_034：全频干扰脉冲+持续感知双向消耗，灵能大量透支，战后需要恢复时间",
+          "severity": "medium"
+        },
+        {
+          "type": "milestone",
+          "desc": "ch_034战后精度最高一次计算：第二节点约10-12km（误差5km）。ch_035确认聚焦器内薇瑟频率印记与感知记忆中的薇瑟特征完全匹配——印记是真实的，不是矿石灵息，不是虫群频率",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_seventh_beacon_wei_se_imprint",
+          "source": "ch_035感知聚焦器：确认内部有结构性印记，频率与薇瑟特征完全一致"
+        },
+        {
+          "fact": "fact_second_node_precision",
+          "source": "ch_034高密度数据：第二节点约10-12km，误差5km"
+        }
+      ],
+      "psychology": {
+        "sanity": 73,
+        "mood": "目标找到了，但目标是印记不是实体；Sub-arc C需要从印记里找下一条路",
+        "erosion_load": 5
+      },
+      "abilities_delta": []
+    },
+    {
+      "story_time": 30,
+      "chapter_id": "ch_042–ch_049",
+      "location": "elem_core_network_region → elem_core_network",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "ch_042：蚕母领土信号密度评估——11组常驻防御，据点中心。ch_045：感知到空壳薇瑟信号在往核心网方向移动，被深脉环境吸引。ch_049：进入核心网中心后感知空壳在约80米外——ember频率比以前更清楚。",
+          "severity": "n/a"
+        },
+        {
+          "type": "debuff",
+          "desc": "多次全频干扰+持续感知，灵能降至18-22%多次",
+          "severity": "medium"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_shimu_territory_density",
+          "source": "ch_042：11组常驻单元，有协同通信网络"
+        },
+        {
+          "fact": "fact_wei_se_shell_pulled_by_vein",
+          "source": "ch_045：空壳薇瑟被深脉灵能梯度吸引往核心网方向移动"
+        },
+        {
+          "fact": "fact_deep_vein_suppresses_swarm",
+          "source": "ch_049：核心网中心深脉干扰蚕母协同"
+        }
+      ],
+      "psychology": {
+        "sanity": 71,
+        "mood": "工作在进行——感知预警、数据分析、战斗支援三个优先级维持",
+        "erosion_load": 5
+      },
+      "abilities_delta": []
+    },
+    {
+      "story_time": 38,
+      "chapter_id": "ch_060",
+      "location": "elem_core_network",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "ch_060传输期间：全频干扰+a'双重压制蚕母集结信号，灵能降至极低。最后保护伊岚渡蚀通道不被干扰。",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_ember_transmitted",
+          "source": "ch_060：在战斗中感知到伊岚渡蚀通道的传输完成——ember频率形态变化确认"
+        }
+      ],
+      "psychology": {
+        "sanity": 71,
+        "mood": "传输完了，打出去了；灵能需要恢复",
+        "erosion_load": 5
+      },
+      "abilities_delta": []
+    },
+    {
+      "story_time": 43,
+      "chapter_id": "ch_072–ch_073",
+      "location": "elem_relay_station",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "七人网络感知层放大(旋星共鸣)；用全频脉冲a'调制激活中继广播约200km联系更远灵裔，灵能降至12%",
+          "severity": "medium"
+        },
+        {
+          "type": "milestone",
+          "desc": "教旋星a'技术——网络有了第二个感知节点",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_relay_amplification",
+          "source": "ch_073：中继设备可放大聆音脉冲至200km广播"
+        }
+      ],
+      "psychology": {
+        "sanity": 72,
+        "mood": "感知能力被网络和中继设备放大；不再是唯一的感知者",
+        "erosion_load": 5
+      },
+      "abilities_delta": [
+        {
+          "ability": "中继广播",
+          "change": "ch_073：通过中继设备放大全频脉冲至200km"
+        }
+      ]
+    },
+    {
+      "story_time": 48,
+      "chapter_id": "ch_087",
+      "location": "elem_lingyin_frontier",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "discovery",
+          "desc": "120人网络演练感知到超频谐振——网络成为覆盖超出单人最远感知的战场级感知系统",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_superfrequency",
+          "source": "ch_087：网络超频谐振，集体频率叠加"
+        }
+      ],
+      "psychology": {
+        "sanity": 73,
+        "mood": "网络成了一个比任何个体都大的感知器",
+        "erosion_load": 5
+      },
+      "abilities_delta": []
+    },
+    {
+      "story_time": 50,
+      "chapter_id": "ch_088–ch_089",
+      "location": "elem_lingyin_frontier",
+      "inventory_delta": [],
+      "status": [
+        {
+          "type": "milestone",
+          "desc": "穹枢通信网络放大下6小时前预警蚕母80只战略攻势；92人网络中超频感知覆盖整个战场",
+          "severity": "n/a"
+        }
+      ],
+      "knowledge_gained": [
+        {
+          "fact": "fact_shimu_strategic_response",
+          "source": "ch_088：蚕母核心网事件后调集80只从南侧战略攻势"
+        }
+      ],
+      "psychology": {
+        "sanity": 73,
+        "mood": "感知者+通信网络+超频=战场级实时监控",
+        "erosion_load": 5
+      },
       "abilities_delta": []
     }
   ]

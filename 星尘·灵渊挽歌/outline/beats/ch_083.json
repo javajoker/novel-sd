@@ -1,0 +1,21 @@
+{
+  "chapter_id": "ch_083",
+  "title": "部署",
+  "volume": "vol_03",
+  "status": "drafted",
+  "pov_character": "char_zhao",
+  "story_time": 47,
+  "thread_id": "thr_qiongshu_reentry",
+  "events_covered": [
+    "evt_qiongshu_deploys"
+  ],
+  "_stub": true,
+  "beats": [
+    {
+      "beat": 1,
+      "action": "昭POV：穹枢列网状渡蚀为S级资产，凝辉任协调官，组建部署队；昭获知灰珀矿脉已被联邦接管(卷四伏笔)。",
+      "psychology": "",
+      "internal_monologue": ""
+    }
+  ]
+}

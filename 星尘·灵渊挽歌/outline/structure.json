@@ -272,7 +272,7 @@
       "story_focus": "遗核信标与薇瑟余烬的真相；聆音频率暴露后的主动对策发展；伊岚隐瞒回应脉冲的代价；昭对全局连线的逐渐清晰。",
       "time_span": {
         "from": 15,
-        "to": null
+        "to": 50
       },
       "primary_characters": [
         "char_yi_lan",
@@ -454,9 +454,3043 @@
           "one_line": "说完之后队伍沉默后重新出发；昭用目标优先级重构战术；聆音记住薇瑟频率特征；Sub-arc A收束，Sub-arc B东行深荒开始。",
           "status": "drafted",
           "beat_sheet_ref": "outline/beats/ch_025.json"
+        },
+        {
+          "id": "ch_026",
+          "number": 26,
+          "title": "深荒",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_zhao",
+          "story_time": 20,
+          "planned_events": [
+            "evt_terrain_shift_deep",
+            "evt_shimu_signal_anomaly"
+          ],
+          "one_line": "昭POV：踏过地质分界线进入深荒；新地形需要新战术参数；遗核更热；聆音察觉窄频脉冲出现相位漂移——是地质反射还是蚕母第二节点？",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_026.json"
+        },
+        {
+          "id": "ch_027",
+          "number": 27,
+          "title": "节点",
+          "thread_id": "thr_hive",
+          "pov_character": "char_ling_yin",
+          "story_time": 21,
+          "planned_events": [
+            "evt_shimu_second_node_confirmed"
+          ],
+          "one_line": "聆音POV：深荒第二天早晨，完成三地七次观测——相位偏移跨位置恒定，非地质，是第二节点；向全队宣告：蚕母现在可以三角定位我们的距离。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_027.json"
+        },
+        {
+          "id": "ch_028",
+          "number": 28,
+          "title": "打破节律",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 21,
+          "planned_events": [
+            "evt_tactical_crisis_dual_node"
+          ],
+          "one_line": "伊岚POV：听到第二节点消息后行进；昭宣布打破节律；遗核今天比昨天明显更热——越近越危险。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_028.json"
+        },
+        {
+          "id": "ch_029",
+          "number": 29,
+          "title": "深荒的矿物",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_zhao",
+          "story_time": 22,
+          "planned_events": [
+            "evt_wasteland_crack_scatter"
+          ],
+          "one_line": "昭POV：打破节律第一天，观察裂缝内壁矿物成分，假设其散射灵能信号；聆音测试确认一个节点方向散射显著——深荒裂缝提供方向性不完整遮蔽。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_029.json"
+        },
+        {
+          "id": "ch_030",
+          "number": 30,
+          "title": "裂缝里的战",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_zhao",
+          "story_time": 23,
+          "planned_events": [
+            "evt_deep_wasteland_combat"
+          ],
+          "one_line": "昭POV：深荒首战，蚕母追击单元利用双节点锁定弱窗口进攻；裂缝地形限制异种展开；渡蚀稳局；战后昭确认南侧节点是仍未解决的方向暴露弱点。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_030.json"
+        },
+        {
+          "id": "ch_031",
+          "number": 31,
+          "title": "前方",
+          "thread_id": "thr_hive",
+          "pov_character": "char_ling_yin",
+          "story_time": 23,
+          "planned_events": [
+            "evt_lingyin_second_node_location"
+          ],
+          "one_line": "聆音POV：战后数据分析推算第二节点位置——东偏南约40km，即队伍行进方向前方；两种解释（蚕母主动拦截 or 节点本来就在那里）；伊岚的手放进口袋。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_031.json"
+        },
+        {
+          "id": "ch_032",
+          "number": 32,
+          "title": "七号信标",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_shou_yan",
+          "story_time": 24,
+          "planned_events": [
+            "evt_shouyan_beacon_memory"
+          ],
+          "one_line": "守岩POV：聆音再次说起东偏南40km触发旧记忆——第七号信标，旧灵能接力点，薇瑟知道那里；目标第一次有了一个旧时代的名字。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_032.json"
+        },
+        {
+          "id": "ch_033",
+          "number": 33,
+          "title": "索引完整",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_zhao",
+          "story_time": 24,
+          "planned_events": [
+            "evt_south_node_crack_found"
+          ],
+          "one_line": "昭POV：系统测试找到南侧节点对应遮蔽裂缝——双节点散射方案完整；遗核今天明显更热，约20km；Sub-arc B战术工具全部就位。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_033.json"
+        },
+        {
+          "id": "ch_034",
+          "number": 34,
+          "title": "收束点",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 25,
+          "planned_events": [
+            "evt_shimu_convergence_strike"
+          ],
+          "one_line": "伊岚POV：蚕母在收束点发动最大规模拦截（双节点三角包围，约十只异种）；双节点散射方案首次完整启用；遗核最强脉动；信标方向的呼应先于脉动而来——约10km。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_034.json"
+        },
+        {
+          "id": "ch_035",
+          "number": 35,
+          "title": "印记",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_shou_yan",
+          "story_time": 26,
+          "planned_events": [
+            "evt_seventh_beacon_arrival"
+          ],
+          "one_line": "守岩POV：踏入第七号信标遗址；伊岚渡蚀触碰接力点核心，遗核共振——聚焦器保存了薇瑟的灵渊印记（旧频率，完全匹配）；印记在，但她在哪里。Sub-arc B完结。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_035.json"
+        },
+        {
+          "id": "ch_036",
+          "number": 36,
+          "title": "梯度",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_yi_lan",
+          "story_time": 27,
+          "planned_events": [
+            "evt_imprint_gradient_sensed"
+          ],
+          "one_line": "夜守信标遗址：遗核共振与印记长连，印记在西北方向信号更强；渡蚀感知捕捉到方向性梯度。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_036.json"
+        },
+        {
+          "id": "ch_037",
+          "number": 37,
+          "title": "频率的方向",
+          "thread_id": "thr_hive",
+          "pov_character": "char_ling_yin",
+          "story_time": 27,
+          "planned_events": [
+            "evt_imprint_direction_decoded"
+          ],
+          "one_line": "聆音POV：频率梯度分析——西北方向衰减最慢，推算西北约30km处有更强灵能节点，是印记的源头方向。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_037.json"
+        },
+        {
+          "id": "ch_038",
+          "number": 38,
+          "title": "西北",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_zhao",
+          "story_time": 28,
+          "planned_events": [
+            "evt_northwest_route_assessment"
+          ],
+          "one_line": "昭POV：西北路线战术评估；请守岩查档案。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_038.json"
+        },
+        {
+          "id": "ch_039",
+          "number": 39,
+          "title": "核心网",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_shou_yan",
+          "story_time": 28,
+          "planned_events": [
+            "evt_core_network_revealed"
+          ],
+          "one_line": "守岩POV：旧档案——七处接力点连接的灵渊核心网汇点，西北约30km；薇瑟曾负责核心网维护。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_039.json"
+        },
+        {
+          "id": "ch_040",
+          "number": 40,
+          "title": "往西北走",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_yi_lan",
+          "story_time": 29,
+          "planned_events": [
+            "evt_northwest_direction_set"
+          ],
+          "one_line": "伊岚POV：决定往西北，往灵渊核心网；遗核西北方向共振更强。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_040.json"
+        },
+        {
+          "id": "ch_041",
+          "number": 41,
+          "title": "领土",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_zhao",
+          "story_time": 29,
+          "planned_events": [
+            "evt_shimu_territory_entered"
+          ],
+          "one_line": "昭POV：西北方向是蚕母地盘——领土防御而非追击；第二节点位置重合于核心网汇点。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_041.json"
+        },
+        {
+          "id": "ch_042",
+          "number": 42,
+          "title": "密度",
+          "thread_id": "thr_hive",
+          "pov_character": "char_ling_yin",
+          "story_time": 30,
+          "planned_events": [
+            "evt_shimu_territory_density"
+          ],
+          "one_line": "聆音POV：蚕母信号密度评估——据点中心，有组织的防御层，不是前哨。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_042.json"
+        },
+        {
+          "id": "ch_043",
+          "number": 43,
+          "title": "领土战",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 30,
+          "planned_events": [
+            "evt_territory_combat_first"
+          ],
+          "one_line": "伊岚POV：进入蚕母领土第一次接触——有组织的防御需要新战术。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_043.json"
+        },
+        {
+          "id": "ch_044",
+          "number": 44,
+          "title": "深脉",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_shou_yan",
+          "story_time": 31,
+          "planned_events": [
+            "evt_deep_vein_memory"
+          ],
+          "one_line": "守岩POV：旧记忆——核心网汇点下有古灵渊深脉，比灵裔建设早；蚕母要吞噬的是深脉本身。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_044.json"
+        },
+        {
+          "id": "ch_045",
+          "number": 45,
+          "title": "被拉走的空壳",
+          "thread_id": "thr_hive",
+          "pov_character": "char_ling_yin",
+          "story_time": 31,
+          "planned_events": [
+            "evt_wei_se_shell_pulled"
+          ],
+          "one_line": "聆音POV：感知到空壳薇瑟信号——她被拉向核心网方向。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_045.json"
+        },
+        {
+          "id": "ch_046",
+          "number": 46,
+          "title": "时间",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_zhao",
+          "story_time": 32,
+          "planned_events": [
+            "evt_time_pressure_escalation"
+          ],
+          "one_line": "昭POV：时间压力——蚕母先到则ember可能熄灭；必须更快。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_046.json"
+        },
+        {
+          "id": "ch_047",
+          "number": 47,
+          "title": "领土战（二）",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 32,
+          "planned_events": [
+            "evt_territory_combat_second"
+          ],
+          "one_line": "伊岚POV：大规模领土战第一章；快速推进的战术代价。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_047.json"
+        },
+        {
+          "id": "ch_048",
+          "number": 48,
+          "title": "领土战（三）",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_zhao",
+          "story_time": 32,
+          "planned_events": [
+            "evt_territory_combat_third"
+          ],
+          "one_line": "昭POV：战斗高峰；双节点散射+裂缝增益协同极限。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_048.json"
+        },
+        {
+          "id": "ch_049",
+          "number": 49,
+          "title": "战后·信号近了",
+          "thread_id": "thr_hive",
+          "pov_character": "char_ling_yin",
+          "story_time": 33,
+          "planned_events": [
+            "evt_territory_combat_aftermath"
+          ],
+          "one_line": "聆音POV：战后恢复；空壳薇瑟信号约10km；蚕母在收拢防线。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_049.json"
+        },
+        {
+          "id": "ch_050",
+          "number": 50,
+          "title": "代价边界",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_yi_lan",
+          "story_time": 33,
+          "planned_events": [
+            "evt_yi_lan_erosion_48"
+          ],
+          "one_line": "伊岚POV：erosion_load触达48——记忆丢失加速；意识到可能无法在到达空壳前维持清醒。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_050.json"
+        },
+        {
+          "id": "ch_051",
+          "number": 51,
+          "title": "薇瑟的笔记",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_shou_yan",
+          "story_time": 34,
+          "planned_events": [
+            "evt_wei_se_training_fragment"
+          ],
+          "one_line": "守岩POV：旧档案浮现薇瑟的训练日志——渡蚀距离渗透技术笔记；把这件事告诉伊岚。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_051.json"
+        },
+        {
+          "id": "ch_052",
+          "number": 52,
+          "title": "新维度",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_yi_lan",
+          "story_time": 34,
+          "planned_events": [
+            "evt_dushi_new_dimension"
+          ],
+          "one_line": "伊岚POV：接收技术片段，尝试渡蚀距离渗透新形态——感知可在不接触时延伸更远。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_052.json"
+        },
+        {
+          "id": "ch_053",
+          "number": 53,
+          "title": "看见了",
+          "thread_id": "thr_hive",
+          "pov_character": "char_ling_yin",
+          "story_time": 35,
+          "planned_events": [
+            "evt_wei_se_shell_sighted"
+          ],
+          "one_line": "聆音POV：目视距离内看到空壳薇瑟——比灰珀时更空洞。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_053.json"
+        },
+        {
+          "id": "ch_054",
+          "number": 54,
+          "title": "伸手",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_yi_lan",
+          "story_time": 35,
+          "planned_events": [
+            "evt_yi_lan_reaches_for_wei_se"
+          ],
+          "one_line": "伊岚POV：看见空壳薇瑟——不是ch_007的恐惧，是往前够的冲动；渡蚀距离延伸感知触到外层。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_054.json"
+        },
+        {
+          "id": "ch_055",
+          "number": 55,
+          "title": "掩护",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_zhao",
+          "story_time": 36,
+          "planned_events": [
+            "evt_approach_cover_formation"
+          ],
+          "one_line": "昭POV：为伊岚接近空壳提供掩护队形。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_055.json"
+        },
+        {
+          "id": "ch_056",
+          "number": 56,
+          "title": "第一次触碰",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_yi_lan",
+          "story_time": 36,
+          "planned_events": [
+            "evt_wei_se_first_touch"
+          ],
+          "one_line": "伊岚POV：渡蚀接触空壳外层——比预期更深更复杂；无法进入，但感知到质量。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_056.json"
+        },
+        {
+          "id": "ch_057",
+          "number": 57,
+          "title": "守岩看着",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_shou_yan",
+          "story_time": 37,
+          "planned_events": [
+            "evt_shouyan_witnesses"
+          ],
+          "one_line": "守岩POV：站在伊岚和空壳之间，看着这一幕；把这件事放进档案。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_057.json"
+        },
+        {
+          "id": "ch_058",
+          "number": 58,
+          "title": "窗口",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_zhao",
+          "story_time": 37,
+          "planned_events": [
+            "evt_time_window_closing"
+          ],
+          "one_line": "昭POV：蚕母集结信号升温——时间窗口在关闭；通知伊岚。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_058.json"
+        },
+        {
+          "id": "ch_059",
+          "number": 59,
+          "title": "内层",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_yi_lan",
+          "story_time": 38,
+          "planned_events": [
+            "evt_wei_se_inner_contact"
+          ],
+          "one_line": "伊岚POV：深渡蚀接触空壳内层——到达ember附近；ember不是残片，是有意保存的结构。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_059.json"
+        },
+        {
+          "id": "ch_060",
+          "number": 60,
+          "title": "Sub-arc C收束",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 38,
+          "planned_events": [
+            "evt_subarc_c_closure"
+          ],
+          "one_line": "核心网前方3km；四人与空壳在此；Sub-arc C收束，Sub-arc D开始。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_060.json"
+        },
+        {
+          "id": "ch_061",
+          "number": 61,
+          "title": "打出核心网",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 39,
+          "planned_events": [
+            "evt_breakout_core_network"
+          ],
+          "one_line": "传输完成后四人在15分钟内打穿两道蚕母防线，从核心网中心区域撤出；伊岚erosion57不用渡蚀以短刃战斗。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_061.json"
+        },
+        {
+          "id": "ch_062",
+          "number": 62,
+          "title": "传输之后",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_yi_lan",
+          "story_time": 39,
+          "planned_events": [
+            "evt_technique_understood"
+          ],
+          "one_line": "回程消化三层传输内容前两层：网状渡蚀理论+弥散频率实现；守岩确认薇瑟在接力设备上做过实验。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_062.json"
+        },
+        {
+          "id": "ch_063",
+          "number": 63,
+          "title": "第三层",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_yi_lan",
+          "story_time": 40,
+          "planned_events": [
+            "evt_technique_understood"
+          ],
+          "one_line": "展开第三层枢纽压力分担方案——反馈回流，≥50灵渊枢纽趋零；这不是殉道，是所有人都不需要殉道。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_063.json"
+        },
+        {
+          "id": "ch_064",
+          "number": 64,
+          "title": "回望",
+          "thread_id": "thr_wei_se",
+          "pov_character": "char_yi_lan",
+          "story_time": 40,
+          "planned_events": [
+            "evt_imprint_faded"
+          ],
+          "one_line": "回程经第七号信标，聚焦器印记消散薇瑟彻底结束；完整理解薇瑟的终极答案——灵蚀均摊不让任何人成为最强的。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_064.json"
+        },
+        {
+          "id": "ch_065",
+          "number": 65,
+          "title": "回程的路",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_yi_lan",
+          "story_time": 40,
+          "planned_events": [
+            "evt_return_journey"
+          ],
+          "one_line": "回程；伊岚把网状渡蚀理论翻译成可执行的渡蚀操作手册；四人各自的代价与恢复。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_065.json"
+        },
+        {
+          "id": "ch_066",
+          "number": 66,
+          "title": "空壳",
+          "thread_id": "thr_wei_se",
+          "pov_character": "char_shou_yan",
+          "story_time": 41,
+          "planned_events": [
+            "evt_shell_left_behind"
+          ],
+          "one_line": "守岩推断蚕母会吞噬留在核心网的空壳(ember已不在)，迟早发现目标转向伊岚——可能形成追击；加速回程。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_066.json"
+        },
+        {
+          "id": "ch_067",
+          "number": 67,
+          "title": "地质分界线",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_zhao",
+          "story_time": 41,
+          "planned_events": [
+            "evt_dushi_dispersion_test"
+          ],
+          "one_line": "出深荒过地质分界线；伊岚首次测试渡蚀弥散频率转换成功，触及三个灵渊。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_067.json"
+        },
+        {
+          "id": "ch_068",
+          "number": 68,
+          "title": "三个人的网",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_yi_lan",
+          "story_time": 42,
+          "planned_events": [
+            "evt_network_4person"
+          ],
+          "one_line": "伊岚建四人灵渊网络——频率自动均衡，连接零消耗；网络太小需更多节点。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_068.json"
+        },
+        {
+          "id": "ch_069",
+          "number": 69,
+          "title": "追击",
+          "thread_id": "thr_hive",
+          "pov_character": "char_zhao",
+          "story_time": 42,
+          "planned_events": [
+            "evt_shimu_pursuit_redeploys"
+          ],
+          "one_line": "昭POV：蚕母预置13只拦截被绕过；蚕母转铺大范围搜索网络；改道通信中继站(120km)。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_069.json"
+        },
+        {
+          "id": "ch_070",
+          "number": 70,
+          "title": "三天",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 42,
+          "planned_events": [
+            "evt_meet_survivors"
+          ],
+          "one_line": "三天行进抵达通信中继站，遇灰珀残部三人(沉渡/微澜/旋星)——不再是孤军。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_070.json"
+        },
+        {
+          "id": "ch_071",
+          "number": 71,
+          "title": "中继站",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 43,
+          "planned_events": [
+            "evt_meet_survivors"
+          ],
+          "one_line": "中继站；伊岚向沉渡解释网状渡蚀；沉渡邀请渡蚀感知其灵渊后同意加入。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_071.json"
+        },
+        {
+          "id": "ch_072",
+          "number": 72,
+          "title": "七个人的网",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_yi_lan",
+          "story_time": 43,
+          "planned_events": [
+            "evt_network_7person"
+          ],
+          "one_line": "七人网络——反馈回流首次出现，枢纽压力降至15%；网络内灵渊互感=无语言战术通信；旋星聆音共鸣。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_072.json"
+        },
+        {
+          "id": "ch_073",
+          "number": 73,
+          "title": "中继广播",
+          "thread_id": "thr_hive",
+          "pov_character": "char_ling_yin",
+          "story_time": 44,
+          "planned_events": [
+            "evt_relay_broadcast"
+          ],
+          "one_line": "聆音POV：用全频脉冲(a'调制)激活中继站广播约200km；收到4人残部和穹枢通信节点两个应答。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_073.json"
+        },
+        {
+          "id": "ch_074",
+          "number": 74,
+          "title": "汇合",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 44,
+          "planned_events": [
+            "evt_network_11person"
+          ],
+          "one_line": "砺锋(御灵阶)四人残部汇合，11人网络；砺锋从质疑到信服。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_074.json"
+        },
+        {
+          "id": "ch_075",
+          "number": 75,
+          "title": "穹枢的回应",
+          "thread_id": "thr_qiongshu_reentry",
+          "pov_character": "char_yi_lan",
+          "story_time": 44,
+          "planned_events": [
+            "evt_qiongshu_responds"
+          ],
+          "one_line": "穹枢回应，凝辉(灵枢阶)率5人联络队抵达(16灵渊)；伊岚展示弥散频率。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_075.json"
+        },
+        {
+          "id": "ch_076",
+          "number": 76,
+          "title": "展示",
+          "thread_id": "thr_qiongshu_reentry",
+          "pov_character": "char_yi_lan",
+          "story_time": 45,
+          "planned_events": [
+            "evt_ninghui_evaluates"
+          ],
+          "one_line": "凝辉入网亲身感知后判定技术改变灵裔存在方式，要求到穹枢评审；守岩'往那里走'。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_076.json"
+        },
+        {
+          "id": "ch_077",
+          "number": 77,
+          "title": "出发",
+          "thread_id": "thr_qiongshu_reentry",
+          "pov_character": "char_shou_yan",
+          "story_time": 45,
+          "planned_events": [
+            "evt_depart_for_qiongshu"
+          ],
+          "one_line": "守岩POV：出发往穹枢；守岩教伊岚'两种真都是真'的展示策略。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_077.json"
+        },
+        {
+          "id": "ch_078",
+          "number": 78,
+          "title": "路上",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_yi_lan",
+          "story_time": 45,
+          "planned_events": [
+            "evt_network_16_transmission"
+          ],
+          "one_line": "五天行进；16人网络第二次灵蚀传输erosion降2点；穹枢约500灵裔远超50。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_078.json"
+        },
+        {
+          "id": "ch_079",
+          "number": 79,
+          "title": "守岩的步伐",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_zhao",
+          "story_time": 46,
+          "planned_events": [
+            "evt_shouyan_erosion_late"
+          ],
+          "one_line": "昭POV：守岩步伐变慢灵蚀晚期；旧时记忆保护层趋势性受侵蚀；守岩开始系统传递旧档案。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_079.json"
+        },
+        {
+          "id": "ch_080",
+          "number": 80,
+          "title": "穹枢",
+          "thread_id": "thr_qiongshu_reentry",
+          "pov_character": "char_yi_lan",
+          "story_time": 46,
+          "planned_events": [
+            "evt_arrive_qiongshu"
+          ],
+          "one_line": "抵达穹枢外围前线；向7名灵枢阶委员会从薇瑟讲起并展示弥散频率；委员会要求现场展示。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_080.json"
+        },
+        {
+          "id": "ch_081",
+          "number": 81,
+          "title": "评审室",
+          "thread_id": "thr_qiongshu_reentry",
+          "pov_character": "char_yi_lan",
+          "story_time": 47,
+          "planned_events": [
+            "evt_committee_review"
+          ],
+          "one_line": "12人网络委员会亲身感知；守岩补充薇瑟维护报告数据使技术落地；三小时评审通过到全面展示。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_081.json"
+        },
+        {
+          "id": "ch_082",
+          "number": 82,
+          "title": "五十个灵渊",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_yi_lan",
+          "story_time": 47,
+          "planned_events": [
+            "evt_network_58_zero_hub"
+          ],
+          "one_line": "58灵渊网络跨过50阈值——枢纽压力归零(不是趋近，是没有了)；erosion降2点；'通过'。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_082.json"
+        },
+        {
+          "id": "ch_083",
+          "number": 83,
+          "title": "部署",
+          "thread_id": "thr_qiongshu_reentry",
+          "pov_character": "char_zhao",
+          "story_time": 47,
+          "planned_events": [
+            "evt_qiongshu_deploys"
+          ],
+          "one_line": "昭POV：穹枢列网状渡蚀为S级资产，凝辉任协调官，组建部署队；昭获知灰珀矿脉已被联邦接管(卷四伏笔)。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_083.json"
+        },
+        {
+          "id": "ch_084",
+          "number": 84,
+          "title": "第一次实战",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 48,
+          "planned_events": [
+            "evt_network_first_combat"
+          ],
+          "one_line": "35人网络首次实战——灵蚀分担1/35，全域态势感知，聆音预警5km；25只清除每人增量0.5(vs正常3-5)。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_084.json"
+        },
+        {
+          "id": "ch_085",
+          "number": 85,
+          "title": "名字",
+          "thread_id": "thr_wei_se",
+          "pov_character": "char_shou_yan",
+          "story_time": 48,
+          "planned_events": [
+            "evt_shouyan_carves_weise"
+          ],
+          "one_line": "守岩POV：在穹枢岩壁刻所有死者名字，包括薇瑟——让她在他之外存在。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_085.json"
+        },
+        {
+          "id": "ch_086",
+          "number": 86,
+          "title": "守岩的传递",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_shou_yan",
+          "story_time": 49,
+          "planned_events": [
+            "evt_shouyan_transmits_archive"
+          ],
+          "one_line": "守岩POV：系统把旧档案(战术/感知/薇瑟时间线/前线真相)传给各人；'感觉留不住但跟着我走'。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_086.json"
+        },
+        {
+          "id": "ch_087",
+          "number": 87,
+          "title": "更大的网",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_yi_lan",
+          "story_time": 49,
+          "planned_events": [
+            "evt_network_120_superfreq"
+          ],
+          "one_line": "穹枢决定全面部署；120人网络演练涌现超频谐振——网络成为战场级感知系统。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_087.json"
+        },
+        {
+          "id": "ch_088",
+          "number": 88,
+          "title": "战前",
+          "thread_id": "thr_hive",
+          "pov_character": "char_ling_yin",
+          "story_time": 50,
+          "planned_events": [
+            "evt_shimu_strategic_assault"
+          ],
+          "one_line": "聆音POV：蚕母战略攻势80只(含5干扰型)从南侧来路；守岩战前灵渊频率又弱一层。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_088.json"
+        },
+        {
+          "id": "ch_089",
+          "number": 89,
+          "title": "南侧",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 50,
+          "planned_events": [
+            "evt_network_92_battle"
+          ],
+          "one_line": "南侧大战92人网络——超频谐振；80只清除每人增量0.8无人燃尽；守岩三道震波最后一道瓦解信使型集结核心。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_089.json"
+        },
+        {
+          "id": "ch_090",
+          "number": 90,
+          "title": "卷末·烬",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_yi_lan",
+          "story_time": 50,
+          "planned_events": [
+            "evt_vol3_close"
+          ],
+          "one_line": "卷末·烬：伊岚反思随行的扩展——从四人到所有网络灵裔；守岩旧时记忆保护层开始受侵蚀；火变成光。",
+          "status": "drafted",
+          "beat_sheet_ref": "outline/beats/ch_090.json"
         }
       ],
       "status": "in_progress"
+    },
+    {
+      "id": "vol_04",
+      "number": 4,
+      "title": "灵渊之声",
+      "summary": "携薇瑟渡蚀网状技术归来。四人返程与更广阔的灵裔战场重新连接。伊岚用薇瑟的技术实现更大规模的众人分担。穹枢与联邦凯尔重新介入。守岩灵蚀弧线在此卷终章。聆音成为独当一面的战术感知者。昭指挥更大规模战场。",
+      "story_focus": "薇瑟技术实践与代价；守岩弧线终章；灵裔更大战场的随行形态；联邦与穹枢再介入。",
+      "time_span": {
+        "from": 51,
+        "to": 98
+      },
+      "primary_characters": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin",
+        "char_kai_er"
+      ],
+      "sub_arcs": [
+        {
+          "id": "E·归路",
+          "chapters": "ch_091–ch_120"
+        },
+        {
+          "id": "F·灵渊之技",
+          "chapters": "ch_121–ch_150"
+        },
+        {
+          "id": "G·联邦再现",
+          "chapters": "ch_151–ch_170"
+        },
+        {
+          "id": "H·卷末转折",
+          "chapters": "ch_171–ch_180"
+        }
+      ],
+      "chapters": [
+        {
+          "id": "ch_091",
+          "number": 91,
+          "title": "归路的第一步",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_yi_lan",
+          "story_time": 51,
+          "planned_events": [
+            "evt_return_first_step"
+          ],
+          "one_line": "四人返程踏上来时的路；带着薇瑟的技术重量往回走。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_091.json"
+        },
+        {
+          "id": "ch_092",
+          "number": 92,
+          "title": "深荒再见",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_zhao",
+          "story_time": 51,
+          "planned_events": [
+            "evt_return_through_deep"
+          ],
+          "one_line": "深荒裂缝走廊归途；蚕母信号稀疏了——核心网扩散使她失去部分据点。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_092.json"
+        },
+        {
+          "id": "ch_093",
+          "number": 93,
+          "title": "渡蚀网感",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_yi_lan",
+          "story_time": 52,
+          "planned_events": [
+            "evt_dushi_network_first_test"
+          ],
+          "one_line": "伊岚第一次尝试薇瑟的网状渡蚀形态；感知自己能做到，代价erosion_load 61。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_093.json"
+        },
+        {
+          "id": "ch_094",
+          "number": 94,
+          "title": "聆音的下一个问题",
+          "thread_id": "thr_hive",
+          "pov_character": "char_ling_yin",
+          "story_time": 52,
+          "planned_events": [
+            "evt_lingyin_new_research"
+          ],
+          "one_line": "聆音POV：核心网消散后蚕母信号结构变了；她研究新形态——是蚕母在重新学习，还是灵能格局改变？",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_094.json"
+        },
+        {
+          "id": "ch_095",
+          "number": 95,
+          "title": "第七号信标·再访",
+          "thread_id": "thr_yi_lan",
+          "pov_character": "char_shou_yan",
+          "story_time": 53,
+          "planned_events": [
+            "evt_seventh_beacon_revisit"
+          ],
+          "one_line": "守岩POV：经过第七号信标遗址，聚焦器冷了印记消散；他在这里刻了一个字：'薇瑟'。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_095.json"
+        },
+        {
+          "id": "ch_096",
+          "number": 96,
+          "title": "【待定·卷四第6章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 54,
+          "planned_events": [],
+          "one_line": "卷四规划中（6）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_096.json"
+        },
+        {
+          "id": "ch_097",
+          "number": 97,
+          "title": "【待定·卷四第7章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 54,
+          "planned_events": [],
+          "one_line": "卷四规划中（7）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_097.json"
+        },
+        {
+          "id": "ch_098",
+          "number": 98,
+          "title": "【待定·卷四第8章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 55,
+          "planned_events": [],
+          "one_line": "卷四规划中（8）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_098.json"
+        },
+        {
+          "id": "ch_099",
+          "number": 99,
+          "title": "【待定·卷四第9章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 55,
+          "planned_events": [],
+          "one_line": "卷四规划中（9）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_099.json"
+        },
+        {
+          "id": "ch_100",
+          "number": 100,
+          "title": "【待定·卷四第10章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 56,
+          "planned_events": [],
+          "one_line": "卷四规划中（10）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_100.json"
+        },
+        {
+          "id": "ch_101",
+          "number": 101,
+          "title": "【待定·卷四第11章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 56,
+          "planned_events": [],
+          "one_line": "卷四规划中（11）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_101.json"
+        },
+        {
+          "id": "ch_102",
+          "number": 102,
+          "title": "【待定·卷四第12章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 57,
+          "planned_events": [],
+          "one_line": "卷四规划中（12）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_102.json"
+        },
+        {
+          "id": "ch_103",
+          "number": 103,
+          "title": "【待定·卷四第13章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 57,
+          "planned_events": [],
+          "one_line": "卷四规划中（13）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_103.json"
+        },
+        {
+          "id": "ch_104",
+          "number": 104,
+          "title": "【待定·卷四第14章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 58,
+          "planned_events": [],
+          "one_line": "卷四规划中（14）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_104.json"
+        },
+        {
+          "id": "ch_105",
+          "number": 105,
+          "title": "【待定·卷四第15章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 58,
+          "planned_events": [],
+          "one_line": "卷四规划中（15）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_105.json"
+        },
+        {
+          "id": "ch_106",
+          "number": 106,
+          "title": "【待定·卷四第16章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 59,
+          "planned_events": [],
+          "one_line": "卷四规划中（16）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_106.json"
+        },
+        {
+          "id": "ch_107",
+          "number": 107,
+          "title": "【待定·卷四第17章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 59,
+          "planned_events": [],
+          "one_line": "卷四规划中（17）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_107.json"
+        },
+        {
+          "id": "ch_108",
+          "number": 108,
+          "title": "【待定·卷四第18章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 60,
+          "planned_events": [],
+          "one_line": "卷四规划中（18）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_108.json"
+        },
+        {
+          "id": "ch_109",
+          "number": 109,
+          "title": "【待定·卷四第19章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 60,
+          "planned_events": [],
+          "one_line": "卷四规划中（19）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_109.json"
+        },
+        {
+          "id": "ch_110",
+          "number": 110,
+          "title": "【待定·卷四第20章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 61,
+          "planned_events": [],
+          "one_line": "卷四规划中（20）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_110.json"
+        },
+        {
+          "id": "ch_111",
+          "number": 111,
+          "title": "【待定·卷四第21章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 61,
+          "planned_events": [],
+          "one_line": "卷四规划中（21）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_111.json"
+        },
+        {
+          "id": "ch_112",
+          "number": 112,
+          "title": "【待定·卷四第22章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 62,
+          "planned_events": [],
+          "one_line": "卷四规划中（22）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_112.json"
+        },
+        {
+          "id": "ch_113",
+          "number": 113,
+          "title": "【待定·卷四第23章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 62,
+          "planned_events": [],
+          "one_line": "卷四规划中（23）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_113.json"
+        },
+        {
+          "id": "ch_114",
+          "number": 114,
+          "title": "【待定·卷四第24章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 63,
+          "planned_events": [],
+          "one_line": "卷四规划中（24）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_114.json"
+        },
+        {
+          "id": "ch_115",
+          "number": 115,
+          "title": "【待定·卷四第25章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 63,
+          "planned_events": [],
+          "one_line": "卷四规划中（25）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_115.json"
+        },
+        {
+          "id": "ch_116",
+          "number": 116,
+          "title": "【待定·卷四第26章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 64,
+          "planned_events": [],
+          "one_line": "卷四规划中（26）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_116.json"
+        },
+        {
+          "id": "ch_117",
+          "number": 117,
+          "title": "【待定·卷四第27章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 64,
+          "planned_events": [],
+          "one_line": "卷四规划中（27）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_117.json"
+        },
+        {
+          "id": "ch_118",
+          "number": 118,
+          "title": "【待定·卷四第28章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 65,
+          "planned_events": [],
+          "one_line": "卷四规划中（28）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_118.json"
+        },
+        {
+          "id": "ch_119",
+          "number": 119,
+          "title": "【待定·卷四第29章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 65,
+          "planned_events": [],
+          "one_line": "卷四规划中（29）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_119.json"
+        },
+        {
+          "id": "ch_120",
+          "number": 120,
+          "title": "【待定·卷四第30章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 66,
+          "planned_events": [],
+          "one_line": "卷四规划中（30）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_120.json"
+        },
+        {
+          "id": "ch_121",
+          "number": 121,
+          "title": "【待定·卷四第31章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 66,
+          "planned_events": [],
+          "one_line": "卷四规划中（31）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_121.json"
+        },
+        {
+          "id": "ch_122",
+          "number": 122,
+          "title": "【待定·卷四第32章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 67,
+          "planned_events": [],
+          "one_line": "卷四规划中（32）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_122.json"
+        },
+        {
+          "id": "ch_123",
+          "number": 123,
+          "title": "【待定·卷四第33章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 67,
+          "planned_events": [],
+          "one_line": "卷四规划中（33）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_123.json"
+        },
+        {
+          "id": "ch_124",
+          "number": 124,
+          "title": "【待定·卷四第34章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 68,
+          "planned_events": [],
+          "one_line": "卷四规划中（34）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_124.json"
+        },
+        {
+          "id": "ch_125",
+          "number": 125,
+          "title": "【待定·卷四第35章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 68,
+          "planned_events": [],
+          "one_line": "卷四规划中（35）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_125.json"
+        },
+        {
+          "id": "ch_126",
+          "number": 126,
+          "title": "【待定·卷四第36章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 69,
+          "planned_events": [],
+          "one_line": "卷四规划中（36）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_126.json"
+        },
+        {
+          "id": "ch_127",
+          "number": 127,
+          "title": "【待定·卷四第37章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 69,
+          "planned_events": [],
+          "one_line": "卷四规划中（37）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_127.json"
+        },
+        {
+          "id": "ch_128",
+          "number": 128,
+          "title": "【待定·卷四第38章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 70,
+          "planned_events": [],
+          "one_line": "卷四规划中（38）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_128.json"
+        },
+        {
+          "id": "ch_129",
+          "number": 129,
+          "title": "【待定·卷四第39章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 70,
+          "planned_events": [],
+          "one_line": "卷四规划中（39）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_129.json"
+        },
+        {
+          "id": "ch_130",
+          "number": 130,
+          "title": "【待定·卷四第40章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 71,
+          "planned_events": [],
+          "one_line": "卷四规划中（40）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_130.json"
+        },
+        {
+          "id": "ch_131",
+          "number": 131,
+          "title": "【待定·卷四第41章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 71,
+          "planned_events": [],
+          "one_line": "卷四规划中（41）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_131.json"
+        },
+        {
+          "id": "ch_132",
+          "number": 132,
+          "title": "【待定·卷四第42章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 72,
+          "planned_events": [],
+          "one_line": "卷四规划中（42）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_132.json"
+        },
+        {
+          "id": "ch_133",
+          "number": 133,
+          "title": "【待定·卷四第43章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 72,
+          "planned_events": [],
+          "one_line": "卷四规划中（43）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_133.json"
+        },
+        {
+          "id": "ch_134",
+          "number": 134,
+          "title": "【待定·卷四第44章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 73,
+          "planned_events": [],
+          "one_line": "卷四规划中（44）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_134.json"
+        },
+        {
+          "id": "ch_135",
+          "number": 135,
+          "title": "【待定·卷四第45章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 73,
+          "planned_events": [],
+          "one_line": "卷四规划中（45）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_135.json"
+        },
+        {
+          "id": "ch_136",
+          "number": 136,
+          "title": "【待定·卷四第46章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 74,
+          "planned_events": [],
+          "one_line": "卷四规划中（46）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_136.json"
+        },
+        {
+          "id": "ch_137",
+          "number": 137,
+          "title": "【待定·卷四第47章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 74,
+          "planned_events": [],
+          "one_line": "卷四规划中（47）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_137.json"
+        },
+        {
+          "id": "ch_138",
+          "number": 138,
+          "title": "【待定·卷四第48章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 75,
+          "planned_events": [],
+          "one_line": "卷四规划中（48）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_138.json"
+        },
+        {
+          "id": "ch_139",
+          "number": 139,
+          "title": "【待定·卷四第49章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 75,
+          "planned_events": [],
+          "one_line": "卷四规划中（49）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_139.json"
+        },
+        {
+          "id": "ch_140",
+          "number": 140,
+          "title": "【待定·卷四第50章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 76,
+          "planned_events": [],
+          "one_line": "卷四规划中（50）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_140.json"
+        },
+        {
+          "id": "ch_141",
+          "number": 141,
+          "title": "【待定·卷四第51章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 76,
+          "planned_events": [],
+          "one_line": "卷四规划中（51）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_141.json"
+        },
+        {
+          "id": "ch_142",
+          "number": 142,
+          "title": "【待定·卷四第52章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 77,
+          "planned_events": [],
+          "one_line": "卷四规划中（52）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_142.json"
+        },
+        {
+          "id": "ch_143",
+          "number": 143,
+          "title": "【待定·卷四第53章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 77,
+          "planned_events": [],
+          "one_line": "卷四规划中（53）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_143.json"
+        },
+        {
+          "id": "ch_144",
+          "number": 144,
+          "title": "【待定·卷四第54章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 78,
+          "planned_events": [],
+          "one_line": "卷四规划中（54）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_144.json"
+        },
+        {
+          "id": "ch_145",
+          "number": 145,
+          "title": "【待定·卷四第55章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 78,
+          "planned_events": [],
+          "one_line": "卷四规划中（55）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_145.json"
+        },
+        {
+          "id": "ch_146",
+          "number": 146,
+          "title": "【待定·卷四第56章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 79,
+          "planned_events": [],
+          "one_line": "卷四规划中（56）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_146.json"
+        },
+        {
+          "id": "ch_147",
+          "number": 147,
+          "title": "【待定·卷四第57章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 79,
+          "planned_events": [],
+          "one_line": "卷四规划中（57）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_147.json"
+        },
+        {
+          "id": "ch_148",
+          "number": 148,
+          "title": "【待定·卷四第58章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 80,
+          "planned_events": [],
+          "one_line": "卷四规划中（58）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_148.json"
+        },
+        {
+          "id": "ch_149",
+          "number": 149,
+          "title": "【待定·卷四第59章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 80,
+          "planned_events": [],
+          "one_line": "卷四规划中（59）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_149.json"
+        },
+        {
+          "id": "ch_150",
+          "number": 150,
+          "title": "【待定·卷四第60章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 81,
+          "planned_events": [],
+          "one_line": "卷四规划中（60）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_150.json"
+        },
+        {
+          "id": "ch_151",
+          "number": 151,
+          "title": "【待定·卷四第61章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 81,
+          "planned_events": [],
+          "one_line": "卷四规划中（61）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_151.json"
+        },
+        {
+          "id": "ch_152",
+          "number": 152,
+          "title": "【待定·卷四第62章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 82,
+          "planned_events": [],
+          "one_line": "卷四规划中（62）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_152.json"
+        },
+        {
+          "id": "ch_153",
+          "number": 153,
+          "title": "【待定·卷四第63章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 82,
+          "planned_events": [],
+          "one_line": "卷四规划中（63）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_153.json"
+        },
+        {
+          "id": "ch_154",
+          "number": 154,
+          "title": "【待定·卷四第64章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 83,
+          "planned_events": [],
+          "one_line": "卷四规划中（64）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_154.json"
+        },
+        {
+          "id": "ch_155",
+          "number": 155,
+          "title": "【待定·卷四第65章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 83,
+          "planned_events": [],
+          "one_line": "卷四规划中（65）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_155.json"
+        },
+        {
+          "id": "ch_156",
+          "number": 156,
+          "title": "【待定·卷四第66章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 84,
+          "planned_events": [],
+          "one_line": "卷四规划中（66）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_156.json"
+        },
+        {
+          "id": "ch_157",
+          "number": 157,
+          "title": "【待定·卷四第67章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 84,
+          "planned_events": [],
+          "one_line": "卷四规划中（67）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_157.json"
+        },
+        {
+          "id": "ch_158",
+          "number": 158,
+          "title": "【待定·卷四第68章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 85,
+          "planned_events": [],
+          "one_line": "卷四规划中（68）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_158.json"
+        },
+        {
+          "id": "ch_159",
+          "number": 159,
+          "title": "【待定·卷四第69章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 85,
+          "planned_events": [],
+          "one_line": "卷四规划中（69）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_159.json"
+        },
+        {
+          "id": "ch_160",
+          "number": 160,
+          "title": "【待定·卷四第70章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 86,
+          "planned_events": [],
+          "one_line": "卷四规划中（70）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_160.json"
+        },
+        {
+          "id": "ch_161",
+          "number": 161,
+          "title": "【待定·卷四第71章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 86,
+          "planned_events": [],
+          "one_line": "卷四规划中（71）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_161.json"
+        },
+        {
+          "id": "ch_162",
+          "number": 162,
+          "title": "【待定·卷四第72章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 87,
+          "planned_events": [],
+          "one_line": "卷四规划中（72）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_162.json"
+        },
+        {
+          "id": "ch_163",
+          "number": 163,
+          "title": "【待定·卷四第73章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 87,
+          "planned_events": [],
+          "one_line": "卷四规划中（73）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_163.json"
+        },
+        {
+          "id": "ch_164",
+          "number": 164,
+          "title": "【待定·卷四第74章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 88,
+          "planned_events": [],
+          "one_line": "卷四规划中（74）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_164.json"
+        },
+        {
+          "id": "ch_165",
+          "number": 165,
+          "title": "【待定·卷四第75章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 88,
+          "planned_events": [],
+          "one_line": "卷四规划中（75）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_165.json"
+        },
+        {
+          "id": "ch_166",
+          "number": 166,
+          "title": "【待定·卷四第76章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 89,
+          "planned_events": [],
+          "one_line": "卷四规划中（76）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_166.json"
+        },
+        {
+          "id": "ch_167",
+          "number": 167,
+          "title": "【待定·卷四第77章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 89,
+          "planned_events": [],
+          "one_line": "卷四规划中（77）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_167.json"
+        },
+        {
+          "id": "ch_168",
+          "number": 168,
+          "title": "【待定·卷四第78章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 90,
+          "planned_events": [],
+          "one_line": "卷四规划中（78）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_168.json"
+        },
+        {
+          "id": "ch_169",
+          "number": 169,
+          "title": "【待定·卷四第79章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 90,
+          "planned_events": [],
+          "one_line": "卷四规划中（79）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_169.json"
+        },
+        {
+          "id": "ch_170",
+          "number": 170,
+          "title": "【待定·卷四第80章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 91,
+          "planned_events": [],
+          "one_line": "卷四规划中（80）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_170.json"
+        },
+        {
+          "id": "ch_171",
+          "number": 171,
+          "title": "【待定·卷四第81章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 91,
+          "planned_events": [],
+          "one_line": "卷四规划中（81）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_171.json"
+        },
+        {
+          "id": "ch_172",
+          "number": 172,
+          "title": "【待定·卷四第82章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 92,
+          "planned_events": [],
+          "one_line": "卷四规划中（82）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_172.json"
+        },
+        {
+          "id": "ch_173",
+          "number": 173,
+          "title": "【待定·卷四第83章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 92,
+          "planned_events": [],
+          "one_line": "卷四规划中（83）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_173.json"
+        },
+        {
+          "id": "ch_174",
+          "number": 174,
+          "title": "【待定·卷四第84章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 93,
+          "planned_events": [],
+          "one_line": "卷四规划中（84）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_174.json"
+        },
+        {
+          "id": "ch_175",
+          "number": 175,
+          "title": "【待定·卷四第85章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 93,
+          "planned_events": [],
+          "one_line": "卷四规划中（85）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_175.json"
+        },
+        {
+          "id": "ch_176",
+          "number": 176,
+          "title": "【待定·卷四第86章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 94,
+          "planned_events": [],
+          "one_line": "卷四规划中（86）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_176.json"
+        },
+        {
+          "id": "ch_177",
+          "number": 177,
+          "title": "【待定·卷四第87章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 94,
+          "planned_events": [],
+          "one_line": "卷四规划中（87）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_177.json"
+        },
+        {
+          "id": "ch_178",
+          "number": 178,
+          "title": "【待定·卷四第88章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 95,
+          "planned_events": [],
+          "one_line": "卷四规划中（88）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_178.json"
+        },
+        {
+          "id": "ch_179",
+          "number": 179,
+          "title": "【待定·卷四第89章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 95,
+          "planned_events": [],
+          "one_line": "卷四规划中（89）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_179.json"
+        },
+        {
+          "id": "ch_180",
+          "number": 180,
+          "title": "【待定·卷四第90章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 96,
+          "planned_events": [],
+          "one_line": "卷四规划中（90）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_180.json"
+        }
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "vol_05",
+      "number": 5,
+      "title": "随行",
+      "summary": "全书最终卷。渡蚀网状技术在灵裔战场大规模实践，众人分担守护的主题完整实现。守土的悲歌在随行的形态里找到出路。每个角色弧线的最终收束与尾声。",
+      "story_focus": "渡蚀网状技术规模化；主题完整实现；每个角色弧线最终收束；尾声。",
+      "time_span": {
+        "from": 99,
+        "to": 138
+      },
+      "primary_characters": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ],
+      "sub_arcs": [
+        {
+          "id": "I·随行·众人之力",
+          "chapters": "ch_181–ch_210"
+        },
+        {
+          "id": "J·最终守护",
+          "chapters": "ch_211–ch_240"
+        },
+        {
+          "id": "K·尾声",
+          "chapters": "ch_241–ch_260"
+        }
+      ],
+      "chapters": [
+        {
+          "id": "ch_181",
+          "number": 181,
+          "title": "【待定·卷五第1章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 99,
+          "planned_events": [],
+          "one_line": "卷五规划中（1）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_181.json"
+        },
+        {
+          "id": "ch_182",
+          "number": 182,
+          "title": "【待定·卷五第2章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 99,
+          "planned_events": [],
+          "one_line": "卷五规划中（2）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_182.json"
+        },
+        {
+          "id": "ch_183",
+          "number": 183,
+          "title": "【待定·卷五第3章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 100,
+          "planned_events": [],
+          "one_line": "卷五规划中（3）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_183.json"
+        },
+        {
+          "id": "ch_184",
+          "number": 184,
+          "title": "【待定·卷五第4章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 100,
+          "planned_events": [],
+          "one_line": "卷五规划中（4）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_184.json"
+        },
+        {
+          "id": "ch_185",
+          "number": 185,
+          "title": "【待定·卷五第5章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 101,
+          "planned_events": [],
+          "one_line": "卷五规划中（5）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_185.json"
+        },
+        {
+          "id": "ch_186",
+          "number": 186,
+          "title": "【待定·卷五第6章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 101,
+          "planned_events": [],
+          "one_line": "卷五规划中（6）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_186.json"
+        },
+        {
+          "id": "ch_187",
+          "number": 187,
+          "title": "【待定·卷五第7章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 102,
+          "planned_events": [],
+          "one_line": "卷五规划中（7）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_187.json"
+        },
+        {
+          "id": "ch_188",
+          "number": 188,
+          "title": "【待定·卷五第8章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 102,
+          "planned_events": [],
+          "one_line": "卷五规划中（8）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_188.json"
+        },
+        {
+          "id": "ch_189",
+          "number": 189,
+          "title": "【待定·卷五第9章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 103,
+          "planned_events": [],
+          "one_line": "卷五规划中（9）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_189.json"
+        },
+        {
+          "id": "ch_190",
+          "number": 190,
+          "title": "【待定·卷五第10章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 103,
+          "planned_events": [],
+          "one_line": "卷五规划中（10）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_190.json"
+        },
+        {
+          "id": "ch_191",
+          "number": 191,
+          "title": "【待定·卷五第11章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 104,
+          "planned_events": [],
+          "one_line": "卷五规划中（11）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_191.json"
+        },
+        {
+          "id": "ch_192",
+          "number": 192,
+          "title": "【待定·卷五第12章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 104,
+          "planned_events": [],
+          "one_line": "卷五规划中（12）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_192.json"
+        },
+        {
+          "id": "ch_193",
+          "number": 193,
+          "title": "【待定·卷五第13章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 105,
+          "planned_events": [],
+          "one_line": "卷五规划中（13）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_193.json"
+        },
+        {
+          "id": "ch_194",
+          "number": 194,
+          "title": "【待定·卷五第14章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 105,
+          "planned_events": [],
+          "one_line": "卷五规划中（14）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_194.json"
+        },
+        {
+          "id": "ch_195",
+          "number": 195,
+          "title": "【待定·卷五第15章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 106,
+          "planned_events": [],
+          "one_line": "卷五规划中（15）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_195.json"
+        },
+        {
+          "id": "ch_196",
+          "number": 196,
+          "title": "【待定·卷五第16章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 106,
+          "planned_events": [],
+          "one_line": "卷五规划中（16）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_196.json"
+        },
+        {
+          "id": "ch_197",
+          "number": 197,
+          "title": "【待定·卷五第17章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 107,
+          "planned_events": [],
+          "one_line": "卷五规划中（17）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_197.json"
+        },
+        {
+          "id": "ch_198",
+          "number": 198,
+          "title": "【待定·卷五第18章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 107,
+          "planned_events": [],
+          "one_line": "卷五规划中（18）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_198.json"
+        },
+        {
+          "id": "ch_199",
+          "number": 199,
+          "title": "【待定·卷五第19章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 108,
+          "planned_events": [],
+          "one_line": "卷五规划中（19）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_199.json"
+        },
+        {
+          "id": "ch_200",
+          "number": 200,
+          "title": "【待定·卷五第20章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 108,
+          "planned_events": [],
+          "one_line": "卷五规划中（20）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_200.json"
+        },
+        {
+          "id": "ch_201",
+          "number": 201,
+          "title": "【待定·卷五第21章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 109,
+          "planned_events": [],
+          "one_line": "卷五规划中（21）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_201.json"
+        },
+        {
+          "id": "ch_202",
+          "number": 202,
+          "title": "【待定·卷五第22章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 109,
+          "planned_events": [],
+          "one_line": "卷五规划中（22）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_202.json"
+        },
+        {
+          "id": "ch_203",
+          "number": 203,
+          "title": "【待定·卷五第23章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 110,
+          "planned_events": [],
+          "one_line": "卷五规划中（23）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_203.json"
+        },
+        {
+          "id": "ch_204",
+          "number": 204,
+          "title": "【待定·卷五第24章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 110,
+          "planned_events": [],
+          "one_line": "卷五规划中（24）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_204.json"
+        },
+        {
+          "id": "ch_205",
+          "number": 205,
+          "title": "【待定·卷五第25章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 111,
+          "planned_events": [],
+          "one_line": "卷五规划中（25）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_205.json"
+        },
+        {
+          "id": "ch_206",
+          "number": 206,
+          "title": "【待定·卷五第26章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 111,
+          "planned_events": [],
+          "one_line": "卷五规划中（26）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_206.json"
+        },
+        {
+          "id": "ch_207",
+          "number": 207,
+          "title": "【待定·卷五第27章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 112,
+          "planned_events": [],
+          "one_line": "卷五规划中（27）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_207.json"
+        },
+        {
+          "id": "ch_208",
+          "number": 208,
+          "title": "【待定·卷五第28章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 112,
+          "planned_events": [],
+          "one_line": "卷五规划中（28）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_208.json"
+        },
+        {
+          "id": "ch_209",
+          "number": 209,
+          "title": "【待定·卷五第29章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 113,
+          "planned_events": [],
+          "one_line": "卷五规划中（29）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_209.json"
+        },
+        {
+          "id": "ch_210",
+          "number": 210,
+          "title": "【待定·卷五第30章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 113,
+          "planned_events": [],
+          "one_line": "卷五规划中（30）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_210.json"
+        },
+        {
+          "id": "ch_211",
+          "number": 211,
+          "title": "【待定·卷五第31章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 114,
+          "planned_events": [],
+          "one_line": "卷五规划中（31）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_211.json"
+        },
+        {
+          "id": "ch_212",
+          "number": 212,
+          "title": "【待定·卷五第32章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 114,
+          "planned_events": [],
+          "one_line": "卷五规划中（32）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_212.json"
+        },
+        {
+          "id": "ch_213",
+          "number": 213,
+          "title": "【待定·卷五第33章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 115,
+          "planned_events": [],
+          "one_line": "卷五规划中（33）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_213.json"
+        },
+        {
+          "id": "ch_214",
+          "number": 214,
+          "title": "【待定·卷五第34章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 115,
+          "planned_events": [],
+          "one_line": "卷五规划中（34）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_214.json"
+        },
+        {
+          "id": "ch_215",
+          "number": 215,
+          "title": "【待定·卷五第35章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 116,
+          "planned_events": [],
+          "one_line": "卷五规划中（35）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_215.json"
+        },
+        {
+          "id": "ch_216",
+          "number": 216,
+          "title": "【待定·卷五第36章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 116,
+          "planned_events": [],
+          "one_line": "卷五规划中（36）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_216.json"
+        },
+        {
+          "id": "ch_217",
+          "number": 217,
+          "title": "【待定·卷五第37章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 117,
+          "planned_events": [],
+          "one_line": "卷五规划中（37）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_217.json"
+        },
+        {
+          "id": "ch_218",
+          "number": 218,
+          "title": "【待定·卷五第38章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 117,
+          "planned_events": [],
+          "one_line": "卷五规划中（38）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_218.json"
+        },
+        {
+          "id": "ch_219",
+          "number": 219,
+          "title": "【待定·卷五第39章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 118,
+          "planned_events": [],
+          "one_line": "卷五规划中（39）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_219.json"
+        },
+        {
+          "id": "ch_220",
+          "number": 220,
+          "title": "【待定·卷五第40章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 118,
+          "planned_events": [],
+          "one_line": "卷五规划中（40）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_220.json"
+        },
+        {
+          "id": "ch_221",
+          "number": 221,
+          "title": "【待定·卷五第41章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 119,
+          "planned_events": [],
+          "one_line": "卷五规划中（41）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_221.json"
+        },
+        {
+          "id": "ch_222",
+          "number": 222,
+          "title": "【待定·卷五第42章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 119,
+          "planned_events": [],
+          "one_line": "卷五规划中（42）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_222.json"
+        },
+        {
+          "id": "ch_223",
+          "number": 223,
+          "title": "【待定·卷五第43章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 120,
+          "planned_events": [],
+          "one_line": "卷五规划中（43）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_223.json"
+        },
+        {
+          "id": "ch_224",
+          "number": 224,
+          "title": "【待定·卷五第44章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 120,
+          "planned_events": [],
+          "one_line": "卷五规划中（44）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_224.json"
+        },
+        {
+          "id": "ch_225",
+          "number": 225,
+          "title": "【待定·卷五第45章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 121,
+          "planned_events": [],
+          "one_line": "卷五规划中（45）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_225.json"
+        },
+        {
+          "id": "ch_226",
+          "number": 226,
+          "title": "【待定·卷五第46章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 121,
+          "planned_events": [],
+          "one_line": "卷五规划中（46）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_226.json"
+        },
+        {
+          "id": "ch_227",
+          "number": 227,
+          "title": "【待定·卷五第47章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 122,
+          "planned_events": [],
+          "one_line": "卷五规划中（47）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_227.json"
+        },
+        {
+          "id": "ch_228",
+          "number": 228,
+          "title": "【待定·卷五第48章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 122,
+          "planned_events": [],
+          "one_line": "卷五规划中（48）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_228.json"
+        },
+        {
+          "id": "ch_229",
+          "number": 229,
+          "title": "【待定·卷五第49章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 123,
+          "planned_events": [],
+          "one_line": "卷五规划中（49）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_229.json"
+        },
+        {
+          "id": "ch_230",
+          "number": 230,
+          "title": "【待定·卷五第50章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 123,
+          "planned_events": [],
+          "one_line": "卷五规划中（50）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_230.json"
+        },
+        {
+          "id": "ch_231",
+          "number": 231,
+          "title": "【待定·卷五第51章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 124,
+          "planned_events": [],
+          "one_line": "卷五规划中（51）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_231.json"
+        },
+        {
+          "id": "ch_232",
+          "number": 232,
+          "title": "【待定·卷五第52章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 124,
+          "planned_events": [],
+          "one_line": "卷五规划中（52）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_232.json"
+        },
+        {
+          "id": "ch_233",
+          "number": 233,
+          "title": "【待定·卷五第53章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 125,
+          "planned_events": [],
+          "one_line": "卷五规划中（53）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_233.json"
+        },
+        {
+          "id": "ch_234",
+          "number": 234,
+          "title": "【待定·卷五第54章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 125,
+          "planned_events": [],
+          "one_line": "卷五规划中（54）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_234.json"
+        },
+        {
+          "id": "ch_235",
+          "number": 235,
+          "title": "【待定·卷五第55章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 126,
+          "planned_events": [],
+          "one_line": "卷五规划中（55）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_235.json"
+        },
+        {
+          "id": "ch_236",
+          "number": 236,
+          "title": "【待定·卷五第56章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 126,
+          "planned_events": [],
+          "one_line": "卷五规划中（56）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_236.json"
+        },
+        {
+          "id": "ch_237",
+          "number": 237,
+          "title": "【待定·卷五第57章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 127,
+          "planned_events": [],
+          "one_line": "卷五规划中（57）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_237.json"
+        },
+        {
+          "id": "ch_238",
+          "number": 238,
+          "title": "【待定·卷五第58章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 127,
+          "planned_events": [],
+          "one_line": "卷五规划中（58）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_238.json"
+        },
+        {
+          "id": "ch_239",
+          "number": 239,
+          "title": "【待定·卷五第59章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 128,
+          "planned_events": [],
+          "one_line": "卷五规划中（59）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_239.json"
+        },
+        {
+          "id": "ch_240",
+          "number": 240,
+          "title": "【待定·卷五第60章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 128,
+          "planned_events": [],
+          "one_line": "卷五规划中（60）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_240.json"
+        },
+        {
+          "id": "ch_241",
+          "number": 241,
+          "title": "【待定·卷五第61章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 129,
+          "planned_events": [],
+          "one_line": "卷五规划中（61）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_241.json"
+        },
+        {
+          "id": "ch_242",
+          "number": 242,
+          "title": "【待定·卷五第62章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 129,
+          "planned_events": [],
+          "one_line": "卷五规划中（62）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_242.json"
+        },
+        {
+          "id": "ch_243",
+          "number": 243,
+          "title": "【待定·卷五第63章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 130,
+          "planned_events": [],
+          "one_line": "卷五规划中（63）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_243.json"
+        },
+        {
+          "id": "ch_244",
+          "number": 244,
+          "title": "【待定·卷五第64章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 130,
+          "planned_events": [],
+          "one_line": "卷五规划中（64）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_244.json"
+        },
+        {
+          "id": "ch_245",
+          "number": 245,
+          "title": "【待定·卷五第65章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 131,
+          "planned_events": [],
+          "one_line": "卷五规划中（65）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_245.json"
+        },
+        {
+          "id": "ch_246",
+          "number": 246,
+          "title": "【待定·卷五第66章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 131,
+          "planned_events": [],
+          "one_line": "卷五规划中（66）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_246.json"
+        },
+        {
+          "id": "ch_247",
+          "number": 247,
+          "title": "【待定·卷五第67章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 132,
+          "planned_events": [],
+          "one_line": "卷五规划中（67）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_247.json"
+        },
+        {
+          "id": "ch_248",
+          "number": 248,
+          "title": "【待定·卷五第68章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 132,
+          "planned_events": [],
+          "one_line": "卷五规划中（68）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_248.json"
+        },
+        {
+          "id": "ch_249",
+          "number": 249,
+          "title": "【待定·卷五第69章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 133,
+          "planned_events": [],
+          "one_line": "卷五规划中（69）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_249.json"
+        },
+        {
+          "id": "ch_250",
+          "number": 250,
+          "title": "【待定·卷五第70章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 133,
+          "planned_events": [],
+          "one_line": "卷五规划中（70）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_250.json"
+        },
+        {
+          "id": "ch_251",
+          "number": 251,
+          "title": "【待定·卷五第71章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 134,
+          "planned_events": [],
+          "one_line": "卷五规划中（71）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_251.json"
+        },
+        {
+          "id": "ch_252",
+          "number": 252,
+          "title": "【待定·卷五第72章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 134,
+          "planned_events": [],
+          "one_line": "卷五规划中（72）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_252.json"
+        },
+        {
+          "id": "ch_253",
+          "number": 253,
+          "title": "【待定·卷五第73章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 135,
+          "planned_events": [],
+          "one_line": "卷五规划中（73）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_253.json"
+        },
+        {
+          "id": "ch_254",
+          "number": 254,
+          "title": "【待定·卷五第74章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 135,
+          "planned_events": [],
+          "one_line": "卷五规划中（74）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_254.json"
+        },
+        {
+          "id": "ch_255",
+          "number": 255,
+          "title": "【待定·卷五第75章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 136,
+          "planned_events": [],
+          "one_line": "卷五规划中（75）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_255.json"
+        },
+        {
+          "id": "ch_256",
+          "number": 256,
+          "title": "【待定·卷五第76章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 136,
+          "planned_events": [],
+          "one_line": "卷五规划中（76）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_256.json"
+        },
+        {
+          "id": "ch_257",
+          "number": 257,
+          "title": "【待定·卷五第77章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 137,
+          "planned_events": [],
+          "one_line": "卷五规划中（77）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_257.json"
+        },
+        {
+          "id": "ch_258",
+          "number": 258,
+          "title": "【待定·卷五第78章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 137,
+          "planned_events": [],
+          "one_line": "卷五规划中（78）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_258.json"
+        },
+        {
+          "id": "ch_259",
+          "number": 259,
+          "title": "【待定·卷五第79章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 138,
+          "planned_events": [],
+          "one_line": "卷五规划中（79）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_259.json"
+        },
+        {
+          "id": "ch_260",
+          "number": 260,
+          "title": "【待定·卷五第80章】",
+          "thread_id": "thr_garrison",
+          "pov_character": "char_yi_lan",
+          "story_time": 138,
+          "planned_events": [],
+          "one_line": "卷五规划中（80）。",
+          "status": "planned",
+          "beat_sheet_ref": "outline/beats/ch_260.json"
+        }
+      ],
+      "status": "planned"
     }
   ],
   "volumes_upcoming": []

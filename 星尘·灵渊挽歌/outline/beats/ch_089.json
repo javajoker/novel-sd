@@ -1,0 +1,21 @@
+{
+  "chapter_id": "ch_089",
+  "title": "南侧",
+  "volume": "vol_03",
+  "status": "drafted",
+  "pov_character": "char_yi_lan",
+  "story_time": 50,
+  "thread_id": "thr_garrison",
+  "events_covered": [
+    "evt_network_92_battle"
+  ],
+  "_stub": true,
+  "beats": [
+    {
+      "beat": 1,
+      "action": "南侧大战92人网络——超频谐振；80只清除每人增量0.8无人燃尽；守岩三道震波最后一道瓦解信使型集结核心。",
+      "psychology": "",
+      "internal_monologue": ""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "chapter_id": "ch_049",
+  "title": "战后·信号近了",
+  "volume": "vol_03",
+  "status": "planned",
+  "pov_character": "char_ling_yin",
+  "story_time": 33,
+  "thread_id": "thr_hive",
+  "events_covered": [
+    "evt_territory_combat_aftermath"
+  ],
+  "_stub": true,
+  "beats": [
+    {
+      "beat": 1,
+      "action": "待写",
+      "psychology": "",
+      "internal_monologue": ""
+    }
+  ]
+}

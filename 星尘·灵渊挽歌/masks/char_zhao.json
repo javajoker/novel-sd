@@ -48,6 +48,68 @@
       ],
       "projected_facts_to_learn": [],
       "perception": { "level": "medium", "notes": "ch_017 POV：渗水点侦察中目视+触觉分析发现箭头刻痕（≥2年），亲历第一次窄频探测脉冲降频等待。战术综合：三条信息指向同一方向，结论放进战术地图暂不说出。" }
+    },
+    {
+      "story_time": 19,
+      "facts_known": [
+        "fact_dushi_ability", "fact_sanctuary_retreating", "fact_huipo_vein",
+        "fact_wei_se_hollowed", "fact_shimu_mobile_signal", "fact_shimu_learning_rhythm",
+        "fact_hive_tracker_individual",
+        "fact_lingyin_frequency_exposed", "fact_lingyin_probe_interval",
+        "fact_lingyin_capability_hidden",
+        "fact_wasteland_arrow_marking",
+        "fact_connections_not_independent",
+        "fact_yihe_response_signal_confirmed",
+        "fact_wei_se_freq_signature",
+        "fact_lingyin_subband_a_prime"
+      ],
+      "facts_unknown": [
+        "fact_dushi_true_cost",
+        "fact_shimu_second_node（尚未发生）"
+      ],
+      "beliefs_held": [
+        { "belief": "战术地图现在完整：有信标（东侧偏南），有频率（薇瑟），有目标（接近信标）——现在可以用目标做判断", "is_true": true, "status": "ch_024-025重构战术框架" },
+        { "belief": "a'技术是队伍的正式战术资产，在开阔地形持续维持", "is_true": true }
+      ],
+      "projected_facts_to_learn": [
+        { "fact": "fact_terrain_deep_east_characteristics", "stage": "to_discover", "trigger": "ch_026 踏过地质分界线，新地形需要新的战术参数" },
+        { "fact": "fact_shimu_signal_phase_anomaly", "stage": "to_learn_from_lingyin", "trigger": "ch_026 聆音报告信号相位漂移（可能第二节点）" }
+      ],
+      "perception": { "level": "medium", "notes": "ch_024-025：伊岚说出完整真相后，战术地图三线收束为完整目标；重构框架后对伊岚明言。Sub-arc B开始，新的战术挑战在深荒地形。" }
+    },
+    {
+      "story_time": 20,
+      "chapter_id": "ch_026",
+      "facts_known": [
+        "fact_dushi_ability", "fact_sanctuary_retreating", "fact_huipo_vein",
+        "fact_wei_se_hollowed", "fact_shimu_mobile_signal", "fact_shimu_learning_rhythm",
+        "fact_hive_tracker_individual",
+        "fact_lingyin_frequency_exposed", "fact_lingyin_probe_interval",
+        "fact_lingyin_capability_hidden",
+        "fact_wasteland_arrow_marking",
+        "fact_connections_not_independent",
+        "fact_yihe_response_signal_confirmed",
+        "fact_wei_se_freq_signature",
+        "fact_lingyin_subband_a_prime",
+        "fact_terrain_deep_east_characteristics",
+        "fact_shimu_signal_phase_anomaly"
+      ],
+      "facts_unknown": [
+        "fact_dushi_true_cost",
+        "fact_shimu_second_node_confirmed（尚未确认：相位漂移原因是地质还是节点，等聆音数据）"
+      ],
+      "beliefs_held": [
+        { "belief": "深荒裂缝走廊：两面性战术资产（限制敌方展开/增大己方换位风险）；在熟悉地形规律之前，固定屏障优于机动灵活", "is_true": true },
+        { "belief": "相位漂移如果是第二节点，蚕母将获得距离三角定位能力，a'技术需要重新评估", "is_true": "to_be_confirmed", "status": "等聆音数据" },
+        { "belief": "遗核升温（通过伊岚间接读数）——方向正确，在接近", "is_true": true }
+      ],
+      "projected_facts_to_learn": [
+        { "fact": "fact_shimu_second_node_confirmed", "stage": "to_learn_ch_027", "trigger": "ch_027 聆音宣告：三地七次观测，偏移恒定，第二节点确认，距离三角定位可行" },
+        { "fact": "fact_40min_window_is_exposure_not_cover", "stage": "to_derive_ch_028", "trigger": "ch_028 昭自身推导并向伊岚说明：40分钟窗口是已知暴露时间" },
+        { "fact": "fact_crack_mineral_scatter", "stage": "to_discover_ch_029", "trigger": "ch_029 昭自身观察裂缝内壁矿物，提出散射假设，聆音测试确认" },
+        { "fact": "fact_scatter_is_directional", "stage": "to_learn_ch_029", "trigger": "ch_029 聆音测试数据：北侧节点显著散射，南侧节点无效" }
+      ],
+      "perception": { "level": "medium", "notes": "ch_026 POV：进入深荒，完成地形战术参数重建；通过伊岚的手势读出遗核升温进度；接收聆音的相位漂移报告，等待数据而非先下结论。战术地图深荒页正在建设中。" }
     }
   ]
 }

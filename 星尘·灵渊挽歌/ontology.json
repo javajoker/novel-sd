@@ -4,7 +4,7 @@
     "novel_title": "星尘·灵渊挽歌",
     "novel_author": "javajoker",
     "story_time_unit": "chapter",
-    "current_chapter": 17,
+    "current_chapter": 90,
     "tier": "long_novel",
     "language": "zh-Hans",
     "genre": "星际科幻",
@@ -378,6 +378,18 @@
       "salience": 0.7
     },
     {
+      "id": "elem_deep_wasteland_east",
+      "canonical_name": "灰珀深荒东区",
+      "type": "Place",
+      "subtype": "location",
+      "aliases": [
+        "深荒",
+        "深荒东侧"
+      ],
+      "description": "灰珀荒原向东延伸越过某条地质分界线后进入的更古老地层区域。矿石颜色深沉，表面光泽消失，地面有宽于一步的裂缝走廊纵横；灵能信号在此地传播方式与外围荒原有差异（可能因更高密度的深层矿脉结构导致反射效应）。Vol_03 Sub-arc B的主要行进区域（ch_026起）。",
+      "salience": 0.65
+    },
+    {
       "id": "elem_puppet_soldiers",
       "canonical_name": "傀儡兵",
       "type": "Object",
@@ -387,6 +399,134 @@
       ],
       "description": "伊岚队伍携带的灵能构装战斗单位。无源质补给时核心组件约10小时失效，ch_011正式失效成为空壳。",
       "salience": 0.4
+    },
+    {
+      "id": "elem_seventh_beacon",
+      "canonical_name": "第七号信标",
+      "type": "Place",
+      "subtype": "location",
+      "aliases": [
+        "七号信标",
+        "旧灵能接力点"
+      ],
+      "description": "灰珀外围卫星区曾有的一处灵裔灵能通信接力点，编号第七。在灰珀第一波大规模虫潮之前是灵裔在此区域的重要通信节点，后随战局恶化被放弃。方向：东偏南，距深荒地质分界线约40km（即与遗核信标方向和蚕母第二感知节点位置高度吻合）。守岩在ch_032浮现记忆：薇瑟知道那里。",
+      "salience": 0.8
+    },
+    {
+      "id": "elem_core_network",
+      "canonical_name": "灵渊核心网",
+      "type": "Place",
+      "subtype": "location",
+      "aliases": [
+        "核心网",
+        "灵渊接力核心"
+      ],
+      "description": "七处灵裔灵能接力点共同连接的核心网络汇点，位于第七号信标西北约30km处。比接力点更古老，其下有一口古灵渊深脉——自然灵能浓缩点，是蚕母觊觎的真正目标。薇瑟曾负责核心网维护，并在此将渡蚀网状技术存为ember。已废弃多年，遗址保存较完整。ch_061四人抵达。",
+      "salience": 0.9
+    },
+    {
+      "id": "elem_lingyin_frontier",
+      "canonical_name": "灵渊星域前线",
+      "type": "Place",
+      "subtype": "location",
+      "aliases": [
+        "前线",
+        "前线战场"
+      ],
+      "description": "Vol 04-05阶段的主要战场区域：灵裔从灰珀撤退后的新防线体系，穹枢与各前线戍队的协调战场。伊岚携薇瑟技术返回后开始在此区域工作。",
+      "salience": 0.7
+    },
+    {
+      "id": "elem_core_network_region",
+      "canonical_name": "灵渊核心网外围区域",
+      "type": "Place",
+      "subtype": "location",
+      "aliases": [
+        "核心网外围",
+        "核心网区域"
+      ],
+      "description": "灵渊核心网汇点周边约10-15km的区域，西北方向约30km处（从第七号信标）。蚕母在此建立了据点，是她的领土防御中心。进入此区域即进入蚕母的组织性防御范围。Sub-arc C的主要行进区域（ch_041-060）。",
+      "salience": 0.7
+    },
+    {
+      "id": "elem_relay_station",
+      "canonical_name": "通信中继站",
+      "type": "Place",
+      "subtype": "location",
+      "aliases": [
+        "中继站",
+        "旧通信枢纽"
+      ],
+      "description": "灰珀荒原后方的灵裔通信中继站遗址，主体失活但基础灵能中继功能残存。沉渡等三人灰珀残部驻扎于此。聆音用全频脉冲激活其中继广播功能联系到更远灵裔。ch_070-077队伍在此会合并扩展网络。",
+      "salience": 0.6
+    },
+    {
+      "id": "char_chen_du",
+      "canonical_name": "沉渡",
+      "type": "Person",
+      "subtype": "supporting",
+      "aliases": [
+        "沉渡"
+      ],
+      "description": "灰珀残部灵裔，织念阶，左腿旧伤。在通信中继站驻扎约两个月。第一个接受网状渡蚀测试的队伍外灵裔，从质疑到信任。",
+      "salience": 0.55
+    },
+    {
+      "id": "char_wei_lan",
+      "canonical_name": "微澜",
+      "type": "Person",
+      "subtype": "minor",
+      "aliases": [
+        "微澜"
+      ],
+      "description": "灰珀残部灵裔，织念阶，沉默寡言。沉渡同伴。网络节点之一。",
+      "salience": 0.55
+    },
+    {
+      "id": "char_xuan_xing",
+      "canonical_name": "旋星",
+      "type": "Person",
+      "subtype": "supporting",
+      "aliases": [
+        "旋星"
+      ],
+      "description": "灰珀残部灵裔，感灵阶，比聆音年长几岁，灵能频率与聆音共鸣。在网络中产生感知层放大效应；聆音教其a'技术，成为第二个感知节点。",
+      "salience": 0.55
+    },
+    {
+      "id": "char_li_feng_z",
+      "canonical_name": "砺锋",
+      "type": "Person",
+      "subtype": "supporting",
+      "aliases": [
+        "砺锋"
+      ],
+      "description": "灵裔残部领队，御灵阶，erosion_load约25(储备充足)。从西偏北观测站残部带四人汇合。从质疑到信服网状渡蚀。",
+      "salience": 0.55
+    },
+    {
+      "id": "char_ning_hui",
+      "canonical_name": "凝辉",
+      "type": "Person",
+      "subtype": "supporting",
+      "aliases": [
+        "凝辉",
+        "穹枢联络官"
+      ],
+      "description": "穹枢灵枢阶军官，灵蚀极低(后方人员)。率联络队抵达中继站，亲身感知网络后判定其改变灵裔存在方式，推动穹枢评审。后任网状渡蚀后勤协调官。",
+      "salience": 0.55
+    },
+    {
+      "id": "elem_dushi_network",
+      "canonical_name": "渡蚀网络",
+      "type": "Concept",
+      "subtype": "magic_system",
+      "aliases": [
+        "网状渡蚀网络",
+        "灵渊网络"
+      ],
+      "description": "伊岚以薇瑟技术建立的灵渊网络：多灵裔灵渊以弥散渡蚀频率连接，灵蚀自然均衡，枢纽反馈回流。50节点枢纽压力归零，120节点涌现超频谐振(网络成为战场级感知系统)。",
+      "salience": 0.75
     }
   ],
   "relations": [
@@ -650,6 +790,43 @@
       "properties": {
         "trust": 85,
         "reason": "ch_001被伊岚渡蚀救下，脱离灵蚀边缘"
+      },
+      "confidence": 1.0
+    },
+    {
+      "id": "rel_0022",
+      "subject": "char_wei_se",
+      "predicate": "maintained",
+      "object": "elem_seventh_beacon",
+      "valid_from_chapter": 0,
+      "valid_to_chapter": null,
+      "properties": {
+        "reason": "ch_032守岩记忆：薇瑟曾多次前往第七号信标维护和校准接力设备，是主责人员之一"
+      },
+      "confidence": 0.9
+    },
+    {
+      "id": "rel_0023",
+      "subject": "elem_wei_se_core",
+      "predicate": "signals_toward",
+      "object": "elem_seventh_beacon",
+      "valid_from_chapter": 12,
+      "valid_to_chapter": null,
+      "properties": {
+        "direction": "东侧偏南",
+        "inference": "遗核信标方向与第七号信标位置高度吻合（ch_032三线收束）"
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "rel_0024",
+      "subject": "char_wei_se",
+      "predicate": "imprinted_in",
+      "object": "elem_seventh_beacon",
+      "valid_from_chapter": 35,
+      "valid_to_chapter": null,
+      "properties": {
+        "reason": "ch_035发现：薇瑟在灵蚀化前将灵渊频率印记存入第七号信标聚焦器；伊岚渡蚀触碰确认"
       },
       "confidence": 1.0
     }
@@ -1388,7 +1565,7 @@
       "dependencies": [
         {
           "event": "evt_first_open_combat",
-          "relation": "CAUSED_BY"
+          "relation": "HAPPENED_AFTER"
         }
       ],
       "projected_outcome": {
@@ -1626,7 +1803,7 @@
       "dependencies": [
         {
           "event": "evt_open_terrain_battle",
-          "relation": "HAPPENS_AFTER"
+          "relation": "HAPPENED_AFTER"
         }
       ],
       "projected_outcome": {
@@ -1837,7 +2014,7 @@
       "chapter_ids": [
         "ch_018"
       ],
-      "status": "planned",
+      "status": "drafted",
       "dependencies": [
         {
           "event": "evt_shimu_learning_rhythm",
@@ -1873,7 +2050,7 @@
     },
     {
       "id": "evt_lingyin_subband_test",
-      "name": "聆音的子频段假设与验证",
+      "name": "聆音的子频段假设与测试过程",
       "description": "聆音假设蚀母的窄频脉冲是根据她的完整A频率签名校准的；她测试一个比A更窄的子波段a'——如果假设成立，a'下蚀母的方向估算会出现偏差。在多次脉冲窗口下测试，第七次后获得统计显著性：7次中5次方向模糊。聆音尚未告知队伍。",
       "thread_id": "thr_hive",
       "story_time": 16,
@@ -1887,7 +2064,7 @@
         "ch_018",
         "ch_019"
       ],
-      "status": "planned",
+      "status": "drafted",
       "dependencies": [
         {
           "event": "evt_lingyin_reports_frequency_exposed",
@@ -1919,7 +2096,7 @@
     },
     {
       "id": "evt_zhao_asks_target",
-      "name": "昭问出口·从方向到目标",
+      "name": "昭第一次追问·从方向到目标",
       "description": "第三天行进中段，昭走到伊岚身边，直接问：'那个遗核指的方向有什么。'这是第一次有人直接问目标而非方向。伊岚说：'我不确定。'——真话也是回避。昭决定不追问，但在战术地图里加上第四条线（伊岚有猜测但不说）。",
       "thread_id": "thr_garrison",
       "story_time": 17,
@@ -1932,7 +2109,7 @@
       "chapter_ids": [
         "ch_020"
       ],
-      "status": "planned",
+      "status": "drafted",
       "dependencies": [
         {
           "event": "evt_yi_lan_decides_east",
@@ -1983,7 +2160,7 @@
       "chapter_ids": [
         "ch_021"
       ],
-      "status": "planned",
+      "status": "drafted",
       "dependencies": [
         {
           "event": "evt_yihe_response_signal",
@@ -2017,6 +2194,3093 @@
         "scene_arc": "补水停驻 → 守岩的陈述 → 被击穿 → 第一次说出一点",
         "key_moment": "伊岚说：'我想我知道大概的方向。不是目标，是方向。'——守岩没追问，把这话接住放好",
         "pov_constraint": "这是她能说的最大量；不是脉冲，不是薇瑟，但是真的"
+      }
+    },
+    {
+      "id": "evt_lingyin_subband_confirmed",
+      "name": "聆音公布a'子频段技术",
+      "description": "聆音完成十次测试（七次有效观测），向全队公布：A的子频段a'可使蚕母定位偏差约20度（中位22度），代价是感知覆盖缩至六成、失去精确远程定向。昭立即整合进战术框架。伊岚在听的同时看见镜子：聆音等的是数据，她自己在等什么。",
+      "thread_id": "thr_hive",
+      "story_time": 18,
+      "duration": 1,
+      "location": "elem_huipo_wasteland_east",
+      "participants": [
+        "char_ling_yin",
+        "char_zhao",
+        "char_yi_lan",
+        "char_shou_yan"
+      ],
+      "chapter_ids": [
+        "ch_022"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_lingyin_subband_test",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_ling_yin",
+            "kind": "capability_confirmed",
+            "desc": "a'子频段技术向队伍公布，成为战术资产"
+          },
+          {
+            "entity": "char_yi_lan",
+            "kind": "psychology",
+            "desc": "看见镜子——聆音有测试逻辑，她自己在等什么？"
+          }
+        ]
+      },
+      "beat_design": {
+        "pov": "char_ling_yin",
+        "technique": "parallel",
+        "scene_arc": "第四天早晨 → 公布 → 昭整合战术 → 伊岚看见镜子",
+        "key_moment": "聆音以科学方法公布a'技术；伊岚意识到她自己没有'准备好了'的标准",
+        "pov_constraint": "聆音不知道她的方法论正在成为伊岚的镜子"
+      }
+    },
+    {
+      "id": "evt_hive_scout_encounter",
+      "name": "开阔地虫群探查单元遭遇",
+      "description": "第四天下午进入开阔区，聆音在a'状态下探知地下三四只虫群探查单元。昭决策：聆音临时切回A发出短促干扰脉冲驱离探查虫，全队同时快速换位。执行成功，代价是短暂暴露完整A频率。",
+      "thread_id": "thr_garrison",
+      "story_time": 18,
+      "duration": 1,
+      "location": "elem_huipo_wasteland_east",
+      "participants": [
+        "char_yi_lan",
+        "char_ling_yin",
+        "char_zhao",
+        "char_shou_yan"
+      ],
+      "chapter_ids": [
+        "ch_023"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_lingyin_subband_confirmed",
+          "relation": "ENABLES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_ling_yin",
+            "kind": "ability_used",
+            "desc": "a'战术首次实战；临时切回A暴露频率"
+          },
+          {
+            "entity": "char_shi_mu",
+            "kind": "knowledge_gained",
+            "desc": "短暂精准定位后再次模糊——蚕母确认聆音仍在东行方向"
+          }
+        ]
+      },
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "开阔区 → 探查单元信号 → 昭决策 → 快速换位驱离",
+        "key_moment": "a'战术首次在实战中被使用并成功；代价是短暂A频率暴露",
+        "pov_constraint": "伊岚在战后检查遗核发现升温，把这件事和勇气放在一起"
+      }
+    },
+    {
+      "id": "evt_yihe_warming",
+      "name": "遗核基础温度上升——确认接近中",
+      "description": "ch_023战后伊岚检查遗核，发现恒定基础温度比昨天更高——不是共振时的暂时升温，是持续的基础热度上升，确认整体在接近中。傍晚伊岚第一次对自己诚实：她在等的是勇气，不是确认。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 18,
+      "duration": 1,
+      "location": "elem_huipo_wasteland_east",
+      "participants": [
+        "char_yi_lan"
+      ],
+      "chapter_ids": [
+        "ch_023"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_yihe_beacon_revealed",
+          "relation": "PRECEDES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "elem_wei_se_core",
+            "kind": "signal_strengthening",
+            "desc": "基础热度上升，确认距信标来源持续接近"
+          },
+          {
+            "entity": "char_yi_lan",
+            "kind": "psychology",
+            "desc": "对自己诚实：在等的是勇气而非确认；昭将再次问，那时候要告诉他"
+          }
+        ]
+      },
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "战后 → 检查遗核 → 升温确认 → 傍晚内省",
+        "key_moment": "伊岚第一次对自己明确说出：她在等的是勇气，不是确认；那种感觉不会自己来",
+        "pov_constraint": "她不知道昭下一次追问就在明天"
+      }
+    },
+    {
+      "id": "evt_yilan_full_confession",
+      "name": "伊岚向全队说出完整真相",
+      "description": "第五天第二次降频后，昭直接追问'你知道的比你告诉我们的多多少'。伊岚叫来所有人，说出完整真相：ch_014战后以渡蚀触遗核收到东侧偏南单次脉冲回应，频率对应薇瑟，这是选择东的原因。守岩命名'她留的东西在你手里，往那里走'；聆音感知确认旧频率。那件事在四个人之间了。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 19,
+      "duration": 1,
+      "location": "elem_huipo_wasteland_east",
+      "participants": [
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_ling_yin"
+      ],
+      "chapter_ids": [
+        "ch_024"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_yihe_warming",
+          "relation": "CAUSES"
+        },
+        {
+          "event": "evt_zhao_asks_target",
+          "relation": "ENABLES"
+        }
+      ],
+      "projected_outcome": {
+        "relation_shifts": [
+          {
+            "subject": "char_yi_lan",
+            "object": "char_zhao",
+            "predicate_change": "full_disclosure",
+            "delta": "随行节律里的松动节点消失；完整共担建立"
+          }
+        ],
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "milestone",
+            "desc": "Sub-arc A最重要的单一事件完成：随行共担从情感到事实"
+          },
+          {
+            "entity": "char_zhao",
+            "kind": "knowledge_gained",
+            "desc": "目标信息完整：信标+方向+薇瑟频率；战术地图可以用目标做判断"
+          }
+        ]
+      },
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "昭追问 → 叫来所有人 → 说出完整真相 → 守岩命名",
+        "key_moment": "伊岚叫来守岩和聆音，说出ch_014的回应脉冲和薇瑟频率——这件事在四个人之间了",
+        "pov_constraint": "伊岚不知道说出来之后会是什么感觉"
+      }
+    },
+    {
+      "id": "evt_subarc_a_closure",
+      "name": "Sub-arc A收束·各自以各自的方式",
+      "description": "说完之后四人重新出发。昭以目标优先级重构战术框架并对伊岚明言；聆音询问薇瑟频率特征并记入感知记忆；守岩静听并记入活档案。夜里伊岚拿着遗核（比前天更热），感知到随行的真正含义：不是你带着他们，是你们各自在各自位置，往同一方向，带着各自能带的东西，走。Sub-arc A正式收束，Sub-arc B开始。",
+      "thread_id": "thr_garrison",
+      "story_time": 19,
+      "duration": 1,
+      "location": "elem_huipo_wasteland_east",
+      "participants": [
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_ling_yin"
+      ],
+      "chapter_ids": [
+        "ch_025"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_yilan_full_confession",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_ling_yin",
+            "kind": "knowledge_gained",
+            "desc": "薇瑟基础频率特征记入感知记忆——Sub-arc B的远程感知依据"
+          },
+          {
+            "entity": "char_shou_yan",
+            "kind": "archive_updated",
+            "desc": "薇瑟频率特征记入活档案"
+          },
+          {
+            "entity": "char_zhao",
+            "kind": "tactical_framework",
+            "desc": "以目标优先级重构战术地图，对伊岚明言"
+          },
+          {
+            "entity": "char_yi_lan",
+            "kind": "milestone",
+            "desc": "随行真义内化：不是带着三人，是四人各自以各自方式往同一方向走"
+          }
+        ]
+      },
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "沉默消化 → 重新出发 → 昭整合目标 → 聆音记频率 → 守岩存档 → 夜里独处",
+        "key_moment": "夜里伊岚把遗核放回口袋，感知到随行的真义——四个人各自以各自能做的事往那里走",
+        "pov_constraint": "Sub-arc A结束；她不知道Sub-arc B会带来什么"
+      }
+    },
+    {
+      "id": "evt_terrain_shift_deep",
+      "name": "进入深荒——地形骤变",
+      "description": "Sub-arc B首日（story_time 20），四人的行进带领他们越过一条明显的地质分界线：矿石颜色变深，表面光泽消失，地面出现宽于一步的裂缝走廊，深荒的特征与之前的荒原截然不同。遗核比昨天更热。这是一片更古老的地质层，蚀母信号在这片区域的传播方式与荒原西侧有所差异——聆音注意到窄频脉冲的信号强度有轻微的相位漂移，尚无法判断原因。",
+      "thread_id": "thr_garrison",
+      "story_time": 20,
+      "duration": 1,
+      "location": "elem_deep_wasteland_east",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ],
+      "chapter_ids": [
+        "ch_026"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_subarc_a_closure",
+          "relation": "PRECEDES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_zhao",
+            "kind": "tactical_knowledge",
+            "desc": "深荒地形特征建立新的战术参数——裂缝走廊可用于遮蔽但也限制机动"
+          },
+          {
+            "entity": "elem_wei_se_core",
+            "kind": "signal_strengthening",
+            "desc": "遗核持续升温，Sub-arc B的接近进度明显"
+          }
+        ]
+      },
+      "beat_design": {
+        "pov": "char_zhao",
+        "technique": "direct",
+        "scene_arc": "行进 → 地质分界 → 新地形评估 → 聆音报告信号相位漂移",
+        "key_moment": "昭踏过地质分界线，用战术眼光扫视深荒地形，意识到荒原的规则在这里部分失效——旧的评估参数需要修正",
+        "pov_constraint": "昭不知道地形变化和遗核信标的相关性；他从纯战术角度处理新环境"
+      }
+    },
+    {
+      "id": "evt_shimu_signal_anomaly",
+      "name": "蚕母信号出现相位漂移——疑似第二节点",
+      "description": "聆音在深荒地形中观察蚕母窄频脉冲时，注意到40分钟信号中出现约0.3秒的相位偏移，仿佛信号有两个微弱叠加的来源。若蚕母在东侧偏南另一位置增设了第二感知节点，则三角定位距离估算将成为可能——聆音把这个观察压住，等更多数据再说。",
+      "thread_id": "thr_hive",
+      "story_time": 20,
+      "duration": 1,
+      "location": "elem_deep_wasteland_east",
+      "participants": [
+        "char_ling_yin",
+        "char_shi_mu"
+      ],
+      "chapter_ids": [
+        "ch_026"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_hive_scout_encounter",
+          "relation": "CAUSES"
+        },
+        {
+          "event": "evt_terrain_shift_deep",
+          "relation": "ENABLES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_shi_mu",
+            "kind": "tactic_upgrade_suspected",
+            "desc": "疑似部署第二感知节点——距离三角定位能力正在建立中"
+          },
+          {
+            "entity": "char_ling_yin",
+            "kind": "psychology",
+            "desc": "观察到相位漂移，压住不说，等数据——方法论一贯：准备好了再说"
+          }
+        ]
+      },
+      "beat_design": {
+        "pov": "char_ling_yin",
+        "technique": "foreshadowing",
+        "scene_arc": "降频等待 → 信号细微异常 → 内部验证 → 暂时压住",
+        "key_moment": "聆音感知到蚕母窄频脉冲中有约0.3秒的相位偏移——可能意味着信号来自不止一个节点",
+        "pov_constraint": "聆音不知道蚕母是否真的在增设节点，还是深荒地质结构导致的反射效应；她需要更多观测才能判断"
+      }
+    },
+    {
+      "id": "evt_shimu_second_node_confirmed",
+      "name": "聆音确认蚕母第二感知节点",
+      "description": "深荒第二天早晨，聆音完成在三个不同位置的7次降频窗口系统观测。相位偏移量在各位置保持一致（0.27–0.33秒，方向分离14–16度），排除地质反射（反射效应随位置变化），确认为两个独立信号来源叠加——蚕母在另一处设有第二感知节点。向全队宣告：距离三角定位已经可行。",
+      "thread_id": "thr_hive",
+      "story_time": 21,
+      "duration": 1,
+      "location": "elem_deep_wasteland_east",
+      "participants": [
+        "char_ling_yin",
+        "char_zhao",
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_shi_mu"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_shimu_signal_anomaly",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_shi_mu",
+            "kind": "tactic_upgrade",
+            "desc": "第二节点确认：蚕母现已可通过两节点信号叠加三角定位队伍的距离+方向"
+          },
+          {
+            "entity": "char_ling_yin",
+            "kind": "knowledge_confirmed",
+            "desc": "a'技术只能模糊方向，无法对抗方向+距离的组合；需要新的对策"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_027"
+      ],
+      "beat_design": {
+        "pov": "char_ling_yin",
+        "technique": "direct",
+        "scene_arc": "方法论记录 → 数据模式 → 结论 → 告知",
+        "key_moment": "聆音向全队陈述：相位偏移在三个地点数据一致，非地质所致——蚕母有第二节点，距离三角定位已经可行",
+        "pov_constraint": "聆音只关注数据与结论；她不知道这个结论会给伊岚的内心带来多大的重量"
+      }
+    },
+    {
+      "id": "evt_tactical_crisis_dual_node",
+      "name": "双节点威胁下的战术重评——打破节律",
+      "description": "聆音宣告结论后，队伍在行进中消化这个事实。昭重新分析：40分钟窗口不再是隐形期，而是已知暴露时段，蚕母现在能拿到方向+距离。他宣布新战术原则：打破节律——变速变距，让蚕母无法建立稳定的三角定位基准。伊岚同时检查遗核，发现今天比昨天明显更热——越近越危险的张力清晰化。",
+      "thread_id": "thr_garrison",
+      "story_time": 21,
+      "duration": 1,
+      "location": "elem_deep_wasteland_east",
+      "participants": [
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_shimu_second_node_confirmed",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_zhao",
+            "kind": "tactical_framework",
+            "desc": "新战术原则：打破节律（变速变距，取消固定40分钟模式）"
+          },
+          {
+            "entity": "char_yi_lan",
+            "kind": "psychology",
+            "desc": "越近越危险的清醒认知：遗核升温（接近）与双节点威胁（暴露升级）同时发生"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_028"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "parallel",
+        "scene_arc": "消化消息 → 昭的战术分析 → 遗核检查 → 打破节律宣告",
+        "key_moment": "昭说「40分钟窗口是我们的已知暴露时间，不是隐形时间」；伊岚手放口袋——遗核比昨天明显更热",
+        "pov_constraint": "伊岚不知道深荒裂缝地形是否有可利用的信号散射特性"
+      }
+    },
+    {
+      "id": "evt_wasteland_crack_scatter",
+      "name": "裂缝走廊信号散射——深荒的不完整遮蔽",
+      "description": "深荒第三天（story_time 22），昭在实施打破节律的行进中，于降频等待时近距离观察裂缝内壁，发现与地表矿石不同的深层矿物质——色深、密度高、表面有结晶状颗粒。他假设其对灵能信号有散射效果。让聆音在下一个降频窗口时，在裂缝内侧而非地表测量信号。结果：朝一个节点方向的信号相位偏移从0.3秒增加至0.8秒以上，方向分离扩大到40度——裂缝内壁矿物对该节点方向有显著散射。另一个节点方向几乎不受影响。部分遮蔽，不完整，但真实存在。",
+      "thread_id": "thr_garrison",
+      "story_time": 22,
+      "duration": 1,
+      "location": "elem_deep_wasteland_east",
+      "participants": [
+        "char_zhao",
+        "char_ling_yin",
+        "char_yi_lan",
+        "char_shou_yan"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_tactical_crisis_dual_node",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "elem_deep_wasteland_east",
+            "kind": "terrain_asset_discovered",
+            "desc": "裂缝内壁深层矿物对特定方向灵能信号有散射效果——提供不完整但真实的方向性遮蔽"
+          },
+          {
+            "entity": "char_zhao",
+            "kind": "tactical_knowledge",
+            "desc": "裂缝走廊可用作信号遮蔽资产：在裂缝内侧降频可显著降低特定节点的定位精度"
+          },
+          {
+            "entity": "char_ling_yin",
+            "kind": "knowledge_gained",
+            "desc": "裂缝散射数据：一个节点方向散射显著，另一个节点方向几乎无效——遮蔽是方向性的"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_029"
+      ],
+      "beat_design": {
+        "pov": "char_zhao",
+        "technique": "direct",
+        "scene_arc": "打破节律行进 → 裂缝内壁矿物观察 → 散射假设 → 聆音测试 → 部分有效确认",
+        "key_moment": "聆音测试结果：裂缝内侧降频，朝北侧节点方向信号散射显著（偏移从0.3s→0.8s）；南侧节点几乎不受影响——遮蔽是方向性的，不是全方位的",
+        "pov_constraint": "昭不知道蚕母是否会识别散射效果并调整节点位置；他只知道这个发现是真实的，今天有效"
+      }
+    },
+    {
+      "id": "evt_deep_wasteland_combat",
+      "name": "深荒首战——裂缝地形下的战术对抗",
+      "description": "深荒第四天（story_time 23）。蚕母派出一支具备战斗能力的追击单元（三只追踪型+两只破甲型异种），利用双节点三角定位锁定队伍在变速停驻间隙中的弱窗口发动进攻。昭凭借裂缝方向索引临时选定一处北侧节点方向遮蔽裂缝作为降频位置，争取了额外的方向模糊；聆音a'压制开路；伊岚在昭负伤后动用渡蚀分散模式稳住局面；守岩震波在裂缝走廊中收到反射增益，清除最后两只追击异种。遗核在渡蚀过载时短暂脉动（重复ch_014模式）。战后：昭确认南侧节点的精确方向定位了他们，裂缝散射只对北侧节点有效，南侧节点方向仍是弱点。",
+      "thread_id": "thr_garrison",
+      "story_time": 23,
+      "duration": 1,
+      "location": "elem_deep_wasteland_east",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin",
+        "char_shi_mu"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_wasteland_crack_scatter",
+          "relation": "ENABLES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_zhao",
+            "kind": "debuff",
+            "desc": "战斗负伤，轻度，灵能余力消耗"
+          },
+          {
+            "entity": "char_yi_lan",
+            "kind": "debuff",
+            "desc": "渡蚀分散模式使用，erosion_load微增"
+          },
+          {
+            "entity": "elem_deep_wasteland_east",
+            "kind": "tactical_confirmation",
+            "desc": "裂缝走廊在实战中确认：限制异种展开速度有效；守岩震波在裂缝内有反射增益；南侧节点仍是暴露弱点"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_030"
+      ],
+      "beat_design": {
+        "pov": "char_zhao",
+        "technique": "direct",
+        "scene_arc": "预警 → 地形选择 → 接战 → 渡蚀稳局 → 战后评估",
+        "key_moment": "昭带伤在战后确认：南侧节点的精确定位让对方抓到了弱窗口——裂缝散射只解决了一个方向，另一个方向还是暴露的",
+        "pov_constraint": "昭不知道蚕母下一步会不会继续派更大的单元"
+      }
+    },
+    {
+      "id": "evt_lingyin_second_node_location",
+      "name": "聆音推算第二节点位置——它在我们前方",
+      "description": "战后，聆音用战斗中积累的脉冲数据（战斗单元释放了大量高频信号，两节点之间的时差更容易测量）计算第二节点的大致位置：约东偏南40公里处。这是队伍行进方向（东侧偏南）上的一点。两种解释：A）蚕母主动将第二节点移动到拦截位置（她知道队伍往哪里走）；B）第二节点本来就在那个方向（与某个更早的事物有关）。聆音把两个解释告诉队伍，她没有说出B的更深含义，但伊岚的手立刻放进口袋——遗核方向与第二节点位置几乎吻合。",
+      "thread_id": "thr_hive",
+      "story_time": 23,
+      "duration": 1,
+      "location": "elem_deep_wasteland_east",
+      "participants": [
+        "char_ling_yin",
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_shi_mu"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_deep_wasteland_combat",
+          "relation": "ENABLES"
+        },
+        {
+          "event": "evt_shimu_second_node_confirmed",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_ling_yin",
+            "kind": "knowledge_gained",
+            "desc": "第二节点位置：东偏南约40km，即队伍行进方向前方"
+          },
+          {
+            "entity": "char_yi_lan",
+            "kind": "psychology",
+            "desc": "遗核方向与第二节点位置几乎吻合——她先压下去不说，手放口袋"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_031"
+      ],
+      "beat_design": {
+        "pov": "char_ling_yin",
+        "technique": "foreshadowing",
+        "scene_arc": "数据整理 → 位置计算 → 两种解释 → 告知队伍 → 伊岚的手",
+        "key_moment": "聆音说出第二节点位置（东偏南约40km）；伊岚在她说完后把手放进口袋——那个方向和遗核方向几乎一致",
+        "pov_constraint": "聆音知道两种解释，但她没有说出B解释的更深含义（她不知道遗核信标和第二节点位置的关系）"
+      }
+    },
+    {
+      "id": "evt_shouyan_beacon_memory",
+      "name": "守岩记忆浮现——第七号信标",
+      "description": "深荒第五天（story_time 24）。守岩在行进中听见聆音再次提及第二节点的方向（东偏南约40km），触发了一个旧时记忆：灰珀外围卫星区曾有一处被命名为'第七号信标'的灵能接力点，在灰珀第一波大规模虫潮之前是灵裔在这片区域的重要通信节点，后来随着战局恶化被放弃，具体位置对应的方向……就是东偏南。薇瑟是接力点时代的老人，她知道那里。如果薇瑟在灵蚀化之前把遗核锁定在那个方向，或者她本人去过那里——那里可能是她最后的锚点。守岩用他一贯的方式陈述：'七号信标。那里有一个旧灵能接力点，那个方向。薇瑟知道那里。'",
+      "thread_id": "thr_yi_lan",
+      "story_time": 24,
+      "duration": 1,
+      "location": "elem_deep_wasteland_east",
+      "participants": [
+        "char_shou_yan",
+        "char_yi_lan",
+        "char_zhao",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_lingyin_second_node_location",
+          "relation": "ENABLES"
+        },
+        {
+          "event": "evt_shouyan_memory_keeper",
+          "relation": "PRECEDES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "psychology",
+            "desc": "目标有了名字：第七号信标；遗核方向、第二节点位置、守岩的旧档案三线收束于同一点"
+          },
+          {
+            "entity": "char_zhao",
+            "kind": "knowledge_gained",
+            "desc": "战术地图有了具体目标——第七号信标旧灵能接力点，东偏南约40km"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_032"
+      ],
+      "beat_design": {
+        "pov": "char_shou_yan",
+        "technique": "reverse",
+        "scene_arc": "行进中沉默 → 方向词触发旧记忆 → 记忆展开（接力点、薇瑟知道那里）→ 陈述",
+        "key_moment": "守岩说：'七号信标。那里有一个旧灵能接力点。薇瑟知道那里。'——目标第一次有了一个旧时代的名字",
+        "pov_constraint": "守岩记得接力点存在，但不记得它现在的状态（被放弃后的情况）；他只知道薇瑟知道那里"
+      }
+    },
+    {
+      "id": "evt_south_node_crack_found",
+      "name": "南侧节点遮蔽裂缝方向确认——双节点散射方案完整",
+      "description": "深荒第五天下午（st=24），昭在行进中系统测试不同走向裂缝的南侧节点散射效果。第三次测试时，在一条走向约东北偏东55度（矿物壁法线指向南偏西）的裂缝内测得南侧节点相位偏移从0.31s增至0.79s，方向分离从16度扩至35度——散射有效。北侧节点在同一位置散射效果减弱（因矿物壁朝向不对应）。裂缝方向索引现在同时覆盖两个节点的遮蔽方向，双节点散射方案完整。昭更新行进策略：在降频等待时根据来袭脉冲方向选择对应裂缝。",
+      "thread_id": "thr_garrison",
+      "story_time": 24,
+      "duration": 1,
+      "location": "elem_deep_wasteland_east",
+      "participants": [
+        "char_zhao",
+        "char_ling_yin",
+        "char_yi_lan",
+        "char_shou_yan"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_wasteland_crack_scatter",
+          "relation": "CAUSES"
+        },
+        {
+          "event": "evt_deep_wasteland_combat",
+          "relation": "ENABLES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_zhao",
+            "kind": "tactical_asset",
+            "desc": "裂缝方向索引完整：北侧节点（北偏东35度矿物壁）和南侧节点（东北偏东55度矿物壁）各有对应遮蔽裂缝方向——双节点散射方案完整"
+          },
+          {
+            "entity": "elem_wei_se_core",
+            "kind": "signal_strengthening",
+            "desc": "遗核今天明显更热——约20km范围内"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_033"
+      ],
+      "beat_design": {
+        "pov": "char_zhao",
+        "technique": "direct",
+        "scene_arc": "系统测试 → 第三次命中 → 数据确认 → 双节点方案完整 → 遗核读数",
+        "key_moment": "昭在第三条裂缝里确认南侧节点散射有效——裂缝方向索引的最后一格填上，双节点方案完整",
+        "pov_constraint": "昭不知道他们离第七号信标已经只有约20km了"
+      }
+    },
+    {
+      "id": "evt_shimu_convergence_strike",
+      "name": "蚕母在收束点发动大规模拦截——最激烈一战",
+      "description": "深荒第六天（st=25）。蚕母意识到队伍正在向她的第二节点所在方向收束，发动迄今为止最大规模的拦截行动：两支集结组（东南方向和正南方向，共约十只异种），同时来袭，利用双节点精确定位进行三角包围。昭启用双节点散射方案（同时在两条遮蔽裂缝之间机动），聆音发出全频干扰脉冲瓦解一侧集结信号，守岩在裂缝走廊发动增益震波，伊岚渡蚀满载覆盖全队。遗核在渡蚀过载时发出最强脉动——比之前任何一次都强，伊岚感到那个方向传来的呼应比遗核的脉动更先到。激战结束，队伍守住，代价：伊岚erosion_load达到43，聆音灵能大量消耗。",
+      "thread_id": "thr_garrison",
+      "story_time": 25,
+      "duration": 1,
+      "location": "elem_deep_wasteland_east",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin",
+        "char_shi_mu",
+        "elem_seventh_beacon"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_south_node_crack_found",
+          "relation": "ENABLES"
+        },
+        {
+          "event": "evt_lingyin_second_node_location",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "debuff",
+            "desc": "渡蚀满载覆盖全队，erosion_load 41→43，灵渊热至阈值边缘"
+          },
+          {
+            "entity": "elem_wei_se_core",
+            "kind": "signal_peak",
+            "desc": "遗核在渡蚀过载时发出最强脉动；伊岚感到信标方向传来的呼应先于遗核——第七号信标的信号在近距离（约10km）变得可以直接感知"
+          },
+          {
+            "entity": "char_ling_yin",
+            "kind": "debuff",
+            "desc": "全频脉冲+持续感知消耗，灵能大量透支，短时需要恢复"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_034"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "包围袭来 → 双节点散射方案启用 → 激战 → 遗核最强脉动 → 呼应先到",
+        "key_moment": "渡蚀过载时伊岚感到从东侧偏南方向传来一个呼应——比遗核的脉动更早到，是信标本身的信号在近距离被渡蚀感知激活",
+        "pov_constraint": "伊岚不知道那个呼应意味着她们离第七号信标已经不到10km"
+      }
+    },
+    {
+      "id": "evt_seventh_beacon_arrival",
+      "name": "抵达第七号信标——薇瑟的余烬",
+      "description": "深荒第七天（st=26），四人踏入第七号信标的遗址区域。接力点的灵能建筑已经倒塌，矿物压碎，只剩下地面上的灵能轨迹和一处中央核心——接力点的灵渊聚焦器，被压碎了大半，但核心仍有极微弱的灵能残留。伊岚把渡蚀感知频率触向那个核心，遗核自动共振增强——那个方向传来的不是脉冲，是一段连续的、极微弱的灵渊频率，和薇瑟的频率特征完全一致。不是空壳的感知，是另一个地方的薇瑟在某个时间留下来的灵渊印记。接力点的灵渊聚焦器把那个印记固定住了，像一封信被放在一个永远开着的匣子里。信还在，但写信的人——她在哪里。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 26,
+      "duration": 1,
+      "location": "elem_seventh_beacon",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin",
+        "char_wei_se",
+        "elem_seventh_beacon"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_shimu_convergence_strike",
+          "relation": "PRECEDES"
+        },
+        {
+          "event": "evt_yihe_response_signal",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "milestone",
+            "desc": "到达第七号信标——遗核共振确认：接力点灵渊聚焦器保存了薇瑟的灵渊印记（旧频率，与薇瑟特征完全一致）。Sub-arc B完结，Sub-arc C开始"
+          },
+          {
+            "entity": "char_ling_yin",
+            "kind": "knowledge_confirmed",
+            "desc": "感知到接力点内的灵渊印记与薇瑟频率特征完全匹配——印记在，但不是薇瑟本人的实体；她的位置仍未知"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_035"
+      ],
+      "beat_design": {
+        "pov": "char_shou_yan",
+        "technique": "reverse",
+        "scene_arc": "踏入遗址 → 废墟的形状 → 核心残留 → 伊岚触碰 → 印记在 → 但她在哪里",
+        "key_moment": "伊岚的渡蚀触到接力点核心，遗核共振增强——那个连续的薇瑟频率印记从聚焦器里传出来；守岩站在旁边，认出了这里",
+        "pov_constraint": "守岩记得这里的样子——它以前不是这样的；他知道这里曾是什么，他不知道这意味着薇瑟在哪里"
+      }
+    },
+    {
+      "id": "evt_imprint_gradient_sensed",
+      "name": "印记频率梯度感知——方向性浮现",
+      "description": "伊岚在第七号信标遗址夜守，以渡蚀频率与聚焦器长时间共振，感知到印记在西北方向的信号强度明显高于其他方向——频率梯度有方向性。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 27,
+      "duration": 1,
+      "location": "elem_seventh_beacon",
+      "participants": [
+        "char_yi_lan",
+        "char_wei_se"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_seventh_beacon_arrival",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "discovery",
+            "desc": "印记有方向性梯度——西北方向信号更强，指向更深处的灵能节点"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_036"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "共振→梯度浮现→方向感知",
+        "key_moment": "伊岚感知到印记的频率在西北方向'更重'",
+        "pov_constraint": "她不知道那个方向是什么"
+      }
+    },
+    {
+      "id": "evt_imprint_direction_decoded",
+      "name": "聆音解析印记方向——西北约30km",
+      "description": "聆音分析印记频率梯度，推算西北约30km处存在更强灵能节点（所有七处接力点连接的核心网汇点）。",
+      "thread_id": "thr_hive",
+      "story_time": 27,
+      "duration": 1,
+      "location": "elem_seventh_beacon",
+      "participants": [
+        "char_ling_yin",
+        "char_yi_lan"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_imprint_gradient_sensed",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_ling_yin",
+            "kind": "knowledge_gained",
+            "desc": "印记方向：西北约30km，有更强的灵能节点是印记的源头方向"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_037"
+      ],
+      "beat_design": {
+        "pov": "char_ling_yin",
+        "technique": "direct",
+        "scene_arc": "频率梯度分析→方向推算→告知",
+        "key_moment": "聆音推算：西北约30km的灵能节点是印记的源头方向",
+        "pov_constraint": "聆音不知道那里是什么"
+      }
+    },
+    {
+      "id": "evt_core_network_revealed",
+      "name": "守岩记忆——灵渊核心网",
+      "description": "守岩旧档案浮现：七处接力点共同连接的灵渊核心网汇点，西北约30km；比接力点更古老；薇瑟是曾负责核心网维护的少数几人之一。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 28,
+      "duration": 1,
+      "location": "elem_seventh_beacon",
+      "participants": [
+        "char_shou_yan",
+        "char_yi_lan",
+        "char_zhao",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_imprint_direction_decoded",
+          "relation": "ENABLES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_zhao",
+            "kind": "knowledge_gained",
+            "desc": "目标：灵渊核心网汇点，西北约30km；薇瑟曾负责维护"
+          },
+          {
+            "entity": "char_yi_lan",
+            "kind": "psychology",
+            "desc": "核心网是薇瑟更深的印记所在——往那里走"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_039"
+      ],
+      "beat_design": {
+        "pov": "char_shou_yan",
+        "technique": "reverse",
+        "scene_arc": "行进中沉默→方向词触发→旧档案展开→陈述核心网",
+        "key_moment": "守岩陈述：核心网汇点，西北约30km，薇瑟是主责人之一",
+        "pov_constraint": "守岩记得核心网的位置，但不记得它现在的状态"
+      }
+    },
+    {
+      "id": "evt_northwest_direction_set",
+      "name": "决定往西北——往核心网",
+      "description": "伊岚以'西北'确定新方向，队伍出发。遗核面向西北的共振比任何方向都强。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 29,
+      "duration": 1,
+      "location": "elem_seventh_beacon",
+      "participants": [
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_core_network_revealed",
+          "relation": "ENABLES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "decision",
+            "desc": "往西北，往灵渊核心网，Sub-arc C行进开始"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_040"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "决定→出发→遗核共振确认",
+        "key_moment": "遗核面向西北的共振最强——方向是对的",
+        "pov_constraint": "不知道核心网现在是什么状态"
+      }
+    },
+    {
+      "id": "evt_shimu_territory_entered",
+      "name": "进入蚕母领土——领土防御而非追击",
+      "description": "昭发现西北方向的蚕母信号密度不同于追击形态——这是有组织的领土防御，第二节点位置重合于核心网汇点。蚕母一直在这里。",
+      "thread_id": "thr_garrison",
+      "story_time": 30,
+      "duration": 1,
+      "location": "elem_core_network_region",
+      "participants": [
+        "char_zhao",
+        "char_ling_yin",
+        "char_yi_lan"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_northwest_direction_set",
+          "relation": "PRECEDES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_zhao",
+            "kind": "tactical_threat_updated",
+            "desc": "领土防御比追击更难处理；核心网是蚕母的据点中心"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_041"
+      ],
+      "beat_design": {
+        "pov": "char_zhao",
+        "technique": "direct",
+        "scene_arc": "行进中→信号密度变化→领土防御识别→告知队伍",
+        "key_moment": "昭确认：西北方向是蚕母的领土据点，不是追击前哨",
+        "pov_constraint": "不知道蚕母为什么要守这个位置"
+      }
+    },
+    {
+      "id": "evt_deep_vein_memory",
+      "name": "守岩记忆——古灵渊深脉",
+      "description": "守岩旧档案：核心网汇点下有一口古灵渊深脉，比灵裔建设的接力系统早很多，是自然的灵能浓缩点。蚕母想要的是深脉本身，不只是接力系统。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 31,
+      "duration": 1,
+      "location": "elem_core_network_region",
+      "participants": [
+        "char_shou_yan",
+        "char_yi_lan",
+        "char_zhao",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_shimu_territory_entered",
+          "relation": "PRECEDES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_shi_mu",
+            "kind": "motivation_revealed",
+            "desc": "蚕母要吞噬古灵渊深脉——是进化触发器，不只是追踪目标"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_044"
+      ],
+      "beat_design": {
+        "pov": "char_shou_yan",
+        "technique": "direct",
+        "scene_arc": "行进中→旧档案浮现→陈述深脉",
+        "key_moment": "守岩：核心网下有古灵渊深脉，蚕母要的是那个",
+        "pov_constraint": "守岩记得深脉的存在，不记得它现在的状态"
+      }
+    },
+    {
+      "id": "evt_wei_se_shell_pulled",
+      "name": "空壳薇瑟被拉向核心网",
+      "description": "聆音感知到空壳薇瑟的信号——她在往核心网方向移动，蚕母正在引导（或拉拽）她，利用空壳薇瑟作为接触古灵渊深脉的媒介。",
+      "thread_id": "thr_hive",
+      "story_time": 32,
+      "duration": 1,
+      "location": "elem_core_network_region",
+      "participants": [
+        "char_ling_yin",
+        "char_wei_se",
+        "char_shi_mu"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_deep_vein_memory",
+          "relation": "ENABLES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_shi_mu",
+            "kind": "tactic_revealed",
+            "desc": "利用空壳薇瑟的灵渊频率接触古深脉——空壳是媒介，不只是目标"
+          },
+          {
+            "entity": "char_yi_lan",
+            "kind": "psychology",
+            "desc": "时间压力：蚕母先到，ember可能被蚕母吸收或灭掉"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_045"
+      ],
+      "beat_design": {
+        "pov": "char_ling_yin",
+        "technique": "foreshadowing",
+        "scene_arc": "感知扫描→异常信号→空壳位置确认→被拉动的方向",
+        "key_moment": "聆音：空壳薇瑟在往核心网移动，蚕母在拉她",
+        "pov_constraint": "聆音不知道蚕母要用空壳做什么"
+      }
+    },
+    {
+      "id": "evt_yi_lan_erosion_48",
+      "name": "伊岚灵蚀危机——erosion_load 48",
+      "description": "长期战斗和渡蚀使用使伊岚erosion_load达到48，记忆丢失加速；她第一次意识到可能无法在到达空壳之前维持清醒的自我。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 35,
+      "duration": 1,
+      "location": "elem_core_network",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_territory_combat_third",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "debuff_critical",
+            "desc": "erosion_load 48，记忆丢失加速，灵渊高热频率"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_050"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "战后检查→erosion_load 48→记忆测试→意识到风险",
+        "key_moment": "伊岚发现一段旧记忆消失了——不是旧时，是最近的，渡蚀加速了近期记忆的损耗",
+        "pov_constraint": "她不知道她还有多少时间在清醒的状态下完成渡蚀"
+      }
+    },
+    {
+      "id": "evt_wei_se_training_fragment",
+      "name": "守岩记忆——薇瑟训练日志的距离渗透技术",
+      "description": "守岩旧档案中存有薇瑟的训练日志片段，其中记载了渡蚀距离渗透技术：不接触时的渡蚀延伸感知形态。这是薇瑟教给伊岚基础渡蚀之外的进阶技术，从未明确传授。守岩把这件事告诉伊岚。",
+      "thread_id": "thr_wei_se",
+      "story_time": 35,
+      "duration": 1,
+      "location": "elem_core_network",
+      "participants": [
+        "char_shou_yan",
+        "char_yi_lan"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_yi_lan_erosion_48",
+          "relation": "ENABLES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "ability_unlocked",
+            "desc": "渡蚀距离渗透技术获知——渡蚀感知可在不直接接触时延伸到目标灵渊外层"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_051"
+      ],
+      "beat_design": {
+        "pov": "char_shou_yan",
+        "technique": "direct",
+        "scene_arc": "行进中沉默→旧档案翻动→训练日志片段→告诉伊岚",
+        "key_moment": "守岩把薇瑟的训练笔记告诉伊岚：距离渗透，渡蚀感知的延伸形态",
+        "pov_constraint": "守岩记得笔记内容，但薇瑟为什么留了这个他不知道"
+      }
+    },
+    {
+      "id": "evt_wei_se_shell_sighted",
+      "name": "目视距离内看见空壳薇瑟",
+      "description": "聆音在目视距离内感知到空壳薇瑟——她比灰珀时更空洞，被拉向核心网入口处停驻。第一次真正的视觉确认。",
+      "thread_id": "thr_hive",
+      "story_time": 36,
+      "duration": 1,
+      "location": "elem_core_network",
+      "participants": [
+        "char_ling_yin",
+        "char_wei_se",
+        "char_yi_lan"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_dushi_new_dimension",
+          "relation": "PRECEDES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "psychology",
+            "desc": "看见了——不是恐惧，是往前够的冲动"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_053"
+      ],
+      "beat_design": {
+        "pov": "char_ling_yin",
+        "technique": "direct",
+        "scene_arc": "感知扫描→目视距离→看见空壳→伊岚的反应",
+        "key_moment": "聆音说：我看到她了，在那里，往核心网方向停着",
+        "pov_constraint": "聆音感知到空壳比灰珀时更空洞——ember可能在消退"
+      }
+    },
+    {
+      "id": "evt_wei_se_inner_contact",
+      "name": "伊岚渡蚀接触空壳内层——发现ember结构",
+      "description": "伊岚深渡蚀接触空壳内层，到达ember附近；发现ember不是残片，是有意保存的结构，像一个等着被读的容器，有层次，有意图。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 39,
+      "duration": 1,
+      "location": "elem_core_network",
+      "participants": [
+        "char_yi_lan",
+        "char_wei_se"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_wei_se_first_touch",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "discovery",
+            "desc": "ember是有意保存的技术结构，不是意识残片——薇瑟把自己的方法存了进去"
+          },
+          {
+            "entity": "char_wei_se",
+            "kind": "ember_revealed",
+            "desc": "ember内部有层次结构，需要多次渡蚀传输才能读完"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_059"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "渡蚀深入→ember边缘→发现结构→退出",
+        "key_moment": "伊岚感知到ember不是临死的残片，是像一本等着被读的书",
+        "pov_constraint": "她还没能读出里面的内容"
+      }
+    },
+    {
+      "id": "evt_shouyan_carves_weise",
+      "name": "守岩在核心网刻薇瑟的名字",
+      "description": "守岩在核心网的岩壁上刻薇瑟的名字——和在灰珀荒原上刻死者名字一样，她的名字要在他之外存在。这是他能做的最后一件事。",
+      "thread_id": "thr_wei_se",
+      "story_time": 52,
+      "duration": 1,
+      "location": "elem_lingyin_frontier",
+      "participants": [
+        "char_shou_yan"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_ember_transmission_complete",
+          "relation": "HAPPENED_AFTER"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_shou_yan",
+            "kind": "milestone",
+            "desc": "薇瑟的名字刻进岩壁——记忆守卫的职责：让她在他之外存在"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_085"
+      ],
+      "beat_design": {
+        "pov": "char_shou_yan",
+        "technique": "direct",
+        "scene_arc": "独处→刻名字→放好",
+        "key_moment": "守岩刻下薇瑟的名字，和战死者的名字排在一起",
+        "pov_constraint": "他不知道伊岚看没看见"
+      }
+    },
+    {
+      "id": "evt_vol3_close",
+      "name": "卷三完结——往更多人的方向走",
+      "description": "伊岚持有薇瑟的技术，遗核变冷了一点（印记消散），四人往回走，往有更多灵裔的地方走。随行的意思在这一刻变了，变成了更大的那个形状。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 54,
+      "duration": 1,
+      "location": "elem_lingyin_frontier",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_network_92_battle",
+          "relation": "HAPPENED_AFTER"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "milestone",
+            "desc": "随行的含义扩展——不只是四个人，是往更多人的方向走，把薇瑟的方法带去"
+          },
+          {
+            "entity": "elem_sui_xing",
+            "kind": "concept_expanded",
+            "desc": "随行的形状变大了：从四人小队到整个灵裔守土战场的分担"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_090"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "核心网遗址→看着守岩刻的名字→出发",
+        "key_moment": "伊岚拿着遗核（它变凉了一点），往回走，往活着的人的地方走",
+        "pov_constraint": "她不知道薇瑟的技术能做到多大的事"
+      }
+    },
+    {
+      "id": "evt_dushi_network_first_test",
+      "name": "渡蚀网状形态首次尝试",
+      "description": "伊岚在返程途中第一次尝试薇瑟的渡蚀网状技术——把灵蚀分散到比以前更多的灵渊节点；erosion_load 61；确认这是可以做到的。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 56,
+      "duration": 1,
+      "location": "elem_deep_wasteland_east",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ],
+      "status": "planned",
+      "dependencies": [
+        {
+          "event": "evt_vol3_close",
+          "relation": "ENABLES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "ability_expanded",
+            "desc": "渡蚀网状分担首次验证；erosion_load 61；规模化需要更多人的灵渊网络参与"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_093"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "尝试→感知网状→成功但代价高",
+        "key_moment": "伊岚感知到渡蚀往四个人的方向同时展开——它是可以做到的",
+        "pov_constraint": "四个人的网太小，她感知到这需要更多人"
+      }
+    },
+    {
+      "id": "evt_kai_er_reappears",
+      "name": "凯尔再现——联邦的追踪",
+      "description": "Vol 04 Sub-arc G：联邦凯尔带着不止一支队伍出现，跟踪了从灰珀到此的某条路径。他知道的比应该知道的多，而且他带来了一些灰珀后期的消息——矿脉已经被联邦完全接管。",
+      "thread_id": "thr_qiongshu_reentry",
+      "story_time": 85,
+      "duration": 1,
+      "location": "elem_lingyin_frontier",
+      "participants": [
+        "char_kai_er",
+        "char_yi_lan",
+        "char_zhao"
+      ],
+      "status": "planned",
+      "dependencies": [
+        {
+          "event": "evt_dushi_network_first_test",
+          "relation": "PRECEDES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_kai_er",
+            "kind": "reappears",
+            "desc": "联邦知道队伍在哪里，凯尔带着对话意图出现；灰珀矿脉已被联邦接管"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_151"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "意外出现→重新认识→新的两难",
+        "key_moment": "凯尔告诉伊岚：灰珀矿脉已经在联邦手里，战局改变了",
+        "pov_constraint": "伊岚不知道凯尔现在的立场是否还是以前那个"
+      }
+    },
+    {
+      "id": "evt_shouyan_erosion_final",
+      "name": "守岩灵蚀最终章",
+      "description": "Vol 04 Sub-arc F或G：守岩的erosion_load达到临界，他开始丢失旧时记忆（他的最后防线）。他做了一件事：把他记住的所有死者的名字、所有对队伍有价值的旧时知识，告诉了每一个能接收的人，在他彻底失去之前。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 79,
+      "duration": 3,
+      "location": "elem_lingyin_frontier",
+      "participants": [
+        "char_shou_yan",
+        "char_yi_lan",
+        "char_zhao",
+        "char_ling_yin"
+      ],
+      "status": "planned",
+      "dependencies": [
+        {
+          "event": "evt_dushi_network_first_test",
+          "relation": "PRECEDES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_shou_yan",
+            "kind": "loss_final",
+            "desc": "旧时记忆开始消散，守岩的记忆守卫功能走向终章——他不再记得以前了"
+          },
+          {
+            "entity": "char_yi_lan",
+            "kind": "psychology",
+            "desc": "随行失去了守岩的档案——但他在完全失去之前把它传出去了"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_140"
+      ],
+      "beat_design": {
+        "pov": "char_shou_yan",
+        "technique": "direct",
+        "scene_arc": "意识到旧时记忆开始消散→主动传出所有档案→失去→还在",
+        "key_moment": "守岩开始系统性地把他记得的每一件事告诉队伍——死者名字，旧时知识，薇瑟的样子",
+        "pov_constraint": "他不知道自己还有多少时间，也不知道他传出去的东西够不够"
+      }
+    },
+    {
+      "id": "evt_dushi_network_scale",
+      "name": "渡蚀网状技术大规模使用",
+      "description": "Vol 05：伊岚在一场大规模战场上第一次将薇瑟的渡蚀网状技术用于超过100个灵裔灵渊的分担网络——把这场战斗的灵蚀代价均摊开，没有一个人独自燃尽。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 119,
+      "duration": 1,
+      "location": "elem_lingyin_frontier",
+      "participants": [
+        "char_yi_lan"
+      ],
+      "status": "planned",
+      "dependencies": [
+        {
+          "event": "evt_kai_er_reappears",
+          "relation": "PRECEDES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "milestone",
+            "desc": "渡蚀网状分担大规模实现：守土不是一个人的殉道，而是众人分担的守护——全书主题完整实现"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_220"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "战场→展开网络→感知众人分担",
+        "key_moment": "伊岚把渡蚀往所有人的方向打开——感知到众多灵渊共同接住这个重量",
+        "pov_constraint": "她不知道这会在她的灵渊里留下什么"
+      }
+    },
+    {
+      "id": "evt_novel_close",
+      "name": "尾声·随行",
+      "description": "Vol 05最终章：战局不一定赢，但找到了走下去的方式。伊岚不再一个人扛；薇瑟的技术让守土变成了网；守岩的名字和所有死者的名字存在着；聆音成了她自己；昭知道自己在哪里。随行。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 139,
+      "duration": 1,
+      "location": "elem_lingyin_frontier",
+      "participants": [
+        "char_yi_lan",
+        "char_zhao",
+        "char_ling_yin"
+      ],
+      "status": "planned",
+      "dependencies": [
+        {
+          "event": "evt_dushi_network_scale",
+          "relation": "PRECEDES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "arc_complete",
+            "desc": "从独自燃尽的殉道执念，走向众人分担守护的集体之路——弧线完整"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_260"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "ellipsis",
+        "scene_arc": "战场后的安静→各人的位置→随行的最终形状",
+        "key_moment": "伊岚把遗核放在手心——它还是温的，薇瑟的频率还在发送，但不再是只有她能听见的",
+        "pov_constraint": "她不知道接下来还有多少要守的；她知道她不是一个人了"
+      }
+    },
+    {
+      "id": "evt_approach_cover_formation",
+      "name": "掩护",
+      "story_time": 37,
+      "duration": 1,
+      "location": "elem_core_network",
+      "participants": [
+        "char_zhao"
+      ],
+      "thread_id": "thr_garrison",
+      "dependencies": [],
+      "prerequisites": [],
+      "projected_outcome": "昭POV：为伊岚接近空壳提供掩护队形。",
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_055"
+      ],
+      "beat_design": {},
+      "_stub": true
+    },
+    {
+      "id": "evt_dushi_new_dimension",
+      "name": "新维度",
+      "story_time": 36,
+      "duration": 1,
+      "location": "elem_core_network",
+      "participants": [
+        "char_yi_lan"
+      ],
+      "thread_id": "thr_yi_lan",
+      "dependencies": [],
+      "prerequisites": [],
+      "projected_outcome": "伊岚POV：接收技术片段，尝试渡蚀距离渗透新形态——感知可在不接触时延伸更远。",
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_052"
+      ],
+      "beat_design": {},
+      "_stub": true
+    },
+    {
+      "id": "evt_lingyin_new_research",
+      "name": "聆音的下一个问题",
+      "story_time": 52,
+      "duration": 1,
+      "location": null,
+      "participants": [
+        "char_ling_yin"
+      ],
+      "thread_id": "thr_hive",
+      "dependencies": [],
+      "prerequisites": [],
+      "projected_outcome": "聆音POV：核心网消散后蚕母信号结构变了；她研究新形态——是蚕母在重新学习，还是灵能格局改变？",
+      "status": "planned",
+      "chapter_ids": [
+        "ch_094"
+      ],
+      "beat_design": {},
+      "_stub": true
+    },
+    {
+      "id": "evt_northwest_route_assessment",
+      "name": "西北",
+      "story_time": 28,
+      "duration": 1,
+      "location": "elem_seventh_beacon",
+      "participants": [
+        "char_zhao"
+      ],
+      "thread_id": "thr_garrison",
+      "dependencies": [],
+      "prerequisites": [],
+      "projected_outcome": "昭POV：西北路线战术评估；请守岩查档案。",
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_038"
+      ],
+      "beat_design": {},
+      "_stub": true
+    },
+    {
+      "id": "evt_return_first_step",
+      "name": "归路的第一步",
+      "story_time": 51,
+      "duration": 1,
+      "location": null,
+      "participants": [
+        "char_yi_lan"
+      ],
+      "thread_id": "thr_garrison",
+      "dependencies": [],
+      "prerequisites": [],
+      "projected_outcome": "四人返程踏上来时的路；带着薇瑟的技术重量往回走。",
+      "status": "planned",
+      "chapter_ids": [
+        "ch_091"
+      ],
+      "beat_design": {},
+      "_stub": true
+    },
+    {
+      "id": "evt_return_through_deep",
+      "name": "深荒再见",
+      "story_time": 51,
+      "duration": 1,
+      "location": null,
+      "participants": [
+        "char_zhao"
+      ],
+      "thread_id": "thr_garrison",
+      "dependencies": [],
+      "prerequisites": [],
+      "projected_outcome": "深荒裂缝走廊归途；蚕母信号稀疏了——核心网扩散使她失去部分据点。",
+      "status": "planned",
+      "chapter_ids": [
+        "ch_092"
+      ],
+      "beat_design": {},
+      "_stub": true
+    },
+    {
+      "id": "evt_seventh_beacon_revisit",
+      "name": "第七号信标·再访",
+      "story_time": 53,
+      "duration": 1,
+      "location": null,
+      "participants": [
+        "char_shou_yan"
+      ],
+      "thread_id": "thr_yi_lan",
+      "dependencies": [],
+      "prerequisites": [],
+      "projected_outcome": "守岩POV：经过第七号信标遗址，聚焦器冷了印记消散；他在这里刻了一个字：'薇瑟'。",
+      "status": "planned",
+      "chapter_ids": [
+        "ch_095"
+      ],
+      "beat_design": {},
+      "_stub": true
+    },
+    {
+      "id": "evt_shimu_territory_density",
+      "name": "密度",
+      "story_time": 30,
+      "duration": 1,
+      "location": "elem_core_network_region",
+      "participants": [
+        "char_ling_yin"
+      ],
+      "thread_id": "thr_hive",
+      "dependencies": [],
+      "prerequisites": [],
+      "projected_outcome": "聆音POV：蚕母信号密度评估——据点中心，有组织的防御层，不是前哨。",
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_042"
+      ],
+      "beat_design": {},
+      "_stub": true
+    },
+    {
+      "id": "evt_shouyan_witnesses",
+      "name": "守岩看着",
+      "story_time": 38,
+      "duration": 1,
+      "location": "elem_core_network",
+      "participants": [
+        "char_shou_yan"
+      ],
+      "thread_id": "thr_yi_lan",
+      "dependencies": [],
+      "prerequisites": [],
+      "projected_outcome": "守岩POV：站在伊岚和空壳之间，看着这一幕；把这件事放进档案。",
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_057"
+      ],
+      "beat_design": {},
+      "_stub": true
+    },
+    {
+      "id": "evt_subarc_c_closure",
+      "name": "Sub-arc C收束",
+      "story_time": 40,
+      "duration": 1,
+      "location": "elem_core_network",
+      "participants": [
+        "char_yi_lan"
+      ],
+      "thread_id": "thr_yi_lan",
+      "dependencies": [],
+      "prerequisites": [],
+      "projected_outcome": "核心网前方3km；四人与空壳在此；Sub-arc C收束，Sub-arc D开始。",
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_060"
+      ],
+      "beat_design": {},
+      "_stub": true
+    },
+    {
+      "id": "evt_territory_combat_aftermath",
+      "name": "战后·信号近了",
+      "story_time": 34,
+      "duration": 1,
+      "location": "elem_core_network",
+      "participants": [
+        "char_ling_yin"
+      ],
+      "thread_id": "thr_garrison",
+      "dependencies": [],
+      "prerequisites": [],
+      "projected_outcome": "聆音POV：战后恢复；空壳薇瑟信号约10km；蚕母在收拢防线。",
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_049"
+      ],
+      "beat_design": {},
+      "_stub": true
+    },
+    {
+      "id": "evt_territory_combat_first",
+      "name": "领土战",
+      "story_time": 31,
+      "duration": 1,
+      "location": "elem_core_network_region",
+      "participants": [
+        "char_yi_lan"
+      ],
+      "thread_id": "thr_garrison",
+      "dependencies": [],
+      "prerequisites": [],
+      "projected_outcome": "伊岚POV：进入蚕母领土第一次接触——有组织的防御需要新战术。",
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_043"
+      ],
+      "beat_design": {},
+      "_stub": true
+    },
+    {
+      "id": "evt_territory_combat_second",
+      "name": "领土战（二）",
+      "story_time": 33,
+      "duration": 1,
+      "location": "elem_core_network_region",
+      "participants": [
+        "char_yi_lan"
+      ],
+      "thread_id": "thr_garrison",
+      "dependencies": [],
+      "prerequisites": [],
+      "projected_outcome": "伊岚POV：大规模领土战第一章；快速推进的战术代价。",
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_047"
+      ],
+      "beat_design": {},
+      "_stub": true
+    },
+    {
+      "id": "evt_territory_combat_third",
+      "name": "领土战（三）",
+      "story_time": 34,
+      "duration": 1,
+      "location": "elem_core_network",
+      "participants": [
+        "char_zhao"
+      ],
+      "thread_id": "thr_garrison",
+      "dependencies": [],
+      "prerequisites": [],
+      "projected_outcome": "昭POV：战斗高峰；双节点散射+裂缝增益协同极限。",
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_048"
+      ],
+      "beat_design": {},
+      "_stub": true
+    },
+    {
+      "id": "evt_time_pressure_escalation",
+      "name": "时间",
+      "story_time": 32,
+      "duration": 1,
+      "location": "elem_core_network_region",
+      "participants": [
+        "char_zhao"
+      ],
+      "thread_id": "thr_garrison",
+      "dependencies": [],
+      "prerequisites": [],
+      "projected_outcome": "昭POV：时间压力——蚕母先到则ember可能熄灭；必须更快。",
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_046"
+      ],
+      "beat_design": {},
+      "_stub": true
+    },
+    {
+      "id": "evt_time_window_closing",
+      "name": "窗口",
+      "story_time": 39,
+      "duration": 1,
+      "location": "elem_core_network",
+      "participants": [
+        "char_zhao"
+      ],
+      "thread_id": "thr_garrison",
+      "dependencies": [],
+      "prerequisites": [],
+      "projected_outcome": "昭POV：蚕母集结信号升温——时间窗口在关闭；通知伊岚。",
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_058"
+      ],
+      "beat_design": {},
+      "_stub": true
+    },
+    {
+      "id": "evt_wei_se_first_touch",
+      "name": "第一次触碰",
+      "story_time": 38,
+      "duration": 1,
+      "location": "elem_core_network",
+      "participants": [
+        "char_yi_lan"
+      ],
+      "thread_id": "thr_yi_lan",
+      "dependencies": [],
+      "prerequisites": [],
+      "projected_outcome": "伊岚POV：渡蚀接触空壳外层——比预期更深更复杂；无法进入，但感知到质量。",
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_056"
+      ],
+      "beat_design": {},
+      "_stub": true
+    },
+    {
+      "id": "evt_yi_lan_reaches_for_wei_se",
+      "name": "伸手",
+      "story_time": 37,
+      "duration": 1,
+      "location": "elem_core_network",
+      "participants": [
+        "char_yi_lan"
+      ],
+      "thread_id": "thr_yi_lan",
+      "dependencies": [],
+      "prerequisites": [],
+      "projected_outcome": "伊岚POV：看见空壳薇瑟——不是ch_007的恐惧，是往前够的冲动；渡蚀距离延伸感知触到外层。",
+      "status": "drafted",
+      "chapter_ids": [
+        "ch_054"
+      ],
+      "beat_design": {},
+      "_stub": true
+    },
+    {
+      "id": "evt_passive_reception_learned",
+      "name": "伊岚学会被动接收形态——守岩传薇瑟旧训练笔记",
+      "description": "ch_051：守岩回忆起薇瑟的训练日志——渡蚀在高灵蚀时可用被动接收形态（不往外推，往里收，让目标频率传来），比主动延伸省灵能精度更高。伊岚现场学会并成功使用。",
+      "thread_id": "thr_wei_se",
+      "story_time": 35,
+      "duration": 1,
+      "location": "elem_core_network",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_yi_lan_erosion_48",
+          "relation": "ENABLES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "ability_learned",
+            "desc": "渡蚀被动接收形态——不发出，只接收，在高erosion_load下精度更高"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_051"
+      ],
+      "beat_design": {
+        "pov": "char_shou_yan",
+        "technique": "direct",
+        "scene_arc": "观察伊岚退后→旧档案浮现→告诉她→伊岚学会",
+        "key_moment": "守岩转述薇瑟的训练笔记，伊岚现场学会被动接收形态",
+        "pov_constraint": "守岩知道笔记内容，不知道为什么薇瑟当时没教"
+      }
+    },
+    {
+      "id": "evt_ember_cofrequency",
+      "name": "伊岚与ember建立共频——容器知道她在",
+      "description": "ch_052-054：伊岚以被动接收+最低功率共频，与ember的容器建立双向识别；容器主动对准她的渡蚀频率——确认ember有某种有意识的存在在参与。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 36,
+      "duration": 2,
+      "location": "elem_core_network",
+      "participants": [
+        "char_yi_lan",
+        "char_wei_se"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_passive_reception_learned",
+          "relation": "ENABLES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "milestone",
+            "desc": "与ember建立共频通道，确认容器有主动应答——薇瑟在里面"
+          },
+          {
+            "entity": "char_wei_se",
+            "kind": "ember_responsive",
+            "desc": "ember的容器对渡蚀频率有主动应答——不是被动存放，是在等"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_052",
+        "ch_053",
+        "ch_054"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "被动接收→共频→容器应答→门打开一缝→退出等明天",
+        "key_moment": "伊岚说'它知道我在这里'——ember有意识地应答了",
+        "pov_constraint": "她不知道里面是什么内容"
+      }
+    },
+    {
+      "id": "evt_ember_four_contacts",
+      "name": "四次渡蚀接触——容器层层打开",
+      "description": "ch_056-059：伊岚四次渡蚀接触空壳薇瑟的ember容器。第一次到第一层（外壁让开）；第二次到第二层边界；第三次到第二层内侧（传输结构发现，erosion_load 54退出）；第四次到传输出口（传输准备完成，erosion_load跳至54→退出等状态恢复）。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 38,
+      "duration": 2,
+      "location": "elem_core_network",
+      "participants": [
+        "char_yi_lan",
+        "char_wei_se"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_ember_cofrequency",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "progress",
+            "desc": "四次接触，从第一层到传输出口；erosion_load 48→54"
+          },
+          {
+            "entity": "char_wei_se",
+            "kind": "ember_preparing",
+            "desc": "ember内部传输结构开始排布，准备主动传输"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_056",
+        "ch_057",
+        "ch_058",
+        "ch_059"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "四次渐进接触→每次更深→代价递增→传输结构发现",
+        "key_moment": "第四次接触发现ember是主动传输设计——薇瑟等到接收方来了会自动传",
+        "pov_constraint": "不知道传输需要多长时间"
+      }
+    },
+    {
+      "id": "evt_ember_transmission_complete",
+      "name": "ember传输完成——薇瑟的方法进入伊岚灵渊",
+      "description": "ch_060：传输57分钟，三层内容全部传入伊岚灵渊（网状渡蚀理论+实现结构+枢纽压力分担方案）。遗核辅助脉动维持过载边界。外围战斗同步进行。erosion_load 57。传输完成后容器关闭，ember传输结构消散。Sub-arc C收束。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 40,
+      "duration": 1,
+      "location": "elem_core_network",
+      "participants": [
+        "char_yi_lan",
+        "char_wei_se",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_ember_four_contacts",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "milestone",
+            "desc": "薇瑟的网状渡蚀技术全部传入灵渊；erosion_load 57；Sub-arc C完结"
+          },
+          {
+            "entity": "char_wei_se",
+            "kind": "ember_transmitted",
+            "desc": "ember传输结构消散——内容传完，那一部分结束了"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_060"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "传输开始→外围战斗同步→遗核辅助→57分钟完成→Sub-arc C收束",
+        "key_moment": "传输完成——容器关闭，伊岚说'完成了'",
+        "pov_constraint": "她还没整理内容，不知道薇瑟传了什么"
+      }
+    },
+    {
+      "id": "evt_breakout_core_network",
+      "name": "打出核心网中心区域",
+      "description": "ch_061：传输完成后四人在15分钟内打穿两道蚕母防线（10只+14只），从核心网中心区域撤出到外围。伊岚erosion_load 57不使用渡蚀，改用短刃物理战斗。",
+      "thread_id": "thr_garrison",
+      "story_time": 40,
+      "duration": 1,
+      "location": "elem_core_network",
+      "participants": [
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_ember_transmission_complete",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "thr_garrison",
+            "kind": "tactical",
+            "desc": "四人打出核心网中心区域，伊岚无渡蚀战斗模式"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_061"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "快速突破→两道防线→无渡蚀战斗→脱离",
+        "key_moment": "伊岚在erosion_load 57下不用渡蚀，以短刃格斗",
+        "pov_constraint": "不知道蚕母会不会追"
+      }
+    },
+    {
+      "id": "evt_technique_understood",
+      "name": "伊岚理解薇瑟的完整方法——网状渡蚀",
+      "description": "ch_062-063：回程中伊岚展开三层传输内容。第一层：灵能频率网状分布理论（灵蚀在网络中自然扩散至均衡）。第二层：实现技术（渡蚀频率从定向变弥散，施术者成为枢纽节点）。第三层：枢纽压力分担（反馈频率叠加回枢纽，网络越大枢纽越安全——50个灵渊以上枢纽压力趋近于零）。这不是殉道，是众人分担。",
+      "thread_id": "thr_yi_lan",
+      "story_time": 41,
+      "duration": 2,
+      "location": "elem_deep_wasteland_east",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_ember_transmission_complete",
+          "relation": "CAUSES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "knowledge_complete",
+            "desc": "完整理解薇瑟的网状渡蚀技术三层内容"
+          },
+          {
+            "entity": "elem_sui_xing",
+            "kind": "concept_expanded",
+            "desc": "随行的含义从四人小队扩展到灵裔战场规模的众人分担"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_062",
+        "ch_063"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "三层逐步展开→理解→告知队伍→决定回去",
+        "key_moment": "伊岚理解第三层：网络越大枢纽越安全——这不是殉道",
+        "pov_constraint": "她还没有实际使用过网状渡蚀"
+      }
+    },
+    {
+      "id": "evt_imprint_faded",
+      "name": "第七号信标印记消散——薇瑟彻底结束",
+      "description": "ch_064：回程经过第七号信标遗址，聚焦器里的薇瑟印记已消散（传输把内容全部转移到伊岚灵渊）。聚焦器冷了。伊岚说'走了'。回程第四晚展开全部内容，理解了薇瑟一生的研究：让所有人的灵蚀代价均摊，倒计时变成所有人的而不是某一个人的。",
+      "thread_id": "thr_wei_se",
+      "story_time": 42,
+      "duration": 1,
+      "location": "elem_seventh_beacon",
+      "participants": [
+        "char_yi_lan",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [
+        {
+          "event": "evt_technique_understood",
+          "relation": "PRECEDES"
+        }
+      ],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "elem_seventh_beacon",
+            "kind": "imprint_faded",
+            "desc": "聚焦器印记消散，不再发送薇瑟频率"
+          },
+          {
+            "entity": "char_yi_lan",
+            "kind": "psychology",
+            "desc": "不是悲伤，是完成——薇瑟让她等到了，全部等到了"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_064"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "ellipsis",
+        "scene_arc": "经过遗址→印记消散→走了→夜间完整理解",
+        "key_moment": "伊岚蹲在聚焦器旁触碰——冷的——说'走了'",
+        "pov_constraint": "她知道薇瑟结束了，接受了"
+      }
+    },
+    {
+      "id": "evt_return_journey",
+      "name": "回程·伊岚翻译技术为操作",
+      "thread_id": "thr_yi_lan",
+      "story_time": 43,
+      "duration": 1,
+      "location": "elem_deep_wasteland_east",
+      "participants": [
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "progress",
+            "desc": "回程第二遍消化三层内容，把薇瑟的理论图纸翻译成可执行的渡蚀操作手册"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_065"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "回程→技术翻译为操作→四人各自状态",
+        "key_moment": "伊岚把网状渡蚀理论翻译成她能用渡蚀实现的操作",
+        "pov_constraint": "她还没实际使用过网络"
+      }
+    },
+    {
+      "id": "evt_shell_left_behind",
+      "name": "空壳薇瑟留在核心网·蚕母将吞空壳",
+      "thread_id": "thr_wei_se",
+      "story_time": 43,
+      "duration": 1,
+      "location": "elem_deep_wasteland_east",
+      "participants": [
+        "char_shou_yan",
+        "char_yi_lan",
+        "char_wei_se",
+        "char_shi_mu"
+      ],
+      "status": "drafted",
+      "dependencies": [],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_wei_se",
+            "kind": "shell_static",
+            "desc": "ember传完后空壳停在核心网，外层将加速消散"
+          },
+          {
+            "entity": "char_shi_mu",
+            "kind": "misdirection",
+            "desc": "蚕母会吞噬一具空壳——ember已不在，迟早发现目标转移到伊岚"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_066"
+      ],
+      "beat_design": {
+        "pov": "char_shou_yan",
+        "technique": "foreshadowing",
+        "scene_arc": "守岩推断→蚕母会吞空壳→目标终将转向伊岚→加速",
+        "key_moment": "守岩：蚕母在等空壳，但ember已不在——她会失望，然后追我们",
+        "pov_constraint": "不确定蚕母多久发现"
+      }
+    },
+    {
+      "id": "evt_dushi_dispersion_test",
+      "name": "渡蚀弥散频率首次转换测试",
+      "thread_id": "thr_yi_lan",
+      "story_time": 44,
+      "duration": 1,
+      "location": "elem_deep_wasteland_east",
+      "participants": [
+        "char_yi_lan"
+      ],
+      "status": "drafted",
+      "dependencies": [],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "ability_step",
+            "desc": "成功把渡蚀频率从定向输出切换为全向弥散，触及三个灵渊；频率转换本身几乎零消耗"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_067"
+      ],
+      "beat_design": {
+        "pov": "char_zhao",
+        "technique": "direct",
+        "scene_arc": "出深荒→守夜→弥散频率转换尝试→成功",
+        "key_moment": "伊岚第一次把渡蚀频率从线变成面——弥散形态成立",
+        "pov_constraint": "转换成功但还没建网络"
+      }
+    },
+    {
+      "id": "evt_network_4person",
+      "name": "四人灵渊网络首次建立",
+      "thread_id": "thr_yi_lan",
+      "story_time": 44,
+      "duration": 1,
+      "location": "elem_deep_wasteland_east",
+      "participants": [
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "milestone",
+            "desc": "四人网络建立成功，频率自动均衡，连接零消耗；网络太小，需更多节点"
+          },
+          {
+            "entity": "elem_sui_xing",
+            "kind": "concept_step",
+            "desc": "随行从概念变成可操作的灵渊网络"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_068"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "告知队伍→建网→频率自动均衡→断开零代价",
+        "key_moment": "四人灵渊连成网，频率自动均衡——网状渡蚀第一步验证",
+        "pov_constraint": "四节点太小，枢纽压力只降约30%"
+      }
+    },
+    {
+      "id": "evt_shimu_pursuit_redeploys",
+      "name": "蚕母发现目标转移·重新部署搜索网络",
+      "thread_id": "thr_hive",
+      "story_time": 45,
+      "duration": 1,
+      "location": "elem_huipo_wasteland_east",
+      "participants": [
+        "char_shi_mu",
+        "char_ling_yin",
+        "char_zhao",
+        "char_yi_lan"
+      ],
+      "status": "drafted",
+      "dependencies": [],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_shi_mu",
+            "kind": "tactic_shift",
+            "desc": "预置拦截13只被绕过；蚕母从核心网抽力量铺大范围搜索网络，约3-4天收拢"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_069"
+      ],
+      "beat_design": {
+        "pov": "char_zhao",
+        "technique": "direct",
+        "scene_arc": "聆音预警拦截→绕行→蚕母转大范围搜索→改道中继站",
+        "key_moment": "蚕母预置拦截被绕过，但开始铺搜索网络——时间窗口出现",
+        "pov_constraint": "不确定蚕母是否已确认目标是伊岚"
+      }
+    },
+    {
+      "id": "evt_meet_survivors",
+      "name": "抵达通信中继站·遇灰珀残部三人",
+      "thread_id": "thr_garrison",
+      "story_time": 46,
+      "duration": 1,
+      "location": "elem_relay_station",
+      "participants": [
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_ling_yin",
+        "char_chen_du",
+        "char_wei_lan",
+        "char_xuan_xing"
+      ],
+      "status": "drafted",
+      "dependencies": [],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "milestone",
+            "desc": "不再是孤军——遇到三个灰珀残部灵裔（沉渡/微澜/旋星），随行扩展到队伍之外"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_070",
+        "ch_071"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "三天行进→感知灵裔信号→友方识别→中继站会合",
+        "key_moment": "伊岚说'我带着一些东西回来了'——随行不再只是四个人",
+        "pov_constraint": "沉渡等人还不知道技术是什么"
+      }
+    },
+    {
+      "id": "evt_network_7person",
+      "name": "七人网络·反馈回流首次出现",
+      "thread_id": "thr_yi_lan",
+      "story_time": 46,
+      "duration": 1,
+      "location": "elem_relay_station",
+      "participants": [
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_ling_yin",
+        "char_chen_du",
+        "char_wei_lan",
+        "char_xuan_xing"
+      ],
+      "status": "drafted",
+      "dependencies": [],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "milestone",
+            "desc": "七人网络：均衡速度指数提升，反馈回流首次可感知，枢纽压力降至约15%；网络内灵渊互感=无语言战术通信"
+          },
+          {
+            "entity": "char_xuan_xing",
+            "kind": "resonance",
+            "desc": "旋星与聆音感灵频率共鸣，网络感知层放大"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_072"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "七灵渊接入→反馈回流出现→战术通信发现",
+        "key_moment": "七人网络让反馈回流出现——枢纽压力降到15%，薇瑟数据验证",
+        "pov_constraint": "四到七人还不够趋零"
+      }
+    },
+    {
+      "id": "evt_relay_broadcast",
+      "name": "聆音中继广播·联系更远灵裔",
+      "thread_id": "thr_hive",
+      "story_time": 46,
+      "duration": 1,
+      "location": "elem_relay_station",
+      "participants": [
+        "char_ling_yin",
+        "char_xuan_xing",
+        "char_yi_lan"
+      ],
+      "status": "drafted",
+      "dependencies": [],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_ling_yin",
+            "kind": "action",
+            "desc": "用全频脉冲(a'调制)激活中继站，广播约200km；灵能降至12%"
+          },
+          {
+            "entity": "char_shi_mu",
+            "kind": "detection",
+            "desc": "蚕母也会收到广播，但a'调制降低方向定位精度"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_073"
+      ],
+      "beat_design": {
+        "pov": "char_ling_yin",
+        "technique": "direct",
+        "scene_arc": "研究中继设备→a'调制广播→两个应答(残部+穹枢节点)",
+        "key_moment": "聆音激活中继广播，收到4人残部和穹枢通信节点的应答",
+        "pov_constraint": "蚕母也收到了，但方向被a'模糊"
+      }
+    },
+    {
+      "id": "evt_network_11person",
+      "name": "砺锋残部汇合·十一人网络",
+      "thread_id": "thr_garrison",
+      "story_time": 47,
+      "duration": 1,
+      "location": "elem_relay_station",
+      "participants": [
+        "char_yi_lan",
+        "char_li_feng_z",
+        "char_zhao",
+        "char_shou_yan",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "milestone",
+            "desc": "砺锋(御灵阶)四人残部汇合，11人网络，反馈回流比7人又强一半；砺锋从质疑到信服"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_074"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "砺锋质疑→四人描述网络体验→11人网络→信服",
+        "key_moment": "砺锋加入后11人网络——质疑被四人的亲身描述化解",
+        "pov_constraint": "还需39个节点到50"
+      }
+    },
+    {
+      "id": "evt_qiongshu_responds",
+      "name": "穹枢回应·联络队凝辉抵达",
+      "thread_id": "thr_qiongshu_reentry",
+      "story_time": 47,
+      "duration": 1,
+      "location": "elem_relay_station",
+      "participants": [
+        "char_ning_hui",
+        "char_yi_lan"
+      ],
+      "status": "drafted",
+      "dependencies": [],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_ning_hui",
+            "kind": "arrives",
+            "desc": "穹枢灵枢阶军官凝辉率5人联络队抵达(16灵渊)；伊岚展示弥散频率"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_075"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "穹枢加密回复→联络队抵达→展示弥散频率",
+        "key_moment": "凝辉(灵枢阶)抵达，伊岚展示弥散渡蚀——穹枢知道了",
+        "pov_constraint": "穹枢的反应未定"
+      }
+    },
+    {
+      "id": "evt_ninghui_evaluates",
+      "name": "凝辉评估·要求穹枢正式评审",
+      "thread_id": "thr_qiongshu_reentry",
+      "story_time": 47,
+      "duration": 1,
+      "location": "elem_relay_station",
+      "participants": [
+        "char_ning_hui",
+        "char_yi_lan",
+        "char_shou_yan"
+      ],
+      "status": "drafted",
+      "dependencies": [],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_ning_hui",
+            "kind": "decision",
+            "desc": "凝辉加入网络亲身感知后判定：这改变灵裔存在方式，需到穹枢评审委员会展示"
+          },
+          {
+            "entity": "char_yi_lan",
+            "kind": "psychology",
+            "desc": "穹枢是下达灰珀撤退令的穹枢，但技术需要更大网络——往那里走"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_076"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "凝辉入网→评估→要求去穹枢→守岩'往那里走'",
+        "key_moment": "凝辉：不是命令，是展示——这不是四人小队能做的事",
+        "pov_constraint": "穹枢接不接受未知"
+      }
+    },
+    {
+      "id": "evt_depart_for_qiongshu",
+      "name": "出发往穹枢·守岩授两种语言",
+      "thread_id": "thr_qiongshu_reentry",
+      "story_time": 48,
+      "duration": 1,
+      "location": "elem_lingyin_frontier",
+      "participants": [
+        "char_yi_lan",
+        "char_ning_hui",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_shou_yan",
+            "kind": "counsel",
+            "desc": "守岩教伊岚：穹枢的'真'(可部署系统)和我们的'真'(灵渊变轻)都是真，两种都要说"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_077"
+      ],
+      "beat_design": {
+        "pov": "char_shou_yan",
+        "technique": "direct",
+        "scene_arc": "穹枢批准评审→出发→守岩授两种语言策略",
+        "key_moment": "守岩：两种真都是真，不要只用一种说",
+        "pov_constraint": "守岩可能届时记不住，但现在记得就帮"
+      }
+    },
+    {
+      "id": "evt_network_16_transmission",
+      "name": "路上·十六人网络第二次灵蚀传输",
+      "thread_id": "thr_yi_lan",
+      "story_time": 48,
+      "duration": 1,
+      "location": "elem_lingyin_frontier",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin",
+        "char_ning_hui"
+      ],
+      "status": "drafted",
+      "dependencies": [],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "progress",
+            "desc": "16人网络第二次灵蚀传输30分钟，erosion_load 53→51；穹枢有约500灵裔——远超50"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_078"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "五天行进→16人灵蚀传输→穹枢规模信息",
+        "key_moment": "16人网络灵蚀传输，伊岚erosion降2点；穹枢500灵裔意味着趋零可能",
+        "pov_constraint": "16人还不够消化伊岚和守岩的高负载"
+      }
+    },
+    {
+      "id": "evt_shouyan_erosion_late",
+      "name": "守岩灵蚀晚期·开始传递旧档案",
+      "thread_id": "thr_yi_lan",
+      "story_time": 49,
+      "duration": 1,
+      "location": "elem_lingyin_frontier",
+      "participants": [
+        "char_shou_yan",
+        "char_yi_lan",
+        "char_zhao",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_shou_yan",
+            "kind": "loss_progressing",
+            "desc": "步伐变慢，叫错名字频率增加；网状渡蚀削平峰值但不逆转灵蚀基础进程；旧时记忆保护层趋势性受侵蚀"
+          },
+          {
+            "entity": "char_shou_yan",
+            "kind": "role_action",
+            "desc": "开始系统把旧档案传给能接收的人，在彻底失去前让记忆在他之外存在"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_079"
+      ],
+      "beat_design": {
+        "pov": "char_zhao",
+        "technique": "direct",
+        "scene_arc": "昭注意守岩步伐变慢→伊岚感知灵渊→守岩开始传递档案",
+        "key_moment": "守岩的灵蚀到了旧时记忆保护层——他开始把记忆传出去",
+        "pov_constraint": "不知道还有多少时间"
+      }
+    },
+    {
+      "id": "evt_arrive_qiongshu",
+      "name": "抵达穹枢·灵能战术委员会",
+      "thread_id": "thr_qiongshu_reentry",
+      "story_time": 49,
+      "duration": 1,
+      "location": "elem_lingyin_frontier",
+      "participants": [
+        "char_yi_lan",
+        "char_ning_hui",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "milestone",
+            "desc": "抵达穹枢外围前线，向7名灵枢阶委员会展示弥散频率；委员会要求现场展示"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_080"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "进穹枢→委员会→从薇瑟讲起→展示弥散频率→'展示'",
+        "key_moment": "伊岚在委员会面前展示弥散渡蚀，灵渊阶委员说'展示'",
+        "pov_constraint": "穹枢的决定未定"
+      }
+    },
+    {
+      "id": "evt_committee_review",
+      "name": "评审室·十二人网络委员会感知",
+      "thread_id": "thr_qiongshu_reentry",
+      "story_time": 50,
+      "duration": 1,
+      "location": "elem_lingyin_frontier",
+      "participants": [
+        "char_yi_lan",
+        "char_ning_hui",
+        "char_shou_yan"
+      ],
+      "status": "drafted",
+      "dependencies": [],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "milestone",
+            "desc": "12人网络(含7灵枢阶)，委员会亲身感知；守岩从旧档案补充薇瑟维护报告数据使技术从'新能力'变'有实验基础的技术';三小时评审通过到全面展示"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_081"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "12人网络→委员会感知→守岩补档案数据→三小时评审",
+        "key_moment": "委员会亲身感知网络，守岩的旧档案数据让技术落地",
+        "pov_constraint": "委员会还没正式决定接受"
+      }
+    },
+    {
+      "id": "evt_network_58_zero_hub",
+      "name": "五十八人网络·枢纽压力归零",
+      "thread_id": "thr_yi_lan",
+      "story_time": 50,
+      "duration": 1,
+      "location": "elem_lingyin_frontier",
+      "participants": [
+        "char_yi_lan"
+      ],
+      "status": "drafted",
+      "dependencies": [],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "breakthrough",
+            "desc": "58灵渊网络跨过50阈值——枢纽压力不是趋近零而是感知不到('没有了')；erosion 51→49；薇瑟理论完全验证"
+          },
+          {
+            "entity": "elem_sui_xing",
+            "kind": "concept_proven",
+            "desc": "众人分担守护的终极形态在58灵渊上实现"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_082"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "58灵裔集结→分圈接入→跨50枢纽压力消失→'通过'",
+        "key_moment": "跨过50节点，枢纽压力消失——不是很轻，是没有了",
+        "pov_constraint": "这只是穹枢能集中的最大数量，不是全部"
+      }
+    },
+    {
+      "id": "evt_qiongshu_deploys",
+      "name": "穹枢部署网状渡蚀为S级资产·联邦矿脉伏笔",
+      "thread_id": "thr_qiongshu_reentry",
+      "story_time": 51,
+      "duration": 1,
+      "location": "elem_lingyin_frontier",
+      "participants": [
+        "char_ning_hui",
+        "char_yi_lan",
+        "char_zhao"
+      ],
+      "status": "drafted",
+      "dependencies": [],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_ning_hui",
+            "kind": "deployment",
+            "desc": "穹枢列网状渡蚀为S级战术资产，凝辉任协调官，组建网络部署队12人"
+          },
+          {
+            "entity": "char_zhao",
+            "kind": "knowledge_gained",
+            "desc": "昭获知灰珀矿脉已被星尘联邦完全接管——卷四伏笔"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_083"
+      ],
+      "beat_design": {
+        "pov": "char_zhao",
+        "technique": "direct",
+        "scene_arc": "S级资产→部署队组建→伊岚教30人→昭获联邦矿脉情报",
+        "key_moment": "穹枢全力部署网状渡蚀；昭得知灰珀矿脉已落入联邦",
+        "pov_constraint": "联邦/凯尔将在卷四重要"
+      }
+    },
+    {
+      "id": "evt_network_first_combat",
+      "name": "网状渡蚀首次实战·三十五人网络",
+      "thread_id": "thr_garrison",
+      "story_time": 51,
+      "duration": 1,
+      "location": "elem_lingyin_frontier",
+      "participants": [
+        "char_yi_lan",
+        "char_zhao",
+        "char_shou_yan",
+        "char_ling_yin",
+        "char_ning_hui"
+      ],
+      "status": "drafted",
+      "dependencies": [],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "milestone",
+            "desc": "35人网络首次实战：灵蚀分担1/35，全域态势感知，聆音预警5km；25只清除，每人灵蚀增量0.5(vs正常3-5)；枢纽压力零"
+          },
+          {
+            "entity": "char_shi_mu",
+            "kind": "loss",
+            "desc": "东侧防线25只攻势被网状渡蚀击退"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_084"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "蚕母25只攻势→35人网络→灵蚀分担+全域感知→0.5增量",
+        "key_moment": "网状渡蚀首次实战——战斗代价没有落在任何一个人身上",
+        "pov_constraint": "蚕母会调整战略响应"
+      }
+    },
+    {
+      "id": "evt_shouyan_transmits_archive",
+      "name": "守岩系统传递全部旧档案",
+      "thread_id": "thr_yi_lan",
+      "story_time": 52,
+      "duration": 1,
+      "location": "elem_lingyin_frontier",
+      "participants": [
+        "char_shou_yan",
+        "char_yi_lan",
+        "char_zhao",
+        "char_ling_yin",
+        "char_ning_hui"
+      ],
+      "status": "drafted",
+      "dependencies": [],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_shou_yan",
+            "kind": "role_completion",
+            "desc": "系统把旧档案(战术/感知/薇瑟时间线/穹枢前线真相)传给各人；'感觉留不住但跟着我走'"
+          },
+          {
+            "entity": "char_yi_lan",
+            "kind": "psychology",
+            "desc": "意识到守岩在传递——让记忆在他之外存在，因为旧时记忆保护层也不永久"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_086"
+      ],
+      "beat_design": {
+        "pov": "char_shou_yan",
+        "technique": "direct",
+        "scene_arc": "系统传递档案→各人接收→'该说的都说了'",
+        "key_moment": "守岩把毕生记忆传出去，让它在他之外存在",
+        "pov_constraint": "旧时记忆保护层趋势性受侵蚀"
+      }
+    },
+    {
+      "id": "evt_network_120_superfreq",
+      "name": "百二十人网络·超频谐振涌现",
+      "thread_id": "thr_yi_lan",
+      "story_time": 53,
+      "duration": 1,
+      "location": "elem_lingyin_frontier",
+      "participants": [
+        "char_yi_lan",
+        "char_ling_yin"
+      ],
+      "status": "drafted",
+      "dependencies": [],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "discovery",
+            "desc": "120人网络演练涌现超频谐振——所有灵渊共振叠加成超频，网络本身成为巨大感知器"
+          },
+          {
+            "entity": "char_ling_yin",
+            "kind": "discovery",
+            "desc": "超频覆盖半径超出聆音最远感知；网络=战场级感知系统"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_087"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "穹枢决定全面部署→120人演练→超频谐振涌现→集体落泪",
+        "key_moment": "120灵渊涌现超频谐振——网络从分担灵蚀变成新的存在形态",
+        "pov_constraint": "这是薇瑟设想的最初形态"
+      }
+    },
+    {
+      "id": "evt_shimu_strategic_assault",
+      "name": "蚕母战略攻势·八十只从南侧",
+      "thread_id": "thr_hive",
+      "story_time": 53,
+      "duration": 1,
+      "location": "elem_lingyin_frontier",
+      "participants": [
+        "char_shi_mu",
+        "char_ling_yin",
+        "char_zhao",
+        "char_shou_yan"
+      ],
+      "status": "drafted",
+      "dependencies": [],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_shi_mu",
+            "kind": "strategic_response",
+            "desc": "核心网事件后调集80只(含5干扰型)从南侧(队伍来路)——战略攻势非常规；蚕母追上来了"
+          },
+          {
+            "entity": "char_shou_yan",
+            "kind": "loss",
+            "desc": "守岩灵渊频率战前又弱一层，可能是最后一场以现状态参与的大战"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_088"
+      ],
+      "beat_design": {
+        "pov": "char_ling_yin",
+        "technique": "foreshadowing",
+        "scene_arc": "聆音6小时前预警→80只南侧→双层防御部署→守岩状态",
+        "key_moment": "蚕母战略攻势从南侧来——80只，守岩在他该在的位置上等",
+        "pov_constraint": "守岩知道时间在减少"
+      }
+    },
+    {
+      "id": "evt_network_92_battle",
+      "name": "南侧大战·九十二人网络·守岩最后震波",
+      "thread_id": "thr_garrison",
+      "story_time": 54,
+      "duration": 1,
+      "location": "elem_lingyin_frontier",
+      "participants": [
+        "char_yi_lan",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin",
+        "char_shi_mu"
+      ],
+      "status": "drafted",
+      "dependencies": [],
+      "projected_outcome": {
+        "state_changes": [
+          {
+            "entity": "char_yi_lan",
+            "kind": "milestone",
+            "desc": "92人网络主防线：5秒接50/10秒接92，超频谐振；80只清除，每人增量0.8，无人燃尽无人空壳化"
+          },
+          {
+            "entity": "char_shou_yan",
+            "kind": "sacrifice_partial",
+            "desc": "守岩三道震波(网络谐振增益)，最后一道命中信使型核心瓦解集结，灵能近用尽但站住"
+          },
+          {
+            "entity": "char_shi_mu",
+            "kind": "defeat",
+            "desc": "80只战略攻势被92人网络击溃"
+          }
+        ]
+      },
+      "chapter_ids": [
+        "ch_089"
+      ],
+      "beat_design": {
+        "pov": "char_yi_lan",
+        "technique": "direct",
+        "scene_arc": "南侧80只→92人网络→守岩三震波→信使型核心瓦解→0.8增量",
+        "key_moment": "92灵渊里没有人独自承受——守岩的最后震波瓦解了集结核心",
+        "pov_constraint": "守岩灵渊在战后又差一层"
       }
     }
   ],
@@ -2110,11 +5374,45 @@
         "evt_lingyin_challenges_yi_lan",
         "evt_yi_lan_forgets_wei_se_face",
         "evt_yi_lan_dushi_scattered",
-        "evt_yihe_resonance_discovered",
         "evt_yihe_beacon_revealed",
+        "evt_yihe_resonance_discovered",
         "evt_yihe_response_signal",
         "evt_yi_lan_decides_east",
-        "evt_yilan_first_half_confession"
+        "evt_yilan_first_half_confession",
+        "evt_yihe_warming",
+        "evt_yilan_full_confession",
+        "evt_shouyan_beacon_memory",
+        "evt_seventh_beacon_arrival",
+        "evt_imprint_gradient_sensed",
+        "evt_core_network_revealed",
+        "evt_northwest_direction_set",
+        "evt_deep_vein_memory",
+        "evt_yi_lan_erosion_48",
+        "evt_dushi_new_dimension",
+        "evt_yi_lan_reaches_for_wei_se",
+        "evt_wei_se_first_touch",
+        "evt_shouyan_witnesses",
+        "evt_subarc_c_closure",
+        "evt_wei_se_inner_contact",
+        "evt_vol3_close",
+        "evt_dushi_network_first_test",
+        "evt_seventh_beacon_revisit",
+        "evt_shouyan_erosion_final",
+        "evt_dushi_network_scale",
+        "evt_novel_close",
+        "evt_ember_cofrequency",
+        "evt_ember_four_contacts",
+        "evt_ember_transmission_complete",
+        "evt_technique_understood",
+        "evt_return_journey",
+        "evt_dushi_dispersion_test",
+        "evt_network_4person",
+        "evt_network_7person",
+        "evt_network_16_transmission",
+        "evt_shouyan_erosion_late",
+        "evt_network_58_zero_hub",
+        "evt_shouyan_transmits_archive",
+        "evt_network_120_superfreq"
       ],
       "convergences": [
         {
@@ -2161,21 +5459,45 @@
       "end_time": null,
       "event_ids": [
         "evt_huipo_assault",
-        "evt_kai_er_arrives",
         "evt_garrison_accepts_deal",
+        "evt_kai_er_arrives",
         "evt_qiongshu_retreat_order",
         "evt_garrison_breakout",
         "evt_garrison_abandons_huipo",
         "evt_shou_yan_carves_names",
-        "evt_puppets_fail",
         "evt_first_open_combat",
         "evt_hive_tracker_discovered",
+        "evt_puppets_fail",
         "evt_shouyan_memory_keeper",
         "evt_open_terrain_battle",
         "evt_shou_yan_names_suixing",
         "evt_zhao_discovers_arrow_carving",
         "evt_team_rhythm",
-        "evt_zhao_asks_target"
+        "evt_zhao_asks_target",
+        "evt_hive_scout_encounter",
+        "evt_subarc_a_closure",
+        "evt_terrain_shift_deep",
+        "evt_tactical_crisis_dual_node",
+        "evt_wasteland_crack_scatter",
+        "evt_deep_wasteland_combat",
+        "evt_south_node_crack_found",
+        "evt_shimu_convergence_strike",
+        "evt_northwest_route_assessment",
+        "evt_shimu_territory_entered",
+        "evt_territory_combat_first",
+        "evt_territory_combat_second",
+        "evt_territory_combat_third",
+        "evt_time_pressure_escalation",
+        "evt_territory_combat_aftermath",
+        "evt_approach_cover_formation",
+        "evt_time_window_closing",
+        "evt_return_first_step",
+        "evt_return_through_deep",
+        "evt_breakout_core_network",
+        "evt_meet_survivors",
+        "evt_network_11person",
+        "evt_network_first_combat",
+        "evt_network_92_battle"
       ],
       "convergences": [
         {
@@ -2210,7 +5532,19 @@
         "evt_shimu_learning_rhythm",
         "evt_lingyin_active_pulse",
         "evt_lingyin_reports_frequency_exposed",
-        "evt_lingyin_subband_test"
+        "evt_lingyin_subband_test",
+        "evt_lingyin_subband_confirmed",
+        "evt_shimu_signal_anomaly",
+        "evt_shimu_second_node_confirmed",
+        "evt_lingyin_second_node_location",
+        "evt_imprint_direction_decoded",
+        "evt_shimu_territory_density",
+        "evt_wei_se_shell_pulled",
+        "evt_wei_se_shell_sighted",
+        "evt_lingyin_new_research",
+        "evt_shimu_pursuit_redeploys",
+        "evt_relay_broadcast",
+        "evt_shimu_strategic_assault"
       ],
       "convergences": [
         {
@@ -2240,6 +5574,58 @@
           ]
         }
       ]
+    },
+    {
+      "id": "thr_wei_se",
+      "name": "薇瑟·余烬与方法",
+      "description": "薇瑟的隐线：从灰珀时的空壳化，到遗核信标，到第七号信标印记，到灵渊核心网ember的传输，到渡蚀网状技术的遗留。她不直接出现，但她的选择贯穿全书。",
+      "pov_character": "char_wei_se",
+      "start_time": 0,
+      "end_time": 80,
+      "event_ids": [
+        "evt_wei_se_training_fragment",
+        "evt_shouyan_carves_weise",
+        "evt_passive_reception_learned",
+        "evt_imprint_faded",
+        "evt_shell_left_behind"
+      ],
+      "convergences": [
+        {
+          "with_thread": "thr_yi_lan",
+          "story_time": 38,
+          "location": "elem_seventh_beacon",
+          "knowledge_exchanged": [
+            "薇瑟灵渊印记确认"
+          ]
+        },
+        {
+          "with_thread": "thr_yi_lan",
+          "story_time": 46,
+          "location": "elem_core_network",
+          "knowledge_exchanged": [
+            "渡蚀网状技术传输完成",
+            "薇瑟ember消散"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thr_qiongshu_reentry",
+      "name": "穹枢·联邦再介入",
+      "description": "Vol 04再活跃的政治线：穹枢的新撤退令或危机，凯尔代表联邦再次接触，灵裔更大战场的组织结构压力。Vol 01-03为dormant。",
+      "pov_character": "char_kai_er",
+      "start_time": 51,
+      "end_time": null,
+      "event_ids": [
+        "evt_kai_er_reappears",
+        "evt_qiongshu_responds",
+        "evt_ninghui_evaluates",
+        "evt_depart_for_qiongshu",
+        "evt_arrive_qiongshu",
+        "evt_committee_review",
+        "evt_qiongshu_deploys"
+      ],
+      "convergences": []
     }
   ],
   "world_rules": [
@@ -2436,12 +5822,108 @@
       "note": "蚕母在掌握目标完整灵渊频率签名后，可发送针对性窄频脉冲定位目标——约40分钟间隔，单向方向定位，精度高；距离估算需多节点三角定位，目前蚕母可能只有单一发送节点。ch_016聆音确认。"
     },
     {
+      "id": "rule_0026",
+      "source": "深荒地质层",
+      "relation": "AFFECTS",
+      "target": "灵能信号传播",
+      "scope": "geography",
+      "note": "灰珀深荒东区的更古老、更致密矿脉地层会对灵能信号产生轻微的反射叠加效应，可能造成信号相位漂移。蚕母窄频定位脉冲在此区域可能出现约0.3秒相位偏移，难以区分是地质反射还是第二发送节点所致。ch_026聆音首次注意到此现象。"
+    },
+    {
       "id": "rule_0025",
       "source": "荒原刻痕导向",
       "relation": "MARKS",
       "target": "行进方向",
       "scope": "lore",
       "note": "在灵能通讯不稳定的荒原环境中，灵裔有时用工具在矿石表面刻简单箭头作为方向标记，供后续人员跟踪路线。刻痕氧化磨损速度可粗略判断年龄（灰珀矿石每年约1-2毫米表面磨损）。ch_017发现的箭头刻痕深约3-4毫米、边缘圆滑，对应至少两年。"
+    },
+    {
+      "id": "rule_0027",
+      "source": "深荒裂缝内壁深层矿物",
+      "relation": "SCATTERS",
+      "target": "灵能信号（特定方向）",
+      "scope": "geography",
+      "note": "深荒裂缝内壁暴露的深层矿物（颜色暗绿近黑，层状高压结晶结构）对垂直其层面方向传来的灵能信号有显著散射效果。在裂缝内侧接收时，朝对应矿物壁方向的蚕母窄频脉冲相位偏移可增大至外侧读数的约2.7倍（0.30→0.83秒），方向分离扩大约2.6倍（15→39度）。散射是方向性的：取决于矿物壁朝向与信号来源方向的关系，对另一方向可能完全无效。ch_029首次发现并测试确认。"
+    },
+    {
+      "id": "rule_0028",
+      "source": "深荒裂缝走廊（守岩震波）",
+      "relation": "AMPLIFIES",
+      "target": "守岩震波",
+      "scope": "geography",
+      "note": "守岩的震波在深荒裂缝走廊内传播时，因裂缝两侧矿物壁密度高、反射清晰，产生显著的反射叠加增益效果——有效压强比荒原西侧开阔地形高一倍以上。ch_030首次实战确认。使深荒裂缝成为守岩能力的放大器。"
+    },
+    {
+      "id": "rule_0029",
+      "source": "第七号信标",
+      "relation": "LOCATED_AT",
+      "target": "东偏南约40公里",
+      "scope": "lore",
+      "note": "灰珀外围第七号灵能通信接力点，位于深荒地质分界线东偏南约40公里处。第一波大虫潮前运作，第二年因地表变化放弃。薇瑟曾多次前往维护和校准，是接力点运作期间的主责人员之一。ch_032守岩记忆浮现并告知队伍。目前该地点状态未知（被放弃约N年后的情况）。"
+    },
+    {
+      "id": "rule_0030",
+      "source": "双节点散射方案",
+      "relation": "SUPPRESSES",
+      "target": "蚕母双节点三角定位精度",
+      "scope": "lore",
+      "note": "在深荒裂缝走廊中，通过选择北侧节点方向和南侧节点方向各自对应的遮蔽裂缝，可使两个节点的方向定位精度同时大幅下降（散射系数约2.5-2.7）。ch_033昭完成索引，双节点散射方案完整；ch_034首次完整使用。综合加上a'技术，位置暴露概率大幅降低，但不能完全消除（a'对三角定位的保护效果是随机的）。"
+    },
+    {
+      "id": "rule_0031",
+      "source": "薇瑟灵渊印记",
+      "relation": "STORED_IN",
+      "target": "第七号信标聚焦器",
+      "scope": "lore",
+      "note": "薇瑟在灵蚀化之前将自身灵渊基础频率作为印记存入第七号信标的灵渊聚焦器，利用聚焦结晶体的时间稳定性使印记得以长期保存并持续低功率发送。这是遗核信标方向信号的来源（遗核与聚焦器在同一频率上共振）。ch_035伊岚渡蚀触碰确认。印记不含方向信息，只有薇瑟的频率本身——薇瑟本人位置未知，印记是路上的一个点，不是终点。"
+    },
+    {
+      "id": "rule_0032",
+      "source": "深脉灵能干扰",
+      "relation": "SUPPRESSES",
+      "target": "蚕母协同通信",
+      "scope": "geography",
+      "note": "核心网中心区域的深脉灵能浓度极高，对蚕母单元的通信协同信号有吸收和干扰效果（响应延迟约15秒）。ch_049-061确认。效果随蚕母单元适应时间增加而递减。"
+    },
+    {
+      "id": "rule_0033",
+      "source": "渡蚀被动接收形态",
+      "relation": "ALTERNATIVE_TO",
+      "target": "渡蚀主动延伸",
+      "scope": "character_specific",
+      "note": "在erosion_load高时可切换：不发送，只接收，让目标频率传来。精度更高，代价更低，但只能感知而不能主动作用。ch_051守岩传薇瑟旧训练笔记，伊岚学会。"
+    },
+    {
+      "id": "rule_0034",
+      "source": "网状渡蚀",
+      "relation": "DISTRIBUTES",
+      "target": "全网灵蚀",
+      "scope": "taboo",
+      "note": "薇瑟一生研究的渡蚀完整形态：灵蚀在网状灵渊网络中自然扩散至均衡，枢纽节点的压力通过反馈频率叠加回流降低。网络≥50灵渊时枢纽压力趋近于零。ch_062-063伊岚理解完整技术。"
+    },
+    {
+      "id": "rule_0035",
+      "source": "网状渡蚀枢纽",
+      "relation": "NULLIFIES",
+      "target": "枢纽灵蚀压力",
+      "scope": "taboo",
+      "note": "网状渡蚀网络≥50灵渊节点时，反馈回流使枢纽(施术者)灵蚀压力降至感知不到的程度(归零)。ch_082(58节点)首次验证。"
+    },
+    {
+      "id": "rule_0036",
+      "source": "百节点灵渊网络",
+      "relation": "GENERATES",
+      "target": "超频谐振",
+      "scope": "lore",
+      "note": "约120灵渊网络中所有灵渊基础频率共振叠加涌现'超频'——非任一个体频率，覆盖半径超出单人最远感知，使网络成为战场级感知系统。ch_087演练涌现。"
+    },
+    {
+      "id": "rule_0037",
+      "source": "网状渡蚀",
+      "relation": "PRESERVES_NOT",
+      "target": "灵蚀基础进程",
+      "scope": "taboo",
+      "note": "网状渡蚀削平灵蚀峰值、均衡分布、减缓当下细节丢失，但不逆转灵渊自身的灵蚀基础积累进程。守岩(晚期灵蚀)的旧时记忆保护层仍趋势性受侵蚀。ch_079/090。"
     }
   ]
 }

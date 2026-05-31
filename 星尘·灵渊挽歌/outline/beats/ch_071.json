@@ -1,0 +1,21 @@
+{
+  "chapter_id": "ch_071",
+  "title": "中继站",
+  "volume": "vol_03",
+  "status": "drafted",
+  "pov_character": "char_yi_lan",
+  "story_time": 43,
+  "thread_id": "thr_garrison",
+  "events_covered": [
+    "evt_meet_survivors"
+  ],
+  "_stub": true,
+  "beats": [
+    {
+      "beat": 1,
+      "action": "中继站；伊岚向沉渡解释网状渡蚀；沉渡邀请渡蚀感知其灵渊后同意加入。",
+      "psychology": "",
+      "internal_monologue": ""
+    }
+  ]
+}

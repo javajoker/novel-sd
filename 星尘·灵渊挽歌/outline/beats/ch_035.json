@@ -1,0 +1,23 @@
+{
+  "chapter_id": "ch_035",
+  "title": "印记",
+  "volume": "vol_03",
+  "sub_arc": "B·东行深荒",
+  "pov_character": "char_shou_yan",
+  "story_time": 26,
+  "world_day": 2213,
+  "location": "elem_seventh_beacon",
+  "thread_id": "thr_yi_lan",
+  "scene_arc": "踏入遗址→守岩认出→伊岚触碰聚焦器→薇瑟印记确认→路还在往下走",
+  "beats": [
+    {
+      "beat": 1,
+      "action": "见prose",
+      "psychology": "",
+      "internal_monologue": ""
+    }
+  ],
+  "events_covered": [
+    "evt_seventh_beacon_arrival"
+  ]
+}

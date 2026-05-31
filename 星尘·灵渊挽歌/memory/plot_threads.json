@@ -3,9 +3,9 @@
     {
       "id": "hook_wei_se_ember",
       "concept": "空壳薇瑟灵渊深处残留的'自我余烬'",
-      "status": "open",
+      "status": "resolved",
       "introduced_chapter": "ch_001",
-      "last_mention_chapter": "ch_014",
+      "last_mention_chapter": "ch_064",
       "occurrences": [
         {
           "chapter_id": "ch_001",
@@ -76,6 +76,48 @@
           "chapter_id": "ch_025",
           "note": "Sub-arc A收束：聆音记住薇瑟频率特征为感知依据，守岩记入活档案，昭以目标优先级重构战术。遗核持续升温。Sub-arc B开始——远处的薇瑟余烬/信标是B线的核心。"
         }
+      ],
+      "occurrences_continued_3": [
+        {
+          "chapter_id": "ch_030",
+          "note": "战中遗核在渡蚀过载时脉动辅助（重复ch_014模式，增益微小但真实）——信号随接近而更活跃。"
+        },
+        {
+          "chapter_id": "ch_031",
+          "note": "聆音在a'里感知到薇瑟频率底色比昨天更清楚，且下午比中午更清楚——真实信号增强，非感知校准误差。约38公里。"
+        },
+        {
+          "chapter_id": "ch_032",
+          "note": "PAYOFF：守岩记忆浮现，第七号信标命名——遗核信标=第七号信标=薇瑟曾在那里。四线收束于同一名字。约38公里。"
+        }
+      ],
+      "occurrences_continued_4": [
+        {
+          "chapter_id": "ch_034",
+          "note": "信标方向的频率呼应在渡蚀过载时先于遗核脉动而至——近距离（约10km）下信标信号被渡蚀感知直接激活，确认为独立于遗核的信号来源。"
+        },
+        {
+          "chapter_id": "ch_035",
+          "note": "MAJOR PAYOFF：抵达第七号信标，伊岚渡蚀触碰聚焦器，确认薇瑟灵渊印记——连续稳定，与遗核和聆音的感知记忆特征完全一致，是有意留下的。印记在，薇瑟本人位置未知，这是路上的一个点。Sub-arc B完结。Sub-arc C：从印记里找下一条路。"
+        }
+      ],
+      "occurrences_continued_5": [
+        {
+          "chapter_id": "ch_036-040",
+          "note": "印记梯度解码→西北方向→核心网确认→往那里走。遗核方向和核心网/蚕母据点重合。"
+        },
+        {
+          "chapter_id": "ch_049-054",
+          "note": "进入核心网中心区域，ember在80米外应答→伊岚学会被动接收→共频建立→第一次接触容器→容器主动识别→内容是技术结构。"
+        },
+        {
+          "chapter_id": "ch_056-060",
+          "note": "四次渡蚀接触→传输结构发现→57分钟传输完成三层内容→erosion_load 57→Sub-arc C收束。"
+        },
+        {
+          "chapter_id": "ch_062-064",
+          "note": "FINAL RESOLUTION：三层内容展开——网状渡蚀理论+实现技术+枢纽分担方案。第七号信标印记消散。薇瑟ember彻底结束，技术在伊岚灵渊里。"
+        }
       ]
     },
     {
@@ -83,7 +125,7 @@
       "concept": "蚀母觊觎聆音纯净深邃的灵渊",
       "status": "active",
       "introduced_chapter": "ch_001",
-      "last_mention_chapter": "ch_014",
+      "last_mention_chapter": "ch_089",
       "occurrences": [
         {
           "chapter_id": "ch_001",
@@ -129,14 +171,24 @@
         }
       ],
       "payoff_planned_chapter": "vol_03",
-      "risk": "反派主线。蚀母卷二完成节律学习+跟踪型个体+三方合围升级链。卷三蚀母已升级为窄频定位追踪。卷三需要蚀母对聆音主动对策（频率调制探索）的响应，以及蚀母追猎与遗核信标方向的交叉风险。"
+      "risk": "反派主线。蚀母卷二完成节律学习+跟踪型个体+三方合围升级链。卷三蚀母已升级为窄频定位追踪。卷三需要蚀母对聆音主动对策（频率调制探索）的响应，以及蚀母追猎与遗核信标方向的交叉风险。",
+      "occurrences_continued_3": [
+        {
+          "chapter_id": "ch_066-069",
+          "note": "蚕母吞噬空壳后(ember已不在)目标转向伊岚；预置拦截被绕过后转铺大范围搜索网络"
+        },
+        {
+          "chapter_id": "ch_088-089",
+          "note": "核心网事件后战略攻势——80只从南侧(队伍来路)，被92人网状渡蚀网络击溃"
+        }
+      ]
     },
     {
       "id": "hook_dushi_true_cost",
       "concept": "渡蚀真正的最终代价（伊岚尚不自知→逐步揭示）",
       "status": "partial_resolved",
       "introduced_chapter": "ch_001",
-      "last_mention_chapter": "ch_015",
+      "last_mention_chapter": "ch_063",
       "occurrences": [
         {
           "chapter_id": "ch_001",
@@ -174,7 +226,21 @@
         }
       ],
       "payoff_planned_chapter": "vol_03",
-      "risk": "渡蚀代价完整弧线：卷一恐惧落地+行动改变，卷二压力峰值与外部援助出现（遗核），卷三：随行与隐瞒的张力作为新的心理代价形式；erosion_load稳定在40，但随行要求诚实而她正在隐瞒——矛盾将在某个时刻爆发。"
+      "risk": "渡蚀代价完整弧线：卷一恐惧落地+行动改变，卷二压力峰值与外部援助出现（遗核），卷三：随行与隐瞒的张力作为新的心理代价形式；erosion_load稳定在40，但随行要求诚实而她正在隐瞒——矛盾将在某个时刻爆发。",
+      "occurrences_continued_2": [
+        {
+          "chapter_id": "ch_050",
+          "note": "erosion_load 48代价边界：近期记忆消散加速，渡蚀精度-15%。"
+        },
+        {
+          "chapter_id": "ch_060",
+          "note": "传输代价：erosion_load 52→57，灵渊高热但遗核辅助稳住。"
+        },
+        {
+          "chapter_id": "ch_063",
+          "note": "PARTIAL RESOLUTION：薇瑟的网状渡蚀第三层=枢纽分担方案——如果网络≥50灵渊，枢纽趋零。伊岚的代价理论上有解了，但还没有实践验证。"
+        }
+      ]
     },
     {
       "id": "hook_huipo_vein_pact",
@@ -280,6 +346,10 @@
         {
           "chapter_id": "ch_017",
           "note": "ch_017：昭以独立分析发现两年前箭头刻痕（刻痕年代估算、方向判定），并把三条线（箭头+遗核+伊岚说东）整合进战术地图；战术指挥功能已完全内化，不需要任何头衔确认。"
+        },
+        {
+          "chapter_id": "ch_026",
+          "note": "ch_026（POV）：进入深荒，完成新地形战术参数重建；通过伊岚的间接手势读出遗核升温进度条；接收聆音的相位漂移报告（0.3秒，15度方向分离），等数据不先下结论——Sub-arc B的战术指挥功能在新地形下延续。"
         }
       ]
     },
@@ -288,7 +358,7 @@
       "concept": "聆音从被动信息来源升格为主动干预者——全频脉冲能力首次使用",
       "status": "open",
       "introduced_chapter": "ch_014",
-      "last_mention_chapter": "ch_017",
+      "last_mention_chapter": "ch_035",
       "occurrences": [
         {
           "chapter_id": "ch_014",
@@ -321,6 +391,31 @@
         {
           "chapter_id": "ch_023",
           "note": "a'战术首次实战：虫群探查单元遭遇中，昭决策聆音临时切回A发出短促干扰驱离探查虫；代价是短暂暴露完整A频率（蚕母精准定位将短暂升高后再次模糊化）。"
+        },
+        {
+          "chapter_id": "ch_026",
+          "note": "深荒地质分界线后，聆音在降频窗口后察觉窄频脉冲出现相位漂移（0.3秒，约15度方向分离）——两个解释：深层矿脉反射 or 蚕母第二节点（后者意味着距离三角定位能力）。聆音启动系统记录，方法论一贯。Sub-arc B的核心悬念。"
+        }
+      ],
+      "occurrences_continued_2": [
+        {
+          "note": "hook_lingyin_active_ability Sub-arc B新张力：若蚕母确认增设第二节点，a'技术只能对抗方向定位，无法对抗方向+距离的组合——整套战术框架需要重评；聆音的感知能力将面对新的对手升级。"
+        }
+      ],
+      "occurrences_continued_3": [
+        {
+          "chapter_id": "ch_029",
+          "note": "a'技术与双节点三角定位的兼容性问题：聆音分析a'对三角定位的实际保护效果不确定（最差情况近无效），需测试。同时聆音测试裂缝内壁矿物散射，开辟了另一种反制路径。"
+        }
+      ],
+      "occurrences_continued_4": [
+        {
+          "chapter_id": "ch_034",
+          "note": "全频干扰脉冲在收束点激战中瓦解一侧集结信号（再次使用）；代价：灵能大量消耗。双节点散射方案与a'技术综合使用确认为最优反制组合。"
+        },
+        {
+          "chapter_id": "ch_035",
+          "note": "聆音确认聚焦器内薇瑟频率印记——感知记忆中的薇瑟特征与聚焦器发出的频率完全匹配。Sub-arc C：聆音的感知将在遗址为起点，往外延伸寻找下一条路。"
         }
       ]
     },
@@ -329,7 +424,7 @@
       "concept": "遗核方向（东侧偏南）发回单次回应脉冲——薇瑟余烬或相关存在的位置信号",
       "status": "partial_resolved",
       "introduced_chapter": "ch_014",
-      "last_mention_chapter": "ch_017",
+      "last_mention_chapter": "ch_029",
       "occurrences": [
         {
           "chapter_id": "ch_014",
@@ -366,8 +461,153 @@
         {
           "chapter_id": "ch_025",
           "note": "聆音记住薇瑟频率特征为感知识别依据；守岩记入活档案；遗核持续升温作为接近进度条。Sub-arc B开始。"
+        },
+        {
+          "chapter_id": "ch_026",
+          "note": "遗核基础温度继续升高（昭通过伊岚的间接手势读出）——Sub-arc B第一日，接近进度条继续推进；深荒地形对遗核信标本身无影响（昭确认伊岚的东行判断未改变）。"
+        }
+      ],
+      "occurrences_continued_2": [
+        {
+          "chapter_id": "ch_027",
+          "note": "聆音在行进中感知到薇瑟频率底色在极远处——她认识这个频率，感觉比昨天更清楚一点，但不确定是真实接近还是感知校准。遗核升温继续。"
+        },
+        {
+          "chapter_id": "ch_028",
+          "note": "伊岚检查遗核——今天明显比昨天更热，不是微小差异，是跨越一个阶梯的上升。越近越危险的主题清晰化：接近信标和威胁升级同时在升高，两条线都是真的。"
         }
       ]
+    },
+    {
+      "id": "hook_shimu_second_node",
+      "concept": "蚕母疑似增设第二感知节点——距离三角定位能力正在建立中",
+      "status": "partial_resolved",
+      "introduced_chapter": "ch_026",
+      "last_mention_chapter": "ch_031",
+      "occurrences": [
+        {
+          "chapter_id": "ch_026",
+          "note": "聆音在深荒地质分界线后察觉窄频脉冲出现约0.3秒相位偏移、约15度方向分离。两个解释：A）深层矿脉密度导致信号地面反射叠加；B）蚕母增设第二感知节点，两来源微弱叠加。聆音判断数据不够，今晚开始系统记录，等多个窗口的观测数据再结论。昭认知接收，等数据——若是B，战术框架需要全面重评。"
+        }
+      ],
+      "payoff_planned_chapter": "vol_03_B（Sub-arc B中段）",
+      "risk": "Sub-arc B核心升级线：若蚕母真的获得距离三角定位能力，a'技术只能降低方向精度而无法对抗方向+距离的组合定位——聆音当前的核心反制手段将失效，需要新的对策。深荒地质结构可能使判断更加复杂（地质反射可能一直存在，使第二节点难以确认）。",
+      "occurrences_continued": [
+        {
+          "chapter_id": "ch_027",
+          "note": "PAYOFF：聆音三地七次观测，偏移量跨位置恒定（标准差0.02秒），排除地质反射，确认第二节点。蚕母现在同时具备方向+距离三角定位能力。聆音向全队宣告。partial_resolved：节点存在已确认；第二节点位置和a'对三角定位的实际保护效果两个子问题仍开放。"
+        },
+        {
+          "chapter_id": "ch_028",
+          "note": "战术含义消化：昭向伊岚说明40分钟窗口=已知暴露时间（非隐形期）；宣布打破节律应对。伊岚：越近越危险，两件真实的事握在手里。"
+        },
+        {
+          "chapter_id": "ch_029",
+          "note": "反制手段发现：深荒裂缝内壁层状散射矿物对北侧节点方向有显著散射效果（系数约2.7），对另一节点无效——方向性反制，不完整但真实。昭开始建立裂缝方向索引。"
+        }
+      ],
+      "occurrences_continued_2": [
+        {
+          "chapter_id": "ch_030",
+          "note": "南侧节点弱窗口被实战利用：追击单元利用降频后3分钟的精确定位窗口进攻——裂缝散射对南侧节点无效的漏洞已从理论变为战术威胁。"
+        },
+        {
+          "chapter_id": "ch_031",
+          "note": "第二节点位置计算完成：东偏南约40km，行进方向前方。与遗核方向高度吻合。可能含义：蚕母主动拦截（知道目标方向），或节点本来就在那里（独立原因）。尚无法区分。"
+        }
+      ]
+    },
+    {
+      "id": "hook_wei_se_next_step",
+      "concept": "薇瑟灵渊印记留下的路——从第七号信标出发的下一段",
+      "status": "resolved",
+      "introduced_chapter": "ch_035",
+      "last_mention_chapter": "ch_064",
+      "occurrences": [
+        {
+          "chapter_id": "ch_035",
+          "note": "第七号信标聚焦器保存了薇瑟的灵渊印记，但印记不含方向信息，只有频率本身。路的下一段需要：聆音从聚焦器频率延伸感知；昭重新画战术地图；守岩往旧时档案里再找；伊岚从这段印记里学习薇瑟的频率方向。Sub-arc C·信标渐近从这里开始。"
+        },
+        {
+          "chapter_id": "ch_064",
+          "note": "RESOLVED：薇瑟的路走完了——从第七号信标印记出发→核心网→ember传输→三层技术内容→伊岚完整持有。路的下一段是带着技术回去。"
+        }
+      ],
+      "payoff_planned_chapter": "vol_03_C",
+      "risk": "Sub-arc C的核心：从印记里找薇瑟实体或下一个锚点。蚕母已在此区域有存在（第二节点的位置和遗址近乎重合），Sub-arc C的威胁将是蚕母和薇瑟在同一区域的复杂交织。"
+    },
+    {
+      "id": "hook_network_dushi_scaling",
+      "concept": "网状渡蚀的规模化——从四人到全军",
+      "status": "active",
+      "introduced_chapter": "ch_067",
+      "last_mention_chapter": "ch_090",
+      "occurrences": [
+        {
+          "chapter_id": "ch_067-068",
+          "note": "弥散频率转换+四人网络验证(枢纽压力降30%)"
+        },
+        {
+          "chapter_id": "ch_072-074",
+          "note": "7人(反馈回流15%)→11人网络；中继广播联系更远灵裔"
+        },
+        {
+          "chapter_id": "ch_078-082",
+          "note": "16人传输→穹枢→58人网络跨50阈值枢纽压力归零，薇瑟理论完全验证"
+        },
+        {
+          "chapter_id": "ch_084",
+          "note": "35人网络首次实战，每人灵蚀增量0.5(vs正常3-5)"
+        },
+        {
+          "chapter_id": "ch_087",
+          "note": "120人网络涌现超频谐振，网络成战场级感知系统"
+        },
+        {
+          "chapter_id": "ch_089",
+          "note": "92人网络南侧大战，80只清除无人燃尽——薇瑟技术的实战终极形态"
+        }
+      ],
+      "payoff_planned_chapter": "vol_04/05",
+      "risk": "卷四五核心：网状渡蚀全军规模化；枢纽唯一性(只伊岚能做)是潜在脆弱点；超频谐振的更多用途未探索"
+    },
+    {
+      "id": "hook_shouyan_final_arc",
+      "concept": "守岩灵蚀终章——旧时记忆保护层的侵蚀",
+      "status": "active",
+      "introduced_chapter": "ch_079",
+      "last_mention_chapter": "ch_090",
+      "occurrences": [
+        {
+          "chapter_id": "ch_079",
+          "note": "守岩步伐变慢，叫错名字频率增加，旧时记忆保护层开始趋势性受侵蚀"
+        },
+        {
+          "chapter_id": "ch_085-086",
+          "note": "刻名字(含薇瑟)+系统传递全部旧档案——在彻底失去前让记忆在他之外存在"
+        },
+        {
+          "chapter_id": "ch_089-090",
+          "note": "南侧大战三道震波后灵渊频率又弱一层；卷末旧时记忆保护层开始松动，灵蚀进入下一阶段"
+        }
+      ],
+      "payoff_planned_chapter": "vol_04",
+      "risk": "卷四守岩弧线终章——网状渡蚀削平峰值但不逆转灵蚀基础进程；守岩的旧时记忆(队伍活档案)终将消散"
+    },
+    {
+      "id": "hook_federation_huipo_vein",
+      "concept": "星尘联邦接管灰珀矿脉——凯尔线重启",
+      "status": "open",
+      "introduced_chapter": "ch_083",
+      "last_mention_chapter": "ch_083",
+      "occurrences": [
+        {
+          "chapter_id": "ch_083",
+          "note": "昭从穹枢参谋部获知灰珀矿脉已被星尘联邦完全接管"
+        }
+      ],
+      "payoff_planned_chapter": "vol_04 Sub-arc G",
+      "risk": "卷四凯尔/联邦再介入；矿脉协定(hook_huipo_vein_pact)的对象现在在联邦手里"
     }
   ]
 }

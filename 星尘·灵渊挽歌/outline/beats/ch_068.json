@@ -1,0 +1,21 @@
+{
+  "chapter_id": "ch_068",
+  "title": "三个人的网",
+  "volume": "vol_03",
+  "status": "drafted",
+  "pov_character": "char_yi_lan",
+  "story_time": 42,
+  "thread_id": "thr_yi_lan",
+  "events_covered": [
+    "evt_network_4person"
+  ],
+  "_stub": true,
+  "beats": [
+    {
+      "beat": 1,
+      "action": "伊岚建四人灵渊网络——频率自动均衡，连接零消耗；网络太小需更多节点。",
+      "psychology": "",
+      "internal_monologue": ""
+    }
+  ]
+}

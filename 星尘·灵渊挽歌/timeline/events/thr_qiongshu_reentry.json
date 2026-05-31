@@ -1,0 +1,93 @@
+{
+  "_note": "Per-thread mirror of ontology.json#events. Authoritative source is ontology.json#events; regenerate with sync_events.py --write.",
+  "thread_id": "thr_qiongshu_reentry",
+  "events": [
+    {
+      "id": "evt_ninghui_evaluates",
+      "name": "凝辉评估·要求穹枢正式评审",
+      "story_time": 47,
+      "chapter": "ch_076",
+      "status": "drafted",
+      "participants": [
+        "char_ning_hui",
+        "char_yi_lan",
+        "char_shou_yan"
+      ]
+    },
+    {
+      "id": "evt_qiongshu_responds",
+      "name": "穹枢回应·联络队凝辉抵达",
+      "story_time": 47,
+      "chapter": "ch_075",
+      "status": "drafted",
+      "participants": [
+        "char_ning_hui",
+        "char_yi_lan"
+      ]
+    },
+    {
+      "id": "evt_depart_for_qiongshu",
+      "name": "出发往穹枢·守岩授两种语言",
+      "story_time": 48,
+      "chapter": "ch_077",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_ning_hui",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_arrive_qiongshu",
+      "name": "抵达穹枢·灵能战术委员会",
+      "story_time": 49,
+      "chapter": "ch_080",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_ning_hui",
+        "char_shou_yan",
+        "char_zhao",
+        "char_ling_yin"
+      ]
+    },
+    {
+      "id": "evt_committee_review",
+      "name": "评审室·十二人网络委员会感知",
+      "story_time": 50,
+      "chapter": "ch_081",
+      "status": "drafted",
+      "participants": [
+        "char_yi_lan",
+        "char_ning_hui",
+        "char_shou_yan"
+      ]
+    },
+    {
+      "id": "evt_qiongshu_deploys",
+      "name": "穹枢部署网状渡蚀为S级资产·联邦矿脉伏笔",
+      "story_time": 51,
+      "chapter": "ch_083",
+      "status": "drafted",
+      "participants": [
+        "char_ning_hui",
+        "char_yi_lan",
+        "char_zhao"
+      ]
+    },
+    {
+      "id": "evt_kai_er_reappears",
+      "name": "凯尔再现——联邦的追踪",
+      "story_time": 85,
+      "chapter": "ch_151",
+      "status": "planned",
+      "participants": [
+        "char_kai_er",
+        "char_yi_lan",
+        "char_zhao"
+      ]
+    }
+  ]
+}

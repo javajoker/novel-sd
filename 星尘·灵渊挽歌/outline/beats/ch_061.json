@@ -1,0 +1,21 @@
+{
+  "chapter_id": "ch_061",
+  "title": "打出核心网",
+  "volume": "vol_03",
+  "status": "drafted",
+  "pov_character": "char_yi_lan",
+  "story_time": 39,
+  "thread_id": "thr_garrison",
+  "events_covered": [
+    "evt_breakout_core_network"
+  ],
+  "_stub": true,
+  "beats": [
+    {
+      "beat": 1,
+      "action": "传输完成后四人在15分钟内打穿两道蚕母防线，从核心网中心区域撤出；伊岚erosion57不用渡蚀以短刃战斗。",
+      "psychology": "",
+      "internal_monologue": ""
+    }
+  ]
+}

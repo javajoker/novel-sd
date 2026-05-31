@@ -1,0 +1,21 @@
+{
+  "chapter_id": "ch_090",
+  "title": "卷末·烬",
+  "volume": "vol_03",
+  "status": "drafted",
+  "pov_character": "char_yi_lan",
+  "story_time": 50,
+  "thread_id": "thr_yi_lan",
+  "events_covered": [
+    "evt_vol3_close"
+  ],
+  "_stub": true,
+  "beats": [
+    {
+      "beat": 1,
+      "action": "卷末·烬：伊岚反思随行的扩展——从四人到所有网络灵裔；守岩旧时记忆保护层开始受侵蚀；火变成光。",
+      "psychology": "",
+      "internal_monologue": ""
+    }
+  ]
+}
